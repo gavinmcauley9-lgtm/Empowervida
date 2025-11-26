@@ -1,0 +1,231 @@
+:root {
+  /* Swiss Medical / High-Performance Palette */
+  --color-bg: #FFFFFF;
+  /* Pure White */
+  --color-bg-alt: #F5F5F7;
+  /* Soft Silver */
+  --color-bg-hero: #121212;
+  /* Deep Charcoal (Keep for Hero contrast) */
+
+  --color-text: #1D1D1F;
+  /* Deep Charcoal */
+  --color-text-muted: #86868b;
+  --color-text-hero: #FFFFFF;
+
+  --color-primary: #FF4F00;
+  /* International Orange */
+  --color-border: rgba(0, 0, 0, 0.1);
+
+  /* Spacing */
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  color: var(--color-text);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  /* Tighter tracking for urgency */
+  text-transform: uppercase;
+  /* Clinical authority */
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Utilities */
+.container {
+  max-width: 1400px;
+  /* Wider, more expansive */
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* Button Styles - Swiss Style */
+.btn-primary {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  /* Reduced by ~30% */
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 700;
+  border-radius: 0px;
+  /* SHARP CORNERS */
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  /* Slightly reduced */
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  transform: none;
+  /* No bouncy animations */
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  /* Matches btn-primary */
+  background-color: transparent;
+  color: var(--color-text);
+  font-weight: 700;
+  border-radius: 0px;
+  /* SHARP CORNERS */
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  /* Matches btn-primary */
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+/* Inputs */
+input,
+textarea {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 0px;
+  padding: 1rem;
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+/* Feature Card Styles - Updated for High Contrast */
+.feature-card {
+  display: block;
+  padding: 2rem;
+  background: var(--color-bg-alt);
+  /* Pure White */
+  border: 1px solid transparent;
+  border-radius: 12px;
+  /* Softened corners */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: 100%;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* Subtle Drop Shadow */
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.feature-card h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.feature-card p {
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.feature-card .action {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Fix for 3D Scene blocking interactions */
+canvas {
+  pointer-events: none !important;
+}
+
+a,
+button,
+.btn-primary,
+.btn-secondary,
+.feature-card,
+input,
+textarea {
+  pointer-events: auto;
+}

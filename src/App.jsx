@@ -1,0 +1,56 @@
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import Scene from './components/Scene';
+import Cursor from './components/Cursor';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
+import Diagnostics from './pages/Diagnostics';
+import AdvancedOptimization from './pages/AdvancedOptimization';
+import EnvironmentalDefense from './pages/EnvironmentalDefense';
+import Protocol from './pages/Protocol';
+import EngineRoom from './pages/EngineRoom';
+import Shop from './pages/Shop';
+
+function App() {
+  return (
+    <HelmetProvider>
+      <Router>
+        <main>
+          {/* 3D Background Scene */}
+          <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, pointerEvents: 'none' }}>
+            <Scene />
+            {/* Removed dark overlay for Clinical Light theme */}
+          </div>
+
+          <Navigation />
+
+          <Suspense fallback={null}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+              <Route path="/diagnostics" element={<Diagnostics />} />
+              <Route path="/advanced-optimization" element={<AdvancedOptimization />} />
+              <Route path="/environmental-defense" element={<EnvironmentalDefense />} />
+              <Route path="/protocol" element={<Protocol />} />
+              <Route path="/engine-room" element={<EngineRoom />} />
+              <Route path="/shop" element={<Shop />} />
+            </Routes>
+          </Suspense>
+
+          {/* Custom Cursor */}
+          <Cursor />
+          <Footer />
+        </main>
+      </Router>
+    </HelmetProvider>
+  );
+}
+
+export default App;
