@@ -15,10 +15,12 @@ const Footer = () => {
 
     return (
         <footer style={{
-            backgroundColor: '#000000',
-            color: '#FFFFFF',
-            padding: '6rem 2rem 2rem',
-            borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+            backgroundColor: '#E8E8E6',
+            color: '#0D2B1D',
+            padding: '4rem 2rem',
+            borderTop: '1px solid #D1D1CF',
+            position: 'relative',
+            zIndex: 10,
             fontFamily: '"Inter", sans-serif'
         }}>
             <div style={{
@@ -67,10 +69,10 @@ const Footer = () => {
                     }}>
                         Quick Links
                     </h4>
-                    <Link to="/blog" style={linkStyle}>[ THE INTEL ]</Link>
-                    <Link to="/protocol" style={linkStyle}>[ THE ARMOR ]</Link>
-                    <Link to="/diagnostics" style={linkStyle}>[ DIAGNOSTICS ]</Link>
-                    <Link to="/environmental-defense" style={linkStyle}>[ GEAR ]</Link>
+                    <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
+                    <Link to="/protocol" style={linkStyle}>[ THE ESSENTIALS ]</Link>
+                    <Link to="/diagnostics" style={linkStyle}>[ BIOMETRICS ]</Link>
+                    <Link to="/environmental-defense" style={linkStyle}>[ LIFESTYLE ]</Link>
                     <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
                 </div>
 
@@ -104,7 +106,7 @@ const Footer = () => {
                 fontSize: '0.8rem',
                 color: '#444444'
             }}>
-                © 2025 Resilience Protocol MD. All Rights Reserved.
+                © 2025 EMPOWERVIDA. All Rights Reserved.
             </div>
         </footer>
     );

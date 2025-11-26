@@ -78,8 +78,8 @@ const Protocol = () => {
                         textTransform: 'uppercase',
                         color: '#FFFFFF'
                     }}>
-                        THE ARMOR: <br />
-                        <span style={{ color: '#FF5F00' }}>Mitochondrial Defense Stack</span>
+                        THE ESSENTIALS: <br />
+                        <span style={{ color: '#C19A6B' }}>MITOCHONDRIAL DEFENSE</span>
                     </h1>
                     <p style={{
                         fontSize: '1.5rem',

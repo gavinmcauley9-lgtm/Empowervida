@@ -28,7 +28,7 @@ const EnvironmentalDefense = () => {
             subtitle: 'The Circadian Armor',
             problem: 'Junk light is junk food for your eyes. Artificial blue light after dark suppresses melatonin, destroys sleep architecture, and disrupts mitochondrial function.',
             solution: 'High-quality Blue Light Blocking glasses for evening use (sunset to sleep).',
-            buttonText: 'VIEW OPTICAL GEAR >',
+            buttonText: 'VIEW OPTICAL LIFESTYLE >',
             link: '#'
         }
     ];
@@ -87,7 +87,7 @@ const EnvironmentalDefense = () => {
                             textTransform: 'uppercase',
                             textAlign: 'center'
                         }}>
-                            GEAR: <span style={{ color: '#FF5F00' }}>Environmental Defense Protocol</span>
+                            LIFESTYLE: <span style={{ color: '#C19A6B' }}>Environmental Defense Protocol</span>
                         </h1>
                     </Reveal>
 
@@ -113,7 +113,7 @@ const EnvironmentalDefense = () => {
                             lineHeight: 1.6,
                             textAlign: 'center'
                         }}>
-                            You can take all the CoQ10 in the world, but if you are drinking microplastics and breathing PM2.5 particles, your inflammation will never drop. Supplements build the engine; Gear protects the chassis. This is the hardware required to shield your biology.
+                            You can take all the CoQ10 in the world, but if you are drinking microplastics and breathing PM2.5 particles, your inflammation will never drop. Supplements build the engine; Lifestyle protects the chassis. This is the hardware required to shield your biology.
                         </p>
                     </Reveal>
                 </div>

@@ -57,7 +57,7 @@ const Shop = () => {
                         textTransform: 'uppercase',
                         color: '#FFFFFF'
                     }}>
-                        THE ARMORY: <span style={{ color: '#FF5F00' }}>TACTICAL SUPPLY</span>
+                        THE ESSENTIALS: <span style={{ color: '#C19A6B' }}>TACTICAL SUPPLY</span>
                     </h1>
                     <p style={{
                         fontSize: '1.2rem',

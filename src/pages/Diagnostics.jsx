@@ -105,8 +105,8 @@ const Diagnostics = () => {
                         textTransform: 'uppercase',
                         color: '#FFFFFF'
                     }}>
-                        THE DIAGNOSTICS: <br />
-                        <span style={{ color: '#FF5F00' }}>The Essential Biometrics</span>
+                        BIOMETRICS: <br />
+                        <span style={{ color: '#C19A6B' }}>THE ESSENTIAL BIOMETRICS</span>
                     </h1>
                     <p style={{
                         fontSize: '1.5rem',

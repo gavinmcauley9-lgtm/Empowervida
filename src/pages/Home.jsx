@@ -20,7 +20,7 @@ export default function Home() {
                 <header style={{ maxWidth: '900px' }}>
                     <Reveal width="100%">
                         <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)', lineHeight: '1.1', marginBottom: '1.5rem' }}>
-                            <img src="/resilience_protocol_logo_v3.png" alt="Resilience Protocol MD" style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto 1rem' }} />
+                            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '4rem', color: '#0D2B1D', marginBottom: '1rem' }}>EMPOWERVIDA</h1>
                             <span style={{ color: 'var(--color-primary)', fontSize: '0.6em', display: 'block' }}>The Science of Longevity, Simplified.</span>
                         </h1>
                     </Reveal>
@@ -40,7 +40,7 @@ export default function Home() {
                                 alignItems: 'center',
                                 padding: '1rem 2rem'
                             }}>
-                                <span style={{ fontSize: '1rem' }}>VIEW THE ARMOR</span>
+                                <span style={{ fontSize: '1rem' }}>VIEW THE ESSENTIALS</span>
                                 <span style={{ fontSize: '0.7rem', fontWeight: 400, opacity: 0.9, textTransform: 'none', marginTop: '0.2rem' }}>My Daily Mitochondrial Stack</span>
                             </Link>
                             <Link to="/blog" className="btn-secondary" style={{
@@ -52,7 +52,7 @@ export default function Home() {
                                 alignItems: 'center',
                                 padding: '1rem 2rem'
                             }}>
-                                <span style={{ fontSize: '1rem' }}>ACCESS THE INTEL</span>
+                                <span style={{ fontSize: '1rem' }}>ACCESS THE JOURNAL</span>
                                 <span style={{ fontSize: '0.7rem', fontWeight: 400, opacity: 0.9, textTransform: 'none', marginTop: '0.2rem' }}>Briefings on Sleep & Longevity</span>
                             </Link>
                         </div>
@@ -90,7 +90,7 @@ export default function Home() {
                     margin: '0 auto'
                 }}>
 
-                    {/* Card 1: THE INTEL */}
+                    {/* Card 1: THE JOURNAL */}
                     <Reveal delay={0.2}>
                         <Link to="/blog" style={{
                             background: '#1A1A1A',
@@ -113,7 +113,7 @@ export default function Home() {
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔬</div>
-                            <h3 style={{ color: '#FFFFFF', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE INTEL</h3>
+                            <h3 style={{ color: '#0D2B1D', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE JOURNAL</h3>
                             <p style={{ color: '#E0E0E0', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
                                 Deep-dive briefings on Mitochondria, Sleep Architecture, and Cellular Resilience.
                             </p>
@@ -121,7 +121,7 @@ export default function Home() {
                         </Link>
                     </Reveal>
 
-                    {/* Card 2: THE ARMOR */}
+                    {/* Card 2: THE ESSENTIALS */}
                     <Reveal delay={0.4}>
                         <Link to="/protocol" style={{
                             background: '#1A1A1A',
@@ -144,7 +144,7 @@ export default function Home() {
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📋</div>
-                            <h3 style={{ color: '#FFFFFF', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE ARMOR</h3>
+                            <h3 style={{ color: '#0D2B1D', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE ESSENTIALS</h3>
                             <p style={{ color: '#E0E0E0', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
                                 My exact daily supplement stack. Dosage, timing, and sourcing.
                             </p>
@@ -152,7 +152,7 @@ export default function Home() {
                         </Link>
                     </Reveal>
 
-                    {/* Card 3: THE DIAGNOSTICS */}
+                    {/* Card 3: BIOMETRICS */}
                     <Reveal delay={0.6}>
                         <Link to="/diagnostics" style={{
                             background: '#1A1A1A',
@@ -175,7 +175,7 @@ export default function Home() {
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🩸</div>
-                            <h3 style={{ color: '#FFFFFF', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE DIAGNOSTICS</h3>
+                            <h3 style={{ color: '#0D2B1D', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>BIOMETRICS</h3>
                             <p style={{ color: '#E0E0E0', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
                                 Stop guessing. The 5 essential blood markers your doctor isn't checking.
                             </p>

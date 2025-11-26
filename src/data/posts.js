@@ -22,7 +22,7 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | Resilience Protocol MD</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/mitochondria_biogenesis.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
       </div>
@@ -88,7 +88,7 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | Resilience Protocol MD</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/glymphatic_system_v2.png" alt="Glymphatic System" style="width: 100%; height: auto; display: block;" />
       </div>
@@ -211,7 +211,7 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | Resilience Protocol MD</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <p>If you walk down the supplement aisle of any pharmacy, you will see a graveyard of good intentions. Magnesium Citrate, Oxide, Chloride, Glycinate.</p>
       <p>I prescribe these forms often. They are excellent for your gut, your heart rhythm, and relaxing your muscles after a shift in the ER. But they all share a fatal flaw when it comes to cognitive longevity:</p>
       <p>They cannot get into the VIP section.</p>
@@ -280,7 +280,7 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | Resilience Protocol MD</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <p>In the Emergency Room, we treat "stroke" as a sudden event. A vessel bursts or blocks, and a piece of the brain dies instantly.</p>
       <p>But there is a slower, quieter stroke happening to almost everyone over the age of 40. It’s not an event; it’s an erosion.</p>
       <p>Here is the uncomfortable statistical truth: After age 55, the human hippocampus—the brain’s memory center—shrinks by approximately 1-2% per year.</p>
@@ -337,7 +337,7 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | Resilience Protocol MD</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <p>It is a ritual I see played out constantly.</p>
       <p>You walk into your doctor’s office, dragging a heavy invisible weight behind you. You are sleeping (sort of). You are eating (mostly) well. But you feel like you are wading through treacle. Your focus is shot, your motivation is zero, and the coffee isn't working anymore.</p>
       <p>The doctor nods, listens, and orders the "Standard Panel": CBC, CMP, TSH.</p>

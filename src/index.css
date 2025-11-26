@@ -29,12 +29,12 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
-  background-color: var(--color-bg);
-  color: var(--color-text);
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+  overflow-x: hidden;
 }
 
 h1,
@@ -43,38 +43,36 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-display);
-  color: var(--color-text);
+  font-family: var(--font-header);
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
-  /* Tighter tracking for urgency */
-  text-transform: uppercase;
-  /* Clinical authority */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 a {
-  color: var(--color-text);
+  color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.2s ease;
-  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--color-primary);
-  border-bottom: 1px solid var(--color-primary);
+  color: var(--text-color);
 }
 
-#root {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
+button {
+  font-family: var(--font-main);
+  cursor: pointer;
 }
 
-/* Utilities */
+/* Utility Classes */
 .container {
-  max-width: 1400px;
-  /* Wider, more expansive */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }

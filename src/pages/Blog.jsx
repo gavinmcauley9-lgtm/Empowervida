@@ -27,7 +27,7 @@ export default function Blog() {
                         textTransform: 'uppercase',
                         letterSpacing: '-0.02em'
                     }}>
-                        THE INTEL
+                        THE JOURNAL
                     </h1>
                     <p style={{
                         color: '#FF5F00',
@@ -46,16 +46,17 @@ export default function Blog() {
                     <main style={{ gridColumn: '1 / -1', '@media (min-width: 1024px)': { gridColumn: 'span 2' } }}>
                         {/* Category Filter */}
                         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
+                            <h3 style={{ color: '#FFFFFF', marginBottom: '1.5rem', borderBottom: '1px solid #C19A6B', paddingBottom: '0.5rem' }}>CATEGORIES</h3>
                             {CATEGORIES.map(cat => (
                                 <button
                                     key={cat.id}
                                     onClick={() => setActiveCategory(cat.id)}
                                     style={{
-                                        background: activeCategory === cat.id ? '#FF5F00' : 'transparent',
-                                        color: activeCategory === cat.id ? '#FFFFFF' : '#888888',
-                                        border: `1px solid ${activeCategory === cat.id ? '#FF5F00' : '#333333'}`,
+                                        background: activeCategory === cat.id ? '#C19A6B' : 'transparent',
+                                        color: activeCategory === cat.id ? '#0D2B1D' : '#E8E8E6',
+                                        border: `1px solid ${activeCategory === cat.id ? '#C19A6B' : '#4A5D52'}`,
                                         padding: '0.5rem 1rem',
-                                        borderRadius: '2px', // Tactical corners
+                                        borderRadius: '4px',
                                         cursor: 'pointer',
                                         fontSize: '0.85rem',
                                         textTransform: 'uppercase',
@@ -74,61 +75,29 @@ export default function Blog() {
                             {filteredPosts.map(post => (
                                 <Link to={`/blog/${post.id}`} key={post.id} style={{ textDecoration: 'none', color: 'inherit' }}>
                                     <article style={{
-                                        background: '#1A1A1A',
-                                        borderRadius: '4px',
-                                        padding: '2rem',
-                                        border: '1px solid #333333',
-                                        transition: 'transform 0.2s ease, border-color 0.2s ease',
-                                        cursor: 'pointer',
+                                        backgroundColor: '#FFFFFF',
+                                        border: '1px solid #E8E8E6',
+                                        borderRadius: '8px',
+                                        overflow: 'hidden',
                                         height: '100%',
                                         display: 'flex',
-                                        flexDirection: 'column'
+                                        flexDirection: 'column',
+                                        padding: '2rem',
+                                        transition: 'transform 0.2s ease, border-color 0.2s ease',
+                                        cursor: 'pointer',
                                     }}
                                         onMouseEnter={(e) => {
                                             e.currentTarget.style.transform = 'translateY(-5px)';
-                                            e.currentTarget.style.borderColor = '#FF5F00';
+                                            e.currentTarget.style.borderColor = '#C19A6B';
                                         }}
                                         onMouseLeave={(e) => {
                                             e.currentTarget.style.transform = 'translateY(0)';
-                                            e.currentTarget.style.borderColor = '#333333';
+                                            e.currentTarget.style.borderColor = '#E8E8E6';
                                         }}
                                     >
-                                        <div style={{
-                                            fontSize: '0.75rem',
-                                            color: '#FF5F00',
-                                            textTransform: 'uppercase',
-                                            marginBottom: '0.75rem',
-                                            fontWeight: '700',
-                                            letterSpacing: '0.1em'
-                                        }}>
-                                            {CATEGORIES.find(c => c.id === post.category)?.label}
-                                        </div>
-                                        <h3 style={{
-                                            fontSize: '1.5rem',
-                                            marginBottom: '1rem',
-                                            lineHeight: '1.3',
-                                            color: '#FFFFFF',
-                                            fontWeight: 700
-                                        }}>
-                                            {post.title}
-                                        </h3>
-                                        <p style={{
-                                            color: '#CCCCCC',
-                                            marginBottom: '1.5rem',
-                                            fontSize: '0.95rem',
-                                            lineHeight: '1.6',
-                                            flexGrow: 1
-                                        }}>
-                                            {post.excerpt}
-                                        </p>
-                                        <div style={{
-                                            fontSize: '0.8rem',
-                                            color: '#888888',
-                                            textTransform: 'uppercase',
-                                            letterSpacing: '0.05em'
-                                        }}>
-                                            {post.date}
-                                        </div>
+                                        <p style={{ fontSize: '0.9rem', color: '#C19A6B', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
+                                        <h2 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: '#0D2B1D' }}>{post.title}</h2>
+                                        <p style={{ color: '#4A5D52', marginBottom: '1.5rem', flexGrow: 1 }}>{post.excerpt}</p>
                                     </article>
                                 </Link>
                             ))}
@@ -137,13 +106,12 @@ export default function Blog() {
 
                     {/* Sidebar */}
                     <aside style={{ position: 'relative', minWidth: '300px' }}>
-                        <div style={{ position: 'sticky', top: '8rem' }}>
+                        <div style={{ position: 'sticky', top: '2rem' }}>
 
                             {/* Email Capture */}
                             <div style={{
-                                background: '#000000',
+                                backgroundColor: '#0D2B1D',
                                 padding: '2rem',
-                                borderRadius: '4px',
                                 border: '1px solid #FF5F00',
                                 marginBottom: '2rem'
                             }}>
