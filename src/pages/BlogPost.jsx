@@ -40,7 +40,7 @@ export default function BlogPost() {
           onMouseEnter={(e) => e.target.style.color = '#FF5F00'}
           onMouseLeave={(e) => e.target.style.color = '#FFFFFF'}
         >
-          ← BACK TO INTEL
+          ← BACK TO BLUEPRINT
         </Link>
 
         {/* Journal Card Container */}

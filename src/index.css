@@ -1,20 +1,23 @@
 :root {
-  /* Swiss Medical / High-Performance Palette */
+  /* Medical Light Mode Palette - "The Resilience Protocol MD" */
   --color-bg: #FFFFFF;
-  /* Pure White */
+  /* Pure White - Primary Background */
   --color-bg-alt: #F5F5F7;
-  /* Soft Silver */
-  --color-bg-hero: #121212;
-  /* Deep Charcoal (Keep for Hero contrast) */
+  /* Soft Silver - Secondary Background */
+  --color-bg-hero: #FFFFFF;
+  /* White Hero Background */
 
   --color-text: #1D1D1F;
-  /* Deep Charcoal */
+  /* Deep Charcoal - Main Text */
   --color-text-muted: #86868b;
-  --color-text-hero: #FFFFFF;
+  /* Medium Grey - Secondary Text */
+  --color-text-hero: #1D1D1F;
+  /* Dark Text on Light Hero */
 
   --color-primary: #FF4F00;
-  /* International Orange */
+  /* International Orange - CTA */
   --color-border: rgba(0, 0, 0, 0.1);
+  /* Light Border */
 
   /* Spacing */
   --spacing-sm: 1rem;
@@ -29,12 +32,12 @@
 }
 
 body {
-  font-family: var(--font-main);
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  line-height: 1.6;
+  margin: 0;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  line-height: 1.5;
 }
 
 h1,
@@ -43,26 +46,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-header);
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--color-text);
   font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  color: var(--text-color);
-}
-
-p {
-  margin-bottom: 1rem;
-  color: var(--text-color);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  /* Tighter tracking for medical precision */
+  text-transform: uppercase;
+  /* Clinical authority */
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--color-text);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid transparent;
 }
 
 a:hover {
-  color: var(--text-color);
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 }
 
 button {

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     const linkStyle = {
         display: 'block',
-        color: '#CCCCCC',
+        color: '#86868b',
         textDecoration: 'none',
         marginBottom: '0.8rem',
         fontSize: '0.9rem',
@@ -15,10 +15,10 @@ const Footer = () => {
 
     return (
         <footer style={{
-            backgroundColor: '#E8E8E6',
-            color: '#0D2B1D',
+            backgroundColor: '#F5F5F7',
+            color: '#1D1D1F',
             padding: '4rem 2rem',
-            borderTop: '1px solid #D1D1CF',
+            borderTop: '1px solid rgba(0,0,0,0.1)',
             position: 'relative',
             zIndex: 10,
             fontFamily: '"Inter", sans-serif'
@@ -38,17 +38,17 @@ const Footer = () => {
                         fontWeight: 800,
                         letterSpacing: '-0.02em',
                         marginBottom: '1rem',
-                        color: '#FFFFFF'
+                        color: '#1D1D1F'
                     }}>
-                        RESILIENCE <span style={{ color: '#FF5F00' }}>PROTOCOL MD</span>
+                        THE RESILIENCE PROTOCOL <span style={{ color: '#FF4F00' }}>MD</span>
                     </h3>
                     <p style={{
-                        color: '#888888',
+                        color: '#86868b',
                         fontSize: '1rem',
                         marginBottom: '2rem',
                         fontStyle: 'italic'
                     }}>
-                        The Science of Longevity, Simplified.
+                        Medicine 3.0: Engineering the Body for Longevity
                     </p>
                     <div style={{ display: 'flex', gap: '1rem' }}>
                         {/* Social Placeholders */}
@@ -69,10 +69,10 @@ const Footer = () => {
                     }}>
                         Quick Links
                     </h4>
-                    <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
-                    <Link to="/protocol" style={linkStyle}>[ THE ESSENTIALS ]</Link>
-                    <Link to="/diagnostics" style={linkStyle}>[ BIOMETRICS ]</Link>
-                    <Link to="/environmental-defense" style={linkStyle}>[ LIFESTYLE ]</Link>
+                    <Link to="/blog" style={linkStyle}>[ THE BLUEPRINT ]</Link>
+                    <Link to="/protocol" style={linkStyle}>[ THE ARMOR ]</Link>
+                    <Link to="/diagnostics" style={linkStyle}>[ THE RADAR ]</Link>
+                    <Link to="/environmental-defense" style={linkStyle}>[ GEAR ]</Link>
                     <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
                 </div>
 
@@ -106,7 +106,7 @@ const Footer = () => {
                 fontSize: '0.8rem',
                 color: '#444444'
             }}>
-                © 2025 EMPOWERVIDA. All Rights Reserved.
+                © 2025 The Resilience Protocol MD. All Rights Reserved.
             </div>
         </footer>
     );

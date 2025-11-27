@@ -28,14 +28,14 @@ export default function Navigation() {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Link to="/" style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '-0.02em', textDecoration: 'none', fontFamily: '"Inter", sans-serif' }}>
-                    RESILIENCE <span style={{ color: 'var(--color-primary)' }}>PROTOCOL</span>
+                    THE RESILIENCE PROTOCOL <span style={{ color: 'var(--color-primary)' }}>MD</span>
                 </Link>
 
                 <div>
-                    <Link to="/blog" style={linkStyle('/blog')}>Articles</Link>
-                    <Link to="/protocol" style={linkStyle('/protocol')}>The Essentials</Link>
-                    <Link to="/diagnostics" style={linkStyle('/diagnostics')}>Biometrics</Link>
-                    <Link to="/environmental-defense" style={linkStyle('/environmental-defense')}>Lifestyle</Link>
+                    <Link to="/blog" style={linkStyle('/blog')}>The Blueprint</Link>
+                    <Link to="/protocol" style={linkStyle('/protocol')}>The Armor</Link>
+                    <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Radar</Link>
+                    <Link to="/environmental-defense" style={linkStyle('/environmental-defense')}>Gear</Link>
                     <Link to="/about" style={linkStyle('/about')}>About</Link>
                 </div>
             </div>

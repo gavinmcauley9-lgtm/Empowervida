@@ -85,7 +85,8 @@ const EnvironmentalDefense = () => {
                             lineHeight: 1.1,
                             marginBottom: '1.5rem',
                             textTransform: 'uppercase',
-                            textAlign: 'center'
+                            textAlign: 'center',
+                            color: '#FFFFFF'
                         }}>
                             LIFESTYLE: <span style={{ color: '#C19A6B' }}>Environmental Defense Protocol</span>
                         </h1>
