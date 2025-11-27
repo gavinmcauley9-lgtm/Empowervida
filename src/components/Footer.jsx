@@ -34,21 +34,22 @@ const Footer = () => {
                 {/* Column 1: Identity */}
                 <div>
                     <h3 style={{
-                        fontSize: '1.2rem',
+                        fontSize: '1.3rem',
                         fontWeight: 800,
-                        letterSpacing: '-0.02em',
+                        letterSpacing: '0.15em',
                         marginBottom: '1rem',
-                        color: '#1D1D1F'
+                        color: 'var(--color-text)',
+                        textTransform: 'uppercase'
                     }}>
-                        THE RESILIENCE PROTOCOL <span style={{ color: '#FF4F00' }}>MD</span>
+                        <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
                     </h3>
                     <p style={{
-                        color: '#86868b',
+                        color: 'var(--color-text-muted)',
                         fontSize: '1rem',
                         marginBottom: '2rem',
                         fontStyle: 'italic'
                     }}>
-                        Medicine 3.0: Engineering the Body for Longevity
+                        Clinical Vitality Engineering
                     </p>
                     <div style={{ display: 'flex', gap: '1rem' }}>
                         {/* Social Placeholders */}
@@ -106,7 +107,7 @@ const Footer = () => {
                 fontSize: '0.8rem',
                 color: '#444444'
             }}>
-                © 2025 The Resilience Protocol MD. All Rights Reserved.
+                © 2025 EmpowerVida. All Rights Reserved.
             </div>
         </footer>
     );

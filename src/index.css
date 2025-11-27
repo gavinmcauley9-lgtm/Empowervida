@@ -1,28 +1,32 @@
 :root {
-  /* Medical Light Mode Palette - "The Resilience Protocol MD" */
+  /* EmpowerVida Clinical Luxury Palette */
   --color-bg: #FFFFFF;
-  /* Pure White - Primary Background */
-  --color-bg-alt: #F5F5F7;
-  /* Soft Silver - Secondary Background */
+  /* Pure White Canvas */
+  --color-bg-alt: #F8F9FA;
+  /* Subtle Off-White for Cards */
   --color-bg-hero: #FFFFFF;
   /* White Hero Background */
 
-  --color-text: #1D1D1F;
-  /* Deep Charcoal - Main Text */
-  --color-text-muted: #86868b;
-  /* Medium Grey - Secondary Text */
-  --color-text-hero: #1D1D1F;
-  /* Dark Text on Light Hero */
+  --color-text: #1A3C34;
+  /* Deep Biological Green - Main Text */
+  --color-text-muted: #5A7A70;
+  /* Muted Green - Secondary Text */
+  --color-text-hero: #1A3C34;
+  /* Deep Green on White Hero */
 
-  --color-primary: #FF4F00;
-  /* International Orange - CTA */
-  --color-border: rgba(0, 0, 0, 0.1);
-  /* Light Border */
+  --color-accent-teal: #20B2AA;
+  /* Vitality Teal - Subheaders & Icons */
+  --color-accent-orange: #FF7E5F;
+  /* Solar Orange - CTAs Only */
 
-  /* Spacing */
-  --spacing-sm: 1rem;
-  --spacing-md: 2rem;
-  --spacing-lg: 4rem;
+  --color-border: rgba(26, 60, 52, 0.08);
+  /* Ultra-Light Green Border */
+
+  /* Spacing - Premium Generous */
+  --spacing-sm: 1.5rem;
+  --spacing-md: 3rem;
+  --spacing-lg: 6rem;
+  --spacing-xl: 8rem;
 }
 
 * {
@@ -96,54 +100,54 @@ button {
   color: var(--color-text-muted);
 }
 
-/* Button Styles - Swiss Style */
+/* Button Styles - Clinical Luxury with Micro-Interactions */
 .btn-primary {
   display: inline-block;
-  padding: 0.7rem 1.5rem;
-  /* Reduced by ~30% */
-  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+  background-color: var(--color-accent-orange);
   color: white;
   font-weight: 700;
-  border-radius: 0px;
-  /* SHARP CORNERS */
-  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  /* Subtle rounding for premium feel */
+  border: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
-  /* Slightly reduced */
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 12px rgba(255, 126, 95, 0.2);
+  /* Soft orange glow */
 }
 
 .btn-primary:hover {
-  background-color: transparent;
-  color: var(--color-primary);
-  transform: none;
-  /* No bouncy animations */
+  background-color: #FF6B4A;
+  /* Slightly darker on hover */
+  transform: translateY(-2px);
+  /* Subtle lift */
+  box-shadow: 0 8px 20px rgba(255, 126, 95, 0.3);
+  /* Deeper glow */
 }
 
 .btn-secondary {
   display: inline-block;
-  padding: 0.7rem 1.5rem;
-  /* Matches btn-primary */
+  padding: 1rem 2rem;
   background-color: transparent;
   color: var(--color-text);
-  font-weight: 700;
-  border-radius: 0px;
-  /* SHARP CORNERS */
-  border: 1px solid var(--color-border);
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid var(--color-accent-teal);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
-  /* Matches btn-primary */
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: #fff;
-  transform: scale(1.05);
+  background-color: var(--color-accent-teal);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(32, 178, 170, 0.2);
 }
 
 /* Inputs */

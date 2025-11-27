@@ -19,40 +19,30 @@ export default function Home() {
             }}>
                 <header style={{ maxWidth: '900px' }}>
                     <Reveal width="100%">
-                        <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(2.5rem, 5vw, 4rem)', color: 'var(--color-text)', marginBottom: '0.5rem', lineHeight: '1.1' }}>THE RESILIENCE PROTOCOL <span style={{ color: 'var(--color-primary)' }}>MD</span></h1>
-                        <p style={{ fontSize: 'clamp(1.2rem, 3vw, 1.5rem)', color: 'var(--color-primary)', margin: '0.5rem 0 1rem', fontWeight: 600 }}>Medicine 3.0: Engineering the Body for Longevity</p>
-                        <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginTop: '1rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Founded by a Board-Certified Physician</p>
+                        <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(3rem, 6vw, 5rem)', color: 'var(--color-text)', marginBottom: '1rem', lineHeight: '1.1', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                            EMPOWER<span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
+                        </h1>
                     </Reveal>
 
                     <Reveal width="100%" delay={0.2}>
-                        <p style={{ fontSize: '1.15rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto 2.5rem', fontWeight: 300 }}>
+                        <p style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)', color: 'var(--color-accent-teal)', maxWidth: '650px', margin: '1.5rem auto', fontWeight: 500, letterSpacing: '0.02em' }}>
+                            Clinical Vitality Engineering
+                        </p>
+                    </Reveal>
+
+                    <Reveal width="100%" delay={0.3}>
+                        <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.8 }}>
                             Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
                         </p>
                     </Reveal>
 
-                    <Reveal width="100%" delay={0.4}>
-                        <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <Link to="/protocol" className="btn-primary" style={{
-                                textDecoration: 'none',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                padding: '1rem 2rem'
-                            }}>
-                                <span style={{ fontSize: '1rem' }}>VIEW THE ARMOR</span>
-                                <span style={{ fontSize: '0.7rem', fontWeight: 400, opacity: 0.9, textTransform: 'none', marginTop: '0.2rem' }}>My Daily Mitochondrial Stack</span>
+                    <Reveal width="100%" delay={0.5}>
+                        <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '3rem' }}>
+                            <Link to="/protocol" className="btn-primary" style={{ textDecoration: 'none' }}>
+                                EXPLORE THE ARMOR
                             </Link>
-                            <Link to="/blog" className="btn-secondary" style={{
-                                textDecoration: 'none',
-                                color: 'var(--color-text)',
-                                borderColor: 'var(--color-border)',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                padding: '1rem 2rem'
-                            }}>
-                                <span style={{ fontSize: '1rem' }}>EXPLORE THE BLUEPRINT</span>
-                                <span style={{ fontSize: '0.7rem', fontWeight: 400, opacity: 0.9, textTransform: 'none', marginTop: '0.2rem' }}>Science-Based Longevity Research</span>
+                            <Link to="/blog" className="btn-secondary" style={{ textDecoration: 'none' }}>
+                                READ THE BLUEPRINT
                             </Link>
                         </div>
                     </Reveal>
@@ -73,16 +63,16 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Value Prop Section - Light Clean Background */}
+            {/* Value Prop Section - Premium Clean White */}
             <section style={{
-                padding: '6rem 0',
+                padding: '8rem 0',
                 background: 'var(--color-bg)',
-                borderTop: '1px solid rgba(0,0,0,0.05)'
+                borderTop: '1px solid var(--color-border)'
             }}>
                 <div className="container" style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-                    gap: '2rem',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                    gap: '3rem',
                     maxWidth: '1100px',
                     margin: '0 auto'
                 }}>

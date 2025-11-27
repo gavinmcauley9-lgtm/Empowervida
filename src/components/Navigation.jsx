@@ -27,8 +27,8 @@ export default function Navigation() {
             transition: 'all 0.3s ease'
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <Link to="/" style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '-0.02em', textDecoration: 'none', fontFamily: '"Inter", sans-serif' }}>
-                    THE RESILIENCE PROTOCOL <span style={{ color: 'var(--color-primary)' }}>MD</span>
+                <Link to="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase' }}>
+                    <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
                 </Link>
 
                 <div>
