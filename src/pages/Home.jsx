@@ -19,21 +19,16 @@ export default function Home() {
             }}>
                 <header style={{ maxWidth: '900px' }}>
                     <Reveal width="100%">
-                        <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(3rem, 6vw, 5rem)', color: 'var(--color-text)', marginBottom: '1rem', lineHeight: '1.1', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                            EMPOWER<span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
-                        </h1>
-                    </Reveal>
-
-                    <Reveal width="100%" delay={0.2}>
-                        <p style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)', color: 'var(--color-accent-teal)', maxWidth: '650px', margin: '1.5rem auto', fontWeight: 500, letterSpacing: '0.02em' }}>
-                            Clinical Vitality Engineering
-                        </p>
-                    </Reveal>
-
-                    <Reveal width="100%" delay={0.3}>
-                        <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.8 }}>
-                            Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
-                        </p>
+                        <img
+                            src="/empowervida_hero_banner.png"
+                            alt="EmpowerVida - Clinical Vitality Engineering"
+                            style={{
+                                maxWidth: '100%',
+                                height: 'auto',
+                                marginBottom: '2rem',
+                                filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.08))'
+                            }}
+                        />
                     </Reveal>
 
                     <Reveal width="100%" delay={0.5}>
@@ -45,6 +40,12 @@ export default function Home() {
                                 READ THE BLUEPRINT
                             </Link>
                         </div>
+                    </Reveal>
+
+                    <Reveal width="100%" delay={0.3}>
+                        <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.8 }}>
+                            Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
+                        </p>
                     </Reveal>
                 </header>
             </section>
