@@ -436,7 +436,7 @@ const Protocol = () => {
                     GET THE FULL STACK
                 </Link>
             </section>
-            <Footer />
+
         </div>
     );
 };
