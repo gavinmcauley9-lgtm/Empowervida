@@ -406,7 +406,6 @@ const Protocol = () => {
             <section style={{
                 padding: '6rem 2rem',
                 textAlign: 'center',
-                background: 'var(--color-bg-alt)',
                 marginTop: '4rem'
             }}>
                 <h2 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '2rem', color: 'var(--color-text)' }}>
