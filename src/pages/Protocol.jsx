@@ -52,11 +52,11 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundImage: 'url(/hero_dna_botanical.png)',
+                        backgroundImage: 'url(/molecular_network_teal.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         zIndex: 0,
-                        opacity: 0.4
+                        opacity: 0.8
                     }}
                 ></motion.div>
 
@@ -257,7 +257,7 @@ const Protocol = () => {
                             fontFamily: '"Manrope", sans-serif',
                             marginBottom: '1rem'
                         }}>
-                            Operational Deployment
+                            THE DAILY REGIMEN
                         </h2>
                         <p style={{
                             color: 'var(--color-accent-teal)',
@@ -290,7 +290,7 @@ const Protocol = () => {
                                 marginBottom: '2rem'
                             }}>
                                 <h3 style={{ fontSize: '2.5rem', color: 'var(--color-accent-teal)', margin: 0, fontFamily: 'monospace' }}>07:00 <span style={{ fontSize: '1rem', verticalAlign: 'middle' }}>AM</span></h3>
-                                <p style={{ color: 'var(--color-text)', margin: '0.5rem 0 0', fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.05em' }}>MORNING DEPLOYMENT</p>
+                                <p style={{ color: 'var(--color-text)', margin: '0.5rem 0 0', fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.05em' }}>MORNING PROTOCOL</p>
                                 <p style={{ colour: 'var(--color-text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginTop: '0.25rem' }}>Target: Energy Production & Cognitive Drive</p>
                             </div>
 
