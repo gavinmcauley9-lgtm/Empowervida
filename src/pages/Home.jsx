@@ -172,13 +172,13 @@ export default function Home() {
 
             {/* Value Prop Section - Premium Clean White */}
             <section style={{
-                padding: '8rem 0',
+                padding: 'var(--section-padding) 0',
                 background: 'var(--color-bg)',
                 borderTop: '1px solid var(--color-border)'
             }}>
                 <div className="container" style={{
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
                     gap: '3rem',
                     maxWidth: '1100px',
                     margin: '0 auto'

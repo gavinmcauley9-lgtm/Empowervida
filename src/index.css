@@ -20,13 +20,22 @@
   /* Solar Orange - CTAs Only */
 
   --color-border: rgba(6, 78, 59, 0.1);
-  /* Dark Forest Green Border (Low Opacity) */
+  /* Dark Forest Green (Low Opacity) */
 
   /* Spacing - Premium Generous */
   --spacing-sm: 1.5rem;
   --spacing-md: 3rem;
   --spacing-lg: 6rem;
   --spacing-xl: 8rem;
+
+  /* Responsive Padding */
+  --section-padding: 8rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 4rem;
+  }
 }
 
 * {
