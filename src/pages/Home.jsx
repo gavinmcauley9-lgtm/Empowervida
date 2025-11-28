@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
 
 export default function Home() {
+    const { scrollY } = useScroll();
+    const backgroundY = useTransform(scrollY, [0, 500], [0, 250]); // Background moves slower (parallax)
+    const contentY = useTransform(scrollY, [0, 500], [0, -150]);   // Content moves faster (parallax)
+    const contentOpacity = useTransform(scrollY, [0, 300], [1, 0]); // Content fades out
+
     return (
         <>
             {/* Hero Section - Immersive Background */}
@@ -20,7 +25,7 @@ export default function Home() {
                 backgroundColor: 'var(--color-bg-hero)',
                 color: 'var(--color-text-hero)'
             }}>
-                {/* Background Image Layer - Breathing Effect */}
+                {/* Background Image Layer - Breathing + Parallax */}
                 <motion.div
                     initial={{ scale: 1 }}
                     animate={{ scale: 1.1 }}
@@ -36,7 +41,8 @@ export default function Home() {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        zIndex: 0
+                        zIndex: 0,
+                        y: backgroundY // Apply Parallax Y
                     }}
                 >
                     <img
@@ -63,13 +69,17 @@ export default function Home() {
                     background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,1) 100%)'
                 }}></div>
 
-                {/* Content Layer */}
-                <header style={{
-                    position: 'relative',
-                    zIndex: 1,
-                    maxWidth: '1000px',
-                    padding: '0 var(--spacing-md)'
-                }}>
+                {/* Content Layer - Parallax + Fade */}
+                <motion.header
+                    style={{
+                        position: 'relative',
+                        zIndex: 1,
+                        maxWidth: '1000px',
+                        padding: '0 var(--spacing-md)',
+                        y: contentY,       // Apply Parallax Y
+                        opacity: contentOpacity // Apply Scroll Fade
+                    }}
+                >
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -148,7 +158,7 @@ export default function Home() {
                             </Link>
                         </div>
                     </motion.div>
-                </header>
+                </motion.header>
             </section>
 
             {/* Trust Bar - Light Divider */}

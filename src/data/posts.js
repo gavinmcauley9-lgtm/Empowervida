@@ -23,9 +23,6 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
-      <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
-      </div>
       <p>In the Emergency Room, power failure is not an option. When the grid goes down, the ventilators stop, the monitors fade, and entropy takes over.</p>
       <p>In your body, the stakes are different, but the mechanism is the same.</p>
       <p>Most patients come to me complaining of fatigue. They describe it as a "lack of energy." They try to fix it by shoveling more fuel into the furnace—caffeine, sugar, pre-workout stimulants, or mega-doses of B-Vitamins. They are trying to overclock the system.</p>
@@ -89,9 +86,6 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
-      <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/water_refraction.png" alt="Glymphatic System" style="width: 100%; height: auto; display: block;" />
-      </div>
       <p>You know the feeling. You pull an all-nighter, or maybe you just toss and turn for six hours. You wake up, and your head feels... heavy. Your thinking is viscous. You are suffering from "Brain Fog."</p>
       <p>For years, we treated this sensation as mere fatigue. We thought your neurons were just tired.</p>
       <p>We were wrong.</p>
@@ -355,10 +349,6 @@ export const POSTS = [
       <h2>THE MITOCHONDRIAL BOTTLENECK</h2>
       <p>Fatigue is rarely a problem with your thyroid (the thermostat). It is almost always a problem with your Mitochondria (the furnace).</p>
       <p>Inside every cell, the Electron Transport Chain acts as an assembly line, turning food and oxygen into ATP (Adenosine Triphosphate)—the energy currency of life.</p>
-
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Mitochondrial Function" style="width: 100%; height: auto; display: block;" />
-      </div>
 
       <p>When you are young, this assembly line runs fast and clean. But as we age, two things happen:</p>
       <ul>
