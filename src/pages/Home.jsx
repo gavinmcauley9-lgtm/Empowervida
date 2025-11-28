@@ -1,55 +1,153 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Reveal from '../components/Reveal';
+import SpotlightCard from '../components/SpotlightCard';
 
 export default function Home() {
     return (
         <>
-            {/* Hero Section - Deep Charcoal Background */}
+            {/* Hero Section - Immersive Background */}
             <section style={{
-                minHeight: '75vh',
+                position: 'relative',
+                minHeight: '100vh',
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
                 textAlign: 'center',
-                padding: '4rem var(--spacing-md) 0',
+                overflow: 'hidden',
                 backgroundColor: 'var(--color-bg-hero)',
                 color: 'var(--color-text-hero)'
             }}>
-                <header style={{ maxWidth: '900px' }}>
-                    <Reveal width="100%">
-                        <img
-                            src="/hero_dna_botanical.png"
-                            alt="EmpowerVida - Clinical Vitality Engineering"
+                {/* Background Image Layer - Breathing Effect */}
+                <motion.div
+                    initial={{ scale: 1 }}
+                    animate={{ scale: 1.1 }}
+                    transition={{
+                        duration: 20,
+                        repeat: Infinity,
+                        repeatType: "reverse",
+                        ease: "easeInOut"
+                    }}
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: 0
+                    }}
+                >
+                    <img
+                        src="/hero_dna_botanical.png"
+                        alt="Background"
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            opacity: 0.3,
+                            filter: 'grayscale(20%)'
+                        }}
+                    />
+                </motion.div>
+
+                {/* Gradient Overlay */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    zIndex: 0,
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,1) 100%)'
+                }}></div>
+
+                {/* Content Layer */}
+                <header style={{
+                    position: 'relative',
+                    zIndex: 1,
+                    maxWidth: '1000px',
+                    padding: '0 var(--spacing-md)'
+                }}>
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1, ease: "easeOut" }}
+                    >
+                        <h1 style={{
+                            fontSize: 'clamp(3rem, 8vw, 6rem)',
+                            fontWeight: 800,
+                            letterSpacing: '-0.03em',
+                            color: 'var(--color-text)',
+                            marginBottom: '0.5rem',
+                            textTransform: 'uppercase',
+                            fontFamily: '"Manrope", sans-serif',
+                            textShadow: '0 4px 20px rgba(255,255,255,0.8)',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            flexWrap: 'wrap'
+                        }}>
+                            {Array.from("EMPOWER").map((char, index) => (
+                                <motion.span
+                                    key={index}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: index * 0.05, duration: 0.5 }}
+                                >
+                                    {char}
+                                </motion.span>
+                            ))}
+                            <motion.span
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.4, duration: 0.5 }}
+                                style={{ color: 'var(--color-accent-teal)' }}
+                            >
+                                VIDA
+                            </motion.span>
+                        </h1>
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.8, duration: 1 }}
                             style={{
-                                maxWidth: '70%',
-                                height: 'auto',
-                                margin: '0 auto 2rem',
-                                display: 'block',
-                                borderRadius: '24px',
-                                boxShadow: '0 20px 40px rgba(32, 178, 170, 0.15)',
-                                filter: 'brightness(1.05) contrast(1.05)'
+                                fontSize: '1.2rem',
+                                color: 'var(--color-text-muted)',
+                                fontWeight: 600,
+                                letterSpacing: '0.2em',
+                                textTransform: 'uppercase',
+                                marginBottom: '3rem'
                             }}
-                        />
-                    </Reveal>
+                        >
+                            Clinical Vitality Engineering
+                        </motion.p>
+                    </motion.div>
 
-                    <Reveal width="100%" delay={0.5}>
-                        <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '3rem' }}>
-                            <Link to="/protocol" className="btn-primary" style={{ textDecoration: 'none' }}>
-                                EXPLORE THE ARMOR
-                            </Link>
-                            <Link to="/blog" className="btn-secondary" style={{ textDecoration: 'none' }}>
-                                READ THE BLUEPRINT
-                            </Link>
-                        </div>
-                    </Reveal>
-
-                    <Reveal width="100%" delay={0.3}>
-                        <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.8 }}>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1, duration: 0.8 }}
+                    >
+                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
                             Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
                         </p>
-                    </Reveal>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1.2, duration: 0.8 }}
+                    >
+                        <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                            <Link to="/protocol" className="btn-primary" style={{ textDecoration: 'none', padding: '1.2rem 3rem', fontSize: '1rem' }}>
+                                EXPLORE THE PROTOCOL
+                            </Link>
+                            <Link to="/blog" className="btn-secondary" style={{ textDecoration: 'none', padding: '1.2rem 3rem', fontSize: '1rem', background: 'rgba(255,255,255,0.8)' }}>
+                                READ THE JOURNAL
+                            </Link>
+                        </div>
+                    </motion.div>
                 </header>
             </section>
 
@@ -81,116 +179,35 @@ export default function Home() {
                     margin: '0 auto'
                 }}>
 
-                    {/* Card 1: THE BLUEPRINT */}
-                    <Reveal delay={0.2}>
-                        <Link to="/blog" style={{
-                            background: 'rgba(255, 255, 255, 0.7)',
-                            backdropFilter: 'blur(10px)',
-                            border: '1px solid rgba(255, 255, 255, 0.5)',
-                            borderRadius: '16px',
-                            padding: '2rem',
-                            textDecoration: 'none',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            height: '100%',
-                            transition: 'all 0.3s ease',
-                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
-                        }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
-                            }}
-                        >
-                            <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔬</div>
-                            <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE BLUEPRINT</h3>
-                            <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                                Deep-dive briefings on Mitochondria, Sleep Architecture, and Cellular Resilience.
-                            </p>
-                            <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                        </Link>
-                    </Reveal>
+                    {/* Card 1: THE JOURNAL */}
+                    <SpotlightCard to="/blog" delay={0.2}>
+                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔬</div>
+                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE JOURNAL</h3>
+                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
+                            Deep-dive briefings on Mitochondria, Sleep Architecture, and Cellular Resilience.
+                        </p>
+                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
+                    </SpotlightCard>
 
-                    {/* Card 2: THE ARMOR */}
-                    <Reveal delay={0.4}>
-                        <Link to="/protocol" style={{
-                            background: 'rgba(255, 255, 255, 0.7)',
-                            backdropFilter: 'blur(10px)',
-                            border: '1px solid rgba(255, 255, 255, 0.5)',
-                            borderRadius: '16px',
-                            padding: '2rem',
-                            textDecoration: 'none',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            height: '100%',
-                            transition: 'all 0.3s ease',
-                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
-                        }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
-                            }}
-                        >
-                            <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📋</div>
-                            <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE ARMOR</h3>
-                            <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                                My exact daily supplement stack. Dosage, timing, and sourcing.
-                            </p>
-                            <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                        </Link>
-                    </Reveal>
+                    {/* Card 2: THE PROTOCOL */}
+                    <SpotlightCard to="/protocol" delay={0.4}>
+                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📋</div>
+                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE PROTOCOL</h3>
+                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
+                            My exact daily supplement stack. Dosage, timing, and sourcing.
+                        </p>
+                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
+                    </SpotlightCard>
 
-                    {/* Card 3: THE RADAR */}
-                    <Reveal delay={0.6}>
-                        <Link to="/diagnostics" style={{
-                            background: 'rgba(255, 255, 255, 0.7)',
-                            backdropFilter: 'blur(10px)',
-                            border: '1px solid rgba(255, 255, 255, 0.5)',
-                            borderRadius: '16px',
-                            padding: '2rem',
-                            textDecoration: 'none',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            height: '100%',
-                            transition: 'all 0.3s ease',
-                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
-                        }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
-                            }}
-                        >
-                            <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🩸</div>
-                            <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE RADAR</h3>
-                            <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                                Stop guessing. The 5 essential blood markers your doctor isn't checking.
-                            </p>
-                            <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                        </Link>
-                    </Reveal>
+                    {/* Card 3: THE DIAGNOSTICS */}
+                    <SpotlightCard to="/diagnostics" delay={0.6}>
+                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🩸</div>
+                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE DIAGNOSTICS</h3>
+                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
+                            Stop guessing. The 5 essential blood markers your doctor isn't checking.
+                        </p>
+                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
+                    </SpotlightCard>
 
                 </div>
             </section>

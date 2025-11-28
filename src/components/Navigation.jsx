@@ -32,10 +32,10 @@ export default function Navigation() {
                 </Link>
 
                 <div>
-                    <Link to="/blog" style={linkStyle('/blog')}>The Blueprint</Link>
-                    <Link to="/protocol" style={linkStyle('/protocol')}>The Armor</Link>
-                    <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Radar</Link>
-                    <Link to="/environmental-defense" style={linkStyle('/environmental-defense')}>Gear</Link>
+                    <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
+                    <Link to="/protocol" style={linkStyle('/protocol')}>The Protocol</Link>
+                    <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
+                    <Link to="/environmental-defense" style={linkStyle('/environmental-defense')}>The Elements</Link>
                     <Link to="/about" style={linkStyle('/about')}>About</Link>
                 </div>
             </div>

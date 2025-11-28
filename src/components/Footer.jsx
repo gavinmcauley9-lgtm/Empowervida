@@ -70,10 +70,10 @@ const Footer = () => {
                     }}>
                         Quick Links
                     </h4>
-                    <Link to="/blog" style={linkStyle}>[ THE BLUEPRINT ]</Link>
-                    <Link to="/protocol" style={linkStyle}>[ THE ARMOR ]</Link>
-                    <Link to="/diagnostics" style={linkStyle}>[ THE RADAR ]</Link>
-                    <Link to="/environmental-defense" style={linkStyle}>[ GEAR ]</Link>
+                    <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
+                    <Link to="/protocol" style={linkStyle}>[ THE PROTOCOL ]</Link>
+                    <Link to="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
+                    <Link to="/environmental-defense" style={linkStyle}>[ THE ELEMENTS ]</Link>
                     <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
                 </div>
 
