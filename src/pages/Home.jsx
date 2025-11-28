@@ -112,7 +112,7 @@ export default function Home() {
                                 marginBottom: '3rem'
                             }}
                         >
-                            Clinical Vitality Engineering
+                            LONGEVITY, PRESCRIBED
                         </motion.p>
                     </motion.div>
 
