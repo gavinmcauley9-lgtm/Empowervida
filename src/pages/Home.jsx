@@ -85,38 +85,18 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut" }}
                     >
-                        <h1 style={{
-                            fontSize: 'clamp(3rem, 8vw, 6rem)',
-                            fontWeight: 800,
-                            letterSpacing: '-0.03em',
-                            color: 'var(--color-text)',
-                            marginBottom: '0.5rem',
-                            textTransform: 'uppercase',
-                            fontFamily: '"Manrope", sans-serif',
-                            textShadow: '0 4px 20px rgba(255,255,255,0.8)',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            flexWrap: 'wrap'
-                        }}>
-                            {Array.from("EMPOWER").map((char, index) => (
-                                <motion.span
-                                    key={index}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: index * 0.05, duration: 0.5 }}
-                                >
-                                    {char}
-                                </motion.span>
-                            ))}
-                            <motion.span
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.4, duration: 0.5 }}
-                                style={{ color: 'var(--color-accent-teal)' }}
-                            >
-                                VIDA
-                            </motion.span>
-                        </h1>
+                        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+                            <img
+                                src="/empowervida_hero_logo.png"
+                                alt="EMPOWERVIDA"
+                                style={{
+                                    maxWidth: '100%',
+                                    height: 'auto',
+                                    width: '800px', // Adjust as needed based on image aspect ratio
+                                    filter: 'drop-shadow(0 4px 20px rgba(255,255,255,0.5))'
+                                }}
+                            />
+                        </div>
                         <motion.p
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
