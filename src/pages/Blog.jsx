@@ -41,6 +41,77 @@ export default function Blog() {
                     </p>
                 </header>
 
+                {/* Featured Post - Hero Card */}
+                {filteredPosts.length > 0 && (
+                    <Link to={`/blog/${filteredPosts[0].id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <article style={{
+                            background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '2px solid var(--color-accent-teal)',
+                            boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                            marginBottom: '4rem',
+                            display: 'grid',
+                            gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
+                            gap: '2rem',
+                            padding: '2rem'
+                        }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 128, 128, 0.25)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 8px 30px rgba(0, 128, 128, 0.15)';
+                            }}
+                        >
+                            {filteredPosts[0].image && (
+                                <img
+                                    src={filteredPosts[0].image}
+                                    alt={filteredPosts[0].title}
+                                    loading="eager"
+                                    style={{
+                                        width: '100%',
+                                        height: '400px',
+                                        objectFit: 'cover',
+                                        borderRadius: '12px'
+                                    }}
+                                />
+                            )}
+                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                                <div style={{
+                                    display: 'inline-block',
+                                    background: 'var(--color-accent-teal)',
+                                    color: '#FFFFFF',
+                                    padding: '0.5rem 1rem',
+                                    borderRadius: '20px',
+                                    fontSize: '0.75rem',
+                                    fontWeight: 700,
+                                    letterSpacing: '0.1em',
+                                    textTransform: 'uppercase',
+                                    marginBottom: '1rem',
+                                    width: 'fit-content'
+                                }}>
+                                    Featured
+                                </div>
+                                <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
+                                    {filteredPosts[0].category} | {filteredPosts[0].date}
+                                </p>
+                                <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
+                                    {filteredPosts[0].title}
+                                </h2>
+                                <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
+                                    {filteredPosts[0].excerpt}
+                                </p>
+                                <div style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                    Read Article →
+                                </div>
+                            </div>
+                        </article>
+                    </Link>
+                )}
+
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
 
                     {/* Main Content Area */}
@@ -70,9 +141,9 @@ export default function Blog() {
                             ))}
                         </div>
 
-                        {/* Posts Grid */}
+                        {/* Posts Grid - Skip first post (it's featured) */}
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
-                            {filteredPosts.map(post => (
+                            {filteredPosts.slice(1).map(post => (
                                 <Link to={`/blog/${post.id}`} key={post.id} style={{ textDecoration: 'none', color: 'inherit' }}>
                                     <article style={{
                                         background: 'var(--color-bg)',
