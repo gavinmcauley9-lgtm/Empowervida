@@ -44,7 +44,7 @@ export default function Scene() {
             <Cell position={[3, 3, -5]} scale={1} color="#94a3b8" />
             <Cell position={[-3, -3, -4]} scale={0.8} color="#10b981" />
 
-            <Stars radius={50} depth={50} count={1000} factor={4} saturation={0} fade speed={0.5} />
+            {/* Stars removed for clean lab aesthetic */}
             <Environment preset="city" />
         </Canvas>
     );

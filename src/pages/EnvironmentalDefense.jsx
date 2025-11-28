@@ -35,8 +35,8 @@ const EnvironmentalDefense = () => {
 
     return (
         <div style={{
-            backgroundColor: '#000000',
-            color: '#FFFFFF',
+            backgroundColor: 'var(--color-bg)',
+            color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif'
         }}>
@@ -58,7 +58,7 @@ const EnvironmentalDefense = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundImage: 'url(/environmental_defense_header.jpg)',
+                    backgroundImage: 'url(/hero_dna_botanical.png)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     opacity: 0.4,
@@ -72,7 +72,7 @@ const EnvironmentalDefense = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, #000000 100%)',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, #FFFFFF 100%)',
                     zIndex: 1
                 }}></div>
 
@@ -86,9 +86,9 @@ const EnvironmentalDefense = () => {
                             marginBottom: '1.5rem',
                             textTransform: 'uppercase',
                             textAlign: 'center',
-                            color: '#FFFFFF'
+                            color: 'var(--color-text)'
                         }}>
-                            LIFESTYLE: <span style={{ color: '#C19A6B' }}>Environmental Defense Protocol</span>
+                            LIFESTYLE: <span style={{ color: 'var(--color-accent-teal)' }}>Environmental Defense Protocol</span>
                         </h1>
                     </Reveal>
 
@@ -96,9 +96,9 @@ const EnvironmentalDefense = () => {
                         <h2 style={{
                             fontSize: '1.5rem',
                             fontWeight: 400,
-                            color: '#FFFFFF',
+                            color: 'var(--color-text-muted)',
                             marginBottom: '2rem',
-                            fontFamily: 'monospace',
+                            fontFamily: '"Manrope", sans-serif',
                             textAlign: 'center'
                         }}>
                             You Cannot Supplement Your Way Out of a Toxic Environment.
@@ -108,7 +108,7 @@ const EnvironmentalDefense = () => {
                     <Reveal width="100%" delay={0.4}>
                         <p style={{
                             fontSize: '1.25rem',
-                            color: '#AAAAAA',
+                            color: 'var(--color-text-muted)',
                             maxWidth: '800px',
                             margin: '0 auto',
                             lineHeight: 1.6,
@@ -123,13 +123,14 @@ const EnvironmentalDefense = () => {
             {/* Physician's Veto Block */}
             <section style={{ padding: '2rem 2rem', maxWidth: '1000px', margin: '0 auto 4rem' }}>
                 <div style={{
-                    backgroundColor: '#1A1A1A',
-                    borderLeft: '6px solid #FF5F00',
+                    backgroundColor: 'var(--color-bg-alt)',
+                    borderLeft: '6px solid var(--color-accent-orange)',
                     padding: '2rem',
-                    borderRadius: '0 4px 4px 0'
+                    borderRadius: '0 4px 4px 0',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.05)'
                 }}>
                     <h3 style={{
-                        color: '#FFFFFF',
+                        color: 'var(--color-text)',
                         fontSize: '0.9rem',
                         fontWeight: 700,
                         textTransform: 'uppercase',
@@ -139,7 +140,7 @@ const EnvironmentalDefense = () => {
                         The Selection Protocol
                     </h3>
                     <p style={{
-                        color: '#E0E0E0',
+                        color: 'var(--color-text-muted)',
                         fontSize: '1.1rem',
                         lineHeight: 1.6,
                         marginBottom: '1rem'
@@ -147,7 +148,7 @@ const EnvironmentalDefense = () => {
                         The wellness market is flooded with ineffective, mass-produced hardware. I have spent years filtering through manufacturers to find the 'Clinical Grade' minority. The products below are hand-picked for durability, filtration efficacy, and biological impact. These are premium tools for a premium outcome.
                     </p>
                     <p style={{
-                        color: '#FF5F00',
+                        color: 'var(--color-accent-orange)',
                         fontWeight: 700,
                         margin: 0,
                         textAlign: 'right'
@@ -163,19 +164,30 @@ const EnvironmentalDefense = () => {
                     {layers.map((layer, index) => (
                         <Reveal key={layer.id} width="100%" delay={index * 0.1}>
                             <div style={{
-                                background: 'rgba(255,255,255,0.03)',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                borderRadius: '8px',
+                                background: 'var(--color-bg)',
+                                border: '1px solid var(--color-border)',
+                                borderRadius: '16px',
                                 padding: '3rem',
                                 display: 'grid',
                                 gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                                 gap: '3rem',
-                                alignItems: 'center'
-                            }}>
+                                alignItems: 'center',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                            }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(-5px)';
+                                    e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                                }}
+                            >
                                 <div>
                                     <h3 style={{
                                         fontSize: '0.9rem',
-                                        color: '#FF5F00',
+                                        color: 'var(--color-accent-orange)',
                                         letterSpacing: '0.1em',
                                         marginBottom: '0.5rem',
                                         textTransform: 'uppercase'
@@ -193,13 +205,13 @@ const EnvironmentalDefense = () => {
                                                 borderRadius: '50%',
                                                 objectFit: 'cover',
                                                 flexShrink: 0,
-                                                border: '2px solid #333'
+                                                border: '2px solid var(--color-border)'
                                             }}
                                         />
                                         <h2 style={{
                                             fontSize: '2.5rem',
                                             fontWeight: 700,
-                                            color: '#FFFFFF',
+                                            color: 'var(--color-text)',
                                             margin: 0,
                                             textTransform: 'uppercase',
                                             lineHeight: 1.1
@@ -209,15 +221,15 @@ const EnvironmentalDefense = () => {
                                     </div>
 
                                     <div style={{ marginBottom: '2rem' }}>
-                                        <h4 style={{ color: '#888888', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '0.5rem', letterSpacing: '0.05em' }}>The Problem:</h4>
-                                        <p style={{ fontSize: '1.1rem', color: '#CCCCCC', lineHeight: 1.6 }}>
+                                        <h4 style={{ color: 'var(--color-text-muted)', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '0.5rem', letterSpacing: '0.05em' }}>The Problem:</h4>
+                                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: 1.6 }}>
                                             {layer.problem}
                                         </p>
                                     </div>
 
                                     <div style={{ marginBottom: '2.5rem' }}>
-                                        <h4 style={{ color: '#888888', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '0.5rem', letterSpacing: '0.05em' }}>The Solution:</h4>
-                                        <p style={{ fontSize: '1.1rem', color: '#FFFFFF', lineHeight: 1.6, borderLeft: '3px solid #FF5F00', paddingLeft: '1rem' }}>
+                                        <h4 style={{ color: 'var(--color-text-muted)', textTransform: 'uppercase', fontSize: '0.85rem', marginBottom: '0.5rem', letterSpacing: '0.05em' }}>The Solution:</h4>
+                                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', lineHeight: 1.6, borderLeft: '3px solid var(--color-accent-orange)', paddingLeft: '1rem' }}>
                                             {layer.solution}
                                         </p>
                                     </div>
@@ -240,14 +252,14 @@ const EnvironmentalDefense = () => {
             <section style={{
                 padding: '4rem 2rem',
                 textAlign: 'center',
-                borderTop: '1px solid rgba(255,255,255,0.1)',
-                background: '#050505',
+                borderTop: '1px solid var(--color-border)',
+                background: 'var(--color-bg)',
                 marginTop: '4rem'
             }}>
                 <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <p style={{
                         fontSize: '0.85rem',
-                        color: '#666666',
+                        color: 'var(--color-text-muted)',
                         fontStyle: 'italic',
                         margin: 0,
                         lineHeight: 1.6

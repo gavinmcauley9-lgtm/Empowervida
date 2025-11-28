@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const Protocol = () => {
     const phases = [
@@ -58,7 +59,7 @@ const Protocol = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, #FFFFFF 100%)',
                     zIndex: 1
                 }}></div>
 
@@ -150,12 +151,21 @@ const Protocol = () => {
                             transition={{ duration: 0.6, delay: index * 0.2 }}
                             viewport={{ once: true }}
                             style={{
-                                background: 'rgba(0, 0, 0, 0.7)', // Darker backing for readability
-                                backdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                borderLeft: '6px solid #FF5F00',
-                                padding: '2.5rem',
-                                borderRadius: '4px'
+                                background: '#FFFFFF',
+                                borderRadius: '16px',
+                                padding: '2rem',
+                                height: '100%',
+                                border: '1px solid var(--color-border)',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                             }}
                         >
                             <div style={{
@@ -223,7 +233,8 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        background: 'linear-gradient(to bottom, #000000 0%, transparent 20%, transparent 80%, #000000 100%)',
+                        background: 'linear-gradient(to bottom, #FFFFFF 0%, transparent 20%, transparent 80%, #FFFFFF 100%)',
+                        pointerEvents: 'none',
                         zIndex: 1
                     }}></div>
                     <h2 style={{
@@ -340,7 +351,11 @@ const Protocol = () => {
                             left: 0,
                             width: '100%',
                             height: '4px',
-                            background: 'repeating-linear-gradient(45deg, #FF0000, #FF0000 10px, #000000 10px, #000000 20px)'
+                            background: 'repeating-linear-gradient(45deg, var(--color-bg-alt), var(--color-bg-alt) 10px, #FFFFFF 10px, #FFFFFF 20px)',
+                            border: '1px solid var(--color-accent-orange)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            color: 'var(--color-text)'
                         }}></div>
 
                         <h3 style={{
@@ -384,34 +399,27 @@ const Protocol = () => {
                 padding: '4rem 2rem',
                 textAlign: 'center',
                 borderTop: '1px solid rgba(255,255,255,0.1)',
-                background: '#050505'
+                letterSpacing: '0.05em',
+                textDecoration: 'none',
+                borderRadius: '2px', // Tactical sharp corners
             }}>
-                <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                    <p style={{
-                        fontSize: '0.85rem',
-                        color: '#666666',
-                        marginBottom: '2rem',
-                        fontStyle: 'italic'
-                    }}>
-                        DISCLAIMER: This protocol is for educational purposes only and does not constitute medical advice. Consult your physician before starting any new supplement regimen.
-                    </p>
-                    <Link to="/shop" style={{
-                        display: 'inline-block',
-                        padding: '1rem 2.5rem',
-                        backgroundColor: '#FF5F00',
-                        color: '#FFFFFF',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em',
-                        textDecoration: 'none',
-                        borderRadius: '2px', // Tactical sharp corners
-                        border: '1px solid #FF5F00',
-                        transition: 'all 0.2s ease'
-                    }}>
-                        BUY YOUR ARMOR NOW
-                    </Link>
-                </div>
+                <Link to="/shop" style={{
+                    display: 'inline-block',
+                    padding: '1.2rem 3rem',
+                    background: 'linear-gradient(45deg, #FF5F00, #FF8C00)',
+                    color: '#FFFFFF',
+                    fontSize: '1.5rem',
+                    fontWeight: 800,
+                    letterSpacing: '0.05em',
+                    textDecoration: 'none',
+                    borderRadius: '2px', // Tactical sharp corners
+                    border: '1px solid #FF5F00',
+                    transition: 'all 0.2s ease'
+                }}>
+                    BUY YOUR ARMOR NOW
+                </Link>
             </section>
+            <Footer />
         </div>
     );
 };

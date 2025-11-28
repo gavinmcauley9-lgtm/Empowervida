@@ -20,13 +20,16 @@ export default function Home() {
                 <header style={{ maxWidth: '900px' }}>
                     <Reveal width="100%">
                         <img
-                            src="/empowervida_hero_banner.png"
+                            src="/hero_dna_botanical.png"
                             alt="EmpowerVida - Clinical Vitality Engineering"
                             style={{
-                                maxWidth: '100%',
+                                maxWidth: '70%',
                                 height: 'auto',
-                                marginBottom: '2rem',
-                                filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.08))'
+                                margin: '0 auto 2rem',
+                                display: 'block',
+                                borderRadius: '24px',
+                                boxShadow: '0 20px 40px rgba(32, 178, 170, 0.15)',
+                                filter: 'brightness(1.05) contrast(1.05)'
                             }}
                         />
                     </Reveal>
@@ -81,26 +84,29 @@ export default function Home() {
                     {/* Card 1: THE BLUEPRINT */}
                     <Reveal delay={0.2}>
                         <Link to="/blog" style={{
-                            background: '#FFFFFF',
-                            border: '1px solid rgba(0,0,0,0.1)',
-                            borderRadius: '8px',
+                            background: 'rgba(255, 255, 255, 0.7)',
+                            backdropFilter: 'blur(10px)',
+                            border: '1px solid rgba(255, 255, 255, 0.5)',
+                            borderRadius: '16px',
                             padding: '2rem',
                             textDecoration: 'none',
                             display: 'flex',
                             flexDirection: 'column',
                             height: '100%',
                             transition: 'all 0.3s ease',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.05)'
+                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
                         }}
                             onMouseEnter={(e) => {
                                 e.currentTarget.style.transform = 'translateY(-5px)';
                                 e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.1)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)';
-                                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)';
+                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔬</div>
@@ -115,26 +121,29 @@ export default function Home() {
                     {/* Card 2: THE ARMOR */}
                     <Reveal delay={0.4}>
                         <Link to="/protocol" style={{
-                            background: '#FFFFFF',
-                            border: '1px solid rgba(0,0,0,0.1)',
-                            borderRadius: '8px',
+                            background: 'rgba(255, 255, 255, 0.7)',
+                            backdropFilter: 'blur(10px)',
+                            border: '1px solid rgba(255, 255, 255, 0.5)',
+                            borderRadius: '16px',
                             padding: '2rem',
                             textDecoration: 'none',
                             display: 'flex',
                             flexDirection: 'column',
                             height: '100%',
                             transition: 'all 0.3s ease',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.05)'
+                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
                         }}
                             onMouseEnter={(e) => {
                                 e.currentTarget.style.transform = 'translateY(-5px)';
                                 e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.1)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)';
-                                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)';
+                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📋</div>
@@ -149,26 +158,29 @@ export default function Home() {
                     {/* Card 3: THE RADAR */}
                     <Reveal delay={0.6}>
                         <Link to="/diagnostics" style={{
-                            background: '#FFFFFF',
-                            border: '1px solid rgba(0,0,0,0.1)',
-                            borderRadius: '8px',
+                            background: 'rgba(255, 255, 255, 0.7)',
+                            backdropFilter: 'blur(10px)',
+                            border: '1px solid rgba(255, 255, 255, 0.5)',
+                            borderRadius: '16px',
                             padding: '2rem',
                             textDecoration: 'none',
                             display: 'flex',
                             flexDirection: 'column',
                             height: '100%',
                             transition: 'all 0.3s ease',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.05)'
+                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
                         }}
                             onMouseEnter={(e) => {
                                 e.currentTarget.style.transform = 'translateY(-5px)';
                                 e.currentTarget.style.borderColor = 'var(--color-primary)';
-                                e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.1)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.9)';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)';
-                                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)';
+                                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.7)';
                             }}
                         >
                             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🩸</div>

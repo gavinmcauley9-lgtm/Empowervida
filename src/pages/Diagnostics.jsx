@@ -50,8 +50,8 @@ const Diagnostics = () => {
 
     return (
         <div style={{
-            backgroundColor: '#000000',
-            color: '#FFFFFF',
+            backgroundColor: 'var(--color-bg)',
+            color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
@@ -85,7 +85,7 @@ const Diagnostics = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%)',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, #FFFFFF 100%)',
                     zIndex: 1
                 }}></div>
 
@@ -97,27 +97,37 @@ const Diagnostics = () => {
                     style={{ position: 'relative', zIndex: 2, maxWidth: '900px' }}
                 >
                     <h1 style={{
-                        fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
+                        fontSize: 'clamp(3rem, 6vw, 5rem)',
                         fontWeight: 800,
                         letterSpacing: '-0.03em',
-                        lineHeight: 1.1,
+                        lineHeight: 1,
                         marginBottom: '1.5rem',
                         textTransform: 'uppercase',
-                        color: '#FFFFFF'
+                        color: 'var(--color-text)'
                     }}>
-                        BIOMETRICS: <br />
-                        <span style={{ color: '#C19A6B' }}>THE ESSENTIAL BIOMETRICS</span>
+                        BIOMETRICS<br />
+                        <span style={{
+                            color: 'var(--color-accent-teal)',
+                            fontSize: '0.4em',
+                            letterSpacing: '0.3em',
+                            display: 'block',
+                            marginTop: '1rem',
+                            fontWeight: 600
+                        }}>
+                            THE ESSENTIALS
+                        </span>
                     </h1>
                     <p style={{
                         fontSize: '1.5rem',
                         fontWeight: 300,
-                        color: 'rgba(255,255,255,0.9)',
-                        display: 'inline-block',
-                        borderLeft: '4px solid #FF5F00',
+                        color: 'var(--color-text-muted)',
+                        maxWidth: '700px',
+                        margin: '0 auto',
+                        borderLeft: '4px solid var(--color-accent-orange)',
                         paddingLeft: '1.5rem',
                         textAlign: 'left'
                     }}>
-                        "'Normal' is not the same as Healthy."
+                        "You cannot optimize what you do not measure."
                     </p>
                 </motion.div>
             </section>
@@ -132,7 +142,7 @@ const Diagnostics = () => {
                     style={{
                         fontSize: '1.25rem',
                         lineHeight: 1.8,
-                        color: '#CCCCCC'
+                        color: 'var(--color-text-muted)'
                     }}
                 >
                     In standard medicine, reference ranges are based on the average population. But the average population is metabolically unhealthy. If your goal is resilience, being 'in range' is not enough. You need to be optimal. These are the 5 markers that act as your early warning system.
@@ -142,18 +152,18 @@ const Diagnostics = () => {
             {/* Tier 1: THE ESSENTIAL 5 */}
             <section style={{ padding: '2rem 2rem 4rem', maxWidth: '1000px', margin: '0 auto' }}>
                 <div style={{
-                    borderBottom: '1px solid #FF5F00',
+                    borderBottom: '1px solid var(--color-accent-orange)',
                     marginBottom: '3rem',
                     paddingBottom: '1rem'
                 }}>
                     <h2 style={{
                         fontSize: '2rem',
                         fontWeight: 700,
-                        color: '#FFFFFF',
+                        color: 'var(--color-text)',
                         textTransform: 'uppercase',
                         letterSpacing: '0.05em'
                     }}>
-                        Tier 1: <span style={{ color: '#FF5F00' }}>The Essential 5</span>
+                        Tier 1: <span style={{ color: 'var(--color-accent-orange)' }}>The Essential 5</span>
                     </h2>
                 </div>
 
@@ -166,44 +176,54 @@ const Diagnostics = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
                             style={{
-                                background: 'rgba(255,255,255,0.05)',
-                                border: '1px solid rgba(255,255,255,0.1)',
+                                background: 'var(--color-bg)',
+                                border: '1px solid var(--color-border)',
                                 padding: '2rem',
                                 borderRadius: '4px',
                                 display: 'grid',
                                 gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
                                 gap: '1.5rem',
-                                alignItems: 'center'
+                                alignItems: 'center',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                             }}
                         >
                             <div>
                                 <h3 style={{
                                     fontSize: '1.75rem',
                                     fontWeight: 700,
-                                    color: '#FFFFFF',
+                                    color: 'var(--color-text)',
                                     marginBottom: '0.5rem'
                                 }}>
                                     {marker.name}
                                 </h3>
                                 <p style={{
                                     fontSize: '1rem',
-                                    color: '#AAAAAA',
+                                    color: 'var(--color-text-muted)',
                                     margin: 0,
                                     lineHeight: 1.5
                                 }}>
-                                    <strong style={{ color: '#FF5F00' }}>The Truth:</strong> {marker.truth}
+                                    <strong style={{ color: 'var(--color-accent-orange)' }}>The Truth:</strong> {marker.truth}
                                 </p>
                             </div>
                             <div style={{
-                                background: 'rgba(0,0,0,0.3)',
+                                background: '#F8F8F8',
                                 padding: '1rem',
                                 borderRadius: '4px',
-                                borderLeft: '3px solid #FF5F00'
+                                borderLeft: '3px solid var(--color-accent-orange)'
                             }}>
                                 <div style={{
                                     fontSize: '0.85rem',
                                     textTransform: 'uppercase',
-                                    color: '#888888',
+                                    color: 'var(--color-text-muted)',
                                     marginBottom: '0.25rem',
                                     fontWeight: 600
                                 }}>
@@ -212,7 +232,7 @@ const Diagnostics = () => {
                                 <div style={{
                                     fontSize: '1.25rem',
                                     fontWeight: 700,
-                                    color: '#FF5F00',
+                                    color: 'var(--color-accent-orange)',
                                     fontFamily: 'monospace'
                                 }}>
                                     {marker.target}
@@ -226,18 +246,18 @@ const Diagnostics = () => {
             {/* Tier 2: HONOURABLE MENTIONS */}
             <section style={{ padding: '2rem 2rem 6rem', maxWidth: '1000px', margin: '0 auto' }}>
                 <div style={{
-                    borderBottom: '1px solid #888888',
+                    borderBottom: '1px solid var(--color-text-muted)',
                     marginBottom: '3rem',
                     paddingBottom: '1rem'
                 }}>
                     <h2 style={{
                         fontSize: '2rem',
                         fontWeight: 700,
-                        color: '#FFFFFF',
+                        color: 'var(--color-text)',
                         textTransform: 'uppercase',
                         letterSpacing: '0.05em'
                     }}>
-                        Tier 2: <span style={{ color: '#888888' }}>Honourable Mentions</span>
+                        Tier 2: <span style={{ color: 'var(--color-text-muted)' }}>Honourable Mentions</span>
                     </h2>
                 </div>
 
@@ -250,44 +270,54 @@ const Diagnostics = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
                             style={{
-                                background: 'rgba(255,255,255,0.05)',
-                                border: '1px solid rgba(255,255,255,0.1)',
+                                background: 'var(--color-bg)',
+                                border: '1px solid var(--color-border)',
                                 padding: '2rem',
                                 borderRadius: '4px',
                                 display: 'grid',
                                 gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
                                 gap: '1.5rem',
-                                alignItems: 'center'
+                                alignItems: 'center',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                             }}
                         >
                             <div>
                                 <h3 style={{
                                     fontSize: '1.75rem',
                                     fontWeight: 700,
-                                    color: '#FFFFFF',
+                                    color: 'var(--color-text)',
                                     marginBottom: '0.5rem'
                                 }}>
                                     {marker.name}
                                 </h3>
                                 <p style={{
                                     fontSize: '1rem',
-                                    color: '#AAAAAA',
+                                    color: 'var(--color-text-muted)',
                                     margin: 0,
                                     lineHeight: 1.5
                                 }}>
-                                    <strong style={{ color: '#888888' }}>The Truth:</strong> {marker.truth}
+                                    <strong style={{ color: 'var(--color-text-muted)' }}>The Truth:</strong> {marker.truth}
                                 </p>
                             </div>
                             <div style={{
-                                background: 'rgba(0,0,0,0.3)',
+                                background: '#F8F8F8',
                                 padding: '1rem',
                                 borderRadius: '4px',
-                                borderLeft: '3px solid #888888'
+                                borderLeft: '3px solid var(--color-text-muted)'
                             }}>
                                 <div style={{
                                     fontSize: '0.85rem',
                                     textTransform: 'uppercase',
-                                    color: '#888888',
+                                    color: 'var(--color-text-muted)',
                                     marginBottom: '0.25rem',
                                     fontWeight: 600
                                 }}>
@@ -296,7 +326,7 @@ const Diagnostics = () => {
                                 <div style={{
                                     fontSize: '1.25rem',
                                     fontWeight: 700,
-                                    color: '#FFFFFF',
+                                    color: 'var(--color-text)',
                                     fontFamily: 'monospace'
                                 }}>
                                     {marker.target}
@@ -311,7 +341,7 @@ const Diagnostics = () => {
             <section style={{
                 position: 'relative',
                 padding: '6rem 2rem',
-                color: '#FFFFFF',
+                color: 'var(--color-text)',
                 overflow: 'hidden'
             }}>
                 {/* Background Image */}
@@ -324,7 +354,7 @@ const Diagnostics = () => {
                     backgroundImage: 'url(/dna_bg_user.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    opacity: 0.25,
+                    opacity: 0.1,
                     zIndex: 0
                 }}></div>
 
@@ -335,11 +365,10 @@ const Diagnostics = () => {
                             fontWeight: 800,
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em',
-                            letterSpacing: '0.05em',
                             marginBottom: '1rem',
-                            color: '#FFFFFF'
+                            color: 'var(--color-text)'
                         }}>
-                            THE DEEP DIVE: <span style={{ color: '#FF5F00' }}>Mechanism of Action</span>
+                            THE DEEP DIVE: <span style={{ color: 'var(--color-accent-teal)' }}>Mechanism of Action</span>
                         </h2>
                     </div>
 
@@ -349,54 +378,54 @@ const Diagnostics = () => {
                         gap: '2.5rem'
                     }}>
                         {/* Block 1 */}
-                        <div style={{ background: 'rgba(0,0,0,0.6)', padding: '2rem', borderTop: '4px solid #FF5F00', backdropFilter: 'blur(10px)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FF5F00', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Why ApoB? <br /><span style={{ color: '#FFF', fontSize: '0.9rem' }}>(The Traffic Analogy)</span>
+                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                                Why ApoB? <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Traffic Analogy)</span>
                             </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: '#DDD' }}>
+                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 LDL-C measures the weight of cholesterol in your blood. ApoB counts the actual number of particles. Think of it like a highway: LDL-C tells you the weight of the passengers, but ApoB tells you the number of cars. It is the number of cars (particles) that causes the traffic jams (plaque) and accidents (heart disease). You can have 'normal' LDL but dangerous ApoB.
                             </p>
                         </div>
 
                         {/* Block 2 */}
-                        <div style={{ background: 'rgba(0,0,0,0.6)', padding: '2rem', borderTop: '4px solid #FF5F00', backdropFilter: 'blur(10px)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FF5F00', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
                                 Fasting Insulin vs. HbA1c
                             </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: '#DDD' }}>
+                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 Why is Insulin the superior metric? HbA1c is a backward-looking average of the last 3 months. Fasting Insulin is a real-time stress test. Your pancreas can mask metabolic damage for years by pumping out massive amounts of insulin to keep your blood sugar (HbA1c) normal. By the time HbA1c rises, the damage is already done. Insulin catches the fire before it spreads.
                             </p>
                         </div>
 
                         {/* Block 3 */}
-                        <div style={{ background: 'rgba(0,0,0,0.6)', padding: '2rem', borderTop: '4px solid #FF5F00', backdropFilter: 'blur(10px)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FF5F00', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Vitamin D <br /><span style={{ color: '#FFF', fontSize: '0.9rem' }}>(The Hormone)</span>
+                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                                Vitamin D <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Hormone)</span>
                             </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: '#DDD' }}>
+                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 Stop calling it a vitamin. It is a steroid hormone that regulates over 1,000 genes, accounting for nearly 5% of the human genome. It is a critical cofactor for immune defense, dopamine production (mental health), and calcium homeostasis. Low levels are not just bad for bones; they are a signal of systemic fragility.
                             </p>
                         </div>
 
                         {/* Block 4 */}
-                        <div style={{ background: 'rgba(0,0,0,0.6)', padding: '2rem', borderTop: '4px solid #FF5F00', backdropFilter: 'blur(10px)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FF5F00', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Homocysteine <br /><span style={{ color: '#FFF', fontSize: '0.9rem' }}>(The Vascular Toxin)</span>
+                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                                Homocysteine <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Vascular Toxin)</span>
                             </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: '#DDD' }}>
+                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 This is an amino acid breakdown product. Elevated levels indicate a failure in your methylation cycle (often due to B-vitamin deficiency or MTHFR gene mutations). High homocysteine acts like sandpaper on the lining of your arteries, creating the injury that allows cholesterol to stick. We treat this to protect the vessel wall.
                             </p>
                         </div>
 
                         {/* Block 5 */}
-                        <div style={{ background: 'rgba(0,0,0,0.6)', padding: '2rem', borderTop: '4px solid #FF5F00', backdropFilter: 'blur(10px)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#FF5F00', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                hs-CRP <br /><span style={{ color: '#FFF', fontSize: '0.9rem' }}>(The Silent Fire)</span>
+                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
+                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                                hs-CRP <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Silent Fire)</span>
                             </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: '#DDD' }}>
+                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 Cholesterol builds the plaque, but inflammation makes it rupture. Think of hs-CRP as a smoke detector for your arteries. Standard CRP measures acute infection (like a fever), but High-Sensitivity CRP detects chronic, low-grade inflammation—the 'smoldering fire' caused by stress, toxins, and visceral fat.
                                 <br /><br />
-                                <strong style={{ color: '#FFF' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus high hs-CRP, your risk of a sudden cardiac event explodes. We track this to ensure your blood vessels are cool and stable, not inflamed and fragile.
+                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus high hs-CRP, your risk of a sudden cardiac event explodes. We track this to ensure your blood vessels are cool and stable, not inflamed and fragile.
                             </p>
                         </div>
                     </div>
@@ -406,42 +435,29 @@ const Diagnostics = () => {
             {/* ACCESS TIER 3 BANNER */}
             <section style={{
                 padding: '4rem 2rem',
-                background: 'linear-gradient(90deg, #000000 0%, #111111 100%)',
-                borderTop: '1px solid rgba(255,255,255,0.1)',
-                borderBottom: '1px solid rgba(255,255,255,0.1)',
-                textAlign: 'center'
+                background: 'linear-gradient(90deg, #FFFFFF 0%, #F0F0F0 100%)',
+                color: 'var(--color-text)',
+                textAlign: 'center',
+                borderTop: '1px solid var(--color-border)'
             }}>
                 <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                    <h3 style={{
-                        fontSize: '1.5rem',
-                        fontWeight: 700,
-                        color: '#FFFFFF',
-                        marginBottom: '1rem',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em'
-                    }}>
-                        Go Beyond The Basics
-                    </h3>
-                    <p style={{
-                        fontSize: '1.1rem',
-                        color: '#AAAAAA',
-                        marginBottom: '2rem'
-                    }}>
-                        The Essential 5 keep you alive. Tier 3 optimizes you for performance.
+                    <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)' }}>GET TESTED NOW</h2>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
+                        Order your own labs. Own your own data.
                     </p>
-                    <a href="/advanced-optimization" style={{
-                        display: 'inline-block',
-                        padding: '1rem 2.5rem',
-                        border: '1px solid #FF5F00',
-                        color: '#FF5F00',
+                    <a href="https://www.functionhealth.com" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{
                         textDecoration: 'none',
-                        fontWeight: 700,
-                        fontSize: '1rem',
+                        fontSize: '1.1rem',
+                        padding: '1.2rem 3rem',
+                        display: 'inline-block',
+                        background: 'var(--color-accent-teal)',
+                        color: 'var(--color-text-muted)',
                         borderRadius: '4px',
-                        letterSpacing: '0.1em',
-                        transition: 'all 0.3s ease'
+                        fontWeight: 700,
+                        letterSpacing: '0.05em',
+                        transition: 'background 0.3s ease'
                     }}>
-                        ACCESS TIER 3 &gt;
+                        ORDER FUNCTION HEALTH PANEL
                     </a>
                 </div>
             </section>
@@ -450,18 +466,28 @@ const Diagnostics = () => {
             <section style={{
                 padding: '4rem 2rem',
                 textAlign: 'center',
-                borderTop: '1px solid rgba(255,255,255,0.1)',
-                background: '#050505'
+                borderTop: '1px solid var(--color-border)',
+                background: 'var(--color-bg)'
             }}>
-                <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                    <p style={{
-                        fontSize: '0.85rem',
-                        color: '#666666',
-                        fontStyle: 'italic',
-                        margin: 0
-                    }}>
-                        Medical Disclaimer: This guide is for educational purposes. Discuss results with a qualified practitioner.
+                <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                    <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)' }}>READY TO INTERPRET?</h2>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
+                        Learn how to read your bloodwork like a longevity physician.
                     </p>
+                    <Link to="/blog" className="btn-secondary" style={{
+                        textDecoration: 'none',
+                        fontSize: '1.1rem',
+                        padding: '1.2rem 3rem',
+                        display: 'inline-block',
+                        border: '1px solid var(--color-accent-teal)',
+                        color: 'var(--color-accent-teal)',
+                        borderRadius: '4px',
+                        fontWeight: 700,
+                        letterSpacing: '0.05em',
+                        transition: 'background 0.3s ease, color 0.3s ease'
+                    }}>
+                        READ THE GUIDE
+                    </Link>
                 </div>
             </section>
         </div>

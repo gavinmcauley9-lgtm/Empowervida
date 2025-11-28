@@ -14,7 +14,7 @@ export const POSTS = [
     id: 1,
     title: 'THE CAPACITY PROBLEM: How to Physically Grow New Mitochondria',
     category: 'energy',
-    image: '/mitochondria_biogenesis_header.png',
+    image: '/cellular_structure.png',
     excerpt: 'To fix fatigue, we don\'t need more coal. We need to build more power plants.',
     date: 'Oct 12, 2025',
     cta: {
@@ -24,7 +24,7 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/mitochondria_biogenesis.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
       </div>
       <p>In the Emergency Room, power failure is not an option. When the grid goes down, the ventilators stop, the monitors fade, and entropy takes over.</p>
       <p>In your body, the stakes are different, but the mechanism is the same.</p>
@@ -80,7 +80,7 @@ export const POSTS = [
     id: 2,
     title: 'THE NIGHT SHIFT: The Neuroscience of "Power Washing" Your Brain',
     category: 'sleep',
-    image: '/glymphatic_system_header.png',
+    image: '/water_refraction.png',
     excerpt: 'Sleep is not a passive state where you just "power down." It is an active, hydraulic cleaning cycle.',
     date: 'Oct 10, 2025',
     cta: {
@@ -90,7 +90,7 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <div style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/glymphatic_system_v2.png" alt="Glymphatic System" style="width: 100%; height: auto; display: block;" />
+        <img src="/water_refraction.png" alt="Glymphatic System" style="width: 100%; height: auto; display: block;" />
       </div>
       <p>You know the feeling. You pull an all-nighter, or maybe you just toss and turn for six hours. You wake up, and your head feels... heavy. Your thinking is viscous. You are suffering from "Brain Fog."</p>
       <p>For years, we treated this sensation as mere fatigue. We thought your neurons were just tired.</p>
@@ -109,7 +109,7 @@ export const POSTS = [
       <p>This massive cellular contraction opens up hidden "perivascular tunnels" between your neurons. It is like opening the floodgates. Cerebrospinal Fluid (CSF) rushes into these spaces, pumped by the pulsing of your arteries. This fluid literally "power washes" your brain tissue, dissolving the toxic proteins and flushing them down into the liver for disposal.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/glymphatic_shrink_effect.png" alt="Glymphatic Shrink Effect" style="width: 100%; height: auto; display: block;" />
+        <img src="/water_refraction.png" alt="Glymphatic Shrink Effect" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Awake vs. Asleep: The "Shrink" Effect</p>
       </div>
 
@@ -203,7 +203,7 @@ export const POSTS = [
     id: 4,
     title: 'THE GATEKEEPER: Why Your Magnesium Supplement Is Failing Your Brain',
     category: 'pantry',
-    image: '/magnesium_threonate_header.png',
+    image: '/hero_dna_botanical.png',
     excerpt: 'The only form of magnesium that effectively crosses the blood-brain barrier.',
     date: 'Sep 28, 2025',
     cta: {
@@ -226,7 +226,7 @@ export const POSTS = [
       <p>Once inside, it does something remarkable. It doesn't just "calm" you; it rewires you.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/blood_brain_barrier_diagram.png" alt="Blood-Brain Barrier Diagram" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.png" alt="Blood-Brain Barrier Diagram" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Trojan Horse: Crossing the Blood-Brain Barrier</p>
       </div>
 
@@ -329,7 +329,7 @@ export const POSTS = [
     id: 7,
     title: 'I’M EXHAUSTED, BUT MY LABS ARE NORMAL: The Hidden Energy Crisis in Your Cells',
     category: 'energy',
-    image: '/normal_labs_energy_crisis.png',
+    image: '/cellular_structure.png',
     excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
     date: 'Nov 23, 2025',
     cta: {
@@ -357,7 +357,7 @@ export const POSTS = [
       <p>Inside every cell, the Electron Transport Chain acts as an assembly line, turning food and oxygen into ATP (Adenosine Triphosphate)—the energy currency of life.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/normal_labs_energy_crisis.png" alt="Mitochondrial Function" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.png" alt="Mitochondrial Function" style="width: 100%; height: auto; display: block;" />
       </div>
 
       <p>When you are young, this assembly line runs fast and clean. But as we age, two things happen:</p>
@@ -431,7 +431,7 @@ export const POSTS = [
     id: 9,
     title: 'The Great Oil Change: Why Your Cells Are "Stiff" (And Why You Feel It)',
     category: 'inflammation',
-    image: '/cellular_oil_change.png',
+    image: '/cellular_structure.png',
     excerpt: 'Cellular membrane health is the new frontier of cognitive performance.',
     date: 'Nov 25, 2025',
     cta: {
@@ -539,7 +539,7 @@ export const POSTS = [
     id: 11,
     title: 'The Sugar Spike: Why I Treat "Normal" Blood Sugar as a Medical Emergency',
     category: 'metabolic',
-    image: '/sugar_spike_glycation.png',
+    image: '/cellular_structure.png',
     excerpt: 'Every time your glucose spikes over 140 mg/dL, you are "cooking" your proteins.',
     date: 'Nov 27, 2025',
     cta: {

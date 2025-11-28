@@ -7,20 +7,20 @@
   --color-bg-hero: #FFFFFF;
   /* White Hero Background */
 
-  --color-text: #1A3C34;
-  /* Deep Biological Green - Main Text */
-  --color-text-muted: #5A7A70;
-  /* Muted Green - Secondary Text */
-  --color-text-hero: #1A3C34;
-  /* Deep Green on White Hero */
+  --color-text: #111827;
+  /* Deep Charcoal - Main Text (High Contrast) */
+  --color-text-muted: #064E3B;
+  /* Dark Forest Green - Secondary Text */
+  --color-text-hero: #111827;
+  /* Deep Charcoal on White Hero */
 
   --color-accent-teal: #20B2AA;
   /* Vitality Teal - Subheaders & Icons */
   --color-accent-orange: #FF7E5F;
   /* Solar Orange - CTAs Only */
 
-  --color-border: rgba(26, 60, 52, 0.08);
-  /* Ultra-Light Green Border */
+  --color-border: rgba(6, 78, 59, 0.1);
+  /* Dark Forest Green Border (Low Opacity) */
 
   /* Spacing - Premium Generous */
   --spacing-sm: 1.5rem;
@@ -37,11 +37,14 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+  line-height: 1.7;
+  /* Increased for breathability */
+  font-weight: 400;
+  /* Regular weight for readability */
 }
 
 h1,
@@ -50,14 +53,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Manrope', sans-serif;
   color: var(--color-text);
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
-  /* Tighter tracking for medical precision */
-  text-transform: uppercase;
-  /* Clinical authority */
+  font-weight: 800;
+  /* Bold */
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  /* Tighter tracking for sleek feel */
+  text-transform: none;
+  /* Modern sentence case */
 }
 
 a {
