@@ -22,7 +22,7 @@ export default function About() {
                 {/* Hero Section */}
                 <section style={{ marginBottom: '8rem', textAlign: 'center' }}>
                     <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: '1.1', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '800' }}>
-                        Beyond the <span style={{ color: 'var(--color-accent-orange)' }}>15-Minute</span> Consult.
+                        Beyond the <span style={{ color: 'var(--color-accent-teal)' }}>15-Minute</span> Consult.
                     </h1>
                     <p style={{ fontSize: '1.5rem', color: 'var(--color-text)', maxWidth: '700px', margin: '0 auto', fontWeight: '500' }}>
                         Why a Family Medicine Physician started an anonymous longevity clinic.
@@ -33,7 +33,7 @@ export default function About() {
                 <section style={{ marginBottom: '8rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
                     <div>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>The Problem</h2>
-                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-orange)', marginBottom: '2rem' }}></div>
+                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
@@ -59,7 +59,7 @@ export default function About() {
                 <section style={{ marginBottom: '8rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
                     <div style={{ order: 2 }}>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>Science &gt; Celebrity</h2>
-                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-orange)', marginBottom: '2rem' }}></div>
+                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div style={{ order: 1 }}>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
@@ -82,9 +82,9 @@ export default function About() {
                         ].map((cred, index) => (
                             <div key={index} style={{
                                 padding: '1.5rem 2rem',
-                                border: '2px solid var(--color-accent-orange)',
+                                border: '2px solid var(--color-accent-teal)',
                                 borderRadius: '50px',
-                                color: 'var(--color-accent-orange)',
+                                color: 'var(--color-accent-teal)',
                                 fontWeight: '700',
                                 fontSize: '1.1rem',
                                 background: 'rgba(255,255,255,0.5)'
@@ -96,7 +96,7 @@ export default function About() {
                 </section>
             </div>
 
-            {/* Footer CTA - Deep Black */}
+            {/* Footer CTA - Clinical White */}
             <section style={{ textAlign: 'center', padding: '6rem 2rem', background: 'var(--color-bg)', color: 'var(--color-text)', borderTop: '1px solid var(--color-border)' }}>
                 <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem', color: 'var(--color-text)', fontWeight: '700' }}>Join the Inner Circle</h2>
                 <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
