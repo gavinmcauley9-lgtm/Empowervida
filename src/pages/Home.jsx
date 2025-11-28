@@ -22,18 +22,18 @@ export default function Home() {
                 alignItems: 'center',
                 textAlign: 'center',
                 overflow: 'hidden',
-                backgroundColor: 'var(--color-bg-hero)',
+                backgroundColor: '#FFFFFF', // Pure White
                 color: 'var(--color-text-hero)'
             }}>
-                {/* Background Image Layer - Breathing + Parallax */}
+                {/* Background Image Layer - Sterile Texture */}
                 <motion.div
                     initial={{ scale: 1 }}
-                    animate={{ scale: 1.1 }}
+                    animate={{ scale: 1.05 }} // Subtle breathing
                     transition={{
-                        duration: 20,
+                        duration: 30,
                         repeat: Infinity,
                         repeatType: "reverse",
-                        ease: "easeInOut"
+                        ease: "linear"
                     }}
                     style={{
                         position: 'absolute',
@@ -46,19 +46,18 @@ export default function Home() {
                     }}
                 >
                     <img
-                        src="/hero_dna_botanical.png"
+                        src="/sterile_biological_texture.png"
                         alt="Background"
                         style={{
                             width: '100%',
                             height: '100%',
                             objectFit: 'cover',
-                            opacity: 0.3,
-                            filter: 'grayscale(20%)'
+                            opacity: 0.08, // 8% Opacity (Target 5-10%)
                         }}
                     />
                 </motion.div>
 
-                {/* Gradient Overlay */}
+                {/* Gradient Overlay - Subtle White Fade */}
                 <div style={{
                     position: 'absolute',
                     top: 0,
@@ -66,10 +65,10 @@ export default function Home() {
                     width: '100%',
                     height: '100%',
                     zIndex: 0,
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,1) 100%)'
+                    background: 'radial-gradient(circle at center, rgba(255,255,255,0) 0%, #FFFFFF 100%)'
                 }}></div>
 
-                {/* Content Layer - Parallax + Fade */}
+                {/* Content Layer */}
                 <motion.header
                     style={{
                         position: 'relative',
@@ -85,18 +84,21 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut" }}
                     >
-                        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-                            <img
-                                src="/empowervida_hero_logo.png"
-                                alt="EMPOWERVIDA"
-                                style={{
-                                    maxWidth: '100%',
-                                    height: 'auto',
-                                    width: '800px', // Adjust as needed based on image aspect ratio
-                                    filter: 'drop-shadow(0 4px 20px rgba(255,255,255,0.5))'
-                                }}
-                            />
-                        </div>
+                        {/* Main Title - Authority Fix */}
+                        <h1 style={{
+                            fontSize: 'clamp(3rem, 9vw, 7rem)',
+                            fontWeight: 900, // Heavy
+                            letterSpacing: '-0.04em',
+                            color: '#1A3C34', // Deep Biological Green
+                            marginBottom: '1rem',
+                            textTransform: 'uppercase',
+                            fontFamily: '"Manrope", sans-serif',
+                            lineHeight: 0.9,
+                            textShadow: 'none', // Flat & Matte
+                            display: 'block'
+                        }}>
+                            EMPOWERVIDA
+                        </h1>
                         <motion.p
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
