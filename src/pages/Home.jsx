@@ -104,15 +104,15 @@ export default function Home() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.8, duration: 1 }}
                             style={{
-                                fontSize: '1.2rem',
-                                color: 'var(--color-text-muted)',
-                                fontWeight: 600,
-                                letterSpacing: '0.2em',
+                                fontSize: '1.1rem',
+                                color: '#1A3C34', // Deep Biological Green (Matching Logo)
+                                fontWeight: 700,
+                                letterSpacing: '0.3em', // High Tracking
                                 textTransform: 'uppercase',
-                                marginBottom: '3rem'
+                                marginBottom: '4rem'
                             }}
                         >
-                            LONGEVITY, PRESCRIBED
+                            LONGEVITY, PRESCRIBED.
                         </motion.p>
                     </motion.div>
 
@@ -121,6 +121,19 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1, duration: 0.8 }}
                     >
+                        {/* The Hook - Vitality Teal */}
+                        <h2 style={{
+                            fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+                            fontWeight: 800,
+                            color: '#008080', // Vitality Teal
+                            marginBottom: '1.5rem',
+                            fontFamily: '"Manrope", sans-serif',
+                            letterSpacing: '-0.02em',
+                            lineHeight: 1.1
+                        }}>
+                            ACTIVATE YOUR POTENTIAL
+                        </h2>
+
                         <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
                             Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
                         </p>
