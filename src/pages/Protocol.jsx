@@ -100,8 +100,8 @@ const Protocol = () => {
                         color: 'var(--color-text)',
                         fontFamily: '"Manrope", sans-serif'
                     }}>
-                        THE ESSENTIALS: <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>MITOCHONDRIAL DEFENSE</span>
+                        THE MASTER PROTOCOLS: <br />
+                        <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
                     </h1>
                     <p style={{
                         fontSize: '1.5rem',
@@ -113,7 +113,7 @@ const Protocol = () => {
                         paddingLeft: '1.5rem',
                         textAlign: 'left'
                     }}>
-                        "Fatigue is not a lack of willpower. It is a cellular power failure."
+                        "Medicine usually waits for a crash. We engineer the machine to never fail."
                     </p>
                 </motion.div>
             </section>
@@ -132,7 +132,7 @@ const Protocol = () => {
                         fontWeight: 400
                     }}
                 >
-                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. The goal of this protocol is to optimize the performance of your mitochondria—the microscopic power plants inside every cell. This is a tactical stack designed to support three phases: <strong style={{ color: 'var(--color-accent-teal)' }}>Fuel Transport, Energy Generation, and Waste Removal.</strong>
+                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed three distinct protocols to secure the primary pillars of human performance: <strong style={{ color: 'var(--color-accent-teal)' }}>Vitality (Mitochondrial Energy), Clarity (Cognitive Processing), and Foundation (Genomic Resilience).</strong> Choose your target.
                 </motion.p>
             </section>
 
