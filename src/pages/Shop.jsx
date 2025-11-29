@@ -32,8 +32,8 @@ const Shop = () => {
 
     return (
         <div style={{
-            backgroundColor: '#000000',
-            color: '#FFFFFF',
+            backgroundColor: 'var(--color-bg)',
+            color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
@@ -42,32 +42,29 @@ const Shop = () => {
             <section style={{
                 padding: '8rem 2rem 4rem',
                 textAlign: 'center',
-                background: 'linear-gradient(to bottom, #111111 0%, #000000 100%)'
+                background: 'linear-gradient(to bottom, #FFFFFF 0%, #F5F5F7 100%)'
             }}>
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                >
+                <div data-aos="fade-up">
                     <h1 style={{
                         fontSize: 'clamp(2.5rem, 5vw, 4rem)',
                         fontWeight: 800,
                         letterSpacing: '-0.03em',
                         marginBottom: '1rem',
                         textTransform: 'uppercase',
-                        color: '#FFFFFF'
+                        color: 'var(--color-text)',
+                        fontFamily: '"Manrope", sans-serif'
                     }}>
-                        THE ESSENTIALS: <span style={{ color: '#C19A6B' }}>TACTICAL SUPPLY</span>
+                        THE ESSENTIALS: <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL SUPPLY</span>
                     </h1>
                     <p style={{
                         fontSize: '1.2rem',
-                        color: '#AAAAAA',
+                        color: 'var(--color-text-muted)',
                         maxWidth: '600px',
                         margin: '0 auto'
                     }}>
-                        Field-tested tools for mitochondrial defense. These are the specific compounds I recommend for the "Armor" protocol.
+                        Field-tested tools for mitochondrial defense. These are the specific compounds I recommend for the protocol.
                     </p>
-                </motion.div>
+                </div>
             </section>
 
             {/* Product Grid */}
@@ -78,36 +75,45 @@ const Shop = () => {
                     gap: '2.5rem'
                 }}>
                     {products.map((product, index) => (
-                        <motion.div
+                        <div
                             key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
+                            data-aos="fade-up"
+                            data-aos-delay={index * 100}
                             style={{
-                                background: 'rgba(255,255,255,0.03)',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                borderRadius: '4px',
-                                padding: '2rem',
+                                background: '#FFFFFF',
+                                border: '1px solid var(--color-border)',
+                                borderRadius: '16px',
+                                padding: '2.5rem',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'space-between',
-                                height: '100%'
+                                height: '100%',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                            }}
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.transform = 'translateY(-5px)';
+                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                             }}
                         >
                             <div>
                                 <h3 style={{
                                     fontSize: '1.5rem',
                                     fontWeight: 700,
-                                    color: '#FFFFFF',
+                                    color: 'var(--color-text)',
                                     marginBottom: '1rem',
-                                    textTransform: 'uppercase'
+                                    textTransform: 'uppercase',
+                                    fontFamily: '"Manrope", sans-serif'
                                 }}>
                                     {product.name}
                                 </h3>
                                 <p style={{
                                     fontSize: '1rem',
-                                    color: '#CCCCCC',
+                                    color: 'var(--color-text-muted)',
                                     lineHeight: 1.6,
                                     marginBottom: '2rem'
                                 }}>
@@ -124,19 +130,28 @@ const Shop = () => {
                                     width: '100%',
                                     padding: '1rem',
                                     textAlign: 'center',
-                                    backgroundColor: '#FF5F00',
+                                    backgroundColor: 'var(--color-accent-teal)',
                                     color: '#FFFFFF',
                                     textDecoration: 'none',
                                     fontWeight: 700,
                                     textTransform: 'uppercase',
                                     letterSpacing: '0.05em',
-                                    borderRadius: '4px',
-                                    transition: 'background-color 0.2s ease'
+                                    borderRadius: '8px',
+                                    transition: 'all 0.2s ease',
+                                    boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(-2px)';
+                                    e.currentTarget.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
                                 }}
                             >
                                 Check Price &gt;
                             </a>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </section>
@@ -145,13 +160,13 @@ const Shop = () => {
             <section style={{
                 padding: '4rem 2rem',
                 textAlign: 'center',
-                borderTop: '1px solid rgba(255,255,255,0.1)',
-                background: '#050505'
+                borderTop: '1px solid var(--color-border)',
+                background: 'var(--color-bg)'
             }}>
                 <div style={{ maxWidth: '600px', margin: '0 auto' }}>
                     <p style={{
                         fontSize: '0.85rem',
-                        color: '#666666',
+                        color: 'var(--color-text-muted)',
                         fontStyle: 'italic',
                         margin: 0
                     }}>
