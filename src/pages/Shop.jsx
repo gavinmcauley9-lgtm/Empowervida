@@ -38,6 +38,11 @@ const Shop = () => {
             name: "VITAMIN D3 + K2 (LIQUID)",
             description: "The 'Hormonal Architect.' Essential for immune signaling and mood regulation. Includes K2 to direct calcium into bones and prevent arterial calcification.",
             link: "#"
+        },
+        {
+            name: "NAC (N-ACETYL CYSTEINE)",
+            description: "The 'Cellular Scavenger.' The direct precursor to Glutathione (the body's master antioxidant). Critical for liver health, lung function, and reducing oxidative stress.",
+            link: "#"
         }
     ];
 
