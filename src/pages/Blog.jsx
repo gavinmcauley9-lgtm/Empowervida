@@ -35,11 +35,11 @@ export default function Blog() {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundImage: 'url(/sterile_biological_texture.png)',
+                    backgroundImage: 'url(/dna_bg_user.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     zIndex: 0,
-                    opacity: 0.6
+                    opacity: 0.8
                 }}></div>
 
                 {/* Overlay */}
