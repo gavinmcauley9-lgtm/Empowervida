@@ -65,7 +65,7 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundImage: 'url(/protocol_hero_fire.jpg)',
+                        backgroundImage: 'url(/protocol_hero_fire_v2.jpg)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         zIndex: 0,
