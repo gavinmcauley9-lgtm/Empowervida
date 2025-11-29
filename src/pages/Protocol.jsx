@@ -65,7 +65,7 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundImage: 'url(/clinical_architecture_bg.png)',
+                        backgroundImage: 'url(/dna_white_bg.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         zIndex: 0,
