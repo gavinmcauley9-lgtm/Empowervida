@@ -35,10 +35,10 @@ export default function Home() {
                         width: '100%',
                         height: '100%',
                         zIndex: 0,
-                        backgroundImage: 'url(/hero_dna_botanical.png)',
+                        backgroundImage: 'url(/home_hero_fade.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        opacity: 0.4 // Increased opacity for visibility of Ken Burns effect
+                        opacity: 1.0 // Full opacity as image has built-in fade
                     }}
                 ></div>
 
