@@ -35,7 +35,7 @@ export default function Home() {
                         width: '100%',
                         height: '100%',
                         zIndex: 0,
-                        backgroundImage: 'url(/home_hero_user.png)',
+                        backgroundImage: 'url(/hero_dna_botanical.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         opacity: 0.4 // Increased opacity for visibility of Ken Burns effect
