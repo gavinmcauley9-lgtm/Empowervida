@@ -90,7 +90,7 @@ export default function Home() {
                             fontWeight: 900, // Heavy
                             letterSpacing: '-0.04em',
                             color: '#1A3C34', // Deep Biological Green
-                            marginBottom: '1rem',
+                            marginBottom: '2rem', // Increased padding
                             textTransform: 'uppercase',
                             fontFamily: '"Manrope", sans-serif',
                             lineHeight: 0.9,
@@ -129,7 +129,7 @@ export default function Home() {
                             }}
                             transition={{ duration: 0.3 }}
                             style={{
-                                fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+                                fontSize: 'clamp(2.5rem, 6.25vw, 4.375rem)', // Increased by 25%
                                 fontWeight: 800,
                                 color: '#008080', // Vitality Teal
                                 marginBottom: '1.5rem',
@@ -139,11 +139,11 @@ export default function Home() {
                                 cursor: 'default'
                             }}
                         >
-                            ACTIVATE YOUR POTENTIAL
+                            DON'T JUST AGE. EVOLVE.
                         </motion.h2>
 
-                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '700px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
-                            Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance.
+                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '750px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
+                            The physician-led protocol to upgrade your metabolic engine, sharpen cognitive focus, and extend your prime.
                         </p>
                     </motion.div>
 
@@ -154,10 +154,10 @@ export default function Home() {
                         style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}
                     >
                         <Link to="/protocol" className="btn-primary" style={{ padding: '1rem 2.5rem' }}>
-                            START PROTOCOL
+                            FIND YOUR PROTOCOL
                         </Link>
                         <Link to="/diagnostics" className="btn-secondary" style={{ padding: '1rem 2.5rem' }}>
-                            DIAGNOSTICS
+                            THE LABS
                         </Link>
                     </motion.div>
                 </motion.header>
