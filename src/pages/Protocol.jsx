@@ -152,60 +152,166 @@ const Protocol = () => {
                     position: 'relative',
                     zIndex: 1
                 }}>
-                    {phases.map((phase, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.6, delay: index * 0.2 }}
-                            viewport={{ once: true }}
-                            style={{
-                                background: 'rgba(255, 255, 255, 0.8)',
-                                backdropFilter: 'blur(10px)',
-                                borderRadius: '16px',
-                                padding: '3rem',
-                                border: '1px solid var(--color-border)',
-                                boxShadow: '0 10px 30px rgba(0,0,0,0.03)',
-                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(32, 178, 170, 0.1)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.03)';
-                            }}
-                        >
+                    {/* PHASE 1: THE ENERGY MATRIX */}
+                    <div className="protocol-phase" style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '4rem',
+                        alignItems: 'center',
+                        marginBottom: '8rem'
+                    }}>
+                        <div data-aos="fade-right">
                             <div style={{
-                                textTransform: 'uppercase',
-                                color: 'var(--color-accent-teal)',
-                                fontWeight: 700,
-                                letterSpacing: '0.1em',
-                                marginBottom: '0.5rem',
-                                fontSize: '0.9rem'
-                            }}>
-                                {phase.subtitle}
-                            </div>
-                            <h2 style={{
-                                fontSize: '2rem',
+                                fontSize: '4rem',
                                 fontWeight: 800,
-                                marginBottom: '1rem',
-                                color: 'var(--color-text)',
+                                color: 'rgba(0,0,0,0.05)',
+                                lineHeight: 1,
+                                marginBottom: '-1rem',
+                                marginLeft: '-0.5rem'
+                            }}>01</div>
+                            <h2 style={{
+                                fontSize: '2.5rem',
+                                color: '#1A3C34',
+                                marginBottom: '1.5rem',
                                 fontFamily: '"Manrope", sans-serif'
                             }}>
-                                {phase.title}
+                                THE ENERGY MATRIX
                             </h2>
-                            <p style={{
-                                fontSize: '1.1rem',
-                                lineHeight: 1.6,
-                                color: 'var(--color-text-muted)',
-                                margin: 0
-                            }}>
-                                {phase.content}
+                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
+                                The non-negotiables. Includes Coenzyme Q10 (Ubiquinol) to ignite mitochondrial respiration, Magnesium Malate for stability, and Methylated B-Complex to catalyze fuel conversion.
                             </p>
-                        </motion.div>
-                    ))}
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> CoQ10 (Ubiquinol) 200mg
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Magnesium Malate 400mg
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Methylated B-Complex
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-left" style={{
+                            background: '#F5F5F7',
+                            borderRadius: '24px',
+                            padding: '3rem',
+                            minHeight: '400px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        }}>
+                            <img src="/mitochondria_biogenesis.png" alt="Mitochondrial Structure" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                        </div>
+                    </div>
+
+                    {/* PHASE 2: METABOLIC FLOW */}
+                    <div className="protocol-phase" style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '4rem',
+                        alignItems: 'center',
+                        marginBottom: '8rem',
+                        direction: 'rtl' // Alternating layout
+                    }}>
+                        <div data-aos="fade-left" style={{ direction: 'ltr' }}>
+                            <div style={{
+                                fontSize: '4rem',
+                                fontWeight: 800,
+                                color: 'rgba(0,0,0,0.05)',
+                                lineHeight: 1,
+                                marginBottom: '-1rem',
+                                marginLeft: '-0.5rem'
+                            }}>02</div>
+                            <h2 style={{
+                                fontSize: '2.5rem',
+                                color: '#1A3C34',
+                                marginBottom: '1.5rem',
+                                fontFamily: '"Manrope", sans-serif'
+                            }}>
+                                METABOLIC FLOW
+                            </h2>
+                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
+                                The delivery architecture. Includes Acetyl-L-Carnitine (ALCAR) to shuttle fatty acids across the mitochondrial membrane, and Creatine Monohydrate as a rapid-response ATP buffer.
+                            </p>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Acetyl-L-Carnitine 1000mg
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Creatine Monohydrate 5g
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> PQQ 20mg
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" style={{
+                            background: '#F5F5F7',
+                            borderRadius: '24px',
+                            padding: '3rem',
+                            minHeight: '400px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            direction: 'ltr'
+                        }}>
+                            <img src="/cellular_oil_change.png" alt="Metabolic Transport" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                        </div>
+                    </div>
+
+                    {/* PHASE 3: CELLULAR RENEWAL */}
+                    <div className="protocol-phase" style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '4rem',
+                        alignItems: 'center',
+                        marginBottom: '8rem'
+                    }}>
+                        <div data-aos="fade-right">
+                            <div style={{
+                                fontSize: '4rem',
+                                fontWeight: 800,
+                                color: 'rgba(0,0,0,0.05)',
+                                lineHeight: 1,
+                                marginBottom: '-1rem',
+                                marginLeft: '-0.5rem'
+                            }}>03</div>
+                            <h2 style={{
+                                fontSize: '2.5rem',
+                                color: '#1A3C34',
+                                marginBottom: '1.5rem',
+                                fontFamily: '"Manrope", sans-serif'
+                            }}>
+                                CELLULAR RENEWAL
+                            </h2>
+                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
+                                The purity protocol. Includes N-Acetyl Cysteine (NAC) to replenish Glutathione reserves, Alpha-Lipoic Acid (ALA) for oxidative defense, and Vitamin C for systemic clearing.
+                            </p>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> NAC 600mg
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Alpha-Lipoic Acid 300mg
+                                </li>
+                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Vitamin C 1000mg
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-left" style={{
+                            background: '#F5F5F7',
+                            borderRadius: '24px',
+                            padding: '3rem',
+                            minHeight: '400px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        }}>
+                            <img src="/glymphatic_system_v2.png" alt="Cellular Cleaning" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                        </div>
+                    </div>
                 </div>
             </section>
 
