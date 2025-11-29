@@ -5,10 +5,7 @@ import { Helmet } from 'react-helmet-async';
 export default function About() {
     return (
         <div style={{
-            backgroundImage: 'url(/dna_white_bg.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
+            backgroundColor: 'var(--color-bg)',
             minHeight: '100vh',
             color: 'var(--color-text)',
             fontFamily: '"Inter", sans-serif'
@@ -18,16 +15,54 @@ export default function About() {
                 <meta name="description" content="Why a Board-Certified Family Physician started an anonymous longevity clinic. Bridging the gap between standard care and optimal health." />
             </Helmet>
 
-            <div className="container" style={{ paddingTop: '8rem', paddingBottom: '0' }}>
-                {/* Hero Section */}
-                <section style={{ marginBottom: '8rem', textAlign: 'center' }}>
-                    <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: '1.1', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '800' }}>
+            {/* Hero Section */}
+            <section style={{
+                position: 'relative',
+                height: '60vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                textAlign: 'center',
+                padding: '0 2rem',
+                overflow: 'hidden',
+                marginBottom: '4rem'
+            }}>
+                {/* Background Image */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    backgroundImage: 'url(/water_refraction.png)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    zIndex: 0,
+                    opacity: 0.9
+                }}></div>
+
+                {/* Overlay */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
+                    zIndex: 1
+                }}></div>
+
+                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
+                    <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: '1.1', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '800', fontFamily: '"Manrope", sans-serif' }}>
                         Beyond the <span style={{ color: 'var(--color-accent-teal)' }}>15-Minute</span> Consult.
                     </h1>
-                    <p style={{ fontSize: '1.5rem', color: 'var(--color-text)', maxWidth: '700px', margin: '0 auto', fontWeight: '500' }}>
+                    <p style={{ fontSize: '1.5rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto', fontWeight: '500' }}>
                         Why a Family Medicine Physician started an anonymous longevity clinic.
                     </p>
-                </section>
+                </div>
+            </section>
+
+            <div className="container" style={{ paddingBottom: '0' }}>
 
                 {/* Section 1: The Problem */}
                 <section style={{ marginBottom: '8rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>

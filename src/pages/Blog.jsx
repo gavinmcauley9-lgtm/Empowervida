@@ -16,11 +16,46 @@ export default function Blog() {
             color: 'var(--color-text)',
             fontFamily: '"Inter", sans-serif'
         }}>
-            <div className="container" style={{ paddingTop: '8rem', paddingBottom: '4rem' }}>
+            {/* Hero Section */}
+            <section style={{
+                position: 'relative',
+                height: '50vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                textAlign: 'center',
+                padding: '0 2rem',
+                overflow: 'hidden',
+                marginBottom: '4rem'
+            }}>
+                {/* Background Image */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    backgroundImage: 'url(/sterile_biological_texture.png)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    zIndex: 0,
+                    opacity: 0.6
+                }}></div>
 
-                <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
+                {/* Overlay */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
+                    zIndex: 1
+                }}></div>
+
+                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
                     <h1 style={{
-                        fontSize: '3rem',
+                        fontSize: 'clamp(3rem, 6vw, 4.5rem)',
                         marginBottom: '1rem',
                         color: 'var(--color-text)',
                         fontWeight: 800,
@@ -31,15 +66,18 @@ export default function Blog() {
                         THE JOURNAL
                     </h1>
                     <p style={{
-                        color: 'var(--color-accent-orange)',
+                        color: 'var(--color-accent-teal)',
                         fontSize: '1.2rem',
-                        fontWeight: 500,
+                        fontWeight: 600,
                         letterSpacing: '0.05em',
                         textTransform: 'uppercase'
                     }}>
                         High-signal protocols for the modern human.
                     </p>
-                </header>
+                </div>
+            </section>
+
+            <div className="container" style={{ paddingBottom: '4rem' }}>
 
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (

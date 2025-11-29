@@ -52,11 +52,11 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundImage: 'url(/molecular_network_teal.png)',
+                        backgroundImage: 'url(/cellular_structure.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         zIndex: 0,
-                        opacity: 0.8
+                        opacity: 0.9
                     }}
                 ></motion.div>
 

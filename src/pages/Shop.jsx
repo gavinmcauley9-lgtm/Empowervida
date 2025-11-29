@@ -40,11 +40,41 @@ const Shop = () => {
         }}>
             {/* Hero Section */}
             <section style={{
-                padding: '8rem 2rem 4rem',
+                position: 'relative',
+                height: '60vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 textAlign: 'center',
-                background: 'linear-gradient(to bottom, #FFFFFF 0%, #F5F5F7 100%)'
+                padding: '0 2rem',
+                overflow: 'hidden'
             }}>
-                <div data-aos="fade-up">
+                {/* Background Image */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    backgroundImage: 'url(/capsules_bg_user.jpg)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    zIndex: 0,
+                    opacity: 0.9
+                }}></div>
+
+                {/* Overlay */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
+                    zIndex: 1
+                }}></div>
+
+                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
                     <h1 style={{
                         fontSize: 'clamp(2.5rem, 5vw, 4rem)',
                         fontWeight: 800,
