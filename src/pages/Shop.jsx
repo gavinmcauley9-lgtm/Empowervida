@@ -50,7 +50,7 @@ const Shop = () => {
                 overflow: 'hidden'
             }}>
                 {/* Background Image */}
-                <div style={{
+                <div className="ken-burns-active" style={{
                     position: 'absolute',
                     top: 0,
                     left: 0,

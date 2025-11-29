@@ -29,7 +29,7 @@ export default function Blog() {
                 marginBottom: '4rem'
             }}>
                 {/* Background Image */}
-                <div style={{
+                <div className="ken-burns-active" style={{
                     position: 'absolute',
                     top: 0,
                     left: 0,

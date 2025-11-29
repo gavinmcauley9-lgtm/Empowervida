@@ -42,10 +42,8 @@ const Protocol = () => {
                 overflow: 'hidden'
             }}>
                 {/* Background Image with Overlay */}
-                <motion.div
-                    initial={{ scale: 1 }}
-                    animate={{ scale: 1.05 }}
-                    transition={{ duration: 20, repeat: Infinity, repeatType: "reverse" }}
+                <div
+                    className="ken-burns-active"
                     style={{
                         position: 'absolute',
                         top: 0,
@@ -58,7 +56,7 @@ const Protocol = () => {
                         zIndex: 0,
                         opacity: 0.9
                     }}
-                ></motion.div>
+                ></div>
 
                 <div style={{
                     position: 'absolute',
