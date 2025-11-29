@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 import { POSTS, CATEGORIES } from '../data/posts';
 
 export default function BlogPost() {
@@ -18,13 +18,46 @@ export default function BlogPost() {
 
   const categoryLabel = CATEGORIES.find(c => c.id === post.category)?.label;
 
+  // Article Schema for SEO
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.excerpt,
+    "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/hero_dna_botanical_1764284832727.png",
+    "datePublished": post.date,
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Gavin McAuley",
+      "jobTitle": "Physician & Longevity Specialist"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "EMPOWERVIDA",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://empowervida.com/hero_dna_botanical_1764284832727.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://empowervida.com/blog/${post.id}`
+    }
+  };
+
   return (
     <div style={{ backgroundColor: 'var(--color-bg)', minHeight: '100vh', color: 'var(--color-text)', fontFamily: '"Inter", sans-serif' }}>
       <div className="container" style={{ paddingTop: '8rem', paddingBottom: '6rem', maxWidth: '900px' }}>
-        <Helmet>
-          <title>{post.title} | Medicine 3.0</title>
-          <meta name="description" content={post.excerpt} />
-        </Helmet>
+        <SEO
+          title={`${post.title} | EMPOWERVIDA`}
+          description={post.excerpt}
+          keywords={`${post.category}, longevity, health optimization, ${post.title}`}
+          canonical={`/blog/${post.id}`}
+          ogImage={post.image || '/hero_dna_botanical_1764284832727.png'}
+          ogType="article"
+          author="Dr. Gavin McAuley"
+          schemaData={articleSchema}
+        />
 
         <Link to="/blog" style={{
           display: 'inline-block',

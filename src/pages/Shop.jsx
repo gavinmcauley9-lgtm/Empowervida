@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const Shop = () => {
     const products = [
@@ -27,6 +28,16 @@ const Shop = () => {
             name: "Magnesium Threonate",
             description: "The only form that effectively crosses the blood-brain barrier. For cognitive precision.",
             link: "https://amzn.to/4801eVh"
+        },
+        {
+            name: "BERBERINE HCL + PHYTOSOME",
+            description: "The 'Metabolic Mimetic.' Activates AMPK pathways to regulate glucose and mimic the effects of fasting. Supports insulin sensitivity and lipid metabolism.",
+            link: "#"
+        },
+        {
+            name: "VITAMIN D3 + K2 (LIQUID)",
+            description: "The 'Hormonal Architect.' Essential for immune signaling and mood regulation. Includes K2 to direct calcium into bones and prevent arterial calcification.",
+            link: "#"
         }
     ];
 
@@ -38,6 +49,13 @@ const Shop = () => {
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
         }}>
+            <SEO
+                title="Clinical Supplements - Physician-Recommended Stack | EMPOWERVIDA"
+                description="Evidence-based supplement recommendations from Dr. Gavin McAuley. Creatine, CoQ10, Magnesium, Omega-3, and more for optimal cellular health."
+                keywords="longevity supplements, clinical supplements, CoQ10 ubiquinol, magnesium threonate, omega 3 DHA EPA, creatine monohydrate, mitochondrial support"
+                canonical="/shop"
+                ogImage="/capsules_bg_user.jpg"
+            />
             {/* Hero Section */}
             <section style={{
                 position: 'relative',

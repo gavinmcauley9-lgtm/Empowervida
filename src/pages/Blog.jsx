@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { POSTS, CATEGORIES } from '../data/posts';
+import SEO from '../components/SEO';
 
 export default function Blog() {
     const [activeCategory, setActiveCategory] = useState('all');
@@ -9,6 +10,14 @@ export default function Blog() {
         ? POSTS
         : POSTS.filter(post => post.category === activeCategory);
 
+    const collectionSchema = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "The Journal - EMPOWERVIDA",
+        "description": "Evidence-based longevity protocols and health optimization insights from Dr. Gavin McAuley.",
+        "url": "https://empowervida.com/blog"
+    };
+
     return (
         <div style={{
             backgroundColor: 'var(--color-bg)',
@@ -16,6 +25,14 @@ export default function Blog() {
             color: 'var(--color-text)',
             fontFamily: '"Inter", sans-serif'
         }}>
+            <SEO
+                title="The Journal - Longevity & Health Optimization | EMPOWERVIDA"
+                description="Evidence-based articles on mitochondrial health, brain optimization, cellular renewal, and longevity science. Written by Dr. Gavin McAuley."
+                keywords="longevity blog, mitochondrial health articles, anti-aging science, brain health optimization, cellular health, supplement protocols, health journal"
+                canonical="/blog"
+                ogImage="/dna_bg_user.jpg"
+                schemaData={collectionSchema}
+            />
             {/* Hero Section */}
             <section style={{
                 position: 'relative',

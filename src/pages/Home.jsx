@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
+import SEO from '../components/SEO';
 
 export default function Home() {
     const { scrollY } = useScroll();
@@ -10,8 +11,45 @@ export default function Home() {
     const contentY = useTransform(scrollY, [0, 500], [0, -150]);   // Content moves faster (parallax)
     const contentOpacity = useTransform(scrollY, [0, 300], [1, 0]); // Content fades out
 
+    const organizationSchema = {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "EMPOWERVIDA",
+        "description": "Evidence-based longevity protocols and clinical-grade supplements for optimal health and cellular performance.",
+        "url": "https://empowervida.com",
+        "logo": "https://empowervida.com/hero_dna_botanical_1764284832727.png",
+        "founder": {
+            "@type": "Person",
+            "name": "Dr. Gavin McAuley",
+            "jobTitle": "Physician & Longevity Specialist"
+        },
+        "sameAs": [
+            // Add social media URLs when available
+        ]
+    };
+
+    const websiteSchema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "EMPOWERVIDA",
+        "url": "https://empowervida.com",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://empowervida.com/blog?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    };
+
     return (
         <>
+            <SEO
+                title="EMPOWERVIDA - Longevity, Prescribed | Evidence-Based Health Optimization"
+                description="Physician-led longevity protocols. Clinical-grade supplements for energy, focus, and cellular renewal. Evidence-based solutions for optimal health and performance."
+                keywords="longevity protocol, mitochondrial health, anti-aging supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
+                canonical="/"
+                ogImage="/home_hero_fade.png"
+                schemaData={[organizationSchema, websiteSchema]}
+            />
             {/* Hero Section - Immersive Background */}
             <section style={{
                 position: 'relative',

@@ -1,8 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 
 export default function About() {
+    const personSchema = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dr. Gavin McAuley",
+        "jobTitle": "Board-Certified Family Physician & Longevity Specialist",
+        "description": "Board-certified family physician focusing on longevity medicine, mitochondrial health, and evidence-based wellness protocols.",
+        "url": "https://empowervida.com/about",
+        "alumniOf": "Medical School",
+        "knowsAbout": ["Longevity Medicine", "Mitochondrial Health", "Cellular Optimization", "Evidence-Based Medicine"]
+    };
+
     return (
         <div style={{
             backgroundColor: 'var(--color-bg)',
@@ -10,10 +21,14 @@ export default function About() {
             color: 'var(--color-text)',
             fontFamily: '"Inter", sans-serif'
         }}>
-            <Helmet>
-                <title>About Dr. Gavin | Medicine 3.0</title>
-                <meta name="description" content="Why a Board-Certified Family Physician started an anonymous longevity clinic. Bridging the gap between standard care and optimal health." />
-            </Helmet>
+            <SEO
+                title="About Dr. Gavin McAuley | EMPOWERVIDA"
+                description="Board-certified family physician bridging the gap between standard care and longevity optimization. Evidence-based protocols for mitochondrial health and cellular resilience."
+                keywords="dr gavin mcauley, longevity doctor, family medicine physician, mitochondrial health expert, evidence-based wellness"
+                canonical="/about"
+                ogImage="/water_refraction.png"
+                schemaData={personSchema}
+            />
 
             {/* Hero Section */}
             <section style={{

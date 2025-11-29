@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 
 const Protocol = () => {
     const { hash } = useLocation();
@@ -37,6 +38,25 @@ const Protocol = () => {
         }
     ];
 
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://empowervida.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Protocols",
+                "item": "https://empowervida.com/protocol"
+            }
+        ]
+    };
+
     return (
         <div style={{
             backgroundColor: 'var(--color-bg)',
@@ -45,6 +65,14 @@ const Protocol = () => {
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
         }}>
+            <SEO
+                title="The Master Protocols - Clinical Longevity Stack | EMPOWERVIDA"
+                description="Physician-designed supplement protocols for energy (Vitality), focus (Clarity), and cellular resilience (Foundation). Evidence-based stacks with exact dosing and timing."
+                keywords="longevity supplement protocol, mitochondrial support supplements, brain fog supplements, CoQ10 protocol, magnesium l-threonate, cellular health stack, anti-aging supplement regimen"
+                canonical="/protocol"
+                ogImage="/protocol_hero_fire_v2.jpg"
+                schemaData={breadcrumbSchema}
+            />
             {/* Hero Section */}
             <section style={{
                 position: 'relative',
