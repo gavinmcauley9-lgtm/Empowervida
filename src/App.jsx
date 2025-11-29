@@ -1,6 +1,8 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Scene from './components/Scene';
 import Cursor from './components/Cursor';
 import Navigation from './components/Navigation';
@@ -17,6 +19,15 @@ import EngineRoom from './pages/EngineRoom';
 import Shop from './pages/Shop';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-out',
+      once: true,
+      offset: 50,
+    });
+  }, []);
+
   return (
     <HelmetProvider>
       <Router>

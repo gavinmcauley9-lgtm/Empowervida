@@ -165,7 +165,7 @@ export default function Home() {
 
             {/* NEW: Choose Your Protocol Section */}
             <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
-                <div className="container">
+                <div className="container" data-aos="fade-up">
                     <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
                         <h2 style={{
                             fontSize: 'clamp(2rem, 4vw, 3rem)',
@@ -190,20 +190,29 @@ export default function Home() {
                         margin: '0 auto'
                     }}>
                         {/* CARD 1: VITALITY */}
-                        <div style={{
-                            background: '#FFFFFF',
-                            borderRadius: '16px',
-                            padding: '2.5rem',
-                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                            border: '1px solid rgba(0,0,0,0.05)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            textAlign: 'center',
-                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                        }}
-                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(255, 95, 0, 0.15)'; }}
-                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            style={{
+                                background: '#FFFFFF',
+                                borderRadius: '16px',
+                                padding: '2.5rem',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                                border: '1px solid rgba(0,0,0,0.05)',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                textAlign: 'center',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseEnter={e => {
+                                e.currentTarget.style.transform = 'translateY(-8px)';
+                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
+                            }}
+                            onMouseLeave={e => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
+                            }}
                         >
                             <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#FF5F00' }}>⚡</div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE VITALITY STACK</h3>
@@ -222,20 +231,29 @@ export default function Home() {
                         </div>
 
                         {/* CARD 2: CLARITY */}
-                        <div style={{
-                            background: '#FFFFFF',
-                            borderRadius: '16px',
-                            padding: '2.5rem',
-                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                            border: '1px solid rgba(0,0,0,0.05)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            textAlign: 'center',
-                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                        }}
-                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(0, 128, 128, 0.15)'; }}
-                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                            style={{
+                                background: '#FFFFFF',
+                                borderRadius: '16px',
+                                padding: '2.5rem',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                                border: '1px solid rgba(0,0,0,0.05)',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                textAlign: 'center',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseEnter={e => {
+                                e.currentTarget.style.transform = 'translateY(-8px)';
+                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
+                            }}
+                            onMouseLeave={e => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
+                            }}
                         >
                             <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#008080' }}>🧠</div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE CLARITY STACK</h3>
@@ -254,20 +272,29 @@ export default function Home() {
                         </div>
 
                         {/* CARD 3: FOUNDATION */}
-                        <div style={{
-                            background: '#FFFFFF',
-                            borderRadius: '16px',
-                            padding: '2.5rem',
-                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                            border: '1px solid rgba(0,0,0,0.05)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            textAlign: 'center',
-                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                        }}
-                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(26, 60, 52, 0.15)'; }}
-                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                            style={{
+                                background: '#FFFFFF',
+                                borderRadius: '16px',
+                                padding: '2.5rem',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                                border: '1px solid rgba(0,0,0,0.05)',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                textAlign: 'center',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseEnter={e => {
+                                e.currentTarget.style.transform = 'translateY(-8px)';
+                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
+                            }}
+                            onMouseLeave={e => {
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
+                            }}
                         >
                             <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#1A3C34' }}>🧬</div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE FOUNDATION</h3>

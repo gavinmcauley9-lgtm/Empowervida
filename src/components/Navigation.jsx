@@ -32,8 +32,8 @@ export default function Navigation() {
             width: '100%',
             zIndex: 100,
             padding: '1.5rem 0',
-            background: 'rgba(255, 255, 255, 0.9)', /* Increased opacity for better read */
-            backdropFilter: 'blur(20px)',
+            background: 'rgba(255, 255, 255, 0.85)', /* Frosted Glass Effect */
+            backdropFilter: 'blur(12px)',
             borderBottom: '1px solid rgba(0,0,0,0.05)',
             transition: 'all 0.3s ease'
         }}>
