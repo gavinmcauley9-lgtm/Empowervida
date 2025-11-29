@@ -618,7 +618,7 @@ export const POSTS = [
     id: 13,
     title: 'The Fog of War: Why You Can\'t Focus (And How to Clear the Haze)',
     category: 'cognition',
-    image: '/brain_fog_hero.png',
+    image: '/dark_smoke_bg.png',
     excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
     date: 'Nov 29, 2025',
     cta: {
@@ -656,6 +656,8 @@ export const POSTS = [
 
       <p>In 2013, a groundbreaking study published in <em>Science</em> by Dr. Maiken Nedergaard revealed the <strong>Glymphatic System</strong>. Think of it as the brain's dishwasher. When you enter deep sleep, your brain cells literally shrink by 60%, allowing cerebrospinal fluid to wash away metabolic waste products like beta-amyloid.</p>
 
+      <img src="/glymphatic_system_v2.png" alt="The Glymphatic System" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
+
       <p>If you have sleep apnea, or if you drink alcohol before bed (which crushes REM sleep), the dishwasher never turns on. You wake up with a brain full of metabolic trash. That "fog" you feel at 9:00 AM is literal cellular waste clogging your neural networks.</p>
 
       <h3>2. The Inflammation Cascade (The Leaky Shield)</h3>
@@ -673,6 +675,8 @@ export const POSTS = [
       <p><strong>Vitamin D:</strong> As discussed in previous columns, Vitamin D receptors in the hippocampus and cortex are crucial for planning and processing. Low D is linked to slower cognitive processing speeds.</p>
 
       <p><strong>B-Vitamins:</strong> B12 and Folate are essential for methylation—the process that makes neurotransmitters. Without them, you can't build the chemicals you need to focus.</p>
+
+      <img src="/nootropics_diagram.png" alt="Synaptic Transmission" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
 
       <h2>The Protocol: Clearing the Haze</h2>
 

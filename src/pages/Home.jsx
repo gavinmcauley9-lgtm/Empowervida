@@ -151,17 +151,141 @@ export default function Home() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1.2, duration: 0.8 }}
+                        style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}
                     >
-                        <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <Link to="/protocol" className="btn-primary" style={{ textDecoration: 'none', padding: '1.2rem 3rem', fontSize: '1rem' }}>
-                                EXPLORE THE PROTOCOL
-                            </Link>
-                            <Link to="/blog" className="btn-secondary" style={{ textDecoration: 'none', padding: '1.2rem 3rem', fontSize: '1rem', background: 'rgba(255,255,255,0.8)' }}>
-                                READ THE JOURNAL
-                            </Link>
-                        </div>
+                        <Link to="/protocol" className="btn-primary" style={{ padding: '1rem 2.5rem' }}>
+                            START PROTOCOL
+                        </Link>
+                        <Link to="/diagnostics" className="btn-secondary" style={{ padding: '1rem 2.5rem' }}>
+                            DIAGNOSTICS
+                        </Link>
                     </motion.div>
                 </motion.header>
+            </section>
+
+            {/* NEW: Choose Your Protocol Section */}
+            <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
+                <div className="container">
+                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                        <h2 style={{
+                            fontSize: 'clamp(2rem, 4vw, 3rem)',
+                            fontWeight: 800,
+                            color: '#1A3C34',
+                            marginBottom: '1rem',
+                            fontFamily: '"Manrope", sans-serif',
+                            letterSpacing: '-0.02em'
+                        }}>
+                            ENGINEERED FOR YOUR BIOLOGY.
+                        </h2>
+                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', maxWidth: '600px', margin: '0 auto' }}>
+                            Select your primary objective. Evidence-based stacks designed for specific clinical outcomes.
+                        </p>
+                    </div>
+
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        gap: '2rem',
+                        maxWidth: '1200px',
+                        margin: '0 auto'
+                    }}>
+                        {/* CARD 1: VITALITY */}
+                        <div style={{
+                            background: '#FFFFFF',
+                            borderRadius: '16px',
+                            padding: '2.5rem',
+                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                            border: '1px solid rgba(0,0,0,0.05)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            textAlign: 'center',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                        }}
+                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(255, 95, 0, 0.15)'; }}
+                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        >
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#FF5F00' }}>⚡</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE VITALITY STACK</h3>
+                            <p style={{ fontSize: '0.9rem', color: '#FF5F00', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Physical & Cellular Energy</p>
+                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                                Eliminate the afternoon crash. Fuel your mitochondria for sustained ATP production.
+                            </p>
+                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
+                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
+                                    Bio-Available CoQ10 • Creatine Monohydrate • Methylated B-Complex
+                                </p>
+                            </div>
+                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#FF5F00', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #FF5F00', paddingBottom: '2px' }}>
+                                VIEW THE STACK &gt;
+                            </Link>
+                        </div>
+
+                        {/* CARD 2: CLARITY */}
+                        <div style={{
+                            background: '#FFFFFF',
+                            borderRadius: '16px',
+                            padding: '2.5rem',
+                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                            border: '1px solid rgba(0,0,0,0.05)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            textAlign: 'center',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                        }}
+                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(0, 128, 128, 0.15)'; }}
+                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        >
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#008080' }}>🧠</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE CLARITY STACK</h3>
+                            <p style={{ fontSize: '0.9rem', color: '#008080', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Focus & Cognitive Speed</p>
+                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                                Clear the fog. Optimize neurotransmitter synthesis and synaptic firing speeds.
+                            </p>
+                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
+                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
+                                    Magnesium L-Threonate • High-DHA Omega-3 • Lion's Mane
+                                </p>
+                            </div>
+                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#008080', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #008080', paddingBottom: '2px' }}>
+                                VIEW THE STACK &gt;
+                            </Link>
+                        </div>
+
+                        {/* CARD 3: FOUNDATION */}
+                        <div style={{
+                            background: '#FFFFFF',
+                            borderRadius: '16px',
+                            padding: '2.5rem',
+                            boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
+                            border: '1px solid rgba(0,0,0,0.05)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            textAlign: 'center',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                        }}
+                            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-10px)'; e.currentTarget.style.boxShadow = '0 20px 60px rgba(26, 60, 52, 0.15)'; }}
+                            onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)'; }}
+                        >
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#1A3C34' }}>🧬</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE FOUNDATION</h3>
+                            <p style={{ fontSize: '0.9rem', color: '#1A3C34', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Immunity & Genomic Stability</p>
+                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                                The non-negotiables. Defense against inflammation and genomic instability.
+                            </p>
+                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
+                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
+                                    Vitamin D3 + K2 • GlyNAC • Zinc Picolinate
+                                </p>
+                            </div>
+                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#1A3C34', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #1A3C34', paddingBottom: '2px' }}>
+                                VIEW THE STACK &gt;
+                            </Link>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             {/* Trust Bar - Light Divider */}

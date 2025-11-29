@@ -43,9 +43,64 @@ export default function Navigation() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="desktop-only">
+                <div className="desktop-only" style={{ display: 'flex', alignItems: 'center' }}>
                     <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
-                    <Link to="/protocol" style={linkStyle('/protocol')}>The Protocol</Link>
+
+                    {/* Protocols Dropdown */}
+                    <div
+                        style={{ position: 'relative', display: 'inline-block' }}
+                        onMouseEnter={(e) => {
+                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            if (menu) {
+                                menu.style.opacity = '1';
+                                menu.style.visibility = 'visible';
+                                menu.style.transform = 'translateY(0)';
+                            }
+                        }}
+                        onMouseLeave={(e) => {
+                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            if (menu) {
+                                menu.style.opacity = '0';
+                                menu.style.visibility = 'hidden';
+                                menu.style.transform = 'translateY(10px)';
+                            }
+                        }}
+                    >
+                        <span style={{ ...linkStyle('/protocol'), cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            PROTOCOLS <span style={{ fontSize: '0.7em' }}>▼</span>
+                        </span>
+                        <div
+                            className="dropdown-menu"
+                            style={{
+                                position: 'absolute',
+                                top: '100%',
+                                left: '50%',
+                                transform: 'translateY(10px) translateX(-50%)', // Centered
+                                opacity: 0,
+                                visibility: 'hidden',
+                                background: 'rgba(255, 255, 255, 0.95)',
+                                backdropFilter: 'blur(20px)',
+                                border: '1px solid rgba(0,0,0,0.05)',
+                                borderRadius: '12px',
+                                padding: '1rem',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
+                                minWidth: '220px',
+                                transition: 'all 0.2s ease',
+                                marginLeft: '-50%' // Correction for left: 50%
+                            }}
+                        >
+                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                ⚡ VITALITY (Energy)
+                            </Link>
+                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                🧠 CLARITY (Brain)
+                            </Link>
+                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                🧬 FOUNDATION (Longevity)
+                            </Link>
+                        </div>
+                    </div>
+
                     <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
                     <Link to="/shop" style={linkStyle('/shop')}>Shop</Link>
                     <Link to="/about" style={linkStyle('/about')}>About</Link>
@@ -87,7 +142,14 @@ export default function Navigation() {
                     transition: 'opacity 0.3s ease'
                 }}>
                     <Link to="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
-                    <Link to="/protocol" style={mobileLinkStyle('/protocol')} onClick={() => setIsOpen(false)}>The Protocol</Link>
+
+                    <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
+                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Protocols</p>
+                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ VITALITY</Link>
+                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#008080', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧠 CLARITY</Link>
+                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#1A3C34', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 FOUNDATION</Link>
+                    </div>
+
                     <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
                     <Link to="/shop" style={mobileLinkStyle('/shop')} onClick={() => setIsOpen(false)}>Shop</Link>
                     <Link to="/about" style={mobileLinkStyle('/about')} onClick={() => setIsOpen(false)}>About</Link>
