@@ -26,15 +26,8 @@ export default function Home() {
                 color: 'var(--color-text-hero)'
             }}>
                 {/* Background Image Layer - Sterile Texture */}
-                <motion.div
-                    initial={{ scale: 1 }}
-                    animate={{ scale: 1.05 }} // Subtle breathing
-                    transition={{
-                        duration: 30,
-                        repeat: Infinity,
-                        repeatType: "reverse",
-                        ease: "linear"
-                    }}
+                <div
+                    className="ken-burns-active"
                     style={{
                         position: 'absolute',
                         top: 0,
@@ -42,20 +35,12 @@ export default function Home() {
                         width: '100%',
                         height: '100%',
                         zIndex: 0,
-                        y: backgroundY // Apply Parallax Y
+                        backgroundImage: 'url(/hero_dna_botanical.png)',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        opacity: 0.4 // Increased opacity for visibility of Ken Burns effect
                     }}
-                >
-                    <img
-                        src="/sterile_biological_texture.png"
-                        alt="Background"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            opacity: 0.08, // 8% Opacity (Target 5-10%)
-                        }}
-                    />
-                </motion.div>
+                ></div>
 
                 {/* Gradient Overlay - Subtle White Fade */}
                 <div style={{
