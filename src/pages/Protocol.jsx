@@ -218,7 +218,7 @@ const Protocol = () => {
                             alignItems: 'center',
                             justifyContent: 'center'
                         }}>
-                            <img src="/mitochondria_biogenesis.png" alt="Mitochondrial Structure" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                            <img src="/vitality_mitochondria.png" alt="Mitochondrial Structure" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
                         </div>
                     </div>
 
@@ -277,7 +277,7 @@ const Protocol = () => {
                             justifyContent: 'center',
                             direction: 'ltr'
                         }}>
-                            <img src="/cellular_oil_change.png" alt="Neuro Optimization" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                            <img src="/clarity_brain.png" alt="Neuro Optimization" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
                         </div>
                     </div>
 
@@ -334,7 +334,7 @@ const Protocol = () => {
                             alignItems: 'center',
                             justifyContent: 'center'
                         }}>
-                            <img src="/glymphatic_system_v2.png" alt="Cellular Resilience" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                            <img src="/foundation_dna.png" alt="Cellular Resilience" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
                         </div>
                     </div>
                 </div>
