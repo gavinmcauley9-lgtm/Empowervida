@@ -89,13 +89,13 @@ export default function Navigation() {
                                 marginLeft: '-50%' // Correction for left: 50%
                             }}
                         >
-                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 ⚡ VITALITY (Energy)
                             </Link>
-                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧠 CLARITY (Brain)
                             </Link>
-                            <Link to="/protocol" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#foundation-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧬 FOUNDATION (Longevity)
                             </Link>
                         </div>
@@ -145,9 +145,9 @@ export default function Navigation() {
 
                     <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
                         <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Protocols</p>
-                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ VITALITY</Link>
-                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#008080', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧠 CLARITY</Link>
-                        <Link to="/protocol" style={{ ...mobileLinkStyle('/protocol'), color: '#1A3C34', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 FOUNDATION</Link>
+                        <Link to="/protocol#vitality-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ VITALITY</Link>
+                        <Link to="/protocol#clarity-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#008080', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧠 CLARITY</Link>
+                        <Link to="/protocol#foundation-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#1A3C34', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 FOUNDATION</Link>
                     </div>
 
                     <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>

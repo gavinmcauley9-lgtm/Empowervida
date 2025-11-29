@@ -1,9 +1,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const Protocol = () => {
+    const { hash } = useLocation();
+
+    React.useEffect(() => {
+        if (hash) {
+            const element = document.getElementById(hash.replace('#', ''));
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        } else {
+            window.scrollTo(0, 0);
+        }
+    }, [hash]);
+
     const phases = [
         {
             title: "PHASE 1: THE ENGINE BLOCK",
@@ -150,13 +165,14 @@ const Protocol = () => {
                     position: 'relative',
                     zIndex: 1
                 }}>
-                    {/* PHASE 1: THE ENERGY MATRIX */}
-                    <div className="protocol-phase" style={{
+                    {/* SECTION 1: VITALITY (The Energy Matrix) */}
+                    <div id="vitality-stack" className="protocol-phase" style={{
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                         gap: '4rem',
                         alignItems: 'center',
-                        marginBottom: '8rem'
+                        marginBottom: '8rem',
+                        scrollMarginTop: '120px' // Offset for fixed header
                     }}>
                         <div data-aos="fade-right">
                             <div style={{
@@ -170,23 +186,26 @@ const Protocol = () => {
                             <h2 style={{
                                 fontSize: '2.5rem',
                                 color: '#1A3C34',
-                                marginBottom: '1.5rem',
+                                marginBottom: '0.5rem',
                                 fontFamily: '"Manrope", sans-serif'
                             }}>
-                                THE ENERGY MATRIX
+                                VITALITY: THE ENERGY MATRIX
                             </h2>
+                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                Targeted support for ATP synthesis and mitochondrial respiration.
+                            </p>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The non-negotiables. Includes Coenzyme Q10 (Ubiquinol) to ignite mitochondrial respiration, Magnesium Malate for stability, and Methylated B-Complex to catalyze fuel conversion.
+                                The engine block of your biology. This stack is designed to optimize the electron transport chain, ensuring your cells have the raw power to perform.
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> CoQ10 (Ubiquinol) 200mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Creatine Monohydrate (5g)
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Magnesium Malate 400mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> CoQ10 Ubiquinol (200mg)
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Methylated B-Complex
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Acetyl-L-Carnitine (1g)
                                 </li>
                             </ul>
                         </div>
@@ -203,14 +222,15 @@ const Protocol = () => {
                         </div>
                     </div>
 
-                    {/* PHASE 2: METABOLIC FLOW */}
-                    <div className="protocol-phase" style={{
+                    {/* SECTION 2: CLARITY (Neuro-Optimization) */}
+                    <div id="clarity-stack" className="protocol-phase" style={{
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                         gap: '4rem',
                         alignItems: 'center',
                         marginBottom: '8rem',
-                        direction: 'rtl' // Alternating layout
+                        direction: 'rtl', // Alternating layout
+                        scrollMarginTop: '120px'
                     }}>
                         <div data-aos="fade-left" style={{ direction: 'ltr' }}>
                             <div style={{
@@ -224,23 +244,26 @@ const Protocol = () => {
                             <h2 style={{
                                 fontSize: '2.5rem',
                                 color: '#1A3C34',
-                                marginBottom: '1.5rem',
+                                marginBottom: '0.5rem',
                                 fontFamily: '"Manrope", sans-serif'
                             }}>
-                                METABOLIC FLOW
+                                CLARITY: NEURO-OPTIMIZATION
                             </h2>
+                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                Enhancing neuroplasticity, focus, and processing speed.
+                            </p>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The delivery architecture. Includes Acetyl-L-Carnitine (ALCAR) to shuttle fatty acids across the mitochondrial membrane, and Creatine Monohydrate as a rapid-response ATP buffer.
+                                The software upgrade. This stack targets synaptic density and neurotransmitter balance to cut through brain fog and sharpen cognitive edge.
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Acetyl-L-Carnitine 1000mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Magnesium L-Threonate (2g)
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Creatine Monohydrate 5g
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> High-DHA Omega-3 (2g)
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> PQQ 20mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> L-Theanine (200mg)
                                 </li>
                             </ul>
                         </div>
@@ -254,17 +277,18 @@ const Protocol = () => {
                             justifyContent: 'center',
                             direction: 'ltr'
                         }}>
-                            <img src="/cellular_oil_change.png" alt="Metabolic Transport" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                            <img src="/cellular_oil_change.png" alt="Neuro Optimization" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
                         </div>
                     </div>
 
-                    {/* PHASE 3: CELLULAR RENEWAL */}
-                    <div className="protocol-phase" style={{
+                    {/* SECTION 3: FOUNDATION (Cellular Resilience) */}
+                    <div id="foundation-stack" className="protocol-phase" style={{
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                         gap: '4rem',
                         alignItems: 'center',
-                        marginBottom: '8rem'
+                        marginBottom: '8rem',
+                        scrollMarginTop: '120px'
                     }}>
                         <div data-aos="fade-right">
                             <div style={{
@@ -278,23 +302,26 @@ const Protocol = () => {
                             <h2 style={{
                                 fontSize: '2.5rem',
                                 color: '#1A3C34',
-                                marginBottom: '1.5rem',
+                                marginBottom: '0.5rem',
                                 fontFamily: '"Manrope", sans-serif'
                             }}>
-                                CELLULAR RENEWAL
+                                FOUNDATION: CELLULAR RESILIENCE
                             </h2>
+                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                The daily non-negotiables for genomic stability.
+                            </p>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The purity protocol. Includes N-Acetyl Cysteine (NAC) to replenish Glutathione reserves, Alpha-Lipoic Acid (ALA) for oxidative defense, and Vitamin C for systemic clearing.
+                                The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy.
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> NAC 600mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Vitamin D3 + K2
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Alpha-Lipoic Acid 300mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> GlyNAC Complex
                                 </li>
                                 <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Vitamin C 1000mg
+                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Methylated B-Complex
                                 </li>
                             </ul>
                         </div>
@@ -307,7 +334,7 @@ const Protocol = () => {
                             alignItems: 'center',
                             justifyContent: 'center'
                         }}>
-                            <img src="/glymphatic_system_v2.png" alt="Cellular Cleaning" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
+                            <img src="/glymphatic_system_v2.png" alt="Cellular Resilience" style={{ maxWidth: '100%', filter: 'grayscale(100%) opacity(0.8)' }} />
                         </div>
                     </div>
                 </div>
