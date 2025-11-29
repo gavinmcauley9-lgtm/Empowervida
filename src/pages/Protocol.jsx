@@ -65,13 +65,31 @@ const Protocol = () => {
                         left: 0,
                         width: '100%',
                         height: '100%',
-                        backgroundImage: 'url(/cellular_structure.png)',
+                        backgroundImage: 'url(/clinical_architecture_bg.png)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         zIndex: 0,
                         opacity: 0.9
                     }}
                 ></div>
+
+                {/* Watermark Text: SYSTEMS */}
+                <div style={{
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    fontSize: 'clamp(5rem, 15vw, 12rem)',
+                    fontWeight: 900,
+                    color: 'rgba(0,0,0,0.03)', // Very faint watermark
+                    zIndex: 1,
+                    pointerEvents: 'none',
+                    whiteSpace: 'nowrap',
+                    letterSpacing: '0.1em',
+                    fontFamily: '"Manrope", sans-serif'
+                }}>
+                    SYSTEMS
+                </div>
 
                 <div style={{
                     position: 'absolute',
