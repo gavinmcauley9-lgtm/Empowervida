@@ -37,7 +37,7 @@ export default function Home() {
                         zIndex: 0,
                         backgroundImage: 'url(/home_hero_fade.png)',
                         backgroundSize: 'cover',
-                        backgroundPosition: 'center',
+                        backgroundPosition: 'center 20%',
                         opacity: 1.0 // Full opacity as image has built-in fade
                     }}
                 ></div>
