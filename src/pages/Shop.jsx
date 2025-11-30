@@ -36,6 +36,13 @@ const Shop = () => {
                     why: 'The only form of Magnesium proven to cross the blood-brain barrier. It calms NMDA receptors to allow for Deep Delta Wave sleep, where the brain cleans toxins.',
                     pick: 'Life Extension Neuro-Mag',
                     link: 'https://geni.us/OBPS'
+                },
+                {
+                    name: 'Ashwagandha KSM-66',
+                    subtitle: 'The Cortisol Thermostat',
+                    why: 'Adaptogens reset your HPA axis. If evening cortisol is too high (Tired but Wired), Ashwagandha brings it down by 27.9%. Allows natural melatonin to rise for deep sleep. KSM-66 is the clinically studied root extract.',
+                    pick: 'Jarrow Formulas KSM-66',
+                    link: 'https://geni.us/0aQSj9B'
                 }
             ]
         },

@@ -1462,6 +1462,105 @@ export const POSTS = [
         <li>Ghirlanda, G., et al. (1993). "Evidence of plasma CoQ10-lowering effect by HMG-CoA reductase inhibitors: a double-blind, placebo-controlled study." Journal of Clinical Pharmacology.</li>
         <li>Chowanadisai, W., et al. (2010). "Pyrroloquinoline quinone stimulates mitochondrial biogenesis." Journal of Biological Chemistry.</li>
       </ul>
+      </ul>
+    `
+  },
+  {
+    id: 20,
+    title: 'TIRED BUT WIRED: Why You Can\'t Turn Your Brain Off at 10 PM',
+    category: 'sleep',
+    image: '/cellular_structure.png',
+    excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this—you\'re groggy at 8 AM and wired at 10 PM.',
+    date: 'Dec 06, 2025',
+    cta: {
+      text: "Get Dr. Gavin's Cortisol Reset",
+      link: "/shop"
+    },
+    content: `
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
+      
+      <p>It is 10:30 PM. You have been exhausted all day. You struggled to keep your eyes open during your 2:00 PM meeting. You told yourself, "Tonight, I am going to sleep early."</p>
+      
+      <p>But the moment your head hits the pillow, your eyes pop open. Your body is tired, but your mind is racing. You are making to-do lists. You are replaying conversations. You are suddenly, frustratingly, wide awake.</p>
+      
+      <p>We call this <strong>"Tired but Wired."</strong> In medicine, we call it <strong>HPA Axis Dysregulation</strong>.</p>
+      
+      <h2>The Medical Reality: The Inverted Curve</h2>
+      
+      <p>Your body runs on a strict hormonal schedule called the <strong>Circadian Rhythm</strong>.</p>
+      
+      <ul>
+        <li><strong>Morning:</strong> Cortisol (stress hormone) should be HIGH to wake you up.</li>
+        <li><strong>Evening:</strong> Cortisol should be LOW to let Melatonin (sleep hormone) rise.</li>
+      </ul>
+      
+      <p>For many of my patients, this curve is inverted. Because of chronic stress, blue light, and caffeine, their body thinks 10:00 PM is the start of the workday. You are getting a "second wind" of cortisol right when you should be crashing.</p>
+      
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/cellular_structure.png" alt="Cortisol Curve Comparison" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Inverted Curve: Healthy Cortisol Pattern vs. Dysregulated Pattern</p>
+      </div>
+      
+      <h2>The Damage: Stress Makes You Fat (Literally)</h2>
+      
+      <p>This isn't just about losing sleep. Chronically high cortisol is toxic.</p>
+      
+      <ul>
+        <li><strong>It eats your memory:</strong> Cortisol is neurotoxic to the Hippocampus (the memory center).</li>
+        <li><strong>It changes your shape:</strong> Cortisol tells your body to store fat specifically in the visceral area (belly fat) to protect the organs during "danger."</li>
+      </ul>
+      
+      <p>If you are "eating right" but still hold weight around your midsection, and you can't sleep at night, you don't have a diet problem. You have a stress problem.</p>
+      
+      <h2>The Solution: The "Thermostat" (Ashwagandha)</h2>
+      
+      <p>You cannot just "relax." If your chemistry is high, you need chemistry to lower it.</p>
+      
+      <p>This is where <strong>Adaptogens</strong> come in. An adaptogen is not a sedative. It doesn't knock you out like a sleeping pill. Instead, it acts like a thermostat. If your cortisol is too high, it brings it down. If it's too low, it brings it up.</p>
+      
+      <p>The king of clinical adaptogens is <strong>Ashwagandha</strong>.</p>
+      
+      <p><strong>The Data:</strong> A randomized, double-blind study published in the <em>Indian Journal of Psychological Medicine</em> found that high-concentration Ashwagandha root extract reduced serum cortisol levels by 27.9% after 60 days.</p>
+      
+      <p>Imagine lowering your baseline stress by nearly 30% just by taking a root extract.</p>
+      
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/dna_white_bg.png" alt="Ashwagandha Root" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Root: Ashwagandha - Ancient Adaptogen, Modern Science</p>
+      </div>
+      
+      <h2>The Protocol: Use the Right Form</h2>
+      
+      <p>Most Ashwagandha on the shelf is just ground-up leaves (weak). You need the <strong>root extract</strong>. Look for <strong>KSM-66®</strong> or <strong>Sensoril®</strong>. These are the patented extracts used in the clinical trials.</p>
+      
+      <p><strong>When:</strong> Take it with dinner or 2 hours before bed.</p>
+      
+      <p><strong>Why:</strong> It blunts the evening cortisol spike, allowing your natural melatonin to finally do its job.</p>
+      
+      <h2>THE TAKEAWAY</h2>
+      
+      <p>You aren't broken, and you aren't an insomniac. Your alarm system is just stuck in the "ON" position. Reset the alarm. Lower the cortisol. Sleep.</p>
+      
+      <h3>TOOL: The Clinical Extract (KSM-66)</h3>
+      
+      <p>I only recommend Ashwagandha that uses the KSM-66 extraction process, as it preserves the full spectrum of active withanolides without chemical solvents.</p>
+      
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/0aQSj9B" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Get the Doctor-Recommended KSM-66 Ashwagandha Here →
+        </a>
+      </p>
+      
+      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
+      
+      <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>SCIENTIFIC REFERENCES</strong></p>
+      <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
+        <li>Chandrasekhar, K., et al. (2012). "A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root in reducing stress and anxiety in adults." Indian Journal of Psychological Medicine.</li>
+        <li>Lopresti, A. L., et al. (2019). "An investigation into the stress-relieving and pharmacological actions of an ashwagandha (Withania somnifera) extract." Medicine.</li>
+        <li>Wambier, C. G., et al. (2018). "Cortisol levels and hair loss." Journal of Drugs in Dermatology.</li>
+      </ul>
     `
   }
 ];
