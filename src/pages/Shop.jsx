@@ -141,8 +141,8 @@ const Shop = () => {
 
     return (
         <div style={{
-            backgroundColor: 'var(--color-bg)',
-            color: 'var(--color-text)',
+            backgroundColor: '#0B0F11',
+            color: '#FFFFFF',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
@@ -187,7 +187,7 @@ const Shop = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(180deg, rgba(11, 15, 17, 0.7) 0%, rgba(11, 15, 17, 0.95) 100%)',
+                    background: 'linear-gradient(180deg, rgba(11, 15, 17, 0.7) 0%, #0B0F11 100%)',
                     zIndex: 1
                 }}></div>
 
@@ -237,7 +237,7 @@ const Shop = () => {
 
             {/* Protocols Section */}
             <section style={{
-                padding: '6rem 2rem',
+                padding: '4rem 2rem',
                 maxWidth: '1400px',
                 margin: '0 auto'
             }}>
@@ -267,7 +267,7 @@ const Shop = () => {
                                 fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
                                 fontWeight: 800,
                                 marginBottom: '1rem',
-                                color: 'var(--color-text)'
+                                color: '#FFFFFF'
                             }}>
                                 {protocol.title}
                             </h2>
@@ -294,19 +294,19 @@ const Shop = () => {
                                     whileHover={{ y: -8 }}
                                     transition={{ duration: 0.3 }}
                                     style={{
-                                        backgroundColor: '#FFFFFF',
-                                        color: '#0B0F11',
+                                        backgroundColor: '#1A2023',
+                                        color: '#FFFFFF',
                                         borderRadius: '16px',
                                         padding: '2.5rem',
-                                        boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
-                                        border: '1px solid rgba(32, 178, 170, 0.1)'
+                                        boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
+                                        border: '1px solid rgba(255, 255, 255, 0.05)'
                                     }}
                                 >
                                     <h3 style={{
                                         fontSize: '1.5rem',
                                         fontWeight: 700,
                                         marginBottom: '0.5rem',
-                                        color: '#0B0F11'
+                                        color: '#FFFFFF'
                                     }}>
                                         {product.name}
                                     </h3>
@@ -322,21 +322,21 @@ const Shop = () => {
                                     <div style={{
                                         marginBottom: '1.5rem',
                                         padding: '1rem',
-                                        backgroundColor: 'rgba(32, 178, 170, 0.05)',
+                                        backgroundColor: 'rgba(32, 178, 170, 0.1)',
                                         borderRadius: '8px',
                                         borderLeft: '4px solid var(--color-accent-teal)'
                                     }}>
                                         <p style={{
                                             fontSize: '0.85rem',
                                             fontWeight: 600,
-                                            color: '#0B0F11',
+                                            color: '#FFFFFF',
                                             marginBottom: '0.5rem'
                                         }}>
                                             The Medical Why:
                                         </p>
                                         <p style={{
                                             fontSize: '0.95rem',
-                                            color: '#333',
+                                            color: 'rgba(255,255,255,0.8)',
                                             lineHeight: 1.6
                                         }}>
                                             {product.why}
@@ -345,7 +345,7 @@ const Shop = () => {
 
                                     <p style={{
                                         fontSize: '0.9rem',
-                                        color: '#666',
+                                        color: 'rgba(255,255,255,0.6)',
                                         marginBottom: '1.5rem',
                                         fontStyle: 'italic'
                                     }}>
@@ -393,14 +393,15 @@ const Shop = () => {
             {/* Footer Disclaimer */}
             <section style={{
                 padding: '4rem 2rem',
-                backgroundColor: 'rgba(32, 178, 170, 0.05)',
-                textAlign: 'center'
+                backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                textAlign: 'center',
+                borderTop: '1px solid rgba(255,255,255,0.05)'
             }}>
                 <p style={{
                     maxWidth: '800px',
                     margin: '0 auto',
                     fontSize: '0.9rem',
-                    color: 'var(--color-text-muted)',
+                    color: 'rgba(255,255,255,0.5)',
                     lineHeight: 1.6
                 }}>
                     <strong>Disclaimer:</strong> These statements have not been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before starting any supplement protocol, especially if you are taking medications or have underlying health conditions.
