@@ -31,8 +31,8 @@ const Shop = () => {
         },
         {
             name: "BERBERINE HCL + PHYTOSOME",
-            description: "The 'Metabolic Mimetic.' Activates AMPK pathways to regulate glucose and mimic the effects of fasting. Supports insulin sensitivity and lipid metabolism.",
-            link: "#"
+            description: "The 'Metabolic Mimetic' & Longevity Switch. Activates AMPK pathways to regulate glucose, mimic fasting effects, and prevent glycation (the internal 'caramelization' that ages your organs). Supports insulin sensitivity and metabolic health. Phytosome formula for superior absorption.",
+            link: "https://geni.us/e3g2"
         },
         {
             name: "VITAMIN D3 + K2 (LIQUID)",
