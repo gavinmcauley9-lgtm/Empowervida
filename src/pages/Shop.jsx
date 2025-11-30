@@ -43,6 +43,11 @@ const Shop = () => {
             name: "NAC (N-ACETYL CYSTEINE)",
             description: "The 'Cellular Scavenger.' The direct precursor to Glutathione (the body's master antioxidant). Critical for liver health, lung function, and reducing oxidative stress.",
             link: "#"
+        },
+        {
+            name: "CURCUMIN PHYTOSOME (MERIVA®)",
+            description: "The 'Fire Extinguisher.' Clinically studied bioavailable curcumin that crosses the blood-brain barrier to calm neuroinflammation. Reduces anxiety, brain fog, and supports mood by lowering inflammatory cytokines. The most potent natural anti-inflammatory.",
+            link: "https://geni.us/OrGpAV"
         }
     ];
 
