@@ -87,6 +87,20 @@ const Shop = () => {
                     link: 'https://geni.us/e3g2'
                 }
             ]
+        },
+        {
+            icon: '☀️',
+            title: 'THE IMMUNE & HORMONAL HEALTH PROTOCOL',
+            goal: 'Mood, Immunity, & Bone Density',
+            products: [
+                {
+                    name: 'Vitamin D3 + K2 (Liquid)',
+                    subtitle: 'The Solar Hormone',
+                    why: 'Vitamin D is not a vitamin—it\'s a secosteroid hormone that controls 5% of your genome. Without K2, calcium goes to your arteries. With K2, it goes to your bones. Liquid drops bypass gut malabsorption.',
+                    pick: 'Thorne Vitamin D/K2 Liquid',
+                    link: 'https://geni.us/sGnuqg'
+                }
+            ]
         }
     ];
 
