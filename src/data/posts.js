@@ -202,7 +202,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/hAgLBH" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Magnesium L-Threonate Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -439,7 +439,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/0id7g" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended High-DHA Formula Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -951,7 +951,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/fCiHC" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Curcumin Formula Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1054,7 +1054,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Creatine Monohydrate Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1156,7 +1156,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/ANVjh" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Metabolic Support Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1261,7 +1261,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/BvEHS0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Liquid D3/K2 Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1358,7 +1358,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/zrRNpo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Grass-Fed Whey Isolate Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1450,7 +1450,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/kyBLJ3m" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Ubiquinol + PQQ Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1549,7 +1549,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/AxGBnX" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended KSM-66 Ashwagandha Here →
+          Check Price on Amazon
         </a>
       </p>
       
@@ -1649,7 +1649,7 @@ export const POSTS = [
       
       <p style="text-align: center; margin: 2rem 0;">
         <a href="https://geni.us/6fwizx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Get the Doctor-Recommended Methylated B-Complex Here →
+          Check Price on Amazon
         </a>
       </p>
       
