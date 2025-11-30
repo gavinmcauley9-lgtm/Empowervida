@@ -85,7 +85,7 @@ export const POSTS = [
       <p>You cannot build a new city on top of a ruin. Before we build new mitochondria, we must clear out the old, dysfunctional ones. This process is called <strong>Mitophagy</strong>.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
+        <img src="/mitophagy_diagram.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Mitophagy: Recycling Cellular Waste</p>
       </div>
 
@@ -93,7 +93,7 @@ export const POSTS = [
       <p><strong>The Prescription:</strong> Direct supplementation is usually required for clinical effect. Look for 500mg daily to ensure you are effectively recycling cellular waste.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/sterile_biological_texture.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
+        <img src="/urolithin_a_structure.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Molecular Precision: Urolithin A</p>
       </div>
 
@@ -1401,7 +1401,7 @@ export const POSTS = [
       <p>By blocking the bad guy, we are accidentally starving the good guy.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Mitochondria Spark Plug" style="width: 100%; height: auto; display: block;" />
+        <img src="/vitality_mitochondria.png" alt="Mitochondria Spark Plug" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Concept: Healthy Mitochondria vs. CoQ10-Depleted Mitochondria</p>
       </div>
       
