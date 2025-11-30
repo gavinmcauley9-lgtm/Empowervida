@@ -78,6 +78,13 @@ const Shop = () => {
                     why: 'To trigger muscle repair, you need 30g of bioavailable protein. Isolate absorbs rapidly to overcome "anabolic resistance" in aging muscle.',
                     pick: 'Thorne Whey Isolate',
                     link: 'https://geni.us/e8Bvq3'
+                },
+                {
+                    name: 'Methylated B-Complex',
+                    subtitle: 'The Ignition Key',
+                    why: '40% of people have the MTHFR mutation and can\'t convert standard B-vitamins. This uses 5-MTHF (methylfolate) and methylcobalamin to bypass genetic blocks and unlock cellular energy production.',
+                    pick: 'Thorne Basic B Complex',
+                    link: 'https://geni.us/DcF3AQD'
                 }
             ]
         },
