@@ -5,9 +5,9 @@ import SEO from '../components/SEO';
 const Shop = () => {
     const products = [
         {
-            name: "Creatine Monohydrate",
-            description: "The cellular battery buffer. Essential for ATP recycling and cognitive function.",
-            link: "https://amzn.to/3XTdwbX"
+            name: "CREATINE MONOHYDRATE (CREAPURE®)",
+            description: "The 'Mitochondrial Battery Pack.' Instantly recycles ATP for sustained mental energy. Essential for cognitive endurance, focus, and preventing the 2 PM brain crash. Pure micronized monohydrate, third-party tested.",
+            link: "https://geni.us/0xUMeY1"
         },
         {
             name: "Magnesium Bisglycinate",

@@ -964,6 +964,109 @@ export const POSTS = [
         <li>Sanmukhani, J., et al. (2014). "Efficacy and safety of curcumin in major depressive disorder." Phytotherapy Research.</li>
       </ul>
     `
+  },
+  {
+    id: 15,
+    title: 'THE ENERGY CRISIS: Why Your Brain Tires Before Your Body (And How to Fix It)',
+    category: 'cognition',
+    image: '/cellular_structure.png',
+    excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
+    date: 'Dec 01, 2025',
+    cta: {
+      text: "Get Dr. Gavin's Brain Battery",
+      link: "/shop"
+    },
+    content: `
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <p>You know the feeling. It's 2:30 PM. You have been sitting in a chair all day. You haven't run a marathon. You haven't lifted a heavy weight.</p>
+      
+      <p>But you are exhausted.</p>
+      
+      <p>You stare at your screen, and simple emails feel like complex algebra. Your decision-making ability collapses. You reach for sugar or caffeine just to get through the final hours.</p>
+      
+      <p>Why? If your body is resting, why is your brain failing?</p>
+      
+      <h2>The Medical Truth: You are suffering from a Cerebral Energy Crisis.</h2>
+      
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/cellular_structure.png" alt="Brain Energy Depletion" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Crash: Mental Exhaustion at 2 PM</p>
+      </div>
+      
+      <h2>The Math of Exhaustion</h2>
+      
+      <p>Your brain is a biological hog. It accounts for only 2% of your body weight, but it consumes <strong>20% of your total energy</strong>.</p>
+      
+      <p>Every thought, every memory, and every inhibition requires a molecule called <strong>ATP (Adenosine Triphosphate)</strong>. ATP is the currency of life.</p>
+      
+      <p>When you are "thinking hard" (cognitive load), your neurons burn through ATP at a frantic rate. When the ATP runs out, your brain literally throttles down. You get brain fog. You lose focus. You get irritable.</p>
+      
+      <p><strong>This isn't a character flaw. It is a fuel shortage.</strong></p>
+      
+      <h2>The "Meathead" Myth</h2>
+      
+      <p>For 40 years, the solution to this energy crisis has been hiding in plain sight, but doctors ignored it because of who was using it.</p>
+      
+      <p><strong>Creatine.</strong></p>
+      
+      <p>If you hear that word and think of a bulky bodybuilder shaking a plastic cup in a gym, you are 20 years behind the science.</p>
+      
+      <p><strong>Creatine is not just a muscle builder. It is a Mitochondrial Battery Pack.</strong></p>
+      
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/dna_white_bg.png" alt="Mitochondrial ATP Recycling" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: Creatine Recharging Mitochondria</p>
+      </div>
+      
+      <h2>How It Works (The Phosphocreatine Shuttle)</h2>
+      
+      <p>Here is the mechanism without the jargon:</p>
+      
+      <ol>
+        <li>When a neuron fires, it burns ATP and turns it into a "dead" battery called <strong>ADP</strong>.</li>
+        <li>Normally, it takes time and food to recharge that battery.</li>
+        <li><strong>Creatine hangs out in the cell holding a spare phosphate group.</strong></li>
+        <li>As soon as the battery dies (ADP), Creatine hands over its spare part and—boom—the battery is instantly fully charged (ATP) again.</li>
+      </ol>
+      
+      <p><strong>The Result:</strong> Your brain can think harder, longer, and faster without crashing.</p>
+      
+      <h2>The Protocol: The "Smart Drug" Dosage</h2>
+      
+      <p>You do not need to "load" it. You do not need to cycle it.</p>
+      
+      <p><strong>The Dose:</strong> 5 grams daily. Every single day.</p>
+      
+      <p><strong>The Type:</strong> Creatine Monohydrate. (Do not buy the fancy liquid/HCL versions; they are marketing gimmicks).</p>
+      
+      <p><strong>The Timing:</strong> Morning, in your coffee or water. It dissolves instantly.</p>
+      
+      <h2>THE TAKEAWAY</h2>
+      
+      <p>If you want to maintain high-level focus from 8 AM to 6 PM, caffeine is not enough. Caffeine is a loan; Creatine is a deposit.</p>
+      
+      <p>Stop letting your battery die at 2 PM. Upgrade the hardware.</p>
+      
+      <h3>TOOL: The Purest Source</h3>
+      
+      <p>Supplement companies love to cut Creatine with cheap fillers. I only recommend Creapure® or micronized Monohydrate that is third-party tested for purity.</p>
+      
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/0xUMeY1" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Get the Doctor-Recommended Creatine Monohydrate Here →
+        </a>
+      </p>
+      
+      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
+      
+      <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>SCIENTIFIC REFERENCES</strong></p>
+      <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
+        <li>Rae, C., et al. (2003). "Oral creatine monohydrate supplementation improves brain performance: a double-blind, placebo-controlled, cross-over trial." Proceedings of the Royal Society B: Biological Sciences.</li>
+        <li>Avgerinos, K. I., et al. (2018). "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials." Experimental Gerontology.</li>
+        <li>Watanabe, A., et al. (2002). "Effects of creatine on mental fatigue and cerebral hemoglobin oxygenation." Neuroscience Research.</li>
+      </ul>
+    `
   }
 ];
 
