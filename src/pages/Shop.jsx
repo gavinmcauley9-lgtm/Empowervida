@@ -15,9 +15,9 @@ const Shop = () => {
             link: "https://amzn.to/3M5OSCl"
         },
         {
-            name: "Omega-3 Fish Oil",
-            description: "High EPA/DHA concentrate. The foundation of cell membrane fluidity and inflammation control.",
-            link: "https://amzn.to/4aeL5wx"
+            name: "HIGH-DHA OMEGA-3 FISH OIL",
+            description: "The 'Brain Builder.' High-concentration DHA formula for neuronal membrane integrity. Essential for BDNF support, cognitive function, and reducing neuroinflammation. Third-party tested for purity.",
+            link: "https://geni.us/XvZjhXc"
         },
         {
             name: "Coenzyme Q10 (Ubiquinol)",
