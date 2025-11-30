@@ -1580,21 +1580,21 @@ export const POSTS = [
       
       <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
       
-      <p>You eat healthy food. You sleep enough. But you still feel a deep, cellular exhaustion.</p>
+      <p>You eat healthy food. You sleep enough. You drink water. But you still feel a deep, cellular exhaustion.</p>
       
-      <p>Patients ask me: "Doctor, I'm eating fuel. Why is the tank empty?"</p>
+      <p>Patients often ask me: "Doctor, I'm putting fuel in the car. Why is the tank empty?"</p>
       
       <p>The answer is often a biochemical traffic jam called <strong>Methylation</strong>. You might have the fuel (food) and the engine (mitochondria), but you have lost the keys to the ignition.</p>
       
       <h2>The Medical Reality: The MTHFR Mutation</h2>
       
-      <p>Methylation is a biochemical process that happens <strong>1 billion times per second</strong> in your body. It repairs your DNA, regulates your mood, and—crucially—turns the nutrients you eat into ATP energy.</p>
+      <p>Methylation is a biochemical process that happens <strong>1 billion times per second</strong> in your body. It repairs your DNA, regulates your mood, clears toxins, and—crucially—turns the nutrients you eat into ATP energy.</p>
       
       <p>To do this, you need <strong>B-Vitamins</strong> (specifically B9/Folate and B12).</p>
       
       <p><strong>Here is the problem:</strong> About 40% of the population carries a genetic variation called <strong>MTHFR</strong>. If you have this gene, your body struggles to convert dietary B-vitamins into their active form.</p>
       
-      <p>If you take a standard "Multivitamin" from the supermarket, it likely contains <strong>Folic Acid</strong> (synthetic). If you have the MTHFR gene, Folic Acid can actually build up in your system and block your pathways, making your fatigue worse.</p>
+      <p>If you take a standard "Multivitamin" from the supermarket, it likely contains <strong>Folic Acid</strong> (synthetic). If you have the MTHFR gene, Folic Acid can actually build up in your system and block your receptors, making your fatigue worse.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/cellular_structure.png" alt="Methylation Pathway Comparison" style="width: 100%; height: auto; display: block;" />
@@ -1614,7 +1614,7 @@ export const POSTS = [
       
       <h2>The "Other" Energy Drivers: ALCAR & ALA</h2>
       
-      <p>B-Vitamins aren't the only players. For complete mitochondrial optimization, two other amino acids are critical:</p>
+      <p>While B-Vitamins turn on the ignition, two other amino acids act as the turbochargers. I often recommend adding these if B-Vitamins alone don't fully resolve the fatigue:</p>
       
       <ul>
         <li><strong>Acetyl-L-Carnitine (ALCAR):</strong> Think of this as the "Shuttle Bus." It transports fatty acids into the mitochondria to be burned for fuel. Without it, you can't burn fat for brain energy.</li>
@@ -1645,10 +1645,10 @@ export const POSTS = [
       
       <h3>TOOL: The Methylation Stack</h3>
       
-      <p>I prescribe <strong>Thorne Basic B Complex</strong>. It uses the purest tissue-ready forms of folate (5-MTHF) and B12, ensuring that even those with the MTHFR mutation can absorb and use it for energy.</p>
+      <p>I prescribe a <strong>Methylated B-Complex</strong> that uses the purest tissue-ready forms of folate (5-MTHF) and B12, ensuring that even those with the MTHFR mutation can absorb and use it for energy.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/DcF3AQD" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/P00nQ5" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Methylated B-Complex Here →
         </a>
       </p>

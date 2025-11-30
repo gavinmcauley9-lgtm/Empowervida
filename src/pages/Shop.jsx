@@ -84,7 +84,7 @@ const Shop = () => {
                     subtitle: 'The Ignition Key',
                     why: '40% of people have the MTHFR mutation and can\'t convert standard B-vitamins. This uses 5-MTHF (methylfolate) and methylcobalamin to bypass genetic blocks and unlock cellular energy production.',
                     pick: 'Thorne Basic B Complex',
-                    link: 'https://geni.us/DcF3AQD'
+                    link: 'https://geni.us/P00nQ5'
                 }
             ]
         },
