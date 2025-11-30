@@ -3,51 +3,90 @@ import { motion } from 'framer-motion';
 import SEO from '../components/SEO';
 
 const Shop = () => {
-    const products = [
+    const protocols = [
         {
-            name: "CREATINE MONOHYDRATE (CREAPURE®)",
-            description: "The 'Mitochondrial Battery Pack.' Instantly recycles ATP for sustained mental energy. Essential for cognitive endurance, focus, and preventing the 2 PM brain crash. Pure micronized monohydrate, third-party tested.",
-            link: "https://geni.us/0xUMeY1"
+            icon: '🧠',
+            title: 'THE BRAIN PROTOCOL',
+            goal: 'Cognitive Precision, Memory, & Focus',
+            products: [
+                {
+                    name: 'High-DHA Omega-3',
+                    subtitle: 'The Foundation',
+                    why: '60% of your brain is fat. DHA is the structural brick used to build new neurons. If you don\'t have enough, neuroplasticity fails.',
+                    pick: 'Nordic Naturals ProOmega 2000',
+                    link: 'https://geni.us/XvZjhXc'
+                },
+                {
+                    name: 'CoQ10 + PQQ (Ubiquinol)',
+                    subtitle: 'The Spark',
+                    why: 'Mitochondrial biogenesis. This stack helps grow new mitochondria and keeps the existing ones firing, especially if you are over 40 or taking Statins.',
+                    pick: 'Life Extension Super Ubiquinol',
+                    link: 'https://geni.us/NF0pIY'
+                }
+            ]
         },
         {
-            name: "Magnesium Bisglycinate",
-            description: "High absorption, low gastric distress. Critical for sleep and nervous system stability.",
-            link: "https://amzn.to/3M5OSCl"
+            icon: '😴',
+            title: 'THE DEEP SLEEP PROTOCOL',
+            goal: 'Glymphatic Clearance & Recovery',
+            products: [
+                {
+                    name: 'Magnesium L-Threonate',
+                    subtitle: 'The "Brain Cleaner"',
+                    why: 'The only form of Magnesium proven to cross the blood-brain barrier. It calms NMDA receptors to allow for Deep Delta Wave sleep, where the brain cleans toxins.',
+                    pick: 'Life Extension Neuro-Mag',
+                    link: 'https://geni.us/OBPS'
+                }
+            ]
         },
         {
-            name: "HIGH-DHA OMEGA-3 FISH OIL",
-            description: "The 'Brain Builder.' High-concentration DHA formula for neuronal membrane integrity. Essential for BDNF support, cognitive function, and reducing neuroinflammation. Third-party tested for purity.",
-            link: "https://geni.us/XvZjhXc"
+            icon: '🔥',
+            title: 'THE ANTI-INFLAMMATION PROTOCOL',
+            goal: 'Joint Health, Mood Stability, & Pain Relief',
+            products: [
+                {
+                    name: 'Curcumin Phytosome',
+                    subtitle: 'The Fire Extinguisher',
+                    why: 'Standard turmeric doesn\'t absorb. We use Phytosome technology to ensure the curcumin reaches the brain and joints to lower systemic inflammation markers (IL-6).',
+                    pick: 'Thorne Curcumin Phytosome',
+                    link: 'https://geni.us/OrGpAV'
+                }
+            ]
         },
         {
-            name: "Coenzyme Q10 (Ubiquinol)",
-            description: "The mitochondrial spark plug. Vital for electron transport chain efficiency.",
-            link: "https://amzn.to/44kS03A"
+            icon: '⚡',
+            title: 'THE ENERGY & MUSCLE PROTOCOL',
+            goal: 'Physical Resilience & Metabolic Fire',
+            products: [
+                {
+                    name: 'Creatine Monohydrate',
+                    subtitle: 'The Battery',
+                    why: 'Not just for muscles. Creatine recycles ATP in the brain to prevent mental fatigue and cognitive crashing in the afternoon.',
+                    pick: 'Thorne Creatine (Creapure)',
+                    link: 'https://geni.us/0xUMeY1'
+                },
+                {
+                    name: 'Grass-Fed Whey Isolate',
+                    subtitle: 'The Building Block',
+                    why: 'To trigger muscle repair, you need 30g of bioavailable protein. Isolate absorbs rapidly to overcome "anabolic resistance" in aging muscle.',
+                    pick: 'Thorne Whey Isolate',
+                    link: 'https://geni.us/e8Bvq3'
+                }
+            ]
         },
         {
-            name: "MAGNESIUM L-THREONATE (MAGTEIN®)",
-            description: "The 'Brain Penetrator.' The only magnesium that effectively crosses the blood-brain barrier. Supports deep sleep architecture, synaptic density, and cognitive restoration. Clinically proven to enhance memory and learning.",
-            link: "https://geni.us/OBPS"
-        },
-        {
-            name: "BERBERINE HCL + PHYTOSOME",
-            description: "The 'Metabolic Mimetic' & Longevity Switch. Activates AMPK pathways to regulate glucose, mimic fasting effects, and prevent glycation (the internal 'caramelization' that ages your organs). Supports insulin sensitivity and metabolic health. Phytosome formula for superior absorption.",
-            link: "https://geni.us/e3g2"
-        },
-        {
-            name: "VITAMIN D3 + K2 (LIQUID)",
-            description: "The 'Hormonal Architect.' Essential for immune signaling and mood regulation. Includes K2 to direct calcium into bones and prevent arterial calcification.",
-            link: "#"
-        },
-        {
-            name: "NAC (N-ACETYL CYSTEINE)",
-            description: "The 'Cellular Scavenger.' The direct precursor to Glutathione (the body's master antioxidant). Critical for liver health, lung function, and reducing oxidative stress.",
-            link: "#"
-        },
-        {
-            name: "CURCUMIN PHYTOSOME (MERIVA®)",
-            description: "The 'Fire Extinguisher.' Clinically studied bioavailable curcumin that crosses the blood-brain barrier to calm neuroinflammation. Reduces anxiety, brain fog, and supports mood by lowering inflammatory cytokines. The most potent natural anti-inflammatory.",
-            link: "https://geni.us/OrGpAV"
+            icon: '🧬',
+            title: 'THE METABOLIC RESET',
+            goal: 'Blood Sugar Control & Anti-Aging',
+            products: [
+                {
+                    name: 'Berberine Phytosome',
+                    subtitle: 'The Switch',
+                    why: 'Activates AMPK (the longevity switch) to improve insulin sensitivity and stop the "caramelization" (Glycation) of your collagen and organs.',
+                    pick: 'Thorne Berberine-500',
+                    link: 'https://geni.us/e3g2'
+                }
+            ]
         }
     ];
 
@@ -60,16 +99,17 @@ const Shop = () => {
             overflowX: 'hidden'
         }}>
             <SEO
-                title="Clinical Supplements - Physician-Recommended Stack | EMPOWERVIDA"
-                description="Evidence-based supplement recommendations from Dr. Gavin McAuley. Creatine, CoQ10, Magnesium, Omega-3, and more for optimal cellular health."
-                keywords="longevity supplements, clinical supplements, CoQ10 ubiquinol, magnesium threonate, omega 3 DHA EPA, creatine monohydrate, mitochondrial support"
+                title="The EMPOWERVIDA Dispensary - Clinical-Grade Longevity Supplements"
+                description="Physician-curated supplement protocols for brain health, deep sleep, inflammation control, energy, and metabolic health. Evidence-based, third-party tested."
+                keywords="clinical supplements, longevity protocols, physician recommended, omega 3 DHA, magnesium threonate, curcumin phytosome, berberine AMPK, creatine monohydrate, CoQ10 ubiquinol"
                 canonical="/shop"
                 ogImage="/capsules_bg_user.jpg"
             />
+
             {/* Hero Section */}
             <section style={{
                 position: 'relative',
-                height: '60vh',
+                height: '70vh',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -98,139 +138,224 @@ const Shop = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
+                    background: 'linear-gradient(180deg, rgba(11, 15, 17, 0.7) 0%, rgba(11, 15, 17, 0.95) 100%)',
                     zIndex: 1
                 }}></div>
 
-                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
+                {/* Content */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    style={{
+                        position: 'relative',
+                        zIndex: 2,
+                        maxWidth: '900px'
+                    }}
+                >
                     <h1 style={{
-                        fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+                        fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
                         fontWeight: 800,
-                        letterSpacing: '-0.03em',
-                        marginBottom: '1rem',
-                        textTransform: 'uppercase',
-                        color: 'var(--color-text)',
-                        fontFamily: '"Manrope", sans-serif'
+                        marginBottom: '1.5rem',
+                        lineHeight: 1.1,
+                        background: 'linear-gradient(135deg, #FFFFFF 0%, var(--color-accent-teal) 100%)',
+                        WebkitBackgroundClip: 'text',
+                        WebkitTextFillColor: 'transparent',
+                        backgroundClip: 'text'
                     }}>
-                        THE ESSENTIALS: <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL SUPPLY</span>
+                        THE EMPOWERVIDA DISPENSARY
                     </h1>
                     <p style={{
-                        fontSize: '1.2rem',
-                        color: 'var(--color-text-muted)',
-                        maxWidth: '600px',
+                        fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
+                        color: 'var(--color-accent-teal)',
+                        fontWeight: 600,
+                        marginBottom: '2rem',
+                        letterSpacing: '0.05em'
+                    }}>
+                        Clinical-Grade Solutions for Longevity & Performance
+                    </p>
+                    <p style={{
+                        fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+                        color: 'rgba(255,255,255,0.8)',
+                        lineHeight: 1.6,
+                        maxWidth: '700px',
                         margin: '0 auto'
                     }}>
-                        Field-tested tools for mitochondrial defense. These are the specific compounds I recommend for the protocol.
+                        The supplement industry is unregulated and full of impurities. I have curated this dispensary to include only the brands I trust, verify, and use in my own clinical practice.
                     </p>
-                </div>
+                </motion.div>
             </section>
 
-            {/* Product Grid */}
-            <section style={{ padding: '2rem 2rem 6rem', maxWidth: '1200px', margin: '0 auto' }}>
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: '2.5rem'
-                }}>
-                    {products.map((product, index) => (
-                        <div
-                            key={index}
-                            data-aos="fade-up"
-                            data-aos-delay={index * 100}
-                            style={{
-                                background: '#FFFFFF',
-                                border: '1px solid var(--color-border)',
-                                borderRadius: '16px',
-                                padding: '2.5rem',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                justifyContent: 'space-between',
-                                height: '100%',
-                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                            }}
-                        >
-                            <div>
-                                <h3 style={{
-                                    fontSize: '1.5rem',
-                                    fontWeight: 700,
-                                    color: 'var(--color-text)',
-                                    marginBottom: '1rem',
-                                    textTransform: 'uppercase',
-                                    fontFamily: '"Manrope", sans-serif'
-                                }}>
-                                    {product.name}
-                                </h3>
-                                <p style={{
-                                    fontSize: '1rem',
-                                    color: 'var(--color-text-muted)',
-                                    lineHeight: 1.6,
-                                    marginBottom: '2rem'
-                                }}>
-                                    {product.description}
-                                </p>
+            {/* Protocols Section */}
+            <section style={{
+                padding: '6rem 2rem',
+                maxWidth: '1400px',
+                margin: '0 auto'
+            }}>
+                {protocols.map((protocol, index) => (
+                    <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: index * 0.1 }}
+                        style={{
+                            marginBottom: '6rem'
+                        }}
+                    >
+                        {/* Protocol Header */}
+                        <div style={{
+                            textAlign: 'center',
+                            marginBottom: '3rem'
+                        }}>
+                            <div style={{
+                                fontSize: '4rem',
+                                marginBottom: '1rem'
+                            }}>
+                                {protocol.icon}
                             </div>
-
-                            <a
-                                href={product.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    display: 'block',
-                                    width: '100%',
-                                    padding: '1rem',
-                                    textAlign: 'center',
-                                    backgroundColor: 'var(--color-accent-teal)',
-                                    color: '#FFFFFF',
-                                    textDecoration: 'none',
-                                    fontWeight: 700,
-                                    textTransform: 'uppercase',
-                                    letterSpacing: '0.05em',
-                                    borderRadius: '8px',
-                                    transition: 'all 0.2s ease',
-                                    boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)'
-                                }}
-                                onMouseEnter={(e) => {
-                                    e.currentTarget.style.transform = 'translateY(-2px)';
-                                    e.currentTarget.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
-                                }}
-                                onMouseLeave={(e) => {
-                                    e.currentTarget.style.transform = 'translateY(0)';
-                                    e.currentTarget.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
-                                }}
-                            >
-                                Check Price &gt;
-                            </a>
+                            <h2 style={{
+                                fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
+                                fontWeight: 800,
+                                marginBottom: '1rem',
+                                color: 'var(--color-text)'
+                            }}>
+                                {protocol.title}
+                            </h2>
+                            <p style={{
+                                fontSize: '1.2rem',
+                                color: 'var(--color-accent-teal)',
+                                fontWeight: 500
+                            }}>
+                                Goal: {protocol.goal}
+                            </p>
                         </div>
-                    ))}
-                </div>
+
+                        {/* Products Grid */}
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                            gap: '2rem',
+                            maxWidth: '1200px',
+                            margin: '0 auto'
+                        }}>
+                            {protocol.products.map((product, productIndex) => (
+                                <motion.div
+                                    key={productIndex}
+                                    whileHover={{ y: -8 }}
+                                    transition={{ duration: 0.3 }}
+                                    style={{
+                                        backgroundColor: '#FFFFFF',
+                                        color: '#0B0F11',
+                                        borderRadius: '16px',
+                                        padding: '2.5rem',
+                                        boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
+                                        border: '1px solid rgba(32, 178, 170, 0.1)'
+                                    }}
+                                >
+                                    <h3 style={{
+                                        fontSize: '1.5rem',
+                                        fontWeight: 700,
+                                        marginBottom: '0.5rem',
+                                        color: '#0B0F11'
+                                    }}>
+                                        {product.name}
+                                    </h3>
+                                    <p style={{
+                                        fontSize: '1rem',
+                                        color: 'var(--color-accent-teal)',
+                                        fontWeight: 600,
+                                        marginBottom: '1.5rem'
+                                    }}>
+                                        {product.subtitle}
+                                    </p>
+
+                                    <div style={{
+                                        marginBottom: '1.5rem',
+                                        padding: '1rem',
+                                        backgroundColor: 'rgba(32, 178, 170, 0.05)',
+                                        borderRadius: '8px',
+                                        borderLeft: '4px solid var(--color-accent-teal)'
+                                    }}>
+                                        <p style={{
+                                            fontSize: '0.85rem',
+                                            fontWeight: 600,
+                                            color: '#0B0F11',
+                                            marginBottom: '0.5rem'
+                                        }}>
+                                            The Medical Why:
+                                        </p>
+                                        <p style={{
+                                            fontSize: '0.95rem',
+                                            color: '#333',
+                                            lineHeight: 1.6
+                                        }}>
+                                            {product.why}
+                                        </p>
+                                    </div>
+
+                                    <p style={{
+                                        fontSize: '0.9rem',
+                                        color: '#666',
+                                        marginBottom: '1.5rem',
+                                        fontStyle: 'italic'
+                                    }}>
+                                        Dr. Gavin's Pick: <strong>{product.pick}</strong>
+                                    </p>
+
+                                    <a
+                                        href={product.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{
+                                            display: 'block',
+                                            backgroundColor: 'var(--color-accent-teal)',
+                                            color: '#FFFFFF',
+                                            padding: '1rem 2rem',
+                                            borderRadius: '8px',
+                                            textDecoration: 'none',
+                                            fontWeight: 700,
+                                            textAlign: 'center',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '0.05em',
+                                            boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
+                                            transition: 'all 0.3s ease'
+                                        }}
+                                        onMouseEnter={(e) => {
+                                            e.target.style.backgroundColor = '#1ba098';
+                                            e.target.style.transform = 'translateY(-2px)';
+                                            e.target.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
+                                        }}
+                                        onMouseLeave={(e) => {
+                                            e.target.style.backgroundColor = 'var(--color-accent-teal)';
+                                            e.target.style.transform = 'translateY(0)';
+                                            e.target.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
+                                        }}
+                                    >
+                                        BUY ON AMAZON →
+                                    </a>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </motion.div>
+                ))}
             </section>
 
-            {/* Footer / Disclaimer */}
+            {/* Footer Disclaimer */}
             <section style={{
                 padding: '4rem 2rem',
-                textAlign: 'center',
-                borderTop: '1px solid var(--color-border)',
-                background: 'var(--color-bg)'
+                backgroundColor: 'rgba(32, 178, 170, 0.05)',
+                textAlign: 'center'
             }}>
-                <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                    <p style={{
-                        fontSize: '0.85rem',
-                        color: 'var(--color-text-muted)',
-                        fontStyle: 'italic',
-                        margin: 0
-                    }}>
-                        Disclaimer: As an Amazon Associate, I earn from qualifying purchases. This helps support the platform at no extra cost to you.
-                    </p>
-                </div>
+                <p style={{
+                    maxWidth: '800px',
+                    margin: '0 auto',
+                    fontSize: '0.9rem',
+                    color: 'var(--color-text-muted)',
+                    lineHeight: 1.6
+                }}>
+                    <strong>Disclaimer:</strong> These statements have not been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before starting any supplement protocol, especially if you are taking medications or have underlying health conditions.
+                </p>
             </section>
         </div>
     );
