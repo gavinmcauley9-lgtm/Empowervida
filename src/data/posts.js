@@ -201,7 +201,7 @@ export const POSTS = [
       <p>Because generic Magnesium doesn't reach the brain, I specifically prescribe Magnesium L-Threonate for cognitive restoration.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/OBPS" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/hAgLBH" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Magnesium L-Threonate Here →
         </a>
       </p>
@@ -438,7 +438,7 @@ export const POSTS = [
       <p><strong>The Protocol:</strong> We recommend a third-party tested Fish Oil specifically concentrated in DHA.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/XvZjhXc" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/0id7g" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended High-DHA Formula Here →
         </a>
       </p>
@@ -950,7 +950,7 @@ export const POSTS = [
       <p>I rely on Curcumin Phytosome (Meriva) because it mimics the body's cell membranes for maximum absorption into the brain.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/OrGpAV" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/fCiHC" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Curcumin Formula Here →
         </a>
       </p>
@@ -1053,7 +1053,7 @@ export const POSTS = [
       <p>Supplement companies love to cut Creatine with cheap fillers. I only recommend Creapure® or micronized Monohydrate that is third-party tested for purity.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/0xUMeY1" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Creatine Monohydrate Here →
         </a>
       </p>
@@ -1155,7 +1155,7 @@ export const POSTS = [
       <p>Standard Berberine has poor bioavailability (your gut struggles to absorb it). I only recommend <strong>Berberine Phytosome</strong> (bound to lipids) or <strong>Dihydroberberine</strong>, which are up to 5x more absorbable.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/e3g2" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/ANVjh" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Metabolic Support Here →
         </a>
       </p>
@@ -1174,7 +1174,7 @@ export const POSTS = [
     id: 17,
     title: 'YOU ARE NOT SICK, YOU ARE "WINTERING": The Vitamin D Epidemic',
     category: 'longevity',
-    image: '/vitamin_d_clinical.png',
+    image: '/vitamin_d_hero.png',
     excerpt: 'When the sun disappears, your body enters "Wintering"—immune system throttles down, serotonin drops, bones stop repairing. You\'re not depressed. You\'re hormonally starved.',
     date: 'Dec 03, 2025',
     cta: {
@@ -1208,7 +1208,7 @@ export const POSTS = [
       <p>When you have enough D, your gene expression changes. You become bulletproof. When you are low (below 30 ng/mL), your genes stay silent.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Vitamin D Gene Activation" style="width: 100%; height: auto; display: block;" />
+        <img src="/vitamin_d_gene_activation.png" alt="Vitamin D Gene Activation" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Activation: Vitamin D Unlocking Cell Nucleus and Activating DNA</p>
       </div>
       
@@ -1237,7 +1237,7 @@ export const POSTS = [
       <p>If you take Vitamin D without K2, you are essentially flooding your streets with cars (calcium) but firing the traffic lights.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="K2 Directing Calcium" style="width: 100%; height: auto; display: block;" />
+        <img src="/k2_calcium_traffic.png" alt="K2 Directing Calcium" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Traffic Cop: Vitamin K2 Pushing Calcium Into Bones, Out of Arteries</p>
       </div>
       
@@ -1260,7 +1260,7 @@ export const POSTS = [
       <p>I don't like pills for hormones. I recommend Liquid D3 + K2 drops. They absorb instantly into the bloodstream and allow you to titrate your dose perfectly.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/sGnuqg" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/BvEHS0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Liquid D3/K2 Here →
         </a>
       </p>
@@ -1280,7 +1280,7 @@ export const POSTS = [
     id: 18,
     title: 'MUSCLE IS THE CURRENCY OF AGING: Why You Are Becoming "Frail" at 45',
     category: 'longevity',
-    image: '/cellular_structure.png',
+    image: '/muscle_hero.png',
     excerpt: 'Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines—chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.',
     date: 'Dec 04, 2025',
     cta: {
@@ -1301,7 +1301,7 @@ export const POSTS = [
       <p>If you have low muscle mass, you have low survivability. Period.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Healthy vs Sarcopenic Muscle" style="width: 100%; height: auto; display: block;" />
+        <img src="/sarcopenia_contrast.png" alt="Healthy vs Sarcopenic Muscle" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Contrast: Healthy Dense Muscle vs. Fat-Marbled Sarcopenic Muscle</p>
       </div>
       
@@ -1330,7 +1330,7 @@ export const POSTS = [
       <p>Your body becomes deaf to the signal of protein. To overcome this resistance and stop the frailty, you need a much louder signal. You need more high-quality protein than you think.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" />
+        <img src="/amino_acid_repair.png" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Action: Amino Acids Repairing Muscle Fiber</p>
       </div>
       
@@ -1357,7 +1357,7 @@ export const POSTS = [
       <p>Note: If you are vegan, look for a fermented Pea/Rice blend, but you will need a higher dose.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/e8Bvq3" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/zrRNpo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Grass-Fed Whey Isolate Here →
         </a>
       </p>
@@ -1449,7 +1449,7 @@ export const POSTS = [
       <p>Most CoQ10 on the shelf is the cheap stuff. I recommend <strong>Ubiquinol</strong> (look for the Kaneka seal) paired with PQQ for maximum mitochondrial density.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/NF0pIY" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/kyBLJ3m" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Ubiquinol + PQQ Here →
         </a>
       </p>
@@ -1548,7 +1548,7 @@ export const POSTS = [
       <p>I only recommend Ashwagandha that uses the KSM-66 extraction process, as it preserves the full spectrum of active withanolides without chemical solvents.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/0aQSj9B" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/AxGBnX" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended KSM-66 Ashwagandha Here →
         </a>
       </p>
@@ -1648,7 +1648,7 @@ export const POSTS = [
       <p>I prescribe a <strong>Methylated B-Complex</strong> that uses the purest tissue-ready forms of folate (5-MTHF) and B12, ensuring that even those with the MTHFR mutation can absorb and use it for energy.</p>
       
       <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/P00nQ5" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+        <a href="https://geni.us/6fwizx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
           Get the Doctor-Recommended Methylated B-Complex Here →
         </a>
       </p>

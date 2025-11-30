@@ -14,14 +14,14 @@ const Shop = () => {
                     subtitle: 'The Foundation',
                     why: '60% of your brain is fat. DHA is the structural brick used to build new neurons. If you don\'t have enough, neuroplasticity fails.',
                     pick: 'Nordic Naturals ProOmega 2000',
-                    link: 'https://geni.us/XvZjhXc'
+                    link: 'https://geni.us/0id7g'
                 },
                 {
                     name: 'CoQ10 + PQQ (Ubiquinol)',
                     subtitle: 'The Spark',
                     why: 'Mitochondrial biogenesis. This stack helps grow new mitochondria and keeps the existing ones firing, especially if you are over 40 or taking Statins.',
                     pick: 'Life Extension Super Ubiquinol',
-                    link: 'https://geni.us/NF0pIY'
+                    link: 'https://geni.us/kyBLJ3m'
                 }
             ]
         },
@@ -35,14 +35,14 @@ const Shop = () => {
                     subtitle: 'The "Brain Cleaner"',
                     why: 'The only form of Magnesium proven to cross the blood-brain barrier. It calms NMDA receptors to allow for Deep Delta Wave sleep, where the brain cleans toxins.',
                     pick: 'Life Extension Neuro-Mag',
-                    link: 'https://geni.us/OBPS'
+                    link: 'https://geni.us/hAgLBH'
                 },
                 {
                     name: 'Ashwagandha KSM-66',
                     subtitle: 'The Cortisol Thermostat',
                     why: 'Adaptogens reset your HPA axis. If evening cortisol is too high (Tired but Wired), Ashwagandha brings it down by 27.9%. Allows natural melatonin to rise for deep sleep. KSM-66 is the clinically studied root extract.',
                     pick: 'Jarrow Formulas KSM-66',
-                    link: 'https://geni.us/0aQSj9B'
+                    link: 'https://geni.us/AxGBnX'
                 }
             ]
         },
@@ -56,7 +56,7 @@ const Shop = () => {
                     subtitle: 'The Fire Extinguisher',
                     why: 'Standard turmeric doesn\'t absorb. We use Phytosome technology to ensure the curcumin reaches the brain and joints to lower systemic inflammation markers (IL-6).',
                     pick: 'Thorne Curcumin Phytosome',
-                    link: 'https://geni.us/OrGpAV'
+                    link: 'https://geni.us/fCiHC'
                 }
             ]
         },
@@ -70,14 +70,28 @@ const Shop = () => {
                     subtitle: 'The Battery',
                     why: 'Not just for muscles. Creatine recycles ATP in the brain to prevent mental fatigue and cognitive crashing in the afternoon.',
                     pick: 'Thorne Creatine (Creapure)',
-                    link: 'https://geni.us/0xUMeY1'
+                    link: 'https://geni.us/0FAo'
                 },
                 {
                     name: 'Grass-Fed Whey Isolate',
                     subtitle: 'The Building Block',
                     why: 'To trigger muscle repair, you need 30g of bioavailable protein. Isolate absorbs rapidly to overcome "anabolic resistance" in aging muscle.',
                     pick: 'Thorne Whey Isolate',
-                    link: 'https://geni.us/e8Bvq3'
+                    link: 'https://geni.us/zrRNpo'
+                },
+                {
+                    name: 'Acetyl-L-Carnitine (ALCAR)',
+                    subtitle: 'The Fuel Shuttle',
+                    why: 'Shuttles fatty acids into the mitochondria to burn fat for brain fuel.',
+                    pick: 'Life Extension Acetyl-L-Carnitine',
+                    link: 'https://geni.us/Dp3jeAg'
+                },
+                {
+                    name: 'R-Lipoic Acid (ALA)',
+                    subtitle: 'The Engine Cleaner',
+                    why: 'A potent mitochondrial antioxidant that cleans up exhaust fumes (free radicals).',
+                    pick: 'Life Extension Super R-Lipoic Acid',
+                    link: 'https://geni.us/aRKwL6'
                 }
             ]
         },
@@ -91,7 +105,7 @@ const Shop = () => {
                     subtitle: 'The Switch',
                     why: 'Activates AMPK (the longevity switch) to improve insulin sensitivity and stop the "caramelization" (Glycation) of your collagen and organs.',
                     pick: 'Thorne Berberine-500',
-                    link: 'https://geni.us/e3g2'
+                    link: 'https://geni.us/ANVjh'
                 }
             ]
         },
@@ -105,7 +119,7 @@ const Shop = () => {
                     subtitle: 'The Tissue-Ready Formula',
                     why: 'For the 40% of patients with the MTHFR gene who cannot process standard folic acid. This "tissue-ready" formula ensures your mitochondria can actually use the fuel you eat.',
                     pick: 'Thorne Basic B',
-                    link: 'https://geni.us/P00nQ5'
+                    link: 'https://geni.us/6fwizx'
                 }
             ]
         },
@@ -119,7 +133,7 @@ const Shop = () => {
                     subtitle: 'The Solar Hormone',
                     why: 'Vitamin D is not a vitamin—it\'s a secosteroid hormone that controls 5% of your genome. Without K2, calcium goes to your arteries. With K2, it goes to your bones. Liquid drops bypass gut malabsorption.',
                     pick: 'Thorne Vitamin D/K2 Liquid',
-                    link: 'https://geni.us/sGnuqg'
+                    link: 'https://geni.us/BvEHS0'
                 }
             ]
         }
