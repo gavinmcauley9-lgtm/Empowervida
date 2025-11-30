@@ -78,13 +78,6 @@ const Shop = () => {
                     why: 'To trigger muscle repair, you need 30g of bioavailable protein. Isolate absorbs rapidly to overcome "anabolic resistance" in aging muscle.',
                     pick: 'Thorne Whey Isolate',
                     link: 'https://geni.us/e8Bvq3'
-                },
-                {
-                    name: 'Methylated B-Complex',
-                    subtitle: 'The Ignition Key',
-                    why: '40% of people have the MTHFR mutation and can\'t convert standard B-vitamins. This uses 5-MTHF (methylfolate) and methylcobalamin to bypass genetic blocks and unlock cellular energy production.',
-                    pick: 'Thorne Basic B Complex',
-                    link: 'https://geni.us/P00nQ5'
                 }
             ]
         },
@@ -99,6 +92,20 @@ const Shop = () => {
                     why: 'Activates AMPK (the longevity switch) to improve insulin sensitivity and stop the "caramelization" (Glycation) of your collagen and organs.',
                     pick: 'Thorne Berberine-500',
                     link: 'https://geni.us/e3g2'
+                }
+            ]
+        },
+        {
+            icon: '🧬',
+            title: 'THE GENETIC PROTOCOL (METHYLATION)',
+            goal: 'Cellular Ignition & DNA Repair',
+            products: [
+                {
+                    name: 'Methylated B-Complex',
+                    subtitle: 'The Tissue-Ready Formula',
+                    why: 'For the 40% of patients with the MTHFR gene who cannot process standard folic acid. This "tissue-ready" formula ensures your mitochondria can actually use the fuel you eat.',
+                    pick: 'Thorne Basic B',
+                    link: 'https://geni.us/P00nQ5'
                 }
             ]
         },
