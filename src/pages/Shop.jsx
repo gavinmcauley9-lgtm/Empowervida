@@ -25,9 +25,9 @@ const Shop = () => {
             link: "https://amzn.to/44kS03A"
         },
         {
-            name: "Magnesium Threonate",
-            description: "The only form that effectively crosses the blood-brain barrier. For cognitive precision.",
-            link: "https://amzn.to/4801eVh"
+            name: "MAGNESIUM L-THREONATE (MAGTEIN®)",
+            description: "The 'Brain Penetrator.' The only magnesium that effectively crosses the blood-brain barrier. Supports deep sleep architecture, synaptic density, and cognitive restoration. Clinically proven to enhance memory and learning.",
+            link: "https://geni.us/OBPS"
         },
         {
             name: "BERBERINE HCL + PHYTOSOME",
