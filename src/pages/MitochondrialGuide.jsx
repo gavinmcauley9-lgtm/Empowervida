@@ -172,20 +172,271 @@ const MitochondrialGuide = () => {
                 </p>
             </section>
 
-            {/* Placeholder for Fuel/Armor/Renovation sections */}
+            {/* Phase 2: The Armor */}
             <section style={{
-                maxWidth: '1200px',
-                margin: '0 auto',
-                padding: '4rem 2rem',
-                textAlign: 'center'
+                background: 'linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
+                padding: '6rem 2rem',
+                borderTop: '1px solid rgba(46, 125, 50, 0.2)'
             }}>
-                <p style={{
-                    fontSize: '1.5rem',
-                    color: 'var(--color-text-muted)',
-                    fontStyle: 'italic'
-                }}>
-                    [Fuel, Armor, and Renovation sections coming next...]
-                </p>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    {/* Section Header */}
+                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                        <h2 style={{
+                            fontSize: 'clamp(2rem, 4vw, 3rem)',
+                            fontWeight: 700,
+                            marginBottom: '1rem',
+                            color: 'var(--color-text)'
+                        }}>
+                            Phase 2: The Armor
+                        </h2>
+                        <h3 style={{
+                            fontSize: 'clamp(1.2rem, 2.5vw, 1.8rem)',
+                            fontWeight: 400,
+                            color: '#2E7D32',
+                            marginBottom: '2rem'
+                        }}>
+                            Managing Oxidative Stress & Inflammation
+                        </h3>
+                    </div>
+
+                    {/* Intro Copy */}
+                    <div style={{
+                        maxWidth: '800px',
+                        margin: '0 auto 4rem',
+                        fontSize: '1.1rem',
+                        lineHeight: 1.8,
+                        color: 'var(--color-text)'
+                    }}>
+                        <p style={{ marginBottom: '1.5rem' }}>
+                            A high-performance engine produces exhaust. Your mitochondria are no different. As they burn fuel to create energy, they release toxic byproducts called <strong>Free Radicals (ROS)</strong>.
+                        </p>
+                        <p style={{ marginBottom: '1.5rem' }}>
+                            In small amounts, these are healthy signals for growth. But when they accumulate—due to stress, pollution, or poor diet—they cause <strong>"Oxidative Stress."</strong> This is biological rust. It damages your DNA and kills the mitochondria.
+                        </p>
+                        <p style={{ marginBottom: '1.5rem' }}>
+                            Phase 2 is about the <strong>Antioxidant Defense System</strong>—the coolant that keeps the engine from overheating.
+                        </p>
+                    </div>
+
+                    {/* Placeholder for Defense Illustration */}
+                    <div style={{
+                        maxWidth: '900px',
+                        margin: '4rem auto',
+                        padding: '3rem',
+                        background: 'rgba(46, 125, 50, 0.05)',
+                        borderRadius: '12px',
+                        border: '1px solid rgba(46, 125, 50, 0.2)',
+                        textAlign: 'center'
+                    }}>
+                        <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', fontStyle: 'italic' }}>
+                            [Antioxidant Defense Illustration: Free radicals attacking cell membrane vs. antioxidant shield neutralizing them]
+                        </p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginTop: '1rem' }}>
+                            The Defense System: Antioxidants donate electrons to neutralize free radicals before they can damage cellular DNA.
+                        </p>
+                    </div>
+
+                    {/* Supplement Cards */}
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                        gap: '2rem',
+                        marginTop: '4rem'
+                    }}>
+                        {/* Card 1: Glutathione (NAC) */}
+                        <div style={{
+                            background: 'var(--color-bg-secondary)',
+                            padding: '2rem',
+                            borderRadius: '12px',
+                            border: '1px solid rgba(46, 125, 50, 0.2)'
+                        }}>
+                            <h4 style={{
+                                fontSize: '1.5rem',
+                                fontWeight: 700,
+                                marginBottom: '0.5rem',
+                                color: '#2E7D32'
+                            }}>
+                                Glutathione (via NAC)
+                            </h4>
+                            <p style={{
+                                fontSize: '1rem',
+                                fontWeight: 600,
+                                color: 'var(--color-text-muted)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                The Master Coolant
+                            </p>
+
+                            <div style={{ marginBottom: '1.5rem' }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem' }}>The Mechanism:</p>
+                                <p style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
+                                    Glutathione is the body's primary endogenous antioxidant. It detoxifies the liver and protects the brain.
+                                </p>
+                            </div>
+
+                            <div style={{
+                                background: 'rgba(32, 178, 170, 0.1)',
+                                padding: '1.5rem',
+                                borderRadius: '8px',
+                                borderLeft: '4px solid var(--color-accent-teal)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem', fontSize: '0.9rem' }}>The Physician's Note:</p>
+                                <p style={{ fontSize: '0.9rem', lineHeight: 1.6, fontStyle: 'italic' }}>
+                                    "Most people waste money on plain 'Glutathione' capsules. They are destroyed by stomach acid before they reach your blood. I prescribe <strong>N-Acetyl Cysteine (NAC)</strong> instead. It is the precursor that survives digestion and forces your body to make its own fresh Glutathione."
+                                </p>
+                            </div>
+
+                            <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)' }}>
+                                Recommendation: Thorne NAC or Pure Encapsulations NAC
+                            </p>
+                        </div>
+
+                        {/* Card 2: Alpha Lipoic Acid */}
+                        <div style={{
+                            background: 'var(--color-bg-secondary)',
+                            padding: '2rem',
+                            borderRadius: '12px',
+                            border: '1px solid rgba(46, 125, 50, 0.2)'
+                        }}>
+                            <h4 style={{
+                                fontSize: '1.5rem',
+                                fontWeight: 700,
+                                marginBottom: '0.5rem',
+                                color: '#2E7D32'
+                            }}>
+                                Alpha Lipoic Acid (ALA)
+                            </h4>
+                            <p style={{
+                                fontSize: '1rem',
+                                fontWeight: 600,
+                                color: 'var(--color-text-muted)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                The Universal Shield
+                            </p>
+
+                            <div style={{ marginBottom: '1.5rem' }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem' }}>The Mechanism:</p>
+                                <p style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
+                                    Most antioxidants work only in water (like Vitamin C) or fat (like Vitamin E). ALA works in both. It can enter every part of the cell, including the brain, to neutralize toxins.
+                                </p>
+                            </div>
+
+                            <div style={{
+                                background: 'rgba(255, 152, 0, 0.1)',
+                                padding: '1.5rem',
+                                borderRadius: '8px',
+                                borderLeft: '4px solid #FF9800',
+                                marginBottom: '1.5rem'
+                            }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem', fontSize: '0.9rem', color: '#FF9800' }}>⚠️ Warning:</p>
+                                <p style={{ fontSize: '0.9rem', lineHeight: 1.6, fontStyle: 'italic' }}>
+                                    "Look at your label. If it just says 'Alpha Lipoic Acid,' it is likely a 50% synthetic mixture (S-ALA) that your body struggles to use. You must look for <strong>Stabilized R-Lipoic Acid (R-ALA)</strong>. This is the biologically active form found in nature."
+                                </p>
+                            </div>
+
+                            <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)' }}>
+                                Recommendation: Life Extension Super R-Lipoic Acid
+                            </p>
+                        </div>
+
+                        {/* Card 3: Vitamin C */}
+                        <div style={{
+                            background: 'var(--color-bg-secondary)',
+                            padding: '2rem',
+                            borderRadius: '12px',
+                            border: '1px solid rgba(46, 125, 50, 0.2)'
+                        }}>
+                            <h4 style={{
+                                fontSize: '1.5rem',
+                                fontWeight: 700,
+                                marginBottom: '0.5rem',
+                                color: '#2E7D32'
+                            }}>
+                                Vitamin C (The Right Way)
+                            </h4>
+                            <p style={{
+                                fontSize: '1rem',
+                                fontWeight: 600,
+                                color: 'var(--color-text-muted)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                The First Responder
+                            </p>
+
+                            <div style={{ marginBottom: '1.5rem' }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem' }}>The Mechanism:</p>
+                                <p style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
+                                    It acts as the initial scavenger of free radicals in the blood and recycles "used" Vitamin E and Glutathione so they can work again.
+                                </p>
+                            </div>
+
+                            <div style={{
+                                background: 'rgba(32, 178, 170, 0.1)',
+                                padding: '1.5rem',
+                                borderRadius: '8px',
+                                borderLeft: '4px solid var(--color-accent-teal)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                <p style={{ fontWeight: 600, marginBottom: '0.5rem', fontSize: '0.9rem' }}>The Physician's Note:</p>
+                                <p style={{ fontSize: '0.9rem', lineHeight: 1.6, fontStyle: 'italic' }}>
+                                    "Timing is everything. Do NOT take high-dose Vitamin C immediately after a workout. The inflammation from exercise is a signal for your muscles to grow. If you blunt it instantly with Vitamin C, you kill the adaptation. Take it in the morning or before bed, away from training."
+                                </p>
+                            </div>
+
+                            <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)' }}>
+                                Recommendation: Liposomal Vitamin C (for better absorption without stomach upset)
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* CTA Box */}
+                    <div style={{
+                        maxWidth: '700px',
+                        margin: '4rem auto 0',
+                        padding: '3rem',
+                        background: 'linear-gradient(135deg, rgba(46, 125, 50, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%)',
+                        borderRadius: '12px',
+                        border: '2px solid #2E7D32',
+                        textAlign: 'center'
+                    }}>
+                        <h3 style={{
+                            fontSize: '1.8rem',
+                            fontWeight: 700,
+                            marginBottom: '1rem',
+                            color: '#2E7D32'
+                        }}>
+                            Build Your Defense Stack
+                        </h3>
+                        <p style={{
+                            fontSize: '1.1rem',
+                            marginBottom: '2rem',
+                            color: 'var(--color-text)'
+                        }}>
+                            Protect your cells from biological rust.
+                        </p>
+                        <a
+                            href="/shop"
+                            style={{
+                                display: 'inline-block',
+                                background: '#2E7D32',
+                                color: '#FFFFFF',
+                                padding: '1rem 2.5rem',
+                                borderRadius: '8px',
+                                textDecoration: 'none',
+                                fontWeight: 700,
+                                fontSize: '1.1rem',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em',
+                                boxShadow: '0 4px 15px rgba(46, 125, 50, 0.3)',
+                                transition: 'all 0.3s ease'
+                            }}
+                        >
+                            Shop the Defense Kit
+                        </a>
+                    </div>
+                </div>
             </section>
         </>
     );
