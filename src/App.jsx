@@ -17,6 +17,7 @@ import EnvironmentalDefense from './pages/EnvironmentalDefense';
 import Protocol from './pages/Protocol';
 import EngineRoom from './pages/EngineRoom';
 import Shop from './pages/Shop';
+import MitochondrialGuide from './pages/MitochondrialGuide';
 
 function App() {
   useEffect(() => {
@@ -52,6 +53,7 @@ function App() {
               <Route path="/protocol" element={<Protocol />} />
               <Route path="/engine-room" element={<EngineRoom />} />
               <Route path="/shop" element={<Shop />} />
+              <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
             </Routes>
           </Suspense>
 
