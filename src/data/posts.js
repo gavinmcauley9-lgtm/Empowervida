@@ -11,6 +11,141 @@ export const CATEGORIES = [
 
 export const POSTS = [
   {
+    id: 6,
+    title: 'THE AGING TAX: Why Your Cells Are Running Out of Currency (And How NAD+ Restores It)',
+    category: 'longevity',
+    image: '/nad_decline_graph_1764585458405.png',
+    excerpt: 'By age 40, your NAD+ levels have dropped by 50%. This isn\'t just aging—it\'s cellular bankruptcy. Here\'s how to restore the currency of life.',
+    date: 'Dec 01, 2025',
+    cta: {
+      text: "Get Dr. Gavin's NAD+ Protocol",
+      link: "/shop"
+    },
+    content: `
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <h2>The Currency Crisis Inside Your Cells</h2>
+      <p>Imagine trying to run a city where the currency loses half its value every 20 years. Businesses shut down. Infrastructure crumbles. Essential services fail.</p>
+      <p>This is exactly what's happening inside your body.</p>
+      <p>The currency is called <strong>NAD+ (Nicotinamide Adenine Dinucleotide)</strong>, and by the time you're 40, you've lost about 50% of it. By 60, you're down to 10-20% of what you had at 20.</p>
+      <p>This isn't a metaphor. NAD+ is the literal fuel for over 500 enzymatic reactions in your body, including:</p>
+      <ul>
+        <li><strong>DNA Repair</strong> (via PARP enzymes)</li>
+        <li><strong>Mitochondrial Function</strong> (energy production)</li>
+        <li><strong>Sirtuin Activation</strong> (longevity genes)</li>
+        <li><strong>Circadian Rhythm Regulation</strong></li>
+      </ul>
+      <p>When NAD+ drops, everything breaks down. This is the biological root of aging.</p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/nad_decline_graph_1764585458405.png" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Aging Tax: NAD+ Levels Plummet After Age 40</p>
+      </div>
+
+      <h2>The Clinical Reality: What NAD+ Depletion Looks Like</h2>
+      <p>In my practice, I see the same pattern in patients over 40:</p>
+      <ul>
+        <li>"I can't recover from workouts like I used to."</li>
+        <li>"My brain feels foggy by 2 PM."</li>
+        <li>"I sleep 8 hours but wake up exhausted."</li>
+      </ul>
+      <p>Standard medicine calls this "normal aging." But it's not normal—it's <strong>NAD+ deficiency</strong>.</p>
+      <p>When NAD+ drops, your cells lose the ability to:</p>
+      <ul>
+        <li><strong>Repair DNA damage</strong> from UV light, oxidative stress, and normal metabolism</li>
+        <li><strong>Produce ATP efficiently</strong> in the mitochondria</li>
+        <li><strong>Activate sirtuins</strong>, the "longevity genes" that protect against neurodegeneration and metabolic disease</li>
+      </ul>
+
+      <h2>The Science: How NAD+ Works</h2>
+      <p>NAD+ is a coenzyme—a helper molecule that enzymes need to function. Think of it as the ignition key for your cellular engine.</p>
+
+      <h3>1. DNA Repair (PARP Enzymes)</h3>
+      <p>Every day, your DNA suffers thousands of breaks from radiation, toxins, and metabolic byproducts. <strong>PARP enzymes</strong> repair this damage, but they require NAD+ to function.</p>
+      <p>When NAD+ is low, DNA damage accumulates. This is the molecular basis of cancer risk and accelerated aging.</p>
+
+      <h3>2. Mitochondrial Function</h3>
+      <p>NAD+ is essential for the electron transport chain—the process that converts food into ATP (cellular energy). Without adequate NAD+, your mitochondria become inefficient, leading to fatigue and metabolic dysfunction.</p>
+
+      <h3>3. Sirtuin Activation</h3>
+      <p>Sirtuins (SIRT1-7) are enzymes that regulate inflammation, metabolism, and cellular stress resistance. They are activated by NAD+.</p>
+      <p>Studies show that sirtuin activation extends lifespan in yeast, worms, and mice. In humans, it's associated with improved metabolic health and neuroprotection.</p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/nad_cellular_repair_1764585477960.png" alt="NAD+ Cellular Repair Mechanisms" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">NAD+ Powers DNA Repair, Mitochondrial Function, and Sirtuin Activation</p>
+      </div>
+
+      <h2>The Protocol: How to Restore NAD+</h2>
+      <p>You cannot get NAD+ from food in meaningful amounts. The molecule is too large to cross the gut barrier intact. Instead, we use <strong>NAD+ precursors</strong>—smaller molecules that convert into NAD+ inside your cells.</p>
+
+      <h3>The Two Main Precursors: NR vs. NMN</h3>
+      <p>There are two primary NAD+ precursors on the market:</p>
+      <ul>
+        <li><strong>NR (Nicotinamide Riboside)</strong> – The most studied, FDA-notified as safe (GRAS status)</li>
+        <li><strong>NMN (Nicotinamide Mononucleotide)</strong> – Requires conversion to NR before entering cells</li>
+      </ul>
+
+      <h3>Why I Prescribe NR (Nicotinamide Riboside)</h3>
+      <p>While both work, I recommend <strong>NR</strong> for the following reasons:</p>
+      <ul>
+        <li><strong>Clinical Evidence:</strong> Over 20 human trials showing safety and efficacy</li>
+        <li><strong>Stability:</strong> More chemically stable than NMN</li>
+        <li><strong>Regulatory Status:</strong> FDA-notified as GRAS (Generally Recognized As Safe)</li>
+        <li><strong>Bioavailability:</strong> Directly absorbed and converted to NAD+ in cells</li>
+      </ul>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/nad_precursors_comparison_1764585501958.png" alt="NR vs NMN Comparison" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">NAD+ Precursors: The Pathways to Cellular Restoration</p>
+      </div>
+
+      <h3>The Dosage</h3>
+      <p>Clinical trials use <strong>300mg daily</strong> of NR (Nicotinamide Riboside). This dose has been shown to:</p>
+      <ul>
+        <li>Increase NAD+ levels by 40-90% in humans</li>
+        <li>Improve markers of metabolic health</li>
+        <li>Support cardiovascular function</li>
+        <li>Enhance cognitive performance in aging adults</li>
+      </ul>
+
+      <h3>Timing</h3>
+      <p>Take NR in the <strong>morning</strong>. NAD+ plays a role in circadian rhythm regulation, and morning dosing aligns with your body's natural metabolic peak.</p>
+
+      <h2>The Product I Recommend</h2>
+      <p>Not all NAD+ supplements are created equal. Many are under-dosed or use inferior forms.</p>
+      <p>I specifically recommend <strong>Tru Niagen</strong> (300mg NR) because:</p>
+      <ul>
+        <li>It uses Niagen®, the patented and clinically studied form of NR</li>
+        <li>It's backed by 20+ published human trials</li>
+        <li>It's NSF Certified for Sport (tested for purity and banned substances)</li>
+        <li>It's the only NR supplement with FDA GRAS status</li>
+      </ul>
+
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/v8Dd0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Check Price on Amazon
+        </a>
+      </p>
+
+      <h2>The Takeaway</h2>
+      <p>Aging is not inevitable decline. It's a loss of cellular currency.</p>
+      <p>NAD+ is the master regulator of energy, repair, and longevity. When it drops, everything breaks down. When you restore it, you restore function.</p>
+      <p>This isn't anti-aging hype. It's cellular economics.</p>
+      <p><strong>- Dr. Gavin</strong></p>
+
+      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
+
+      <h3>Scientific References</h3>
+      <ul style="font-size: 0.85rem; color: #888;">
+        <li>Yoshino, J., et al. (2018). "NAD+ intermediates: The biology and therapeutic potential of NMN and NR." Cell Metabolism, 27(3), 513-528.</li>
+        <li>Martens, C. R., et al. (2018). "Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults." Nature Communications, 9(1), 1286.</li>
+        <li>Cantó, C., et al. (2012). "The NAD+ precursor nicotinamide riboside enhances oxidative metabolism and protects against high-fat diet-induced obesity." Cell Metabolism, 15(6), 838-847.</li>
+        <li>Rajman, L., et al. (2018). "Therapeutic potential of NAD-boosting molecules: The in vivo evidence." Cell Metabolism, 27(3), 529-547.</li>
+      </ul>
+    `
+  },
+  {
     id: 1,
     title: 'The Brownout: Why Your Labs Are "Normal" But You Feel Dead (And How To Build A New Grid)',
     category: 'energy',
