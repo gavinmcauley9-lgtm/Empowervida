@@ -267,8 +267,8 @@ export const POSTS = [
       <p>5g daily. Micronized/Creapure is best for solubility.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/neuronal_synapse_firing_1764510423605.png" alt="Neuronal Synapse Firing" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Recharging the Neuron</p>
+        <img src="/creatine_atp_mitochondria_1764578743512.png" alt="Mitochondrial ATP Production" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Energy Buffering Inside the Neuron</p>
       </div>
 
       <p style="text-align: center; margin: 2rem 0;">
@@ -297,8 +297,8 @@ export const POSTS = [
       <p>250mg – 500mg in the morning.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/blood_brain_barrier_choline_1764510523035.png" alt="Blood-Brain Barrier Transport" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Kennedy Pathway: Crossing the Barrier</p>
+        <img src="/neuronal_synapse_firing_1764510423605.png" alt="Synaptic Transmission" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Neurotransmitter Release: Acetylcholine Crossing the Synaptic Cleft</p>
       </div>
 
       <p style="text-align: center; margin: 2rem 0;">
