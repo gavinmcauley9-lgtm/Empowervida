@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.empowervida.com/sitemap.xml
+Sitemap: https://empowervida.com/sitemap.xml
