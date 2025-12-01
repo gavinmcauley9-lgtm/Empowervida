@@ -22,6 +22,20 @@ const Shop = () => {
                     why: 'Mitochondrial biogenesis. This stack helps grow new mitochondria and keeps the existing ones firing, especially if you are over 40 or taking Statins.',
                     pick: 'Life Extension Super Ubiquinol',
                     link: 'https://geni.us/kyBLJ3m'
+                },
+                {
+                    name: 'CDP-Choline (Citicoline)',
+                    subtitle: 'The Architect',
+                    why: 'Crosses the blood-brain barrier to increase acetylcholine (the learning neurotransmitter) and repair cell membranes. Essential for focus, memory formation, and cognitive endurance.',
+                    pick: 'Jarrow Formulas Citicoline (Cognizin)',
+                    link: 'https://geni.us/BEY5'
+                },
+                {
+                    name: 'PQQ (Pyrroloquinoline Quinone)',
+                    subtitle: 'The Builder',
+                    why: 'Triggers mitochondrial biogenesis—the growth of brand new mitochondria. The only supplement proven to increase the number of cellular power plants in your brain.',
+                    pick: 'Jarrow Formulas PQQ (BioPQQ)',
+                    link: 'https://geni.us/gZB1H'
                 }
             ]
         },
@@ -43,6 +57,13 @@ const Shop = () => {
                     why: 'Adaptogens reset your HPA axis. If evening cortisol is too high (Tired but Wired), Ashwagandha brings it down by 27.9%. Allows natural melatonin to rise for deep sleep. KSM-66 is the clinically studied root extract.',
                     pick: 'Jarrow Formulas KSM-66',
                     link: 'https://geni.us/AxGBnX'
+                },
+                {
+                    name: 'Rhodiola Rosea',
+                    subtitle: 'The Stress Shield',
+                    why: 'An adaptogen that modulates cortisol and reduces decision fatigue. Helps you stay calm under pressure without sedation. Must be standardized to 3% Rosavins and 1% Salidrosides.',
+                    pick: 'Thorne Rhodiola',
+                    link: 'https://geni.us/V4dBIU'
                 }
             ]
         },
@@ -97,6 +118,27 @@ const Shop = () => {
         },
         {
             icon: '🧬',
+            title: 'THE LONGEVITY & CELLULAR RENEWAL PROTOCOL',
+            goal: 'DNA Repair, Mitophagy, & Anti-Aging',
+            products: [
+                {
+                    name: 'NAD+ Precursor (Nicotinamide Riboside)',
+                    subtitle: 'The Repair Signal',
+                    why: 'NAD+ levels drop 50% by age 40. This is the master molecule for DNA repair (PARP enzymes), sirtuin activation (longevity genes), and mitochondrial function. NR is the most clinically validated and FDA-notified safe precursor.',
+                    pick: 'Tru Niagen (300mg)',
+                    link: 'https://geni.us/v8Dd0'
+                },
+                {
+                    name: 'Urolithin A (Mitopure)',
+                    subtitle: 'The Recycler',
+                    why: 'The only molecule proven to trigger mitophagy—the recycling of old, dysfunctional mitochondria. You cannot get clinical doses from pomegranate juice. Only 40% of people can produce it naturally.',
+                    pick: 'Timeline Nutrition Mitopure',
+                    link: 'https://geni.us/urolithin-a'
+                }
+            ]
+        },
+        {
+            icon: '🔥',
             title: 'THE METABOLIC RESET',
             goal: 'Blood Sugar Control & Anti-Aging',
             products: [
