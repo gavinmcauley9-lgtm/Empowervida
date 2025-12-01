@@ -13,8 +13,66 @@ const MitochondrialGuide = () => {
     return (
         <>
             <Helmet>
-                <title>The Ultimate Guide to Mitochondrial Health | EMPOWERVIDA</title>
-                <meta name="description" content="A physician's protocol for reviving your cellular engines. Stop borrowing energy, start creating it." />
+                {/* Primary Meta Tags */}
+                <title>The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It | EMPOWERVIDA</title>
+                <meta name="title" content="The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It" />
+                <meta name="description" content="A physician's evidence-based protocol for reviving your cellular engines. Learn the exact supplements, dosages, and timing to fuel, protect, and rebuild your mitochondria. Stop brain fog, chronic fatigue, and slow recovery." />
+                <meta name="keywords" content="mitochondrial health, NAD+, cellular energy, ATP production, nootropics, longevity supplements, anti-aging, brain fog, chronic fatigue, urolithin a, PQQ, creatine, physician protocol" />
+                <meta name="author" content="Dr. Gavin McAuley" />
+                <link rel="canonical" href="https://empowervida.com/mitochondrial-guide" />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="article" />
+                <meta property="og:url" content="https://empowervida.com/mitochondrial-guide" />
+                <meta property="og:title" content="The Ultimate Guide to Mitochondrial Health | EMPOWERVIDA" />
+                <meta property="og:description" content="A physician's evidence-based protocol for reviving your cellular engines. Stop brain fog and chronic fatigue with the right supplements, dosages, and timing." />
+                <meta property="og:image" content="https://empowervida.com/mitochondrion_hero_cinematic_1764586685814.png" />
+                <meta property="og:site_name" content="EMPOWERVIDA" />
+                <meta property="article:author" content="Dr. Gavin McAuley" />
+                <meta property="article:section" content="Longevity & Health" />
+                <meta property="article:tag" content="Mitochondrial Health" />
+                <meta property="article:tag" content="Supplements" />
+                <meta property="article:tag" content="Longevity" />
+
+                {/* Twitter */}
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://empowervida.com/mitochondrial-guide" />
+                <meta property="twitter:title" content="The Ultimate Guide to Mitochondrial Health | EMPOWERVIDA" />
+                <meta property="twitter:description" content="A physician's evidence-based protocol for reviving your cellular engines. Stop brain fog and chronic fatigue." />
+                <meta property="twitter:image" content="https://empowervida.com/mitochondrion_hero_cinematic_1764586685814.png" />
+
+                {/* Schema.org Structured Data */}
+                <script type="application/ld+json">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "MedicalWebPage",
+                        "headline": "The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It",
+                        "description": "A physician's evidence-based protocol for reviving your cellular engines with supplements for mitochondrial health.",
+                        "author": {
+                            "@type": "Person",
+                            "name": "Dr. Gavin McAuley",
+                            "jobTitle": "Physician",
+                            "description": "The Longevity Architect"
+                        },
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "EMPOWERVIDA",
+                            "url": "https://empowervida.com"
+                        },
+                        "mainEntityOfPage": {
+                            "@type": "WebPage",
+                            "@id": "https://empowervida.com/mitochondrial-guide"
+                        },
+                        "image": "https://empowervida.com/mitochondrion_hero_cinematic_1764586685814.png",
+                        "datePublished": "2025-12-01",
+                        "dateModified": "2025-12-01",
+                        "specialty": "Longevity Medicine",
+                        "about": {
+                            "@type": "MedicalCondition",
+                            "name": "Mitochondrial Dysfunction"
+                        }
+                    })}
+                </script>
             </Helmet>
 
             {/* Hero Section */}
