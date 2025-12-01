@@ -85,7 +85,7 @@ export const POSTS = [
       <p>You cannot build a new city on top of a ruin. Before we build new mitochondria, we must clear out the old, dysfunctional ones. This process is called <strong>Mitophagy</strong>.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/mitophagy_diagram.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
+        <img src="/mitophagy_cellular_recycling_1764577721429.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Mitophagy: Recycling Cellular Waste</p>
       </div>
 
@@ -93,9 +93,15 @@ export const POSTS = [
       <p><strong>The Prescription:</strong> Direct supplementation is usually required for clinical effect. Look for 500mg daily to ensure you are effectively recycling cellular waste.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/urolithin_a_structure.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
+        <img src="/urolithin_a_molecule_1764577590547.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Molecular Precision: Urolithin A</p>
       </div>
+
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/urolithin-a" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Check Price on Amazon
+        </a>
+      </p>
 
       <h2>The Takeaway</h2>
       <p>You can buy all the Nootropics and pre-workouts in the world, but if your cellular engine is too small, you will never go fast.</p>
