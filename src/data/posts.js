@@ -226,57 +226,135 @@ export const POSTS = [
     id: 3,
     title: 'Nootropics That Actually Work',
     category: 'cognition',
-    image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=2000', // Placeholder for Hype vs Data
-    excerpt: 'Separating the clinical data from the marketing hype.',
-    date: 'Oct 05, 2025',
+    image: '/stimulants_vs_nootropics_graph_1764510405890.png',
+    excerpt: 'Separating the clinical data from the marketing hype. The Triage Protocol.',
+    date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Cognitive Stack",
       link: "/shop"
     },
     content: `
-      <p><strong>The "Limitless" Lie</strong></p>
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <h2>The "Limitless" Lie</h2>
       <p>Walk into any supplement shop, and you will see rows of flashy bottles promising "laser focus," "endless energy," and "unlocked potential." They usually cost $80 a month, and inside, you find a proprietary blend of under-dosed caffeine and B-vitamins.</p>
       <p>That is not cognitive enhancement; that is expensive pee.</p>
       <p>As an ER physician, I need my brain to work when I am running on three hours of sleep and managing a trauma case. I don't have time for placebo effects. I need compounds that pass the "Triage Test": Do they have robust clinical data showing they upgrade neural hardware?</p>
       <p>Most don't. A few do. Here is the difference between stimulation and optimization.</p>
 
-      <h2>The Mechanism: Fuel vs. Fire</h2>
-      <p>Most "brain boosters" are just stimulants. They dump adrenaline into your system. You feel awake, but your thoughts are scattered, and you crash two hours later. That’s lighting a fire with gasoline.</p>
-      <p>True nootropics act as neural fuel or structural support. They increase cerebral blood flow, provide the raw materials for neurotransmitters, or protect neurons from stress.</p>
-      <p>Here are the three compounds I keep in my triage kit that actually have data behind them.</p>
+      <h2>1. The Concept: Fuel vs. Fire</h2>
+      <p>Most "brain boosters" are just stimulants. They dump adrenaline into your system. You feel awake, but your thoughts are scattered, and you crash two hours later. That's lighting a fire with gasoline.</p>
+      <p>True nootropics act as <strong>Neural Fuel</strong> or <strong>Structural Support</strong>. They increase cerebral blood flow, provide the raw materials for neurotransmitters, or protect neurons from stress.</p>
 
-      <h2>1. The Foundation: Creatine Monohydrate</h2>
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/stimulants_vs_nootropics_graph_1764510405890.png" alt="Stimulants vs Nootropics Graph" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Stimulants (Red) vs. Nootropics (Cyan): The Crash vs. The Sustain</p>
+      </div>
+
+      <h2>2. Creatine Monohydrate (The Foundation)</h2>
       <p>Yes, the muscle supplement. The brain is the most energy-demanding organ in your body. It uses about 20% of your total energy.</p>
-      <p><strong>The Mechanism:</strong> Just like muscles, neurons use ATP for energy. When you are thinking hard (cognitive demand), you burn through ATP rapidly. Creatine provides the phosphate group to recycle that ATP instantly.</p>
-      <p><strong>The Data:</strong> Studies show that creatine supplementation significantly improves short-term memory and reasoning skills, especially in states of fatigue or sleep deprivation.</p>
-      <p><strong>The Protocol:</strong> 5g daily. It’s the cheapest, safest brain insurance you can buy.</p>
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=1000" alt="Mechanism of Action" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: Key into Lock</p>
-      </div>
+      <h3>The Mechanism</h3>
+      <p>Just like muscles, neurons use ATP for energy. When you are thinking hard (cognitive demand), you burn through ATP rapidly. Creatine provides the phosphate group to recycle that ATP instantly via the <strong>Phosphocreatine Shuttle</strong>.</p>
 
-      <h2>2. The Architect: CDP-Choline (Citicoline)</h2>
-      <p>Your brain needs a neurotransmitter called Acetylcholine to learn new information and form memories. You cannot build a house without bricks. Choline is the brick.</p>
-      <p><strong>The Mechanism:</strong> CDP-Choline is unique because it does double duty.</p>
+      <h3>The Data</h3>
       <ul>
-        <li>It crosses the blood-brain barrier to increase acetylcholine levels (better focus/learning).</li>
-        <li>It provides the structural components to repair neuronal membranes (long-term brain health).</li>
+        <li><strong>Rae et al. (2003):</strong> Demonstrated significant improvements in working memory and fluid intelligence.</li>
+        <li><strong>Avgerinos et al. (2018):</strong> Showed efficacy in reducing mental fatigue, especially during sleep deprivation.</li>
       </ul>
-      <p><strong>The Protocol:</strong> 250mg – 500mg in the morning.</p>
 
-      <h2>3. The Adaptogen: Rhodiola Rosea</h2>
-      <p>In the ER, the enemy isn't a lack of intelligence; it's burnout. When cortisol (stress hormone) stays high for too long, your brain goes offline.</p>
-      <p><strong>The Mechanism:</strong> Rhodiola is an adaptogen. It doesn't give you energy; it raises your threshold for stress. It modulates the HPA axis, stopping your body from dumping excessive cortisol when under pressure. It helps you stay calm in the chaos.</p>
-      <p><strong>The Protocol:</strong> Look for an extract standardised to 3% rosavins and 1% salidroside. Take it on an empty stomach in the morning.</p>
+      <h3>The Protocol</h3>
+      <p>5g daily. Micronized/Creapure is best for solubility.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/triage_protocol_cognitive.png" alt="The Triage Protocol: Cognitive Foundation" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Triage Protocol: Fuel, Bricks, and Stress Management</p>
+        <img src="/neuronal_synapse_firing_1764510423605.png" alt="Neuronal Synapse Firing" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Recharging the Neuron</p>
       </div>
 
-      <h2>The Takeaway</h2>
-      <p>Stop buying proprietary blends with neon labels. Real cognitive performance doesn't feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking. Start with the foundation: fuel (Creatine), bricks (Choline), and stress management (Rhodiola).</p>
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/creatine-monohydrate" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Check Price on Amazon
+        </a>
+      </p>
+
+      <h2>3. CDP-Choline (The Architect)</h2>
+      <p>You cannot build a house without bricks. Your brain needs a neurotransmitter called Acetylcholine to learn new information and form memories. Choline is the brick.</p>
+
+      <h3>The Mechanism</h3>
+      <p>CDP-Choline (Citicoline) works via the <strong>Kennedy Pathway</strong>. It is unique because it crosses the Blood-Brain Barrier to:</p>
+      <ul>
+        <li>Increase Acetylcholine levels (Focus & Learning).</li>
+        <li>Synthesize Phosphatidylcholine (Membrane Repair).</li>
+      </ul>
+
+      <h3>The Data</h3>
+      <ul>
+        <li><strong>McGlade et al. (2012):</strong> Improved attentional performance in women.</li>
+        <li><strong>Silveri et al. (2008):</strong> Increased brain bioenergetics and phospholipid turnover.</li>
+      </ul>
+
+      <h3>The Protocol</h3>
+      <p>250mg – 500mg in the morning.</p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/blood_brain_barrier_choline_1764510523035.png" alt="Blood-Brain Barrier Transport" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Kennedy Pathway: Crossing the Barrier</p>
+      </div>
+
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/cdp-choline" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Check Price on Amazon
+        </a>
+      </p>
+
+      <h2>4. Rhodiola Rosea (The Adaptogen)</h2>
+      <p>In the ER, the enemy isn't a lack of intelligence; it's burnout. When cortisol (stress hormone) stays high for too long, your brain goes offline.</p>
+
+      <h3>The Mechanism</h3>
+      <p>Rhodiola acts as a thermostat for your HPA Axis. It doesn't give you energy; it raises your threshold for stress. It prevents the cortisol spike that leads to brain fog.</p>
+
+      <h3>The Data</h3>
+      <ul>
+        <li><strong>Darbinyan et al. (2000):</strong> Significant reduction in fatigue among night-shift physicians.</li>
+        <li><strong>Edwards et al. (2012):</strong> Improvement in stress symptoms and mood.</li>
+      </ul>
+
+      <h3>The Protocol</h3>
+      <p>Look for an extract standardised to <strong>3% Rosavins and 1% Salidroside</strong>. Take it on an empty stomach in the morning.</p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+        <img src="/rhodiola_shield_1764510552456.png" alt="Cortisol Shield" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">HPA Axis Modulation: The Stress Shield</p>
+      </div>
+
+      <p style="text-align: center; margin: 2rem 0;">
+        <a href="https://geni.us/rhodiola-rosea" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
+          Check Price on Amazon
+        </a>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>Stop buying proprietary blends with neon labels. Real cognitive performance doesn't feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
+      <p><strong>The Stack:</strong></p>
+      <ul>
+        <li><strong>Fuel:</strong> Creatine (5g)</li>
+        <li><strong>Bricks:</strong> CDP-Choline (250-500mg)</li>
+        <li><strong>Shield:</strong> Rhodiola Rosea (Standardized)</li>
+      </ul>
+      <p>Start with the foundation.</p>
+      <p><strong>- Dr. Gavin</strong></p>
+
+      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
+
+      <h3>References</h3>
+      <ul style="font-size: 0.85rem; color: #888;">
+        <li>Rae, C., et al. (2003). Proc Bio Sci.</li>
+        <li>Avgerinos, K. I., et al. (2018). Exp Gerontol.</li>
+        <li>McGlade, E., et al. (2012). Food and Nutrition Sciences.</li>
+        <li>Silveri, M. M., et al. (2008). NMR in Biomedicine.</li>
+        <li>Darbinyan, V., et al. (2000). Phytomedicine.</li>
+        <li>Edwards, D., et al. (2012). Phytother Res.</li>
+      </ul>
     `
   },
   {
