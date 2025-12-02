@@ -82,7 +82,10 @@ const MitochondrialGuide = () => {
                 width: '100%',
                 height: '80vh',
                 overflow: 'hidden',
-                background: '#000'
+                background: '#000',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center center'
             }}>
                 {/* Hero Image with Ken Burns Effect */}
                 <div style={{
@@ -111,8 +114,8 @@ const MitochondrialGuide = () => {
                     bottom: 0,
                     left: 0,
                     width: '100%',
-                    height: '70%',
-                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.3) 100%)',
+                    height: '100%',
+                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)',
                     pointerEvents: 'none'
                 }} />
 
