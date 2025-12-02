@@ -222,7 +222,7 @@ const MitochondrialDiagram = () => {
                                 x={supp.x}
                                 y={supp.y - 15}
                                 textAnchor="middle"
-                                fill="#FFFFFF"
+                                fill="#1A1A1A"
                                 fontSize="13"
                                 fontWeight="600"
                                 style={{
@@ -235,39 +235,45 @@ const MitochondrialDiagram = () => {
                             </text>
 
                             {/* Tooltip */}
-                            {activeTooltip === supp.id && (
-                                <g>
-                                    <rect
-                                        x={supp.x - 120}
-                                        y={supp.y + 15}
-                                        width="240"
-                                        height="auto"
-                                        rx="8"
-                                        fill="rgba(0, 0, 0, 0.95)"
-                                        stroke="#20B2AA"
-                                        strokeWidth="2"
-                                    />
-                                    <foreignObject
-                                        x={supp.x - 110}
-                                        y={supp.y + 20}
-                                        width="220"
-                                        height="100"
-                                    >
-                                        <div style={{
-                                            color: '#FFFFFF',
-                                            fontSize: '11px',
-                                            lineHeight: '1.4',
-                                            padding: '8px',
-                                            fontFamily: 'Inter, sans-serif'
-                                        }}>
-                                            <strong style={{ color: '#20B2AA', display: 'block', marginBottom: '4px' }}>
-                                                {supp.name}
-                                            </strong>
-                                            {supp.mechanism}
-                                        </div>
-                                    </foreignObject>
-                                </g>
-                            )}
+                            {activeTooltip === supp.id && (() => {
+                                // Position tooltip above if in bottom half, below if in top half
+                                const tooltipY = supp.y > 270 ? supp.y - 110 : supp.y + 15;
+                                const tooltipX = supp.x - 120;
+
+                                return (
+                                    <g>
+                                        <rect
+                                            x={tooltipX}
+                                            y={tooltipY}
+                                            width="240"
+                                            height="90"
+                                            rx="8"
+                                            fill="rgba(0, 0, 0, 0.95)"
+                                            stroke="#20B2AA"
+                                            strokeWidth="2"
+                                        />
+                                        <foreignObject
+                                            x={tooltipX + 10}
+                                            y={tooltipY + 5}
+                                            width="220"
+                                            height="80"
+                                        >
+                                            <div style={{
+                                                color: '#FFFFFF',
+                                                fontSize: '11px',
+                                                lineHeight: '1.4',
+                                                padding: '8px',
+                                                fontFamily: 'Inter, sans-serif'
+                                            }}>
+                                                <strong style={{ color: '#20B2AA', display: 'block', marginBottom: '4px' }}>
+                                                    {supp.name}
+                                                </strong>
+                                                {supp.mechanism}
+                                            </div>
+                                        </foreignObject>
+                                    </g>
+                                );
+                            })()}
                         </g>
                     );
                 })}
