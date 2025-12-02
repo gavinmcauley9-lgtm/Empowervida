@@ -51,17 +51,27 @@ export default function Navigation() {
                         onMouseEnter={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
+                                // Clear any existing close timer
+                                const timerId = menu.getAttribute('data-timer');
+                                if (timerId) {
+                                    clearTimeout(parseInt(timerId));
+                                    menu.removeAttribute('data-timer');
+                                }
                                 menu.style.opacity = '1';
                                 menu.style.visibility = 'visible';
-                                menu.style.transform = 'translateY(0)';
+                                menu.style.transform = 'translateY(0) translateX(-50%)';
                             }
                         }}
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
-                                menu.style.opacity = '0';
-                                menu.style.visibility = 'hidden';
-                                menu.style.transform = 'translateY(10px)';
+                                // Set a delay before closing
+                                const timerId = setTimeout(() => {
+                                    menu.style.opacity = '0';
+                                    menu.style.visibility = 'hidden';
+                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                }, 300);
+                                menu.setAttribute('data-timer', timerId);
                             }
                         }}
                     >
@@ -84,8 +94,8 @@ export default function Navigation() {
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '220px',
-                                transition: 'all 0.2s ease',
-                                marginLeft: '-50%' // Correction for left: 50%
+                                transition: 'all 0.2s ease, opacity 0.2s ease, visibility 0.2s ease',
+                                zIndex: 1000
                             }}
                         >
                             <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
@@ -106,17 +116,25 @@ export default function Navigation() {
                         onMouseEnter={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
+                                const timerId = menu.getAttribute('data-timer');
+                                if (timerId) {
+                                    clearTimeout(parseInt(timerId));
+                                    menu.removeAttribute('data-timer');
+                                }
                                 menu.style.opacity = '1';
                                 menu.style.visibility = 'visible';
-                                menu.style.transform = 'translateY(0)';
+                                menu.style.transform = 'translateY(0) translateX(-50%)';
                             }
                         }}
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
-                                menu.style.opacity = '0';
-                                menu.style.visibility = 'hidden';
-                                menu.style.transform = 'translateY(10px)';
+                                const timerId = setTimeout(() => {
+                                    menu.style.opacity = '0';
+                                    menu.style.visibility = 'hidden';
+                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                }, 300);
+                                menu.setAttribute('data-timer', timerId);
                             }
                         }}
                     >
@@ -139,8 +157,8 @@ export default function Navigation() {
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '260px',
-                                transition: 'all 0.2s ease',
-                                marginLeft: '-50%'
+                                transition: 'all 0.2s ease, opacity 0.2s ease, visibility 0.2s ease',
+                                zIndex: 1000
                             }}
                         >
                             <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
