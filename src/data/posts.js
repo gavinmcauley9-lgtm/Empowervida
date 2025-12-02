@@ -24,6 +24,11 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">By age 40, you've lost 50% of your NAD+—the cellular currency powering DNA repair, energy production, and longevity genes. This decline drives aging. Solution: NAD+ precursors (NMN or NR) restore cellular function, improve energy, and activate sirtuins for healthspan extension.</p>
+      </div>
+      
       <h2>The Currency Crisis Inside Your Cells</h2>
       <p>Imagine trying to run a city where the currency loses half its value every 20 years. Businesses shut down. Infrastructure crumbles. Essential services fail.</p>
       <p>This is exactly what's happening inside your body.</p>
@@ -158,6 +163,12 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Standard blood tests miss cellular energy dysfunction. Your fatigue isn't laziness—it's mitochondrial insufficiency. The fix isn't more caffeine; it's building new mitochondria through targeted supplementation (PQQ, CoQ10, Urolithin A) and lifestyle interventions.</p>
+      </div>
+
       <p>I have sat across from hundreds of patients who look me in the eye and say, "Doc, I am exhausted."</p>
       <p>I would run the standard battery of tests. Full blood count. Thyroid. Iron studies. If I was lucky, I would find a low Ferritin level—a smoking gun that offered an easy fix.</p>
       <p>But all too often, the results would come back... perfect. Normal hemoglobin. Normal TSH. Normal electrolytes.</p>
@@ -269,6 +280,11 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog isn't tiredness—it's metabolic waste buildup. Your brain's glymphatic system only flushes toxins during deep sleep. Poor sleep = sewage accumulation = cognitive decline. Fix: prioritize deep sleep, magnesium L-threonate, and sleep hygiene.</p>
+      </div>
+      
       <p>Imagine hosting a massive dinner party. You have 100 guests, music, food, and conversation. By 2:00 AM, the guests leave, and your kitchen is a disaster zone. Plates are piled high, wine is spilled, and trash is everywhere.</p>
       
       <p>Now, imagine you turn off the lights and go to sleep without cleaning it.</p>
@@ -370,6 +386,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most "nootropics" are overpriced caffeine. Real cognitive enhancement requires compounds with clinical data: CDP-Choline (neurotransmitter synthesis), Creatine (brain ATP), L-Theanine (calm focus), and Omega-3s (membrane fluidity). Skip the proprietary blends—use evidence-based compounds.</p>
+      </div>
       
       <h2>The "Limitless" Lie</h2>
       <p>Walk into any supplement shop, and you will see rows of flashy bottles promising "laser focus," "endless energy," and "unlocked potential." They usually cost $80 a month, and inside, you find a proprietary blend of under-dosed caffeine and B-vitamins.</p>
@@ -505,6 +526,12 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Standard magnesium forms can't cross the blood-brain barrier. Only Magnesium L-Threonate (Magtein) reaches brain tissue to improve memory, learning, and neuroplasticity. If you're taking magnesium for brain health, you need the right form—not a laxative.</p>
+      </div>
+      
       <p>If you walk down the supplement aisle of any pharmacy, you will see a graveyard of good intentions. Magnesium Citrate, Oxide, Chloride, Glycinate.</p>
       <p>I prescribe these forms often. They are excellent for your gut, your heart rhythm, and relaxing your muscles after a shift in the ER. But they all share a fatal flaw when it comes to cognitive longevity:</p>
       <p>They cannot get into the VIP section.</p>
@@ -574,6 +601,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your hippocampus shrinks by 1-2% annually after age 55. BDNF (Brain-Derived Neurotrophic Factor) is the "fertilizer" that stops this decay. You can trigger BDNF release through high-intensity exercise, heat stress (sauna), and high-dose DHA Omega-3s.</p>
+      </div>
       
       <p>In the Emergency Room, we treat "stroke" as a sudden event. A vessel bursts or blocks, and a piece of the brain dies instantly.</p>
       
@@ -703,6 +735,12 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Normal" labs are based on average (sick) populations, not optimal health. Fatigue is often mitochondrial inefficiency, not organ failure. Standard tests miss this. Fix: Ubiquinol (active CoQ10) and Zone 2 training to build mitochondrial density.</p>
+      </div>
+      
       <p>It is a ritual I see played out constantly.</p>
       <p>You walk into your doctor’s office, dragging a heavy invisible weight behind you. You are sleeping (sort of). You are eating (mostly) well. But you feel like you are wading through treacle. Your focus is shot, your motivation is zero, and the coffee isn't working anymore.</p>
       <p>The doctor nods, listens, and orders the "Standard Panel": CBC, CMP, TSH.</p>
@@ -758,6 +796,11 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
+            <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+              <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">8 hours of sleep doesn't guarantee recovery if sleep architecture is poor. You need Deep Sleep for physical repair and REM for emotional processing. Magnesium Bisglycinate and Glycine lower core temp and calm the nervous system to unlock deep sleep stages.</p>
+            </div>
+
             <p><strong>"I slept 8 hours, why am I still tired?"</strong></p>
             <p>Most advice says "put down the phone" or "cool the room." That is Kindergarten advice. As a physician, I look at <strong>Sleep Architecture</strong>. Are you getting Deep Sleep (Physical repair) and REM (Emotional processing)? Usually, the answer is no, because your nervous system is stuck in "fight or flight."</p>
 
@@ -800,6 +843,11 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
+            <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+              <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Cell membranes harden with age due to saturated fats and oxidation. This "stiffness" blocks nutrient entry. Fix: "Oil Change" with high-dose Omega-3s (EPA/DHA) to replace rigid fats with fluid ones.</p>
+            </div>
+
             <p><strong>The "Brick Wall" Problem</strong></p>
             <p>When patients tell me they feel "stiff"—whether it’s their joints or their thinking—they usually blame age. But biologically, stiffness is often a result of what your cells are constructed from.</p>
             <p>If you are suffering from brain fog, low energy, or nagging joint pain, the problem might not be what you are eating, but what your cells are made of.</p>
@@ -850,6 +898,11 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
+            <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+              <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Inflammation is the root of heart disease, Alzheimer's, and cancer. It damages DNA and mitochondria. Fix: Tiered antioxidant protocol. Tier 1: Liposomal Vitamin C + NAC (Glutathione precursor). Tier 2: Astaxanthin (brain/eye protection). Tier 3: Methylene Blue (mitochondrial rescue).</p>
+            </div>
+
             <p><strong>If you ask a cardiologist, a neurologist, and an oncologist what causes disease, they will use different jargon. But if you zoom in to the cellular level, they are all describing the same process: Chronic Inflammation.</strong></p>
             <p>We used to think heart disease was just "clogged pipes" and Alzheimer's was just "bad luck." We now know better. Inflammation is the common denominator—a slow-burning fire that damages your DNA, stiffens your arteries, and suffocates your mitochondria.</p>
 
@@ -908,6 +961,11 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
+            <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+              <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Glucose spikes >140 mg/dL "cook" your proteins (glycation), damaging arteries and aging skin. Fix: Physics over pharmacology. Eat fiber first, then protein/fat, then carbs. Walk after meals. Use Dihydroberberine to improve insulin sensitivity.</p>
+            </div>
+
             <p><strong>The ER Perspective</strong></p>
             <p>In the ER, I treat diabetic comas. But the damage starts decades earlier. Every time your glucose spikes over 140 mg/dL, you are 'cooking' your proteins (Glycation). This is the same chemical reaction that turns a steak brown on the grill. You do not want your arteries to be grilled steak.</p>
 
@@ -940,6 +998,12 @@ export const POSTS = [
     },
     content: `
       <p><strong>By The Resilience Protocol Medical Team</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Vitamin D isn't just a vitamin; it's a steroid hormone that regulates 5% of your genome. It's critical for immune function and autoimmunity. Most people are deficient. Fix: Test levels (aim for 40-60 ng/mL) and supplement with D3 + K2 (to direct calcium to bones, not arteries).</p>
+      </div>
+      
       <p>If I were to conduct a tactical audit of my patients' bathroom cabinets, I would find the same scene in almost every home.</p>
       <p>There, pushed to the back behind the expired cough syrup and half-used muscle rubs, sits a bottle of Vitamin D. You bought it six months ago because you read a headline, or perhaps a relative told you to. You took it for a week, didn't feel a sudden surge of energy, and forgot about it.</p>
       <p>It is the most undervalued asset in your biological arsenal.</p>
@@ -998,6 +1062,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Doctor Gav</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog is a physiological signal of neuro-inflammation and mitochondrial dysfunction. Causes: Glymphatic failure (poor sleep), Leaky Gut (inflammation), and Nutrient deficiency. Fix: "Brain-Wash" protocol (sleep hygiene), Creatine (brain energy), and Omega-3s.</p>
+      </div>
       
       <p>I remember the exact moment I realized my brain was betraying me.</p>
 
@@ -1102,6 +1171,11 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Anxiety and "brain fog" are often symptoms of neuroinflammation. When brain immune cells (microglia) panic, they block serotonin and trigger "sickness behavior." Fix: Cut sugar/seed oils, heal the gut (probiotics), and use Liposomal Curcumin to extinguish the brain fire.</p>
+      </div>
+      
       <p>In my clinic, I often see a specific type of patient. They aren't just "sad" in the clinical depression sense. They are tired. They are wired but exhausted. They have lost their joie de vivre—the spark that makes life feel vibrant.</p>
       
       <p>They often say, "Doc, I feel anxious, I have brain fog, and I just don't care about things I used to love."</p>
@@ -1197,6 +1271,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The brain consumes 20% of body energy. Brain fatigue (decision fatigue, lack of focus) precedes physical fatigue. It's a sign of neural ATP depletion. Fix: Creatine Monohydrate (brain battery buffer) and Exogenous Ketones (alternative fuel) to bypass glucose bottlenecks.</p>
+      </div>
       
       <p>You know the feeling. It's 2:30 PM. You have been sitting in a chair all day. You haven't run a marathon. You haven't lifted a heavy weight.</p>
       
@@ -1300,6 +1379,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Caramelizing" (Glycation) is why some people age faster. Sugar binds to proteins, forming AGEs (Advanced Glycation End-products) that stiffen collagen and damage DNA. Fix: Low-glycemic diet, Carnosine (glycation inhibitor), and Benfotiamine (blocks AGE formation).</p>
+      </div>
       
       <p>We all know that one person from high school. You see them at the reunion 20 years later, and they haven't aged a day. Meanwhile, another classmate looks like they have aged 40 years.</p>
       
@@ -1509,6 +1593,11 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Muscle isn't just for movement; it's the "Organ of Longevity." It releases myokines that protect your brain and bones. Sarcopenia (muscle loss) leads to frailty and diabetes. Fix: Eat 30g of protein at breakfast (to trigger synthesis) and lift heavy things to combat anabolic resistance.</p>
+      </div>
+      
       <p>In medical school, we are taught that muscle is for movement. It lifts the arm; it bends the knee.</p>
       
       <p>But in my practice, I am seeing a terrifying trend. I see patients in their 40s who have lost the "bounce" in their step. They are becoming biologically fragile. If they trip, they don't just stumble; they break.</p>
@@ -1593,17 +1682,22 @@ export const POSTS = [
   },
   {
     id: 19,
-    title: 'THE ENERGY THIEF: Are Your Medications Making You Tired? (The CoQ10 Crisis)',
+    title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
     category: 'energy',
     image: '/cellular_structure.png',
-    excerpt: 'Statins save lives by lowering cholesterol. But they also block CoQ10 production—the spark plug of your mitochondria. Without it, your engine sputters. You feel exhausted, your muscles ache, your brain fogs.',
-    date: 'Dec 05, 2025',
+    excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
+    date: 'Dec 07, 2025',
     cta: {
-      text: "Get Dr. Gavin's Spark Plug",
+      text: "Get Dr. Gavin's Methylation Stack",
       link: "/shop"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Statins deplete CoQ10. Metformin depletes B12. Beta-blockers deplete Melatonin. Many common meds rob your mitochondria of essential nutrients. Fix: Supplement with the specific nutrients your medication depletes (e.g., Ubiquinol/CoQ10 with Statins) to restore energy.</p>
+      </div>
       
       <p>I see this scenario every week. A patient comes in feeling exhausted, their muscles ache, and their brain feels foggy. They ask me to check their thyroid or their iron levels.</p>
       
@@ -1697,6 +1791,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Tired but wired" means your cortisol curve is inverted. You have low cortisol in the morning (groggy) and high cortisol at night (insomnia). Fix: Morning sunlight (resets circadian clock), Adaptogens (Ashwagandha KSM-66) to modulate stress, and Phosphatidylserine to lower evening cortisol.</p>
+      </div>
       
       <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
       
@@ -1796,6 +1895,11 @@ export const POSTS = [
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">40% of people carry the MTHFR gene mutation, preventing them from converting Folic Acid into active Methylfolate. This blocks energy production and detox. Fix: Avoid synthetic Folic Acid and use Methylated B-Vitamins (5-MTHF) to unlock cellular ignition.</p>
+      </div>
       
       <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
       
