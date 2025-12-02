@@ -238,7 +238,19 @@ const MitochondrialDiagram = () => {
                             {activeTooltip === supp.id && (() => {
                                 // Position tooltip above if in bottom half, below if in top half
                                 const tooltipY = supp.y > 270 ? supp.y - 110 : supp.y + 15;
-                                const tooltipX = supp.x - 120;
+
+                                // Smart X positioning to avoid clipping
+                                let tooltipX;
+                                if (supp.x < 150) {
+                                    // Left side - align tooltip to start at supplement position
+                                    tooltipX = supp.x - 20;
+                                } else if (supp.x > 370) {
+                                    // Right side - align tooltip to end at supplement position
+                                    tooltipX = supp.x - 220;
+                                } else {
+                                    // Center - center the tooltip
+                                    tooltipX = supp.x - 120;
+                                }
 
                                 return (
                                     <g>
