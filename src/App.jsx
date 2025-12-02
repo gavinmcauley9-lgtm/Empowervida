@@ -20,6 +20,8 @@ import Shop from './pages/Shop';
 import MitochondrialGuide from './pages/MitochondrialGuide';
 import LongevityGuide from './pages/LongevityGuide';
 
+import CookieConsent from './components/CookieConsent';
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -58,6 +60,8 @@ function App() {
               <Route path="/longevity" element={<LongevityGuide />} />
             </Routes>
           </Suspense>
+
+          <CookieConsent />
 
           {/* Custom Cursor */}
           <Cursor />

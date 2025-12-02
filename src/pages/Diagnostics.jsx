@@ -410,35 +410,7 @@ const Diagnostics = () => {
                 </div>
             </section >
 
-            {/* ACCESS TIER 3 BANNER */}
-            < section style={{
-                padding: '4rem 2rem',
-                background: 'linear-gradient(90deg, #FFFFFF 0%, #F0F0F0 100%)',
-                color: 'var(--color-text)',
-                textAlign: 'center',
-                borderTop: '1px solid var(--color-border)'
-            }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                    <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)' }}>GET TESTED NOW</h2>
-                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
-                        Order your own labs. Own your own data.
-                    </p>
-                    <a href="https://www.functionhealth.com" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{
-                        textDecoration: 'none',
-                        fontSize: '1.1rem',
-                        padding: '1.2rem 3rem',
-                        display: 'inline-block',
-                        background: 'var(--color-accent-teal)',
-                        color: 'var(--color-text-muted)',
-                        borderRadius: '4px',
-                        fontWeight: 700,
-                        letterSpacing: '0.05em',
-                        transition: 'background 0.3s ease'
-                    }}>
-                        ORDER FUNCTION HEALTH PANEL
-                    </a>
-                </div>
-            </section >
+
 
             {/* Footer / Disclaimer */}
             < section style={{
