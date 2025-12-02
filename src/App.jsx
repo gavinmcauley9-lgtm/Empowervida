@@ -18,6 +18,7 @@ import Protocol from './pages/Protocol';
 import EngineRoom from './pages/EngineRoom';
 import Shop from './pages/Shop';
 import MitochondrialGuide from './pages/MitochondrialGuide';
+import LongevityGuide from './pages/LongevityGuide';
 
 function App() {
   useEffect(() => {
@@ -54,6 +55,7 @@ function App() {
               <Route path="/engine-room" element={<EngineRoom />} />
               <Route path="/shop" element={<Shop />} />
               <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
+              <Route path="/longevity" element={<LongevityGuide />} />
             </Routes>
           </Suspense>
 
