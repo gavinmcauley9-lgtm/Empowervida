@@ -209,8 +209,7 @@ export default function Blog() {
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         height: '100%',
                                         display: 'flex',
-                                        flexDirection: 'column',
-                                        padding: '2rem',
+                                        flexDirection: 'column'
                                     }}
                                         onMouseEnter={(e) => {
                                             e.currentTarget.style.transform = 'translateY(-5px)';
@@ -221,11 +220,27 @@ export default function Blog() {
                                             e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                                         }}
                                     >
-                                        <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                                        <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
-                                        <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
-                                        <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
+                                        {/* Thumbnail Image */}
+                                        {post.image && (
+                                            <img
+                                                src={post.image}
+                                                alt={post.title}
+                                                loading="lazy"
+                                                style={{
+                                                    width: '100%',
+                                                    height: '200px',
+                                                    objectFit: 'cover'
+                                                }}
+                                            />
+                                        )}
+
+                                        <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                                            <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
+                                            <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+                                            <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
+                                            <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                                READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
+                                            </div>
                                         </div>
                                     </article>
                                 </Link>
