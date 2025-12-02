@@ -105,14 +105,14 @@ const MitochondrialGuide = () => {
                     />
                 </div>
 
-                {/* Gradient Overlay */}
+                {/* Gradient Overlay - Stronger for better text readability */}
                 <div style={{
                     position: 'absolute',
                     bottom: 0,
                     left: 0,
                     width: '100%',
-                    height: '60%',
-                    background: 'linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 100%)',
+                    height: '70%',
+                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.3) 100%)',
                     pointerEvents: 'none'
                 }} />
 
@@ -133,7 +133,8 @@ const MitochondrialGuide = () => {
                         fontWeight: 700,
                         marginBottom: '1rem',
                         lineHeight: 1.2,
-                        textShadow: '0 4px 20px rgba(0,0,0,0.8)'
+                        color: '#FFFFFF',
+                        textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
                     }}>
                         The Ultimate Guide to Mitochondrial Health
                     </h1>
@@ -141,8 +142,8 @@ const MitochondrialGuide = () => {
                         fontSize: 'clamp(1.2rem, 3vw, 2rem)',
                         fontWeight: 400,
                         marginBottom: '1.5rem',
-                        color: 'var(--color-accent-teal)',
-                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
+                        color: '#20B2AA',
+                        textShadow: '0 3px 20px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
                     }}>
                         Stop Borrowing Energy, Start Creating It.
                     </h2>
@@ -150,14 +151,18 @@ const MitochondrialGuide = () => {
                         fontSize: 'clamp(1rem, 2vw, 1.3rem)',
                         fontWeight: 300,
                         fontStyle: 'italic',
-                        opacity: 0.9
+                        opacity: 0.95,
+                        color: '#FFFFFF',
+                        textShadow: '0 2px 15px rgba(0,0,0,0.9)'
                     }}>
                         A Physician's Protocol for Reviving Your Cellular Engines
                     </p>
                     <p style={{
                         fontSize: '1rem',
                         marginTop: '1rem',
-                        opacity: 0.7
+                        opacity: 0.85,
+                        color: '#FFFFFF',
+                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
                     }}>
                         By Dr. Gavin | The Longevity Architect
                     </p>
