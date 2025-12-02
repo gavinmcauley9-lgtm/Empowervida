@@ -266,8 +266,7 @@ const MitochondrialGuide = () => {
             {/* Phase 2: The Armor */}
             <section style={{
                 background: 'linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
-                padding: '6rem 2rem',
-                borderTop: '1px solid rgba(46, 125, 50, 0.2)'
+                padding: '6rem 2rem'
             }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     {/* Section Header */}
@@ -533,8 +532,7 @@ const MitochondrialGuide = () => {
             {/* Phase 3: The Renovation */}
             <section style={{
                 background: 'linear-gradient(135deg, rgba(0, 77, 128, 0.08) 0%, rgba(0, 0, 0, 0) 100%)',
-                padding: '6rem 2rem',
-                borderTop: '1px solid rgba(0, 150, 199, 0.3)'
+                padding: '6rem 2rem'
             }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     {/* Section Header */}
@@ -782,8 +780,7 @@ const MitochondrialGuide = () => {
             {/* Phase 4: The Pitfalls */}
             <section style={{
                 background: 'linear-gradient(135deg, rgba(255, 87, 34, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
-                padding: '6rem 2rem',
-                borderTop: '2px solid rgba(255, 152, 0, 0.3)'
+                padding: '6rem 2rem'
             }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
