@@ -124,7 +124,7 @@ const MitochondrialGuide = () => {
                     position: 'absolute',
                     bottom: '10%',
                     left: '50%',
-                    transform: `translate(-50%, ${scrollY * 0.3}px)`,
+                    transform: 'translateX(-50%)',
                     width: '90%',
                     maxWidth: '1200px',
                     color: '#fff',
