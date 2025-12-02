@@ -118,7 +118,7 @@ const MitochondrialDiagram = () => {
                     filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.3))'
                 }}
             >
-                {/* Mitochondrion - stylized cristae structure */}
+                {/* Mitochondrion - anatomically accurate structure */}
                 <defs>
                     <linearGradient id="mitoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" style={{ stopColor: '#8B5CF6', stopOpacity: 0.8 }} />
@@ -139,35 +139,59 @@ const MitochondrialDiagram = () => {
                 <ellipse
                     cx="260"
                     cy="270"
-                    rx="140"
-                    ry="100"
-                    fill="url(#mitoGradient)"
+                    rx="145"
+                    ry="105"
+                    fill="none"
                     stroke="#20B2AA"
                     strokeWidth="3"
                     opacity="0.9"
+                />
+
+                {/* Inner membrane space (lighter fill) */}
+                <ellipse
+                    cx="260"
+                    cy="270"
+                    rx="140"
+                    ry="100"
+                    fill="url(#mitoGradient)"
+                    opacity="0.85"
                     filter="url(#glow)"
                 />
 
-                {/* Inner cristae folds */}
+                {/* Cristae folds - inner membrane invaginations */}
                 <path
                     d="M 180 270 Q 200 250, 220 270 T 260 270 T 300 270 T 340 270"
                     fill="none"
                     stroke="#20B2AA"
                     strokeWidth="2.5"
-                    opacity="0.7"
+                    opacity="0.8"
                 />
                 <path
                     d="M 190 300 Q 210 280, 230 300 T 270 300 T 310 300 T 330 300"
                     fill="none"
                     stroke="#20B2AA"
                     strokeWidth="2.5"
-                    opacity="0.7"
+                    opacity="0.8"
                 />
                 <path
                     d="M 200 240 Q 220 220, 240 240 T 280 240 T 320 240"
                     fill="none"
                     stroke="#20B2AA"
                     strokeWidth="2.5"
+                    opacity="0.8"
+                />
+                <path
+                    d="M 170 285 Q 185 270, 200 285 T 230 285"
+                    fill="none"
+                    stroke="#20B2AA"
+                    strokeWidth="2"
+                    opacity="0.7"
+                />
+                <path
+                    d="M 290 255 Q 305 240, 320 255 T 350 255"
+                    fill="none"
+                    stroke="#20B2AA"
+                    strokeWidth="2"
                     opacity="0.7"
                 />
 
