@@ -208,8 +208,8 @@ const MitochondrialDiagram = () => {
                                 cx={supp.x}
                                 cy={supp.y}
                                 r="8"
-                                fill="#20B2AA"
-                                stroke="#FFFFFF"
+                                fill="#FFFFFF"
+                                stroke="#20B2AA"
                                 strokeWidth="2"
                                 style={{ cursor: 'pointer' }}
                                 onMouseEnter={() => setActiveTooltip(supp.id)}
