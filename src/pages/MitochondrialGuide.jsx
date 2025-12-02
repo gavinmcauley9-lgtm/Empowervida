@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import MitochondrialDiagram from '../components/MitochondrialDiagram';
 
 const MitochondrialGuide = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -228,6 +229,33 @@ const MitochondrialGuide = () => {
                 }}>
                     Let's restart the engines.
                 </p>
+            </section>
+
+            {/* Interactive Mitochondrial Diagram */}
+            <section style={{
+                maxWidth: '1200px',
+                margin: '0 auto',
+                padding: '4rem 2rem',
+                textAlign: 'center'
+            }}>
+                <h2 style={{
+                    fontSize: 'clamp(2rem, 4vw, 3rem)',
+                    fontWeight: 700,
+                    marginBottom: '1rem',
+                    color: 'var(--color-text)'
+                }}>
+                    The Mitochondrial Supplement Map
+                </h2>
+                <p style={{
+                    fontSize: '1.1rem',
+                    color: 'var(--color-text-muted)',
+                    marginBottom: '3rem',
+                    maxWidth: '800px',
+                    margin: '0 auto 3rem'
+                }}>
+                    Explore how each supplement supports your cellular powerhouses
+                </p>
+                <MitochondrialDiagram />
             </section>
 
             {/* Phase 2: The Armor */}
