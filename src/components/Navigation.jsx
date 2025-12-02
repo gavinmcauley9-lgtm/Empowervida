@@ -34,7 +34,6 @@ export default function Navigation() {
             padding: '1.5rem 0',
             background: 'rgba(255, 255, 255, 0.85)', /* Frosted Glass Effect */
             backdropFilter: 'blur(12px)',
-            borderBottom: '1px solid rgba(0,0,0,0.05)',
             transition: 'all 0.3s ease'
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
