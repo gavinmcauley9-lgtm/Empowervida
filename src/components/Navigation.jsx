@@ -100,6 +100,58 @@ export default function Navigation() {
                         </div>
                     </div>
 
+                    {/* Guides Dropdown */}
+                    <div
+                        style={{ position: 'relative', display: 'inline-block' }}
+                        onMouseEnter={(e) => {
+                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            if (menu) {
+                                menu.style.opacity = '1';
+                                menu.style.visibility = 'visible';
+                                menu.style.transform = 'translateY(0)';
+                            }
+                        }}
+                        onMouseLeave={(e) => {
+                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            if (menu) {
+                                menu.style.opacity = '0';
+                                menu.style.visibility = 'hidden';
+                                menu.style.transform = 'translateY(10px)';
+                            }
+                        }}
+                    >
+                        <span style={{ ...linkStyle('/guides'), cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            GUIDES <span style={{ fontSize: '0.7em' }}>▼</span>
+                        </span>
+                        <div
+                            className="dropdown-menu"
+                            style={{
+                                position: 'absolute',
+                                top: '100%',
+                                left: '50%',
+                                transform: 'translateY(10px) translateX(-50%)',
+                                opacity: 0,
+                                visibility: 'hidden',
+                                background: 'rgba(255, 255, 255, 0.95)',
+                                backdropFilter: 'blur(20px)',
+                                border: '1px solid rgba(0,0,0,0.05)',
+                                borderRadius: '12px',
+                                padding: '1rem',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
+                                minWidth: '260px',
+                                transition: 'all 0.2s ease',
+                                marginLeft: '-50%'
+                            }}
+                        >
+                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                ⚡ Mitochondrial Health
+                            </Link>
+                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                🧬 The 5 Pillars of Longevity
+                            </Link>
+                        </div>
+                    </div>
+
                     <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
                     <Link to="/shop" style={linkStyle('/shop')}>Shop</Link>
                     <Link to="/about" style={linkStyle('/about')}>About</Link>
@@ -147,6 +199,12 @@ export default function Navigation() {
                         <Link to="/protocol#vitality-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ VITALITY</Link>
                         <Link to="/protocol#clarity-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#008080', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧠 CLARITY</Link>
                         <Link to="/protocol#foundation-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#1A3C34', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 FOUNDATION</Link>
+                    </div>
+
+                    <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
+                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Guides</p>
+                        <Link to="/mitochondrial-guide" style={{ ...mobileLinkStyle('/mitochondrial-guide'), color: '#EC4899', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ Mitochondrial Health</Link>
+                        <Link to="/longevity" style={{ ...mobileLinkStyle('/longevity'), color: '#667eea', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 The 5 Pillars</Link>
                     </div>
 
                     <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
