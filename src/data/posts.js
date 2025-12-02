@@ -1782,7 +1782,7 @@ export const POSTS = [
     id: 20,
     title: 'TIRED BUT WIRED: Why You Can\'t Turn Your Brain Off at 10 PM',
     category: 'sleep',
-    image: '/cellular_structure.png',
+    image: '/sleep_brain.png',
     excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this—you\'re groggy at 8 AM and wired at 10 PM.',
     date: 'Dec 06, 2025',
     cta: {
@@ -1886,7 +1886,7 @@ export const POSTS = [
     id: 21,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
     category: 'energy',
-    image: '/cellular_structure.png',
+    image: '/mitochondria_biogenesis.png',
     excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
     date: 'Dec 07, 2025',
     cta: {
