@@ -227,6 +227,18 @@ const MitochondrialDiagram = () => {
                                 opacity="0.5"
                             />
 
+                            {/* Larger invisible hover area for easier interaction */}
+                            <circle
+                                cx={supp.x}
+                                cy={supp.y}
+                                r="25"
+                                fill="transparent"
+                                style={{ cursor: 'pointer' }}
+                                onMouseEnter={() => setActiveTooltip(supp.id)}
+                                onMouseLeave={() => setActiveTooltip(null)}
+                                onClick={() => setActiveTooltip(activeTooltip === supp.id ? null : supp.id)}
+                            />
+
                             {/* Label circle */}
                             <circle
                                 cx={supp.x}
@@ -235,10 +247,7 @@ const MitochondrialDiagram = () => {
                                 fill="#FFFFFF"
                                 stroke="#20B2AA"
                                 strokeWidth="2"
-                                style={{ cursor: 'pointer' }}
-                                onMouseEnter={() => setActiveTooltip(supp.id)}
-                                onMouseLeave={() => setActiveTooltip(null)}
-                                onClick={() => setActiveTooltip(activeTooltip === supp.id ? null : supp.id)}
+                                style={{ cursor: 'pointer', pointerEvents: 'none' }}
                             />
 
                             {/* Label text */}
