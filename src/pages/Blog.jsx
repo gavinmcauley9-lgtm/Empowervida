@@ -1,15 +1,71 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
 export default function Blog() {
     const [activeCategory, setActiveCategory] = useState('all');
-    const navigate = useNavigate();
 
     const filteredPosts = activeCategory === 'all'
         ? POSTS
         : POSTS.filter(post => post.category === activeCategory);
+    // ... (rest of the file until the grid)
+
+    // ... inside the return ...
+    {/* Posts Grid - Skip first post (it's featured) */ }
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
+        {filteredPosts.slice(1).map(post => (
+            <Link
+                key={post.id}
+                to={`/blog/${post.id}`}
+                style={{
+                    textDecoration: 'none',
+                    color: 'inherit',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    background: 'var(--color-bg)',
+                    borderRadius: '12px',
+                    overflow: 'hidden',
+                    border: '1px solid var(--color-border)',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                    height: '100%',
+                    cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 6px 25px rgba(32, 178, 170, 0.15)';
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                }}
+            >
+                {/* Thumbnail Image */}
+                {post.image && (
+                    <img
+                        src={post.image}
+                        alt={post.title}
+                        loading="lazy"
+                        style={{
+                            width: '100%',
+                            height: '200px',
+                            objectFit: 'cover'
+                        }}
+                    />
+                )}
+
+                <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                    <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
+                    <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+                    <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
+                    <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
+                    </div>
+                </div>
+            </Link>
+        ))}
+    </div>
 
     const collectionSchema = {
         "@context": "https://schema.org",
@@ -104,76 +160,70 @@ export default function Blog() {
                         style={{
                             textDecoration: 'none',
                             color: 'inherit',
-                            display: 'block'
+                            display: 'grid',
+                            gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
+                            gap: '2rem',
+                            padding: '2rem',
+                            background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
+                            borderRadius: '16px',
+                            overflow: 'hidden',
+                            border: '2px solid var(--color-accent-teal)',
+                            boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                            marginBottom: '4rem',
+                            cursor: 'pointer'
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.transform = 'translateY(-5px)';
+                            e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 128, 128, 0.25)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.transform = 'translateY(0)';
+                            e.currentTarget.style.boxShadow = '0 8px 30px rgba(0, 128, 128, 0.15)';
                         }}
                     >
-                        <article
-                            style={{
-                                background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
-                                borderRadius: '16px',
-                                overflow: 'hidden',
-                                border: '2px solid var(--color-accent-teal)',
-                                boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
-                                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                                marginBottom: '4rem',
-                                display: 'grid',
-                                gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
-                                gap: '2rem',
-                                padding: '2rem',
-                                cursor: 'pointer'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 128, 128, 0.25)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 8px 30px rgba(0, 128, 128, 0.15)';
-                            }}
-                        >
-                            {filteredPosts[0].image && (
-                                <img
-                                    src={filteredPosts[0].image}
-                                    alt={filteredPosts[0].title}
-                                    loading="eager"
-                                    style={{
-                                        width: '100%',
-                                        height: '400px',
-                                        objectFit: 'cover',
-                                        borderRadius: '12px'
-                                    }}
-                                />
-                            )}
-                            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                                <div style={{
-                                    display: 'inline-block',
-                                    background: 'var(--color-accent-teal)',
-                                    color: '#FFFFFF',
-                                    padding: '0.5rem 1rem',
-                                    borderRadius: '20px',
-                                    fontSize: '0.75rem',
-                                    fontWeight: 700,
-                                    letterSpacing: '0.1em',
-                                    textTransform: 'uppercase',
-                                    marginBottom: '1rem',
-                                    width: 'fit-content'
-                                }}>
-                                    Featured
-                                </div>
-                                <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
-                                    {filteredPosts[0].category} | {filteredPosts[0].date}
-                                </p>
-                                <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
-                                    {filteredPosts[0].title}
-                                </h2>
-                                <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
-                                    {filteredPosts[0].excerpt}
-                                </p>
-                                <div style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                    Read Article →
-                                </div>
+                        {filteredPosts[0].image && (
+                            <img
+                                src={filteredPosts[0].image}
+                                alt={filteredPosts[0].title}
+                                loading="eager"
+                                style={{
+                                    width: '100%',
+                                    height: '400px',
+                                    objectFit: 'cover',
+                                    borderRadius: '12px'
+                                }}
+                            />
+                        )}
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                            <div style={{
+                                display: 'inline-block',
+                                background: 'var(--color-accent-teal)',
+                                color: '#FFFFFF',
+                                padding: '0.5rem 1rem',
+                                borderRadius: '20px',
+                                fontSize: '0.75rem',
+                                fontWeight: 700,
+                                letterSpacing: '0.1em',
+                                textTransform: 'uppercase',
+                                marginBottom: '1rem',
+                                width: 'fit-content'
+                            }}>
+                                Featured
                             </div>
-                        </article>
+                            <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
+                                {filteredPosts[0].category} | {filteredPosts[0].date}
+                            </p>
+                            <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
+                                {filteredPosts[0].title}
+                            </h2>
+                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
+                                {filteredPosts[0].excerpt}
+                            </p>
+                            <div style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                Read Article →
+                            </div>
+                        </div>
                     </Link>
                 )}
 
