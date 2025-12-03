@@ -99,9 +99,8 @@ export default function Home() {
                 </motion.div>
             </HeroSection>
 
-            {/* NEW: Choose Your Protocol Section */}
-            < section style={{ padding: '6rem 2rem', background: '#FFFFFF' }
-            }>
+            {/* NEW: Content Portal Section */}
+            <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
                 <div className="container" data-aos="fade-up">
                     <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
                         <h2 style={{
@@ -112,10 +111,10 @@ export default function Home() {
                             fontFamily: '"Manrope", sans-serif',
                             letterSpacing: '-0.02em'
                         }}>
-                            ENGINEERED FOR YOUR BIOLOGY.
+                            THE LONGEVITY ECOSYSTEM
                         </h2>
                         <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', maxWidth: '600px', margin: '0 auto' }}>
-                            Select your primary objective. Evidence-based stacks designed for specific clinical outcomes.
+                            Navigate the three pillars of the Empowervida protocol: Education, Optimization, and Implementation.
                         </p>
                     </div>
 
@@ -126,7 +125,7 @@ export default function Home() {
                         maxWidth: '1200px',
                         margin: '0 auto'
                     }}>
-                        {/* CARD 1: VITALITY */}
+                        {/* BOX 1: LONGEVITY EDUCATION */}
                         <div
                             data-aos="fade-up"
                             data-aos-delay="100"
@@ -151,23 +150,29 @@ export default function Home() {
                                 e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
                             }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#FF5F00' }}>⚡</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE VITALITY STACK</h3>
-                            <p style={{ fontSize: '0.9rem', color: '#FF5F00', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Physical & Cellular Energy</p>
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#1A3C34' }}>🧬</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>The Longevity Blueprint</h3>
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                Eliminate the afternoon crash. Fuel your mitochondria for sustained ATP production.
+                                Aging is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
                             </p>
-                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
-                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
-                                    Bio-Available CoQ10 • Creatine Monohydrate • Methylated B-Complex
-                                </p>
-                            </div>
-                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#FF5F00', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #FF5F00', paddingBottom: '2px' }}>
-                                VIEW THE STACK &gt;
+                            <Link to="/longevity" style={{
+                                marginTop: 'auto',
+                                display: 'inline-block',
+                                padding: '0.8rem 1.5rem',
+                                background: '#1A3C34',
+                                color: '#FFFFFF',
+                                borderRadius: '8px',
+                                fontWeight: 700,
+                                fontSize: '0.9rem',
+                                textDecoration: 'none',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em'
+                            }}>
+                                LEARN THE SCIENCE &gt;
                             </Link>
                         </div>
 
-                        {/* CARD 2: CLARITY */}
+                        {/* BOX 2: MITOCHONDRIAL EDUCATION */}
                         <div
                             data-aos="fade-up"
                             data-aos-delay="200"
@@ -192,23 +197,29 @@ export default function Home() {
                                 e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
                             }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#008080' }}>🧠</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE CLARITY STACK</h3>
-                            <p style={{ fontSize: '0.9rem', color: '#008080', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Focus & Cognitive Speed</p>
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#FF5F00' }}>⚡</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>Mitochondrial Health</h3>
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                Clear the fog. Optimize neurotransmitter synthesis and synaptic firing speeds.
+                                Energy begins at the cellular level. Discover the physician's protocol for optimizing your mitochondria and eliminating fatigue.
                             </p>
-                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
-                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
-                                    Magnesium L-Threonate • High-DHA Omega-3 • Lion's Mane
-                                </p>
-                            </div>
-                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#008080', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #008080', paddingBottom: '2px' }}>
-                                VIEW THE STACK &gt;
+                            <Link to="/mitochondrial-guide" style={{
+                                marginTop: 'auto',
+                                display: 'inline-block',
+                                padding: '0.8rem 1.5rem',
+                                background: '#FF5F00',
+                                color: '#FFFFFF',
+                                borderRadius: '8px',
+                                fontWeight: 700,
+                                fontSize: '0.9rem',
+                                textDecoration: 'none',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em'
+                            }}>
+                                EXPLORE THE ENGINE &gt;
                             </Link>
                         </div>
 
-                        {/* CARD 3: FOUNDATION */}
+                        {/* BOX 3: THE STORE */}
                         <div
                             data-aos="fade-up"
                             data-aos-delay="300"
@@ -233,24 +244,30 @@ export default function Home() {
                                 e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
                             }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#1A3C34' }}>🧬</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>THE FOUNDATION</h3>
-                            <p style={{ fontSize: '0.9rem', color: '#1A3C34', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '1.5rem' }}>For Immunity & Genomic Stability</p>
+                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#008080' }}>💊</div>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>The Nutrient Stacks</h3>
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                The non-negotiables. Defense against inflammation and genomic instability.
+                                Evidence-based tools for the job. Shop our definitive 'Core 3' protocols for Vitality, Clarity, and Resilience.
                             </p>
-                            <div style={{ background: 'rgba(0,0,0,0.03)', padding: '1rem', borderRadius: '8px', width: '100%', marginBottom: '2rem' }}>
-                                <p style={{ fontSize: '0.85rem', color: '#1A3C34', fontWeight: 600 }}>
-                                    Vitamin D3 + K2 • GlyNAC • Zinc Picolinate
-                                </p>
-                            </div>
-                            <Link to="/protocol" style={{ marginTop: 'auto', color: '#1A3C34', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', borderBottom: '2px solid #1A3C34', paddingBottom: '2px' }}>
-                                VIEW THE STACK &gt;
+                            <Link to="/shop" style={{
+                                marginTop: 'auto',
+                                display: 'inline-block',
+                                padding: '0.8rem 1.5rem',
+                                background: '#008080',
+                                color: '#FFFFFF',
+                                borderRadius: '8px',
+                                fontWeight: 700,
+                                fontSize: '0.9rem',
+                                textDecoration: 'none',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em'
+                            }}>
+                                SHOP THE PROTOCOLS &gt;
                             </Link>
                         </div>
                     </div>
                 </div>
-            </section >
+            </section>
 
             {/* Trust Bar - Light Divider */}
             < div style={{

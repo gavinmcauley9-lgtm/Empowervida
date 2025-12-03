@@ -80,9 +80,34 @@ const MitochondrialGuide = () => {
             </Helmet>
 
             {/* Hero Section */}
-
-
-            {/* Introduction Section */}
+            <HeroSection
+                backgroundImage="/mitochondrion_hero_cinematic_1764586685814.png"
+                title="THE MITOCHONDRIAL GUIDE"
+                subtitle="STOP BORROWING ENERGY. START CREATING IT."
+                overlay="linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)"
+                textColor="#FFFFFF"
+                subtitleColor="#4DB6AC"
+            >
+                <p style={{
+                    fontSize: 'clamp(1rem, 2vw, 1.3rem)',
+                    fontWeight: 300,
+                    fontStyle: 'italic',
+                    opacity: 0.95,
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 15px rgba(0,0,0,0.9)'
+                }}>
+                    A Physician's Protocol for Cellular Revival
+                </p>
+                <p style={{
+                    fontSize: '1rem',
+                    marginTop: '1rem',
+                    opacity: 0.85,
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.8)'
+                }}>
+                    By Dr. Gavin | The Longevity Architect
+                </p>
+            </HeroSection>            {/* Introduction Section */}
             < section style={{
                 maxWidth: '800px',
                 margin: '0 auto',
