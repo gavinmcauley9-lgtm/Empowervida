@@ -1,6 +1,9 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 
 const AdvancedOptimization = () => {
     const pillars = [
@@ -39,80 +42,37 @@ const AdvancedOptimization = () => {
             overflowX: 'hidden'
         }}>
             {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                height: '80vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                padding: '0 2rem'
-            }}>
-                {/* Background Image with Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/tier3_hero_user.png)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                    opacity: 0.6
-                }}></div>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%)',
-                    zIndex: 1
-                }}></div>
-
-                {/* Hero Content */}
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    style={{ position: 'relative', zIndex: 2, maxWidth: '900px' }}
-                >
-                    <h1 style={{
-                        fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
-                        fontWeight: 800,
-                        letterSpacing: '-0.03em',
-                        lineHeight: 1.1,
-                        marginBottom: '1.5rem',
-                        textTransform: 'uppercase'
-                    }}>
+            < HeroSection
+                backgroundImage="/tier3_hero_user.png"
+                title={
+                    <>
                         TIER 3: <br />
                         <span style={{ color: '#FF5F00' }}>ADVANCED OPTIMIZATION</span>
-                    </h1>
-                    <h2 style={{
-                        fontSize: '1.5rem',
-                        fontWeight: 400,
-                        color: '#FFFFFF',
-                        marginBottom: '2rem',
-                        fontStyle: 'italic'
-                    }}>
+                    </>
+                }
+                subtitle={
+                    < span style={{ fontStyle: 'italic' }}>
                         "You have fixed the engine. Now we tune it for speed."
-                    </h2>
-                    <p style={{
-                        fontSize: '1.2rem',
-                        fontWeight: 300,
-                        color: 'rgba(255,255,255,0.8)',
-                        maxWidth: '700px',
-                        margin: '0 auto',
-                        lineHeight: 1.6
-                    }}>
-                        The Essential 5 ensure you don't die early. The Advanced Panel ensures you live fully. This tier looks at metabolic rate, oxygen transport, and hormonal bioavailability. This is the difference between 'normal aging' and 'high performance'.
-                    </p>
-                </motion.div>
-            </section>
+                    </span >
+                }
+                overlay="linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%)"
+                textColor="#FFFFFF"
+                subtitleColor="#FFFFFF"
+            >
+                <p style={{
+                    fontSize: '1.2rem',
+                    fontWeight: 300,
+                    color: 'rgba(255,255,255,0.8)',
+                    maxWidth: '700px',
+                    margin: '0 auto',
+                    lineHeight: 1.6
+                }}>
+                    The Essential 5 ensure you don't die early. The Advanced Panel ensures you live fully. This tier looks at metabolic rate, oxygen transport, and hormonal bioavailability. This is the difference between 'normal aging' and 'high performance'.
+                </p>
+            </HeroSection >
 
             {/* Main Content: The 4 Pillars */}
-            <section style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto' }}>
+            < section style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto' }}>
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -185,10 +145,10 @@ const AdvancedOptimization = () => {
                         </motion.div>
                     ))}
                 </div>
-            </section>
+            </section >
 
             {/* Footer / CTA */}
-            <section style={{
+            < section style={{
                 padding: '6rem 2rem',
                 textAlign: 'center',
                 background: 'linear-gradient(to top, #050505 0%, #000000 100%)',
@@ -229,8 +189,8 @@ const AdvancedOptimization = () => {
                         Medical Disclaimer: This guide is for educational purposes. Discuss results with a qualified practitioner.
                     </p>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 };
 

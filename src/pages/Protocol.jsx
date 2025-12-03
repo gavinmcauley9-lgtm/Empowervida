@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
+import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 
@@ -74,77 +75,32 @@ const Protocol = () => {
                 schemaData={breadcrumbSchema}
             />
             {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                height: '70vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                padding: '0 2rem',
-                overflow: 'hidden'
-            }}>
-                {/* Background Image with Overlay */}
-                <div
-                    className="ken-burns-active"
-                    style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundImage: 'url(/protocol_hero_fire_v2.jpg)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        zIndex: 0,
-                        opacity: 0.9
-                    }}
-                ></div>
-
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
-                    zIndex: 1
-                }}></div>
-
-                {/* Hero Content */}
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    style={{ position: 'relative', zIndex: 2, maxWidth: '900px' }}
-                >
-                    <h1 style={{
-                        fontSize: 'clamp(3rem, 6vw, 5rem)',
-                        fontWeight: 800,
-                        letterSpacing: '-0.03em',
-                        lineHeight: 1,
-                        marginBottom: '1.5rem',
-                        textTransform: 'uppercase',
-                        color: 'var(--color-text)',
-                        fontFamily: '"Manrope", sans-serif'
-                    }}>
+            <HeroSection
+                backgroundImage="/protocol_hero_fire_v2.jpg"
+                title={
+                    <>
                         THE MASTER PROTOCOLS: <br />
                         <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
-                    </h1>
-                    <p style={{
-                        fontSize: '1.5rem',
-                        fontWeight: 500,
-                        color: 'var(--color-text-muted)',
-                        maxWidth: '700px',
-                        margin: '0 auto',
-                        borderLeft: '4px solid var(--color-accent-teal)',
-                        paddingLeft: '1.5rem',
-                        textAlign: 'left'
-                    }}>
-                        "Medicine usually waits for a crash. We engineer the machine to never fail."
-                    </p>
-                </motion.div>
-            </section>
+                    </>
+                }
+                subtitle=""
+                height="70vh"
+                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)"
+                textColor="var(--color-text)"
+            >
+                <p style={{
+                    fontSize: '1.5rem',
+                    fontWeight: 500,
+                    color: 'var(--color-text-muted)',
+                    maxWidth: '700px',
+                    margin: '0 auto',
+                    borderLeft: '4px solid var(--color-accent-teal)',
+                    paddingLeft: '1.5rem',
+                    textAlign: 'left'
+                }}>
+                    "Medicine usually waits for a crash. We engineer the machine to never fail."
+                </p>
+            </HeroSection>
 
             {/* Introduction */}
             <section style={{ padding: '2rem 2rem', maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 2 }}>

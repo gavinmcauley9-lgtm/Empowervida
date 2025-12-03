@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { motion } from 'framer-motion';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 import MitochondrialDiagram from '../components/MitochondrialDiagram';
 
 const MitochondrialGuide = () => {
@@ -77,111 +80,10 @@ const MitochondrialGuide = () => {
             </Helmet>
 
             {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                width: '100%',
-                height: '80vh',
-                overflow: 'hidden',
-                background: '#000',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center center'
-            }}>
-                {/* Hero Image with Ken Burns Effect */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    animation: 'kenBurns 20s ease-out infinite alternate'
-                }}>
-                    <img
-                        src="/mitochondrion_hero_cinematic_1764586685814.png"
-                        alt="Mitochondrion Revitalization"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            objectPosition: 'center'
-                        }}
-                    />
-                </div>
 
-                {/* Gradient Overlay - Stronger for better text readability */}
-                <div style={{
-                    position: 'absolute',
-                    bottom: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)',
-                    pointerEvents: 'none'
-                }} />
-
-                {/* Hero Text with Parallax */}
-                <div style={{
-                    position: 'absolute',
-                    bottom: '10%',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    width: '90%',
-                    maxWidth: '1200px',
-                    color: '#fff',
-                    textAlign: 'center',
-                    zIndex: 2
-                }}>
-                    <h1 style={{
-                        fontSize: 'clamp(2rem, 5vw, 4rem)',
-                        fontWeight: 700,
-                        marginBottom: '1rem',
-                        lineHeight: 1.2,
-                        color: '#FFFFFF',
-                        textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        The Ultimate Guide to Mitochondrial Health
-                    </h1>
-                    <h2 style={{
-                        fontSize: 'clamp(1.2rem, 3vw, 2rem)',
-                        fontWeight: 400,
-                        marginBottom: '1.5rem',
-                        color: '#20B2AA',
-                        textShadow: '0 3px 20px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        Stop Borrowing Energy, Start Creating It.
-                    </h2>
-                    <p style={{
-                        fontSize: 'clamp(1rem, 2vw, 1.3rem)',
-                        fontWeight: 300,
-                        fontStyle: 'italic',
-                        opacity: 0.95,
-                        color: '#FFFFFF',
-                        textShadow: '0 2px 15px rgba(0,0,0,0.9)'
-                    }}>
-                        A Physician's Protocol for Reviving Your Cellular Engines
-                    </p>
-                    <p style={{
-                        fontSize: '1rem',
-                        marginTop: '1rem',
-                        opacity: 0.85,
-                        color: '#FFFFFF',
-                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        By Dr. Gavin | The Longevity Architect
-                    </p>
-                </div>
-
-                {/* Ken Burns Animation */}
-                <style>{`
-          @keyframes kenBurns {
-            0% { transform: scale(1); }
-            100% { transform: scale(1.05); }
-          }
-        `}</style>
-            </section>
 
             {/* Introduction Section */}
-            <section style={{
+            < section style={{
                 maxWidth: '800px',
                 margin: '0 auto',
                 padding: '4rem 2rem',
@@ -237,10 +139,10 @@ const MitochondrialGuide = () => {
                 }}>
                     Let's restart the engines.
                 </p>
-            </section>
+            </section >
 
             {/* Interactive Mitochondrial Diagram */}
-            <section style={{
+            < section style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
                 padding: '4rem 2rem',
@@ -264,10 +166,10 @@ const MitochondrialGuide = () => {
                     Explore how each supplement supports your cellular powerhouses
                 </p>
                 <MitochondrialDiagram />
-            </section>
+            </section >
 
             {/* Phase 2: The Armor */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -530,10 +432,10 @@ const MitochondrialGuide = () => {
                         </a>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Phase 3: The Renovation */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(0, 77, 128, 0.08) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -778,10 +680,10 @@ const MitochondrialGuide = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Phase 4: The Pitfalls */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(255, 87, 34, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -863,10 +765,10 @@ const MitochondrialGuide = () => {
                         </table>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Phase 5: Daily Protocol */}
-            <section style={{
+            < section style={{
                 background: 'var(--color-bg)',
                 padding: '6rem 2rem'
             }}>
@@ -959,10 +861,10 @@ const MitochondrialGuide = () => {
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Commercial Footer */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(0, 150, 199, 0.1) 100%)',
                 padding: '4rem 2rem',
                 borderTop: '2px solid var(--color-accent-teal)'
@@ -1002,7 +904,7 @@ const MitochondrialGuide = () => {
                         Shop the Executive Bundle
                     </a>
                 </div>
-            </section>
+            </section >
         </>
     );
 };

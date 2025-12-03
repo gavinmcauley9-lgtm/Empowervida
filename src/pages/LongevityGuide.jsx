@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 
 const LongevityGuide = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -64,115 +67,46 @@ const LongevityGuide = () => {
                 </script>
             </Helmet>
 
-            {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                width: '100%',
-                height: '80vh',
-                overflow: 'hidden',
-                background: '#000'
-            }}>
-                {/* Hero Image with Ken Burns Effect */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    animation: 'kenBurns 20s ease-out infinite alternate'
+            <HeroSection
+                backgroundImage="/longevity_hero_cinematic_1764666029631.png"
+                title="The 5 Pillars of Longevity Medicine"
+                subtitle="Beyond Diet and Exercise: The Physician's Framework for Healthspan"
+                overlay="linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)"
+                textColor="#FFFFFF"
+                subtitleColor="#20B2AA"
+                textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
+            >
+                <p style={{
+
+                    fontSize: 'clamp(1rem, 2vw, 1.3rem)',
+                    fontWeight: 300,
+                    fontStyle: 'italic',
+                    opacity: 0.95,
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 15px rgba(0,0,0,0.9)'
                 }}>
-                    <img
-                        src="/longevity_hero_cinematic_1764666029631.png"
-                        alt="Longevity Medicine Visualization"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            objectPosition: 'center'
-                        }}
-                    />
-                </div>
-
-                <style>
-                    {`
-                        @keyframes kenBurns {
-                            0% { transform: scale(1); }
-                            100% { transform: scale(1.05); }
-                        }
-                    `}
-                </style>
-
-                {/* Gradient Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    bottom: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '70%',
-                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)',
-                    pointerEvents: 'none'
-                }} />
-
-                {/* Hero Text */}
-                <div style={{
-                    position: 'absolute',
-                    bottom: '10%',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    width: '90%',
-                    maxWidth: '1200px',
-                    color: '#fff',
-                    textAlign: 'center',
-                    zIndex: 2
+                    A Clinical Approach to Extending Your Years of Vitality
+                </p>
+                <p style={{
+                    fontSize: '1rem',
+                    marginTop: '1rem',
+                    opacity: 0.85,
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.8)'
                 }}>
-                    <h1 style={{
-                        fontSize: 'clamp(2rem, 5vw, 4rem)',
-                        fontWeight: 700,
-                        marginBottom: '1rem',
-                        lineHeight: 1.2,
-                        color: '#FFFFFF',
-                        textShadow: '0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        The 5 Pillars of Longevity Medicine
-                    </h1>
-                    <h2 style={{
-                        fontSize: 'clamp(1.2rem, 3vw, 2rem)',
-                        fontWeight: 400,
-                        marginBottom: '1.5rem',
-                        color: '#20B2AA',
-                        textShadow: '0 3px 20px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        Beyond Diet and Exercise: The Physician's Framework for Healthspan
-                    </h2>
-                    <p style={{
-                        fontSize: 'clamp(1rem, 2vw, 1.3rem)',
-                        fontWeight: 300,
-                        fontStyle: 'italic',
-                        opacity: 0.95,
-                        color: '#FFFFFF',
-                        textShadow: '0 2px 15px rgba(0,0,0,0.9)'
-                    }}>
-                        A Clinical Approach to Extending Your Years of Vitality
-                    </p>
-                    <p style={{
-                        fontSize: '1rem',
-                        marginTop: '1rem',
-                        opacity: 0.85,
-                        color: '#FFFFFF',
-                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        By Dr. Gavin | The Longevity Architect
-                    </p>
-                </div>
-            </section>
+                    By Dr. Gavin | The Longevity Architect
+                </p>
+            </HeroSection>
+
 
             {/* Introduction */}
-            <section style={{
+            < section style={{
                 maxWidth: '900px',
                 margin: '0 auto',
                 padding: '4rem 2rem',
                 color: 'var(--color-text)'
-            }}>
+            }
+            }>
                 <p style={{
                     fontSize: '1.3rem',
                     lineHeight: 1.8,
@@ -213,10 +147,10 @@ const LongevityGuide = () => {
                 }}>
                     Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine—the framework I use in my clinical practice to help patients reach "escape velocity" aging.
                 </p>
-            </section>
+            </section >
 
             {/* Pillar 1: Nutritional Biochemistry */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -286,10 +220,10 @@ const LongevityGuide = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Pillar 2: Exercise Physiology */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(255, 107, 107, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -371,10 +305,10 @@ const LongevityGuide = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Pillar 3: Sleep Physiology */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(118, 75, 162, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -464,10 +398,10 @@ const LongevityGuide = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Pillar 4: Distress Tolerance */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(255, 159, 64, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -540,10 +474,10 @@ const LongevityGuide = () => {
                         </ul>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Pillar 5: Exogenous Molecules */}
-            <section style={{
+            < section style={{
                 background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
             }}>
@@ -676,10 +610,10 @@ const LongevityGuide = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Conclusion */}
-            <section style={{
+            < section style={{
                 maxWidth: '900px',
                 margin: '0 auto',
                 padding: '4rem 2rem',
@@ -708,7 +642,7 @@ const LongevityGuide = () => {
                 }}>
                     The goal is not just to add years to your life—it's to add <strong>life to your years</strong>.
                 </p>
-            </section>
+            </section >
         </>
     );
 };

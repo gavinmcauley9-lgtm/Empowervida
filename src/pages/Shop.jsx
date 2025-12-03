@@ -1,5 +1,8 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 
 const Shop = () => {
@@ -198,84 +201,33 @@ const Shop = () => {
             />
 
             {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                height: '70vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                padding: '0 2rem',
-                overflow: 'hidden'
-            }}>
-                {/* Background Image */}
-                <div className="ken-burns-active" style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/capsules_bg_user.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                    opacity: 0.9
-                }}></div>
-
-                {/* Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(180deg, rgba(11, 15, 17, 0.7) 0%, #0B0F11 100%)',
-                    zIndex: 1
-                }}></div>
-
-                {/* Content */}
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    style={{
-                        position: 'relative',
-                        zIndex: 2,
-                        maxWidth: '900px'
-                    }}
-                >
-                    <h1 style={{
-                        fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
-                        fontWeight: 800,
-                        marginBottom: '1.5rem',
-                        lineHeight: 1.1,
+            <HeroSection
+                backgroundImage="/capsules_bg_user.jpg"
+                title={
+                    <span style={{
                         background: 'linear-gradient(135deg, #FFFFFF 0%, var(--color-accent-teal) 100%)',
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent',
                         backgroundClip: 'text'
                     }}>
                         THE EMPOWERVIDA DISPENSARY
-                    </h1>
-                    <p style={{
-                        fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
-                        color: 'var(--color-accent-teal)',
-                        fontWeight: 600,
-                        marginBottom: '2rem',
-                        letterSpacing: '0.05em'
-                    }}>
-                        Clinical-Grade Solutions for Longevity & Performance
-                    </p>
-                    <p style={{
-                        fontSize: 'clamp(1rem, 2vw, 1.2rem)',
-                        color: 'rgba(255,255,255,0.8)',
-                        lineHeight: 1.6,
-                        maxWidth: '700px',
-                        margin: '0 auto'
-                    }}>
-                        The supplement industry is unregulated and full of impurities. I have curated this dispensary to include only the brands I trust, verify, and use in my own clinical practice.
-                    </p>
-                </motion.div>
-            </section>
+                    </span>
+                }
+                subtitle="Clinical-Grade Solutions for Longevity & Performance"
+                overlay="linear-gradient(180deg, rgba(11, 15, 17, 0.7) 0%, #0B0F11 100%)"
+                textColor="#FFFFFF"
+                subtitleColor="var(--color-accent-teal)"
+            >
+                <p style={{
+                    fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+                    color: 'rgba(255,255,255,0.8)',
+                    lineHeight: 1.6,
+                    maxWidth: '700px',
+                    margin: '0 auto'
+                }}>
+                    The supplement industry is unregulated and full of impurities. I have curated this dispensary to include only the brands I trust, verify, and use in my own clinical practice.
+                </p>
+            </HeroSection>
 
             {/* Protocols Section */}
             <section style={{

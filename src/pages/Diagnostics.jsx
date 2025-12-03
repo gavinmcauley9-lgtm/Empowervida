@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import HeroSection from '../components/HeroSection';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
 const Diagnostics = () => {
@@ -58,63 +60,14 @@ const Diagnostics = () => {
             overflowX: 'hidden'
         }}>
             {/* Hero Section */}
-            <section style={{
-                position: 'relative',
-                height: '60vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                padding: '0 2rem',
-                overflow: 'hidden'
-            }}>
-                {/* Background Image */}
-                <div className="ken-burns-active" style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/diagnostics_hero_user.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                    opacity: 0.9
-                }}></div>
-
-                {/* Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
-                    zIndex: 1
-                }}></div>
-
-                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
-                    <h1 style={{
-                        fontSize: 'clamp(3rem, 5vw, 4.5rem)',
-                        fontWeight: 800,
-                        color: 'var(--color-text)',
-                        marginBottom: '1.5rem',
-                        lineHeight: 1.1,
-                        fontFamily: '"Manrope", sans-serif'
-                    }}>
-                        THE DIAGNOSTICS
-                    </h1>
-                    <p style={{
-                        fontSize: '1.25rem',
-                        color: 'var(--color-text-muted)',
-                        maxWidth: '600px',
-                        margin: '0 auto',
-                        fontWeight: 500
-                    }}>
-                        "If you are not measuring, you are guessing."
-                    </p>
-                </div>
-            </section>
+            <HeroSection
+                backgroundImage="/diagnostics_hero_user.jpg"
+                title="THE DIAGNOSTICS"
+                subtitle='"If you are not measuring, you are guessing."'
+                overlay="linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)"
+                textColor="var(--color-text)"
+                subtitleColor="var(--color-text-muted)"
+            />
 
             {/* Intro Section */}
             <section style={{ padding: '4rem 2rem', maxWidth: '800px', margin: '0 auto' }} data-aos="fade-up" data-aos-delay="100">
