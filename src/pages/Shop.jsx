@@ -17,28 +17,32 @@ const Shop = () => {
                     subtitle: 'The Foundation',
                     why: '60% of your brain is fat. DHA is the structural brick used to build new neurons. If you don\'t have enough, neuroplasticity fails.',
                     pick: 'Nordic Naturals ProOmega 2000',
-                    link: 'https://geni.us/0id7g'
+                    amazonLink: 'https://geni.us/0id7g',
+                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000'
                 },
                 {
                     name: 'CoQ10 + PQQ (Ubiquinol)',
                     subtitle: 'The Spark',
                     why: 'Mitochondrial biogenesis. This stack helps grow new mitochondria and keeps the existing ones firing, especially if you are over 40 or taking Statins.',
                     pick: 'Life Extension Super Ubiquinol',
-                    link: 'https://geni.us/kyBLJ3m'
+                    amazonLink: 'https://geni.us/kyBLJ3m',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20Ubiquinol'
                 },
                 {
                     name: 'CDP-Choline (Citicoline)',
                     subtitle: 'The Architect',
                     why: 'Crosses the blood-brain barrier to increase acetylcholine (the learning neurotransmitter) and repair cell membranes. Essential for focus, memory formation, and cognitive endurance.',
                     pick: 'Jarrow Formulas Citicoline (Cognizin)',
-                    link: 'https://geni.us/BEY5'
+                    amazonLink: 'https://geni.us/BEY5',
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Citicoline'
                 },
                 {
                     name: 'PQQ (Pyrroloquinoline Quinone)',
                     subtitle: 'The Builder',
                     why: 'Triggers mitochondrial biogenesis—the growth of brand new mitochondria. The only supplement proven to increase the number of cellular power plants in your brain.',
                     pick: 'Jarrow Formulas PQQ (BioPQQ)',
-                    link: 'https://geni.us/gZB1H'
+                    amazonLink: 'https://geni.us/gZB1H',
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20PQQ'
                 }
             ]
         },
@@ -52,21 +56,24 @@ const Shop = () => {
                     subtitle: 'The "Brain Cleaner"',
                     why: 'The only form of Magnesium proven to cross the blood-brain barrier. It calms NMDA receptors to allow for Deep Delta Wave sleep, where the brain cleans toxins.',
                     pick: 'Life Extension Neuro-Mag',
-                    link: 'https://geni.us/hAgLBH'
+                    amazonLink: 'https://geni.us/hAgLBH',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag'
                 },
                 {
                     name: 'Ashwagandha KSM-66',
                     subtitle: 'The Cortisol Thermostat',
                     why: 'Adaptogens reset your HPA axis. If evening cortisol is too high (Tired but Wired), Ashwagandha brings it down by 27.9%. Allows natural melatonin to rise for deep sleep. KSM-66 is the clinically studied root extract.',
                     pick: 'Jarrow Formulas KSM-66',
-                    link: 'https://geni.us/AxGBnX'
+                    amazonLink: 'https://geni.us/AxGBnX',
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Ashwagandha%20KSM-66'
                 },
                 {
                     name: 'Rhodiola Rosea',
                     subtitle: 'The Stress Shield',
                     why: 'An adaptogen that modulates cortisol and reduces decision fatigue. Helps you stay calm under pressure without sedation. Must be standardized to 3% Rosavins and 1% Salidrosides.',
                     pick: 'Thorne Rhodiola',
-                    link: 'https://geni.us/V4dBIU'
+                    amazonLink: 'https://geni.us/V4dBIU',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Rhodiola'
                 }
             ]
         },
@@ -80,7 +87,8 @@ const Shop = () => {
                     subtitle: 'The Fire Extinguisher',
                     why: 'Standard turmeric doesn\'t absorb. We use Phytosome technology to ensure the curcumin reaches the brain and joints to lower systemic inflammation markers (IL-6).',
                     pick: 'Thorne Curcumin Phytosome',
-                    link: 'https://geni.us/fCiHC'
+                    amazonLink: 'https://geni.us/fCiHC',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome'
                 }
             ]
         },
@@ -94,28 +102,32 @@ const Shop = () => {
                     subtitle: 'The Battery',
                     why: 'Not just for muscles. Creatine recycles ATP in the brain to prevent mental fatigue and cognitive crashing in the afternoon.',
                     pick: 'Thorne Creatine (Creapure)',
-                    link: 'https://geni.us/0FAo'
+                    amazonLink: 'https://geni.us/0FAo',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Creatine'
                 },
                 {
                     name: 'Grass-Fed Whey Isolate',
                     subtitle: 'The Building Block',
                     why: 'To trigger muscle repair, you need 30g of bioavailable protein. Isolate absorbs rapidly to overcome "anabolic resistance" in aging muscle.',
                     pick: 'Thorne Whey Isolate',
-                    link: 'https://geni.us/zrRNpo'
+                    amazonLink: 'https://geni.us/zrRNpo',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Whey%20Protein%20Isolate'
                 },
                 {
                     name: 'Acetyl-L-Carnitine (ALCAR)',
                     subtitle: 'The Fuel Shuttle',
                     why: 'Shuttles fatty acids into the mitochondria to burn fat for brain fuel.',
                     pick: 'Life Extension Acetyl-L-Carnitine',
-                    link: 'https://geni.us/Dp3jeAg'
+                    amazonLink: 'https://geni.us/Dp3jeAg',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Acetyl-L-Carnitine'
                 },
                 {
                     name: 'R-Lipoic Acid (ALA)',
                     subtitle: 'The Engine Cleaner',
                     why: 'A potent mitochondrial antioxidant that cleans up exhaust fumes (free radicals).',
                     pick: 'Life Extension Super R-Lipoic Acid',
-                    link: 'https://geni.us/aRKwL6'
+                    amazonLink: 'https://geni.us/aRKwL6',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid'
                 }
             ]
         },
@@ -129,14 +141,16 @@ const Shop = () => {
                     subtitle: 'The Repair Signal',
                     why: 'NAD+ levels drop 50% by age 40. This is the master molecule for DNA repair (PARP enzymes), sirtuin activation (longevity genes), and mitochondrial function. NR is the most clinically validated and FDA-notified safe precursor.',
                     pick: 'Tru Niagen (300mg)',
-                    link: 'https://geni.us/v8Dd0'
+                    amazonLink: 'https://geni.us/v8Dd0',
+                    iherbLink: 'https://www.iherb.com/search?kw=Tru%20Niagen'
                 },
                 {
                     name: 'Urolithin A (Mitopure)',
                     subtitle: 'The Recycler',
                     why: 'The only molecule proven to trigger mitophagy—the recycling of old, dysfunctional mitochondria. You cannot get clinical doses from pomegranate juice. Only 40% of people can produce it naturally.',
                     pick: 'Timeline Nutrition Mitopure',
-                    link: 'https://geni.us/urolithin-a'
+                    amazonLink: 'https://geni.us/urolithin-a',
+                    iherbLink: 'https://www.iherb.com/search?kw=Urolithin%20A'
                 }
             ]
         },
@@ -150,7 +164,8 @@ const Shop = () => {
                     subtitle: 'The Switch',
                     why: 'Activates AMPK (the longevity switch) to improve insulin sensitivity and stop the "caramelization" (Glycation) of your collagen and organs.',
                     pick: 'Thorne Berberine-500',
-                    link: 'https://geni.us/ANVjh'
+                    amazonLink: 'https://geni.us/ANVjh',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Berberine'
                 }
             ]
         },
@@ -164,7 +179,8 @@ const Shop = () => {
                     subtitle: 'The Tissue-Ready Formula',
                     why: 'For the 40% of patients with the MTHFR gene who cannot process standard folic acid. This "tissue-ready" formula ensures your mitochondria can actually use the fuel you eat.',
                     pick: 'Thorne Basic B',
-                    link: 'https://geni.us/6fwizx'
+                    amazonLink: 'https://geni.us/6fwizx',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Basic%20B%20Complex'
                 }
             ]
         },
@@ -178,7 +194,8 @@ const Shop = () => {
                     subtitle: 'The Solar Hormone',
                     why: 'Vitamin D is not a vitamin—it\'s a secosteroid hormone that controls 5% of your genome. Without K2, calcium goes to your arteries. With K2, it goes to your bones. Liquid drops bypass gut malabsorption.',
                     pick: 'Thorne Vitamin D/K2 Liquid',
-                    link: 'https://geni.us/BvEHS0'
+                    amazonLink: 'https://geni.us/BvEHS0',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Vitamin%20D%20Liquid'
                 }
             ]
         }
@@ -346,37 +363,71 @@ const Shop = () => {
                                         Dr. Gavin's Pick: <strong>{product.pick}</strong>
                                     </p>
 
-                                    <a
-                                        href={product.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        style={{
-                                            display: 'block',
-                                            backgroundColor: 'var(--color-accent-teal)',
-                                            color: '#FFFFFF',
-                                            padding: '1rem 2rem',
-                                            borderRadius: '8px',
-                                            textDecoration: 'none',
-                                            fontWeight: 700,
-                                            textAlign: 'center',
-                                            textTransform: 'uppercase',
-                                            letterSpacing: '0.05em',
-                                            boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                                            transition: 'all 0.3s ease'
-                                        }}
-                                        onMouseEnter={(e) => {
-                                            e.target.style.backgroundColor = '#1ba098';
-                                            e.target.style.transform = 'translateY(-2px)';
-                                            e.target.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
-                                        }}
-                                        onMouseLeave={(e) => {
-                                            e.target.style.backgroundColor = 'var(--color-accent-teal)';
-                                            e.target.style.transform = 'translateY(0)';
-                                            e.target.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
-                                        }}
-                                    >
-                                        BUY ON AMAZON →
-                                    </a>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                        {/* Primary Button: iHerb */}
+                                        <a
+                                            href={product.iherbLink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{
+                                                display: 'block',
+                                                backgroundColor: 'var(--color-accent-teal)',
+                                                color: '#FFFFFF',
+                                                padding: '1rem 2rem',
+                                                borderRadius: '8px',
+                                                textDecoration: 'none',
+                                                fontWeight: 700,
+                                                textAlign: 'center',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '0.05em',
+                                                boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
+                                                transition: 'all 0.3s ease'
+                                            }}
+                                            onMouseEnter={(e) => {
+                                                e.target.style.backgroundColor = '#1ba098';
+                                                e.target.style.transform = 'translateY(-2px)';
+                                                e.target.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
+                                            }}
+                                            onMouseLeave={(e) => {
+                                                e.target.style.backgroundColor = 'var(--color-accent-teal)';
+                                                e.target.style.transform = 'translateY(0)';
+                                                e.target.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
+                                            }}
+                                        >
+                                            SHOP AT IHERB (BEST PRICE)
+                                        </a>
+                                        {/* TODO: Add your iHerb Affiliate Code to the iherbLink above (e.g., ?rcode=YOURCODE) */}
+
+                                        {/* Secondary Button: Amazon */}
+                                        <a
+                                            href={product.amazonLink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{
+                                                display: 'block',
+                                                backgroundColor: 'transparent',
+                                                color: 'rgba(255,255,255,0.6)',
+                                                padding: '0.8rem 2rem',
+                                                borderRadius: '8px',
+                                                textDecoration: 'none',
+                                                fontSize: '0.9rem',
+                                                fontWeight: 600,
+                                                textAlign: 'center',
+                                                border: '1px solid rgba(255,255,255,0.1)',
+                                                transition: 'all 0.3s ease'
+                                            }}
+                                            onMouseEnter={(e) => {
+                                                e.target.style.borderColor = 'rgba(255,255,255,0.3)';
+                                                e.target.style.color = '#FFFFFF';
+                                            }}
+                                            onMouseLeave={(e) => {
+                                                e.target.style.borderColor = 'rgba(255,255,255,0.1)';
+                                                e.target.style.color = 'rgba(255,255,255,0.6)';
+                                            }}
+                                        >
+                                            CHECK REVIEWS ON AMAZON
+                                        </a>
+                                    </div>
                                 </motion.div>
                             ))}
                         </div>
