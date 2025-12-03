@@ -109,7 +109,7 @@ const LongevityGuide = () => {
                     left: 0,
                     width: '100%',
                     height: '70%',
-                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.3) 100%)',
+                    background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)',
                     pointerEvents: 'none'
                 }} />
 

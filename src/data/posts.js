@@ -127,11 +127,16 @@ export const POSTS = [
         <li>It's the only NR supplement with FDA GRAS status</li>
       </ul>
 
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/v8Dd0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Tru%20Niagen" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/v8Dd0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
 
       <h2>The Takeaway</h2>
       <p>Aging is not inevitable decline. It's a loss of cellular currency.</p>
@@ -243,11 +248,16 @@ export const POSTS = [
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Molecular Precision: Urolithin A</p>
       </div>
 
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/urolithin-a" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Urolithin%20A" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/urolithin-a" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
 
       <h2>The Takeaway</h2>
       <p>You can buy all the Nootropics and pre-workouts in the world, but if your cellular engine is too small, you will never go fast.</p>
@@ -357,11 +367,16 @@ export const POSTS = [
       
       <p>Because generic Magnesium doesn't reach the brain, I specifically prescribe Magnesium L-Threonate for cognitive restoration.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/hAgLBH" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Magtein" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/hAgLBH" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -427,11 +442,16 @@ export const POSTS = [
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Energy Buffering Inside the Neuron</p>
       </div>
 
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Creatine%20Monohydrate%20Creapure" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
 
       <h2>3. CDP-Choline (The Architect)</h2>
       <p>You cannot build a house without bricks. Your brain needs a neurotransmitter called Acetylcholine to learn new information and form memories. Choline is the brick.</p>
@@ -457,11 +477,16 @@ export const POSTS = [
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Neurotransmitter Release: Acetylcholine Crossing the Synaptic Cleft</p>
       </div>
 
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/BEY5" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=CDP%20Choline" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/BEY5" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
 
       <h2>4. Rhodiola Rosea (The Adaptogen)</h2>
       <p>In the ER, the enemy isn't a lack of intelligence; it's burnout. When cortisol (stress hormone) stays high for too long, your brain goes offline.</p>
@@ -483,11 +508,16 @@ export const POSTS = [
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">HPA Axis Modulation: The Stress Shield</p>
       </div>
 
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/V4dBIU" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Rhodiola%20Rosea" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/V4dBIU" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
 
       <h2>Conclusion</h2>
       <p>Stop buying proprietary blends with neon labels. Real cognitive performance doesn't feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
@@ -688,11 +718,16 @@ export const POSTS = [
       
       <p><strong>The Protocol:</strong> We recommend a third-party tested Fish Oil specifically concentrated in DHA.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/0id7g" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Omega-3%20DHA" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/0id7g" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <h2>THE TAKEAWAY</h2>
       
@@ -1242,11 +1277,16 @@ export const POSTS = [
       
       <p>I rely on Curcumin Phytosome (Meriva) because it mimics the body's cell membranes for maximum absorption into the brain.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/fCiHC" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Meriva%20Curcumin" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/fCiHC" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1350,11 +1390,16 @@ export const POSTS = [
       
       <p>Supplement companies love to cut Creatine with cheap fillers. I only recommend Creapure® or micronized Monohydrate that is third-party tested for purity.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Creatine%20Monohydrate%20Creapure" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1457,11 +1502,16 @@ export const POSTS = [
       
       <p>Standard Berberine has poor bioavailability (your gut struggles to absorb it). I only recommend <strong>Berberine Phytosome</strong> (bound to lipids) or <strong>Dihydroberberine</strong>, which are up to 5x more absorbable.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/ANVjh" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Berberine%20Phytosome" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/ANVjh" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1562,11 +1612,16 @@ export const POSTS = [
       
       <p>I don't like pills for hormones. I recommend Liquid D3 + K2 drops. They absorb instantly into the bloodstream and allow you to titrate your dose perfectly.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/BvEHS0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Vitamin%20D3%20K2" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/BvEHS0" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1664,11 +1719,16 @@ export const POSTS = [
       
       <p>Note: If you are vegan, look for a fermented Pea/Rice blend, but you will need a higher dose.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/zrRNpo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Whey%20Protein%20Isolate" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/zrRNpo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1761,11 +1821,16 @@ export const POSTS = [
       
       <p>Most CoQ10 on the shelf is the cheap stuff. I recommend <strong>Ubiquinol</strong> (look for the Kaneka seal) paired with PQQ for maximum mitochondrial density.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/kyBLJ3m" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Ubiquinol" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/kyBLJ3m" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1865,11 +1930,16 @@ export const POSTS = [
       
       <p>I only recommend Ashwagandha that uses the KSM-66 extraction process, as it preserves the full spectrum of active withanolides without chemical solvents.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/AxGBnX" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Ashwagandha%20KSM-66" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/AxGBnX" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
@@ -1970,11 +2040,16 @@ export const POSTS = [
       
       <p>I prescribe a <strong>Methylated B-Complex</strong> that uses the purest tissue-ready forms of folate (5-MTHF) and B12, ensuring that even those with the MTHFR mutation can absorb and use it for energy.</p>
       
-      <p style="text-align: center; margin: 2rem 0;">
-        <a href="https://geni.us/6fwizx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease;">
-          Check Price on Amazon
+      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
+        <a href="https://www.iherb.com/search?kw=Methylated%20B-Complex" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop at iHerb (Best Price)
         </a>
-      </p>
+        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+
+        <a href="https://geni.us/6fwizx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Check Reviews on Amazon
+        </a>
+      </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
