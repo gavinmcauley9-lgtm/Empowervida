@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import SafetyAccordion from '../components/SafetyAccordion';
 
 const Shop = () => {
     const protocols = [
@@ -11,6 +12,12 @@ const Shop = () => {
             icon: '🧠',
             title: 'THE BRAIN PROTOCOL',
             goal: 'Cognitive Precision, Memory, & Focus',
+            safety: [
+                {
+                    title: "Blood Thinners",
+                    content: "This stack contains high-dose Omega-3 fatty acids, which have a mild blood-thinning effect. If you are taking anticoagulants (e.g., Warfarin, Heparin, Xarelto), consult your physician to monitor your bleeding risk."
+                }
+            ],
             products: [
                 {
                     name: 'High-DHA Omega-3',
@@ -50,6 +57,20 @@ const Shop = () => {
             icon: '😴',
             title: 'THE DEEP SLEEP PROTOCOL',
             goal: 'Glymphatic Clearance & Recovery',
+            safety: [
+                {
+                    title: "Mood Medication",
+                    content: "The Advanced Protocol contains Rhodiola Rosea. If you are currently taking SSRIs, MAOIs, or other antidepressants, consult your prescribing physician to avoid potential interactions."
+                },
+                {
+                    title: "Renal Failure",
+                    content: "Magnesium is excreted by the kidneys. If you have diagnosed Renal Failure or severe Kidney Disease, do not take magnesium supplements without strict medical supervision, as toxic accumulation can occur."
+                },
+                {
+                    title: "Hypotension",
+                    content: "Magnesium relaxes smooth muscle and may lower blood pressure. If you have clinically low blood pressure, monitor your levels when starting this protocol."
+                }
+            ],
             products: [
                 {
                     name: 'Magnesium L-Threonate',
@@ -96,6 +117,16 @@ const Shop = () => {
             icon: '⚡',
             title: 'THE ENERGY & MUSCLE PROTOCOL',
             goal: 'Physical Resilience & Metabolic Fire',
+            safety: [
+                {
+                    title: "Kidney Health",
+                    content: "Creatine Monohydrate is safe for healthy individuals. However, if you have pre-existing Chronic Kidney Disease (CKD) or impaired renal function, consult your nephrologist before use, as creatine metabolism increases creatinine levels in blood work."
+                },
+                {
+                    title: "Surgery",
+                    content: "Supplements can affect metabolism. Discontinue use 2 weeks prior to any scheduled surgery."
+                }
+            ],
             products: [
                 {
                     name: 'Creatine Monohydrate',
@@ -431,6 +462,11 @@ const Shop = () => {
                                 </motion.div>
                             ))}
                         </div>
+
+                        {/* Safety Accordion */}
+                        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                            <SafetyAccordion warnings={protocol.safety} />
+                        </div>
                     </motion.div>
                 ))}
             </section>
@@ -449,7 +485,7 @@ const Shop = () => {
                     color: 'rgba(255,255,255,0.5)',
                     lineHeight: 1.6
                 }}>
-                    <strong>Disclaimer:</strong> These statements have not been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before starting any supplement protocol, especially if you are taking medications or have underlying health conditions.
+                    <strong>Disclaimer:</strong> These statements have not been evaluated by the TGA or FDA. These products are not intended to diagnose, treat, cure, or prevent any disease. The information provided is for educational purposes only and does not replace the advice of your primary care physician. Always consult a healthcare professional before starting any new supplement regimen.
                 </p>
             </section>
         </div>
