@@ -159,7 +159,7 @@ export const POSTS = [
     id: 1,
     title: 'The Brownout: Why Your Labs Are "Normal" But You Feel Dead (And How To Build A New Grid)',
     category: 'energy',
-    image: '/cellular_structure.png',
+    image: '/brownout_energy_crisis_1764668250025.png',
     excerpt: 'Your brain fog, your afternoon crash, and your inability to recover from a workout are not failures of character. They are failures of ATP production.',
     date: 'Dec 01, 2025',
     cta: {
@@ -761,7 +761,7 @@ export const POSTS = [
     id: 7,
     title: 'I’M EXHAUSTED, BUT MY LABS ARE NORMAL: The Hidden Energy Crisis in Your Cells',
     category: 'energy',
-    image: '/cellular_structure.png',
+    image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
     excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
     date: 'Nov 23, 2025',
     cta: {
@@ -870,7 +870,7 @@ export const POSTS = [
     id: 9,
     title: 'The Great Oil Change: Why Your Cells Are "Stiff" (And Why You Feel It)',
     category: 'inflammation',
-    image: '/cellular_structure.png',
+    image: '/cell_membrane_stiff_1764669025249.png',
     excerpt: 'Cellular membrane health is the new frontier of cognitive performance.',
     date: 'Nov 25, 2025',
     cta: {
@@ -988,7 +988,7 @@ export const POSTS = [
     id: 11,
     title: 'The Sugar Spike: Why I Treat "Normal" Blood Sugar as a Medical Emergency',
     category: 'metabolic',
-    image: '/cellular_structure.png',
+    image: '/gut_brain_axis_hero_1764771948929.png',
     excerpt: 'Every time your glucose spikes over 140 mg/dL, you are "cooking" your proteins.',
     date: 'Nov 27, 2025',
     cta: {
@@ -1196,7 +1196,7 @@ export const POSTS = [
     id: 14,
     title: 'IS YOUR BRAIN "ON FIRE"? The Hidden Link Between Inflammation and Anxiety',
     category: 'inflammation',
-    image: '/brain_fog_hero.png',
+    image: '/inflammation_controlled_fire_hero_1764771922110.png',
     excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking—blocking serotonin and triggering anxiety.',
     date: 'Dec 01, 2025',
     cta: {
@@ -1302,7 +1302,7 @@ export const POSTS = [
     id: 15,
     title: 'THE ENERGY CRISIS: Why Your Brain Tires Before Your Body (And How to Fix It)',
     category: 'cognition',
-    image: '/cellular_structure.png',
+    image: '/mitochondrial_furnace_hero_1764771832396.png',
     excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
     date: 'Dec 01, 2025',
     cta: {
@@ -1415,7 +1415,7 @@ export const POSTS = [
     id: 16,
     title: 'WHY YOU ARE AGING FASTER THAN YOUR FRIENDS: The Science of "Caramelizing"',
     category: 'metabolic',
-    image: '/cellular_structure.png',
+    image: '/cell_membrane_fluidity_hero_1764771762803.png',
     excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren\'t just aging. You\'re caramelizing.',
     date: 'Dec 02, 2025',
     cta: {
@@ -1744,7 +1744,7 @@ export const POSTS = [
     id: 19,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
     category: 'energy',
-    image: '/cellular_structure.png',
+    image: '/cortisol_stress_hero_1764771996868.png',
     excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
     date: 'Dec 07, 2025',
     cta: {
