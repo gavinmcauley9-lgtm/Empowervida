@@ -2,9 +2,12 @@ import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export default function ScrollToTop() {
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
 
     useLayoutEffect(() => {
+        // If there is a hash, let the browser or the page component handle the scroll
+        if (hash) return;
+
         // Immediate scroll
         window.scrollTo(0, 0);
 
@@ -14,7 +17,7 @@ export default function ScrollToTop() {
         }, 100);
 
         return () => clearTimeout(timeoutId);
-    }, [pathname]);
+    }, [pathname, hash]);
 
     return null;
 }
