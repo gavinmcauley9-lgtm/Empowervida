@@ -21,6 +21,7 @@ import MitochondrialGuide from './pages/MitochondrialGuide';
 import LongevityGuide from './pages/LongevityGuide';
 
 import CookieConsent from './components/CookieConsent';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToTop />
         <main>
           {/* 3D Background Scene */}
           <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, pointerEvents: 'none' }}>
