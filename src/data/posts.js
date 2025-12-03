@@ -194,7 +194,7 @@ export const POSTS = [
       <p>In medicine, this process is called <strong>Mitochondrial Biogenesis</strong>: The biological division and growth of new mitochondria.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
+        <img src="/brownout_energy_crisis_1764668250025.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Cellular Regeneration: Building New Generators</p>
       </div>
 
