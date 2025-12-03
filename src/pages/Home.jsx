@@ -126,7 +126,8 @@ export default function Home() {
                         margin: '0 auto'
                     }}>
                         {/* BOX 1: LONGEVITY EDUCATION */}
-                        <div
+                        <Link
+                            to="/longevity"
                             data-aos="fade-up"
                             data-aos-delay="100"
                             style={{
@@ -139,7 +140,9 @@ export default function Home() {
                                 flexDirection: 'column',
                                 alignItems: 'center',
                                 textAlign: 'center',
-                                transition: 'all 0.3s ease'
+                                transition: 'all 0.3s ease',
+                                textDecoration: 'none',
+                                cursor: 'pointer'
                             }}
                             onMouseEnter={e => {
                                 e.currentTarget.style.transform = 'translateY(-8px)';
@@ -155,7 +158,7 @@ export default function Home() {
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                                 Aging is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
                             </p>
-                            <Link to="/longevity" style={{
+                            <span style={{
                                 marginTop: 'auto',
                                 display: 'inline-block',
                                 padding: '0.8rem 1.5rem',
@@ -164,16 +167,16 @@ export default function Home() {
                                 borderRadius: '8px',
                                 fontWeight: 700,
                                 fontSize: '0.9rem',
-                                textDecoration: 'none',
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.05em'
                             }}>
                                 LEARN THE SCIENCE &gt;
-                            </Link>
-                        </div>
+                            </span>
+                        </Link>
 
                         {/* BOX 2: MITOCHONDRIAL EDUCATION */}
-                        <div
+                        <Link
+                            to="/mitochondrial-guide"
                             data-aos="fade-up"
                             data-aos-delay="200"
                             style={{
@@ -186,7 +189,9 @@ export default function Home() {
                                 flexDirection: 'column',
                                 alignItems: 'center',
                                 textAlign: 'center',
-                                transition: 'all 0.3s ease'
+                                transition: 'all 0.3s ease',
+                                textDecoration: 'none',
+                                cursor: 'pointer'
                             }}
                             onMouseEnter={e => {
                                 e.currentTarget.style.transform = 'translateY(-8px)';
@@ -202,7 +207,7 @@ export default function Home() {
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                                 Energy begins at the cellular level. Discover the physician's protocol for optimizing your mitochondria and eliminating fatigue.
                             </p>
-                            <Link to="/mitochondrial-guide" style={{
+                            <span style={{
                                 marginTop: 'auto',
                                 display: 'inline-block',
                                 padding: '0.8rem 1.5rem',
@@ -211,16 +216,16 @@ export default function Home() {
                                 borderRadius: '8px',
                                 fontWeight: 700,
                                 fontSize: '0.9rem',
-                                textDecoration: 'none',
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.05em'
                             }}>
                                 EXPLORE THE ENGINE &gt;
-                            </Link>
-                        </div>
+                            </span>
+                        </Link>
 
                         {/* BOX 3: THE STORE */}
-                        <div
+                        <Link
+                            to="/shop"
                             data-aos="fade-up"
                             data-aos-delay="300"
                             style={{
@@ -233,7 +238,9 @@ export default function Home() {
                                 flexDirection: 'column',
                                 alignItems: 'center',
                                 textAlign: 'center',
-                                transition: 'all 0.3s ease'
+                                transition: 'all 0.3s ease',
+                                textDecoration: 'none',
+                                cursor: 'pointer'
                             }}
                             onMouseEnter={e => {
                                 e.currentTarget.style.transform = 'translateY(-8px)';
@@ -249,7 +256,7 @@ export default function Home() {
                             <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                                 Evidence-based tools for the job. Shop our definitive 'Core 3' protocols for Vitality, Clarity, and Resilience.
                             </p>
-                            <Link to="/shop" style={{
+                            <span style={{
                                 marginTop: 'auto',
                                 display: 'inline-block',
                                 padding: '0.8rem 1.5rem',
@@ -258,19 +265,18 @@ export default function Home() {
                                 borderRadius: '8px',
                                 fontWeight: 700,
                                 fontSize: '0.9rem',
-                                textDecoration: 'none',
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.05em'
                             }}>
                                 SHOP THE PROTOCOLS &gt;
-                            </Link>
-                        </div>
+                            </span>
+                        </Link>
                     </div>
                 </div>
             </section>
 
             {/* Trust Bar - Light Divider */}
-            < div style={{
+            <div style={{
                 background: 'var(--color-bg-alt)',
                 padding: '1.5rem 0',
                 borderTop: '1px solid rgba(0,0,0,0.1)',
@@ -281,54 +287,7 @@ export default function Home() {
                         Founded by an Acute Care Physician & ER Veteran
                     </p>
                 </div>
-            </div >
-
-            {/* Value Prop Section - Premium Clean White */}
-            < section style={{
-                padding: 'var(--section-padding) 0',
-                background: 'var(--color-bg)',
-                borderTop: '1px solid var(--color-border)'
-            }}>
-                <div className="container" style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-                    gap: '3rem',
-                    maxWidth: '1100px',
-                    margin: '0 auto'
-                }}>
-
-                    {/* Card 1: THE JOURNAL */}
-                    <SpotlightCard to="/blog" delay={0.2}>
-                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔬</div>
-                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE JOURNAL</h3>
-                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                            Deep-dive briefings on Mitochondria, Sleep Architecture, and Cellular Resilience.
-                        </p>
-                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                    </SpotlightCard>
-
-                    {/* Card 2: THE PROTOCOL */}
-                    <SpotlightCard to="/protocol" delay={0.4}>
-                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📋</div>
-                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE PROTOCOL</h3>
-                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                            My exact daily supplement stack. Dosage, timing, and sourcing.
-                        </p>
-                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                    </SpotlightCard>
-
-                    {/* Card 3: THE DIAGNOSTICS */}
-                    <SpotlightCard to="/diagnostics" delay={0.6}>
-                        <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🩸</div>
-                        <h3 style={{ color: 'var(--color-text)', fontSize: '1.5rem', marginBottom: '1rem', fontWeight: 700 }}>THE DIAGNOSTICS</h3>
-                        <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6, flexGrow: 1 }}>
-                            Stop guessing. The 5 essential blood markers your doctor isn't checking.
-                        </p>
-                        <div style={{ color: 'var(--color-primary)', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Explore &gt;</div>
-                    </SpotlightCard>
-
-                </div>
-            </section >
+            </div>
         </>
     );
 }
