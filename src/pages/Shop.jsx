@@ -178,10 +178,23 @@ const Shop = () => {
             goal: 'DNA Repair, Mitophagy, & Anti-Aging',
             citation: (
                 <span>
-                    Formulated on the protocols of <strong>Baylor College of Medicine</strong> (Dr. Sekhar), proven to correct Glutathione deficiency and reverse mitochondrial impairment in aging populations.
+                    Based on the groundbreaking randomized clinical trials from <strong>Baylor College of Medicine</strong> (Sekhar et al., 2021-2023).
                 </span>
             ),
+            clinicalDeepDive: {
+                findings: "This specific combination of Glycine and NAC was shown to correct intracellular Glutathione deficiency, restore mitochondrial fuel oxidation, and significantly lower oxidative stress and inflammation markers in older adults to levels comparable to younger individuals.",
+                commercialNote: "Taking NAC alone is not enough—you need the combination to unlock the anti-aging benefit.",
+                verdict: "If I were to pick only one supplement for a patient over 50 to protect their future health, it would be GlyNAC. It is that important."
+            },
             products: [
+                {
+                    name: 'GlyNAC (Glycine + NAC)',
+                    subtitle: 'The Cellular Shield',
+                    why: 'The combination proven to restore glutathione synthesis. Glycine is the rate-limiting amino acid for glutathione production, and NAC provides the cysteine. Together, they are the most potent intracellular antioxidant system.',
+                    pick: 'Life Extension NAC + Glycine Powder',
+                    amazonLink: 'https://geni.us/glynac',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20NAC%20Glycine'
+                },
                 {
                     name: 'NAD+ Precursor (Nicotinamide Riboside)',
                     subtitle: 'The Repair Signal',
@@ -343,10 +356,54 @@ const Shop = () => {
                                     maxWidth: '700px',
                                     margin: '0 auto',
                                     fontStyle: 'italic',
-                                    lineHeight: 1.5
+                                    lineHeight: 1.5,
+                                    marginBottom: protocol.clinicalDeepDive ? '1.5rem' : '0'
                                 }}>
                                     🔬 Clinical Backbone: {protocol.citation}
                                 </p>
+                            )}
+
+                            {/* Clinical Deep Dive */}
+                            {protocol.clinicalDeepDive && (
+                                <div style={{
+                                    maxWidth: '800px',
+                                    margin: '0 auto',
+                                    backgroundColor: 'rgba(32, 178, 170, 0.05)',
+                                    border: '1px solid rgba(32, 178, 170, 0.2)',
+                                    borderRadius: '12px',
+                                    padding: '1.5rem',
+                                    textAlign: 'left'
+                                }}>
+                                    <p style={{
+                                        fontSize: '0.95rem',
+                                        color: 'rgba(255,255,255,0.9)',
+                                        lineHeight: 1.6,
+                                        marginBottom: '1rem'
+                                    }}>
+                                        <strong>The Findings:</strong> {protocol.clinicalDeepDive.findings}
+                                    </p>
+                                    <p style={{
+                                        fontSize: '0.9rem',
+                                        color: 'var(--color-accent-teal)',
+                                        fontStyle: 'italic',
+                                        marginBottom: '1rem'
+                                    }}>
+                                        <strong>Note:</strong> {protocol.clinicalDeepDive.commercialNote}
+                                    </p>
+                                    <div style={{
+                                        borderTop: '1px solid rgba(255,255,255,0.1)',
+                                        paddingTop: '1rem',
+                                        marginTop: '1rem'
+                                    }}>
+                                        <p style={{
+                                            fontSize: '1rem',
+                                            fontWeight: 600,
+                                            color: '#FFFFFF'
+                                        }}>
+                                            👨‍⚕️ Doctor's Verdict: "{protocol.clinicalDeepDive.verdict}"
+                                        </p>
+                                    </div>
+                                </div>
                             )}
                         </div>
 
