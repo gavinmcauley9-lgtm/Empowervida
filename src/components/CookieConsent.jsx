@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const CookieConsent = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -6,7 +7,9 @@ const CookieConsent = () => {
     useEffect(() => {
         const consent = localStorage.getItem('cookieConsent');
         if (!consent) {
-            setIsVisible(true);
+            // Small delay for better UX on load
+            const timer = setTimeout(() => setIsVisible(true), 1000);
+            return () => clearTimeout(timer);
         } else if (consent === 'all') {
             loadTrackingScripts();
         }
@@ -14,11 +17,8 @@ const CookieConsent = () => {
 
     const loadTrackingScripts = () => {
         console.log('Loading tracking scripts (GA, Pixel, etc.)...');
-        // TODO: Insert actual tracking scripts here
-        // Example:
-        // const script = document.createElement('script');
-        // script.src = 'https://www.googletagmanager.com/gtag/js?id=YOUR_ID';
-        // document.head.appendChild(script);
+        // Placeholder for actual script injection logic
+        // window.gtag('consent', 'update', { ... });
     };
 
     const handleAcceptAll = () => {
@@ -29,94 +29,119 @@ const CookieConsent = () => {
 
     const handleNecessary = () => {
         localStorage.setItem('cookieConsent', 'necessary');
-        console.log('Blocking third-party tracking scripts.');
+        console.log('Consent denied. Loading only necessary scripts.');
         setIsVisible(false);
     };
 
-    if (!isVisible) return null;
-
     return (
-        <div style={{
-            position: 'fixed',
-            bottom: '20px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            width: '90%',
-            maxWidth: '600px',
-            backgroundColor: '#FFFFFF',
-            borderRadius: '12px',
-            boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
-            padding: '2rem',
-            zIndex: 9999,
-            border: '1px solid rgba(32, 178, 170, 0.2)',
-            fontFamily: '"Inter", sans-serif'
-        }}>
-            <div style={{ marginBottom: '1.5rem' }}>
-                <h3 style={{
-                    fontSize: '1.25rem',
-                    fontWeight: 700,
-                    color: '#2C3E50',
-                    marginBottom: '0.75rem',
-                    marginTop: 0
-                }}>
-                    Your Health, Your Data, Your Choice.
-                </h3>
-                <p style={{
-                    fontSize: '0.95rem',
-                    lineHeight: 1.6,
-                    color: '#666',
-                    margin: 0
-                }}>
-                    We use cookies to personalize your health journey and analyze traffic. We never sell your private health data. See our <a href="/privacy" style={{ color: '#20B2AA', textDecoration: 'underline' }}>Privacy Policy</a> for details.
-                </p>
-            </div>
-
-            <div style={{
-                display: 'flex',
-                gap: '1rem',
-                flexWrap: 'wrap',
-                justifyContent: 'flex-end'
-            }}>
-                <button
-                    onClick={handleNecessary}
+        <AnimatePresence>
+            {isVisible && (
+                <motion.div
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: 100, opacity: 0 }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
                     style={{
-                        padding: '0.75rem 1.5rem',
-                        borderRadius: '6px',
-                        border: '1px solid #ccc',
-                        background: 'transparent',
-                        color: '#666',
-                        fontSize: '0.9rem',
-                        fontWeight: 600,
-                        cursor: 'pointer',
-                        transition: 'all 0.2s ease'
+                        position: 'fixed',
+                        bottom: 0,
+                        left: 0,
+                        width: '100%',
+                        zIndex: 9999,
+                        padding: '1.5rem',
+                        background: 'rgba(255, 255, 255, 0.95)',
+                        backdropFilter: 'blur(10px)',
+                        borderTop: '1px solid rgba(0,0,0,0.1)',
+                        boxShadow: '0 -10px 40px rgba(0,0,0,0.05)'
                     }}
-                    onMouseOver={(e) => e.currentTarget.style.borderColor = '#999'}
-                    onMouseOut={(e) => e.currentTarget.style.borderColor = '#ccc'}
                 >
-                    Necessary Only
-                </button>
+                    <div className="container" style={{
+                        maxWidth: '1200px',
+                        margin: '0 auto',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '1.5rem',
+                        alignItems: 'center',
+                        justifyContent: 'space-between'
+                    }}>
+                        {/* Desktop Layout: Row */}
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            width: '100%',
+                            flexWrap: 'wrap',
+                            gap: '1.5rem'
+                        }}>
+                            <div style={{ maxWidth: '700px' }}>
+                                <h4 style={{
+                                    fontSize: '1.1rem',
+                                    fontWeight: 700,
+                                    color: '#1A3C34',
+                                    marginBottom: '0.5rem',
+                                    fontFamily: '"Manrope", sans-serif'
+                                }}>
+                                    YOUR HEALTH. YOUR DATA. YOUR CHOICE.
+                                </h4>
+                                <p style={{
+                                    fontSize: '0.9rem',
+                                    color: 'var(--color-text-muted)',
+                                    lineHeight: 1.5
+                                }}>
+                                    We use cookies to personalize your health journey and analyze how our protocols are being used. We do not sell your data to third parties.
+                                </p>
+                            </div>
 
-                <button
-                    onClick={handleAcceptAll}
-                    style={{
-                        padding: '0.75rem 1.5rem',
-                        borderRadius: '6px',
-                        border: 'none',
-                        background: '#20B2AA',
-                        color: '#FFFFFF',
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        cursor: 'pointer',
-                        boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                        transition: 'all 0.2s ease'
-                    }}
-                    onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-1px)'}
-                    onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                >
-                    Accept All
-                </button>
-            </div>
-        </div>
+                            <div style={{ display: 'flex', gap: '1rem' }}>
+                                <button
+                                    onClick={handleNecessary}
+                                    style={{
+                                        padding: '0.8rem 1.5rem',
+                                        background: 'transparent',
+                                        border: '1px solid rgba(0,0,0,0.2)',
+                                        borderRadius: '6px',
+                                        color: 'var(--color-text)',
+                                        fontWeight: 600,
+                                        fontSize: '0.85rem',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.2s ease'
+                                    }}
+                                    onMouseEnter={e => e.target.style.borderColor = '#1A3C34'}
+                                    onMouseLeave={e => e.target.style.borderColor = 'rgba(0,0,0,0.2)'}
+                                >
+                                    NECESSARY ONLY
+                                </button>
+                                <button
+                                    onClick={handleAcceptAll}
+                                    style={{
+                                        padding: '0.8rem 2rem',
+                                        background: '#1A3C34',
+                                        border: 'none',
+                                        borderRadius: '6px',
+                                        color: '#FFFFFF',
+                                        fontWeight: 700,
+                                        fontSize: '0.85rem',
+                                        cursor: 'pointer',
+                                        boxShadow: '0 4px 15px rgba(26, 60, 52, 0.2)',
+                                        transition: 'all 0.2s ease'
+                                    }}
+                                    onMouseEnter={e => {
+                                        e.target.style.transform = 'translateY(-2px)';
+                                        e.target.style.boxShadow = '0 6px 20px rgba(26, 60, 52, 0.3)';
+                                    }}
+                                    onMouseLeave={e => {
+                                        e.target.style.transform = 'translateY(0)';
+                                        e.target.style.boxShadow = '0 4px 15px rgba(26, 60, 52, 0.2)';
+                                    }}
+                                >
+                                    ACCEPT ALL
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </motion.div>
+            )}
+        </AnimatePresence>
     );
 };
 
