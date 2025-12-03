@@ -12,6 +12,11 @@ const Shop = () => {
             icon: '🧠',
             title: 'THE BRAIN PROTOCOL',
             goal: 'Cognitive Precision, Memory, & Focus',
+            citation: (
+                <span>
+                    Aligned with the findings of Silveri et al. (<strong>Harvard/McLean Hospital</strong>), showing Citicoline significantly enhances frontal lobe bioenergetics and membrane turnover.
+                </span>
+            ),
             safety: [
                 {
                     title: "Blood Thinners",
@@ -117,6 +122,11 @@ const Shop = () => {
             icon: '⚡',
             title: 'THE ENERGY & MUSCLE PROTOCOL',
             goal: 'Physical Resilience & Metabolic Fire',
+            citation: (
+                <span>
+                    Validated by Rae et al. (<strong>The Royal Society</strong>, 2003) demonstrating significant improvements in working memory and fluid intelligence via creatine-driven ATP recycling.
+                </span>
+            ),
             safety: [
                 {
                     title: "Kidney Health",
@@ -166,6 +176,11 @@ const Shop = () => {
             icon: '🧬',
             title: 'THE LONGEVITY & CELLULAR RENEWAL PROTOCOL',
             goal: 'DNA Repair, Mitophagy, & Anti-Aging',
+            citation: (
+                <span>
+                    Formulated on the protocols of <strong>Baylor College of Medicine</strong> (Dr. Sekhar), proven to correct Glutathione deficiency and reverse mitochondrial impairment in aging populations.
+                </span>
+            ),
             products: [
                 {
                     name: 'NAD+ Precursor (Nicotinamide Riboside)',
@@ -316,10 +331,23 @@ const Shop = () => {
                             <p style={{
                                 fontSize: '1.2rem',
                                 color: 'var(--color-accent-teal)',
-                                fontWeight: 500
+                                fontWeight: 500,
+                                marginBottom: protocol.citation ? '1rem' : '0'
                             }}>
                                 Goal: {protocol.goal}
                             </p>
+                            {protocol.citation && (
+                                <p style={{
+                                    fontSize: '0.95rem',
+                                    color: 'rgba(255,255,255,0.7)',
+                                    maxWidth: '700px',
+                                    margin: '0 auto',
+                                    fontStyle: 'italic',
+                                    lineHeight: 1.5
+                                }}>
+                                    🔬 Clinical Backbone: {protocol.citation}
+                                </p>
+                            )}
                         </div>
 
                         {/* Products Grid */}
