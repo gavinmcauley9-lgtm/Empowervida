@@ -95,7 +95,7 @@ export default function Blog() {
                 </div>
             </section>
 
-            <div className="container" style={{ paddingBottom: '4rem', position: 'relative', zIndex: 10 }}>
+            <div className="container" style={{ paddingBottom: '4rem', position: 'relative', zIndex: 101 }}>
 
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
