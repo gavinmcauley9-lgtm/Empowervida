@@ -206,21 +206,31 @@ export default function Blog() {
                         </div>
 
                         {/* Posts Grid - Skip first post (it's featured) */}
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                            gap: '2rem',
+                            position: 'relative',
+                            zIndex: 99999
+                        }}>
                             {filteredPosts.slice(1).map(post => (
-                                <div
+                                <a
                                     key={post.id}
+                                    href={`/blog/${post.id}`}
+                                    className="protocol-card"
                                     style={{
                                         display: 'flex',
                                         flexDirection: 'column',
                                         background: 'var(--color-bg)',
                                         borderRadius: '12px',
                                         overflow: 'hidden',
-                                        border: '1px solid var(--color-border)',
+                                        border: '2px solid red',
                                         boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         height: '100%',
-                                        cursor: 'pointer'
+                                        cursor: 'pointer',
+                                        textDecoration: 'none',
+                                        color: 'inherit'
                                     }}
                                     onMouseEnter={(e) => {
                                         e.currentTarget.style.transform = 'translateY(-5px)';
@@ -233,7 +243,7 @@ export default function Blog() {
                                 >
                                     {/* Thumbnail Image */}
                                     {post.image && (
-                                        <a href={`/blog/${post.id}`} style={{ display: 'block', width: '100%' }}>
+                                        <div style={{ display: 'block', width: '100%' }}>
                                             <img
                                                 src={post.image}
                                                 alt={post.title}
@@ -244,22 +254,22 @@ export default function Blog() {
                                                     objectFit: 'cover'
                                                 }}
                                             />
-                                        </a>
+                                        </div>
                                     )}
 
                                     <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                                        <a href={`/blog/${post.id}`} style={{ textDecoration: 'none' }}>
-                                            <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
-                                        </a>
+
+                                        <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+
                                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
                                         <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            <a href={`/blog/${post.id}`} style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
+                                            <span style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
                                                 READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
-                                            </a>
+                                            </span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             ))}
                         </div>
                     </main>
