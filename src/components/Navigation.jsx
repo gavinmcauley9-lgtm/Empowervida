@@ -59,6 +59,7 @@ export default function Navigation() {
                                 }
                                 menu.style.opacity = '1';
                                 menu.style.visibility = 'visible';
+                                menu.style.pointerEvents = 'auto';
                                 menu.style.transform = 'translateY(0) translateX(-50%)';
                             }
                         }}
@@ -69,6 +70,7 @@ export default function Navigation() {
                                 const timerId = setTimeout(() => {
                                     menu.style.opacity = '0';
                                     menu.style.visibility = 'hidden';
+                                    menu.style.pointerEvents = 'none';
                                     menu.style.transform = 'translateY(10px) translateX(-50%)';
                                 }, 300);
                                 menu.setAttribute('data-timer', timerId);
@@ -87,6 +89,7 @@ export default function Navigation() {
                                 transform: 'translateY(10px) translateX(-50%)', // Centered
                                 opacity: 0,
                                 visibility: 'hidden',
+                                pointerEvents: 'none',
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -123,6 +126,7 @@ export default function Navigation() {
                                 }
                                 menu.style.opacity = '1';
                                 menu.style.visibility = 'visible';
+                                menu.style.pointerEvents = 'auto';
                                 menu.style.transform = 'translateY(0) translateX(-50%)';
                             }
                         }}
@@ -132,6 +136,7 @@ export default function Navigation() {
                                 const timerId = setTimeout(() => {
                                     menu.style.opacity = '0';
                                     menu.style.visibility = 'hidden';
+                                    menu.style.pointerEvents = 'none';
                                     menu.style.transform = 'translateY(10px) translateX(-50%)';
                                 }, 300);
                                 menu.setAttribute('data-timer', timerId);
@@ -150,6 +155,7 @@ export default function Navigation() {
                                 transform: 'translateY(10px) translateX(-50%)',
                                 opacity: 0,
                                 visibility: 'hidden',
+                                pointerEvents: 'none',
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',

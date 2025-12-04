@@ -100,7 +100,7 @@ export default function Blog() {
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
                     <div
-                        className="relative"
+
                         style={{
                             display: 'grid',
                             gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
@@ -125,17 +125,19 @@ export default function Blog() {
                         }}
                     >
                         {filteredPosts[0].image && (
-                            <img
-                                src={filteredPosts[0].image}
-                                alt={filteredPosts[0].title}
-                                loading="eager"
-                                style={{
-                                    width: '100%',
-                                    height: '400px',
-                                    objectFit: 'cover',
-                                    borderRadius: '12px'
-                                }}
-                            />
+                            <Link to={`/blog/${filteredPosts[0].id}`} style={{ display: 'block', width: '100%', height: '100%' }}>
+                                <img
+                                    src={filteredPosts[0].image}
+                                    alt={filteredPosts[0].title}
+                                    loading="eager"
+                                    style={{
+                                        width: '100%',
+                                        height: '400px',
+                                        objectFit: 'cover',
+                                        borderRadius: '12px'
+                                    }}
+                                />
+                            </Link>
                         )}
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                             <div style={{
@@ -156,16 +158,17 @@ export default function Blog() {
                             <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                                 {filteredPosts[0].category} | {filteredPosts[0].date}
                             </p>
-                            <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
-                                {filteredPosts[0].title}
-                            </h2>
+                            <Link to={`/blog/${filteredPosts[0].id}`} style={{ textDecoration: 'none' }}>
+                                <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
+                                    {filteredPosts[0].title}
+                                </h2>
+                            </Link>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
                                 {filteredPosts[0].excerpt}
                             </p>
                             <Link
                                 to={`/blog/${filteredPosts[0].id}`}
-                                className="stretched-link"
-                                style={{ display: 'inline-block', color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}
+                                style={{ display: 'inline-block', color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em', textDecoration: 'none' }}
                             >
                                 Read Article →
                             </Link>
@@ -207,7 +210,6 @@ export default function Blog() {
                             {filteredPosts.slice(1).map(post => (
                                 <div
                                     key={post.id}
-                                    className="relative"
                                     style={{
                                         display: 'flex',
                                         flexDirection: 'column',
@@ -231,24 +233,28 @@ export default function Blog() {
                                 >
                                     {/* Thumbnail Image */}
                                     {post.image && (
-                                        <img
-                                            src={post.image}
-                                            alt={post.title}
-                                            loading="lazy"
-                                            style={{
-                                                width: '100%',
-                                                height: '200px',
-                                                objectFit: 'cover'
-                                            }}
-                                        />
+                                        <Link to={`/blog/${post.id}`} style={{ display: 'block', width: '100%' }}>
+                                            <img
+                                                src={post.image}
+                                                alt={post.title}
+                                                loading="lazy"
+                                                style={{
+                                                    width: '100%',
+                                                    height: '200px',
+                                                    objectFit: 'cover'
+                                                }}
+                                            />
+                                        </Link>
                                     )}
 
                                     <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                                        <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+                                        <Link to={`/blog/${post.id}`} style={{ textDecoration: 'none' }}>
+                                            <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+                                        </Link>
                                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
                                         <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            <Link to={`/blog/${post.id}`} className="stretched-link" style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
+                                            <Link to={`/blog/${post.id}`} style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
                                                 READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
                                             </Link>
                                         </div>
