@@ -57,7 +57,7 @@ export default function BlogPost() {
           description={post.excerpt}
           keywords={`${post.category}, longevity, health optimization, ${post.title}`}
           canonical={`/blog/${post.id}`}
-          ogImage={post.image || '/hero_dna_botanical_1764284832727.png'}
+          ogImage={post.image || '/hero_dna_botanical.png'}
           ogType="article"
           author="Dr. Gavin McAuley"
           schemaData={articleSchema}
