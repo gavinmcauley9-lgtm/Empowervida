@@ -137,6 +137,20 @@ button {
   color: var(--color-text-muted);
 }
 
+.relative {
+  position: relative;
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
 /* Button Styles - Clinical Luxury with Micro-Interactions */
 .btn-primary {
   display: inline-block;

@@ -9,63 +9,7 @@ export default function Blog() {
     const filteredPosts = activeCategory === 'all'
         ? POSTS
         : POSTS.filter(post => post.category === activeCategory);
-    // ... (rest of the file until the grid)
 
-    // ... inside the return ...
-    {/* Posts Grid - Skip first post (it's featured) */ }
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
-        {filteredPosts.slice(1).map(post => (
-            <Link
-                key={post.id}
-                to={`/blog/${post.id}`}
-                style={{
-                    textDecoration: 'none',
-                    color: 'inherit',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    background: 'var(--color-bg)',
-                    borderRadius: '12px',
-                    overflow: 'hidden',
-                    border: '1px solid var(--color-border)',
-                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                    transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                    height: '100%',
-                    cursor: 'pointer'
-                }}
-                onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'translateY(-5px)';
-                    e.currentTarget.style.boxShadow = '0 6px 25px rgba(32, 178, 170, 0.15)';
-                }}
-                onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                }}
-            >
-                {/* Thumbnail Image */}
-                {post.image && (
-                    <img
-                        src={post.image}
-                        alt={post.title}
-                        loading="lazy"
-                        style={{
-                            width: '100%',
-                            height: '200px',
-                            objectFit: 'cover'
-                        }}
-                    />
-                )}
-
-                <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                    <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
-                    <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
-                    <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
-                    </div>
-                </div>
-            </Link>
-        ))}
-    </div>
 
     const collectionSchema = {
         "@context": "https://schema.org",
@@ -155,11 +99,9 @@ export default function Blog() {
 
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
-                    <Link
-                        to={`/blog/${filteredPosts[0].id}`}
+                    <div
+                        className="relative"
                         style={{
-                            textDecoration: 'none',
-                            color: 'inherit',
                             display: 'grid',
                             gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
                             gap: '2rem',
@@ -220,11 +162,15 @@ export default function Blog() {
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
                                 {filteredPosts[0].excerpt}
                             </p>
-                            <div style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            <Link
+                                to={`/blog/${filteredPosts[0].id}`}
+                                className="stretched-link"
+                                style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}
+                            >
                                 Read Article →
-                            </div>
+                            </Link>
                         </div>
-                    </Link>
+                    </div>
                 )}
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
@@ -259,62 +205,55 @@ export default function Blog() {
                         {/* Posts Grid - Skip first post (it's featured) */}
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
                             {filteredPosts.slice(1).map(post => (
-                                <Link
+                                <div
                                     key={post.id}
-                                    to={`/blog/${post.id}`}
+                                    className="relative"
                                     style={{
-                                        textDecoration: 'none',
-                                        color: 'inherit',
-                                        display: 'block',
-                                        height: '100%'
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        background: 'var(--color-bg)',
+                                        borderRadius: '12px',
+                                        overflow: 'hidden',
+                                        border: '1px solid var(--color-border)',
+                                        boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                                        height: '100%',
+                                        cursor: 'pointer'
+                                    }}
+                                    onMouseEnter={(e) => {
+                                        e.currentTarget.style.transform = 'translateY(-5px)';
+                                        e.currentTarget.style.boxShadow = '0 6px 25px rgba(32, 178, 170, 0.15)';
+                                    }}
+                                    onMouseLeave={(e) => {
+                                        e.currentTarget.style.transform = 'translateY(0)';
+                                        e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                                     }}
                                 >
-                                    <article
-                                        style={{
-                                            background: 'var(--color-bg)',
-                                            borderRadius: '12px',
-                                            overflow: 'hidden',
-                                            border: '1px solid var(--color-border)',
-                                            boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                                            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                                            height: '100%',
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            cursor: 'pointer'
-                                        }}
-                                        onMouseEnter={(e) => {
-                                            e.currentTarget.style.transform = 'translateY(-5px)';
-                                            e.currentTarget.style.boxShadow = '0 6px 25px rgba(32, 178, 170, 0.15)';
-                                        }}
-                                        onMouseLeave={(e) => {
-                                            e.currentTarget.style.transform = 'translateY(0)';
-                                            e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                                        }}
-                                    >
-                                        {/* Thumbnail Image */}
-                                        {post.image && (
-                                            <img
-                                                src={post.image}
-                                                alt={post.title}
-                                                loading="lazy"
-                                                style={{
-                                                    width: '100%',
-                                                    height: '200px',
-                                                    objectFit: 'cover'
-                                                }}
-                                            />
-                                        )}
+                                    {/* Thumbnail Image */}
+                                    {post.image && (
+                                        <img
+                                            src={post.image}
+                                            alt={post.title}
+                                            loading="lazy"
+                                            style={{
+                                                width: '100%',
+                                                height: '200px',
+                                                objectFit: 'cover'
+                                            }}
+                                        />
+                                    )}
 
-                                        <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
-                                            <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                                            <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
-                                            <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
-                                            <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                    <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                                        <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
+                                        <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
+                                        <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
+                                        <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                            <Link to={`/blog/${post.id}`} className="stretched-link" style={{ color: 'inherit', textDecoration: 'none' }}>
                                                 READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
-                                            </div>
+                                            </Link>
                                         </div>
-                                    </article>
-                                </Link>
+                                    </div>
+                                </div>
                             ))}
                         </div>
                     </main>
