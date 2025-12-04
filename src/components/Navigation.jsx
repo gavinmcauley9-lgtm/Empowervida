@@ -43,7 +43,7 @@ export default function Navigation() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="desktop-only" style={{ display: 'flex', alignItems: 'center' }}>
+                <div className="desktop-only" style={{ display: 'flex', alignItems: 'center', pointerEvents: 'auto' }}>
                     <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
 
                     {/* Protocols Dropdown */}
@@ -105,13 +105,13 @@ export default function Navigation() {
                                 pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
-                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 ⚡ VITALITY (Energy)
                             </Link>
-                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧠 CLARITY (Brain)
                             </Link>
-                            <Link to="/protocol#foundation-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#foundation-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧬 FOUNDATION (Longevity)
                             </Link>
                         </div>
@@ -173,10 +173,10 @@ export default function Navigation() {
                                 pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
-                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 ⚡ Mitochondrial Health
                             </Link>
-                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧬 The 5 Pillars of Longevity
                             </Link>
                         </div>
