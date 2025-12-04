@@ -313,3 +313,32 @@ textarea {
 .ken-burns-active {
   animation: ken-burns 20s ease-out forwards;
 }
+
+/* SANITY CHECK MODE - HIDE POTENTIAL OVERLAYS */
+nav,
+.navigation,
+.header-container,
+#header {
+  display: none !important;
+}
+
+canvas,
+#canvas-container,
+.three-js-background {
+  display: none !important;
+}
+
+footer,
+.footer {
+  display: none !important;
+}
+
+.blog-page,
+.blog-grid,
+.protocol-card {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  background: white !important;
+  /* Ensure high contrast */
+  color: black !important;
+}
