@@ -76,7 +76,7 @@ export default function Navigation() {
                                 // Set a delay before hiding completely
                                 const timerId = setTimeout(() => {
                                     menu.style.display = 'none';
-                                }, 300);
+                                }, 0); // Immediate hide to prevent Safari race conditions
                                 menu.setAttribute('data-timer', timerId);
                             }
                         }}
@@ -144,7 +144,7 @@ export default function Navigation() {
                                 menu.style.pointerEvents = 'none'; // Disable clicks when hiding
                                 const timerId = setTimeout(() => {
                                     menu.style.display = 'none';
-                                }, 300);
+                                }, 0); // Immediate hide to prevent Safari race conditions
                                 menu.setAttribute('data-timer', timerId);
                             }
                         }}
