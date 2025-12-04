@@ -314,31 +314,56 @@ textarea {
   animation: ken-burns 20s ease-out forwards;
 }
 
-/* SANITY CHECK MODE - HIDE POTENTIAL OVERLAYS */
+/* SAFE MODE - RESTORE UI WITH CLICK PROTECTION */
 nav,
 .navigation,
 .header-container,
-#header {
-  display: none !important;
+#header,
+footer,
+.footer {
+  display: block !important;
+  pointer-events: none !important;
 }
 
+/* Ensure interactive elements inside containers are clickable */
+nav a,
+.navigation a,
+.header-container a,
+#header a,
+footer a,
+.footer a,
+nav button,
+.navigation button,
+.header-container button,
+#header button,
+footer button,
+.footer button,
+nav input,
+.navigation input,
+.header-container input,
+#header input,
+footer input,
+.footer input {
+  pointer-events: auto !important;
+}
+
+/* Keep Canvas visible but strictly non-interactive */
 canvas,
 #canvas-container,
 .three-js-background {
-  display: none !important;
+  display: block !important;
+  pointer-events: none !important;
+  z-index: -1 !important;
+  /* Ensure it stays behind content */
 }
 
-footer,
-.footer {
-  display: none !important;
-}
-
+/* Enforce Content Interactivity */
 .blog-page,
 .blog-grid,
 .protocol-card {
   opacity: 1 !important;
   pointer-events: auto !important;
-  background: white !important;
-  /* Ensure high contrast */
-  color: black !important;
+  position: relative;
+  z-index: 10;
+  /* Ensure content sits above background */
 }
