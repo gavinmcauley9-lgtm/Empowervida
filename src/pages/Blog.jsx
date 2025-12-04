@@ -109,7 +109,6 @@ export default function Blog() {
                             background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
                             borderRadius: '16px',
                             overflow: 'hidden',
-                            border: '5px solid red', // TEMPORARY DEBUG BORDER
                             boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                             marginBottom: '4rem',
@@ -224,7 +223,7 @@ export default function Blog() {
                                         background: 'var(--color-bg)',
                                         borderRadius: '12px',
                                         overflow: 'hidden',
-                                        border: '2px solid red',
+                                        border: '1px solid var(--color-border)',
                                         boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         height: '100%',
