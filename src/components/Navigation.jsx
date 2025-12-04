@@ -57,21 +57,22 @@ export default function Navigation() {
                                     clearTimeout(parseInt(timerId));
                                     menu.removeAttribute('data-timer');
                                 }
-                                menu.style.opacity = '1';
-                                menu.style.visibility = 'visible';
-                                menu.style.pointerEvents = 'auto'; // Enable clicks when open
-                                menu.style.transform = 'translateY(0) translateX(-50%)';
+                                menu.style.display = 'block';
+                                // Small delay to allow display:block to apply before opacity transition
+                                requestAnimationFrame(() => {
+                                    menu.style.opacity = '1';
+                                    menu.style.transform = 'translateY(0) translateX(-50%)';
+                                });
                             }
                         }}
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
-                                // Set a delay before closing
+                                menu.style.opacity = '0';
+                                menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                // Set a delay before hiding completely
                                 const timerId = setTimeout(() => {
-                                    menu.style.opacity = '0';
-                                    menu.style.visibility = 'hidden';
-                                    menu.style.pointerEvents = 'none'; // Disable clicks when closed
-                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                    menu.style.display = 'none';
                                 }, 300);
                                 menu.setAttribute('data-timer', timerId);
                             }
@@ -88,8 +89,7 @@ export default function Navigation() {
                                 left: '50%',
                                 transform: 'translateY(10px) translateX(-50%)', // Centered
                                 opacity: 0,
-                                visibility: 'hidden',
-                                pointerEvents: 'none', // Default to none
+                                display: 'none', // Default to none
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -97,7 +97,7 @@ export default function Navigation() {
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '220px',
-                                transition: 'all 0.2s ease, opacity 0.2s ease, visibility 0.2s ease',
+                                transition: 'opacity 0.2s ease, transform 0.2s ease', // Removed visibility transition
                                 zIndex: 1000
                             }}
                         >
@@ -124,20 +124,20 @@ export default function Navigation() {
                                     clearTimeout(parseInt(timerId));
                                     menu.removeAttribute('data-timer');
                                 }
-                                menu.style.opacity = '1';
-                                menu.style.visibility = 'visible';
-                                menu.style.pointerEvents = 'auto'; // Enable clicks when open
-                                menu.style.transform = 'translateY(0) translateX(-50%)';
+                                menu.style.display = 'block';
+                                requestAnimationFrame(() => {
+                                    menu.style.opacity = '1';
+                                    menu.style.transform = 'translateY(0) translateX(-50%)';
+                                });
                             }
                         }}
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu');
                             if (menu) {
+                                menu.style.opacity = '0';
+                                menu.style.transform = 'translateY(10px) translateX(-50%)';
                                 const timerId = setTimeout(() => {
-                                    menu.style.opacity = '0';
-                                    menu.style.visibility = 'hidden';
-                                    menu.style.pointerEvents = 'none'; // Disable clicks when closed
-                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                    menu.style.display = 'none';
                                 }, 300);
                                 menu.setAttribute('data-timer', timerId);
                             }
@@ -154,8 +154,7 @@ export default function Navigation() {
                                 left: '50%',
                                 transform: 'translateY(10px) translateX(-50%)',
                                 opacity: 0,
-                                visibility: 'hidden',
-                                pointerEvents: 'none', // Default to none
+                                display: 'none', // Default to none
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -163,7 +162,7 @@ export default function Navigation() {
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '260px',
-                                transition: 'all 0.2s ease, opacity 0.2s ease, visibility 0.2s ease',
+                                transition: 'opacity 0.2s ease, transform 0.2s ease',
                                 zIndex: 1000
                             }}
                         >
