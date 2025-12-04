@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import { POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
@@ -103,7 +103,7 @@ export default function Blog() {
 
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: window.innerWidth > 768 ? '1fr 1fr' : '1fr',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                             gap: '2rem',
                             padding: '2rem',
                             background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
@@ -125,7 +125,7 @@ export default function Blog() {
                         }}
                     >
                         {filteredPosts[0].image && (
-                            <Link to={`/blog/${filteredPosts[0].id}`} style={{ display: 'block', width: '100%', height: '100%' }}>
+                            <a href={`https://www.empowervida.com/blog/${filteredPosts[0].id}`} style={{ display: 'block', width: '100%', height: '100%' }}>
                                 <img
                                     src={filteredPosts[0].image}
                                     alt={filteredPosts[0].title}
@@ -137,7 +137,7 @@ export default function Blog() {
                                         borderRadius: '12px'
                                     }}
                                 />
-                            </Link>
+                            </a>
                         )}
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                             <div style={{
@@ -158,20 +158,20 @@ export default function Blog() {
                             <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                                 {filteredPosts[0].category} | {filteredPosts[0].date}
                             </p>
-                            <Link to={`/blog/${filteredPosts[0].id}`} style={{ textDecoration: 'none' }}>
+                            <a href={`https://www.empowervida.com/blog/${filteredPosts[0].id}`} style={{ textDecoration: 'none' }}>
                                 <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
                                     {filteredPosts[0].title}
                                 </h2>
-                            </Link>
+                            </a>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
                                 {filteredPosts[0].excerpt}
                             </p>
-                            <Link
-                                to={`/blog/${filteredPosts[0].id}`}
+                            <a
+                                href={`https://www.empowervida.com/blog/${filteredPosts[0].id}`}
                                 style={{ display: 'inline-block', color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em', textDecoration: 'none' }}
                             >
                                 Read Article →
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 )}
@@ -233,7 +233,7 @@ export default function Blog() {
                                 >
                                     {/* Thumbnail Image */}
                                     {post.image && (
-                                        <Link to={`/blog/${post.id}`} style={{ display: 'block', width: '100%' }}>
+                                        <a href={`https://www.empowervida.com/blog/${post.id}`} style={{ display: 'block', width: '100%' }}>
                                             <img
                                                 src={post.image}
                                                 alt={post.title}
@@ -244,19 +244,19 @@ export default function Blog() {
                                                     objectFit: 'cover'
                                                 }}
                                             />
-                                        </Link>
+                                        </a>
                                     )}
 
                                     <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
-                                        <Link to={`/blog/${post.id}`} style={{ textDecoration: 'none' }}>
+                                        <a href={`https://www.empowervida.com/blog/${post.id}`} style={{ textDecoration: 'none' }}>
                                             <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
-                                        </Link>
+                                        </a>
                                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
                                         <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            <Link to={`/blog/${post.id}`} style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
+                                            <a href={`https://www.empowervida.com/blog/${post.id}`} style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
                                                 READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

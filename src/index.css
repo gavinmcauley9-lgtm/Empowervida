@@ -104,6 +104,18 @@ a {
   }
 }
 
+@media (min-width: 769px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
 a:hover {
   color: var(--color-primary);
   border-bottom: 1px solid var(--color-primary);
