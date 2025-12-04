@@ -34,9 +34,10 @@ export default function Navigation() {
             padding: '1.5rem 0',
             background: 'rgba(255, 255, 255, 0.85)', /* Frosted Glass Effect */
             backdropFilter: 'blur(12px)',
-            transition: 'all 0.3s ease'
+            transition: 'all 0.3s ease',
+            pointerEvents: 'none' // Prevent click hijacking on blog cards below
         }}>
-            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', pointerEvents: 'auto' }}>
                 <Link to="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102 }}>
                     <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
                 </Link>
@@ -58,6 +59,7 @@ export default function Navigation() {
                                     menu.removeAttribute('data-timer');
                                 }
                                 menu.style.display = 'block';
+                                menu.style.pointerEvents = 'auto'; // Enable clicks when visible
                                 // Small delay to allow display:block to apply before opacity transition
                                 requestAnimationFrame(() => {
                                     menu.style.opacity = '1';
@@ -70,6 +72,7 @@ export default function Navigation() {
                             if (menu) {
                                 menu.style.opacity = '0';
                                 menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                menu.style.pointerEvents = 'none'; // Disable clicks when hiding
                                 // Set a delay before hiding completely
                                 const timerId = setTimeout(() => {
                                     menu.style.display = 'none';
@@ -97,8 +100,9 @@ export default function Navigation() {
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '220px',
-                                transition: 'opacity 0.2s ease, transform 0.2s ease', // Removed visibility transition
-                                zIndex: 1000
+                                transition: 'opacity 0.2s ease, transform 0.2s ease',
+                                zIndex: 1000,
+                                pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
                             <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
@@ -125,6 +129,7 @@ export default function Navigation() {
                                     menu.removeAttribute('data-timer');
                                 }
                                 menu.style.display = 'block';
+                                menu.style.pointerEvents = 'auto'; // Enable clicks when visible
                                 requestAnimationFrame(() => {
                                     menu.style.opacity = '1';
                                     menu.style.transform = 'translateY(0) translateX(-50%)';
@@ -136,6 +141,7 @@ export default function Navigation() {
                             if (menu) {
                                 menu.style.opacity = '0';
                                 menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                menu.style.pointerEvents = 'none'; // Disable clicks when hiding
                                 const timerId = setTimeout(() => {
                                     menu.style.display = 'none';
                                 }, 300);
@@ -154,7 +160,7 @@ export default function Navigation() {
                                 left: '50%',
                                 transform: 'translateY(10px) translateX(-50%)',
                                 opacity: 0,
-                                display: 'none', // Default to none
+                                display: 'none',
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -163,7 +169,8 @@ export default function Navigation() {
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
                                 minWidth: '260px',
                                 transition: 'opacity 0.2s ease, transform 0.2s ease',
-                                zIndex: 1000
+                                zIndex: 1000,
+                                pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
                             <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>

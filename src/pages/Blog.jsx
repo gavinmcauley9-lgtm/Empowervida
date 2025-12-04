@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import { POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
@@ -99,20 +99,21 @@ export default function Blog() {
 
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
-                    <div
-
+                    <Link
+                        to={`/blog/${filteredPosts[0].id}`}
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                            gap: '2rem',
-                            padding: '2rem',
+                            gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
+                            gap: '0',
                             background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
                             borderRadius: '16px',
                             overflow: 'hidden',
                             boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                             marginBottom: '4rem',
-                            cursor: 'pointer'
+                            cursor: 'pointer',
+                            textDecoration: 'none',
+                            color: 'inherit'
                         }}
                         onMouseEnter={(e) => {
                             e.currentTarget.style.transform = 'translateY(-5px)';
@@ -124,7 +125,7 @@ export default function Blog() {
                         }}
                     >
                         {filteredPosts[0].image && (
-                            <a href={`/blog/${filteredPosts[0].id}`} style={{ display: 'block', width: '100%', height: '100%' }}>
+                            <div style={{ display: 'block', width: '100%', height: '100%' }}>
                                 <img
                                     src={filteredPosts[0].image}
                                     alt={filteredPosts[0].title}
@@ -136,7 +137,7 @@ export default function Blog() {
                                         borderRadius: '12px'
                                     }}
                                 />
-                            </a>
+                            </div>
                         )}
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                             <div style={{
@@ -157,22 +158,19 @@ export default function Blog() {
                             <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600 }}>
                                 {filteredPosts[0].category} | {filteredPosts[0].date}
                             </p>
-                            <a href={`/blog/${filteredPosts[0].id}`} style={{ textDecoration: 'none' }}>
-                                <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
-                                    {filteredPosts[0].title}
-                                </h2>
-                            </a>
+                            <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text)', lineHeight: '1.2', fontFamily: '"Manrope", sans-serif', fontWeight: 800 }}>
+                                {filteredPosts[0].title}
+                            </h2>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '1.5rem' }}>
                                 {filteredPosts[0].excerpt}
                             </p>
-                            <a
-                                href={`/blog/${filteredPosts[0].id}`}
+                            <span
                                 style={{ display: 'inline-block', color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em', textDecoration: 'none' }}
                             >
                                 Read Article →
-                            </a>
+                            </span>
                         </div>
-                    </div>
+                    </Link>
                 )}
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
@@ -213,9 +211,9 @@ export default function Blog() {
                             zIndex: 99999
                         }}>
                             {filteredPosts.slice(1).map(post => (
-                                <a
+                                <Link
                                     key={post.id}
-                                    href={`/blog/${post.id}`}
+                                    to={`/blog/${post.id}`}
                                     className="protocol-card"
                                     style={{
                                         display: 'flex',
@@ -268,7 +266,7 @@ export default function Blog() {
                                             </span>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             ))}
                         </div>
                     </main>
