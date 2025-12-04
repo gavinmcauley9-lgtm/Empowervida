@@ -165,7 +165,7 @@ export default function Blog() {
                             <Link
                                 to={`/blog/${filteredPosts[0].id}`}
                                 className="stretched-link"
-                                style={{ color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}
+                                style={{ display: 'inline-block', color: 'var(--color-accent-teal)', fontWeight: 700, fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}
                             >
                                 Read Article →
                             </Link>
@@ -248,7 +248,7 @@ export default function Blog() {
                                         <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
                                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
                                         <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                            <Link to={`/blog/${post.id}`} className="stretched-link" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                            <Link to={`/blog/${post.id}`} className="stretched-link" style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
                                                 READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
                                             </Link>
                                         </div>
