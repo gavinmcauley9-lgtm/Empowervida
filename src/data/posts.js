@@ -14,7 +14,7 @@ export const POSTS = [
     id: 22,
     title: 'THE AGING TAX: Why Your Cells Are Running Out of Currency (And How NAD+ Restores It)',
     category: 'longevity',
-    image: '/nad_decline_graph_1764585458405.png',
+    image: '/cellular_energy_decline.png',
     excerpt: 'By age 40, your NAD+ levels have dropped by 50%. This isn\'t just aging—it\'s cellular bankruptcy. Here\'s how to restore the currency of life.',
     date: 'Dec 01, 2025',
     cta: {
@@ -43,7 +43,7 @@ export const POSTS = [
       <p>When NAD+ drops, everything breaks down. This is the biological root of aging.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/nad_decline_graph_1764585458405.png" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_energy_decline.png" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Aging Tax: NAD+ Levels Plummet After Age 40</p>
       </div>
 
