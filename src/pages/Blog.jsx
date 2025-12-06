@@ -21,7 +21,7 @@ export default function Blog() {
 
     return (
         <div style={{
-            backgroundColor: 'var(--color-bg)',
+            background: 'linear-gradient(to bottom, #FFFFFF 0%, rgba(241, 245, 249, 0.7) 8%, #F1F5F9 15%)',
             minHeight: '100vh',
             color: 'var(--color-text)',
             fontFamily: '"Inter", sans-serif'
@@ -104,11 +104,11 @@ export default function Blog() {
                         style={{
                             display: 'grid',
                             gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
-                            gap: '0',
-                            background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.05) 0%, rgba(255,255,255,1) 100%)',
+                            gap: '2rem',
+                            background: '#FFFFFF',
                             borderRadius: '16px',
                             overflow: 'hidden',
-                            boxShadow: '0 8px 30px rgba(0, 128, 128, 0.15)',
+                            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                             marginBottom: '4rem',
                             cursor: 'pointer',
@@ -117,11 +117,11 @@ export default function Blog() {
                         }}
                         onMouseEnter={(e) => {
                             e.currentTarget.style.transform = 'translateY(-5px)';
-                            e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 128, 128, 0.25)';
+                            e.currentTarget.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)';
                         }}
                         onMouseLeave={(e) => {
                             e.currentTarget.style.transform = 'translateY(0)';
-                            e.currentTarget.style.boxShadow = '0 8px 30px rgba(0, 128, 128, 0.15)';
+                            e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)';
                         }}
                     >
                         {filteredPosts[0].image && (
@@ -218,11 +218,11 @@ export default function Blog() {
                                     style={{
                                         display: 'flex',
                                         flexDirection: 'column',
-                                        background: 'var(--color-bg)',
+                                        background: '#FFFFFF',
                                         borderRadius: '12px',
                                         overflow: 'hidden',
                                         border: '1px solid var(--color-border)',
-                                        boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
                                         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                                         height: '100%',
                                         cursor: 'pointer',
@@ -235,7 +235,7 @@ export default function Blog() {
                                     }}
                                     onMouseLeave={(e) => {
                                         e.currentTarget.style.transform = 'translateY(0)';
-                                        e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
+                                        e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
                                     }}
                                 >
                                     {/* Thumbnail Image */}

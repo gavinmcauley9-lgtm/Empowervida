@@ -71,7 +71,7 @@ const LongevityGuide = () => {
                 backgroundImage="/longevity_hero_cinematic_1764666029631.png"
                 title="The 5 Pillars of Longevity Medicine"
                 subtitle="Beyond Diet and Exercise: The Physician's Framework for Healthspan"
-                overlay="linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0) 100%)"
+                overlay="linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 20%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#20B2AA"
                 textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"

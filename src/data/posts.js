@@ -220,7 +220,7 @@ export const POSTS = [
       <p>⚠️ <strong>Medical Guardrail:</strong> This is a potent vascular stressor. If you have uncontrolled hypertension or a history of cardiac arrhythmia, do not attempt cold plunge without clearing it with your cardiologist.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/protocol_hero_fire_v2.jpg" alt="Brown Fat Activation" style="width: 100%; height: auto; display: block;" />
+        <img src="/brown_fat_thermogenesis.png" alt="Brown Fat Activation" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Thermodynamics: Uncoupling Energy for Heat</p>
       </div>
 
@@ -236,7 +236,7 @@ export const POSTS = [
       <p>You cannot build a new city on top of a ruin. Before we build new mitochondria, we must clear out the old, dysfunctional ones. This process is called <strong>Mitophagy</strong>.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/mitophagy_cellular_recycling_1764577721429.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
+        <img src="/mitophagy_process.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Mitophagy: Recycling Cellular Waste</p>
       </div>
 
@@ -244,7 +244,7 @@ export const POSTS = [
       <p><strong>The Prescription:</strong> Direct supplementation is usually required for clinical effect. Look for 500mg daily to ensure you are effectively recycling cellular waste.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/urolithin_a_molecule_1764577590547.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
+        <img src="/urolithin_a_molecular.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Molecular Precision: Urolithin A</p>
       </div>
 
@@ -473,7 +473,7 @@ export const POSTS = [
       <p>250mg – 500mg in the morning.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/neuronal_synapse_firing_1764510423605.png" alt="Synaptic Transmission" style="width: 100%; height: auto; display: block;" />
+        <img src="/acetylcholine_synapse.png" alt="Synaptic Transmission" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Neurotransmitter Release: Acetylcholine Crossing the Synaptic Cleft</p>
       </div>
 
