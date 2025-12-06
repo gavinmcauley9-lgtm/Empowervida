@@ -135,78 +135,15 @@ const MitochondrialDiagram = () => {
                     </filter>
                 </defs>
 
-                {/* Outer membrane */}
-                <ellipse
-                    cx="260"
-                    cy="270"
-                    rx="145"
-                    ry="105"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="3"
-                    opacity="0.9"
+                {/* Mitochondrion Image - showing ATP production */}
+                <image
+                    href="/mitochondrion_atp_center.png"
+                    x="115"
+                    y="165"
+                    width="290"
+                    height="210"
+                    style={{ filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.3))' }}
                 />
-
-                {/* Inner membrane space (lighter fill) */}
-                <ellipse
-                    cx="260"
-                    cy="270"
-                    rx="140"
-                    ry="100"
-                    fill="url(#mitoGradient)"
-                    opacity="0.85"
-                    filter="url(#glow)"
-                />
-
-                {/* Cristae folds - inner membrane invaginations */}
-                <path
-                    d="M 180 270 Q 200 250, 220 270 T 260 270 T 300 270 T 340 270"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="2.5"
-                    opacity="0.8"
-                />
-                <path
-                    d="M 190 300 Q 210 280, 230 300 T 270 300 T 310 300 T 330 300"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="2.5"
-                    opacity="0.8"
-                />
-                <path
-                    d="M 200 240 Q 220 220, 240 240 T 280 240 T 320 240"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="2.5"
-                    opacity="0.8"
-                />
-                <path
-                    d="M 170 285 Q 185 270, 200 285 T 230 285"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="2"
-                    opacity="0.7"
-                />
-                <path
-                    d="M 290 255 Q 305 240, 320 255 T 350 255"
-                    fill="none"
-                    stroke="#20B2AA"
-                    strokeWidth="2"
-                    opacity="0.7"
-                />
-
-                {/* ATP label in center */}
-                <text
-                    x="260"
-                    y="275"
-                    textAnchor="middle"
-                    fill="#FFFFFF"
-                    fontSize="32"
-                    fontWeight="800"
-                    style={{ textShadow: '0 2px 10px rgba(0,0,0,0.8)' }}
-                >
-                    ATP
-                </text>
 
                 {/* Connection lines and labels */}
                 {supplements.map((supp) => {
@@ -227,18 +164,6 @@ const MitochondrialDiagram = () => {
                                 opacity="0.5"
                             />
 
-                            {/* Larger invisible hover area for easier interaction */}
-                            <circle
-                                cx={supp.x}
-                                cy={supp.y}
-                                r="25"
-                                fill="transparent"
-                                style={{ cursor: 'pointer' }}
-                                onMouseEnter={() => setActiveTooltip(supp.id)}
-                                onMouseLeave={() => setActiveTooltip(null)}
-                                onClick={() => setActiveTooltip(activeTooltip === supp.id ? null : supp.id)}
-                            />
-
                             {/* Label circle */}
                             <circle
                                 cx={supp.x}
@@ -247,7 +172,7 @@ const MitochondrialDiagram = () => {
                                 fill="#FFFFFF"
                                 stroke="#20B2AA"
                                 strokeWidth="2"
-                                style={{ cursor: 'pointer', pointerEvents: 'none' }}
+                                style={{ pointerEvents: 'none' }}
                             />
 
                             {/* Label text */}
@@ -259,7 +184,6 @@ const MitochondrialDiagram = () => {
                                 fontSize="13"
                                 fontWeight="600"
                                 style={{
-                                    cursor: 'pointer',
                                     userSelect: 'none',
                                     pointerEvents: 'none'
                                 }}
@@ -267,58 +191,72 @@ const MitochondrialDiagram = () => {
                                 {supp.name}
                             </text>
 
-                            {/* Tooltip */}
-                            {activeTooltip === supp.id && (() => {
-                                // Position tooltip above if in bottom half, below if in top half
-                                const tooltipY = supp.y > 270 ? supp.y - 110 : supp.y + 15;
+                            {/* Larger invisible hover area - rendered LAST to be on top */}
+                            <circle
+                                cx={supp.x}
+                                cy={supp.y}
+                                r="30"
+                                fill="transparent"
+                                style={{ cursor: 'pointer' }}
+                                onMouseEnter={() => setActiveTooltip(supp.id)}
+                                onMouseLeave={() => setActiveTooltip(null)}
+                                onClick={() => setActiveTooltip(activeTooltip === supp.id ? null : supp.id)}
+                            />
+                        </g>
+                    );
+                })}
 
-                                // Smart X positioning to avoid clipping
-                                let tooltipX;
-                                if (supp.x < 150) {
-                                    // Left side - align tooltip to start at supplement position
-                                    tooltipX = supp.x - 20;
-                                } else if (supp.x > 370) {
-                                    // Right side - align tooltip to end at supplement position
-                                    tooltipX = supp.x - 220;
-                                } else {
-                                    // Center - center the tooltip
-                                    tooltipX = supp.x - 120;
-                                }
+                {/* Tooltips - rendered last to ensure they appear above all other elements */}
+                {supplements.map((supp) => {
+                    if (activeTooltip !== supp.id) return null;
 
-                                return (
-                                    <g>
-                                        <rect
-                                            x={tooltipX}
-                                            y={tooltipY}
-                                            width="240"
-                                            height="90"
-                                            rx="8"
-                                            fill="rgba(0, 0, 0, 0.95)"
-                                            stroke="#20B2AA"
-                                            strokeWidth="2"
-                                        />
-                                        <foreignObject
-                                            x={tooltipX + 10}
-                                            y={tooltipY + 5}
-                                            width="220"
-                                            height="80"
-                                        >
-                                            <div style={{
-                                                color: '#FFFFFF',
-                                                fontSize: '11px',
-                                                lineHeight: '1.4',
-                                                padding: '8px',
-                                                fontFamily: 'Inter, sans-serif'
-                                            }}>
-                                                <strong style={{ color: '#20B2AA', display: 'block', marginBottom: '4px' }}>
-                                                    {supp.name}
-                                                </strong>
-                                                {supp.mechanism}
-                                            </div>
-                                        </foreignObject>
-                                    </g>
-                                );
-                            })()}
+                    // Position tooltip above if in bottom half, below if in top half
+                    const tooltipY = supp.y > 270 ? supp.y - 110 : supp.y + 15;
+
+                    // Smart X positioning to avoid clipping
+                    let tooltipX;
+                    if (supp.x < 150) {
+                        // Left side - align tooltip to start at supplement position
+                        tooltipX = supp.x - 20;
+                    } else if (supp.x > 370) {
+                        // Right side - align tooltip to end at supplement position
+                        tooltipX = supp.x - 220;
+                    } else {
+                        // Center - center the tooltip
+                        tooltipX = supp.x - 120;
+                    }
+
+                    return (
+                        <g key={`tooltip-${supp.id}`}>
+                            <rect
+                                x={tooltipX}
+                                y={tooltipY}
+                                width="240"
+                                height="90"
+                                rx="8"
+                                fill="rgba(0, 0, 0, 0.95)"
+                                stroke="#20B2AA"
+                                strokeWidth="2"
+                            />
+                            <foreignObject
+                                x={tooltipX + 10}
+                                y={tooltipY + 5}
+                                width="220"
+                                height="80"
+                            >
+                                <div style={{
+                                    color: '#FFFFFF',
+                                    fontSize: '11px',
+                                    lineHeight: '1.4',
+                                    padding: '8px',
+                                    fontFamily: 'Inter, sans-serif'
+                                }}>
+                                    <strong style={{ color: '#20B2AA', display: 'block', marginBottom: '4px' }}>
+                                        {supp.name}
+                                    </strong>
+                                    {supp.mechanism}
+                                </div>
+                            </foreignObject>
                         </g>
                     );
                 })}

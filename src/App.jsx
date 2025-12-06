@@ -25,7 +25,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function AppContent() {
   const location = useLocation();
-  const hideScene = location.pathname === '/longevity';
+  const hideScene = location.pathname === '/longevity' || location.pathname === '/mitochondrial-guide';
 
   useEffect(() => {
     AOS.init({
@@ -38,7 +38,7 @@ function AppContent() {
 
   return (
     <main>
-      {/* 3D Background Scene - Hidden on Longevity page */}
+      {/* 3D Background Scene - Hidden on Longevity and Mitochondrial Guide pages */}
       {!hideScene && (
         <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, pointerEvents: 'none' }}>
           <Scene />
