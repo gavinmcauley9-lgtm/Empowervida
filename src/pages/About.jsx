@@ -7,11 +7,11 @@ export default function About() {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Dr. Gavin McAuley",
-        "jobTitle": "Board-Certified Family Physician & Longevity Specialist",
-        "description": "Board-certified family physician focusing on longevity medicine, mitochondrial health, and evidence-based wellness protocols.",
+        "jobTitle": "Board-Certified Family Physician & Longevity Architect",
+        "description": "Board-certified family physician who transformed from 125kg burnout to longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
         "url": "https://empowervida.com/about",
         "alumniOf": "Medical School",
-        "knowsAbout": ["Longevity Medicine", "Mitochondrial Health", "Cellular Optimization", "Evidence-Based Medicine"]
+        "knowsAbout": ["Longevity Medicine", "Mitochondrial Health", "Metabolic Optimization", "Evidence-Based Medicine"]
     };
 
     return (
@@ -22,25 +22,25 @@ export default function About() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="About Dr. Gavin McAuley | EMPOWERVIDA"
-                description="Board-certified family physician bridging the gap between standard care and longevity optimization. Evidence-based protocols for mitochondrial health and cellular resilience."
-                keywords="dr gavin mcauley, longevity doctor, family medicine physician, mitochondrial health expert, evidence-based wellness"
+                title="About Dr. Gavin | The Doctor Who Saved Himself | EMPOWERVIDA"
+                description="From 125kg burnout to longevity architect. Why a veteran physician left the assembly line of modern medicine to build a blueprint for true health."
+                keywords="dr gavin mcauley, longevity doctor, physician burnout, metabolic health, weight loss transformation, evidence-based wellness"
                 canonical="/about"
                 ogImage="/water_refraction.png"
                 schemaData={personSchema}
             />
 
-            {/* Hero Section */}
+            {/* Hero Section - The Hook */}
             <section style={{
                 position: 'relative',
-                height: '60vh',
+                minHeight: '80vh',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
                 padding: '0 2rem',
                 overflow: 'hidden',
-                marginBottom: '4rem'
+                marginBottom: '0'
             }}>
                 {/* Background Image */}
                 <div className="ken-burns-active" style={{
@@ -49,7 +49,7 @@ export default function About() {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundImage: 'url(/water_refraction.png)',
+                    backgroundImage: 'url(/about_hero_transformation.png)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     zIndex: 0,
@@ -63,72 +63,207 @@ export default function About() {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)',
+                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.7) 100%)',
                     zIndex: 1
                 }}></div>
 
-                <div style={{ position: 'relative', zIndex: 2, maxWidth: '800px' }} data-aos="fade-up">
-                    <h1 style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: '1.1', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '800', fontFamily: '"Manrope", sans-serif' }}>
-                        Beyond the <span style={{ color: 'var(--color-accent-teal)' }}>15-Minute</span> Consult.
+                <div style={{ position: 'relative', zIndex: 2, maxWidth: '1000px' }} data-aos="fade-up">
+                    <h1 style={{
+                        fontSize: 'clamp(2.5rem, 6vw, 5rem)',
+                        lineHeight: '1.1',
+                        marginBottom: '2rem',
+                        color: '#FFFFFF',
+                        fontWeight: '800',
+                        fontFamily: '"Manrope", sans-serif',
+                        textShadow: '0 4px 20px rgba(0,0,0,0.8)'
+                    }}>
+                        I Spent <span style={{ color: 'var(--color-accent-teal)' }}>16 Years</span> Saving Lives.<br />
+                        Then I Realized I Needed to Save My Own.
                     </h1>
-                    <p style={{ fontSize: '1.5rem', color: 'var(--color-text-muted)', maxWidth: '700px', margin: '0 auto', fontWeight: '500' }}>
-                        Why a Family Medicine Physician started an anonymous longevity clinic.
+                    <p style={{
+                        fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
+                        color: 'rgba(255,255,255,0.9)',
+                        maxWidth: '800px',
+                        margin: '0 auto',
+                        fontWeight: '400',
+                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
+                    }}>
+                        Why a veteran physician left the "assembly line" of modern medicine<br />to build a blueprint for true longevity.
                     </p>
                 </div>
             </section>
 
-            <div className="container" style={{ paddingBottom: '0' }}>
+            <div className="container" style={{ paddingTop: '6rem', paddingBottom: '0' }}>
 
-                {/* Section 1: The Problem */}
-                <section style={{ marginBottom: '8rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+                {/* Section 1: The George Clooney Myth */}
+                <section style={{
+                    marginBottom: '8rem',
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                    gap: '4rem',
+                    alignItems: 'center'
+                }}>
                     <div>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>The Problem</h2>
+                        <div style={{
+                            fontSize: '4rem',
+                            fontWeight: '800',
+                            color: 'var(--color-accent-teal)',
+                            opacity: 0.2,
+                            marginBottom: '-1rem'
+                        }}>2009</div>
+                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
+                            The George Clooney Myth
+                        </h2>
                         <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            In my clinic, I see 30 patients a day. I treat infections, manage diabetes, and prescribe blood pressure medication. I am good at saving lives. But modern medicine is <strong>reactive</strong>. We wait for the engine to break before we fix it.
+                            When I graduated from Medical School in 2009, I thought medicine would be like the TV dramas—George Clooney in the ER, saving lives at 90mph.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I started this platform to do what I cannot do in a 15-minute insurance slot: <strong>Teach you how to prevent the breakdown in the first place.</strong>
+                            The reality was different. It was a <strong>grinding machine</strong>. I was conscientious and top of my class, but the system wasn't designed for health; it was designed for <strong>sick-care</strong>.
+                        </p>
+                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
+                            I found myself stagnating. I was treating patients, but I was losing myself.
                         </p>
                     </div>
                 </section>
 
-                {/* Section 2: The Philosophy */}
-                <section style={{ marginBottom: '8rem', background: 'rgba(255,255,255,0.8)', padding: '4rem', borderRadius: '16px', border: '1px solid var(--color-border)', backdropFilter: 'blur(10px)' }}>
-                    <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>The Gap Between "Normal" and "Optimal"</h2>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            When your lab results come back "normal," it just means you aren't dying. It doesn't mean you are thriving. My goal is to bridge the gap between standard clinical care and the cutting edge of longevity science. We focus on <strong>mitochondrial health</strong>, <strong>metabolic flexibility</strong>, and <strong>cognitive resilience</strong>.
+                {/* Section 2: The Crash (Dark Background) */}
+                <section style={{
+                    marginBottom: '8rem',
+                    background: 'linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(26,26,26,0.95) 100%)',
+                    padding: '4rem 3rem',
+                    borderRadius: '16px',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    position: 'relative',
+                    overflow: 'hidden'
+                }}>
+                    {/* Subtle pattern overlay */}
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        opacity: 0.03,
+                        backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.1) 10px, rgba(255,255,255,0.1) 20px)',
+                        pointerEvents: 'none'
+                    }}></div>
+
+                    <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
+                        <div style={{
+                            fontSize: '6rem',
+                            fontWeight: '800',
+                            color: '#FF5722',
+                            opacity: 0.15,
+                            marginBottom: '-2rem',
+                            textAlign: 'center'
+                        }}>125kg</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            marginBottom: '2rem',
+                            color: '#FFFFFF',
+                            fontWeight: '700',
+                            textAlign: 'center'
+                        }}>
+                            The Crash
+                        </h2>
+
+                        <div style={{ width: '50px', height: '4px', background: '#FF5722', margin: '0 auto 3rem' }}></div>
+
+                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
+                            The stress of the job took its toll. I peaked at <strong style={{ color: '#FF5722' }}>125kg</strong>. I developed sleep apnea and lived in a fog of fatigue. I was using food and alcohol to numb the stress of the day.
+                        </p>
+                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
+                            I was a doctor who knew the pathology of disease, but I had <strong>lost the recipe for health</strong>.
+                        </p>
+                        <p style={{ fontSize: '1.4rem', lineHeight: '1.8', color: '#20B2AA', fontStyle: 'italic', marginTop: '2rem', textAlign: 'center' }}>
+                            "That was my breaking point. I realized I couldn't lead patients to vitality if I was walking towards an early grave."
                         </p>
                     </div>
                 </section>
 
-                {/* Section 3: Why Faceless? */}
-                <section style={{ marginBottom: '8rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+                {/* Section 3: The Evolution */}
+                <section style={{
+                    marginBottom: '8rem',
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                    gap: '4rem',
+                    alignItems: 'center'
+                }}>
                     <div style={{ order: 2 }}>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>Science &gt; Celebrity</h2>
+                        <div style={{
+                            fontSize: '4rem',
+                            fontWeight: '800',
+                            color: 'var(--color-accent-teal)',
+                            opacity: 0.2,
+                            marginBottom: '-1rem'
+                        }}>-30kg</div>
+                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
+                            From 125kg to The Protocol
+                        </h2>
                         <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div style={{ order: 1 }}>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            We live in the age of the "Influencer Doctor." It is easy to get distracted by personalities. I have chosen to keep this platform faceless because I want the focus to remain strictly on the <strong>protocols</strong>, the <strong>data</strong>, and the <strong>physiology</strong>.
+                            I didn't turn my back on Western Medicine—I just stopped relying on it to fix my lifestyle.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            This isn't about me; it's about your biology.
+                            I <strong>pivoted</strong>. I used my medical training to dissect the science of Metabolic Health and Longevity. I lost 30kg. I fixed my sleep. I cleared the fog.
+                        </p>
+                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
+                            <strong style={{ color: 'var(--color-accent-teal)' }}>Empowervida</strong> is the result of that journey. It is the advice I wish I could give you in a 15-minute consult, but can't.
                         </p>
                     </div>
                 </section>
 
-                {/* Section 4: Credentials */}
+                {/* Section 4: The Philosophy */}
+                <section style={{
+                    marginBottom: '8rem',
+                    background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.05) 0%, rgba(32, 178, 170, 0.02) 100%)',
+                    padding: '4rem',
+                    borderRadius: '16px',
+                    border: '2px solid var(--color-accent-teal)',
+                    position: 'relative'
+                }}>
+                    <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
+                            Science, Not Celebrity
+                        </h2>
+                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', margin: '0 auto 2rem' }}></div>
+
+                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'var(--color-text)', marginBottom: '1.5rem' }}>
+                            I respect the ER for a heart attack. But for living a long, vibrant life? You need a different toolkit.
+                        </p>
+                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
+                            I believe in <em>"Let food be thy medicine,"</em> but I also know that in our modern, stressed world, food isn't always enough. That is where <strong>targeted, clinical supplementation</strong> bridges the gap.
+                        </p>
+
+                        <div style={{
+                            marginTop: '3rem',
+                            padding: '2rem',
+                            background: 'rgba(255,255,255,0.5)',
+                            borderRadius: '12px',
+                            borderLeft: '4px solid var(--color-accent-teal)'
+                        }}>
+                            <p style={{ fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--color-text-muted)' }}>
+                                "We focus on <strong>mitochondrial health</strong>, <strong>metabolic flexibility</strong>, and <strong>cognitive resilience</strong>—the foundations that standard medicine overlooks."
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Credentials Section */}
                 <section style={{ marginBottom: '8rem', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '2rem', marginBottom: '3rem', color: 'var(--color-text)', fontWeight: '700' }}>Credentials</h2>
+                    <h2 style={{ fontSize: '2rem', marginBottom: '3rem', color: 'var(--color-text)', fontWeight: '700' }}>The Foundation</h2>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
                         {[
-                            'Board-Certified Family Physician',
-                            'Active Clinical Practice',
-                            'Evidence-Based Approach'
+                            { label: 'Medical School 2009', icon: '🎓' },
+                            { label: '16 Years Clinical Practice', icon: '⚕️' },
+                            { label: 'Evidence-Based Protocols', icon: '🔬' },
+                            { label: 'Personal Transformation', icon: '💪' }
                         ].map((cred, index) => (
                             <div key={index} style={{
                                 padding: '1.5rem 2rem',
@@ -137,36 +272,52 @@ export default function About() {
                                 color: 'var(--color-accent-teal)',
                                 fontWeight: '700',
                                 fontSize: '1.1rem',
-                                background: 'rgba(255,255,255,0.5)'
+                                background: 'rgba(255,255,255,0.5)',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.5rem'
                             }}>
-                                {cred}
+                                <span style={{ fontSize: '1.5rem' }}>{cred.icon}</span>
+                                {cred.label}
                             </div>
                         ))}
                     </div>
                 </section>
             </div>
 
-            {/* Footer CTA - Clinical White */}
-            <section style={{ textAlign: 'center', padding: '6rem 2rem', background: 'var(--color-bg)', color: 'var(--color-text)', borderTop: '1px solid var(--color-border)' }}>
-                <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem', color: 'var(--color-text)', fontWeight: '700' }}>Join the Inner Circle</h2>
-                <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
-                    Get the protocols before they hit the mainstream.
+            {/* Footer CTA */}
+            <section style={{
+                textAlign: 'center',
+                padding: '6rem 2rem',
+                background: 'linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%)',
+                color: '#FFFFFF',
+                borderTop: '1px solid rgba(255,255,255,0.1)'
+            }}>
+                <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#FFFFFF', fontWeight: '700' }}>
+                    I've Walked This Road
+                </h2>
+                <p style={{ fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
+                    From 125kg, brain fog, sleep apnea, and burnout, back to health.
                 </p>
-                <form style={{ display: 'flex', gap: '1rem', justifyContent: 'center', maxWidth: '500px', margin: '0 auto' }} onSubmit={(e) => e.preventDefault()}>
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        style={{
-                            flex: 1,
-                            padding: '1rem',
-                            borderRadius: '8px',
-                            border: '1px solid var(--color-border)',
-                            background: 'var(--color-bg-alt)',
-                            color: 'var(--color-text)'
-                        }}
-                    />
-                    <button className="btn-primary" style={{ border: 'none' }}>Subscribe</button>
-                </form>
+                <p style={{ fontSize: '1.5rem', color: 'var(--color-accent-teal)', marginBottom: '3rem', fontWeight: '600' }}>
+                    You can too.
+                </p>
+                <Link
+                    to="/longevity"
+                    className="btn-primary"
+                    style={{
+                        display: 'inline-block',
+                        padding: '1.2rem 3rem',
+                        fontSize: '1.2rem',
+                        textDecoration: 'none',
+                        border: 'none'
+                    }}
+                >
+                    Start Your Protocol
+                </Link>
+                <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.6)', marginTop: '2rem' }}>
+                    - Dr. G
+                </p>
             </section>
         </div>
     );

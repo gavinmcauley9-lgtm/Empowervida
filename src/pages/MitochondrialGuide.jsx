@@ -83,7 +83,7 @@ const MitochondrialGuide = () => {
             <HeroSection
                 backgroundImage="/mitochondrion_hero_cinematic_1764586685814.png"
                 title="THE MITOCHONDRIAL GUIDE"
-                subtitle="STOP BORROWING ENERGY. START CREATING IT."
+                subtitle="THE ENGINE EVERYONE FORGETS: AS VITAL AS YOUR HEART"
                 overlay="linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#4DB6AC"
@@ -117,20 +117,154 @@ const MitochondrialGuide = () => {
                 lineHeight: 1.8
             }}>
                 <p style={{ marginBottom: '1.5rem' }}>
-                    If you hit a wall at 2:00 PM every day, you don't have a caffeine deficiency. You have an <strong>energy crisis at a cellular level</strong>.
+                    Everyone knows the heart is the body's engine. But there's another engine—trillions of them, actually—so vital that if they stopped working, <strong>you would die immediately</strong>.
                 </p>
 
                 <p style={{ marginBottom: '1.5rem' }}>
-                    In my practice, high-performing individuals constantly ask me how to fix brain fog, chronic fatigue, and slow recovery. They are drinking four cups of coffee a day, trying to "borrow" energy from tomorrow to get through today.
+                    Your <strong>mitochondria</strong>. The microscopic power plants inside nearly every cell in your body.
+                </p>
+
+                <div style={{
+                    background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%)',
+                    borderLeft: '4px solid var(--color-accent-teal)',
+                    padding: '1.5rem',
+                    margin: '2rem 0',
+                    borderRadius: '8px'
+                }}>
+                    <p style={{ margin: 0, fontSize: '1.2rem', fontWeight: 600, color: 'var(--color-accent-teal)' }}>
+                        As vital as your heart. As overlooked as your breath.
+                    </p>
+                </div>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                    Fortunately, complete mitochondrial shutdown is rare. But here's what happens every day: they become <strong>knackered, fatigued, overwhelmed</strong>. They don't stop—they just slow down.
                 </p>
 
                 <p style={{ marginBottom: '1.5rem' }}>
-                    But caffeine is just a neurological trick—it blocks the signals of fatigue, but it doesn't generate fuel. To fix the problem, we have to look deeper. We have to look at your <strong>mitochondria</strong>.
+                    And when they slow down, <em>you</em> slow down. That 2:00 PM wall? That brain fog? That chronic fatigue? That's not a caffeine deficiency. That's your cellular engines running on fumes.
                 </p>
 
                 <p style={{ marginBottom: '1.5rem' }}>
-                    These are the microscopic power plants inside nearly every cell in your body. You have trillions of them, turning the food you eat into ATP—the currency of life. When they are healthy, you feel sharp, resilient, and energetic. When they dysfunction—due to aging, stress, or poor inputs—you feel old, regardless of your actual age.
+                    In my practice, high-performing individuals constantly ask me how to fix this. They're drinking four cups of coffee a day, trying to "borrow" energy from tomorrow to get through today.
                 </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                    But caffeine is just a neurological trick—it blocks the signals of fatigue, but it doesn't generate fuel. To fix the problem, we have to look deeper. We have to <strong>restart the engines</strong>.
+                </p>
+
+                <h3 style={{
+                    fontSize: '1.8rem',
+                    fontWeight: 700,
+                    color: 'var(--color-text)',
+                    marginTop: '3rem',
+                    marginBottom: '1.5rem'
+                }}>
+                    What Mitochondria Actually Do (Beyond Energy)
+                </h3>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                    Most people think mitochondria just make energy. That's like saying the heart just pumps blood. True, but incomplete.
+                </p>
+
+                <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+                    gap: '1.5rem',
+                    margin: '2rem 0'
+                }}>
+                    <div style={{
+                        background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.08) 0%, rgba(32, 178, 170, 0.03) 100%)',
+                        padding: '1.5rem',
+                        borderRadius: '12px',
+                        border: '1px solid rgba(32, 178, 170, 0.2)'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>⚡</div>
+                        <h4 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--color-text)' }}>
+                            Energy Production
+                        </h4>
+                        <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', margin: 0 }}>
+                            Generate ATP for every cellular activity—from digestion and cognition to muscle movement.
+                        </p>
+                    </div>
+
+                    <div style={{
+                        background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.08) 0%, rgba(32, 178, 170, 0.03) 100%)',
+                        padding: '1.5rem',
+                        borderRadius: '12px',
+                        border: '1px solid rgba(32, 178, 170, 0.2)'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🧬</div>
+                        <h4 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--color-text)' }}>
+                            Cellular Regulation
+                        </h4>
+                        <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', margin: 0 }}>
+                            Manage cell death (apoptosis), calcium levels, hormone production, and immune responses.
+                        </p>
+                    </div>
+
+                    <div style={{
+                        background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.08) 0%, rgba(32, 178, 170, 0.03) 100%)',
+                        padding: '1.5rem',
+                        borderRadius: '12px',
+                        border: '1px solid rgba(32, 178, 170, 0.2)'
+                    }}>
+                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🛡️</div>
+                        <h4 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--color-text)' }}>
+                            Antioxidant Defense
+                        </h4>
+                        <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', margin: 0 }}>
+                            Neutralize harmful free radicals, protecting cells from oxidative stress and aging.
+                        </p>
+                    </div>
+                </div>
+
+                <h3 style={{
+                    fontSize: '1.8rem',
+                    fontWeight: 700,
+                    color: '#FF5722',
+                    marginTop: '3rem',
+                    marginBottom: '1.5rem'
+                }}>
+                    When Mitochondria Fail
+                </h3>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                    Mitochondrial dysfunction isn't just about feeling tired. It's a cascade that touches every system in your body:
+                </p>
+
+                <ul style={{
+                    marginLeft: '1.5rem',
+                    marginBottom: '2rem',
+                    lineHeight: 1.8
+                }}>
+                    <li style={{ marginBottom: '0.75rem' }}>
+                        <strong>Metabolic Collapse:</strong> Insulin resistance, obesity, Type 2 Diabetes
+                    </li>
+                    <li style={{ marginBottom: '0.75rem' }}>
+                        <strong>Neurological Decline:</strong> Alzheimer's, Parkinson's, chronic fatigue syndrome (ME/CFS)
+                    </li>
+                    <li style={{ marginBottom: '0.75rem' }}>
+                        <strong>Cardiovascular Disease:</strong> Heart failure, liver dysfunction, muscle weakness
+                    </li>
+                    <li style={{ marginBottom: '0.75rem' }}>
+                        <strong>Accelerated Aging:</strong> Chronic pain, fatigue, loss of vitality
+                    </li>
+                </ul>
+
+                <div style={{
+                    background: 'linear-gradient(135deg, rgba(255, 87, 34, 0.1) 0%, rgba(255, 87, 34, 0.05) 100%)',
+                    borderLeft: '4px solid #FF5722',
+                    padding: '1.5rem',
+                    margin: '2rem 0',
+                    borderRadius: '8px'
+                }}>
+                    <p style={{ margin: 0, fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--color-text)' }}>
+                        "In my clinic, I see patients with 'normal' lab results who feel terrible. Their mitochondria are screaming, but standard medicine isn't listening. This is why mitochondrial health is the new frontier of longevity medicine."
+                    </p>
+                    <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', color: 'var(--color-text-muted)', textAlign: 'right' }}>
+                        — Dr. Gavin
+                    </p>
+                </div>
 
                 <div style={{
                     background: 'var(--color-bg-secondary)',

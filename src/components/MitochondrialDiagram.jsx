@@ -7,97 +7,113 @@ const MitochondrialDiagram = () => {
         {
             id: 'mag',
             name: 'Magnesium L-Threonate',
-            x: 180,
-            y: 50,
-            angle: -60,
+            x: 260,
+            y: 30,
+            angle: -90,
             mechanism: 'Crosses BBB to support ATP synthesis and calcium regulation in mitochondria'
+        },
+        {
+            id: 'creatine',
+            name: 'Creatine Monohydrate',
+            x: 390,
+            y: 60,
+            angle: -60,
+            mechanism: 'Rapidly regenerates ATP from ADP, buffering cellular energy during high demand'
         },
         {
             id: 'alcar',
             name: 'ALCAR',
-            x: 320,
-            y: 80,
+            x: 470,
+            y: 140,
             angle: -30,
             mechanism: 'Shuttles fatty acids into mitochondria for beta-oxidation and energy production'
         },
         {
-            id: 'omega3',
-            name: 'Omega-3',
-            x: 100,
-            y: 140,
-            angle: 180,
-            mechanism: 'Maintains mitochondrial membrane fluidity and reduces oxidative stress'
-        },
-        {
             id: 'citicoline',
             name: 'Citicoline',
-            x: 420,
-            y: 140,
+            x: 490,
+            y: 240,
             angle: 0,
             mechanism: 'Repairs mitochondrial membranes and supports phospholipid synthesis'
         },
         {
-            id: 'nad',
-            name: 'NAD+',
-            x: 80,
-            y: 240,
-            angle: 150,
-            mechanism: 'Essential cofactor for electron transport chain and PARP-mediated DNA repair'
-        },
-        {
             id: 'ala',
             name: 'Alpha Lipoic Acid',
-            x: 440,
-            y: 220,
+            x: 470,
+            y: 340,
             angle: 30,
             mechanism: 'Universal antioxidant that regenerates CoQ10 and protects mitochondrial membranes'
         },
         {
-            id: 'ubiquinol',
-            name: 'Ubiquinol',
-            x: 60,
-            y: 340,
-            angle: 120,
-            mechanism: 'Active form of CoQ10, critical electron carrier in Complex I and II'
-        },
-        {
-            id: 'nac',
-            name: 'NAC',
-            x: 460,
-            y: 320,
+            id: 'glynac',
+            name: 'GlyNAC (Glycine + NAC)',
+            x: 390,
+            y: 420,
             angle: 60,
-            mechanism: 'Glutathione precursor that neutralizes ROS and protects mitochondrial DNA'
-        },
-        {
-            id: 'rhodiola',
-            name: 'Rhodiola',
-            x: 120,
-            y: 440,
-            angle: 100,
-            mechanism: 'Adaptogen that enhances mitochondrial resilience under oxidative stress'
+            mechanism: 'Synergistic glutathione precursors that restore cellular redox balance and mitochondrial function'
         },
         {
             id: 'vitc',
             name: 'Vitamin C',
-            x: 400,
-            y: 420,
-            angle: 80,
+            x: 260,
+            y: 470,
+            angle: 90,
             mechanism: 'Recycles Vitamin E and supports Complex IV (cytochrome c oxidase) function'
+        },
+        {
+            id: 'urolithin',
+            name: 'Urolithin A',
+            x: 130,
+            y: 420,
+            angle: 120,
+            mechanism: 'Induces mitophagy to remove damaged mitochondria and promote cellular renewal'
         },
         {
             id: 'pqq',
             name: 'PQQ',
-            x: 220,
-            y: 480,
-            angle: 90,
+            x: 50,
+            y: 340,
+            angle: 150,
             mechanism: 'Triggers mitochondrial biogenesis via PGC-1α activation'
+        },
+        {
+            id: 'ubiquinol',
+            name: 'Ubiquinol',
+            x: 30,
+            y: 240,
+            angle: 180,
+            mechanism: 'Active form of CoQ10, critical electron carrier in Complex I and II'
+        },
+        {
+            id: 'nad',
+            name: 'NAD+',
+            x: 50,
+            y: 140,
+            angle: -150,
+            mechanism: 'Essential cofactor for electron transport chain and PARP-mediated DNA repair'
+        },
+        {
+            id: 'omega3',
+            name: 'Omega-3',
+            x: 130,
+            y: 60,
+            angle: -120,
+            mechanism: 'Maintains mitochondrial membrane fluidity and reduces oxidative stress'
+        },
+        {
+            id: 'rhodiola',
+            name: 'Rhodiola',
+            x: 180,
+            y: 450,
+            angle: 105,
+            mechanism: 'Adaptogen that enhances mitochondrial resilience under oxidative stress'
         },
         {
             id: 'bcomplex',
             name: 'B-Complex',
-            x: 300,
-            y: 490,
-            angle: 90,
+            x: 340,
+            y: 450,
+            angle: 75,
             mechanism: 'Cofactors for Krebs cycle enzymes and electron transport chain complexes'
         }
     ];
@@ -108,14 +124,30 @@ const MitochondrialDiagram = () => {
             maxWidth: '600px',
             margin: '0 auto',
             position: 'relative',
-            padding: '2rem 0'
+            padding: '2rem 0',
+            background: 'radial-gradient(circle at center, rgba(32, 178, 170, 0.03) 0%, rgba(255, 255, 255, 0) 70%)',
+            borderRadius: '20px'
         }}>
+            <style>
+                {`
+                    @keyframes mitochondrialPulse {
+                        0%, 100% {
+                            filter: drop-shadow(0 0 20px rgba(32, 178, 170, 0.4));
+                        }
+                        50% {
+                            filter: drop-shadow(0 0 35px rgba(32, 178, 170, 0.6));
+                        }
+                    }
+                    .mitochondrion-glow {
+                        animation: mitochondrialPulse 3s ease-in-out infinite;
+                    }
+                `}
+            </style>
             <svg
                 viewBox="0 0 520 540"
                 style={{
                     width: '100%',
-                    height: 'auto',
-                    filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.3))'
+                    height: 'auto'
                 }}
             >
                 {/* Mitochondrion - anatomically accurate structure */}
@@ -135,14 +167,14 @@ const MitochondrialDiagram = () => {
                     </filter>
                 </defs>
 
-                {/* Mitochondrion Image - showing ATP production */}
+                {/* Mitochondrion Image - soft edges blend into background */}
                 <image
-                    href="/mitochondrion_atp_center.png"
+                    href="/mitochondrion_center.png"
                     x="115"
                     y="165"
                     width="290"
                     height="210"
-                    style={{ filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.3))' }}
+                    className="mitochondrion-glow"
                 />
 
                 {/* Connection lines and labels */}
@@ -191,11 +223,12 @@ const MitochondrialDiagram = () => {
                                 {supp.name}
                             </text>
 
-                            {/* Larger invisible hover area - rendered LAST to be on top */}
-                            <circle
-                                cx={supp.x}
-                                cy={supp.y}
-                                r="30"
+                            {/* Larger invisible hover area - covers text and circle */}
+                            <rect
+                                x={supp.x - 60}
+                                y={supp.y - 35}
+                                width="120"
+                                height="50"
                                 fill="transparent"
                                 style={{ cursor: 'pointer' }}
                                 onMouseEnter={() => setActiveTooltip(supp.id)}
