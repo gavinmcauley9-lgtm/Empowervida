@@ -440,122 +440,257 @@ export const POSTS = [
   },
   {
     id: 1,
-    title: 'The Brownout: Why Your Labs Are "Normal" But You Feel Dead (And How To Build A New Grid)',
-    category: 'energy',
-    image: '/brownout_energy_crisis_1764668250025.png',
-    excerpt: 'Your brain fog, your afternoon crash, and your inability to recover from a workout are not failures of character. They are failures of ATP production.',
+    title: 'The Silent Fire: Why Your Anxiety, Brain Fog, and Joint Pain All Start in Your Gut',
+    category: 'inflammation',
+    image: '/gut_brain_inflammation.png',
+    excerpt: 'Your depression isn\'t in your head. Your arthritis isn\'t just wear and tear. They\'re both symptoms of the same invisible enemy: chronic inflammation from a broken gut barrier.',
     date: 'Dec 01, 2025',
     cta: {
-      text: "Get Dr. Gavin's Mitochondrial Stack",
+      text: "Get Dr. Gavin's Gut Repair Protocol",
       link: "/shop"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Standard blood tests miss cellular energy dysfunction. Your fatigue isn't laziness—it's mitochondrial insufficiency. The fix isn't more caffeine; it's building new mitochondria through targeted supplementation (PQQ, CoQ10, Urolithin A) and lifestyle interventions.</p>
+      <div style="background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 107, 107, 0.05) 100%); border-left: 4px solid #FF6B6B; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #FF6B6B; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE HIDDEN EPIDEMIC</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your gut lining is one cell thick. When it breaks, inflammatory molecules flood your bloodstream, crossing the blood-brain barrier and triggering anxiety, depression, brain fog, and systemic pain. This isn't multiple diseases—it's one broken barrier.</p>
       </div>
 
-      <p>I have sat across from hundreds of patients who look me in the eye and say, "Doc, I am exhausted."</p>
-      <p>I would run the standard battery of tests. Full blood count. Thyroid. Iron studies. If I was lucky, I would find a low Ferritin level—a smoking gun that offered an easy fix.</p>
-      <p>But all too often, the results would come back... perfect. Normal hemoglobin. Normal TSH. Normal electrolytes.</p>
-      <p>In medical school, we are trained to hunt for pathology. If the numbers are in range, the patient is "healthy." So, I would look at this exhausted human being, shrug, and offer the standard consolation prizes: "It’s just a busy life," or "Have you tried sleeping more?"</p>
-      <p>If they persisted, I would reach for the Depression Screen (PHQ-9). If I couldn't find a physical cause, I assumed it must be mental.</p>
-      <p>I was wrong. My medical training was excellent at identifying disease, but it had a blind spot for energy.</p>
-      <p>We now know that "unexplained fatigue" is rarely a failure of will, and it often isn't clinical depression. It is a failure of infrastructure.</p>
-      <p>In the Emergency Room, power failure is not an option. When the grid goes down, the ventilators stop, the monitors fade, and entropy takes over. In your body, the mechanism is the same. Your fatigue is a cellular brownout.</p>
+      <h2>The Patient Who Changed How I Practice Medicine</h2>
 
-      <h2>The Hidden Diagnosis: Mitochondrial Insufficiency</h2>
-      <p>Most patients try to fix fatigue by shoveling more fuel into the furnace—caffeine, sugar, stimulants, or mega-doses of B-Vitamins. They are trying to "overclock" the system.</p>
-      <p>But the problem usually isn’t a lack of fuel. The problem is a lack of power plants.</p>
-      <p>Imagine a power plant trying to power a rapidly growing city. If the city keeps expanding but the power plant stays the same size, eventually, you get brownouts. The lights flicker. Systems fail.</p>
-      <p>Current research suggests a massive portion of the population is suffering from Acquired Mitochondrial Dysfunction.</p>
-      <p><strong>The Evidence:</strong> A seminal paper in <em>Cell Metabolism</em> highlighted that mitochondrial decline is not just a symptom of aging; it is a primary driver of functional decline, often undetectable on standard metabolic panels [1].</p>
-      <p><strong>The Reality:</strong> Your brain fog, your afternoon crash, and your inability to recover from a workout are not failures of character. They are failures of ATP production.</p>
-      <p>To fix this, we don't need more coal. We need to build more power plants.</p>
-      <p>In medicine, this process is called <strong>Mitochondrial Biogenesis</strong>: The biological division and growth of new mitochondria.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        She was 38. Successful lawyer. Came to me with a list: chronic fatigue, joint pain, brain fog, anxiety, IBS, and skin rashes.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Standard medicine had already failed her. She'd seen rheumatology (normal ANA, normal RF). Gastroenterology (IBS diagnosis, told to "manage stress"). Psychiatry (prescribed SSRIs for anxiety).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Each specialist treated their organ system. No one connected the dots.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I ran one test they hadn't: <strong>Zonulin</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        It was sky-high. Her gut barrier was shattered. She had <strong>Leaky Gut Syndrome</strong>—and it was causing everything.
+      </p>
+
+      <h2>The One-Cell Barrier Between Health and Chaos</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Your intestinal lining is <strong>one cell thick</strong>. That's it. One microscopic layer separating the outside world (food, bacteria, toxins) from your bloodstream.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These cells are held together by <strong>tight junctions</strong>—protein zippers that control what gets through. When these zippers break, you get intestinal permeability. Leaky gut.
+      </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brownout_energy_crisis_1764668250025.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Cellular Regeneration: Building New Generators</p>
+        <img src="/gut_brain_inflammation.png" alt="Gut-Brain Axis Inflammation" style="width: 100%; height: auto; display: block;" />
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Gut-Brain Connection: How Intestinal Inflammation Triggers Systemic Disease</p>
       </div>
 
-      <h2>The Master Switch: PGC-1α</h2>
-      <p>As a physician, I don't want you to just memorize a supplement list; I want you to understand the machinery. If you understand the mechanism, you own the outcome.</p>
-      <p>The key to building a bigger energy grid is a protein called <strong>PGC-1α</strong> (Peroxisome Proliferator-Activated Receptor Gamma Coactivator 1-alpha).</p>
-      <p>Think of PGC-1α as the General Contractor. Most of the time, this contractor is asleep in the breakroom. But when activated, PGC-1α wakes up, enters the nucleus of your cells, and issues a command to your DNA: "We are under load. Construct new generators."</p>
-      <p>So, how do we wake up the General Contractor? We have to trick the body into thinking it is running out of energy.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When the barrier breaks, three things happen:
+      </p>
 
-      <h2>Protocol Part 1: The Physiological Signals</h2>
-      <p>Your body is ruthlessly efficient. It will not build expensive new machinery unless it is forced to. We need to apply <strong>Hormetic Stress</strong>—stress that is strong enough to trigger adaptation, but not strong enough to cause damage.</p>
+      <ol style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Bacterial Fragments (LPS) Enter Bloodstream:</strong> Your immune system sees these as invaders and launches an attack.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Inflammatory Cytokines Flood Your System:</strong> IL-6, TNF-alpha, IL-1β—these are the molecular signals of war.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>The Blood-Brain Barrier Breaks:</strong> Inflammation crosses into your brain, triggering anxiety, depression, and brain fog.</li>
+      </ol>
 
-      <h3>1. The Zone 2 Signal (The Talk Test)</h3>
-      <p>I prescribe Zone 2 training to almost every patient, but the "Why" is often misunderstood. We aren't doing it to burn calories. We are doing it to starve the cell.</p>
-      <p>Zone 2 training puts you in a metabolic state where you are burning fat for fuel, but you are depleting your ATP reserves just enough to trigger the AMPK pathway. AMPK is the messenger that runs to the General Contractor (PGC-1α) and screams, "Fuel reserves are low! Build more capacity!" [2].</p>
-      <p><strong>The Prescription:</strong> 45 to 60 minutes of steady-state cardio, 3-4 times a week.</p>
-      <p><strong>The Metric:</strong> Forget the generic "180 minus age" formula. Use the Talk Test. You should be able to speak a full sentence comfortably, but you should not be able to sing. If you can breathe solely through your nose throughout the session, you are likely in the sweet spot (Lactate levels < 2mmol/L).</p>
-
-      <h3>2. Thermal Stress (Cold Exposure)</h3>
-      <p>This is not just a trendy biohack; it is an evolutionary survival switch. When you expose your body to cold (specifically below 55°F / 13°C), you activate Brown Adipose Tissue (Brown Fat).</p>
-      <p>Brown fat is unique because it is densely packed with mitochondria. Its job is to generate heat by "uncoupling" the energy chain—effectively burning fuel purely for warmth. This is one of the most metabolically expensive processes in the human body, and it forces rapid mitochondrial recruitment [3].</p>
-      <p><strong>The Prescription:</strong> Aim for a total of 11 minutes per week, divided into 2-3 sessions.</p>
-      <p>⚠️ <strong>Medical Guardrail:</strong> This is a potent vascular stressor. If you have uncontrolled hypertension or a history of cardiac arrhythmia, do not attempt cold plunge without clearing it with your cardiologist.</p>
-
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brown_fat_thermogenesis.png" alt="Brown Fat Activation" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Thermodynamics: Uncoupling Energy for Heat</p>
+      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;">
+          This is why your psychiatrist can't fix your anxiety with SSRIs. The problem isn't serotonin. It's inflammation.
+        </p>
       </div>
 
-      <h2>Protocol Part 2: The Chemical Signals</h2>
-      <p>If you cannot do a cold plunge every morning, or you want to amplify the signals from your training, we look to "Exercise Mimetics"—compounds that mimic these stress signals chemically.</p>
+      <h2>The Gut-Brain Axis: The Vagus Nerve Highway</h2>
 
-      <h3>1. PQQ (Pyrroloquinoline Quinone)</h3>
-      <p>If CoQ10 is the oil that keeps the engine running smooth, PQQ is the spark that builds the engine.</p>
-      <p>PQQ is a redox cofactor that has been shown in clinical data to activate the CREB and PGC-1α pathways directly. A study in the <em>Journal of Nutritional Biochemistry</em> demonstrated that PQQ could induce mitochondrial biogenesis in mouse models, effectively reversing cellular aging [4].</p>
-      <p><strong>My Recommendation:</strong> 20mg daily. This is a non-negotiable for my patients over 40.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Your gut and brain are in constant communication via the <strong>vagus nerve</strong>—a biological superhighway running from your brainstem to your intestines.
+      </p>
 
-      <h3>2. Urolithin A (The Cleanup Crew)</h3>
-      <p>You cannot build a new city on top of a ruin. Before we build new mitochondria, we must clear out the old, dysfunctional ones. This process is called <strong>Mitophagy</strong>.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        90% of serotonin is made in your gut, not your brain. When your gut is inflamed, serotonin production crashes. This is why gut dysfunction looks like depression.
+      </p>
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/mitophagy_process.png" alt="Mitophagy Recycling" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Mitophagy: Recycling Cellular Waste</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Recent research shows that inflammatory cytokines from the gut can directly activate the vagus nerve, sending "danger signals" to the brain. Your brain interprets this as threat, triggering anxiety and hypervigilance.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Clinical Evidence</h3>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;">Patients with Major Depressive Disorder have <strong>elevated LPS and IL-6</strong> levels</li>
+        <li style="margin-bottom: 0.75rem;">Rheumatoid arthritis patients show <strong>increased intestinal permeability</strong> before joint symptoms</li>
+        <li style="margin-bottom: 0.75rem;">IBS patients have <strong>3x higher rates of anxiety and depression</strong> than general population</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These aren't separate conditions. They're all manifestations of <strong>systemic inflammation from a broken gut barrier</strong>.
+      </p>
+
+      <h2>What Breaks the Barrier?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The modern assault on your gut lining is relentless:
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">1. NSAIDs (The Silent Destroyer)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Ibuprofen, naproxen, aspirin—these drugs directly damage tight junctions. One dose can increase intestinal permeability within hours. Chronic use? You're systematically destroying your barrier.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">2. Glyphosate (Roundup)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The most widely used herbicide in the world. It's in your bread, your oats, your wine. Glyphosate disrupts tight junctions and kills beneficial gut bacteria. We're all exposed.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">3. Chronic Stress</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Cortisol directly increases zonulin—the protein that opens tight junctions. Chronic stress = chronic leaky gut.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">4. Antibiotics</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        They save lives. They also carpet-bomb your microbiome. One course can alter your gut bacteria for years.
+      </p>
+
+      <h2>The Repair Protocol: Seal the Barrier, Silence the Fire</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This isn't about probiotics and kombucha. This is a clinical protocol to rebuild your gut barrier and extinguish systemic inflammation.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">Phase 1: Remove the Assault</h3>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Eliminate NSAIDs:</strong> Use alternatives (curcumin, omega-3s) for pain management</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Choose Organic:</strong> Especially for grains, legumes, and wine (highest glyphosate exposure)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Manage Stress:</strong> Not optional. Cortisol is a gut barrier destroyer.</li>
+      </ul>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">Phase 2: Rebuild the Barrier</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>L-Glutamine (5g, 2x daily):</strong> The primary fuel for intestinal cells. Clinical trials show it reduces intestinal permeability and improves tight junction integrity.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Zinc Carnosine (75mg daily):</strong> Directly repairs the gut lining. Used in Japan for decades to treat gastric ulcers.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Collagen Peptides (10-20g daily):</strong> Provides the building blocks (glycine, proline) for tissue repair.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">Phase 3: Extinguish the Fire</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Curcumin (500mg, 2x daily with black pepper):</strong> Potent NF-κB inhibitor. Blocks the master switch of inflammation.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Omega-3 (EPA/DHA, 2-3g daily):</strong> Competes with inflammatory omega-6. Reduces cytokine production.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Quercetin (500mg daily):</strong> Stabilizes mast cells, reduces histamine release, lowers systemic inflammation.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">Phase 4: Restore the Ecosystem</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Spore-Based Probiotics (Bacillus subtilis, B. coagulans):</strong> Survive stomach acid. Recolonize the gut. Produce anti-inflammatory compounds.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Prebiotic Fiber (10-15g daily):</strong> Feed beneficial bacteria. Increase butyrate production (the gut's preferred fuel).
+      </p>
+
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); padding: 2rem; border-radius: 12px; margin: 3rem 0; border: 2px solid var(--color-accent-teal);">
+        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-accent-teal);">The Complete Gut Repair Stack</h3>
+        <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 1.5rem;">
+          <li style="margin-bottom: 0.75rem;"><strong>L-Glutamine:</strong> 5g, 2x daily (barrier repair)</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Zinc Carnosine:</strong> 75mg daily (tissue healing)</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Curcumin:</strong> 500mg, 2x daily (anti-inflammatory)</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Omega-3:</strong> 2-3g EPA/DHA daily (cytokine control)</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Spore Probiotics:</strong> 1-2 billion CFU daily (microbiome restoration)</li>
+        </ul>
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1.5rem; margin-bottom: 0;">
+          Timeline: 8-12 weeks for barrier repair. 3-6 months for full symptom resolution.
+        </p>
       </div>
 
-      <p>Urolithin A is a post-biotic derived from pomegranates that triggers this recycling process. However, there is a catch: only about 40% of humans have the specific gut microbiome required to convert pomegranate juice into Urolithin A. For the majority of people, drinking the juice provides the sugar, but not the medicine [5].</p>
-      <p><strong>The Prescription:</strong> Direct supplementation is usually required for clinical effect. Look for 500mg daily to ensure you are effectively recycling cellular waste.</p>
+      <h2>The Clinical Outcome</h2>
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/urolithin_a_molecular.png" alt="Urolithin A Structure" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Molecular Precision: Urolithin A</p>
-      </div>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        That lawyer I mentioned? After 12 weeks on this protocol:
+      </p>
 
-      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
-        <a href="https://www.iherb.com/search?kw=Urolithin%20A" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
-          Shop at iHerb (Best Price)
-        </a>
-        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;">Joint pain: Gone</li>
+        <li style="margin-bottom: 0.75rem;">Brain fog: Cleared</li>
+        <li style="margin-bottom: 0.75rem;">Anxiety: Resolved (off SSRIs)</li>
+        <li style="margin-bottom: 0.75rem;">IBS: Symptom-free</li>
+        <li style="margin-bottom: 0.75rem;">Zonulin: Normal range</li>
+      </ul>
 
-        <a href="https://geni.us/urolithin-a" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Not because we treated five diseases. Because we fixed <strong>one barrier</strong>.
+      </p>
+
+      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;">
+          Your gut lining is the foundation of your immune system. Fix the barrier. Silence the fire.
+        </p>
       </div>
 
       <h2>The Takeaway</h2>
-      <p>You can buy all the Nootropics and pre-workouts in the world, but if your cellular engine is too small, you will never go fast.</p>
-      <p>Resilience isn't about having more energy shots; it's about having a bigger grid. Stop treating fatigue with stimulants. Start treating it by expanding your capacity.</p>
-      <p>Flip the switch on PGC-1α. Build the power plant.</p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Modern medicine treats symptoms in silos. Rheumatology for joints. Psychiatry for mood. Gastroenterology for digestion.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        But if the root cause is a broken gut barrier, you need to fix the barrier—not mask the symptoms.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Inflammation isn't the disease. It's the alarm</strong>. And the fire started in your gut.
+      </p>
+
+      <div style="background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%); padding: 3rem 2rem; border-radius: 12px; margin: 3rem 0; text-align: center; color: #FFFFFF;">
+        <p style="font-size: 1.3rem; margin-bottom: 1rem; font-style: italic; color: rgba(255,255,255,0.9);">
+          "One barrier. One protocol. Everything changed."
+        </p>
+        <p style="font-size: 1.5rem; color: var(--color-accent-teal); margin-bottom: 2rem; font-weight: 600;">
+          Seal the gut. Silence the fire.
+        </p>
+        <p style="font-size: 1rem; color: rgba(255,255,255,0.7); margin: 0;">
+          — Dr. Gavin
+        </p>
+      </div>
 
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
 
-      <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>References:</strong></p>
-      <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
-        <li>López-Otín, C., et al. (2013). "The Hallmarks of Aging." Cell, 153(6), 1194-1217.</li>
-        <li>Jäger, S., et al. (2007). "AMP-activated protein kinase (AMPK) action in skeletal muscle via direct phosphorylation of PGC-1α." PNAS, 104(29), 12017-12022.</li>
-        <li>Saito, M., et al. (2009). "High Incidence of Metabolically Active Brown Adipose Tissue in Healthy Adult Humans." Diabetes, 58(7), 1526-1531.</li>
-        <li>Chowanadisai, W., et al. (2010). "Pyrroloquinoline quinone stimulates mitochondrial biogenesis." Journal of Nutritional Biochemistry, 21(1), 27-32.</li>
-        <li>Singh, A., et al. (2016). "Urolithin A induces mitophagy and prolongs lifespan." Nature Medicine, 22(8), 879-888.</li>
+      <h3>Scientific References</h3>
+      <ul style="font-size: 0.85rem; color: #888;">
+        <li>Fasano, A. (2012). "Leaky gut and autoimmune diseases." Clinical Reviews in Allergy & Immunology, 42(1), 71-78.</li>
+        <li>Maes, M., et al. (2008). "The gut-brain barrier in major depression: Intestinal mucosal dysfunction with an increased translocation of LPS." Neuroendocrinology Letters, 29(1), 117-124.</li>
+        <li>Bjarnason, I., et al. (1984). "Intestinal permeability: an overview." Gastroenterology, 108(5), 1566-1581.</li>
+        <li>Li, Y., et al. (2004). "Glutamine prevents parenteral nutrition-induced increases in intestinal permeability." Journal of Parenteral and Enteral Nutrition, 28(3), 169-174.</li>
+        <li>Hewlings, S. J., & Kalman, D. S. (2017). "Curcumin: A Review of Its Effects on Human Health." Foods, 6(10), 92.</li>
       </ul>
     `
   },

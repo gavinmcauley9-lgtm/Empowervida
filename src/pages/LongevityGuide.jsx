@@ -73,26 +73,27 @@ const LongevityGuide = () => {
                 subtitle="Beyond Diet and Exercise: The Physician's Framework for Healthspan"
                 overlay="linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 20%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%)"
                 textColor="#FFFFFF"
-                subtitleColor="#20B2AA"
+                subtitleColor="#047857"
                 textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
             >
                 <p style={{
 
                     fontSize: 'clamp(1rem, 2vw, 1.3rem)',
-                    fontWeight: 300,
+                    fontWeight: 400,
                     fontStyle: 'italic',
-                    opacity: 0.95,
-                    color: '#FFFFFF',
-                    textShadow: '0 2px 15px rgba(0,0,0,0.9)'
+                    opacity: 1,
+                    color: '#374151',
+                    textShadow: 'none'
                 }}>
                     A Clinical Approach to Extending Your Years of Vitality
                 </p>
                 <p style={{
                     fontSize: '1rem',
                     marginTop: '1rem',
-                    opacity: 0.85,
-                    color: '#FFFFFF',
-                    textShadow: '0 2px 10px rgba(0,0,0,0.8)'
+                    opacity: 1,
+                    color: '#1F2937',
+                    textShadow: 'none',
+                    fontWeight: 600
                 }}>
                     By Dr. Gavin | The Longevity Architect
                 </p>

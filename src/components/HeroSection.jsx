@@ -68,6 +68,17 @@ const HeroSection = ({
                 background: overlay
             }}></div>
 
+            {/* Right Side Fade Overlay - reduces visibility of background text */}
+            <div style={{
+                position: 'absolute',
+                top: 0,
+                right: 0,
+                width: '40%',
+                height: '100%',
+                zIndex: 0,
+                background: 'linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)'
+            }}></div>
+
             {/* Content Layer */}
             <motion.header
                 style={{
