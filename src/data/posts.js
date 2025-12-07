@@ -12,10 +12,10 @@ export const CATEGORIES = [
 export const POSTS = [
   {
     id: 23,
-    title: 'The Engine in the Basement: Why Your "Normal" Blood Work is Hiding a Metabolic Crisis',
+    title: 'Your Doctor Says You\'re "Normal." Your Body Says You\'re Dying. Here\'s Why.',
     category: 'metabolic',
     image: '/clogged_engine_comparison.png',
-    excerpt: 'You cannot drug a broken engine into winning a race. After 16 years and 30kg lost, I learned the uncomfortable truth about insulin resistance.',
+    excerpt: 'I was 125kg with "perfect" blood work. Turns out, standard labs miss the one marker that predicts diabetes 10 years early. Here\'s what saved my life.',
     date: 'Dec 07, 2025',
     cta: {
       text: "Get The Resilience Stack",
@@ -26,8 +26,8 @@ export const POSTS = [
       <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Feature Article</p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 87, 34, 0.1) 0%, rgba(255, 87, 34, 0.05) 100%); border-left: 4px solid #FF5722; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #FF5722; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE PARADIGM SHIFT</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your pancreas is screaming, but your blood work is whispering. Here's why "normal" labs are hiding a metabolic crisis—and what I learned after losing 30kg by fixing the engine, not the fuel gauge.</p>
+        <p style="margin: 0; font-weight: 700; color: #FF5722; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE TEST YOUR DOCTOR ISN\'T ORDERING</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Normal" Lie</h2>
@@ -297,10 +297,10 @@ export const POSTS = [
   },
   {
     id: 22,
-    title: 'THE AGING TAX: Why Your Cells Are Running Out of Currency (And How NAD+ Restores It)',
+    title: 'Why You Feel 60 at 40: The Cellular "Battery" That Dies Before You Do',
     category: 'longevity',
     image: '/cellular_energy_decline.png',
-    excerpt: 'By age 40, your NAD+ levels have dropped by 50%. This isn\'t just aging—it\'s cellular bankruptcy. Here\'s how to restore the currency of life.',
+    excerpt: 'By 40, you\'ve lost 50% of your cellular energy currency. By 60, you\'re running on fumes. This isn\'t aging—it\'s a fixable energy crisis hiding in plain sight.',
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's NAD+ Protocol",
@@ -310,8 +310,8 @@ export const POSTS = [
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">By age 40, you're paying a 50% tax on every unit of energy you produce. This isn't aging—it's NAD+ bankruptcy. I know because I lived it at 125kg with brain fog and burnout. Here's how I earned the refund.</p>
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE ENERGY CRISIS NO ONE TALKS ABOUT</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">At 20, your cells are flush with energy currency. At 40, you\'ve lost half. At 60, you\'re bankrupt. This molecule—NAD+—powers DNA repair, brain function, and longevity genes. When it crashes, everything breaks. Here\'s how to restore it.</p>
       </div>
       
       <h2>The 90mph Burnout</h2>
@@ -440,10 +440,10 @@ export const POSTS = [
   },
   {
     id: 1,
-    title: 'The Silent Fire: Why Your Anxiety, Brain Fog, and Joint Pain All Start in Your Gut',
+    title: 'Your Psychiatrist Got It Wrong: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
     category: 'inflammation',
     image: '/gut_brain_inflammation.png',
-    excerpt: 'Your depression isn\'t in your head. Your arthritis isn\'t just wear and tear. They\'re both symptoms of the same invisible enemy: chronic inflammation from a broken gut barrier.',
+    excerpt: 'She had 5 diagnoses from 5 specialists. One blood test revealed the truth: her gut barrier was shattered. 12 weeks later, everything resolved. Here\'s the protocol.',
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Gut Repair Protocol",
@@ -453,8 +453,8 @@ export const POSTS = [
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 107, 107, 0.05) 100%); border-left: 4px solid #FF6B6B; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #FF6B6B; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE HIDDEN EPIDEMIC</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your gut lining is one cell thick. When it breaks, inflammatory molecules flood your bloodstream, crossing the blood-brain barrier and triggering anxiety, depression, brain fog, and systemic pain. This isn't multiple diseases—it's one broken barrier.</p>
+        <p style="margin: 0; font-weight: 700; color: #FF6B6B; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">ONE BARRIER. FIVE DISEASES.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your gut lining is ONE CELL THICK. When it breaks, bacterial toxins flood your bloodstream, cross your blood-brain barrier, and trigger anxiety, depression, arthritis, IBS, and chronic fatigue. Not 5 diseases. One broken zipper. Here\'s how to seal it.</p>
       </div>
 
       <h2>The Patient Who Changed How I Practice Medicine</h2>
