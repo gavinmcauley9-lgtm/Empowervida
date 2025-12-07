@@ -51,7 +51,7 @@ export default function BlogPost() {
 
   return (
     <div style={{ backgroundColor: 'var(--color-bg)', minHeight: '100vh', color: 'var(--color-text)', fontFamily: '"Inter", sans-serif' }}>
-      <div className="container" style={{ paddingTop: '8rem', paddingBottom: '6rem', maxWidth: '900px' }}>
+      <div className="container" style={{ paddingTop: 'clamp(6rem, 10vw, 8rem)', paddingBottom: 'clamp(3rem, 6vw, 6rem)', maxWidth: '900px' }}>
         <SEO
           title={`${post.title} | EMPOWERVIDA`}
           description={post.excerpt}
@@ -83,7 +83,7 @@ export default function BlogPost() {
         <div style={{
           background: 'rgba(255, 255, 255, 0.8)',
           backdropFilter: 'blur(12px)',
-          padding: '3rem',
+          padding: 'clamp(1.5rem, 4vw, 3rem)',
           borderRadius: '16px',
           boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
           border: '1px solid rgba(255, 255, 255, 0.5)'
@@ -166,7 +166,7 @@ export default function BlogPost() {
         <style>{`
           .blog-content h2 {
             color: var(--color-text);
-            font-size: 1.8rem;
+            font-size: clamp(1.5rem, 4vw, 1.8rem);
             margin-top: 3.5rem;
             margin-bottom: 1.5rem;
             font-weight: 700;
@@ -176,7 +176,7 @@ export default function BlogPost() {
           }
           .blog-content h3 {
             color: var(--color-text);
-            font-size: 1.4rem;
+            font-size: clamp(1.2rem, 3.5vw, 1.4rem);
             margin-top: 2.5rem;
             margin-bottom: 1rem;
             font-weight: 600;
@@ -185,14 +185,18 @@ export default function BlogPost() {
           .blog-content p {
             margin-bottom: 1.8rem;
             color: var(--color-text);
+            font-size: clamp(1rem, 2vw, 1.125rem);
+            line-height: 1.8;
           }
           .blog-content ul, .blog-content ol {
             margin-bottom: 2rem;
             padding-left: 1.5rem;
             color: var(--color-text);
+            font-size: clamp(1rem, 2vw, 1.125rem);
           }
           .blog-content li {
             margin-bottom: 0.8rem;
+            line-height: 1.8;
           }
           .blog-content strong {
             color: var(--color-text-hero);
@@ -201,13 +205,14 @@ export default function BlogPost() {
           .blog-content a {
             color: var(--color-accent-teal);
             text-decoration: underline;
+            word-break: break-word;
           }
           /* Highlight Box Style */
           .blog-content blockquote {
             background: var(--color-bg-alt);
             color: var(--color-text);
             border-left: 4px solid var(--color-accent-orange);
-            padding: 2rem;
+            padding: 1.5rem;
             margin: 2.5rem 0;
             font-style: normal;
             border-radius: 0 8px 8px 0;
@@ -215,6 +220,57 @@ export default function BlogPost() {
           }
           .blog-content blockquote p {
             margin-bottom: 0;
+          }
+          /* Mobile-specific optimizations */
+          @media (max-width: 768px) {
+            .blog-content h2 {
+              margin-top: 2.5rem;
+              margin-bottom: 1rem;
+            }
+            .blog-content h3 {
+              margin-top: 2rem;
+              margin-bottom: 0.75rem;
+            }
+            .blog-content p {
+              margin-bottom: 1.5rem;
+            }
+            .blog-content ul, .blog-content ol {
+              padding-left: 1.25rem;
+              margin-bottom: 1.5rem;
+            }
+            .blog-content blockquote {
+              padding: 1.25rem;
+              margin: 2rem -1rem;
+              border-radius: 0 8px 8px 0;
+            }
+            /* Ensure images don't overflow */
+            .blog-content img {
+              max-width: 100%;
+              height: auto;
+              border-radius: 8px;
+            }
+            /* Make divs with inline styles responsive */
+            .blog-content div[style*="padding"] {
+              padding: 1.25rem !important;
+            }
+            .blog-content div[style*="margin"] {
+              margin-left: 0 !important;
+              margin-right: 0 !important;
+            }
+          }
+          /* Ensure all images are responsive */
+          .blog-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 2rem auto;
+            border-radius: 12px;
+          }
+          /* Make tables responsive */
+          .blog-content table {
+            width: 100%;
+            overflow-x: auto;
+            display: block;
           }
         `}</style>
       </div>
