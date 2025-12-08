@@ -744,9 +744,23 @@ export const POSTS = [
       
       <p>It is a high-pressure plumbing system that pumps Cerebrospinal Fluid (CSF) through your brain tissue to power-wash the waste away.</p>
       
-      <p><strong>Here is the catch:</strong> The Glymphatic System only turns on during Deep Non-REM Sleep.</p>
+      <p><strong>Here is the catch:</strong> The Glymphatic System only turns on during <strong>Deep Non-REM Sleep</strong> (also called Delta Wave sleep).</p>
       
       <p>If you sleep for 8 hours but rely on wine, sleeping pills, or scrolling your phone to pass out, you likely stay in "Light Sleep." You are unconscious, but the dishwasher never turned on. You wake up with a dirty kitchen.</p>
+      
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Sleep Architecture Problem</h3>
+      
+      <p>As a physician, I don't just ask "How many hours did you sleep?" I ask "What was your <strong>sleep architecture</strong>?"</p>
+      
+      <p>Sleep isn't one uniform state. It cycles through stages:</p>
+      
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Deep Sleep (Stages 3-4):</strong> Physical repair, glymphatic activation, immune system reset</li>
+        <li style="margin-bottom: 0.75rem;"><strong>REM Sleep:</strong> Emotional processing, memory consolidation, creativity</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Light Sleep:</strong> Transition states (not restorative)</li>
+      </ul>
+      
+      <p>If your nervous system is stuck in "fight or flight" due to chronic stress (high cortisol), you never drop into the deep stages. You're unconscious, but you're not recovering.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/glymphatic_system.png" alt="Glymphatic System Mechanism" style="width: 100%; height: auto; display: block;" />
@@ -1252,53 +1266,6 @@ export const POSTS = [
       <p>"Normal" is not the goal. Resilience is the goal.</p>
       <p>If your labs are normal but your life feels heavy, stop looking for a disease and start treating the dysfunction. Upgrade your CoQ10. Commit to the Zone 2 work. Fix the engine at the cellular level.</p>
     `
-  },
-  {
-    id: 8,
-    title: 'The Sleep Paradox: Why 8 Hours Isn\'t Enough (The Magnesium-Glycine Connection)',
-    category: 'sleep',
-    image: '/sleep_brain_v2.png',
-    excerpt: 'You’re clocking the hours, but you’re not recovering. Here is the biochemistry of deep sleep.',
-    date: 'Nov 24, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Preferred Magnesium Bisglycinate",
-      link: "/shop"
-    },
-    content: `
-            <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-              <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">8 hours of sleep doesn't guarantee recovery if sleep architecture is poor. You need Deep Sleep for physical repair and REM for emotional processing. Magnesium Bisglycinate and Glycine lower core temp and calm the nervous system to unlock deep sleep stages.</p>
-            </div>
-
-            <p><strong>"I slept 8 hours, why am I still tired?"</strong></p>
-            <p>Most advice says "put down the phone" or "cool the room." That is Kindergarten advice. As a physician, I look at <strong>Sleep Architecture</strong>. Are you getting Deep Sleep (Physical repair) and REM (Emotional processing)? Usually, the answer is no, because your nervous system is stuck in "fight or flight."</p>
-
-            <h2>The Medical "Why" (The Science)</h2>
-            <ul>
-                <li><strong>The Glymphatic System:</strong> Your brain only "cleans itself" of toxins (amyloid beta) during deep sleep.</li>
-                <li><strong>Core Body Temperature:</strong> To enter deep sleep, your core temp must drop.</li>
-                <li><strong>Hyperarousal:</strong> High cortisol prevents the drop into Delta waves.</li>
-            </ul>
-
-            <h2>The Solution: The Physician's Stack</h2>
-            <p>We are moving beyond generic melatonin. We are targeting <strong>Magnesium Bisglycinate</strong> and <strong>Glycine</strong>.</p>
-
-            <h3>1. Magnesium Bisglycinate</h3>
-            <p>Most forms of magnesium (like oxide) are laxatives. <strong>Bisglycinate</strong> is chelated to glycine, allowing it to cross the blood-brain barrier. It relaxes smooth muscle and supports GABA, the "brake pedal" of the brain.</p>
-
-            <h3>2. Glycine</h3>
-            <p>The unsung hero of longevity. Studies show <strong>3g of Glycine</strong> before bed improves sleep quality and reduces daytime sleepiness by actively lowering core body temperature.</p>
-
-            <h2>The Protocol</h2>
-            <p><strong>30 minutes before bed:</strong></p>
-            <ul>
-                <li>400mg Magnesium Bisglycinate</li>
-                <li>3g Glycine</li>
-                <li>(Optional) L-Theanine for the "racing mind"</li>
-            </ul>
-
-            <p>Sleep is not a luxury; it is your biological warranty.</p>
-        `
   },
   {
     id: 9,
