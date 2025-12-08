@@ -710,7 +710,7 @@ export const POSTS = [
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog isn't tiredness—it's metabolic waste buildup. Your brain's glymphatic system only flushes toxins during deep sleep. Poor sleep = sewage accumulation = cognitive decline. Fix: prioritize deep sleep, magnesium L-threonate, and sleep hygiene.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog isn't tiredness—it's metabolic waste buildup. Your brain's glymphatic system only flushes toxins during deep sleep. Poor sleep = sewage accumulation = cognitive decline. Fix: Side sleeping + Magnesium Bisglycinate (400mg) + Glycine (3g) for deep sleep architecture.</p>
       </div>
       
       <p>Imagine hosting a massive dinner party. You have 100 guests, music, food, and conversation. By 2:00 AM, the guests leave, and your kitchen is a disaster zone. Plates are piled high, wine is spilled, and trash is everywhere.</p>
@@ -763,15 +763,26 @@ export const POSTS = [
       
       <p><strong>Action:</strong> Train yourself to sleep on your side.</p>
       
-      <h3>2. CHEMICAL: The Magnesium Breakthrough</h3>
+      <h3>2. CHEMICAL: The Sleep Stack (Magnesium + Glycine)</h3>
       
-      <p>You have probably heard you should take Magnesium for sleep. But most Magnesium supplements (Oxide, Citrate) are laxatives. They affect your gut, but they cannot effectively cross the Blood-Brain Barrier to influence your neurons.</p>
+      <p>You have probably heard you should take Magnesium for sleep. But most Magnesium supplements (Oxide, Citrate) are laxatives. They affect your gut, not your nervous system.</p>
       
-      <p>To activate the Glymphatic system, we need to sedate the NMDA receptors in the brain to allow you to enter Deep Delta Wave sleep.</p>
+      <p>To activate the Glymphatic system, we need to calm the nervous system and lower core body temperature to allow you to enter Deep Delta Wave sleep.</p>
       
-      <p><strong>There is only one form of Magnesium patented to cross the blood-brain barrier effectively: Magnesium L-Threonate (MgT)</strong>.</p>
+      <p><strong>The winning combination: Magnesium Bisglycinate + Glycine</strong>.</p>
       
-      <p><strong>The Science:</strong> A study published in <em>Neuron</em> showed that elevating brain magnesium levels can enhance synaptic plasticity and support deep sleep architecture, which is the "window" for cleaning.</p>
+      <h4 style="font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem 0;">Magnesium Bisglycinate (The Calming Agent)</h4>
+      
+      <p>Unlike other forms, Bisglycinate is chelated to glycine, making it highly absorbable and gentle on the stomach. It activates GABA receptors—the brain's "brake pedal"—to quiet the racing mind and relax smooth muscle.</p>
+      
+      <p><strong>Dose:</strong> 400mg elemental magnesium, 30-60 minutes before bed.</p>
+      
+      <h4 style="font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem 0;">Glycine (The Temperature Regulator)</h4>
+      <p>This simple amino acid is the unsung hero of sleep. Clinical trials show that 3g of glycine before bed lowers core body temperature by dilating blood vessels in the extremities—a critical signal for deep sleep onset.</p>
+      
+      <p><strong>The Science:</strong> A study in <em>Neuropsychopharmacology</em> showed glycine improved sleep quality, reduced daytime sleepiness, and enhanced cognitive performance the next day.</p>
+      
+      <p><strong>Dose:</strong> 3g glycine powder, mixed in water, 30 minutes before bed.</p>
       
       <p><strong>The Result:</strong> You don't just "sleep"; you clean. You wake up with a clear kitchen.</p>
       
@@ -779,20 +790,25 @@ export const POSTS = [
       
       <p>Brain fog is not a personality trait. It is biological toxicity. If you want your sharp, quick, 20-year-old brain back, stop focusing on stimulants (caffeine) and start focusing on sewage management.</p>
       
-      <p>Side sleep. Deep sleep. Magtein.</p>
+      <p>Side sleep. Deep sleep. Magnesium + Glycine.</p>
       
-      <h3>TOOL: The Only Magnesium I Recommend</h3>
+      <h3>THE SLEEP STACK: What I Prescribe</h3>
       
-      <p>Because generic Magnesium doesn't reach the brain, I specifically prescribe Magnesium L-Threonate for cognitive restoration.</p>
+      <p>For glymphatic activation and deep sleep architecture, I recommend this nightly protocol:</p>
+      
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Magnesium Bisglycinate:</strong> 400mg elemental magnesium</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Glycine:</strong> 3g powder</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Timing:</strong> 30-60 minutes before bed</li>
+      </ul>
       
       <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
-        <a href="https://www.iherb.com/search?kw=Magtein" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
-          Shop at iHerb (Best Price)
+        <a href="https://www.iherb.com/search?kw=Magnesium%20Bisglycinate" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: var(--color-accent-teal); color: #FFFFFF; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3); transition: all 0.3s ease; width: 100%; max-width: 350px; text-align: center;">
+          Shop Magnesium Bisglycinate
         </a>
-        {/* TODO: Add your iHerb Affiliate Code to the link above (e.g., ?rcode=YOURCODE) */}
-
-        <a href="https://geni.us/hAgLBH" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
+        
+        <a href="https://www.iherb.com/search?kw=Glycine%20Powder" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
+          Shop Glycine Powder
         </a>
       </div>
       
