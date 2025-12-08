@@ -993,77 +993,228 @@ export const POSTS = [
   },
   {
     id: 4,
-    title: 'Why You\'re Forgetting Names at 40: The Magnesium Form Your Brain Actually Needs',
+    title: 'The MIT Discovery That Reverses Brain Aging: How One Molecule Grew New Synapses in 60-Year-Old Brains',
     category: 'cognition',
-    image: '/hero_dna_botanical.png',
-    excerpt: '95% of magnesium supplements can\'t reach your brain. Here\'s why your memory is failing—and the one form that crosses the blood-brain barrier to rebuild synaptic density.',
-    date: 'Sep 28, 2025',
+    image: '/magnesium_neuroplasticity_hero.png',
+    excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%—reversing cognitive decline in aging brains. The breakthrough: it\'s the only form that crosses the blood-brain barrier.',
+    date: 'Dec 08, 2025',
     cta: {
-      text: "Get Dr. Gavin's Recommended Magtein",
+      text: "Get The MIT-Researched Magtein",
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      \u003cp\u003e\u003cstrong\u003eBy Dr. Gavin | EMPOWERVIDA\u003c/strong\u003e\u003c/p\u003e
+      \u003cp style=\"font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;\"\u003eRead Time: 10 minutes | Feature Article\u003c/p\u003e
       
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Senior moments" at 40 aren\'t normal—they\'re magnesium deficiency in your brain. 95% of supplements can\'t cross the blood-brain barrier. Only Magnesium L-Threonate (Magtein) reaches brain tissue to rebuild synaptic density and reverse memory decline. You\'re not taking the wrong dose—you\'re taking the wrong form.</p>
-      </div>
-      
-      <p>If you walk down the supplement aisle of any pharmacy, you will see a graveyard of good intentions. Magnesium Citrate, Oxide, Chloride, Glycinate.</p>
-      <p>I prescribe these forms often. They are excellent for your gut, your heart rhythm, and relaxing your muscles after a shift in the ER. But they all share a fatal flaw when it comes to cognitive longevity:</p>
-      <p>They cannot get into the VIP section.</p>
-      <p>Your brain is the most protected asset in your body. It is guarded by the Blood-Brain Barrier (BBB)—a ruthless, highly selective filtration system that prevents toxins, pathogens, and—unfortunately—most minerals from entering your central nervous system tissue.</p>
-      <p>When you take standard magnesium, it raises the levels in your blood. It raises the levels in your muscles. But it bounces off the Blood-Brain Barrier like a tennis ball hitting a brick wall.</p>
-      <p>If you are trying to cure brain fog with a laxative (Magnesium Citrate), you are wasting your money. You need a different key.</p>
+      \u003cdiv style=\"background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;\"\u003e
+        \u003cp style=\"margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;\"\u003eTHE BREAKTHROUGH\u003c/p\u003e
+        \u003cp style=\"margin: 0; font-size: 1.05rem; line-height: 1.6;\"\u003eIn 2010, MIT neuroscientists published a landmark study in \u003cem\u003eNeuron\u003c/em\u003e showing that a novel magnesium compound increased brain magnesium levels by 15% and synaptic density by 44% in aging rats—reversing memory decline to youthful levels. The compound: Magnesium L-Threonate. The revelation: it's the only form that crosses the blood-brain barrier. Your \"senior moments\" at 40 aren't inevitable—they're a deficiency that can be fixed.\u003c/p\u003e
+      \u003c/div\u003e
 
-      <h2>THE MIT MOLECULE: A TROJAN HORSE</h2>
-      <p>Ten years ago, neuroscientists at MIT faced a problem: We knew magnesium was critical for memory, yet we couldn't get it into the brain in high enough concentrations to make a difference.</p>
-      <p>Their solution was Magnesium L-Threonate.</p>
-      <p>By binding a magnesium atom to L-Threonate (a metabolite of Vitamin C), they created a unique compound that acts like a molecular Trojan Horse. The brain recognizes the Threonate and opens the gate.</p>
-      <p>Once inside, it does something remarkable. It doesn't just "calm" you; it rewires you.</p>
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Forgotten Name\u003c/h2\u003e
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Blood-Brain Barrier Diagram" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Trojan Horse: Crossing the Blood-Brain Barrier</p>
-      </div>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        You're at a dinner party. Someone approaches—a colleague you've met three times. Their face is familiar. You know you know them. But their name? Gone.
+      \u003c/p\u003e
 
-      <h2>THE MECHANISM: NEUROPLASTICITY & DENSITY</h2>
-      <p>Why does your brain need magnesium? It’s not just for energy. It is about Neuroplasticity.</p>
-      <p>At the microscopic level, your memories and cognitive speed are determined by "Synapses"—the physical connections between neurons.</p>
-      <p>Young Brains are dense, like a lush jungle. Signals move fast.</p>
-      <p>Aging Brains are sparse, like a desert. Connections wither. This is the structural root of "Senior Moments" and cognitive decline.</p>
-      <p><strong>The NMDA Receptor Connection</strong></p>
-      <p>Here is the deep science: Your brain uses receptors called NMDA receptors to form new memories. These receptors have a "magnesium block." Magnesium sits inside the channel, regulating the flow of calcium. It prevents the neuron from firing randomly (noise) but allows it to fire strongly when a real signal comes through (signal).</p>
-      <p>Clinical studies suggest that Magnesium L-Threonate is the only form capable of significantly increasing magnesium concentrations in the cerebrospinal fluid. The result?</p>
-      <ul>
-        <li><strong>Increased Synaptic Density:</strong> It effectively stimulates the growth of new connections in the hippocampus (the memory center).</li>
-        <li><strong>Structural Rejuvenation:</strong> Think of it as upgrading your brain's internet connection from Dial-Up to Fiber Optic. The hardware itself gets faster.</li>
-      </ul>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        You laugh it off. \"Senior moment,\" you say. You're 42.
+      \u003c/p\u003e
 
-      <h2>THE PROTOCOL: COGNITIVE DEFENSE</h2>
-      <p>This is not your standard "sleep mineral." This is a nootropic. Here is how to deploy it.</p>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        But here's what standard medicine won't tell you: \u003cstrong\u003eThis isn't normal aging. It's structural decay\u003c/strong\u003e. And it started years ago.
+      \u003c/p\u003e
 
-      <h3>1. The Label Test (Don't Be Fooled)</h3>
-      <p>This compound is patented under the name Magtein®. If your bottle doesn't say "Magtein" or "Magnesium L-Threonate," put it back. Many brands try to trick you by mixing a tiny amount of Threonate with cheap Oxide. Read the fine print.</p>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        At the microscopic level, your brain is withering. Synapses—the physical connections between neurons—are disappearing. Your hippocampus, the memory center, is shrinking. Not because of disease. Because of deficiency.
+      \u003c/p\u003e
 
-      <h3>2. The Dosage Math</h3>
-      <p>This confuses many patients. The clinical dose is 2,000mg of Magnesium L-Threonate.</p>
-      <p><strong>Note:</strong> This 2,000mg of powder yields approximately 144mg of Elemental Magnesium.</p>
-      <p>Do not try to get 400mg of elemental magnesium from this form alone, or you will be taking far too many pills. We take this for the Threonate transporter, not just the magnesium payload.</p>
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe MIT Revelation: A Molecule That Rewires the Brain\u003c/h2\u003e
 
-      <h3>3. Timing & Stacking</h3>
-      <p>Unlike Magnesium Glycinate, which is a heavy sedative best for sleep, Threonate creates "Calm Focus."</p>
-      <ul>
-        <li><strong>AM Dose:</strong> 1,000mg (Morning) to support working memory and focus during the day.</li>
-        <li><strong>PM Dose:</strong> 1,000mg (1 hour before bed) to support neuro-repair and sleep architecture.</li>
-      </ul>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        In 2010, a team of neuroscientists at MIT's Picower Institute for Learning and Memory, led by Dr. Guosong Liu, published a study in \u003cem\u003eNeuron\u003c/em\u003e that would quietly revolutionize our understanding of cognitive aging.
+      \u003c/p\u003e
 
-      <h2>THE TAKEAWAY</h2>
-      <p>Tools matter. You wouldn't use a hammer to tighten a screw.</p>
-      <p>If you are taking magnesium for leg cramps or constipation, stick to the cheaper Citrate or Glycinate. They work perfectly for the body.</p>
-      <p>But if you are over 35 and your goal is to protect your mind, sharpen your recall, and defend against the entropy of aging, you need to upgrade.</p>
-      <p>Find the key that fits the lock.</p>
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        They had a problem: Magnesium is critical for memory formation—it regulates NMDA receptors, the molecular switches that encode new memories. But standard magnesium supplements don't reach the brain. The blood-brain barrier blocks them.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        So they engineered a solution: \u003cstrong\u003eMagnesium L-Threonate (MgT)\u003c/strong\u003e—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognizes threonate and opens the gate.
+      \u003c/p\u003e
+
+      \u003cdiv style=\"background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;\"\u003e
+        \u003cp style=\"margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;\"\u003e
+          The Results (Published in \u003cem\u003eNeuron\u003c/em\u003e, 2010):
+        \u003c/p\u003e
+        \u003cul style=\"margin: 1rem 0 0 1.5rem; font-size: 1.05rem; line-height: 1.8;\"\u003e
+          \u003cli\u003e\u003cstrong\u003e15% increase\u003c/strong\u003e in brain magnesium levels\u003c/li\u003e
+          \u003cli\u003e\u003cstrong\u003e44% increase\u003c/strong\u003e in synaptic density in the hippocampus\u003c/li\u003e
+          \u003cli\u003e\u003cstrong\u003eReversal of age-related memory decline\u003c/strong\u003e in aging rats (equivalent to human 60+ years)\u003c/li\u003e
+          \u003cli\u003e\u003cstrong\u003eEnhanced short-term and long-term memory\u003c/strong\u003e in young rats\u003c/li\u003e
+        \u003c/ul\u003e
+      \u003c/div\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        This wasn't just \"better memory.\" This was \u003cstrong\u003estructural brain rejuvenation\u003c/strong\u003e. New synapses. Denser networks. A younger brain.
+      \u003c/p\u003e
+
+      \u003cdiv style=\"margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);\"\u003e
+        \u003cimg src=\"/synaptic_density_increase.png\" alt=\"Synaptic Density Increase\" style=\"width: 100%; height: auto; display: block;\" /\u003e
+        \u003cp style=\"text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;\"\u003eThe MIT Discovery: 44% Increase in Hippocampal Synaptic Density\u003c/p\u003e
+      \u003c/div\u003e
+
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Human Trials: From Rats to Reality\u003c/h2\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Animal studies are promising. Human trials are proof.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        In 2016, researchers at Tsinghua University in Beijing published a randomized, double-blind, placebo-controlled trial in the \u003cem\u003eJournal of Alzheimer's Disease\u003c/em\u003e. They gave MgT to adults aged 50-70 with cognitive impairment.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eThe dose:\u003c/strong\u003e 1,500-2,000mg daily (equivalent to 144mg elemental magnesium).
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eThe duration:\u003c/strong\u003e 12 weeks.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eThe results:\u003c/strong\u003e
+      \u003c/p\u003e
+
+      \u003cul style=\"font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;\"\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eSignificant improvement\u003c/strong\u003e in overall cognitive ability (measured by MMSE and MoCA scores)\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eEnhanced executive function\u003c/strong\u003e (planning, decision-making, working memory)\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eImproved episodic memory\u003c/strong\u003e (remembering names, events, conversations)\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eNo significant side effects\u003c/strong\u003e\u003c/li\u003e
+      \u003c/ul\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        The placebo group? No change. The MgT group? \u003cstrong\u003eMeasurable cognitive rejuvenation\u003c/strong\u003e.
+      \u003c/p\u003e
+
+      \u003cdiv style=\"background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); padding: 2rem; border-radius: 12px; margin: 3rem 0; border: 2px solid var(--color-accent-teal);\"\u003e
+        \u003ch3 style=\"font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-accent-teal);\"\u003eThe Mechanism: Why It Works\u003c/h3\u003e
+        \u003cp style=\"font-size: 1.05rem; line-height: 1.8; margin-bottom: 1rem;\"\u003e
+          Magnesium L-Threonate doesn't just \"boost\" your brain. It rebuilds it at the structural level:
+        \u003c/p\u003e
+        \u003cul style=\"font-size: 1.05rem; line-height: 1.8; margin-left: 1.5rem;\"\u003e
+          \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eNMDA Receptor Modulation:\u003c/strong\u003e Magnesium regulates NMDA receptors—the molecular gates for memory formation. It filters noise and amplifies signal.\u003c/li\u003e
+          \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eSynaptic Plasticity:\u003c/strong\u003e Elevated brain magnesium triggers the growth of new dendritic spines (the physical connection points between neurons).\u003c/li\u003e
+          \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eHippocampal Density:\u003c/strong\u003e The hippocampus—your memory center—becomes denser, more connected, more resilient.\u003c/li\u003e
+        \u003c/ul\u003e
+        \u003cp style=\"font-size: 1.05rem; line-height: 1.8; margin-top: 1.5rem; margin-bottom: 0; font-style: italic;\"\u003e
+          \"We found that elevation of brain magnesium led to significant enhancement of spatial and associative memory in both young and aged rats.\" — Dr. Guosong Liu, MIT (\u003cem\u003eNeuron\u003c/em\u003e, 2010)
+        \u003c/p\u003e
+      \u003c/div\u003e
+
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Blood-Brain Barrier Problem: Why 95% of Magnesium Fails\u003c/h2\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Walk into any pharmacy and you'll see magnesium everywhere: Citrate, Oxide, Glycinate, Chloride.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        These forms are excellent for your body—muscle relaxation, heart rhythm, gut motility. But for your brain? \u003cstrong\u003eThey're useless\u003c/strong\u003e.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        The blood-brain barrier (BBB) is a ruthless gatekeeper. It blocks 95% of compounds from entering your central nervous system. Standard magnesium forms bounce off like tennis balls hitting a brick wall.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        You can take 400mg of Magnesium Citrate daily and your brain magnesium levels won't budge. Your muscles will relax. Your gut will move. But your synapses? Still withering.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognizes it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eThis is the only form that reaches your brain\u003c/strong\u003e.
+      \u003c/p\u003e
+
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Clinical Protocol: How to Deploy It\u003c/h2\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        This isn't a \"sleep supplement.\" This is a cognitive enhancement compound backed by MIT neuroscience. Here's how to use it correctly:
+      \u003c/p\u003e
+
+      \u003ch3 style=\"font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);\"\u003e1. The Dose (Based on Clinical Trials)\u003c/h3\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003e1,500-2,000mg of Magnesium L-Threonate daily\u003c/strong\u003e (this yields approximately 144mg of elemental magnesium).
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eCritical:\u003c/strong\u003e You're not taking this for the magnesium content. You're taking it for the threonate transporter. Don't try to hit 400mg of elemental magnesium from this form alone—you'll overdose on pills.
+      \u003c/p\u003e
+
+      \u003ch3 style=\"font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);\"\u003e2. The Timing (Maximize Neuroplasticity)\u003c/h3\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Unlike sedative forms (Glycinate), MgT creates \"calm focus\"—not drowsiness. Split your dose:
+      \u003c/p\u003e
+
+      \u003cul style=\"font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;\"\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eMorning (1,000mg):\u003c/strong\u003e Supports working memory, focus, and learning during the day\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eEvening (1,000mg, 1 hour before bed):\u003c/strong\u003e Supports synaptic consolidation and memory encoding during sleep\u003c/li\u003e
+      \u003c/ul\u003e
+
+      \u003ch3 style=\"font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);\"\u003e3. The Form (Don't Get Scammed)\u003c/h3\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        The compound is patented under the name \u003cstrong\u003eMagtein®\u003c/strong\u003e. If your bottle doesn't say \"Magtein\" or \"Magnesium L-Threonate,\" it's not the real thing.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Many brands try to trick you by mixing a tiny amount of L-Threonate with cheap Oxide. Read the supplement facts panel. Verify the dose.
+      \u003c/p\u003e
+
+      \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Doctor's Verdict\u003c/h2\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        I've been prescribing Magnesium L-Threonate for five years. The feedback is consistent: sharper recall, faster processing, fewer \"tip-of-the-tongue\" moments.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        This isn't placebo. This is structural neuroplasticity backed by MIT neuroscience and human clinical trials.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        Your brain is not a static organ. It's a living network that can be rebuilt, rewired, and rejuvenated. But it needs the right tools.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        \u003cstrong\u003eMagnesium L-Threonate is the key that unlocks the gate\u003c/strong\u003e.
+      \u003c/p\u003e
+
+      \u003cdiv style=\"background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%); padding: 3rem 2rem; border-radius: 12px; margin: 3rem 0; text-align: center; color: #FFFFFF;\"\u003e
+        \u003cp style=\"font-size: 1.3rem; margin-bottom: 1rem; font-style: italic; color: rgba(255,255,255,0.9);\"\u003e
+          \"Elevation of brain magnesium prevents and reverses cognitive deficits and synaptic loss.\"
+        \u003c/p\u003e
+        \u003cp style=\"font-size: 1.5rem; color: var(--color-accent-teal); margin-bottom: 2rem; font-weight: 600;\"\u003e
+          44% more synapses. A younger brain.
+        \u003c/p\u003e
+        \u003cp style=\"font-size: 1rem; color: rgba(255,255,255,0.7); margin: 0;\"\u003e
+          — MIT Picower Institute, \u003cem\u003eNeuron\u003c/em\u003e (2010)
+        \u003c/p\u003e
+      \u003c/div\u003e
+
+      \u003chr style=\"border-color: rgba(255,255,255,0.1); margin: 3rem 0;\" /\u003e
+
+      \u003ch3 style=\"font-size: 1.3rem; font-weight: 700; margin: 2rem 0 1rem 0;\"\u003eScientific References\u003c/h3\u003e
+      \u003cul style=\"font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.8;\"\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003eSlutskyI., et al. (2010). \"Enhancement of learning and memory by elevating brain magnesium.\" \u003cem\u003eNeuron\u003c/em\u003e, 65(2), 165-177. [The seminal MIT study]\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003eLiu, G., et al. (2016). \"Efficacy and Safety of MMFS-01, a Synapse Density Enhancer, for Treating Cognitive Impairment in Older Adults: A Randomized, Double-Blind, Placebo-Controlled Trial.\" \u003cem\u003eJournal of Alzheimer's Disease\u003c/em\u003e, 49(4), 971-990. [Tsinghua University human trial]\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003eZhang, C., et al. (2019). \"Magnesium-L-threonate prevents and restores memory deficits associated with neuropathic pain.\" \u003cem\u003ePain\u003c/em\u003e, 160(7), 1587-1596.\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003eKirkland, A. E., et al. (2018). \"The Effects of Dietary and Supplemental Magnesium on Cognitive Function: A Systematic Review.\" \u003cem\u003eNutrients\u003c/em\u003e, 10(6), 739.\u003c/li\u003e
+        \u003cli style=\"margin-bottom: 0.75rem;\"\u003eAbraham, G. E., \u0026 Flechas, J. D. (1992). \"Management of fibromyalgia: rationale for the use of magnesium and malic acid.\" \u003cem\u003eJournal of Nutritional Medicine\u003c/em\u003e, 3(1), 49-59.\u003c/li\u003e
+      \u003c/ul\u003e
     `
   },
   {
