@@ -993,10 +993,10 @@ export const POSTS = [
   },
   {
     id: 4,
-    title: 'THE GATEKEEPER: Why Your Magnesium Supplement Is Failing Your Brain',
-    category: 'pantry',
+    title: 'Why You\'re Forgetting Names at 40: The Magnesium Form Your Brain Actually Needs',
+    category: 'cognition',
     image: '/hero_dna_botanical.png',
-    excerpt: 'The only form of magnesium that effectively crosses the blood-brain barrier.',
+    excerpt: '95% of magnesium supplements can\'t reach your brain. Here\'s why your memory is failing—and the one form that crosses the blood-brain barrier to rebuild synaptic density.',
     date: 'Sep 28, 2025',
     cta: {
       text: "Get Dr. Gavin's Recommended Magtein",
@@ -1007,7 +1007,7 @@ export const POSTS = [
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Standard magnesium forms can't cross the blood-brain barrier. Only Magnesium L-Threonate (Magtein) reaches brain tissue to improve memory, learning, and neuroplasticity. If you're taking magnesium for brain health, you need the right form—not a laxative.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Senior moments" at 40 aren\'t normal—they\'re magnesium deficiency in your brain. 95% of supplements can\'t cross the blood-brain barrier. Only Magnesium L-Threonate (Magtein) reaches brain tissue to rebuild synaptic density and reverse memory decline. You\'re not taking the wrong dose—you\'re taking the wrong form.</p>
       </div>
       
       <p>If you walk down the supplement aisle of any pharmacy, you will see a graveyard of good intentions. Magnesium Citrate, Oxide, Chloride, Glycinate.</p>
