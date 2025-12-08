@@ -208,19 +208,21 @@ export default function Navigation() {
                 {/* Mobile Menu Overlay */}
                 <div style={{
                     position: 'fixed',
-                    top: 0,
+                    top: '80px', // Start below the header
                     left: 0,
                     width: '100%',
-                    height: '100vh',
+                    height: 'calc(100vh - 80px)', // Full height minus header
                     background: '#FFFFFF',
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent: 'center',
+                    justifyContent: 'flex-start', // Align to top instead of center
                     alignItems: 'center',
                     zIndex: 101,
                     opacity: isOpen ? 1 : 0,
                     pointerEvents: isOpen ? 'all' : 'none',
-                    transition: 'opacity 0.3s ease'
+                    transition: 'opacity 0.3s ease',
+                    overflowY: 'auto', // Allow scrolling if content is too tall
+                    padding: '2rem 1rem' // Add padding for better spacing
                 }}>
                     <Link to="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
 
