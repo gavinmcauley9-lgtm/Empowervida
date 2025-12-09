@@ -12,32 +12,31 @@ export const CATEGORIES = [
 export const POSTS = [
   {
     id: 23,
-    title: 'Your Doctor Says You\'re "Normal." Your Body Says You\'re Dying. Here\'s Why.',
+    title: 'THE TEST YOUR DOCTOR ISN\'T ORDERING: Why Your "Normal" Blood Work is Hiding a Metabolic Crisis',
     category: 'metabolic',
     image: '/clogged_engine_comparison.png',
-    excerpt: 'I was 125kg with "perfect" blood work. Turns out, standard labs miss the one marker that predicts diabetes 10 years early. Here\'s what saved my life.',
-    date: 'Dec 07, 2025',
+    excerpt: 'Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.',
+    date: 'Dec 09, 2025',
     cta: {
-      text: "Get The Resilience Stack",
+      text: "Get The Metabolic Reset",
       link: "/shop"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
-      <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Feature Article</p>
+      <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Category: Metabolic Health</p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 87, 34, 0.1) 0%, rgba(255, 87, 34, 0.05) 100%); border-left: 4px solid #FF5722; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #FF5722; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE TEST YOUR DOCTOR ISN\'T ORDERING</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.</p>
+        <p style="margin: 0; font-weight: 700; color: #FF5722; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE "NORMAL" LIE</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.</p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Normal" Lie</h2>
-
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.
+        A patient walks into my clinic. Tired. Foggy. Gaining weight despite "doing everything right." I order the standard metabolic panel.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        A patient walks into my clinic. Tired. Foggy. Gaining weight despite "doing everything right." I order the standard metabolic panel. Fasting glucose: 98 mg/dL. <em>Normal</em>. HbA1c: 5.6%. <em>Normal</em>.
+        Fasting glucose: 98 mg/dL. <strong>Normal.</strong><br>
+        HbA1c: 5.6%. <strong>Normal.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -45,25 +44,15 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But here's what I didn't check: <strong>Fasting Insulin</strong>.
-      </p>
-
-      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;">
-          Here's the uncomfortable truth: <strong>Insulin rises years—sometimes decades—before glucose does</strong>.
-        </p>
-      </div>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? It's whispering. Everything looks "normal."
+        But here's what I didn't check: <strong>Fasting Insulin.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        By the time glucose rises, the engine has been grinding for years.
+        Here's the uncomfortable truth: Insulin rises years—sometimes decades—before glucose does. Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? It's whispering. Everything looks "normal." By the time glucose finally rises, the engine has been grinding for years.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I know this because I lived it. At 125kg, exhausted, running on cortisol and caffeine, my fasting glucose was 94. <em>Normal</em>. But I felt like my gears were grinding. <strong>Because, biologically, they were</strong>.
+        I know this because I lived it. At 125kg, exhausted, running on cortisol and caffeine, my fasting glucose was 94. Normal. But I felt like my gears were grinding. Because, biologically, they were.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Cellular Bouncer: Understanding Insulin Resistance</h2>
@@ -73,77 +62,28 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Wrong</strong>.
+        <strong>Wrong.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Insulin resistance is not a malfunction. <strong>It's a safety protocol</strong>.
+        Insulin resistance is not a malfunction. <strong>It's a safety protocol.</strong>
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Factory Floor Analogy</h3>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Picture your mitochondria as the factory floor. Glucose is the raw material delivery truck pulling up to the loading bay. Insulin is the foreman who unlocks the doors.
+        Picture your mitochondria as the <strong>Factory Floor</strong>.
       </p>
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; list-style-type: disc; padding-left: 1.5rem;">
+        <li><strong>Glucose</strong> is the raw material delivery truck pulling up to the loading bay.</li>
+        <li><strong>Insulin</strong> is the Foreman who unlocks the doors.</li>
+      </ul>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Now imagine the machines on the factory floor are seizing up. Gears grinding. Turbines throwing sparks. The floor is already drowning in unprocessed material.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        What does the foreman do? <strong>He locks the delivery bay doors</strong>.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Not because the lock is broken. Because the factory floor can't handle more deliveries. The machines are failing.
-      </p>
-
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 1.2rem; line-height: 1.6; font-weight: 600; color: var(--color-accent-teal);">
-          Viral Concept: Diabetes is not a disease of starvation. It's a disease of gridlock.
-        </p>
-      </div>
-
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/clogged_engine_comparison.png" alt="Metabolic Flexibility vs Mitochondrial Gridlock" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Metabolic Flexibility vs. Mitochondrial Gridlock: The Factory Floor Comparison</p>
-      </div>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Grit in the Gears: The Deep Science of ROS</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So why is the factory floor failing? What's jamming the machines?
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The answer is <strong>Reactive Oxygen Species (ROS)</strong>. But let's stop calling it "oxidative stress." That's too abstract.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Let's call it what it is: <strong>Metabolic Grit</strong>.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Turbine Analogy</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Inside your mitochondria, there are tiny turbines called the <strong>Electron Transport Chain</strong>. These turbines spin millions of times per second, converting fuel (glucose, fat) into energy (ATP).
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When they run efficiently, it's beautiful. Clean energy. No waste.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But when they run inefficiently—due to nutrient deficiencies, chronic stress, or metabolic overload—they throw off <strong>sparks and debris</strong>. This is the grit.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This grit gets stuck in the delicate machinery. It causes friction. Heat. And eventually, <strong>mechanical failure</strong>.
-      </p>
-
-      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-style: italic;">
-          The engine slows down. The fuel piles up. The foreman locks the doors. <strong>This is insulin resistance</strong>.
         </p>
       </div>
 
