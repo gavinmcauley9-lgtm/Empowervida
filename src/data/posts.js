@@ -154,7 +154,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We don't have to guess. We have the data from the lab of <strong>Dr. Gerald Shulman at Yale University</strong>, the world’s leading authority on insulin resistance.
+        We don't have to guess. We have the data from the lab of <strong>Dr. Gerald Shulman at Yale University</strong> (Shulman, 2014; Petersen & Shulman, 2018), the world’s leading authority on insulin resistance.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -170,7 +170,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Simultaneously, research published in the <em>Proceedings of the National Academy of Sciences</em> (Hoehn et al.) confirmed that the cell locks the door on purpose to prevent the "smoke" (Reactive Oxygen Species) from causing cellular damage.
+        Simultaneously, research published in the <em>Proceedings of the National Academy of Sciences</em> (Hoehn et al., 2009) confirmed that the cell locks the door on purpose to prevent the "smoke" (Reactive Oxygen Species) from causing cellular damage.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
