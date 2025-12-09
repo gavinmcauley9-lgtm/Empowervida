@@ -25,10 +25,15 @@ export const POSTS = [
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Category: Metabolic Health</p>
       
-      <div style="background: linear-gradient(135deg, rgba(255, 87, 34, 0.1) 0%, rgba(255, 87, 34, 0.05) 100%); border-left: 4px solid #FF5722; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #FF5722; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE "NORMAL" LIE</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.</p>
-      </div>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can't burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Normal" Lie</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.
+      </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         A patient walks into my clinic. Tired. Foggy. Gaining weight despite "doing everything right." I order the standard metabolic panel.
@@ -48,7 +53,11 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here's the uncomfortable truth: Insulin rises years—sometimes decades—before glucose does. Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? It's whispering. Everything looks "normal." By the time glucose finally rises, the engine has been grinding for years.
+        Here's the uncomfortable truth: Insulin rises years—sometimes decades—before glucose does.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? It's whispering. Everything looks "normal." By the time glucose finally rises, the engine has been grinding for years.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -74,124 +83,190 @@ export const POSTS = [
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Picture your mitochondria as the <strong>Factory Floor</strong>.
       </p>
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; list-style-type: disc; padding-left: 1.5rem;">
-        <li><strong>Glucose</strong> is the raw material delivery truck pulling up to the loading bay.</li>
-        <li><strong>Insulin</strong> is the Foreman who unlocks the doors.</li>
-      </ul>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Glucose</strong> is the raw material delivery truck pulling up to the loading bay.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Insulin</strong> is the Foreman who unlocks the doors.
+      </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Now imagine the machines on the factory floor are seizing up. Gears grinding. Turbines throwing sparks. The floor is already drowning in unprocessed material.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        What does the foreman do? <strong>He locks the delivery bay doors.</strong>
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Not because the lock is broken. But because the factory floor can't handle more deliveries. The machines are failing, and letting more fuel in would cause an explosion.
+      </p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/factory_standoff.png" alt="The Factory Standoff: Insulin stopping Glucose" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          "The Foreman isn't broken. He is protecting the factory from overload."
         </p>
+      </div>
+
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600; color: var(--color-accent-teal);">
+          Viral Concept: Diabetes is not a disease of starvation. It's a disease of gridlock.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Powerful Reach of the Screaming Foreman</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is where the "Silent" problem becomes a loud crisis.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When the Foreman (Insulin) locks the doors, he doesn't just stand there quietly. He gets on the loudspeaker. The pancreas pumps out more insulin to try to force the doors open.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This scream—<strong>Hyperinsulinemia</strong>—has a Powerful Reach that extends far beyond the factory door. It echoes through the entire town (your body):
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>To the Fat Cells:</strong> The Foreman screams "LOCK DOWN THE STORAGE!" High insulin makes it chemically impossible to burn fat. You could starve yourself, but as long as that Foreman is screaming, the fat stays locked away.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>To the Kidneys:</strong> He screams "HOLD THE SALT!" High insulin tells your kidneys to retain sodium and water. This is why "unexplained" High Blood Pressure is often just a symptom of high insulin.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>To the Brain:</strong> He creates static. The "Screaming Foreman" blocks the signals that tell you you're full (Leptin resistance). You are hungry even though you have plenty of fuel.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is the reach of insulin resistance. It isn't just about blood sugar; it is a systemic command to store fat, hold water, and stay hungry.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Grit in the Gears: The Evidence from Yale</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        So why is the factory floor failing? Is this just a nice story, or is it biology?
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We don't have to guess. We have the data from the lab of <strong>Dr. Gerald Shulman at Yale University</strong>, the world’s leading authority on insulin resistance.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Using advanced magnetic resonance spectroscopy, Shulman’s team looked inside the muscle cells of insulin-resistant patients. They discovered that when the mitochondria (turbines) are overwhelmed and can't burn fuel fast enough, they accumulate a toxic fatty byproduct called <strong>Diacylglycerol (DAG)</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Think of DAG as the "Metabolic Grit."
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Shulman proved that this grit physically jams the insulin signaling pathway inside the cell (specifically blocking the IRS-1 signal). The Foreman (Insulin) is turning the key, but the Grit (DAG) has jammed the tumbler. The door stays locked.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Simultaneously, research published in the <em>Proceedings of the National Academy of Sciences</em> (Hoehn et al.) confirmed that the cell locks the door on purpose to prevent the "smoke" (Reactive Oxygen Species) from causing cellular damage.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This validates the factory model perfectly:
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The Turbines choke on fuel.<br>
+        The Grit (DAG) builds up.<br>
+        The Foreman is blocked from opening the door.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        It is a protective mechanism. The grit and the smoke are the cause; the locked door is just the result.
+      </p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/mitochondrial_gridlock_diagram.png" alt="Healthy vs Clogged Engine Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Bio-Energetic Death Spiral</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Once the engine starts grinding, you enter a vicious cycle. A death spiral.
+        Once the engine starts grinding, you enter a vicious cycle.
       </p>
-
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/vicious_cycle_diagram.png" alt="The Bio-Energetic Trap" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Bio-Energetic Trap: You Cannot Willpower Your Way Out of a Broken Machine</p>
-      </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here's how it works:
+        <strong>The Bio-Energetic Trap:</strong>
+      </p>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Grinding Engine:</strong> Your mitochondria are clogged with metabolic grit.<br>
+        <strong>Energy Bankruptcy:</strong> You feel exhausted. Brain fog sets in.<br>
+        <strong>Sedentary Collapse:</strong> You stop moving because you can't afford the energy.<br>
+        <strong>Metabolic Slowdown:</strong> Fewer mitochondria = Lower calorie burn.<br>
+        <strong>Weight Gain:</strong> Unburned fuel is stored as fat.<br>
+        <strong>More Grit, More Rust:</strong> Inflammation rises. The cycle repeats.
       </p>
 
-      <ol style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Grinding Engine:</strong> Your mitochondria are clogged with metabolic grit. They can't burn fuel efficiently.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Energy Bankruptcy:</strong> You feel exhausted. Brain fog. No motivation.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Sedentary Collapse:</strong> You stop moving. Exercise feels impossible. Your running shoes gather dust.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Metabolic Slowdown:</strong> Fewer mitochondria. Lower calorie burn. The engine idles.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Weight Gain:</strong> Unburned fuel is stored as fat. The gridlock worsens.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>More Grit, More Rust:</strong> Inflammation rises. Oxidative stress accelerates. The cycle repeats.</li>
-      </ol>
-
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 600; color: #FF5722;">
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         You cannot willpower your way out of a broken machine.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I see patients every day who blame themselves. "I just need more discipline." "I'm lazy."
+        I see patients every day who blame themselves. "I just need more discipline." "I'm lazy." No. You're not lazy. Your engine is seized.
       </p>
 
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>No</strong>. You're not lazy. Your engine is seized.
-      </p>
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/bio_energetic_trap.png" alt="The Bio-Energetic Trap Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          "You cannot willpower your way out of a broken engine."
+        </p>
+      </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Overhaul: The Mechanical Fix</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So how do you fix a grinding engine? You don't just add more fuel. You <strong>overhaul the machinery</strong>.
+        So how do you fix a grinding engine? You don't just add more fuel. You overhaul the machinery.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here's the protocol I used to go from 125kg and exhausted to 95kg and thriving:
+        Here is the protocol I used to go from 125kg and exhausted to 95kg and thriving:
       </p>
 
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">1. Zone 2 Cardio: Adding More Pistons</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Zone 2 training (60-70% max heart rate) triggers <strong>mitochondrial biogenesis</strong>. Translation: You're building more engines.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        More mitochondria = more capacity to burn fuel = less gridlock.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">2. Creatine: The Rapid Response Fuel</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Creatine phosphate is the emergency battery. When your turbines are under load, creatine <strong>rapidly regenerates ATP from ADP</strong>, keeping the gears spinning without grinding.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Dose: 5g daily. Creatine monohydrate. No fancy forms needed.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">3. CoQ10 (Ubiquinol): The Lubricant</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        CoQ10 is an electron carrier in the transport chain. Think of it as the <strong>lubricant</strong> that allows electrons to slide through the turbines without friction.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Without it, the gears grind. With it, they glide.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Dose: 100-200mg daily. <strong>Ubiquinol</strong> (the active form), not ubiquinone.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">4. GlyNAC: The Solvent</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        GlyNAC (Glycine + N-Acetyl Cysteine) is the master antioxidant precursor. It restores <strong>glutathione</strong>, the solvent that washes the metabolic grit out of the gears.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is the degreaser. The deep clean.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Dose: Glycine 1-2g + NAC 600-1200mg daily.
-      </p>
-
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); padding: 2rem; border-radius: 12px; margin: 3rem 0; border: 2px solid var(--color-accent-teal);">
-        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-accent-teal);">The Complete Engine Overhaul</h3>
-        <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 1.5rem;">
-          <li style="margin-bottom: 0.75rem;"><strong>Zone 2 Cardio:</strong> Build more engines (biogenesis)</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Creatine:</strong> Emergency battery (rapid ATP regeneration)</li>
-          <li style="margin-bottom: 0.75rem;"><strong>CoQ10 (Ubiquinol):</strong> Lubricant (electron transport)</li>
-          <li style="margin-bottom: 0.75rem;"><strong>GlyNAC:</strong> Solvent (wash out the grit)</li>
-        </ul>
-        <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1.5rem; margin-bottom: 0;">
-          This isn't alternative medicine. <strong>It's just complete medicine</strong>.
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">1. Zone 2 Cardio: Adding More Pistons</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          Zone 2 training (60-70% max heart rate) triggers mitochondrial biogenesis. Translation: You're building more engines.
         </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          More mitochondria = more capacity to burn fuel = less gridlock.
+        </p>
+        
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">2. Creatine: The Rapid Response Fuel</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          Creatine phosphate is the emergency battery. When your turbines are under load, creatine rapidly regenerates ATP, keeping the gears spinning without grinding.
+        </p>
+        <p style="font-size: 1rem; color: var(--color-text-muted); font-weight: 600;">Dose: 5g daily. Creatine monohydrate.</p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">3. CoQ10 (Ubiquinol): The Lubricant</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          CoQ10 is an electron carrier. Think of it as the lubricant that allows electrons to slide through the turbines without friction.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          Without it, the gears grind. With it, they glide.
+        </p>
+        <p style="font-size: 1rem; color: var(--color-text-muted); font-weight: 600;">Dose: 100-200mg daily. Ubiquinol form.</p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">4. GlyNAC: The Solvent</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          GlyNAC (Glycine + NAC) restores glutathione, the solvent that washes the metabolic grit out of the gears.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          This is the degreaser. The deep clean.
+        </p>
+        <p style="font-size: 1rem; color: var(--color-text-muted); font-weight: 600;">Dose: Glycine (2g) + NAC (1.2g) daily.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor's Verdict</h2>
@@ -201,30 +276,6 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The 30kg fell off. The brain fog lifted. The energy returned.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Not because I had more willpower. Because <strong>I fixed the machine</strong>.
-      </p>
-
-      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;">
-          Stop treating the symptom. Overhaul the engine.
-        </p>
-      </div>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your mitochondria are screaming. Your blood work is whispering.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>It's time to listen to the engine, not the fuel gauge</strong>.
-      </p>
-
-      <div style="background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%); padding: 3rem 2rem; border-radius: 12px; margin: 3rem 0; text-align: center; color: #FFFFFF;">
-        <p style="font-size: 1.3rem; margin-bottom: 1rem; font-style: italic; color: rgba(255,255,255,0.9);">
-          "I felt like my gears were grinding. Because, biologically, they were."
         </p>
         <p style="font-size: 1.5rem; color: var(--color-accent-teal); margin-bottom: 2rem; font-weight: 600;">
           Fix the engine. The rest follows.
