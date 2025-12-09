@@ -191,6 +191,9 @@ export default function Navigation() {
                 <div className="mobile-only" style={{ zIndex: 102 }}>
                     <button
                         onClick={() => setIsOpen(!isOpen)}
+                        aria-label="Toggle navigation menu"
+                        aria-expanded={isOpen}
+                        aria-controls="mobile-menu"
                         style={{
                             background: 'none',
                             border: 'none',
@@ -206,24 +209,28 @@ export default function Navigation() {
                 </div>
 
                 {/* Mobile Menu Overlay */}
-                <div style={{
-                    position: 'fixed',
-                    top: '80px', // Start below the header
-                    left: 0,
-                    width: '100%',
-                    height: 'calc(100vh - 80px)', // Full height minus header
-                    background: '#FFFFFF',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'flex-start', // Align to top instead of center
-                    alignItems: 'center',
-                    zIndex: 101,
-                    opacity: isOpen ? 1 : 0,
-                    pointerEvents: isOpen ? 'all' : 'none',
-                    transition: 'opacity 0.3s ease',
-                    overflowY: 'auto', // Allow scrolling if content is too tall
-                    padding: '2rem 1rem' // Add padding for better spacing
-                }}>
+                <div
+                    id="mobile-menu"
+                    role="navigation"
+                    aria-label="Mobile navigation"
+                    style={{
+                        position: 'fixed',
+                        top: '80px', // Start below the header
+                        left: 0,
+                        width: '100%',
+                        height: 'calc(100vh - 80px)', // Full height minus header
+                        background: '#FFFFFF',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'flex-start', // Align to top instead of center
+                        alignItems: 'center',
+                        zIndex: 101,
+                        opacity: isOpen ? 1 : 0,
+                        pointerEvents: isOpen ? 'all' : 'none',
+                        transition: 'opacity 0.3s ease',
+                        overflowY: 'auto', // Allow scrolling if content is too tall
+                        padding: '2rem 1rem' // Add padding for better spacing
+                    }}>
                     <Link to="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
 
                     <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>

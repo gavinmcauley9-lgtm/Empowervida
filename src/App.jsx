@@ -38,6 +38,31 @@ function AppContent() {
 
   return (
     <main>
+      {/* Skip to Content Link for Screen Readers */}
+      <a
+        href="#main-content"
+        style={{
+          position: 'absolute',
+          left: '-9999px',
+          zIndex: 9999,
+          padding: '1rem 2rem',
+          background: 'var(--color-accent-teal)',
+          color: '#FFFFFF',
+          textDecoration: 'none',
+          fontWeight: 700,
+          borderRadius: '4px'
+        }}
+        onFocus={(e) => {
+          e.target.style.left = '10px';
+          e.target.style.top = '10px';
+        }}
+        onBlur={(e) => {
+          e.target.style.left = '-9999px';
+        }}
+      >
+        Skip to main content
+      </a>
+
       {/* 3D Background Scene - Hidden on Longevity and Mitochondrial Guide pages */}
       {!hideScene && (
         <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1, pointerEvents: 'none' }}>
@@ -49,20 +74,22 @@ function AppContent() {
       <Navigation />
 
       <Suspense fallback={null}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
-          <Route path="/diagnostics" element={<Diagnostics />} />
-          <Route path="/advanced-optimization" element={<AdvancedOptimization />} />
-          <Route path="/environmental-defense" element={<EnvironmentalDefense />} />
-          <Route path="/protocol" element={<Protocol />} />
-          <Route path="/engine-room" element={<EngineRoom />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
-          <Route path="/longevity" element={<LongevityGuide />} />
-        </Routes>
+        <div id="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/diagnostics" element={<Diagnostics />} />
+            <Route path="/advanced-optimization" element={<AdvancedOptimization />} />
+            <Route path="/environmental-defense" element={<EnvironmentalDefense />} />
+            <Route path="/protocol" element={<Protocol />} />
+            <Route path="/engine-room" element={<EngineRoom />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
+            <Route path="/longevity" element={<LongevityGuide />} />
+          </Routes>
+        </div>
       </Suspense>
 
       <CookieConsent />

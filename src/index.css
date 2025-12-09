@@ -121,6 +121,37 @@ a:hover {
   border-bottom: 1px solid var(--color-primary);
 }
 
+/* Keyboard Navigation Focus Indicators */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid var(--color-accent-teal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Focus visible (only for keyboard, not mouse clicks) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-accent-teal);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(32, 178, 170, 0.2);
+}
+
+/* Remove focus outline for mouse users */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible),
+select:focus:not(:focus-visible) {
+  outline: none;
+}
+
 button {
   font-family: var(--font-main);
   cursor: pointer;

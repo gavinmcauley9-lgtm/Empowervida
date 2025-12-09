@@ -123,7 +123,7 @@ export default function BlogPost() {
 
           {post.image && (
             <div style={{ marginBottom: '3rem', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,0,0,0.05)' }}>
-              <img src={post.image} alt={post.title} style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img src={post.image} alt={post.title} loading="lazy" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
           )}
 
