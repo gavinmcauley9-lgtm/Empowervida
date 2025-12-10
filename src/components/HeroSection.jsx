@@ -10,6 +10,8 @@ const HeroSection = ({
     textColor = "#1A3C34",
     subtitleColor = "#1A3C34",
     textShadow = "none",
+    subtitleShadow = "none",
+    subtitleWeight = "400",
     children
 }) => {
     const { scrollY } = useScroll();
@@ -120,12 +122,12 @@ const HeroSection = ({
                     {/* Subtitle */}
                     <h2 style={{
                         fontSize: 'clamp(1.2rem, 3vw, 2rem)',
-                        fontWeight: 700,
+                        fontWeight: subtitleWeight,
                         color: subtitleColor,
                         letterSpacing: 'clamp(0.15em, 5vw, 0.3em)',
                         textTransform: 'uppercase',
                         marginBottom: '4rem',
-                        textShadow: textShadow
+                        textShadow: subtitleShadow
                     }}>
                         {subtitle}
                     </h2>

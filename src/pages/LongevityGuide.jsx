@@ -73,8 +73,10 @@ const LongevityGuide = () => {
                 subtitle="Beyond Diet and Exercise: The Physician's Framework for Healthspan"
                 overlay="linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 20%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0) 100%)"
                 textColor="#FFFFFF"
-                subtitleColor="#047857"
+                subtitleColor="#20B2AA"
                 textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
+                subtitleShadow="0 3px 20px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.7)"
+                subtitleWeight="700"
             >
                 <p style={{
 
