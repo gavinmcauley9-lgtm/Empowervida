@@ -832,7 +832,7 @@ export const POSTS = [
     title: 'Nootropics That Actually Work',
     category: 'cognition',
     image: '/stimulants_vs_nootropics_graph_1764510405890.png',
-    excerpt: 'Separating the clinical data from the marketing hype. The Triage Protocol.',
+    excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Cognitive Stack",
