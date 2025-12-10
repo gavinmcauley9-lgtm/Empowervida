@@ -144,9 +144,9 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/factory_standoff.png" alt="The Factory Standoff: Insulin stopping Glucose" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/insulin_resistance_two_stages.png" alt="Two-Stage Progression of Insulin Resistance: Stage 1 (Overwhelmed Factory) vs Stage 2 (Storage Exceeded)" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          "The Foreman isn't broken. The factory floor is overwhelmed."
+          The Two-Stage Breakdown: From "Normal" Labs to Vascular Catastrophe
         </p>
       </div>
 
