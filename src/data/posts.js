@@ -78,7 +78,7 @@ export const POSTS = [
         Insulin resistance is not a malfunction. <strong>It's a safety protocol.</strong>
       </p>
 
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Factory Floor Analogy</h3>
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">The Factory Floor: A Two-Stage Breakdown</h3>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Picture your mitochondria as the <strong>Factory Floor</strong>.
@@ -89,25 +89,64 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Insulin</strong> is the Foreman who unlocks the doors.
+        <strong>Insulin</strong> is the Foreman who unlocks the doors and directs the flow.
+      </p>
+
+      <h4 style="font-size: 1.3rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF5722;">Stage 1: The Overwhelmed Factory</h4>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The machines on the factory floor start to slow down. Gears grinding. Turbines clogged with rust and grit (ROS—Reactive Oxygen Species). The assembly line can't keep up with the deliveries.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Now imagine the machines on the factory floor are seizing up. Gears grinding. Turbines throwing sparks. The floor is already drowning in unprocessed material.
+        The Foreman (Insulin) notices the backlog. Raw materials are piling up outside. So he does what any desperate foreman would do: <strong>He starts screaming louder.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        What does the foreman do? <strong>He locks the delivery bay doors.</strong>
+        Your pancreas floods the bloodstream with MORE insulin—trying to force the cells to take in the glucose. The Foreman is yelling, gesturing wildly, demanding the workers accept more deliveries.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Not because the lock is broken. But because the factory floor can't handle more deliveries. The machines are failing, and letting more fuel in would cause an explosion.
+        For a while, this works. The cells grudgingly accept the glucose. Your blood sugar stays "normal." But the factory floor is straining under the load. The machines are overheating. The workers are exhausted.
       </p>
+
+      <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600; color: #FF9800;">
+          Stage 1: High Insulin. Normal Glucose. This is the "silent" phase doctors miss.
+        </p>
+      </div>
+
+      <h4 style="font-size: 1.3rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF5722;">Stage 2: Storage Capacity Exceeded</h4>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Eventually, the factory warehouse reaches <strong>maximum capacity</strong>. The storage bays are full. The processing floor is drowning in unburned fuel. The machinery is grinding to a halt.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Now, no matter how loud the Foreman screams, the cells physically cannot accept more glucose. The door doesn't just slow down—<strong>it locks shut.</strong>
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        But the deliveries don't stop. Trucks keep arriving. Glucose piles up in the bloodstream outside the factory. Meanwhile, the Foreman is still screaming—insulin levels remain sky-high, desperately trying to force entry.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        You now have <strong>both</strong> high insulin AND high glucose circulating in your blood. This is the toxic combination that destroys your "plumbing system"—your blood vessels, nerves, kidneys.
+      </p>
+
+      <div style="background: rgba(255, 87, 34, 0.15); border: 2px solid #FF5722; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.2rem; line-height: 1.6; font-weight: 700; color: #FF5722;">
+          Stage 2: High Insulin + High Glucose = Vascular Catastrophe
+        </p>
+        <p style="margin: 0.75rem 0 0 0; font-size: 1rem; line-height: 1.6;">
+          This is when your doctor finally diagnoses you with Type 2 Diabetes. But the engine has been grinding for years.
+        </p>
+      </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
         <img src="/factory_standoff.png" alt="The Factory Standoff: Insulin stopping Glucose" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          "The Foreman isn't broken. He is protecting the factory from overload."
+          "The Foreman isn't broken. The factory floor is overwhelmed."
         </p>
       </div>
 
