@@ -7,8 +7,8 @@ export default function About() {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Dr. Gavin McAuley",
-        "jobTitle": "Board-Certified Family Physician & Longevity Architect",
-        "description": "Board-certified family physician who transformed from 125kg burnout to longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
+        "jobTitle": "Family Physician & Longevity Architect",
+        "description": "Practicing physician who transformed from 125kg burnout to longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
         "url": "https://empowervida.com/about",
         "alumniOf": "Medical School",
         "knowsAbout": ["Longevity Medicine", "Mitochondrial Health", "Metabolic Optimization", "Evidence-Based Medicine"]

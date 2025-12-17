@@ -77,7 +77,24 @@ const Footer = () => {
                     <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
                 </div>
 
-                {/* Column 3: Legal & Safety */}
+                {/* Column 3: Legal & Privacy */}
+                <div>
+                    <h4 style={{
+                        fontSize: '0.9rem',
+                        fontWeight: 700,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.1em',
+                        marginBottom: '1.5rem',
+                        color: '#555555'
+                    }}>
+                        Legal & Privacy
+                    </h4>
+                    <Link to="/terms" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
+                    <Link to="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
+                    <Link to="/affiliate-disclaimer" style={linkStyle}>[ AFFILIATE DISCLAIMER ]</Link>
+                </div>
+
+                {/* Column 4: Medical Disclaimer */}
                 <div>
                     <h4 style={{
                         fontSize: '0.9rem',
@@ -105,9 +122,63 @@ const Footer = () => {
                 paddingTop: '2rem',
                 textAlign: 'center',
                 fontSize: '0.8rem',
-                color: '#444444'
+                color: '#444444',
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: '0.5rem'
             }}>
-                © 2025 EmpowerVida. All Rights Reserved.
+                <span>© 2025 EmpowerVida. All Rights Reserved.</span>
+                <span style={{ opacity: 0.5 }}>|</span>
+                <Link
+                    to="/terms"
+                    style={{
+                        color: 'inherit',
+                        textDecoration: 'underline',
+                        opacity: 0.8
+                    }}
+                >
+                    Terms
+                </Link>
+                <span style={{ opacity: 0.5 }}>|</span>
+                <Link
+                    to="/privacy"
+                    style={{
+                        color: 'inherit',
+                        textDecoration: 'underline',
+                        opacity: 0.8
+                    }}
+                >
+                    Privacy
+                </Link>
+                <span style={{ opacity: 0.5 }}>|</span>
+                <Link
+                    to="/affiliate-disclaimer"
+                    style={{
+                        color: 'inherit',
+                        textDecoration: 'underline',
+                        opacity: 0.8
+                    }}
+                >
+                    Affiliate Disclaimer
+                </Link>
+                <span style={{ opacity: 0.5 }}>|</span>
+                <button
+                    onClick={() => window.dispatchEvent(new Event('openCookieSettings'))}
+                    style={{
+                        background: 'none',
+                        border: 'none',
+                        color: 'inherit',
+                        font: 'inherit',
+                        cursor: 'pointer',
+                        textDecoration: 'underline',
+                        fontSize: 'inherit',
+                        opacity: 0.8
+                    }}
+                >
+                    Cookie Preferences
+                </button>
             </div>
         </footer>
     );

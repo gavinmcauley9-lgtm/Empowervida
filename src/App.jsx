@@ -19,6 +19,9 @@ import EngineRoom from './pages/EngineRoom';
 import Shop from './pages/Shop';
 import MitochondrialGuide from './pages/MitochondrialGuide';
 import LongevityGuide from './pages/LongevityGuide';
+import Privacy from './pages/Privacy';
+import AffiliateDisclaimer from './pages/AffiliateDisclaimer';
+import TermsConditions from './pages/TermsConditions';
 
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
@@ -88,6 +91,9 @@ function AppContent() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
             <Route path="/longevity" element={<LongevityGuide />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/affiliate-disclaimer" element={<AffiliateDisclaimer />} />
+            <Route path="/terms" element={<TermsConditions />} />
           </Routes>
         </div>
       </Suspense>
