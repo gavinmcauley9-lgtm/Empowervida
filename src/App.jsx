@@ -22,6 +22,7 @@ import LongevityGuide from './pages/LongevityGuide';
 import Privacy from './pages/Privacy';
 import AffiliateDisclaimer from './pages/AffiliateDisclaimer';
 import TermsConditions from './pages/TermsConditions';
+import InsulinStory from './pages/InsulinStory';
 
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
@@ -94,6 +95,7 @@ function AppContent() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/affiliate-disclaimer" element={<AffiliateDisclaimer />} />
             <Route path="/terms" element={<TermsConditions />} />
+            <Route path="/insulin-story" element={<InsulinStory />} />
           </Routes>
         </div>
       </Suspense>
