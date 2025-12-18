@@ -52,7 +52,7 @@ export default function Home() {
                 schemaData={[organizationSchema, websiteSchema]}
             />
             <HeroSection
-                backgroundImage="/home_hero_fade.png"
+                backgroundImage="/home_hero_fade.webp"
                 title={
                     <>
                         <span style={{ color: '#1A3C34' }}>EMPOWER</span>
