@@ -4,6 +4,54 @@ import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
 
 export default function InsulinStory() {
+    // FAQ Schema for Rich Snippets
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is insulin resistance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Insulin resistance is not a broken receptor - it's a cellular protection mechanism. When cells become overloaded with ectopic lipid accumulation (fat in muscle and liver cells), they lock their doors to prevent internal damage. The pancreas compensates by producing more insulin, leading to hyperinsulinemia - chronically elevated insulin levels even when blood glucose appears normal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I know if I have insulin resistance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key markers include: Fasting insulin above 5 µIU/mL, HOMA-IR above 1.0, fasting glucose 86-99 mg/dL (even though 'normal'), energy crashes after meals, difficulty losing weight, increased waist circumference, and elevated triglycerides. Standard glucose tests often miss early insulin resistance because the pancreas compensates by producing more insulin."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can insulin resistance be reversed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Insulin resistance can be reversed by addressing the root cause: ectopic lipid accumulation and mitochondrial dysfunction. This involves clearing intramyocellular lipids through fasting, reducing refined carbohydrates, optimizing mitochondrial function with targeted supplementation (CoQ10, ALCAR, ALA), and strategic exercise to improve metabolic flexibility."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the difference between insulin resistance and Type 2 diabetes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Insulin resistance is the precursor state to Type 2 diabetes. In early insulin resistance (compensated stage), blood glucose remains normal because the pancreas produces excess insulin. In Type 2 diabetes (decompensated stage), the pancreas can no longer keep up, and both insulin and glucose become elevated. The progression typically takes years or decades."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What causes mitochondrial dysfunction in insulin resistance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mitochondrial dysfunction results from ectopic lipid accumulation creating reactive oxygen species (ROS) and metabolic 'soot' that clogs cellular machinery. When mitochondria are backlogged with unprocessed fuel, they produce more free radicals, further impairing their ability to burn fuel cleanly. This creates a vicious cycle of cellular energy crisis."
+                }
+            }
+        ]
+    };
+
     const sectionStyle = {
         marginBottom: '6rem'
     };
@@ -84,6 +132,7 @@ export default function InsulinStory() {
                 description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower—it's about Insulin Resistance. Discover the science of smart aging."
                 keywords="insulin resistance, hyperinsulinemia, metabolic health, aging, longevity, insulin sensitivity, Type 2 diabetes prevention, smart aging"
                 canonical="/insulin-story"
+                schemaData={faqSchema}
             />
 
             {/* HERO SECTION */}

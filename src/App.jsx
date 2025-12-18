@@ -9,6 +9,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
+import Breadcrumbs from './components/Breadcrumbs';
 
 // Lazy load all pages for code splitting
 const Home = lazy(() => import('./pages/Home'));
@@ -103,6 +104,7 @@ function AppContent() {
       )}
 
       <Navigation />
+      <Breadcrumbs />
 
       <Suspense fallback={<PageLoader />}>
         <div id="main-content">
