@@ -6,8 +6,20 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com; connect-src 'self' https://raw.githack.com https://raw.githubusercontent.com ws: wss:; object-src 'none'; base-uri 'self';" />
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.unsplash.com; connect-src 'self' https://raw.githack.com https://raw.githubusercontent.com https://www.google-analytics.com https://analytics.google.com ws: wss:; object-src 'none'; base-uri 'self';" />
   <meta name="google-site-verification" content="gN7K4mqJze3-140AagZTvZIK7rySvBbjFw0cEJfKGH8" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT0YQ12H33"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KT0YQ12H33', {
+      'anonymize_ip': true,
+      'cookie_flags': 'SameSite=None;Secure'
+    });
+  </script>
 
   <!-- Primary Meta Tags -->
   <title>EMPOWERVIDA - Longevity, Prescribed</title>
