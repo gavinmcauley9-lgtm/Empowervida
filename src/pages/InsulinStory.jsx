@@ -192,6 +192,25 @@ export default function InsulinStory() {
                     </div>
                 </section>
 
+                {/* INSULIN RESISTANCE INFOGRAPHIC */}
+                <section style={{ ...sectionStyle, textAlign: 'center' }}>
+                    <img
+                        src="/insulin_resistance_progression.png"
+                        alt="Three stages of insulin resistance showing progressive insulin escalation: Normal state with balanced insulin and glucose transport, Compensated resistance with elevated insulin but normal glucose (silent alarm), and Decompensated failure with both high insulin and glucose (system breakdown)"
+                        style={imageStyle}
+                        loading="lazy"
+                    />
+                    <p style={{
+                        fontSize: '0.95rem',
+                        fontStyle: 'italic',
+                        color: 'var(--color-text-muted)',
+                        marginTop: '1rem',
+                        textAlign: 'center'
+                    }}>
+                        <strong>Figure 1:</strong> The Progressive Failure of Insulin Signaling. Note how insulin levels escalate (5 → 15 → 25 units) while glucose transport efficiency degrades. The middle "Compensated" stage shows normal blood glucose despite elevated insulin—the hidden metabolic alarm most doctors miss.
+                    </p>
+                </section>
+
                 {/* SECTION 3: THE THREE STAGES */}
                 <section style={sectionStyle}>
                     <h2 style={headingStyle}>The Three Stages of Metabolic Decline</h2>
