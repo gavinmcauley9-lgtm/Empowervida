@@ -91,7 +91,7 @@ export default function InsulinStory() {
                 backgroundImage="/hero_cell_energy.png"
                 title="THE INSULIN STORY"
                 subtitle="Why You Are Aging Faster Than You Think"
-                overlay="linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.4) 70%, rgba(250,250,250,0.9) 95%, rgba(250,250,250,1) 100%)"
+                overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#20B2AA"
                 textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
