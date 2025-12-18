@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://empowervida.com/sitemap.xml
+Sitemap: https://empowervida.com/sitemap-images.xml

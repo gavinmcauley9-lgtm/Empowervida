@@ -40,6 +40,53 @@ const Protocol = () => {
         ]
     };
 
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a longevity protocol?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of aging. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Which protocol should I start with?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Start with your primary health goal: Foundational Longevity (overall anti-aging), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain aging prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I combine multiple protocols?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Protocols are designed to stack synergistically. Start with your primary protocol for 30 days, then add a second. Avoid combining more than 2-3 protocols initially. Common combinations: Longevity + Metabolic, Vitality + Clarity, or Neurolongevity + Longevity."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long before I see results from a longevity protocol?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Timeline varies by protocol: Energy/cognitive changes (2-4 weeks), metabolic improvements (4-8 weeks), longevity biomarkers (8-12 weeks). NAD+ precursors work quickly (days), while mitochondrial biogenesis takes months. Consistency is key - these are marathon interventions, not quick fixes."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are these protocols safe to take long-term?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. All protocols use evidence-based compounds with established safety profiles for long-term use. We prioritize nutrients and compounds your body naturally produces (NAD+, CoQ10, creatine) that decline with age. As with any supplement regimen, consult your physician, especially if you have medical conditions or take medications."
+                }
+            }
+        ]
+    };
+
     return (
         <div style={{
             backgroundColor: 'var(--color-bg)',
@@ -54,7 +101,7 @@ const Protocol = () => {
                 keywords="longevity supplement protocol, brain fog supplements, gut health protocol, sleep supplements, metabolic health, insulin sensitivity, mitochondrial support"
                 canonical="/protocol"
                 ogImage="/protocol_hero_fire_v2.jpg"
-                schemaData={breadcrumbSchema}
+                schemaData={[breadcrumbSchema, faqSchema]}
             />
 
             {/* Hero Section */}
