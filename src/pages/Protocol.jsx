@@ -777,7 +777,7 @@ const Protocol = () => {
                             letterSpacing: '0.05em',
                             fontFamily: '"Manrope", sans-serif'
                         }}>
-                            OPERATIONAL DEPLOYMENT
+                            CLINICAL IMPLEMENTATION
                         </h2>
                         <p style={{
                             color: 'var(--color-accent-teal)',
