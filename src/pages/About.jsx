@@ -118,13 +118,13 @@ export default function About() {
                     </div>
                     <div>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            When I graduated from Medical School in 2009, I thought medicine would be like the TV dramas—George Clooney in the ER, saving lives at 90mph.
+                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine—first Emergency Medicine, then General Practice. The work was rewarding, but the lifestyle was brutal.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            The reality was different. It was a <strong>grinding machine</strong>. I was conscientious and top of my class, but the system wasn't designed for health; it was designed for <strong>sick-care</strong>.
+                            Night shifts. Understaffing. Chronic stress. The "work hard, play hard" culture from medical school followed me into practice. Alcohol became stress relief. Sleep became a luxury. Nutrition became an afterthought.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I found myself stagnating. I was treating patients, but I was losing myself.
+                            I was treating patients, but I was losing myself.
                         </p>
                     </div>
                 </section>
@@ -208,13 +208,13 @@ export default function About() {
                     </div>
                     <div style={{ order: 1 }}>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            I didn't turn my back on Western Medicine—I just stopped relying on it to fix my lifestyle.
+                            In 2022, I made a choice: fix the root cause or accept decline.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I <strong>pivoted</strong>. I used my medical training to dissect the science of Metabolic Health and Longevity. I lost 30kg. I fixed my sleep. I cleared the fog.
+                            I didn't need willpower. I needed a protocol. I optimized my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. I lost 30kg. Sleep apnea resolved. Energy stabilized.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            <strong style={{ color: 'var(--color-accent-teal)' }}>Empowervida</strong> is the result of that journey. It is the advice I wish I could give you in a 15-minute consult, but can't.
+                            Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
                         </p>
                     </div>
                 </section>
@@ -260,10 +260,11 @@ export default function About() {
                     <h2 style={{ fontSize: '2rem', marginBottom: '3rem', color: 'var(--color-text)', fontWeight: '700' }}>The Foundation</h2>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
                         {[
-                            { label: 'Medical School 2009', icon: '🎓' },
-                            { label: '16 Years Clinical Practice', icon: '⚕️' },
-                            { label: 'Evidence-Based Protocols', icon: '🔬' },
-                            { label: 'Personal Transformation', icon: '💪' }
+                            { label: 'University of Aberdeen 2009', icon: '🎓' },
+                            { label: '5 Years Emergency Medicine', icon: '🚑' },
+                            { label: '5 Years General Practice', icon: '⚕️' },
+                            { label: 'Lost 30kg in 2022', icon: '💪' },
+                            { label: 'Polln Clinic Holistic Medicine', icon: '🌿' }
                         ].map((cred, index) => (
                             <div key={index} style={{
                                 padding: '1.5rem 2rem',

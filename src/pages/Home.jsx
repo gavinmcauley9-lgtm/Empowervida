@@ -104,6 +104,69 @@ export default function Home() {
                 </motion.div>
             </HeroSection>
 
+            {/* ABOUT DR. GAVIN SECTION */}
+            <section style={{
+                padding: '6rem 2rem',
+                background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
+                borderTop: '1px solid rgba(26, 60, 52, 0.1)'
+            }}>
+                <div className="container" data-aos="fade-up" style={{ maxWidth: '900px', margin: '0 auto' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                        <h2 style={{
+                            fontSize: 'clamp(2rem, 4vw, 3rem)',
+                            fontWeight: 800,
+                            color: '#1A3C34',
+                            marginBottom: '1rem',
+                            fontFamily: '"Manrope", sans-serif',
+                            letterSpacing: '-0.02em'
+                        }}>
+                            ABOUT DR. GAVIN
+                        </h2>
+                        <div style={{
+                            width: '80px',
+                            height: '4px',
+                            background: 'var(--color-accent-teal)',
+                            margin: '0 auto 2rem'
+                        }}></div>
+                    </div>
+
+                    <div style={{
+                        background: '#FFFFFF',
+                        borderRadius: '20px',
+                        padding: '3rem',
+                        boxShadow: '0 10px 40px rgba(0,0,0,0.08)',
+                        border: '1px solid rgba(26, 60, 52, 0.1)'
+                    }}>
+                        <p style={{
+                            fontSize: '1.2rem',
+                            lineHeight: '1.8',
+                            color: 'var(--color-text)',
+                            marginBottom: '1.5rem',
+                            textAlign: 'center'
+                        }}>
+                            <strong>Dr. Gavin McAuley</strong> is a physician who lost 30kg by treating the root cause—not the symptoms. After 15 years practicing Emergency Medicine and General Practice, he reversed his own insulin resistance and now specializes in holistic longevity medicine, helping others optimize their healthspan through evidence-based protocols.
+                        </p>
+                        <p style={{
+                            fontSize: '1rem',
+                            color: 'var(--color-text-muted)',
+                            textAlign: 'center',
+                            fontStyle: 'italic'
+                        }}>
+                            University of Aberdeen, 2009
+                        </p>
+                        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+                            <Link
+                                to="/about"
+                                className="btn-secondary"
+                                style={{ padding: '0.8rem 2rem' }}
+                            >
+                                READ FULL STORY
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* NEW: Content Portal Section */}
             <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
                 <div className="container" data-aos="fade-up">
