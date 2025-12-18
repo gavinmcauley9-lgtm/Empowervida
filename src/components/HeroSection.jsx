@@ -30,7 +30,8 @@ const HeroSection = ({
             textAlign: 'center',
             overflow: 'hidden',
             backgroundColor: '#FFFFFF',
-            color: textColor
+            color: textColor,
+            paddingTop: '80px'
         }}>
             {/* Background Image Layer - Ken Burns Effect */}
             <motion.div
