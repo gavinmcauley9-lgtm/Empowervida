@@ -53,7 +53,12 @@ export default function Home() {
             />
             <HeroSection
                 backgroundImage="/home_hero_fade.png"
-                title="EMPOWERVIDA"
+                title={
+                    <>
+                        <span style={{ color: '#1A3C34' }}>EMPOWER</span>
+                        <span style={{ color: '#20B2AA' }}>VIDA</span>
+                    </>
+                }
                 subtitle="LONGEVITY, PRESCRIBED."
                 overlay="radial-gradient(circle at center, rgba(255,255,255,0) 0%, #FFFFFF 100%)"
                 textColor="#1A3C34"
