@@ -14,6 +14,54 @@ const MitochondrialGuide = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // FAQ Schema for Rich Snippets
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are mitochondria and why are they important?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mitochondria are the powerhouses of your cells, responsible for producing ATP (cellular energy). They determine your energy levels, cognitive function, athletic performance, and rate of aging. Healthy mitochondria mean vibrant energy, sharp focus, and resilient cells. Dysfunctional mitochondria lead to chronic fatigue, brain fog, accelerated aging, and metabolic disease."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I improve mitochondrial function?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The three-pillar approach: 1) FUEL with NAD+ precursors (NMN/NR), CoQ10 (ubiquinol form), and creatine. 2) PROTECT with PQQ, curcumin, and alpha-lipoic acid to reduce oxidative stress. 3) REBUILD with urolithin A (mitophagy activator), resveratrol, and strength training to stimulate mitochondrial biogenesis."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What supplements are best for mitochondrial health?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Evidence-based core stack: CoQ10 (ubiquinol 100-200mg daily), ALCAR (1-2g daily), PQQ (10-20mg daily), Alpha-Lipoic Acid (300-600mg daily), NAD+ precursors (NMN 250-500mg or NR 300-500mg), and Creatine Monohydrate (5g daily). These work synergistically to fuel, protect, and rebuild mitochondria."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are signs of poor mitochondrial function?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key indicators include: chronic fatigue despite adequate sleep, brain fog and poor focus, difficulty recovering from exercise, muscle weakness, cold intolerance, metabolic dysfunction (insulin resistance), premature aging signs, and inability to handle stress. These symptoms suggest your mitochondria aren't producing enough ATP efficiently."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is NAD+ and why does it decline with age?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "NAD+ (nicotinamide adenine dinucleotide) is a critical coenzyme for mitochondrial energy production. It declines 50% by age 40 due to increased consumption by DNA repair enzymes and inflammation. This decline directly impairs mitochondrial function and cellular energy. Supplementing with NAD+ precursors (NMN or NR) can restore levels and improve energy, cognition, and metabolic health."
+                }
+            }
+        ]
+    };
+
     return (
         <>
             <Helmet>
@@ -76,6 +124,11 @@ const MitochondrialGuide = () => {
                             "name": "Mitochondrial Dysfunction"
                         }
                     })}
+                </script>
+
+                {/* FAQ Schema for Rich Snippets */}
+                <script type="application/ld+json">
+                    {JSON.stringify(faqSchema)}
                 </script>
             </Helmet>
 
