@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect } from 'react';
+import React, { Suspense, useEffect, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import AOS from 'aos';
@@ -7,25 +7,52 @@ import Scene from './components/Scene';
 import Cursor from './components/Cursor';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
-import Diagnostics from './pages/Diagnostics';
-import AdvancedOptimization from './pages/AdvancedOptimization';
-import EnvironmentalDefense from './pages/EnvironmentalDefense';
-import Protocol from './pages/Protocol';
-import EngineRoom from './pages/EngineRoom';
-import Shop from './pages/Shop';
-import MitochondrialGuide from './pages/MitochondrialGuide';
-import LongevityGuide from './pages/LongevityGuide';
-import Privacy from './pages/Privacy';
-import AffiliateDisclaimer from './pages/AffiliateDisclaimer';
-import TermsConditions from './pages/TermsConditions';
-import InsulinStory from './pages/InsulinStory';
-
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
+
+// Lazy load all pages for code splitting
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
+const Diagnostics = lazy(() => import('./pages/Diagnostics'));
+const AdvancedOptimization = lazy(() => import('./pages/AdvancedOptimization'));
+const EnvironmentalDefense = lazy(() => import('./pages/EnvironmentalDefense'));
+const Protocol = lazy(() => import('./pages/Protocol'));
+const EngineRoom = lazy(() => import('./pages/EngineRoom'));
+const Shop = lazy(() => import('./pages/Shop'));
+const MitochondrialGuide = lazy(() => import('./pages/MitochondrialGuide'));
+const LongevityGuide = lazy(() => import('./pages/LongevityGuide'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const AffiliateDisclaimer = lazy(() => import('./pages/AffiliateDisclaimer'));
+const TermsConditions = lazy(() => import('./pages/TermsConditions'));
+const InsulinStory = lazy(() => import('./pages/InsulinStory'));
+
+// Loading component for better UX during lazy load
+const PageLoader = () => (
+  <div style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: '100vh',
+    background: 'var(--color-bg)'
+  }}>
+    <div style={{
+      width: '50px',
+      height: '50px',
+      border: '3px solid rgba(32, 178, 170, 0.2)',
+      borderTop: '3px solid var(--color-accent-teal)',
+      borderRadius: '50%',
+      animation: 'spin 1s linear infinite'
+    }}></div>
+    <style>{`
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    `}</style>
+  </div>
+);
 
 function AppContent() {
   const location = useLocation();
@@ -77,7 +104,7 @@ function AppContent() {
 
       <Navigation />
 
-      <Suspense fallback={null}>
+      <Suspense fallback={<PageLoader />}>
         <div id="main-content">
           <Routes>
             <Route path="/" element={<Home />} />

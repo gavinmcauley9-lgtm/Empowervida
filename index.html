@@ -30,11 +30,25 @@
   <meta property="twitter:description"
     content="Evidence-based protocols for metabolic optimization, mitochondrial health, and cognitive performance." />
   <meta property="twitter:image" content="https://empowervida.com/sterile_biological_texture.png" />
+
+  <!-- Performance Optimization: DNS Prefetch for faster external resource loading -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://raw.githubusercontent.com">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+  <!-- Async font loading to prevent render blocking -->
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Manrope:wght@400;700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet">
+  </noscript>
   <!-- Start Single Page Apps for GitHub Pages -->
   <script type="text/javascript">
     // Single Page Apps for GitHub Pages

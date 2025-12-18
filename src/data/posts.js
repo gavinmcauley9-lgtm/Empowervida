@@ -18,8 +18,8 @@ export const POSTS = [
     excerpt: 'Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.',
     date: 'Dec 09, 2025',
     cta: {
-      text: "Get The Metabolic Reset",
-      link: "/shop"
+      text: "Get The Metabolic Reset Protocol",
+      link: "/protocol#metabolic-stack"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
@@ -372,8 +372,8 @@ export const POSTS = [
     excerpt: 'By 40, you\'ve lost 50% of your cellular energy currency. By 60, you\'re running on fumes. This isn\'t aging—it\'s a fixable energy crisis hiding in plain sight.',
     date: 'Dec 01, 2025',
     cta: {
-      text: "Get Dr. Gavin's NAD+ Protocol",
-      link: "/shop"
+      text: "Get Dr. Gavin's Longevity Protocol",
+      link: "/protocol#longevity-stack"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
@@ -516,7 +516,7 @@ export const POSTS = [
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Gut Repair Protocol",
-      link: "/shop"
+      link: "/protocol#gut-stack"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
@@ -771,8 +771,8 @@ export const POSTS = [
     excerpt: 'That heavy, foggy feeling when you wake up? It\'s not tiredness—it\'s metabolic waste. Your brain\'s dishwasher only runs during deep sleep.',
     date: 'Nov 30, 2025',
     cta: {
-      text: "Get Dr. Gavin's Brain-Clearing Stack",
-      link: "/shop"
+      text: "Get Dr. Gavin's Sleep & Recovery Protocol",
+      link: "/protocol#sleep-stack"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
@@ -914,7 +914,7 @@ export const POSTS = [
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Cognitive Stack",
-      link: "/shop"
+      link: "/protocol#clarity-stack"
     },
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>

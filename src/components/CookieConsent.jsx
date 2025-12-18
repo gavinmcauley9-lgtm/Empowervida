@@ -13,6 +13,11 @@ const CookieConsent = () => {
         } else if (consent === 'all') {
             loadTrackingScripts();
         }
+
+        // Listen for reopen event/trigger
+        const handleReopen = () => setIsVisible(true);
+        window.addEventListener('openCookieSettings', handleReopen);
+        return () => window.removeEventListener('openCookieSettings', handleReopen);
     }, []);
 
     const loadTrackingScripts = () => {

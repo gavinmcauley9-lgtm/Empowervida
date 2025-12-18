@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import HeroSection from '../components/HeroSection';
 
 export default function InsulinStory() {
     const sectionStyle = {
@@ -86,104 +87,47 @@ export default function InsulinStory() {
             />
 
             {/* HERO SECTION */}
-            <section style={{
-                position: 'relative',
-                minHeight: '85vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                background: 'linear-gradient(135deg, #1A3C34 0%, #0F2922 100%)',
-                color: '#FFFFFF',
-                padding: '8rem 2rem 6rem',
-                textAlign: 'center',
-                overflow: 'hidden'
-            }}>
-                {/* Subtle Grid Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px)',
-                    backgroundSize: '50px 50px',
-                    opacity: 0.3,
-                    pointerEvents: 'none'
-                }}></div>
-
-                <div style={{ position: 'relative', zIndex: 2, maxWidth: '1000px' }}>
-                    {/* Kicker */}
-                    <div style={{
-                        fontSize: '0.9rem',
-                        letterSpacing: '0.15em',
-                        textTransform: 'uppercase',
-                        color: 'var(--color-accent-teal)',
-                        fontWeight: '600',
-                        marginBottom: '1.5rem'
-                    }}>
-                        The Longevity Architect Presents
-                    </div>
-
-                    <h1 style={{
-                        fontSize: 'clamp(2.5rem, 6vw, 5rem)',
-                        fontWeight: '900',
-                        lineHeight: '1.1',
-                        marginBottom: '2rem',
-                        fontFamily: '"Manrope", sans-serif',
-                        textShadow: '0 4px 20px rgba(0,0,0,0.3)'
-                    }}>
-                        The Insulin Story:<br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>Why You Are Aging Faster Than You Think</span>
-                    </h1>
-
-                    {/* The Tale of Two Eaters Hook */}
-                    <div style={{
-                        fontSize: 'clamp(1.2rem, 2vw, 1.6rem)',
-                        lineHeight: '1.7',
-                        color: 'rgba(255,255,255,0.95)',
-                        maxWidth: '800px',
-                        margin: '0 auto 3rem',
-                        fontWeight: '300'
-                    }}>
-                        <p style={{ marginBottom: '1.5rem' }}>
-                            Feed two people the exact same meal.
-                        </p>
-                        <p style={{ marginBottom: '1.5rem' }}>
-                            One stays lean. The other stores fat.
-                        </p>
-                        <p style={{ marginBottom: '1.5rem' }}>
-                            One feels energized. The other suffers a "food coma."
-                        </p>
-                        <p style={{ fontSize: '1.4rem', fontWeight: '600', color: 'var(--color-accent-teal)', marginTop: '2rem' }}>
-                            This is not about willpower.<br />
-                            This is about <strong>Insulin Resistance</strong>.
-                        </p>
-                    </div>
-
-                    {/* Hero Image */}
-                    <img
-                        src="/hero_cell_energy.png"
-                        alt="Photorealistic 3D visualization of a human cell with golden mitochondrial energy glow - Medical Luxury aesthetic"
-                        style={{
-                            ...imageStyle,
-                            marginTop: '4rem',
-                            maxWidth: '800px',
-                            margin: '4rem auto 0'
-                        }}
-                    />
-
-                    {/* Scroll Indicator */}
-                    <div style={{
-                        marginTop: '4rem',
-                        fontSize: '0.85rem',
-                        color: 'rgba(255,255,255,0.6)',
-                        letterSpacing: '0.1em',
-                        textTransform: 'uppercase'
-                    }}>
-                        Scroll to Discover ↓
-                    </div>
-                </div>
-            </section>
+            <HeroSection
+                backgroundImage="/hero_cell_energy.png"
+                title="THE INSULIN STORY"
+                subtitle="Why You Are Aging Faster Than You Think"
+                overlay="linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.4) 70%, rgba(250,250,250,0.9) 95%, rgba(250,250,250,1) 100%)"
+                textColor="#FFFFFF"
+                subtitleColor="#20B2AA"
+                textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
+                subtitleShadow="0 3px 20px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.7)"
+                subtitleWeight="700"
+            >
+                <p style={{
+                    fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
+                    fontWeight: 400,
+                    fontStyle: 'italic',
+                    opacity: 1,
+                    color: '#374151',
+                    textShadow: 'none',
+                    marginBottom: '1rem'
+                }}>
+                    Feed two people the exact same meal. One stays lean. The other stores fat.
+                </p>
+                <p style={{
+                    fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
+                    fontWeight: 600,
+                    color: 'var(--color-accent-teal)',
+                    textShadow: 'none'
+                }}>
+                    This is not about willpower. This is about Insulin Resistance.
+                </p>
+                <p style={{
+                    fontSize: '1rem',
+                    marginTop: '1rem',
+                    opacity: 1,
+                    color: '#1F2937',
+                    textShadow: 'none',
+                    fontWeight: 600
+                }}>
+                    By Dr. Gavin | The Longevity Architect
+                </p>
+            </HeroSection>
 
             {/* MAIN CONTENT */}
             <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
@@ -244,7 +188,7 @@ export default function InsulinStory() {
                     </p>
 
                     <div style={citationStyle}>
-                        <strong>Scientific Foundation:</strong> This model is supported by the groundbreaking work of <strong>Dr. Gerald Shulman</strong> at Yale University, whose research on intramyocellular lipids demonstrated that fat accumulation inside muscle cells directly impairs insulin signaling and mitochondrial function.
+                        <strong>Scientific Foundation:</strong> This model is supported by the groundbreaking work of <strong>Dr. Gerald Shulman</strong> at Yale University, whose research on intramyocellular lipids demonstrated that fat accumulation inside muscle cells directly impairs insulin signaling and mitochondrial function.<sup>1,2</sup>
                     </div>
                 </section>
 
@@ -254,7 +198,7 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.15rem', color: 'var(--color-text-muted)' }}>
-                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years—often decades—before symptoms appear.
+                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years—often decades—before symptoms appear.<sup>3</sup>
                     </p>
 
                     {/* STAGE 1: METABOLIC FLEXIBILITY */}
@@ -380,7 +324,7 @@ export default function InsulinStory() {
                                 marginTop: '2rem'
                             }}>
                                 <p style={{ fontSize: '1.15rem', fontWeight: '600', color: 'var(--color-text)', marginBottom: '0' }}>
-                                    ⚠️ <strong>Critical Insight:</strong> This stage can persist for <strong>10-20 years</strong> before blood glucose rises. By the time you're diagnosed with "Pre-Diabetes," the damage is already systemic.
+                                    ⚠️ <strong>Critical Insight:</strong> This stage can persist for <strong>10-20 years</strong> before blood glucose rises.<sup>4,5</sup> By the time you're diagnosed with "Pre-Diabetes," the damage is already systemic.
                                 </p>
                             </div>
 
@@ -508,10 +452,10 @@ export default function InsulinStory() {
                                 <strong>Damage:</strong>
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
-                                <li>Vascular stiffening → High BP</li>
-                                <li>Cancer growth signaling (mTOR, IGF-1)</li>
-                                <li>Brain inflammation → Alzheimer's</li>
-                                <li>Hormonal disruption (PCOS, low testosterone)</li>
+                                <li>Vascular stiffening → High BP<sup>6</sup></li>
+                                <li>Cancer growth signaling (mTOR, IGF-1)<sup>7,8</sup></li>
+                                <li>Brain inflammation → Alzheimer's<sup>9</sup></li>
+                                <li>Hormonal disruption (PCOS, low testosterone)<sup>10</sup></li>
                             </ul>
                         </div>
 
@@ -552,8 +496,8 @@ export default function InsulinStory() {
                                 <strong>Damage:</strong>
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
-                                <li>AGEs (Advanced Glycation End-products)</li>
-                                <li>Skin aging (wrinkles, loss of elasticity)</li>
+                                <li>AGEs (Advanced Glycation End-products)<sup>11</sup></li>
+                                <li>Skin aging (wrinkles, loss of elasticity)<sup>12</sup></li>
                                 <li>Organ brittleness (kidneys, nerves, eyes)</li>
                                 <li>Accelerated cellular aging</li>
                             </ul>
@@ -719,6 +663,65 @@ export default function InsulinStory() {
                         >
                             Explore The Diagnostics →
                         </Link>
+                    </div>
+                </section>
+
+                {/* REFERENCES SECTION */}
+                <section style={{ ...sectionStyle, marginTop: '8rem', paddingTop: '4rem', borderTop: '3px solid var(--color-accent-teal)' }}>
+                    <h2 style={{ ...headingStyle, fontSize: 'clamp(2rem, 3.5vw, 2.8rem)' }}>Scientific References</h2>
+                    <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
+
+                    <div style={{ fontSize: '1rem', lineHeight: '1.9', color: 'var(--color-text)' }}>
+                        <ol style={{ marginLeft: '1.5rem', counterReset: 'item' }}>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Petersen KF, Shulman GI.</strong> Etiology of insulin resistance. <em>Am J Med</em>. 2006;119(5 Suppl 1):S10-6. doi:<a href="https://doi.org/10.1016/j.amjmed.2006.01.009" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/j.amjmed.2006.01.009</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Shulman GI.</strong> Ectopic fat in insulin resistance, dyslipidemia, and cardiometabolic disease. <em>N Engl J Med</em>. 2014;371(12):1131-41. doi:<a href="https://doi.org/10.1056/NEJMra1011035" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1056/NEJMra1011035</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Weir GC, Bonner-Weir S.</strong> Five stages of evolving beta-cell dysfunction during progression to diabetes. <em>Diabetes</em>. 2004;53 Suppl 3:S16-21. doi:<a href="https://doi.org/10.2337/diabetes.53.suppl_3.s16" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/diabetes.53.suppl_3.s16</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Kraft JR.</strong> Diabetes Epidemic & You: Should Everyone Be Tested? <em>Trafford Publishing</em>; 2008. [<em>Landmark analysis of ~14,500 patients demonstrating hyperinsulinemia decades before glucose abnormalities</em>]
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Tabák AG, Jokela M, Akbaraly TN, Brunner EJ, Kivimäki M, Witte DR.</strong> Trajectories of glycaemia, insulin sensitivity, and insulin secretion before diagnosis of type 2 diabetes: an analysis from the Whitehall II study. <em>Lancet</em>. 2009;373(9682):2215-21. doi:<a href="https://doi.org/10.1016/S0140-6736(09)60619-X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/ S0140-6736(09)60619-X</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Muris DM, Houben AJ, Schram MT, Stehouwer CD.</strong> Microvascular dysfunction is associated with a higher incidence of type 2 diabetes mellitus: a systematic review and meta-analysis. <em>Arterioscler Thromb Vasc Biol</em>. 2012;32(12):3082-94. doi:<a href="https://doi.org/10.1161/ATVBAHA.112.300291" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1161/ATVBAHA.112.300291</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Arcidiacono B, Iiritano S, Nocera A, et al.</strong> Insulin resistance and cancer risk: an overview of the pathogenetic mechanisms. <em>Exp Diabetes Res</em>. 2012;2012:789174. doi:<a href="https://doi.org/10.1155/2012/789174" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1155/2012/789174</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Gallagher EJ, LeRoith D.</strong> Obesity and diabetes: the increased risk of cancer and cancer-related mortality. <em>Physiol Rev</em>. 2015;95(3):727-48. doi:<a href="https://doi.org/10.1152/physrev.00030.2014" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1152/physrev.00030.2014</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>De Felice FG, Ferreira ST.</strong> Inflammation, defective insulin signaling, and mitochondrial dysfunction as common molecular denominators connecting type 2 diabetes to Alzheimer disease. <em>Diabetes</em>. 2014;63(7):2262-72. doi:<a href="https://doi.org/10.2337/db13-1954" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/db13-1954</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Diamanti-Kandarakis E, Dunaif A.</strong> Insulin resistance and the polycystic ovary syndrome revisited: an update on mechanisms and implications. <em>Endocr Rev</em>. 2012;33(6):981-1030. doi:<a href="https://doi.org/10.1210/er.2011-1034" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1210/er.2011-1034</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Singh R, Barden A, Mori T, Beilin L.</strong> Advanced glycation end-products: a review. <em>Diabetologia</em>. 2001;44(2):129-46. doi:<a href="https://doi.org/10.1007/s001250051591" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1007/s001250051591</a>
+                            </li>
+                            <li style={{ marginBottom: '1.5rem' }}>
+                                <strong>Pageon H, Asselineau D.</strong> An in vitro approach to the chronological aging of skin by glycation of the collagen: the biological effect of glycation on the reconstructed skin model. <em>Ann N Y Acad Sci</em>. 2005;1043:529-32. doi:<a href="https://doi.org/10.1196/annals.1333.060" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1196/annals.1333.060</a>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div style={{
+                        background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.08) 0%, rgba(32, 178, 170, 0.03) 100%)',
+                        border: '1px solid rgba(32, 178, 170, 0.2)',
+                        borderRadius: '12px',
+                        padding: '2rem',
+                        marginTop: '3rem'
+                    }}>
+                        <p style={{ fontSize: '1rem', lineHeight: '1.7', color: 'var(--color-text)', marginBottom: '0', fontStyle: 'italic' }}>
+                            <strong>Medical Disclaimer:</strong> This content is for educational purposes only and does not constitute medical advice. The research cited represents current scientific understanding as of publication. Individual responses to metabolic interventions vary. Always consult your healthcare provider before making changes to your health regimen.
+                        </p>
                     </div>
                 </section>
 

@@ -21,24 +21,6 @@ const Protocol = () => {
         }
     }, [hash]);
 
-    const phases = [
-        {
-            title: "PHASE 1: THE ENGINE BLOCK",
-            subtitle: "Foundation",
-            content: "The non-negotiables. Includes Coenzyme Q10 (Ubiquinol) 100-200mg for the spark, Magnesium Malate 300-400mg for stability, and High-Strength B-Complex (B2 & B3) as co-factors."
-        },
-        {
-            title: "PHASE 2: THE FUEL INJECTORS",
-            subtitle: "Transport",
-            content: "The delivery system. Includes Acetyl-L-Carnitine (ALCAR) 500-1000mg to shuttle fatty acids into the brain and mitochondria, and Creatine Monohydrate 5g as a cellular battery buffer."
-        },
-        {
-            title: "PHASE 3: THE EXHAUST SYSTEM",
-            subtitle: "Antioxidants",
-            content: "The shield against toxic waste. Includes N-Acetyl Cysteine (NAC) 600mg to replenish Glutathione, Alpha-Lipoic Acid (ALA) 300-600mg to recycle antioxidants, and Vitamin C 500-1000mg."
-        }
-    ];
-
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -67,19 +49,20 @@ const Protocol = () => {
             overflowX: 'hidden'
         }}>
             <SEO
-                title="The Master Protocols - Clinical Longevity Stack | EMPOWERVIDA"
-                description="Physician-designed supplement protocols for energy (Vitality), focus (Clarity), and cellular resilience (Foundation). Evidence-based stacks with exact dosing and timing."
-                keywords="longevity supplement protocol, mitochondrial support supplements, brain fog supplements, CoQ10 protocol, magnesium l-threonate, cellular health stack, anti-aging supplement regimen"
+                title="The 7 Master Protocols - Clinical Longevity Stack | EMPOWERVIDA"
+                description="Physician-designed supplement protocols for longevity, brain health, energy, gut repair, sleep, and metabolic health. Evidence-based stacks with exact dosing."
+                keywords="longevity supplement protocol, brain fog supplements, gut health protocol, sleep supplements, metabolic health, insulin sensitivity, mitochondrial support"
                 canonical="/protocol"
                 ogImage="/protocol_hero_fire_v2.jpg"
                 schemaData={breadcrumbSchema}
             />
+
             {/* Hero Section */}
             <HeroSection
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
-                        THE MASTER PROTOCOLS: <br />
+                        THE 7 MASTER PROTOCOLS: <br />
                         <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
                     </>
                 }
@@ -103,7 +86,7 @@ const Protocol = () => {
             </HeroSection>
 
             {/* Introduction */}
-            <section style={{ padding: '2rem 2rem', maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
+            <section style={{ padding: '2rem 2rem', maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
                 <motion.p
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
@@ -113,20 +96,21 @@ const Protocol = () => {
                         fontSize: '1.25rem',
                         lineHeight: 1.8,
                         color: 'var(--color-text)',
-                        fontWeight: 400
+                        fontWeight: 400,
+                        marginBottom: '2rem'
                     }}
                 >
-                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed three distinct protocols to secure the primary pillars of human performance: <strong style={{ color: 'var(--color-accent-teal)' }}>Vitality (Mitochondrial Energy), Clarity (Cognitive Processing), and Foundation (Genomic Resilience).</strong> Choose your target.
+                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimization. <strong>Yes, there is overlap—that's biology.</strong> Choose your primary target, then layer as needed.
                 </motion.p>
             </section>
 
-            {/* The Protocol Phases */}
+            {/* The Protocol Sections */}
             <section style={{
                 padding: '6rem 2rem 8rem',
                 position: 'relative',
                 overflow: 'hidden'
             }}>
-                {/* Background for Phases */}
+                {/* Background */}
                 <div style={{
                     position: 'absolute',
                     top: 0,
@@ -149,337 +133,669 @@ const Protocol = () => {
                     position: 'relative',
                     zIndex: 1
                 }}>
-                    {/* SECTION 1: VITALITY (The Energy Matrix) */}
-                    <div id="vitality-stack" className="protocol-phase" style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '4rem',
-                        alignItems: 'center',
-                        marginBottom: '8rem',
-                        scrollMarginTop: '120px' // Offset for fixed header
+
+                    {/* PROTOCOL 1: LONGEVITY (FOUNDATION) */}
+                    <div id="longevity-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(26, 60, 52, 0.1)',
+                        scrollMarginTop: '120px'
                     }}>
-                        <div data-aos="fade-right">
-                            <div style={{
-                                fontSize: '4rem',
-                                fontWeight: 800,
-                                color: 'rgba(0,0,0,0.05)',
-                                lineHeight: 1,
-                                marginBottom: '-1rem',
-                                marginLeft: '-0.5rem'
-                            }}>01</div>
-                            <h2 style={{
-                                fontSize: '2.5rem',
-                                color: '#1A3C34',
-                                marginBottom: '0.5rem',
-                                fontFamily: '"Manrope", sans-serif'
-                            }}>
-                                VITALITY: THE ENERGY MATRIX
-                            </h2>
-                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                Targeted support for ATP synthesis and mitochondrial respiration.
-                            </p>
-                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The engine block of your biology. This stack is designed to optimize the electron transport chain, ensuring your cells have the raw power to perform.
-                            </p>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(26, 60, 52, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>01</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#1A3C34',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            LONGEVITY: THE FOUNDATION
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: 'var(--color-accent-teal)',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Genomic stability, cellular resilience, daily non-negotiables
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy—the supplements everyone should take, regardless of specific goals.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(26, 60, 52, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A3C34' }}>The Stack:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Creatine Monohydrate (5g)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
+                                    <strong>Vitamin D3 (5,000 IU) + K2 (MK-7, 100mcg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Controls 5% of your genome. K2 directs calcium to bones, not arteries.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> CoQ10 Ubiquinol (200mg)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
+                                    <strong>GlyNAC Complex (Glycine 2g + NAC 1.2g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Proven to reverse aging markers.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Acetyl-L-Carnitine (1g)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
+                                    <strong>Methylated B-Complex</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Supports methylation pathways critical for DNA repair and neurotransmitter synthesis.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
+                                    <strong>Omega-3 (EPA/DHA 2-3g daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Membrane fluidity, anti-inflammatory, cardiovascular protection.</span>
                                 </li>
                             </ul>
                         </div>
-                        <div data-aos="fade-left" style={{
-                            background: '#F5F5F7',
-                            borderRadius: '24px',
-                            padding: '3rem',
-                            minHeight: '400px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center'
-                        }}>
-                            <img src="/vitality_mitochondria.png" alt="Mitochondrial Structure" loading="lazy" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
-                        </div>
                     </div>
 
-                    {/* SECTION 2: CLARITY (Neuro-Optimization) */}
+                    {/* PROTOCOL 2: BRAIN FOG / CLARITY */}
                     <div id="clarity-stack" className="protocol-phase" style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '4rem',
-                        alignItems: 'center',
-                        marginBottom: '8rem',
-                        direction: 'rtl', // Alternating layout
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(0, 128, 128, 0.1)',
                         scrollMarginTop: '120px'
                     }}>
-                        <div data-aos="fade-left" style={{ direction: 'ltr' }}>
-                            <div style={{
-                                fontSize: '4rem',
-                                fontWeight: 800,
-                                color: 'rgba(0,0,0,0.05)',
-                                lineHeight: 1,
-                                marginBottom: '-1rem',
-                                marginLeft: '-0.5rem'
-                            }}>02</div>
-                            <h2 style={{
-                                fontSize: '2.5rem',
-                                color: '#1A3C34',
-                                marginBottom: '0.5rem',
-                                fontFamily: '"Manrope", sans-serif'
-                            }}>
-                                CLARITY: NEURO-OPTIMIZATION
-                            </h2>
-                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                Enhancing neuroplasticity, focus, and processing speed.
-                            </p>
-                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The software upgrade. This stack targets synaptic density and neurotransmitter balance to cut through brain fog and sharpen cognitive edge.
-                            </p>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(0, 128, 128, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>02</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#008080',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            BRAIN FOG / CLARITY
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#008080',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Acute cognitive enhancement, focus, processing speed
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The software upgrade. This stack targets neurotransmitter synthesis, synaptic density, and mental clarity. For when you need to think sharper, faster, clearer—today.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(0, 128, 128, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#008080' }}>The Stack:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Magnesium L-Threonate (2g)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>Creatine Monohydrate (5g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Brain ATP buffer. Proven to improve working memory and reduce mental fatigue.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> High-DHA Omega-3 (2g)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>CDP-Choline / Citicoline (250-500mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Acetylcholine synthesis for memory and learning. Crosses blood-brain barrier.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> L-Theanine (200mg)
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>Rhodiola Rosea (300-500mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Adaptogen. Raises threshold for stress-induced cognitive decline. Take morning, empty stomach.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>L-Theanine (200mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Calm focus. Pairs with caffeine to smooth out jitters while maintaining alertness.</span>
                                 </li>
                             </ul>
-                        </div>
-                        <div data-aos="fade-right" style={{
-                            background: '#F5F5F7',
-                            borderRadius: '24px',
-                            padding: '3rem',
-                            minHeight: '400px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            direction: 'ltr'
-                        }}>
-                            <img src="/clarity_brain.png" alt="Neuro Optimization" loading="lazy" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
                         </div>
                     </div>
 
-                    {/* SECTION 3: FOUNDATION (Cellular Resilience) */}
-                    <div id="foundation-stack" className="protocol-phase" style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '4rem',
-                        alignItems: 'center',
-                        marginBottom: '8rem',
+                    {/* PROTOCOL 3: NEUROLONGEVITY */}
+                    <div id="neurolongevity-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(102, 126, 234, 0.1)',
                         scrollMarginTop: '120px'
                     }}>
-                        <div data-aos="fade-right">
-                            <div style={{
-                                fontSize: '4rem',
-                                fontWeight: 800,
-                                color: 'rgba(0,0,0,0.05)',
-                                lineHeight: 1,
-                                marginBottom: '-1rem',
-                                marginLeft: '-0.5rem'
-                            }}>03</div>
-                            <h2 style={{
-                                fontSize: '2.5rem',
-                                color: '#1A3C34',
-                                marginBottom: '0.5rem',
-                                fontFamily: '"Manrope", sans-serif'
-                            }}>
-                                FOUNDATION: CELLULAR RESILIENCE
-                            </h2>
-                            <p style={{ fontSize: '1.2rem', color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                The daily non-negotiables for genomic stability.
-                            </p>
-                            <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
-                                The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy.
-                            </p>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(102, 126, 234, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>03</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#667eea',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            NEUROLONGEVITY
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#667eea',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Long-term brain preservation, dementia prevention
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The structural rebuild. Not for today's meeting—for your brain at 80. This protocol targets brain-derived neurotrophic factor (BDNF), neuroplasticity, and protection against amyloid/tau accumulation.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(102, 126, 234, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#667eea' }}>The Stack:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Vitamin D3 + K2
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
+                                    <strong>Magnesium L-Threonate (2g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Only form that crosses blood-brain barrier to increase brain magnesium. Boosts BDNF.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> GlyNAC Complex
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
+                                    <strong>High-DHA Omega-3 (2g DHA minimum)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Brain is 60% fat. DHA is structural component of neurons. Anti-inflammatory.</span>
                                 </li>
-                                <li style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <span style={{ color: '#008080', fontWeight: 700 }}>+</span> Methylated B-Complex
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
+                                    <strong>Lions Mane Mushroom (1g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Stimulates nerve growth factor (NGF). Promotes neurogenesis and myelin repair.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
+                                    <strong>Curcumin (500mg, 2x daily with black pepper)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crosses blood-brain barrier. Reduces amyloid plaque formation. Potent anti-inflammatory.</span>
                                 </li>
                             </ul>
                         </div>
-                        <div data-aos="fade-left" style={{
-                            background: '#F5F5F7',
-                            borderRadius: '24px',
-                            padding: '3rem',
-                            minHeight: '400px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center'
+
+                        <div style={{
+                            background: 'rgba(255, 152, 0, 0.1)',
+                            borderLeft: '4px solid #FF9800',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            fontSize: '0.95rem',
+                            fontStyle: 'italic',
+                            color: 'var(--color-text)'
                         }}>
-                            <img src="/foundation_dna.png" alt="Cellular Resilience" loading="lazy" style={{ maxWidth: '100%', filter: 'drop-shadow(0 10px 30px rgba(0,128,128,0.2))' }} />
+                            <strong>Note:</strong> This protocol overlaps with Clarity (both use Creatine, Omega-3). The distinction: Clarity = acute performance. Neurolongevity = structural preservation over decades.
                         </div>
                     </div>
+
+                    {/* PROTOCOL 4: ENERGY / VITALITY */}
+                    <div id="vitality-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(255, 95, 0, 0.1)',
+                        scrollMarginTop: '120px'
+                    }}>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(255, 95, 0, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>04</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#FF5F00',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            ENERGY / VITALITY
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#FF5F00',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Mitochondrial ATP synthesis, electron transport chain optimization
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The engine block. This stack targets the root of cellular energy production—your mitochondria. For when you're done with caffeine band-aids and ready to fix the power plant.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(255, 95, 0, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF5F00' }}>The Stack:</h3>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
+                                    <strong>CoQ10 (Ubiquinol 200mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Electron carrier in the mitochondrial membrane. Must be Ubiquinol (active form) if over 40.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
+                                    <strong>Acetyl-L-Carnitine (1g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Shuttles fatty acids into mitochondria for beta-oxidation. Acetyl form crosses blood-brain barrier.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
+                                    <strong>PQQ (20mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Triggers mitochondrial biogenesis. Builds NEW power plants. Use BioPQQ® (natural fermentation).</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
+                                    <strong>Alpha-Lipoic Acid (R-ALA 300-600mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Universal antioxidant. Recycles vitamins C & E. Improves glucose uptake. Must be R-ALA (active form).</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    {/* PROTOCOL 5: GUT HEALTH */}
+                    <div id="gut-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(255, 107, 107, 0.1)',
+                        scrollMarginTop: '120px'
+                    }}>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(255, 107, 107, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>05</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#FF6B6B',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            GUT HEALTH: THE BARRIER
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#FF6B6B',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Intestinal barrier repair, systemic inflammation control
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The firewall. Your gut lining is ONE CELL THICK. When it breaks, bacterial toxins flood your bloodstream, triggering anxiety, joint pain, brain fog, and chronic fatigue. This protocol seals the barrier and extinguishes systemic inflammation.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(255, 152, 0, 0.1)',
+                            borderLeft: '4px solid #FF9800',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            marginBottom: '2rem',
+                            fontSize: '1rem',
+                            color: 'var(--color-text)'
+                        }}>
+                            <strong>⚠️ Critical:</strong> Supplements alone will NOT fix a broken gut if you're still eating inflammatory foods, taking NSAIDs daily, or living in chronic stress. <strong>Diet and lifestyle are non-negotiable foundations.</strong> These supplements accelerate repair—they don't replace discipline.
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(255, 107, 107, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF6B6B' }}>The Stack:</h3>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>L-Glutamine (5g, 2x daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Primary fuel for intestinal cells. Repairs tight junctions. Clinical trials show reduced permeability.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>Zinc Carnosine (75mg daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Directly heals gut lining. Used in Japan for gastric ulcers for decades.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>Collagen Peptides (10-20g daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Provides glycine and proline—building blocks for tissue repair.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>Curcumin (500mg, 2x daily with black pepper)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>NF-κB inhibitor. Blocks the master switch of inflammation.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>Omega-3 (EPA/DHA 2-3g daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Competes with inflammatory omega-6. Reduces IL-6 and TNF-alpha cytokine production.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
+                                    <strong>Spore-Based Probiotics (Bacillus subtilis, B. coagulans)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Survive stomach acid. Recolonize gut. Produce anti-inflammatory compounds.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(32, 178, 170, 0.1)',
+                            borderLeft: '4px solid var(--color-accent-teal)',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            fontSize: '0.95rem',
+                            color: 'var(--color-text)'
+                        }}>
+                            <strong>Timeline:</strong> 8-12 weeks for barrier repair. 3-6 months for full symptom resolution of systemic inflammation.
+                        </div>
+                    </div>
+
+                    {/* PROTOCOL 6: SLEEP & RECOVERY */}
+                    <div id="sleep-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(118, 75, 162, 0.1)',
+                        scrollMarginTop: '120px'
+                    }}>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(118, 75, 162, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>06</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#764ba2',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            SLEEP & RECOVERY
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#764ba2',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Glymphatic activation, deep sleep architecture, waste clearance
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The dishwasher. Your brain accumulates metabolic waste (amyloid beta, tau proteins) all day. The glymphatic system ONLY activates during deep Non-REM sleep to flush this sewage. Poor sleep = toxic brain = brain fog. This protocol optimizes sleep architecture for maximum waste clearance.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(118, 75, 162, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#764ba2' }}>The Stack:</h3>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
+                                    <strong>Magnesium Bisglycinate (400mg elemental)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Activates GABA receptors (brain's brake pedal). Superior absorption vs. oxide/citrate. Take 30-60 min before bed.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
+                                    <strong>Glycine (3g powder)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Lowers core body temperature by dilating extremity blood vessels—critical signal for deep sleep onset.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
+                                    <strong>Apigenin (50mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Flavonoid from chamomile. Binds to benzodiazepine receptors without addiction risk.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
+                                    <strong>L-Theanine (200mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crosses blood-brain barrier. Increases alpha waves. Calms without sedation.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(255, 152, 0, 0.1)',
+                            borderLeft: '4px solid #FF9800',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            fontSize: '0.95rem',
+                            fontStyle: 'italic',
+                            color: 'var(--color-text)'
+                        }}>
+                            <strong>Mechanical Hack:</strong> Sleep on your side (lateral decubitus position). Research shows glymphatic flow is 2x more efficient on your side vs. back/stomach. Gravity matters.
+                        </div>
+                    </div>
+
+                    {/* PROTOCOL 7: METABOLIC HEALTH */}
+                    <div id="metabolic-stack" className="protocol-phase" style={{
+                        background: 'var(--color-bg-secondary)',
+                        borderRadius: '24px',
+                        padding: '3rem',
+                        marginBottom: '4rem',
+                        border: '2px solid rgba(220, 38, 38, 0.1)',
+                        scrollMarginTop: '120px'
+                    }}>
+                        <div style={{
+                            fontSize: '3.5rem',
+                            fontWeight: 800,
+                            color: 'rgba(220, 38, 38, 0.08)',
+                            lineHeight: 1,
+                            marginBottom: '-1rem'
+                        }}>07</div>
+
+                        <h2 style={{
+                            fontSize: '2.5rem',
+                            color: '#DC2626',
+                            marginBottom: '0.5rem',
+                            fontFamily: '"Manrope", sans-serif'
+                        }}>
+                            METABOLIC HEALTH
+                        </h2>
+
+                        <p style={{
+                            fontSize: '1.2rem',
+                            color: '#DC2626',
+                            fontWeight: 700,
+                            marginBottom: '1.5rem',
+                            textTransform: 'uppercase',
+                            letterSpacing: '0.05em'
+                        }}>
+                            Insulin sensitivity, glucose disposal, mitochondrial efficiency
+                        </p>
+
+                        <p style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2rem',
+                            lineHeight: 1.6
+                        }}>
+                            The overflow prevention system. Insulin resistance is the root of accelerated aging—hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
+                        </p>
+
+                        <div style={{
+                            background: 'rgba(220, 38, 38, 0.05)',
+                            borderRadius: '12px',
+                            padding: '2rem',
+                            marginBottom: '2rem'
+                        }}>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#DC2626' }}>The Stack:</h3>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
+                                    <strong>Berberine (500mg, 2-3x daily with meals)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>AMPK activator. Shown to be as effective as Metformin for glucose control in clinical trials. Take with food.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
+                                    <strong>Alpha-Lipoic Acid (R-ALA 300-600mg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin-mediated glucose uptake. Recycles antioxidants. Must be R-ALA (active isomer).</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
+                                    <strong>Chromium Picolinate (200-400mcg)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Enhances insulin receptor signaling. Reduces cravings. Picolinate form has best absorption.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
+                                    <strong>Myo-Inositol (2g daily)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Second messenger for insulin signaling. Proven effective in PCOS and metabolic syndrome.</span>
+                                </li>
+                                <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
+                                    <strong>Cinnamon Extract (500mg Ceylon cinnamon)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin sensitivity. Must be Ceylon (not Cassia—high coumarin content).</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div style={{
+                            background: 'rgba(255, 152, 0, 0.1)',
+                            borderLeft: '4px solid #FF9800',
+                            padding: '1.5rem',
+                            borderRadius: '8px',
+                            fontSize: '0.95rem',
+                            color: 'var(--color-text)'
+                        }}>
+                            <strong>Note:</strong> This protocol has significant overlap with Energy/Vitality (ALA appears in both). The distinction: Metabolic Health targets glucose/insulin pathways. Energy targets ATP production. If you have insulin resistance, prioritize this stack.
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
-            {/* Operational Deployment Section */}
+            {/* Timing & Deployment Section */}
             <section style={{
                 padding: '0 0 8rem',
                 position: 'relative',
                 zIndex: 2,
                 background: 'var(--color-bg)'
             }}>
-                {/* Section Header */}
-                <div style={{
-                    position: 'relative',
-                    height: '500px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    marginBottom: '4rem',
-                    overflow: 'hidden'
-                }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
                     <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundImage: 'url(/clinical_supplements_white.png)',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        zIndex: 0
-                    }}></div>
-                    <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        background: 'linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, #FFFFFF 100%)',
-                        pointerEvents: 'none',
-                        zIndex: 1
-                    }}></div>
-                    <div style={{ position: 'relative', zIndex: 2, textAlign: 'center' }}>
+                        textAlign: 'center',
+                        marginBottom: '4rem'
+                    }}>
                         <h2 style={{
-                            fontSize: 'clamp(2rem, 4vw, 3.5rem)',
+                            fontSize: 'clamp(2rem, 4vw, 3rem)',
                             fontWeight: 800,
                             color: 'var(--color-text)',
+                            marginBottom: '1rem',
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em',
-                            fontFamily: '"Manrope", sans-serif',
-                            marginBottom: '1rem'
+                            fontFamily: '"Manrope", sans-serif'
                         }}>
-                            THE DAILY REGIMEN
+                            OPERATIONAL DEPLOYMENT
                         </h2>
                         <p style={{
                             color: 'var(--color-accent-teal)',
                             fontWeight: 700,
-                            letterSpacing: '0.2em',
+                            letterSpacing: '0.1em',
                             textTransform: 'uppercase',
-                            background: 'rgba(255,255,255,0.8)',
-                            padding: '0.5rem 1rem',
-                            borderRadius: '4px',
-                            display: 'inline-block'
+                            fontSize: '0.9rem'
                         }}>
-                            Timing & Dosage
+                            Timing & Dosage Matters
                         </p>
                     </div>
-                </div>
 
-                <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
-                    {/* Two Column Layout */}
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '4rem',
-                        marginBottom: '6rem'
-                    }}>
-                        {/* Column 1: Morning */}
-                        <div>
-                            <div style={{
-                                borderBottom: '2px solid var(--color-accent-teal)',
-                                paddingBottom: '1rem',
-                                marginBottom: '2rem'
-                            }}>
-                                <h3 style={{ fontSize: '2.5rem', color: 'var(--color-accent-teal)', margin: 0, fontFamily: 'monospace' }}>07:00 <span style={{ fontSize: '1rem', verticalAlign: 'middle' }}>AM</span></h3>
-                                <p style={{ color: 'var(--color-text)', margin: '0.5rem 0 0', fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.05em' }}>MORNING PROTOCOL</p>
-                                <p style={{ colour: 'var(--color-text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginTop: '0.25rem' }}>Target: Energy Production & Cognitive Drive</p>
-                            </div>
-
-                            <div style={{ marginBottom: '1.5rem' }}>
-                                <p style={{ color: 'var(--color-accent-teal)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '0.05em' }}>Take with Breakfast (Fat required for absorption):</p>
-                                <ul style={{ listStyle: 'none', padding: 0, color: 'var(--color-text)' }}>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>CoQ10 (Ubiquinol):</strong>
-                                        100-200mg <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(Needs fat to absorb)</span>
-                                    </li>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>Acetyl-L-Carnitine:</strong>
-                                        500mg <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(Best for brain focus)</span>
-                                    </li>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>B-Complex:</strong>
-                                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(To fuel the Krebs cycle for the day)</span>
-                                    </li>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>PQQ:</strong>
-                                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(If using)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        {/* Column 2: Evening */}
-                        <div>
-                            <div style={{
-                                borderBottom: '2px solid var(--color-text-muted)',
-                                paddingBottom: '1rem',
-                                marginBottom: '2rem'
-                            }}>
-                                <h3 style={{ fontSize: '2.5rem', color: 'var(--color-text-muted)', margin: 0, fontFamily: 'monospace' }}>21:00 <span style={{ fontSize: '1rem', verticalAlign: 'middle' }}>PM</span></h3>
-                                <p style={{ color: 'var(--color-text)', margin: '0.5rem 0 0', fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.05em' }}>EVENING RECOVERY</p>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginTop: '0.25rem' }}>Target: Detoxification & Relaxation</p>
-                            </div>
-
-                            <div style={{ marginBottom: '1.5rem' }}>
-                                <p style={{ color: 'var(--color-text-muted)', fontWeight: 700, marginBottom: '1.5rem', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '0.05em' }}>Take 1 Hour Before Bed:</p>
-                                <ul style={{ listStyle: 'none', padding: 0, color: 'var(--color-text)' }}>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-text-muted)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>Magnesium Malate/Glycinate:</strong>
-                                        400mg <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(To support GABA and sleep)</span>
-                                    </li>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-text-muted)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>NAC:</strong>
-                                        600mg <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(To replenish Glutathione while you sleep)</span>
-                                    </li>
-                                    <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
-                                        <span style={{ position: 'absolute', left: 0, color: 'var(--color-text-muted)', top: '2px' }}>►</span>
-                                        <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.25rem' }}>Vitamin C:</strong>
-                                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>(Synergistic with NAC)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Red Flag Warning Section */}
                     <div style={{
                         background: 'var(--color-bg-alt)',
                         border: '1px solid rgba(255, 95, 0, 0.2)',
                         padding: '3rem',
                         borderRadius: '16px',
-                        position: 'relative',
-                        overflow: 'hidden',
-                        boxShadow: '0 4px 20px rgba(0,0,0,0.05)'
+                        marginBottom: '4rem'
                     }}>
                         <h3 style={{
                             color: 'var(--color-accent-orange)',
@@ -495,21 +811,24 @@ const Protocol = () => {
                             <span style={{ fontSize: '1.5rem' }}>⚠️</span>
                             WHY MOST SUPPLEMENTS FAIL
                         </h3>
-                        <p style={{ color: 'var(--color-text)', marginBottom: '2.5rem', fontStyle: 'italic', fontSize: '1.1rem', borderLeft: '3px solid var(--color-accent-orange)', paddingLeft: '1rem' }}>
-                            "The supplement industry is the Wild West. It is unregulated and full of fillers. As a doctor, here are the two things I demand you avoid:"
-                        </p>
 
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Proprietary Blends</h4>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Wrong Forms</h4>
                                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    "If a bottle lists a 'Mitochondrial Blend' but hides the exact milligram dosage of each ingredient, it is a scam. They are likely giving you 99% cheap filler and 1% active ingredient. Demand transparency."
+                                    Magnesium Oxide = 4% absorption. CoQ10 as Ubiquinone is useless over 40. Methylated B vitamins matter if you have MTHFR mutations. <strong>Form {'>'} {'>'} {'>'} Dose.</strong>
                                 </p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. The Wrong Forms</h4>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. Proprietary Blends</h4>
                                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    "Magnesium Oxide is cheap, but only 4% is absorbed. CoQ10 as Ubiquinone is useless if you are over 40. Form matters more than dose."
+                                    If a label says "Mitochondrial Blend 500mg" but doesn't list exact milligrams of each ingredient, it's a scam. Demand transparency.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>3. Bad Timing</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
+                                    Fat-soluble vitamins (D, K, CoQ10) need dietary fat. Magnesium before bed. Rhodiola on empty stomach. Timing matters.
                                 </p>
                             </div>
                         </div>
@@ -517,7 +836,7 @@ const Protocol = () => {
                 </div>
             </section>
 
-            {/* Final CTA Section */}
+            {/* Final CTA */}
             <section style={{
                 padding: '6rem 2rem',
                 textAlign: 'center',
@@ -552,6 +871,7 @@ const Protocol = () => {
                 </Link>
             </section>
 
+            <Footer />
         </div>
     );
 };
