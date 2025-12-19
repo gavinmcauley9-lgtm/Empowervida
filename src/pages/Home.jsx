@@ -111,7 +111,8 @@ export default function Home() {
                 borderTop: '1px solid rgba(26, 60, 52, 0.08)',
                 borderBottom: '1px solid rgba(26, 60, 52, 0.08)',
                 position: 'relative',
-                zIndex: 10
+                zIndex: 100,
+                isolation: 'isolate'
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto' }}>
                     {/* Heading */}
@@ -226,7 +227,7 @@ export default function Home() {
                         </div>
 
                         {/* CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '3rem', position: 'relative', zIndex: 10 }}>
                             <Link
                                 to="/about"
                                 className="btn-primary"
@@ -234,7 +235,10 @@ export default function Home() {
                                     padding: '1rem 3rem',
                                     fontSize: '1rem',
                                     fontWeight: '600',
-                                    letterSpacing: '0.05em'
+                                    letterSpacing: '0.05em',
+                                    position: 'relative',
+                                    zIndex: 10,
+                                    pointerEvents: 'auto'
                                 }}
                             >
                                 READ MY FULL STORY →
