@@ -104,65 +104,140 @@ export default function Home() {
                 </motion.div>
             </HeroSection>
 
-            {/* ABOUT DR. GAVIN SECTION */}
+            {/* ABOUT DR. GAVIN SECTION - PREMIUM MEDICAL AESTHETIC */}
             <section style={{
-                padding: '6rem 2rem',
-                background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
-                borderTop: '1px solid rgba(26, 60, 52, 0.1)',
+                padding: '8rem 2rem',
+                background: '#FFFFFF',
+                borderTop: '1px solid rgba(26, 60, 52, 0.08)',
+                borderBottom: '1px solid rgba(26, 60, 52, 0.08)',
                 position: 'relative',
                 zIndex: 10
             }}>
-                <div className="container" data-aos="fade-up" style={{ maxWidth: '900px', margin: '0 auto' }}>
-                    <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto' }}>
+                    {/* Heading */}
+                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                        <div style={{
+                            fontSize: '0.9rem',
+                            fontWeight: '600',
+                            letterSpacing: '0.15em',
+                            color: '#1A3C34',
+                            marginBottom: '1rem',
+                            textTransform: 'uppercase'
+                        }}>
+                            Meet Your Physician
+                        </div>
                         <h2 style={{
-                            fontSize: 'clamp(2rem, 4vw, 3rem)',
+                            fontSize: 'clamp(2.5rem, 5vw, 4rem)',
                             fontWeight: 800,
                             color: '#1A3C34',
                             marginBottom: '1rem',
                             fontFamily: '"Manrope", sans-serif',
-                            letterSpacing: '-0.02em'
+                            letterSpacing: '-0.02em',
+                            lineHeight: '1.1'
                         }}>
-                            ABOUT DR. GAVIN
+                            DR. GAVIN McAULEY
                         </h2>
                         <div style={{
-                            width: '80px',
-                            height: '4px',
-                            background: 'var(--color-accent-teal)',
-                            margin: '0 auto 2rem'
-                        }}></div>
-                    </div>
-
-                    <div style={{
-                        background: '#FFFFFF',
-                        borderRadius: '20px',
-                        padding: '3rem',
-                        boxShadow: '0 10px 40px rgba(0,0,0,0.08)',
-                        border: '1px solid rgba(26, 60, 52, 0.1)'
-                    }}>
-                        <p style={{
-                            fontSize: '1.2rem',
-                            lineHeight: '1.8',
-                            color: 'var(--color-text)',
-                            marginBottom: '1.5rem',
-                            textAlign: 'center'
-                        }}>
-                            <strong>Dr. Gavin McAuley</strong> is a physician who lost 30kg by treating the root cause—not the symptoms. After 15 years practicing Emergency Medicine and General Practice, he reversed his own insulin resistance and now specializes in holistic longevity medicine, helping others optimize their healthspan through evidence-based protocols.
-                        </p>
-                        <p style={{
-                            fontSize: '1rem',
-                            color: 'var(--color-text-muted)',
-                            textAlign: 'center',
+                            fontSize: '1.1rem',
+                            color: 'var(--color-accent-teal)',
+                            fontWeight: '500',
                             fontStyle: 'italic'
                         }}>
-                            University of Aberdeen, 2009
+                            MBChB, University of Aberdeen
+                        </div>
+                    </div>
+
+                    {/* Main Content Card */}
+                    <div style={{
+                        background: 'linear-gradient(135deg, #FAFAFA 0%, #FFFFFF 100%)',
+                        borderRadius: '16px',
+                        padding: '4rem 3.5rem',
+                        boxShadow: '0 2px 20px rgba(26, 60, 52, 0.08)',
+                        border: '1px solid rgba(26, 60, 52, 0.1)',
+                        position: 'relative',
+                        overflow: 'hidden'
+                    }}>
+                        {/* Subtle accent line */}
+                        <div style={{
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '4px',
+                            height: '100%',
+                            background: 'linear-gradient(180deg, var(--color-accent-teal) 0%, #1A3C34 100%)'
+                        }}></div>
+
+                        {/* Bio Text - FIRST PERSON */}
+                        <p style={{
+                            fontSize: '1.3rem',
+                            lineHeight: '1.8',
+                            color: 'var(--color-text)',
+                            marginBottom: '2rem',
+                            fontWeight: '400'
+                        }}>
+                            I'm a physician who lost 30kg by treating the root cause—not the symptoms. After 15 years practicing Emergency Medicine and General Practice, I reversed my own insulin resistance and now specialize in holistic longevity medicine.
                         </p>
-                        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+
+                        <p style={{
+                            fontSize: '1.15rem',
+                            lineHeight: '1.8',
+                            color: 'var(--color-text-muted)',
+                            marginBottom: '2.5rem'
+                        }}>
+                            My mission is to help you optimize your healthspan through evidence-based protocols—the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimized and thriving.
+                        </p>
+
+                        {/* Credentials Grid */}
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                            gap: '1.5rem',
+                            marginTop: '3rem',
+                            paddingTop: '2.5rem',
+                            borderTop: '1px solid rgba(26, 60, 52, 0.1)'
+                        }}>
+                            {[
+                                { icon: '🎓', text: 'Aberdeen 2009' },
+                                { icon: '🚑', text: '5 Years ER' },
+                                { icon: '⚕️', text: '5 Years GP' },
+                                { icon: '💪', text: '-30kg in 2022' }
+                            ].map((item, index) => (
+                                <div key={index} style={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.75rem',
+                                    padding: '0.5rem 0'
+                                }}>
+                                    <div style={{
+                                        fontSize: '1.5rem'
+                                    }}>
+                                        {item.icon}
+                                    </div>
+                                    <div style={{
+                                        fontSize: '0.95rem',
+                                        fontWeight: '600',
+                                        color: '#1A3C34',
+                                        letterSpacing: '0.01em'
+                                    }}>
+                                        {item.text}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* CTA Button */}
+                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
                             <Link
                                 to="/about"
-                                className="btn-secondary"
-                                style={{ padding: '0.8rem 2rem' }}
+                                className="btn-primary"
+                                style={{
+                                    padding: '1rem 3rem',
+                                    fontSize: '1rem',
+                                    fontWeight: '600',
+                                    letterSpacing: '0.05em'
+                                }}
                             >
-                                READ FULL STORY
+                                READ MY FULL STORY →
                             </Link>
                         </div>
                     </div>
