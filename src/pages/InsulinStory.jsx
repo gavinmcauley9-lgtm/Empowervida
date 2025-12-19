@@ -142,9 +142,9 @@ export default function InsulinStory() {
                 subtitle="Why You Are Aging Faster Than You Think"
                 overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
-                subtitleColor="#20B2AA"
+                subtitleColor="#4FD1C5"
                 textShadow="0 4px 30px rgba(0,0,0,0.9), 0 2px 10px rgba(0,0,0,0.8)"
-                subtitleShadow="0 3px 20px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.7)"
+                subtitleShadow="0 4px 30px rgba(0,0,0,1), 0 2px 15px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.7)"
                 subtitleWeight="700"
             >
                 <p style={{
@@ -152,8 +152,8 @@ export default function InsulinStory() {
                     fontWeight: 400,
                     fontStyle: 'italic',
                     opacity: 1,
-                    color: '#374151',
-                    textShadow: 'none',
+                    color: '#D1D5DB',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.9)',
                     marginBottom: '1rem'
                 }}>
                     Feed two people the exact same meal. One stays lean. The other stores fat.
@@ -161,8 +161,8 @@ export default function InsulinStory() {
                 <p style={{
                     fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
                     fontWeight: 600,
-                    color: 'var(--color-accent-teal)',
-                    textShadow: 'none'
+                    color: '#4FD1C5',
+                    textShadow: '0 2px 15px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8)'
                 }}>
                     This is not about willpower. This is about Insulin Resistance.
                 </p>
