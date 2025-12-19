@@ -108,7 +108,9 @@ export default function Home() {
             <section style={{
                 padding: '6rem 2rem',
                 background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
-                borderTop: '1px solid rgba(26, 60, 52, 0.1)'
+                borderTop: '1px solid rgba(26, 60, 52, 0.1)',
+                position: 'relative',
+                zIndex: 10
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '900px', margin: '0 auto' }}>
                     <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
