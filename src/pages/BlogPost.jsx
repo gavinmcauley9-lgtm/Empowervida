@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import EmailCapture from '../components/EmailCapture';
 import { POSTS, CATEGORIES } from '../data/posts';
 
 export default function BlogPost() {
@@ -162,6 +163,9 @@ export default function BlogPost() {
           )}
 
         </div>
+
+        {/* EMAIL CAPTURE - After reading the post */}
+        <EmailCapture variant="inline" />
 
         <style>{`
           .blog-content h2 {
