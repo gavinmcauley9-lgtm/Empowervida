@@ -77,13 +77,13 @@ const EmailCapture = ({ variant = 'default' }) => {
             {/* Kit Form Embed */}
             <div
                 className="kit-form-container"
+                data-uid="0e2ee0a8b5"
                 style={{
                     maxWidth: '600px',
-                    margin: '0 auto'
+                    margin: '0 auto',
+                    minHeight: '200px'
                 }}
-            >
-                <script async data-uid="0e2ee0a8b5" src="https://empowervida.kit.com/0e2ee0a8b5/index.js"></script>
-            </div>
+            />
 
             <style>{`
                 .kit-form-container form {
