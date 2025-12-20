@@ -97,7 +97,7 @@ const EmailCapture = ({ variant = 'default' }) => {
             )}
 
             <form
-                action="https://app.kit.com/forms/7317881/subscriptions"
+                action="https://app.kit.com/forms/0e2ee0a8b5/subscriptions"
                 method="post"
                 style={{
                     maxWidth: '600px',
