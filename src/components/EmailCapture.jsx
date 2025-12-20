@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const EmailCapture = ({ variant = 'default' }) => {
+    const formRef = useRef(null);
+
+    useEffect(() => {
+        // Inject Kit script directly into the container
+        if (formRef.current && !formRef.current.querySelector('script')) {
+            const script = document.createElement('script');
+            script.src = 'https://empowervida.kit.com/0e2ee0a8b5/index.js';
+            script.async = true;
+            script.setAttribute('data-uid', '0e2ee0a8b5');
+            formRef.current.appendChild(script);
+        }
+    }, []);
+
     const containerStyles = {
         default: {
             background: 'linear-gradient(135deg, #1A3C34 0%, #2C5F50 100%)',
@@ -54,13 +67,56 @@ const EmailCapture = ({ variant = 'default' }) => {
                 </div>
             )}
 
-            {/* Kit Form Embed */}
-            <div style={{
-                maxWidth: '600px',
-                margin: '0 auto'
-            }}>
-                <script async data-uid="0e2ee0a8b5" src="https://empowervida.kit.com/0e2ee0a8b5/index.js"></script>
-            </div>
+            {/* Kit Form Container */}
+            <div
+                ref={formRef}
+                style={{
+                    maxWidth: '600px',
+                    margin: '0 auto',
+                    minHeight: '150px'
+                }}
+            />
+
+            <style>{`
+                .formkit-form {
+                    width: 100% !important;
+                    max-width: 600px !important;
+                    margin: 0 auto !important;
+                }
+                
+                .formkit-field {
+                    margin-bottom: 1rem !important;
+                }
+                
+                .formkit-input {
+                    width: 100% !important;
+                    padding: 16px 20px !important;
+                    font-size: 16px !important;
+                    border: 2px solid #E9ECEF !important;
+                    border-radius: 12px !important;
+                    background: white !important;
+                }
+                
+                .formkit-submit {
+                    width: 100% !important;
+                    padding: 18px 32px !important;
+                    font-size: 18px !important;
+                    font-weight: 700 !important;
+                    background: #20B2AA !important;
+                    color: white !important;
+                    border: none !important;
+                    border-radius: 12px !important;
+                    cursor: pointer !important;
+                    text-transform: uppercase !important;
+                    letter-spacing: 0.05em !important;
+                }
+                
+                .formkit-submit:hover {
+                    background: #1A9B8E !important;
+                    transform: translateY(-2px);
+                    box-shadow: 0 10px 25px rgba(32, 178, 170, 0.3);
+                }
+            `}</style>
         </motion.div>
     );
 };
