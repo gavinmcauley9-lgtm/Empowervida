@@ -1,23 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const EmailCapture = ({ variant = 'default' }) => {
-    useEffect(() => {
-        // Load Kit script
-        const script = document.createElement('script');
-        script.src = 'https://empowervida.kit.com/0e2ee0a8b5/index.js';
-        script.async = true;
-        script.setAttribute('data-uid', '0e2ee0a8b5');
-        document.body.appendChild(script);
-
-        return () => {
-            // Cleanup
-            if (document.body.contains(script)) {
-                document.body.removeChild(script);
-            }
-        };
-    }, []);
-
     const containerStyles = {
         default: {
             background: 'linear-gradient(135deg, #1A3C34 0%, #2C5F50 100%)',
@@ -45,89 +29,38 @@ const EmailCapture = ({ variant = 'default' }) => {
             viewport={{ once: true }}
             style={containerStyles[variant]}
         >
-            <div style={{
-                textAlign: 'center',
-                marginBottom: '2rem'
-            }}>
-                {variant === 'default' && (
-                    <>
-                        <motion.h2
-                            style={{
-                                fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
-                                fontWeight: 800,
-                                color: '#FFFFFF',
-                                marginBottom: '1rem',
-                                letterSpacing: '-0.02em'
-                            }}
-                        >
-                            Ready to Optimize Your Longevity?
-                        </motion.h2>
-                        <p style={{
-                            fontSize: 'clamp(1rem, 2vw, 1.2rem)',
-                            color: 'rgba(255,255,255,0.9)',
-                            maxWidth: '600px',
-                            margin: '0 auto'
-                        }}>
-                            Get evidence-based protocols and insights from a physician who reversed his own metabolic decline.
-                        </p>
-                    </>
-                )}
-            </div>
+            {variant === 'default' && (
+                <div style={{
+                    textAlign: 'center',
+                    marginBottom: '2rem'
+                }}>
+                    <h2 style={{
+                        fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
+                        fontWeight: 800,
+                        color: '#FFFFFF',
+                        marginBottom: '1rem',
+                        letterSpacing: '-0.02em'
+                    }}>
+                        Ready to Optimize Your Longevity?
+                    </h2>
+                    <p style={{
+                        fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+                        color: 'rgba(255,255,255,0.9)',
+                        maxWidth: '600px',
+                        margin: '0 auto 2rem auto'
+                    }}>
+                        Get evidence-based protocols and insights from a physician who reversed his own metabolic decline.
+                    </p>
+                </div>
+            )}
 
             {/* Kit Form Embed */}
-            <div
-                className="kit-form-container"
-                data-uid="0e2ee0a8b5"
-                style={{
-                    maxWidth: '600px',
-                    margin: '0 auto',
-                    minHeight: '200px'
-                }}
-            />
-
-            <style>{`
-                .kit-form-container form {
-                    all: unset;
-                }
-                
-                .kit-form-container input[type="email"] {
-                    width: 100%;
-                    padding: 16px 20px;
-                    font-size: 16px;
-                    border: 2px solid #E9ECEF;
-                    border-radius: 12px;
-                    margin-bottom: 16px;
-                    transition: all 0.3s ease;
-                    background: white;
-                }
-                
-                .kit-form-container input[type="email"]:focus {
-                    outline: none;
-                    border-color: #20B2AA;
-                    box-shadow: 0 0 0 3px rgba(32, 178, 170, 0.1);
-                }
-                
-                .kit-form-container button {
-                    width: 100%;
-                    padding: 18px 32px;
-                    font-size: 18px;
-                    font-weight: 700;
-                    background: #20B2AA !important;
-                    color: white !important;
-                    border: none;
-                    border-radius: 12px;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    text-transform: uppercase;
-                    letter-spacing: 0.05em;
-                }
-                
-                .kit-form-container button:hover {
-                    background: #1A9B8E !important;
-                    transform: translateY(-2px);
-                    box-shadow: 0 10px 25px rgba(32, 178, 170, 0.3);
-                }
-            `}</style>
+            <div style={{
+                maxWidth: '600px',
+                margin: '0 auto'
+            }}>
+                <script async data-uid="0e2ee0a8b5" src="https://empowervida.kit.com/0e2ee0a8b5/index.js"></script>
+            </div>
         </motion.div>
     );
 };
