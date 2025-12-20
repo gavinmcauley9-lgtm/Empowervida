@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
 import HeroSection from '../components/HeroSection';
+import EmailCapture from '../components/EmailCapture';
 import SEO from '../components/SEO';
 
 export default function Home() {
@@ -247,6 +248,10 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* EMAIL CAPTURE */}
+            <EmailCapture variant="default" />
+
 
             {/* NEW: Content Portal Section */}
             <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
