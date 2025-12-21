@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Navigation() {
     const location = useLocation();
     const [isOpen, setIsOpen] = React.useState(false);
+
+    // Force close all dropdowns on scroll to prevent click hijacking
+    useEffect(() => {
+        const closeAllDropdowns = () => {
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                menu.style.opacity = '0';
+                menu.style.display = 'none';
+                menu.style.pointerEvents = 'none';
+            });
+        };
+
+        window.addEventListener('scroll', closeAllDropdowns);
+        return () => window.removeEventListener('scroll', closeAllDropdowns);
+    }, []);
 
     const linkStyle = (path) => ({
         color: location.pathname === path ? 'var(--color-primary)' : 'var(--color-text-muted)',
