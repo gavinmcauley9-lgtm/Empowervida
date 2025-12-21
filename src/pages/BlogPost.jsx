@@ -23,13 +23,59 @@ export default function BlogPost() {
 
   const categoryLabel = CATEGORIES.find(c => c.id === post.category)?.label;
 
-  // Article Schema for SEO
+  // 1. Generate Table of Contents & Inject IDs
+  const { headings, modifiedContent } = React.useMemo(() => {
+    if (!post?.content) return { headings: [], modifiedContent: '' };
+
+    const headingsList = [];
+    const contentWithIds = post.content.replace(/<h2([^>]*)>(.*?)<\/h2>/g, (match, attrs, title) => {
+      // Create slug from title
+      const cleanTitle = title.replace(/<[^>]*>/g, '');
+      const id = cleanTitle
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+
+      headingsList.push({ id, title: cleanTitle });
+      return `<h2 id="${id}"${attrs}>${title}</h2>`;
+    });
+
+    return { headings: headingsList, modifiedContent: contentWithIds };
+  }, [post]);
+
+  // 2. Breadcrumb Schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://empowervida.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://empowervida.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": post.title,
+        "item": `https://empowervida.com/blog/${post.id}`
+      }
+    ]
+  };
+
+  // 3. Article Schema (Updated Logo)
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": post.title,
     "description": post.excerpt,
-    "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/hero_dna_botanical_1764284832727.png",
+    "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/empowervida_hero_logo.png",
     "datePublished": post.date,
     "author": {
       "@type": "Person",
@@ -41,7 +87,7 @@ export default function BlogPost() {
       "name": "EMPOWERVIDA",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://empowervida.com/hero_dna_botanical_1764284832727.png"
+        "url": "https://empowervida.com/empowervida_hero_logo.png"
       }
     },
     "mainEntityOfPage": {
@@ -58,10 +104,10 @@ export default function BlogPost() {
           description={post.excerpt}
           keywords={`${post.category}, longevity, health optimization, ${post.title}`}
           canonical={`/blog/${post.id}`}
-          ogImage={post.image || '/hero_dna_botanical.png'}
+          ogImage={post.image || '/empowervida_hero_logo.png'}
           ogType="article"
           author="Dr. Gavin McAuley"
-          schemaData={articleSchema}
+          schemaData={[articleSchema, breadcrumbSchema]}
         />
 
         <Link to="/blog" style={{
@@ -128,10 +174,50 @@ export default function BlogPost() {
             </div>
           )}
 
+          {/* Table of Contents */}
+          {headings.length > 0 && (
+            <div style={{
+              background: 'rgba(32, 178, 170, 0.05)',
+              borderLeft: '4px solid var(--color-accent-teal)',
+              padding: '1.5rem',
+              borderRadius: '0 8px 8px 0',
+              marginBottom: '3rem'
+            }}>
+              <h4 style={{
+                margin: '0 0 1rem 0',
+                color: 'var(--color-accent-teal)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em',
+                fontSize: '0.9rem'
+              }}>
+                Table of Contents
+              </h4>
+              <ul style={{ margin: 0, paddingLeft: '1.2rem' }}>
+                {headings.map(h => (
+                  <li key={h.id} style={{ marginBottom: '0.5rem' }}>
+                    <a
+                      href={`#${h.id}`}
+                      style={{
+                        color: 'var(--color-text)',
+                        textDecoration: 'none',
+                        fontSize: '0.95rem',
+                        fontWeight: 500
+                      }}
+                      onMouseEnter={(e) => e.target.style.color = 'var(--color-accent-teal)'}
+                      onMouseLeave={(e) => e.target.style.color = 'var(--color-text)'}
+                    >
+                      {h.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div
             className="blog-content"
             style={{ fontSize: '1.125rem', lineHeight: '1.8', color: 'var(--color-text)' }}
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: modifiedContent }}
           />
 
           {post.cta && (
