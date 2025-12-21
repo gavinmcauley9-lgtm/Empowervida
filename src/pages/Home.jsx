@@ -157,12 +157,12 @@ export default function Home() {
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
                         style={{
-                            background: 'rgba(255, 255, 255, 0.7)',
+                            background: 'rgba(255, 255, 255, 0.4)',
                             backdropFilter: 'blur(20px)',
                             WebkitBackdropFilter: 'blur(20px)',
                             borderRadius: '24px',
                             padding: '4rem 3.5rem',
-                            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.8) inset',
+                            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.4) inset',
                             border: '1px solid rgba(32, 178, 170, 0.2)',
                             position: 'relative',
                             overflow: 'hidden'
@@ -215,7 +215,7 @@ export default function Home() {
                                         alignItems: 'center',
                                         gap: '1rem',
                                         padding: '0.75rem 1rem',
-                                        background: 'rgba(255, 255, 255, 0.5)',
+                                        background: 'rgba(255, 255, 255, 0.3)',
                                         borderRadius: '12px',
                                         transition: 'all 0.3s ease'
                                     }}
@@ -260,18 +260,19 @@ export default function Home() {
                         </div>
                     </motion.div>
                 </div>
-            </section>
+            </section >
 
             {/* EMAIL CAPTURE */}
-            <EmailCapture variant="default" />
+            < EmailCapture variant="default" />
 
 
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
-            <section style={{
+            < section style={{
                 padding: '8rem 2rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
                 position: 'relative'
-            }}>
+            }
+            }>
                 <div className="container" data-aos="fade-up">
                     <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
                         <h2 style={{
@@ -543,10 +544,10 @@ export default function Home() {
                         </motion.div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Trust Bar - Light Divider */}
-            <div style={{
+            < div style={{
                 background: 'var(--color-bg-alt)',
                 padding: '1.5rem 0',
                 borderTop: '1px solid rgba(0,0,0,0.1)',
@@ -557,7 +558,7 @@ export default function Home() {
                         Founded by an Acute Care Physician & ER Veteran
                     </p>
                 </div>
-            </div>
+            </div >
         </>
     );
 }
