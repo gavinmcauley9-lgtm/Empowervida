@@ -195,7 +195,10 @@ export default function Home() {
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
-                            I'm a physician who lost 30kg by treating the root cause—not the symptoms. After 15 years practicing Emergency Medicine and General Practice, I reversed my own insulin resistance and now specialize in holistic longevity medicine.
+                            I'm a physician who lost 30kg by treating the root cause—not the symptoms.
+                            After 15 years working in Emergency Medicine and General Practice, I
+                            reversed my own insulin resistance and now specialize in holistic longevity
+                            medicine.
                         </p>
 
                         <p style={{
