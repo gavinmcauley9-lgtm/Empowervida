@@ -5,6 +5,7 @@ import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
 import HeroSection from '../components/HeroSection';
 import EmailCapture from '../components/EmailCapture';
+import FAQSection from '../components/FAQSection';
 import SEO from '../components/SEO';
 
 export default function Home() {
@@ -42,6 +43,38 @@ export default function Home() {
         }
     };
 
+    const faqData = [
+        {
+            question: "Why 'Clinical-Grade' Supplements?",
+            answer: "Most off-the-shelf supplements suffer from poor bioavailability (your body can't absorb them) or low dosing. We reference only the forms and dosages used in successful clinical trials, such as Liposomal delivery and methylated B-vitamins."
+        },
+        {
+            question: "I'm overwhelmed. Where do I start?",
+            answer: "Begin with 'Tier 1: The Essential 5'. These are the non-negotiables: Vitamin D, Magnesium, Omega-3s, and Metabolic support. Once your baseline is stable, you can layer on 'Tier 2' optimizations for specific goals like cognitive clarity or energy."
+        },
+        {
+            question: "Do I need a doctor's referral?",
+            answer: "No. These protocols are designed for proactive health optimization. However, Dr. Gavin always recommends sharing your supplement regimen with your primary care provider, especially if you are on prescription medications."
+        },
+        {
+            question: "How quickly will I feel results?",
+            answer: "Biochemistry takes time. While some users feel energy shifts (from things like Electrolytes or Creatine) in days, cellular repair (Mitochondrial Biogenesis) is a 6-12 week process. Consistency is the active ingredient."
+        }
+    ];
+
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqData.map(item => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
+            }
+        }))
+    };
+
     return (
         <>
             <SEO
@@ -50,7 +83,7 @@ export default function Home() {
                 keywords="longevity protocol, mitochondrial health, anti-aging supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
                 canonical="/"
                 ogImage="/home_hero_user.png"
-                schemaData={[organizationSchema, websiteSchema]}
+                schemaData={[organizationSchema, websiteSchema, faqSchema]}
             />
             <HeroSection
                 backgroundImage="/home_hero_fade.webp"
@@ -545,6 +578,9 @@ export default function Home() {
                     </div>
                 </div>
             </section >
+
+            {/* FAQ Section */}
+            <FAQSection data={faqData} />
 
             {/* Trust Bar - Light Divider */}
             < div style={{
