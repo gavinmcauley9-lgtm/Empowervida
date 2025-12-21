@@ -88,36 +88,18 @@ export default function Home() {
             <HeroSection
                 backgroundImage="/home_hero_fade.webp"
                 title={
-                    <>
-                        <span style={{ color: '#1A3C34' }}>EMPOWER</span>
-                        <span style={{ color: '#20B2AA' }}>VIDA</span>
-                    </>
+                    <span style={{ display: 'block', lineHeight: 1 }}>
+                        <span style={{ color: '#1A3C34' }}>DON'T JUST AGE.</span><br />
+                        <span style={{ color: '#008080' }}>EVOLVE.</span>
+                    </span>
                 }
                 subtitle="LONGEVITY, PRESCRIBED."
-                overlay="linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.9) 20%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.3) 80%, rgba(255,255,255,0) 100%)"
+                overlay="linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 40%, rgba(255,255,255,0.9) 90%, #FFFFFF 100%)"
                 textColor="#1A3C34"
                 subtitleColor="#1A3C34"
             >
                 {/* The Hook - Vitality Teal */}
-                <motion.h2
-                    whileHover={{
-                        textShadow: '0 0 20px rgba(0, 128, 128, 0.5), 0 0 40px rgba(0, 128, 128, 0.3)',
-                        scale: 1.02
-                    }}
-                    transition={{ duration: 0.3 }}
-                    style={{
-                        fontSize: 'clamp(2.5rem, 6.25vw, 4.375rem)', // Increased by 25%
-                        fontWeight: 800,
-                        color: '#008080', // Vitality Teal
-                        marginBottom: '1.5rem',
-                        fontFamily: '"Manrope", sans-serif',
-                        letterSpacing: '-0.02em',
-                        lineHeight: 1.1,
-                        cursor: 'default'
-                    }}
-                >
-                    DON'T JUST AGE. EVOLVE.
-                </motion.h2>
+                {/* The Hook - Moved to Title */}
 
                 <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '750px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
                     The physician-led protocol to upgrade your metabolic engine, sharpen cognitive focus, and extend your prime.
