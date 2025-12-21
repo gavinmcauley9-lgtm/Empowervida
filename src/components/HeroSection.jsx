@@ -29,9 +29,11 @@ const HeroSection = ({
             alignItems: 'center',
             textAlign: 'center',
             overflow: 'hidden',
-            backgroundColor: '#FFFFFF',
+            backgroundColor: 'transparent',
             color: textColor,
-            paddingTop: '80px'
+            paddingTop: '80px',
+            maskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)'
         }}>
             {/* Background Image Layer - Ken Burns Effect */}
             <motion.div
@@ -80,18 +82,6 @@ const HeroSection = ({
                 height: '100%',
                 zIndex: 0,
                 background: 'linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)'
-            }}></div>
-
-            {/* Bottom Fade Overlay - seamless transition to next section */}
-            <div style={{
-                position: 'absolute',
-                bottom: 0,
-                left: 0,
-                width: '100%',
-                height: '30%',
-                zIndex: 1,
-                background: 'linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%)',
-                pointerEvents: 'none'
             }}></div>
 
             {/* Content Layer */}

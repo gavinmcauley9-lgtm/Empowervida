@@ -61,7 +61,7 @@ export default function Home() {
                     </>
                 }
                 subtitle="LONGEVITY, PRESCRIBED."
-                overlay="radial-gradient(circle at center, rgba(255,255,255,0) 0%, #FFFFFF 100%)"
+                overlay="linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.9) 20%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.3) 80%, rgba(255,255,255,0) 100%)"
                 textColor="#1A3C34"
                 subtitleColor="#1A3C34"
             >
@@ -96,24 +96,26 @@ export default function Home() {
                     transition={{ delay: 1.2, duration: 0.8 }}
                     style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}
                 >
-                    <Link to="/protocol" className="btn-primary" style={{ padding: '1rem 2.5rem' }}>
+                    <Link to="/protocol" className="btn-primary" style={{ padding: '1rem 2.5rem' }} onClick={() => window.scrollTo(0, 0)}>
                         FIND YOUR PROTOCOL
                     </Link>
-                    <Link to="/diagnostics" className="btn-secondary" style={{ padding: '1rem 2.5rem' }}>
+                    <Link to="/diagnostics" className="btn-secondary" style={{ padding: '1rem 2.5rem' }} onClick={() => window.scrollTo(0, 0)}>
                         THE LABS
                     </Link>
                 </motion.div>
             </HeroSection>
 
-            {/* ABOUT DR. GAVIN SECTION - PREMIUM GLASSMORPHISM */}
+            {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
             <section style={{
-                padding: '4rem 2rem 8rem 2rem',
-                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.4) 30%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.4) 70%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
+                padding: '18rem 2rem 8rem 2rem',
+                marginTop: '-10rem',
+                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.3) 25%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.3) 75%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
                 position: 'relative',
-                zIndex: 100,
-                isolation: 'isolate'
+                zIndex: 10,
+                isolation: 'isolate',
+                pointerEvents: 'none'
             }}>
-                <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto' }}>
+                <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
                     <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
                         <div style={{
@@ -249,6 +251,7 @@ export default function Home() {
                         <div style={{ textAlign: 'center', marginTop: '4rem' }}>
                             <Link
                                 to="/about"
+                                onClick={() => window.scrollTo(0, 0)}
                                 className="btn-primary"
                                 style={{
                                     padding: '1.25rem 3.5rem',
@@ -256,7 +259,9 @@ export default function Home() {
                                     fontWeight: '700',
                                     letterSpacing: '0.08em',
                                     boxShadow: '0 10px 30px rgba(255, 95, 0, 0.25)',
-                                    transition: 'all 0.3s ease'
+                                    transition: 'all 0.3s ease',
+                                    display: 'inline-block',
+                                    textDecoration: 'none'
                                 }}
                             >
                                 READ MY FULL STORY →
@@ -315,6 +320,7 @@ export default function Home() {
                         >
                             <Link
                                 to="/longevity"
+                                onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
                                     backdropFilter: 'blur(10px)',
@@ -403,6 +409,7 @@ export default function Home() {
                         >
                             <Link
                                 to="/mitochondrial-guide"
+                                onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(255, 95, 0, 0.04) 0%, rgba(255, 165, 0, 0.06) 100%)',
                                     backdropFilter: 'blur(10px)',
@@ -478,6 +485,7 @@ export default function Home() {
                         >
                             <Link
                                 to="/shop"
+                                onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.04) 0%, rgba(32, 178, 170, 0.06) 100%)',
                                     backdropFilter: 'blur(10px)',

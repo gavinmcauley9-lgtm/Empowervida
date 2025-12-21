@@ -44,7 +44,7 @@ export default function Navigation() {
             top: 0,
             left: 0,
             width: '100%',
-            zIndex: 50,
+            zIndex: 2000,
             padding: '1.5rem 0',
             background: 'rgba(255, 255, 255, 0.85)', /* Frosted Glass Effect */
             backdropFilter: 'blur(12px)',
