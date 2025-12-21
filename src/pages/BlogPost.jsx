@@ -78,7 +78,8 @@ export default function BlogPost() {
     "author": {
       "@type": "Person",
       "name": "Dr. Gavin McAuley",
-      "jobTitle": "Physician & Longevity Specialist"
+      "jobTitle": "Physician & Longevity Specialist",
+      "sameAs": "https://www.linkedin.com/in/gavin-mcauley-62147151/"
     },
     "publisher": {
       "@type": "Organization",

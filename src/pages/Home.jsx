@@ -28,7 +28,7 @@ export default function Home() {
             "jobTitle": "Physician & Longevity Specialist"
         },
         "sameAs": [
-            // Add social media URLs when available
+            "https://www.linkedin.com/in/gavin-mcauley-62147151/"
         ]
     };
 
