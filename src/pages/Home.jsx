@@ -168,16 +168,7 @@ export default function Home() {
                             overflow: 'hidden'
                         }}
                     >
-                        {/* Teal Accent Border */}
-                        <div style={{
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            width: '5px',
-                            height: '100%',
-                            background: 'linear-gradient(180deg, #20B2AA 0%, #1A9B8E 100%)',
-                            boxShadow: '0 0 20px rgba(32, 178, 170, 0.4)'
-                        }}></div>
+
 
                         {/* Bio Text - Premium Typography */}
                         <p style={{
