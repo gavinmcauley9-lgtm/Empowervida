@@ -4,21 +4,21 @@ import { motion } from 'framer-motion';
 const testimonials = [
     {
         id: 1,
-        quote: "I've spent thousands on supplements over the years. This is the first time I actually felt a shift. The focus on 'clinical grade' isn't just marketing—it's the active ingredient.",
-        author: "Mark R.",
-        role: "Executive Performance Coach"
+        quote: "We don't just treat symptoms. We identify the upstream metabolic dysfunction—the 'grinding gears'—before it becomes a disease state.",
+        author: "Root Cause Medicine",
+        role: " The Philosophy"
     },
     {
         id: 2,
-        quote: "Finally, a doctor who explains the mechanism. I'm not just following orders; I'm understanding my own biology. The 'Factory Floor' analogy changed everything for me.",
-        author: "Sarah J.",
-        role: "Early Adopter"
+        quote: "Aging is fundamentally an energy crisis. By restoring mitochondrial currency (NAD+, ATP), we reverse the biological clock at the source.",
+        author: "Cellular Economics",
+        role: "The Mechanism"
     },
     {
         id: 3,
-        quote: "The deep sleep protocol delivered exactly what it promised. I track my sleep with an Oura ring, and my Deep Sleep scores doubled in 3 weeks.",
-        author: "David L.",
-        role: "Biohacker"
+        quote: "Your gut, brain, and hormones are a single network. We treat the system as a whole, not as isolated parts.",
+        author: "Systems, Not Silos",
+        role: "The Architecture"
     }
 ];
 
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
                         textTransform: 'uppercase',
                         letterSpacing: '0.05em'
                     }}>
-                        The Clinical Difference
+                        The Medical Standard
                     </h2>
                     <p style={{
                         color: 'var(--color-accent-teal)',
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
                         textTransform: 'uppercase',
                         fontSize: '0.9rem'
                     }}>
-                        Real Results from the Protocol
+                        Built on Evidence, Not Hype
                     </p>
                 </div>
 
