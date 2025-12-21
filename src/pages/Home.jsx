@@ -19,7 +19,7 @@ export default function Home() {
         "name": "EMPOWERVIDA",
         "description": "Evidence-based longevity protocols and clinical-grade supplements for optimal health and cellular performance.",
         "url": "https://empowervida.com",
-        "logo": "https://empowervida.com/hero_dna_botanical_1764284832727.png",
+        "logo": "https://empowervida.com/empowervida_hero_logo.png",
         "founder": {
             "@type": "Person",
             "name": "Dr. Gavin McAuley",
@@ -49,7 +49,7 @@ export default function Home() {
                 description="Physician-led longevity protocols. Clinical-grade supplements for energy, focus, and cellular renewal. Evidence-based solutions for optimal health and performance."
                 keywords="longevity protocol, mitochondrial health, anti-aging supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
                 canonical="/"
-                ogImage="/home_hero_fade.png"
+                ogImage="/home_hero_user.png"
                 schemaData={[organizationSchema, websiteSchema]}
             />
             <HeroSection
