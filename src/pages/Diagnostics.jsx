@@ -377,7 +377,7 @@ const Diagnostics = () => {
                     <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
                         Learn how to read your bloodwork like a longevity physician.
                     </p>
-                    <Link to="/blog" className="btn-secondary" style={{
+                    <Link to="/blog" onClick={() => window.scrollTo(0, 0)} className="btn-secondary" style={{
                         textDecoration: 'none',
                         fontSize: '1.1rem',
                         padding: '1.2rem 3rem',

@@ -708,6 +708,7 @@ export default function InsulinStory() {
                         </p>
                         <Link
                             to="/diagnostics"
+                            onClick={() => window.scrollTo(0, 0)}
                             style={{
                                 display: 'inline-block',
                                 padding: '1.2rem 3rem',
@@ -805,6 +806,7 @@ export default function InsulinStory() {
                 }}>
                     <Link
                         to="/mitochondrial-guide"
+                        onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
                             color: 'var(--color-primary)',
@@ -816,6 +818,7 @@ export default function InsulinStory() {
                     </Link>
                     <Link
                         to="/longevity"
+                        onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
                             color: 'var(--color-primary)',
