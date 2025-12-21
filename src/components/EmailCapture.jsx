@@ -39,14 +39,14 @@ const EmailCapture = ({ variant = 'default' }) => {
 
     const containerStyles = {
         default: {
-            background: 'rgba(255, 255, 255, 0.85)',
+            background: 'rgba(255, 255, 255, 0.4)',
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
             padding: '4rem 3rem',
             borderRadius: '24px',
             margin: '4rem auto',
             maxWidth: '900px',
-            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.15), 0 0 0 1px rgba(255,255,255,0.8) inset',
+            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.15), 0 0 0 1px rgba(255,255,255,0.4) inset',
             border: '1px solid rgba(32, 178, 170, 0.2)',
         },
         inline: {
