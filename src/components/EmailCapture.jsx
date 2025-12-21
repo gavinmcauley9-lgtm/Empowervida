@@ -39,15 +39,20 @@ const EmailCapture = ({ variant = 'default' }) => {
 
     const containerStyles = {
         default: {
-            background: 'linear-gradient(135deg, #1A3C34 0%, #2C5F50 100%)',
-            padding: '4rem 2rem',
-            borderRadius: '20px',
+            background: 'rgba(255, 255, 255, 0.85)',
+            backdropFilter: 'blur(20px)',
+            WebkitBackdropFilter: 'blur(20px)',
+            padding: '4rem 3rem',
+            borderRadius: '24px',
             margin: '4rem auto',
             maxWidth: '900px',
-            boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
+            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.15), 0 0 0 1px rgba(255,255,255,0.8) inset',
+            border: '1px solid rgba(32, 178, 170, 0.2)',
         },
         inline: {
-            background: 'linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%)',
+            background: 'rgba(248, 249, 250, 0.9)',
+            backdropFilter: 'blur(10px)',
+            WebkitBackdropFilter: 'blur(10px)',
             padding: '3rem 2rem',
             borderRadius: '16px',
             margin: '3rem 0',
@@ -76,7 +81,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                     <h2 style={{
                         fontSize: 'clamp(1.8rem, 4vw, 2.5rem)',
                         fontWeight: 800,
-                        color: '#FFFFFF',
+                        color: '#1A3C34',
                         marginBottom: '1rem',
                         letterSpacing: '-0.02em'
                     }}>
@@ -84,7 +89,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                     </h2>
                     <p style={{
                         fontSize: 'clamp(1.2rem, 2vw, 1.5rem)',
-                        color: '#FFFFFF',
+                        color: '#20B2AA',
                         fontWeight: 700,
                         marginBottom: '1rem'
                     }}>
@@ -92,7 +97,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                     </p>
                     <p style={{
                         fontSize: 'clamp(1rem, 2vw, 1.2rem)',
-                        color: 'rgba(255,255,255,0.9)',
+                        color: '#4A5568',
                         maxWidth: '600px',
                         margin: '0 auto'
                     }}>
@@ -214,7 +219,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                     textAlign: 'center',
                     marginTop: '1rem',
                     fontSize: '0.85rem',
-                    color: variant === 'default' ? 'rgba(255,255,255,0.7)' : '#6C757D'
+                    color: '#6C757D'
                 }}>
                     We respect your privacy. Unsubscribe at any time.
                 </p>

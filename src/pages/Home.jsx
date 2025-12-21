@@ -107,8 +107,8 @@ export default function Home() {
 
             {/* ABOUT DR. GAVIN SECTION - PREMIUM GLASSMORPHISM */}
             <section style={{
-                padding: '8rem 2rem',
-                background: 'linear-gradient(180deg, #FFFFFF 0%, #F8FAFB 50%, #FFFFFF 100%)',
+                padding: '4rem 2rem 8rem 2rem',
+                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(248, 252, 252, 0.6) 20%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.6) 80%, rgba(255, 255, 255, 0) 100%)',
                 position: 'relative',
                 zIndex: 100,
                 isolation: 'isolate'
@@ -124,7 +124,7 @@ export default function Home() {
                             marginBottom: '1.5rem',
                             textTransform: 'uppercase'
                         }}>
-                            Meet Your Physician
+                            Meet the Founder
                         </div>
                         <h2 style={{
                             fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
@@ -273,7 +273,7 @@ export default function Home() {
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
             <section style={{
                 padding: '8rem 2rem',
-                background: 'radial-gradient(circle at 50% 50%, rgba(240, 248, 248, 0.4) 0%, rgba(255,255,255, 1) 100%)',
+                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
                 position: 'relative'
             }}>
                 <div className="container" data-aos="fade-up">

@@ -57,7 +57,7 @@ const PageLoader = () => (
 
 function AppContent() {
   const location = useLocation();
-  const hideScene = location.pathname === '/longevity' || location.pathname === '/mitochondrial-guide';
+  const hideScene = location.pathname === '/' || location.pathname === '/longevity' || location.pathname === '/mitochondrial-guide';
 
   useEffect(() => {
     AOS.init({
