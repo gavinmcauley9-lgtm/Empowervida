@@ -108,7 +108,7 @@ export default function Home() {
             {/* ABOUT DR. GAVIN SECTION - PREMIUM GLASSMORPHISM */}
             <section style={{
                 padding: '4rem 2rem 8rem 2rem',
-                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(248, 252, 252, 0.6) 20%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.6) 80%, rgba(255, 255, 255, 0) 100%)',
+                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.4) 30%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.4) 70%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
                 position: 'relative',
                 zIndex: 100,
                 isolation: 'isolate'
