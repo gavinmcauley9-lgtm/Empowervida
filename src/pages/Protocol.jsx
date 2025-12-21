@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
+import FAQSection from '../components/FAQSection';
 import SEO from '../components/SEO';
 
 const Protocol = () => {
@@ -40,51 +41,40 @@ const Protocol = () => {
         ]
     };
 
+    const faqData = [
+        {
+            question: "What is a longevity protocol?",
+            answer: "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of aging. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
+        },
+        {
+            question: "Which protocol should I start with?",
+            answer: "Start with your primary health goal: Foundational Longevity (overall anti-aging), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain aging prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
+        },
+        {
+            question: "Can I combine multiple protocols?",
+            answer: "Yes. Protocols are designed to stack synergistically. Start with your primary protocol for 30 days, then add a second. Avoid combining more than 2-3 protocols initially. Common combinations: Longevity + Metabolic, Vitality + Clarity, or Neurolongevity + Longevity."
+        },
+        {
+            question: "How long before I see results from a longevity protocol?",
+            answer: "Timeline varies by protocol: Energy/cognitive changes (2-4 weeks), metabolic improvements (4-8 weeks), longevity biomarkers (8-12 weeks). NAD+ precursors work quickly (days), while mitochondrial biogenesis takes months. Consistency is key - these are marathon interventions, not quick fixes."
+        },
+        {
+            question: "Are these protocols safe to take long-term?",
+            answer: "Yes. All protocols use evidence-based compounds with established safety profiles for long-term use. We prioritize nutrients and compounds your body naturally produces (NAD+, CoQ10, creatine) that decline with age. As with any supplement regimen, consult your physician, especially if you have medical conditions or take medications."
+        }
+    ];
+
     const faqSchema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a longevity protocol?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of aging. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Which protocol should I start with?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Start with your primary health goal: Foundational Longevity (overall anti-aging), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain aging prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I combine multiple protocols?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Protocols are designed to stack synergistically. Start with your primary protocol for 30 days, then add a second. Avoid combining more than 2-3 protocols initially. Common combinations: Longevity + Metabolic, Vitality + Clarity, or Neurolongevity + Longevity."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long before I see results from a longevity protocol?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Timeline varies by protocol: Energy/cognitive changes (2-4 weeks), metabolic improvements (4-8 weeks), longevity biomarkers (8-12 weeks). NAD+ precursors work quickly (days), while mitochondrial biogenesis takes months. Consistency is key - these are marathon interventions, not quick fixes."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are these protocols safe to take long-term?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. All protocols use evidence-based compounds with established safety profiles for long-term use. We prioritize nutrients and compounds your body naturally produces (NAD+, CoQ10, creatine) that decline with age. As with any supplement regimen, consult your physician, especially if you have medical conditions or take medications."
-                }
+        "mainEntity": faqData.map(item => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
             }
-        ]
+        }))
     };
 
     return (
@@ -882,6 +872,9 @@ const Protocol = () => {
                     </div>
                 </div>
             </section>
+
+            {/* FAQ Section */}
+            <FAQSection data={faqData} />
 
             {/* Final CTA */}
             <section style={{
