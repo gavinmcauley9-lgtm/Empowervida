@@ -5,6 +5,7 @@ import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
 import HeroSection from '../components/HeroSection';
 import EmailCapture from '../components/EmailCapture';
+import TestimonialsSection from '../components/TestimonialsSection';
 import FAQSection from '../components/FAQSection';
 import SEO from '../components/SEO';
 
@@ -560,6 +561,9 @@ export default function Home() {
                     </div>
                 </div>
             </section >
+
+            {/* Testimonials Section */}
+            <TestimonialsSection />
 
             {/* FAQ Section */}
             <FAQSection data={faqData} />
