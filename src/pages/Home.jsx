@@ -105,12 +105,10 @@ export default function Home() {
                 </motion.div>
             </HeroSection>
 
-            {/* ABOUT DR. GAVIN SECTION - PREMIUM MEDICAL AESTHETIC */}
+            {/* ABOUT DR. GAVIN SECTION - PREMIUM GLASSMORPHISM */}
             <section style={{
                 padding: '8rem 2rem',
-                background: '#FFFFFF',
-                borderTop: '1px solid rgba(26, 60, 52, 0.08)',
-                borderBottom: '1px solid rgba(26, 60, 52, 0.08)',
+                background: 'linear-gradient(180deg, #FFFFFF 0%, #F8FAFB 50%, #FFFFFF 100%)',
                 position: 'relative',
                 zIndex: 100,
                 isolation: 'isolate'
@@ -119,63 +117,74 @@ export default function Home() {
                     {/* Heading */}
                     <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
                         <div style={{
-                            fontSize: '0.9rem',
-                            fontWeight: '600',
-                            letterSpacing: '0.15em',
-                            color: '#1A3C34',
-                            marginBottom: '1rem',
+                            fontSize: '0.85rem',
+                            fontWeight: '700',
+                            letterSpacing: '0.2em',
+                            color: '#20B2AA',
+                            marginBottom: '1.5rem',
                             textTransform: 'uppercase'
                         }}>
                             Meet Your Physician
                         </div>
                         <h2 style={{
-                            fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+                            fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
                             fontWeight: 800,
                             color: '#1A3C34',
-                            marginBottom: '1rem',
+                            marginBottom: '0.75rem',
                             fontFamily: '"Manrope", sans-serif',
-                            letterSpacing: '-0.02em',
+                            letterSpacing: '-0.03em',
                             lineHeight: '1.1'
                         }}>
                             DR. GAVIN McAULEY
                         </h2>
                         <div style={{
-                            fontSize: '1.1rem',
-                            color: 'var(--color-accent-teal)',
+                            fontSize: '1.05rem',
+                            color: '#20B2AA',
                             fontWeight: '500',
-                            fontStyle: 'italic'
+                            fontStyle: 'italic',
+                            letterSpacing: '0.01em'
                         }}>
                             MBChB, University of Aberdeen
                         </div>
                     </div>
 
-                    {/* Main Content Card */}
-                    <div style={{
-                        background: 'linear-gradient(135deg, #FAFAFA 0%, #FFFFFF 100%)',
-                        borderRadius: '16px',
-                        padding: '4rem 3.5rem',
-                        boxShadow: '0 2px 20px rgba(26, 60, 52, 0.08)',
-                        border: '1px solid rgba(26, 60, 52, 0.1)',
-                        position: 'relative',
-                        overflow: 'hidden'
-                    }}>
-                        {/* Subtle accent line */}
+                    {/* Premium Glassmorphism Card */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true }}
+                        style={{
+                            background: 'rgba(255, 255, 255, 0.7)',
+                            backdropFilter: 'blur(20px)',
+                            WebkitBackdropFilter: 'blur(20px)',
+                            borderRadius: '24px',
+                            padding: '4rem 3.5rem',
+                            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.8) inset',
+                            border: '1px solid rgba(32, 178, 170, 0.2)',
+                            position: 'relative',
+                            overflow: 'hidden'
+                        }}
+                    >
+                        {/* Teal Accent Border */}
                         <div style={{
                             position: 'absolute',
                             top: 0,
                             left: 0,
-                            width: '4px',
+                            width: '5px',
                             height: '100%',
-                            background: 'linear-gradient(180deg, var(--color-accent-teal) 0%, #1A3C34 100%)'
+                            background: 'linear-gradient(180deg, #20B2AA 0%, #1A9B8E 100%)',
+                            boxShadow: '0 0 20px rgba(32, 178, 170, 0.4)'
                         }}></div>
 
-                        {/* Bio Text - FIRST PERSON */}
+                        {/* Bio Text - Premium Typography */}
                         <p style={{
-                            fontSize: '1.3rem',
-                            lineHeight: '1.8',
-                            color: 'var(--color-text)',
+                            fontSize: '1.35rem',
+                            lineHeight: '1.85',
+                            color: '#1A3C34',
                             marginBottom: '2rem',
-                            fontWeight: '400'
+                            fontWeight: '400',
+                            letterSpacing: '0.005em'
                         }}>
                             I'm a physician who lost 30kg by treating the root cause—not the symptoms. After 15 years practicing Emergency Medicine and General Practice, I reversed my own insulin resistance and now specialize in holistic longevity medicine.
                         </p>
@@ -183,20 +192,21 @@ export default function Home() {
                         <p style={{
                             fontSize: '1.15rem',
                             lineHeight: '1.8',
-                            color: 'var(--color-text-muted)',
-                            marginBottom: '2.5rem'
+                            color: '#4A5568',
+                            marginBottom: '2.5rem',
+                            letterSpacing: '0.005em'
                         }}>
                             My mission is to help you optimize your healthspan through evidence-based protocols—the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimized and thriving.
                         </p>
 
-                        {/* Credentials Grid */}
+                        {/* Premium Credentials Grid */}
                         <div style={{
                             display: 'grid',
                             gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                            gap: '1.5rem',
-                            marginTop: '3rem',
-                            paddingTop: '2.5rem',
-                            borderTop: '1px solid rgba(26, 60, 52, 0.1)'
+                            gap: '1.75rem',
+                            marginTop: '3.5rem',
+                            paddingTop: '3rem',
+                            borderTop: '2px solid rgba(32, 178, 170, 0.15)'
                         }}>
                             {[
                                 { icon: '🎓', text: 'Aberdeen 2009' },
@@ -204,48 +214,55 @@ export default function Home() {
                                 { icon: '⚕️', text: '5 Years GP' },
                                 { icon: '💪', text: '-30kg in 2022' }
                             ].map((item, index) => (
-                                <div key={index} style={{
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    gap: '0.75rem',
-                                    padding: '0.5rem 0'
-                                }}>
+                                <motion.div
+                                    key={index}
+                                    whileHover={{ scale: 1.05 }}
+                                    style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '1rem',
+                                        padding: '0.75rem 1rem',
+                                        background: 'rgba(255, 255, 255, 0.5)',
+                                        borderRadius: '12px',
+                                        transition: 'all 0.3s ease'
+                                    }}
+                                >
                                     <div style={{
-                                        fontSize: '1.5rem'
+                                        fontSize: '1.75rem',
+                                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))'
                                     }}>
                                         {item.icon}
                                     </div>
                                     <div style={{
                                         fontSize: '0.95rem',
-                                        fontWeight: '600',
+                                        fontWeight: '700',
                                         color: '#1A3C34',
-                                        letterSpacing: '0.01em'
+                                        letterSpacing: '0.02em'
                                     }}>
                                         {item.text}
                                     </div>
-                                </div>
+                                </motion.div>
                             ))}
                         </div>
 
-                        {/* CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '3rem', position: 'relative', zIndex: 10 }}>
+                        {/* Premium CTA Button */}
+                        <div style={{ textAlign: 'center', marginTop: '4rem' }}>
                             <Link
                                 to="/about"
                                 className="btn-primary"
                                 style={{
-                                    padding: '1rem 3rem',
+                                    padding: '1.25rem 3.5rem',
                                     fontSize: '1rem',
-                                    fontWeight: '600',
-                                    letterSpacing: '0.05em',
-                                    position: 'relative',
-                                    zIndex: 10,
-                                    pointerEvents: 'auto'
+                                    fontWeight: '700',
+                                    letterSpacing: '0.08em',
+                                    boxShadow: '0 10px 30px rgba(255, 95, 0, 0.25)',
+                                    transition: 'all 0.3s ease'
                                 }}
                             >
                                 READ MY FULL STORY →
                             </Link>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </section>
 
@@ -253,178 +270,278 @@ export default function Home() {
             <EmailCapture variant="default" />
 
 
-            {/* NEW: Content Portal Section */}
-            <section style={{ padding: '6rem 2rem', background: '#FFFFFF' }}>
+            {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
+            <section style={{
+                padding: '8rem 2rem',
+                background: 'radial-gradient(circle at 50% 50%, rgba(240, 248, 248, 0.4) 0%, rgba(255,255,255, 1) 100%)',
+                position: 'relative'
+            }}>
                 <div className="container" data-aos="fade-up">
-                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
                         <h2 style={{
                             fontSize: 'clamp(2rem, 4vw, 3rem)',
                             fontWeight: 800,
                             color: '#1A3C34',
-                            marginBottom: '1rem',
+                            marginBottom: '1.5rem',
                             fontFamily: '"Manrope", sans-serif',
                             letterSpacing: '-0.02em'
                         }}>
                             THE LONGEVITY ECOSYSTEM
                         </h2>
-                        <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', maxWidth: '600px', margin: '0 auto' }}>
+                        <p style={{
+                            fontSize: '1.15rem',
+                            color: '#4A5568',
+                            maxWidth: '650px',
+                            margin: '0 auto',
+                            lineHeight: '1.7'
+                        }}>
                             Navigate the three pillars of the Empowervida protocol: Education, Optimization, and Implementation.
                         </p>
                     </div>
 
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '2rem',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+                        gap: '2.5rem',
                         maxWidth: '1200px',
                         margin: '0 auto'
                     }}>
-                        {/* BOX 1: LONGEVITY EDUCATION */}
-                        <Link
-                            to="/longevity"
+                        {/* CARD 1: LONGEVITY BLUEPRINT - Blue Gradient */}
+                        <motion.div
+                            whileHover={{ y: -12, scale: 1.02 }}
+                            transition={{ duration: 0.3 }}
                             data-aos="fade-up"
                             data-aos-delay="100"
-                            style={{
-                                background: '#FFFFFF',
-                                borderRadius: '16px',
-                                padding: '2.5rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                                border: '1px solid rgba(0,0,0,0.05)',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                textAlign: 'center',
-                                transition: 'all 0.3s ease',
-                                textDecoration: 'none',
-                                cursor: 'pointer'
-                            }}
-                            onMouseEnter={e => {
-                                e.currentTarget.style.transform = 'translateY(-8px)';
-                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
-                            }}
-                            onMouseLeave={e => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
-                            }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#1A3C34' }}>🧬</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>The Longevity Blueprint</h3>
-                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                Aging is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
-                            </p>
-                            <span style={{
-                                marginTop: 'auto',
-                                display: 'inline-block',
-                                padding: '0.8rem 1.5rem',
-                                background: '#1A3C34',
-                                color: '#FFFFFF',
-                                borderRadius: '8px',
-                                fontWeight: 700,
-                                fontSize: '0.9rem',
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em'
-                            }}>
-                                LEARN THE SCIENCE &gt;
-                            </span>
-                        </Link>
+                            <Link
+                                to="/longevity"
+                                style={{
+                                    background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
+                                    backdropFilter: 'blur(10px)',
+                                    WebkitBackdropFilter: 'blur(10px)',
+                                    borderRadius: '20px',
+                                    padding: '3rem 2.5rem',
+                                    boxShadow: '0 10px 40px rgba(26, 60, 52, 0.08), 0 0 0 1px rgba(26, 60, 52, 0.1) inset',
+                                    border: '1px solid rgba(26, 60, 52, 0.15)',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    textAlign: 'center',
+                                    textDecoration: 'none',
+                                    cursor: 'pointer',
+                                    position: 'relative',
+                                    overflow: 'hidden',
+                                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
+                                }}
+                            >
+                                {/* Hover Glow Effect */}
+                                <div style={{
+                                    position: 'absolute',
+                                    top: '-50%',
+                                    left: '-50%',
+                                    width: '200%',
+                                    height: '200%',
+                                    background: 'radial-gradient(circle, rgba(26, 60, 52, 0.1) 0%, transparent 70%)',
+                                    opacity: 0,
+                                    transition: 'opacity 0.4s ease',
+                                    pointerEvents: 'none'
+                                }}></div>
 
-                        {/* BOX 2: MITOCHONDRIAL EDUCATION */}
-                        <Link
-                            to="/mitochondrial-guide"
+                                <div style={{
+                                    fontSize: '4rem',
+                                    marginBottom: '2rem',
+                                    filter: 'drop-shadow(0 4px 12px rgba(26, 60, 52, 0.2))',
+                                    transition: 'transform 0.3s ease'
+                                }}>
+                                    🧬
+                                </div>
+
+                                <h3 style={{
+                                    fontSize: '1.65rem',
+                                    fontWeight: 800,
+                                    color: '#1A3C34',
+                                    marginBottom: '1rem',
+                                    letterSpacing: '-0.01em'
+                                }}>
+                                    The Longevity Blueprint
+                                </h3>
+
+                                <p style={{
+                                    fontSize: '1.05rem',
+                                    color: '#4A5568',
+                                    marginBottom: '2rem',
+                                    lineHeight: 1.7,
+                                    flexGrow: 1
+                                }}>
+                                    Aging is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
+                                </p>
+
+                                <span style={{
+                                    display: 'inline-block',
+                                    padding: '1rem 2rem',
+                                    background: '#1A3C34',
+                                    color: '#FFFFFF',
+                                    borderRadius: '12px',
+                                    fontWeight: 700,
+                                    fontSize: '0.9rem',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '0.08em',
+                                    boxShadow: '0 8px 20px rgba(26, 60, 52, 0.25)',
+                                    transition: 'all 0.3s ease'
+                                }}>
+                                    LEARN THE SCIENCE →
+                                </span>
+                            </Link>
+                        </motion.div>
+
+                        {/* CARD 2: MITOCHONDRIAL HEALTH - Orange Gradient */}
+                        <motion.div
+                            whileHover={{ y: -12, scale: 1.02 }}
+                            transition={{ duration: 0.3 }}
                             data-aos="fade-up"
                             data-aos-delay="200"
-                            style={{
-                                background: '#FFFFFF',
-                                borderRadius: '16px',
-                                padding: '2.5rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                                border: '1px solid rgba(0,0,0,0.05)',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                textAlign: 'center',
-                                transition: 'all 0.3s ease',
-                                textDecoration: 'none',
-                                cursor: 'pointer'
-                            }}
-                            onMouseEnter={e => {
-                                e.currentTarget.style.transform = 'translateY(-8px)';
-                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
-                            }}
-                            onMouseLeave={e => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
-                            }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#FF5F00' }}>⚡</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>Mitochondrial Health</h3>
-                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                Energy begins at the cellular level. Discover the physician's protocol for optimizing your mitochondria and eliminating fatigue.
-                            </p>
-                            <span style={{
-                                marginTop: 'auto',
-                                display: 'inline-block',
-                                padding: '0.8rem 1.5rem',
-                                background: '#FF5F00',
-                                color: '#FFFFFF',
-                                borderRadius: '8px',
-                                fontWeight: 700,
-                                fontSize: '0.9rem',
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em'
-                            }}>
-                                EXPLORE THE ENGINE &gt;
-                            </span>
-                        </Link>
+                            <Link
+                                to="/mitochondrial-guide"
+                                style={{
+                                    background: 'linear-gradient(135deg, rgba(255, 95, 0, 0.04) 0%, rgba(255, 165, 0, 0.06) 100%)',
+                                    backdropFilter: 'blur(10px)',
+                                    WebkitBackdropFilter: 'blur(10px)',
+                                    borderRadius: '20px',
+                                    padding: '3rem 2.5rem',
+                                    boxShadow: '0 10px 40px rgba(255, 95, 0, 0.08), 0 0 0 1px rgba(255, 95, 0, 0.1) inset',
+                                    border: '1px solid rgba(255, 95, 0, 0.15)',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    textAlign: 'center',
+                                    textDecoration: 'none',
+                                    cursor: 'pointer',
+                                    position: 'relative',
+                                    overflow: 'hidden',
+                                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
+                                }}
+                            >
+                                <div style={{
+                                    fontSize: '4rem',
+                                    marginBottom: '2rem',
+                                    filter: 'drop-shadow(0 4px 12px rgba(255, 95, 0, 0.3))',
+                                    transition: 'transform 0.3s ease'
+                                }}>
+                                    ⚡
+                                </div>
 
-                        {/* BOX 3: THE STORE */}
-                        <Link
-                            to="/shop"
+                                <h3 style={{
+                                    fontSize: '1.65rem',
+                                    fontWeight: 800,
+                                    color: '#1A3C34',
+                                    marginBottom: '1rem',
+                                    letterSpacing: '-0.01em'
+                                }}>
+                                    Mitochondrial Health
+                                </h3>
+
+                                <p style={{
+                                    fontSize: '1.05rem',
+                                    color: '#4A5568',
+                                    marginBottom: '2rem',
+                                    lineHeight: 1.7,
+                                    flexGrow: 1
+                                }}>
+                                    Energy begins at the cellular level. Discover the physician's protocol for optimizing your mitochondria and eliminating fatigue.
+                                </p>
+
+                                <span style={{
+                                    display: 'inline-block',
+                                    padding: '1rem 2rem',
+                                    background: '#FF5F00',
+                                    color: '#FFFFFF',
+                                    borderRadius: '12px',
+                                    fontWeight: 700,
+                                    fontSize: '0.9rem',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '0.08em',
+                                    boxShadow: '0 8px 20px rgba(255, 95, 0, 0.3)',
+                                    transition: 'all 0.3s ease'
+                                }}>
+                                    EXPLORE THE ENGINE →
+                                </span>
+                            </Link>
+                        </motion.div>
+
+                        {/* CARD 3: NUTRIENT STACKS - Teal Gradient */}
+                        <motion.div
+                            whileHover={{ y: -12, scale: 1.02 }}
+                            transition={{ duration: 0.3 }}
                             data-aos="fade-up"
                             data-aos-delay="300"
-                            style={{
-                                background: '#FFFFFF',
-                                borderRadius: '16px',
-                                padding: '2.5rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.05)',
-                                border: '1px solid rgba(0,0,0,0.05)',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                textAlign: 'center',
-                                transition: 'all 0.3s ease',
-                                textDecoration: 'none',
-                                cursor: 'pointer'
-                            }}
-                            onMouseEnter={e => {
-                                e.currentTarget.style.transform = 'translateY(-8px)';
-                                e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.1)';
-                            }}
-                            onMouseLeave={e => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 10px 40px rgba(0,0,0,0.05)';
-                            }}
                         >
-                            <div style={{ fontSize: '3rem', marginBottom: '1.5rem', color: '#008080' }}>💊</div>
-                            <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#1A3C34', marginBottom: '0.5rem' }}>The Nutrient Stacks</h3>
-                            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                                Evidence-based tools for the job. Shop our definitive 'Core 3' protocols for Vitality, Clarity, and Resilience.
-                            </p>
-                            <span style={{
-                                marginTop: 'auto',
-                                display: 'inline-block',
-                                padding: '0.8rem 1.5rem',
-                                background: '#008080',
-                                color: '#FFFFFF',
-                                borderRadius: '8px',
-                                fontWeight: 700,
-                                fontSize: '0.9rem',
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em'
-                            }}>
-                                SHOP THE PROTOCOLS &gt;
-                            </span>
-                        </Link>
+                            <Link
+                                to="/shop"
+                                style={{
+                                    background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.04) 0%, rgba(32, 178, 170, 0.06) 100%)',
+                                    backdropFilter: 'blur(10px)',
+                                    WebkitBackdropFilter: 'blur(10px)',
+                                    borderRadius: '20px',
+                                    padding: '3rem 2.5rem',
+                                    boxShadow: '0 10px 40px rgba(0, 128, 128, 0.08), 0 0 0 1px rgba(32, 178, 170, 0.1) inset',
+                                    border: '1px solid rgba(32, 178, 170, 0.15)',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    textAlign: 'center',
+                                    textDecoration: 'none',
+                                    cursor: 'pointer',
+                                    position: 'relative',
+                                    overflow: 'hidden',
+                                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
+                                }}>
+                                <div style={{
+                                    fontSize: '4rem',
+                                    marginBottom: '2rem',
+                                    filter: 'drop-shadow(0 4px 12px rgba(0, 128, 128, 0.3))',
+                                    transition: 'transform 0.3s ease'
+                                }}>
+                                    💊
+                                </div>
+
+                                <h3 style={{
+                                    fontSize: '1.65rem',
+                                    fontWeight: 800,
+                                    color: '#1A3C34',
+                                    marginBottom: '1rem',
+                                    letterSpacing: '-0.01em'
+                                }}>
+                                    The Nutrient Stacks
+                                </h3>
+
+                                <p style={{
+                                    fontSize: '1.05rem',
+                                    color: '#4A5568',
+                                    marginBottom: '2rem',
+                                    lineHeight: 1.7,
+                                    flexGrow: 1
+                                }}>
+                                    Evidence-based tools for the job. Shop our definitive 'Core 3' protocols for Vitality, Clarity, and Resilience.
+                                </p>
+
+                                <span style={{
+                                    display: 'inline-block',
+                                    padding: '1rem 2rem',
+                                    background: '#008080',
+                                    color: '#FFFFFF',
+                                    borderRadius: '12px',
+                                    fontWeight: 700,
+                                    fontSize: '0.9rem',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '0.08em',
+                                    boxShadow: '0 8px 20px rgba(0, 128, 128, 0.3)',
+                                    transition: 'all 0.3s ease'
+                                }}>
+                                    SHOP THE PROTOCOLS →
+                                </span>
+                            </Link>
+                        </motion.div>
                     </div>
                 </div>
             </section>
