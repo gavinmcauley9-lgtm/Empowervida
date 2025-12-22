@@ -108,7 +108,7 @@ const EmailCapture = ({ variant = 'default' }) => {
 
             <form
                 ref={formRef}
-                action="https://app.kit.com/forms/0e2ee0a8b5/subscriptions"
+                action="https://app.kit.com/forms/0fe46035f0/subscriptions"
                 method="post"
                 onSubmit={handleSubmit}
                 style={{
