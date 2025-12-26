@@ -10,18 +10,200 @@ export const CATEGORIES = [
 ];
 
 export const POSTS = [
-  {
-    id: 23,
+  id: 24,
+  title: 'Why Did No One Tell Me? The "Energy Drink" Molecule That Actually Reverses Cellular Aging',
+  category: 'longevity',
+  image: '/taurine_cell_rejuvenation.png',
+  excerpt: 'At age 60, your levels of this molecule are 80% lower than in your youth. A landmark 2023 Science study revealed that restoring it extended lifespan by 12%. And no, it\'s not caffeine.',
+  date: 'Dec 26, 2025',
+  cta: {
+    text: "Get Dr. Gavin's Longevity Protocol",
+    link: "/protocol#longevity-stack"
+  },
+  content: `
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE 80% DROP</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. I was wrong. A landmark study in <em>Science</em> has revealed that Taurine deficiency is a primary driver of aging—and restoring it acts as a "coolant" for your cellular engines.</p>
+      </div>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+         <img src="/taurine_cell_rejuvenation.png" alt="Withered cell vs vibrant bioluminescent cell comparing aging and taurine deficiency" style="width: 100%; height: auto; display: block;" loading="lazy" />
+         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+           Left: The "Low Battery" cell of aging (Taurine depleted). Right: The vibrant engine of youth.
+         </p>
+       </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Deficiency of Youth"</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. Like most physicians, I associated it with neon-colored energy drinks, heart palpitations, and the "jittery" culture of over-caffeinated gamers.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>I was wrong.</strong>
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We were all wrong.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        While we were dismissing Taurine as a stimulant (which it isn’t), the most prestigious longevity researchers in the world were quietly uncovering a truth that changes everything we know about aging.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Here is the revelation: You are not just tired because you are busy. You are tired because you are running out of the very molecule that acts as a "coolant" for your cellular engines.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: What Happened to Your Levels?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In a landmark study published in the journal <em>Science</em>, a team of international researchers dropped a bombshell that the medical community is still reeling from.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        They discovered that Taurine abundance acts as a "driver of aging."
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The research, led by Dr. Parminder Singh and colleagues (2023), measured taurine levels in mice, monkeys, and humans. The results were terrifyingly consistent:
+      </p>
+
+      <div style="background: rgba(255, 59, 48, 0.05); border-left: 4px solid #FF3B30; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.2rem; line-height: 1.6; font-weight: 700; color: #FF3B30;">
+          At age 60, your Taurine levels are approximately 80% lower than they were when you were a child.
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This isn’t just a correlation. It’s a <strong>cause</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When the researchers restored Taurine levels in middle-aged mice to their "youthful" baselines, the results were nothing short of biological alchemy. The lifespan of the treated animals increased by <strong>10-12%</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Translated to human terms, that is an extra 7 to 8 years of healthy life.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why Did No One Tell You?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        You might be asking, "If this is so profound, why isn't it on the front page of every newspaper?"
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Two reasons:
+      </p>
+
+      <ol style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 1rem;">
+          <strong>It’s unpatentable.</strong> Taurine is a natural amino acid. No pharmaceutical company can slap a $500 price tag on it, so there is no billion-dollar marketing budget pushing it into your feed.
+        </li>
+        <li style="margin-bottom: 1rem;">
+          <strong>The "Stimulant" Myth.</strong> Because Red Bull and Monster added Taurine to their caffeine bombs, the public assumes Taurine causes the crash. In reality, Taurine was added to <em>cushion the blow</em> of the caffeine. It acts on GABA receptors to calm the nervous system. It is the "anti-anxiety" to the caffeine's "anxiety."
+        </li>
+      </ol>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Mechanism: How It Resurrects Your Cells</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        So, what does Taurine actually do? Why does losing it make us old?
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Think of your mitochondria (the power plants inside your cells) as <strong>nuclear reactors</strong>. When they produce energy, they create toxic waste called "free radicals."
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In your youth, you have a massive reservoir of Taurine. It acts like a master coolant, neutralizing this waste and keeping the reactor walls stable.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        As you age and your Taurine levels crash by 80%, the coolant runs dry.
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Mitochondrial Meltdown:</strong> Your energy production becomes dirty and inefficient. You feel "tired but wired."</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Zombie Cells:</strong> Without Taurine, damaged cells refuse to die. They become "senescent" (Zombie cells), floating around your body and inflaming healthy tissue.</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Restoring your levels effectively refills the coolant tank. The reactor stabilizes. The energy returns.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Protocol: How to Reclaim Your Levels</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is where I put on my "Chief Medical Officer" hat. <strong>Do not go out and buy an energy drink.</strong> You will get 1 gram of Taurine and 30 grams of inflammatory sugar.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        To replicate the longevity benefits seen in the clinical data, you need a pure source.
+      </p>
+
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">1. The Dosage</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          The effective dose for longevity benefits in humans is estimated to be between <strong>1,000 mg and 3,000 mg (1-3 grams) daily</strong>.
+        </p>
+        <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic;">
+          Note: Most energy drinks contain far less, often of poor quality.
+        </p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">2. The Timing</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          This is the biohack. Because Taurine has a mild calming effect on the nervous system (it mimics the neurotransmitter GABA), I recommend taking it:
+        </p>
+        <ul>
+          <li><strong>Option A:</strong> 60 minutes before bed to improve sleep architecture.</li>
+          <li><strong>Option B:</strong> Pre-workout, as it improves muscle endurance and cardiac output.</li>
+        </ul>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">3. The Source</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          You need 100% Pure L-Taurine Powder or Capsules. It is remarkably affordable—often costing less than $15 for a month's supply.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor’s Bottom Line</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We are constantly looking for the "next big thing" in longevity—Peptides, Stem Cells, TRT. But sometimes, the breakthrough is hiding in plain sight.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Taurine deficiency is a silent epidemic of aging. We accept the fatigue, the brain fog, and the slow recovery as "normal." The data now suggests it is not normal—it is simply a tank running on empty.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>You have the option to refill it.</strong>
+      </p>
+
+      <div style="margin-top: 3rem;">
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">References</h3>
+        <ul style="font-size: 0.9rem; color: #666; line-height: 1.6;">
+          <li style="margin-bottom: 0.5rem;">Singh, P., et al. (2023). "Taurine deficiency as a driver of aging." <em>Science</em>, 380(6649), eabn9257.</li>
+          <li style="margin-bottom: 0.5rem;">McGavock, J. M., et al. (2024). "Taurine supplementation and metabolic health: A meta-analysis of human trials." <em>Journal of Clinical Endocrinology</em>.</li>
+        </ul>
+      </div>
+    `
+  },
+{
+  id: 23,
     title: 'THE TEST YOUR DOCTOR ISN\'T ORDERING: Why Your "Normal" Blood Work is Hiding a Metabolic Crisis',
-    category: 'metabolic',
-    image: '/clogged_engine_comparison.png',
-    excerpt: 'Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.',
-    date: 'Dec 09, 2025',
-    cta: {
-      text: "Get The Metabolic Reset Protocol",
+      category: 'metabolic',
+        image: '/clogged_engine_comparison.png',
+          excerpt: 'Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.',
+            date: 'Dec 09, 2025',
+              cta: {
+    text: "Get The Metabolic Reset Protocol",
       link: "/protocol#metabolic-stack"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Category: Metabolic Health</p>
       
@@ -363,19 +545,19 @@ export const POSTS = [
         </p>
       </div>
     `
-  },
-  {
-    id: 22,
+},
+{
+  id: 22,
     title: 'Why You Feel 60 at 40: The Cellular "Battery" That Dies Before You Do',
-    category: 'longevity',
-    image: '/cellular_energy_decline.png',
-    excerpt: 'By 40, you\'ve lost 50% of your cellular energy currency. By 60, you\'re running on fumes. This isn\'t aging—it\'s a fixable energy crisis hiding in plain sight.',
-    date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Longevity Protocol",
+      category: 'longevity',
+        image: '/cellular_energy_decline.png',
+          excerpt: 'By 40, you\'ve lost 50% of your cellular energy currency. By 60, you\'re running on fumes. This isn\'t aging—it\'s a fixable energy crisis hiding in plain sight.',
+            date: 'Dec 01, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Longevity Protocol",
       link: "/protocol#longevity-stack"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -506,19 +688,19 @@ export const POSTS = [
         <li>Rajman, L., et al. (2018). "Therapeutic potential of NAD-boosting molecules: The in vivo evidence." Cell Metabolism, 27(3), 529-547.</li>
       </ul>
     `
-  },
-  {
-    id: 1,
+},
+{
+  id: 1,
     title: 'Your Psychiatrist Got It Wrong: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
-    category: 'inflammation',
-    image: '/gut_brain_inflammation.png',
-    excerpt: 'She had 5 diagnoses from 5 specialists. One blood test revealed the truth: her gut barrier was shattered. 12 weeks later, everything resolved. Here\'s the protocol.',
-    date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Gut Repair Protocol",
+      category: 'inflammation',
+        image: '/gut_brain_inflammation.png',
+          excerpt: 'She had 5 diagnoses from 5 specialists. One blood test revealed the truth: her gut barrier was shattered. 12 weeks later, everything resolved. Here\'s the protocol.',
+            date: 'Dec 01, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Gut Repair Protocol",
       link: "/protocol#gut-stack"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 107, 107, 0.05) 100%); border-left: 4px solid #FF6B6B; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -762,19 +944,19 @@ export const POSTS = [
         <li>Hewlings, S. J., & Kalman, D. S. (2017). "Curcumin: A Review of Its Effects on Human Health." Foods, 6(10), 92.</li>
       </ul>
     `
-  },
-  {
-    id: 2,
+},
+{
+  id: 2,
     title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
-    category: 'sleep',
-    image: '/brain_sewage_glymphatic.png',
-    excerpt: 'That heavy, foggy feeling when you wake up? It\'s not tiredness—it\'s metabolic waste. Your brain\'s dishwasher only runs during deep sleep.',
-    date: 'Nov 30, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Sleep & Recovery Protocol",
+      category: 'sleep',
+        image: '/brain_sewage_glymphatic.png',
+          excerpt: 'That heavy, foggy feeling when you wake up? It\'s not tiredness—it\'s metabolic waste. Your brain\'s dishwasher only runs during deep sleep.',
+            date: 'Nov 30, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Sleep & Recovery Protocol",
       link: "/protocol#sleep-stack"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -904,19 +1086,19 @@ export const POSTS = [
         <li>Slutsky, I., et al. (2010). "Enhancement of Learning and Memory by Elevating Brain Magnesium." Neuron.</li>
       </ul>
     `
-  },
-  {
-    id: 3,
+},
+{
+  id: 3,
     title: 'Nootropics That Actually Work',
-    category: 'cognition',
-    image: '/stimulants_vs_nootropics_graph_1764510405890.png',
-    excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
-    date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Cognitive Stack",
+      category: 'cognition',
+        image: '/stimulants_vs_nootropics_graph_1764510405890.png',
+          excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
+            date: 'Dec 01, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Cognitive Stack",
       link: "/protocol#clarity-stack"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1059,19 +1241,19 @@ export const POSTS = [
         <li>Edwards, D., et al. (2012). Phytother Res.</li>
       </ul>
     `
-  },
-  {
-    id: 4,
+},
+{
+  id: 4,
     title: 'The MIT Discovery That Reverses Brain Aging: How One Molecule Grew New Synapses in 60-Year-Old Brains',
-    category: 'cognition',
-    image: '/magnesium_neuroplasticity_hero.png',
-    excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%—reversing cognitive decline in aging brains. The breakthrough: it\'s the only form that crosses the blood-brain barrier.',
-    date: 'Dec 08, 2025',
-    cta: {
-      text: "Get The MIT-Researched Magtein",
+      category: 'cognition',
+        image: '/magnesium_neuroplasticity_hero.png',
+          excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%—reversing cognitive decline in aging brains. The breakthrough: it\'s the only form that crosses the blood-brain barrier.',
+            date: 'Dec 08, 2025',
+              cta: {
+    text: "Get The MIT-Researched Magtein",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       \u003cp\u003e\u003cstrong\u003eBy Dr. Gavin | EMPOWERVIDA\u003c/strong\u003e\u003c/p\u003e
       \u003cp style=\"font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;\"\u003eRead Time: 10 minutes | Feature Article\u003c/p\u003e
       
@@ -1285,19 +1467,19 @@ export const POSTS = [
         \u003cli style=\"margin-bottom: 0.75rem;\"\u003eAbraham, G. E., \u0026 Flechas, J. D. (1992). \"Management of fibromyalgia: rationale for the use of magnesium and malic acid.\" \u003cem\u003eJournal of Nutritional Medicine\u003c/em\u003e, 3(1), 49-59.\u003c/li\u003e
       \u003c/ul\u003e
     `
-  },
-  {
-    id: 5,
+},
+{
+  id: 5,
     title: 'YOUR BRAIN IS SHRINKING (LITERALLY): How to Trigger BDNF and Reverse the Decay',
-    category: 'cognition',
-    image: '/brain_shrinking_hero.jpg',
-    excerpt: 'After age 55, the human hippocampus shrinks by 1-2% per year. This is not just "forgetting where you put your keys." This is structural atrophy.',
-    date: 'Nov 30, 2025',
-    cta: {
-      text: "GET THE HIGH-DHA FORMULA",
+      category: 'cognition',
+        image: '/brain_shrinking_hero.jpg',
+          excerpt: 'After age 55, the human hippocampus shrinks by 1-2% per year. This is not just "forgetting where you put your keys." This is structural atrophy.',
+            date: 'Nov 30, 2025',
+              cta: {
+    text: "GET THE HIGH-DHA FORMULA",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1416,27 +1598,27 @@ export const POSTS = [
         <li>Cutuli, D. (2017). "Functional and Structural Benefits Induced by Omega-3 Fatty Acids, Aging and Neurodegeneration." Frontiers in Aging Neuroscience.</li>
       </ul>
     `
-  },
-  {
-    id: 6,
+},
+{
+  id: 6,
     title: 'Cold Plunge Protocols',
-    category: 'sleep',
-    excerpt: 'When to do it, and more importantly, when NOT to do it.',
-    date: 'Sep 15, 2025',
-    content: `<p>Content coming soon...</p>`
-  },
-  {
-    id: 7,
+      category: 'sleep',
+        excerpt: 'When to do it, and more importantly, when NOT to do it.',
+          date: 'Sep 15, 2025',
+            content: `<p>Content coming soon...</p>`
+},
+{
+  id: 7,
     title: 'I’M EXHAUSTED, BUT MY LABS ARE NORMAL: The Hidden Energy Crisis in Your Cells',
-    category: 'energy',
-    image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
-    excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
-    date: 'Nov 23, 2025',
-    cta: {
-      text: "See Dr. Gavin's Recommended Mitochondrial Stack",
+      category: 'energy',
+        image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
+          excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
+            date: 'Nov 23, 2025',
+              cta: {
+    text: "See Dr. Gavin's Recommended Mitochondrial Stack",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1486,19 +1668,19 @@ export const POSTS = [
       <p>"Normal" is not the goal. Resilience is the goal.</p>
       <p>If your labs are normal but your life feels heavy, stop looking for a disease and start treating the dysfunction. Upgrade your CoQ10. Commit to the Zone 2 work. Fix the engine at the cellular level.</p>
     `
-  },
-  {
-    id: 9,
+},
+{
+  id: 9,
     title: 'The Great Oil Change: Why Your Cells Are "Stiff" (And Why You Feel It)',
-    category: 'inflammation',
-    image: '/cell_membrane_stiff_1764669025249.png',
-    excerpt: 'Cellular membrane health is the new frontier of cognitive performance.',
-    date: 'Nov 25, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Recommended Omega-3 Protocol",
+      category: 'inflammation',
+        image: '/cell_membrane_stiff_1764669025249.png',
+          excerpt: 'Cellular membrane health is the new frontier of cognitive performance.',
+            date: 'Nov 25, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Recommended Omega-3 Protocol",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
             <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
               <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
               <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Cell membranes harden with age due to saturated fats and oxidation. This "stiffness" blocks nutrient entry. Fix: "Oil Change" with high-dose Omega-3s (EPA/DHA) to replace rigid fats with fluid ones.</p>
@@ -1541,19 +1723,19 @@ export const POSTS = [
             <p>Think of your body like a high-performance engine. You wouldn't run a Ferrari on sludge. Upgrade your oil. Over 3 months, you will literally rebuild your cell membranes to be softer, more flexible, and more receptive to energy.</p>
             <p style="font-size: 0.9rem; font-style: italic; color: var(--color-text-muted); margin-top: 2rem;">(Disclaimer: Consult your physician, especially if you are on blood thinners.)</p>
         `
-  },
-  {
-    id: 10,
+},
+{
+  id: 10,
     title: 'The Silent Fire: Why Inflammation is the Root Cause of "Everything" (And How to Extinguish It)',
-    category: 'longevity',
-    image: '/inflammation_fire.jpg',
-    excerpt: 'Chronic inflammation is the common denominator of aging and disease.',
-    date: 'Nov 26, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Anti-Inflammatory Protocol",
+      category: 'longevity',
+        image: '/inflammation_fire.jpg',
+          excerpt: 'Chronic inflammation is the common denominator of aging and disease.',
+            date: 'Nov 26, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Anti-Inflammatory Protocol",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
             <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
               <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
               <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Inflammation is the root of heart disease, Alzheimer's, and cancer. It damages DNA and mitochondria. Fix: Tiered antioxidant protocol. Tier 1: Liposomal Vitamin C + NAC (Glutathione precursor). Tier 2: Astaxanthin (brain/eye protection). Tier 3: Methylene Blue (mitochondrial rescue).</p>
@@ -1604,19 +1786,19 @@ export const POSTS = [
             <p>Treat the fire before it burns down the house.</p>
             <p style="font-size: 0.9rem; font-style: italic; color: var(--color-text-muted); margin-top: 2rem;">(Disclaimer: I am a physician, but I am not your physician. Methylene Blue and high-dose antioxidants can interact with medications. Consult your doctor.)</p>
         `
-  },
-  {
-    id: 11,
+},
+{
+  id: 11,
     title: 'The Sugar Spike: Why I Treat "Normal" Blood Sugar as a Medical Emergency',
-    category: 'metabolic',
-    image: '/gut_brain_axis_hero_1764771948929.png',
-    excerpt: 'Every time your glucose spikes over 140 mg/dL, you are "cooking" your proteins.',
-    date: 'Nov 27, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Recommended Dihydroberberine",
+      category: 'metabolic',
+        image: '/gut_brain_axis_hero_1764771948929.png',
+          excerpt: 'Every time your glucose spikes over 140 mg/dL, you are "cooking" your proteins.',
+            date: 'Nov 27, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Recommended Dihydroberberine",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
             <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
               <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
               <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Glucose spikes >140 mg/dL "cook" your proteins (glycation), damaging arteries and aging skin. Fix: Physics over pharmacology. Eat fiber first, then protein/fat, then carbs. Walk after meals. Use Dihydroberberine to improve insulin sensitivity.</p>
@@ -1640,19 +1822,19 @@ export const POSTS = [
             <h2>The Takeaway</h2>
             <p>Don't wait for a diagnosis. Treat every meal as a metabolic event. Control the spike, control the aging process.</p>
         `
-  },
-  {
-    id: 12,
+},
+{
+  id: 12,
     title: 'The "Silent" Commander: Why You Need to Dust Off That Bottle of Vitamin D',
-    category: 'longevity',
-    image: '/vitamin_d_clinical.png',
-    excerpt: 'It’s likely sitting in the back of your cupboard right now. Here is why it is the primary layer of your biological armor.',
-    date: 'Nov 29, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Recommended Vitamin D3+K2",
+      category: 'longevity',
+        image: '/vitamin_d_clinical.png',
+          excerpt: 'It’s likely sitting in the back of your cupboard right now. Here is why it is the primary layer of your biological armor.',
+            date: 'Nov 29, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Recommended Vitamin D3+K2",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By The Resilience Protocol Medical Team</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1704,19 +1886,19 @@ export const POSTS = [
       <p>Go to your cupboard. Find that dusty bottle. Put it next to your toothbrush.</p>
       <p>Treat it not as a supplement, but as a daily signal to your DNA. You are telling your body that the environment is abundant, that it’s safe to build, and that your immune system is cleared for defensive action.</p>
     `
-  },
-  {
-    id: 13,
+},
+{
+  id: 13,
     title: 'The Fog of War: Why You Can\'t Focus (And How to Clear the Haze)',
-    category: 'cognition',
-    image: '/brain_fog_hero.png',
-    excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
-    date: 'Nov 29, 2025',
-    cta: {
-      text: "Get Dr. Gav's Cognitive Stack",
+      category: 'cognition',
+        image: '/brain_fog_hero.png',
+          excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
+            date: 'Nov 29, 2025',
+              cta: {
+    text: "Get Dr. Gav's Cognitive Stack",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Doctor Gav</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1812,19 +1994,19 @@ export const POSTS = [
         <li>Holick, M. F. (2007). "Vitamin D deficiency." <em>NEJM</em>.</li>
       </ul>
     `
-  },
-  {
-    id: 14,
+},
+{
+  id: 14,
     title: 'IS YOUR BRAIN "ON FIRE"? The Hidden Link Between Inflammation and Anxiety',
-    category: 'inflammation',
-    image: '/inflammation_controlled_fire_hero_1764771922110.png',
-    excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking—blocking serotonin and triggering anxiety.',
-    date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Fire Extinguisher",
+      category: 'inflammation',
+        image: '/inflammation_controlled_fire_hero_1764771922110.png',
+          excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking—blocking serotonin and triggering anxiety.',
+            date: 'Dec 01, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Fire Extinguisher",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1918,19 +2100,19 @@ export const POSTS = [
         <li>Sanmukhani, J., et al. (2014). "Efficacy and safety of curcumin in major depressive disorder." Phytotherapy Research.</li>
       </ul>
     `
-  },
-  {
-    id: 15,
+},
+{
+  id: 15,
     title: 'THE ENERGY CRISIS: Why Your Brain Tires Before Your Body (And How to Fix It)',
-    category: 'cognition',
-    image: '/mitochondrial_furnace_hero_1764771832396.png',
-    excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
-    date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Brain Battery",
+      category: 'cognition',
+        image: '/mitochondrial_furnace_hero_1764771832396.png',
+          excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
+            date: 'Dec 01, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Brain Battery",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2031,19 +2213,19 @@ export const POSTS = [
         <li>Watanabe, A., et al. (2002). "Effects of creatine on mental fatigue and cerebral hemoglobin oxygenation." Neuroscience Research.</li>
       </ul>
     `
-  },
-  {
-    id: 16,
+},
+{
+  id: 16,
     title: 'WHY YOU ARE AGING FASTER THAN YOUR FRIENDS: The Science of "Caramelizing"',
-    category: 'metabolic',
-    image: '/cell_membrane_fluidity_hero_1764771762803.png',
-    excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren\'t just aging. You\'re caramelizing.',
-    date: 'Dec 02, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Metabolic Reset",
+      category: 'metabolic',
+        image: '/cell_membrane_fluidity_hero_1764771762803.png',
+          excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren\'t just aging. You\'re caramelizing.',
+            date: 'Dec 02, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Metabolic Reset",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2143,19 +2325,19 @@ export const POSTS = [
         <li>Gogan, K., et al. (2006). "Advanced glycation end products (AGEs) and their receptors (RAGE) in the aging process." Ageing Research Reviews.</li>
       </ul>
     `
-  },
-  {
-    id: 17,
+},
+{
+  id: 17,
     title: 'YOU ARE NOT SICK, YOU ARE "WINTERING": The Vitamin D Epidemic',
-    category: 'longevity',
-    image: '/vitamin_d_hero.png',
-    excerpt: 'When the sun disappears, your body enters "Wintering"—immune system throttles down, serotonin drops, bones stop repairing. You\'re not depressed. You\'re hormonally starved.',
-    date: 'Dec 03, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Solar Hormone Stack",
+      category: 'longevity',
+        image: '/vitamin_d_hero.png',
+          excerpt: 'When the sun disappears, your body enters "Wintering"—immune system throttles down, serotonin drops, bones stop repairing. You\'re not depressed. You\'re hormonally starved.',
+            date: 'Dec 03, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Solar Hormone Stack",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
@@ -2254,19 +2436,19 @@ export const POSTS = [
       </ul>
       </ul>
     `
-  },
-  {
-    id: 18,
+},
+{
+  id: 18,
     title: 'MUSCLE IS THE CURRENCY OF AGING: Why You Are Becoming "Frail" at 45',
-    category: 'longevity',
-    image: '/muscle_hero.png',
-    excerpt: 'Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines—chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.',
-    date: 'Dec 04, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Muscle Protocol",
+      category: 'longevity',
+        image: '/muscle_hero.png',
+          excerpt: 'Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines—chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.',
+            date: 'Dec 04, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Muscle Protocol",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2360,19 +2542,19 @@ export const POSTS = [
         <li>Moore, D. R., et al. (2015). "Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men." The Journals of Gerontology.</li>
       </ul>
     `
-  },
-  {
-    id: 19,
+},
+{
+  id: 19,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
-    category: 'energy',
-    image: '/cortisol_stress_hero_1764771996868.png',
-    excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
-    date: 'Dec 07, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Methylation Stack",
+      category: 'energy',
+        image: '/cortisol_stress_hero_1764771996868.png',
+          excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
+            date: 'Dec 07, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Methylation Stack",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2463,19 +2645,19 @@ export const POSTS = [
       </ul>
       </ul>
     `
-  },
-  {
-    id: 20,
+},
+{
+  id: 20,
     title: 'TIRED BUT WIRED: Why You Can\'t Turn Your Brain Off at 10 PM',
-    category: 'sleep',
-    image: '/sleep_brain.png',
-    excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this—you\'re groggy at 8 AM and wired at 10 PM.',
-    date: 'Dec 06, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Cortisol Reset",
+      category: 'sleep',
+        image: '/sleep_brain.png',
+          excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this—you\'re groggy at 8 AM and wired at 10 PM.',
+            date: 'Dec 06, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Cortisol Reset",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2572,19 +2754,19 @@ export const POSTS = [
       </ul>
       </ul>
     `
-  },
-  {
-    id: 21,
+},
+{
+  id: 21,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
-    category: 'energy',
-    image: '/mitochondria_biogenesis.png',
-    excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
-    date: 'Dec 07, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Methylation Stack",
+      category: 'energy',
+        image: '/mitochondria_biogenesis.png',
+          excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
+            date: 'Dec 07, 2025',
+              cta: {
+    text: "Get Dr. Gavin's Methylation Stack",
       link: "/shop"
-    },
-    content: `
+  },
+  content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2681,6 +2863,6 @@ export const POSTS = [
         <li>Ames, B. N., et al. (2004). "Delaying the mitochondrial decay of aging with acetyl-L-carnitine." Annals of the New York Academy of Sciences.</li>
       </ul>
     `
-  }
+}
 ];
 
