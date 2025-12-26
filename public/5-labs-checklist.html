@@ -4,391 +4,282 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5 Labs Your Doctor Isn't Testing - Dr. Gavin McAuley</title>
+    <title>The Metabolic 5 - EmpowerVida Checklist</title>
     <style>
-        @page {
-            size: A4;
-            margin: 2cm;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@700;800&display=swap');
 
         body {
-            font-family: 'Georgia', serif;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
             color: #1A3C34;
             max-width: 800px;
             margin: 0 auto;
             padding: 40px;
-            background: white;
+            line-height: 1.6;
+            background: #ffffff;
         }
 
         .header {
             text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 3px solid #20B2AA;
+            border-bottom: 2px solid #20B2AA;
             padding-bottom: 30px;
-        }
-
-        .logo {
-            font-size: 32px;
-            font-weight: 800;
-            color: #1A3C34;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
-        }
-
-        .logo span {
-            color: #20B2AA;
+            margin-bottom: 40px;
         }
 
         h1 {
-            font-size: 36px;
+            font-family: 'Manrope', sans-serif;
+            font-size: 32px;
             font-weight: 800;
+            margin-bottom: 10px;
             color: #1A3C34;
-            margin: 20px 0;
-            line-height: 1.2;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
         }
 
         .subtitle {
             font-size: 18px;
             color: #20B2AA;
             font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-style: italic;
         }
 
         .intro {
-            background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);
-            padding: 30px;
-            border-radius: 12px;
-            margin: 30px 0;
-            border-left: 4px solid #20B2AA;
-        }
-
-        .intro p {
-            margin: 10px 0;
             font-size: 16px;
-            line-height: 1.8;
+            color: #555;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #1A3C34;
         }
 
-        .signature {
-            font-style: italic;
-            font-weight: 600;
-            margin-top: 20px;
-            color: #1A3C34;
+        .lab-item {
+            margin-bottom: 35px;
+            break-inside: avoid;
+            /* Prevents awkward page breaks when printing */
         }
 
-        .lab-section {
-            margin: 40px 0;
-            page-break-inside: avoid;
+        .lab-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
         }
 
         .lab-number {
-            background: #20B2AA;
-            color: white;
-            font-weight: 800;
-            font-size: 14px;
-            padding: 8px 16px;
-            border-radius: 6px;
-            display: inline-block;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            background: #1A3C34;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            font-family: 'Manrope', sans-serif;
         }
 
-        .lab-title {
-            font-size: 24px;
-            font-weight: 700;
+        h2 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 20px;
+            margin: 0;
             color: #1A3C34;
-            margin: 10px 0;
         }
 
-        .lab-subsection {
-            margin: 15px 0;
+        .ranges {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
         }
 
-        .lab-subsection h3 {
-            font-size: 16px;
-            font-weight: 700;
-            color: #20B2AA;
-            margin: 10px 0 5px 0;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+        .range-box {
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
         }
 
-        .lab-subsection p {
-            margin: 5px 0;
-            padding-left: 15px;
-            font-size: 15px;
+        .standard-range {
+            background: #F3F4F6;
+            border: 1px solid #E5E7EB;
         }
 
         .optimal-range {
-            background: #E8F5F4;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #20B2AA;
-            margin: 10px 0;
+            background: rgba(32, 178, 170, 0.1);
+            border: 1px solid #20B2AA;
+            color: #0F5E59;
         }
 
-        .optimal-range p {
-            padding-left: 0;
+        .label {
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
             font-weight: 600;
-            color: #1A3C34;
+            display: block;
+            margin-bottom: 5px;
         }
 
-        .action-box {
-            background: #FFF9E6;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #FFB800;
-            margin: 30px 0;
-        }
-
-        .action-box h2 {
-            color: #1A3C34;
-            font-size: 22px;
-            margin-top: 0;
-        }
-
-        .action-box ol {
-            margin: 15px 0;
-            padding-left: 25px;
-        }
-
-        .action-box li {
-            margin: 10px 0;
-            font-size: 15px;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid #E9ECEF;
-        }
-
-        .footer p {
-            font-size: 14px;
-            color: #6C757D;
-        }
-
-        .footer .brand {
+        .value {
             font-size: 18px;
             font-weight: 700;
-            color: #1A3C34;
+        }
+
+        .why-it-matters {
+            font-size: 14px;
+            color: #444;
             margin-top: 10px;
         }
 
-        .footer .brand span {
-            color: #20B2AA;
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
         }
 
         @media print {
             body {
-                padding: 20px;
+                padding: 0;
+            }
+
+            .no-print {
+                display: none;
             }
         }
     </style>
 </head>
 
 <body>
+
     <div class="header">
-        <div class="logo">EMPOWER<span>VIDA</span></div>
-        <div class="subtitle">A Physician's Guide to Early Detection</div>
-        <h1>5 Labs Your Doctor<br>Isn't Testing</h1>
+        <h1>The Metabolic 5</h1>
+        <div class="subtitle">Labs Your Doctor Isn't Testing (But Should Be)</div>
     </div>
 
     <div class="intro">
-        <p><strong>Most doctors test for disease. I test for optimization.</strong></p>
-        <p>After 15 years in Emergency Medicine and General Practice, I learned this: By the time standard labs show
-            "abnormal," you're years into dysfunction.</p>
-        <p>These 5 markers changed everything when I was reversing my own 30kg weight gain and metabolic decline. Your
-            doctor probably won't order them—but you need to know your numbers.</p>
-        <p class="signature">— Dr. Gavin McAuley</p>
+        <strong>Dr. Gavin's Note:</strong> Standard reference ranges are designed to identify <em>disease</em>, not
+        health. They are statistical averages of a sick population. If you want average health, use their ranges. If you
+        want optimal longevity, use ours.
     </div>
 
-    <div class="lab-section">
-        <div class="lab-number">Lab #1</div>
-        <h2 class="lab-title">FASTING INSULIN</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>Standard tests only check blood glucose. But insulin resistance begins 10-15 years BEFORE blood sugar
-                rises.</p>
+    <!-- Lab 1 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">1</div>
+            <h2>Fasting Insulin</h2>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>How hard your pancreas is working to control blood sugar. High insulin = early metabolic dysfunction.</p>
+        <div class="why-it-matters">
+            <strong>The Early Warning System.</strong> Glucose is the crime scene; Insulin is the detective. Insulin
+            rises years before blood sugar does. High insulin drives aging, vascular damage, and fat storage.
         </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>
-                < 5 µIU/mL (fasting)</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If High:</h3>
-            <p>Reduce refined carbs, increase protein, practice time-restricted eating (16:8).</p>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range (The "Sick" Zone)</span>
+                <span class="value">&lt; 25 µIU/mL</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range (The Goal)</span>
+                <span class="value">2.0 - 5.0 µIU/mL</span>
+            </div>
         </div>
     </div>
 
-    <div class="lab-section">
-        <div class="lab-number">Lab #2</div>
-        <h2 class="lab-title">HbA1c (WITH CONTEXT)</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>They test it, but accept "normal" ranges that are too high. "Normal" ≠ Optimal.</p>
+    <!-- Lab 2 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">2</div>
+            <h2>ApoB (Apolipoprotein B)</h2>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>Your 3-month average blood sugar. Even "pre-diabetic" levels accelerate aging.</p>
+        <div class="why-it-matters">
+            <strong>The True Particle Count.</strong> Standard LDL-C ("Bad Cholesterol") estimates volume, like
+            measuring traffic by weighing the cars. ApoB counts the actual number of crash-prone vehicles. It is the
+            single best predictor of cardiac risk.
         </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>
-                < 5.0% (not the standard < 5.7%)</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If High:</h3>
-            <p>Low-glycemic diet, resistance training 3x/week, supplement with berberine or metformin (consult your
-                physician).</p>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 100 mg/dL</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 60 mg/dL</span>
+            </div>
         </div>
     </div>
 
-    <div class="lab-section">
-        <div class="lab-number">Lab #3</div>
-        <h2 class="lab-title">ADVANCED LIPID PANEL (ApoB, LDL-P)</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>Standard cholesterol tests miss 50% of people at risk. Total cholesterol and LDL-C are outdated markers.
-            </p>
+    <!-- Lab 3 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">3</div>
+            <h2>High-Sensitivity CRP (hs-CRP)</h2>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>ApoB = actual number of cholesterol-carrying particles. This is THE marker for cardiovascular risk.</p>
+        <div class="why-it-matters">
+            <strong>The Fire Alarm.</strong> Chronic inflammation is the root of almost all modern disease. hs-CRP
+            measures systemic inflammation in your arteries. If this is high, your cholesterol is far more dangerous.
         </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>ApoB < 80 mg/dL</p>
-                    <p>LDL-P < 1000 nmol/L</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If High:</h3>
-            <p>Omega-3s (2-3g/day), reduce saturated fat, increase fiber, consider statin if ApoB > 100.</p>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 3.0 mg/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 0.5 mg/L</span>
+            </div>
         </div>
     </div>
 
-    <div class="lab-section">
-        <div class="lab-number">Lab #4</div>
-        <h2 class="lab-title">hs-CRP (HIGH-SENSITIVITY C-REACTIVE PROTEIN)</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>Standard CRP only catches acute inflammation. hs-CRP reveals chronic, silent inflammation—the root of
-                most disease.</p>
+    <!-- Lab 4 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">4</div>
+            <h2>Homocysteine</h2>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>Systemic inflammation driving heart disease, diabetes, Alzheimer's, and cancer.</p>
+        <div class="why-it-matters">
+            <strong>The Methylation Marker.</strong> Elevates when your B-vitamin methylation pathways are jammed. High
+            levels damage arterial linings and are strongly linked to dementia and stroke risk.
         </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>
-                < 1.0 mg/L (ideally < 0.5 mg/L)</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If High:</h3>
-            <p>Eliminate processed foods, omega-3 supplementation, curcumin, improve sleep, manage stress.</p>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 15 µmol/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">5.0 - 7.0 µmol/L</span>
+            </div>
         </div>
     </div>
 
-    <div class="lab-section">
-        <div class="lab-number">Lab #5</div>
-        <h2 class="lab-title">VITAMIN D (25-OH)</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>They test it, but accept levels that are "sufficient" for bone health—not optimal for immunity, mood, and
-                longevity.</p>
+    <!-- Lab 5 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">5</div>
+            <h2>GGT (Gamma-Glutamyl Transferase)</h2>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>Immune function, mood regulation, bone health, cardiovascular protection.</p>
+        <div class="why-it-matters">
+            <strong>The Oxidative Stress Gauge.</strong> Often ignored as just a "liver enzyme," GGT is actually a
+            sensitive marker for total body oxidative stress and glutathione depletion. It predicts all-cause mortality
+            better than almost any other enzyme.
         </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>50-80 ng/mL (not 30-50 ng/mL)</p>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 60 U/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 20 U/L</span>
+            </div>
         </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If Low:</h3>
-            <p>Supplement 4,000-6,000 IU daily (with K2), get morning sunlight, recheck in 3 months.</p>
-        </div>
-    </div>
-
-    <div class="lab-section">
-        <div class="lab-number">Bonus</div>
-        <h2 class="lab-title">HOMOCYSTEINE</h2>
-
-        <div class="lab-subsection">
-            <h3>Why Your Doctor Misses It:</h3>
-            <p>Rarely tested unless you have a specific genetic condition.</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What It Reveals:</h3>
-            <p>Methylation status, cardiovascular risk, and brain health. High homocysteine = accelerated aging.</p>
-        </div>
-
-        <div class="optimal-range">
-            <h3>Optimal Range:</h3>
-            <p>
-                < 7 µmol/L</p>
-        </div>
-
-        <div class="lab-subsection">
-            <h3>What To Do If High:</h3>
-            <p>B-complex (methylated forms), betaine (TMG), folate, B12.</p>
-        </div>
-    </div>
-
-    <div class="action-box">
-        <h2>WHAT TO DO NEXT:</h2>
-        <ol>
-            <li><strong>Request these labs</strong> from your doctor (or order them privately via ultalabtests.com or
-                requestatest.com)</li>
-            <li><strong>Get your numbers</strong> and compare them to the optimal ranges above</li>
-            <li><strong>Implement the protocols</strong> on EMPOWERVIDA.com for targeted optimization</li>
-            <li><strong>Retest in 3-6 months</strong> to track progress</li>
-        </ol>
-    </div>
-
-    <div class="intro">
-        <p><strong>REMEMBER:</strong></p>
-        <p>Standard medical care looks for disease.</p>
-        <p>Longevity medicine optimizes for health.</p>
-        <p><strong>Know your numbers. Take control.</strong></p>
-        <p class="signature">— Dr. Gavin McAuley</p>
     </div>
 
     <div class="footer">
-        <p>© 2025 EMPOWERVIDA. Evidence-Based Longevity Protocols.</p>
-        <div class="brand">EMPOWER<span>VIDA</span>.com</div>
+        &copy; 2025 EmpowerVida & Dr. Gavin McAuley. For educational purposes only. Not medical advice.
     </div>
+
 </body>
 
 </html>
