@@ -223,20 +223,33 @@ export default function Navigation() {
                 <div className="mobile-only" style={{ zIndex: 102 }}>
                     <button
                         onClick={() => setIsOpen(!isOpen)}
-                        aria-label="Toggle navigation menu"
+                        aria-label={isOpen ? "Close menu" : "Open menu"}
                         aria-expanded={isOpen}
                         aria-controls="mobile-menu"
                         style={{
-                            background: 'none',
+                            background: 'transparent',
                             border: 'none',
                             cursor: 'pointer',
                             padding: '0.5rem',
-                            color: 'var(--color-text)'
+                            color: 'var(--color-text)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            zIndex: 2100
                         }}
                     >
-                        <div style={{ width: '24px', height: '2px', background: 'currentColor', marginBottom: '6px', transition: 'all 0.3s ease', transform: isOpen ? 'rotate(45deg) translate(5px, 6px)' : 'none' }}></div>
-                        <div style={{ width: '24px', height: '2px', background: 'currentColor', marginBottom: '6px', opacity: isOpen ? 0 : 1, transition: 'all 0.3s ease' }}></div>
-                        <div style={{ width: '24px', height: '2px', background: 'currentColor', transition: 'all 0.3s ease', transform: isOpen ? 'rotate(-45deg) translate(5px, -6px)' : 'none' }}></div>
+                        {isOpen ? (
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        ) : (
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        )}
                     </button>
                 </div>
 
