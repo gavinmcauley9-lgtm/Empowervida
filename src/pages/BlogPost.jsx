@@ -9,6 +9,7 @@ export default function BlogPost() {
   // Use loose equality or string conversion to be safe
   const post = POSTS.find(p => p.id.toString() === id);
 
+
   if (!post) {
     return (
       <div className="container" style={{ paddingTop: '8rem', textAlign: 'center', backgroundColor: '#000000', minHeight: '100vh', color: '#FFFFFF' }}>

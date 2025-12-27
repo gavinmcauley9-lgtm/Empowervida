@@ -24,7 +24,7 @@ export const POSTS = [
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE 80% DROP</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. I was wrong. A landmark study in <em>Science</em> has revealed that Taurine deficiency is a primary driver of aging—and restoring it acts as a "coolant" for your cellular engines.</p>
       </div>
@@ -39,37 +39,21 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Deficiency of Youth"</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. Like most physicians, I associated it with neon-colored energy drinks, heart palpitations, and the "jittery" culture of over-caffeinated gamers.
+        If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. Like most physicians, I associated it with neon-colored energy drinks and the "jittery" culture of over-caffeinated gamers.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>I was wrong.</strong>
+        <strong>I was wrong.</strong> We were all wrong.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We were all wrong.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        While we were dismissing Taurine as a stimulant (which it isn’t), the most prestigious longevity researchers in the world were quietly uncovering a truth that changes everything we know about aging.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here is the revelation: You are not just tired because you are busy. You are tired because you are running out of the very molecule that acts as a "coolant" for your cellular engines.
+        While we were dismissing Taurine as a stimulant (which it isn't), the most prestigious longevity researchers in the world were quietly uncovering a truth that changes everything we know about aging. You are not just tired because you are busy. You are tired because you are running out of the very molecule that acts as a "coolant" for your cellular engines.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: What Happened to Your Levels?</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In a landmark study published in the journal <em>Science</em>, a team of international researchers dropped a bombshell that the medical community is still reeling from.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        They discovered that Taurine abundance acts as a "driver of aging."
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The research, led by Dr. Parminder Singh and colleagues (2023), measured taurine levels in mice, monkeys, and humans. The results were terrifyingly consistent:
+        In a landmark study published in the journal <em>Science</em>, researchers measured taurine levels in mice, monkeys, and humans. The results were consistent:
       </p>
 
       <div style="background: rgba(255, 59, 48, 0.05); border-left: 4px solid #FF3B30; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -79,116 +63,62 @@ export const POSTS = [
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This isn’t just a correlation. It’s a <strong>cause</strong>.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When the researchers restored Taurine levels in middle-aged mice to their "youthful" baselines, the results were nothing short of biological alchemy. The lifespan of the treated animals increased by <strong>10-12%</strong>.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Translated to human terms, that is an extra 7 to 8 years of healthy life.
+        When researchers restored Taurine levels in middle-aged mice to their "youthful" baselines, the lifespan of the treated animals increased by <strong>10-12%</strong>. In human terms, that is an extra 7-8 years of healthy life.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why Did No One Tell You?</h2>
 
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You might be asking, "If this is so profound, why isn't it on the front page of every newspaper?"
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Two reasons:
-      </p>
-
       <ol style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
         <li style="margin-bottom: 1rem;">
-          <strong>It’s unpatentable.</strong> Taurine is a natural amino acid. No pharmaceutical company can slap a $500 price tag on it, so there is no billion-dollar marketing budget pushing it into your feed.
+          <strong>It’s unpatentable.</strong> Taurine is a natural amino acid. No pharmaceutical company can make billions from it, so there is no marketing budget pushing it.
         </li>
         <li style="margin-bottom: 1rem;">
-          <strong>The "Stimulant" Myth.</strong> Because Red Bull and Monster added Taurine to their caffeine bombs, the public assumes Taurine causes the crash. In reality, Taurine was added to <em>cushion the blow</em> of the caffeine. It acts on GABA receptors to calm the nervous system. It is the "anti-anxiety" to the caffeine's "anxiety."
+          <strong>The "Stimulant" Myth.</strong> Energy drinks add Taurine to <em>cushion</em> the caffeine jitters (it mimics GABA). But the public assumes Taurine causes the crash.
         </li>
       </ol>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Mechanism: How It Resurrects Your Cells</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So, what does Taurine actually do? Why does losing it make us old?
+        Think of your mitochondria (the power plants inside your cells) as <strong>nuclear reactors</strong>. They produce energy, but also toxic waste (free radicals). Taurine is the coolant. When levels drop 80%, the coolant runs dry, and the reactor overheats.
       </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Think of your mitochondria (the power plants inside your cells) as <strong>nuclear reactors</strong>. When they produce energy, they create toxic waste called "free radicals."
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In your youth, you have a massive reservoir of Taurine. It acts like a master coolant, neutralizing this waste and keeping the reactor walls stable.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        As you age and your Taurine levels crash by 80%, the coolant runs dry.
-      </p>
-
+      
       <ul style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Mitochondrial Meltdown:</strong> Your energy production becomes dirty and inefficient. You feel "tired but wired."</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Zombie Cells:</strong> Without Taurine, damaged cells refuse to die. They become "senescent" (Zombie cells), floating around your body and inflaming healthy tissue.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Mitochondrial Meltdown:</strong> Energy production becomes dirty and inefficient.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Zombie Cells:</strong> Without Taurine, damaged cells refuse to die and become senescent.</li>
       </ul>
 
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Restoring your levels effectively refills the coolant tank. The reactor stabilizes. The energy returns.
-      </p>
-
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Protocol: How to Reclaim Your Levels</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is where I put on my "Chief Medical Officer" hat. <strong>Do not go out and buy an energy drink.</strong> You will get 1 gram of Taurine and 30 grams of inflammatory sugar.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To replicate the longevity benefits seen in the clinical data, you need a pure source.
-      </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">1. The Dosage</h3>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          The effective dose for longevity benefits in humans is estimated to be between <strong>1,000 mg and 3,000 mg (1-3 grams) daily</strong>.
-        </p>
-        <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic;">
-          Note: Most energy drinks contain far less, often of poor quality.
+          The effective dose for longevity is <strong>1,000 mg to 3,000 mg (1-3g) daily</strong>.
         </p>
 
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">2. The Timing</h3>
-        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          This is the biohack. Because Taurine has a mild calming effect on the nervous system (it mimics the neurotransmitter GABA), I recommend taking it:
-        </p>
         <ul>
-          <li><strong>Option A:</strong> 60 minutes before bed to improve sleep architecture.</li>
-          <li><strong>Option B:</strong> Pre-workout, as it improves muscle endurance and cardiac output.</li>
+          <li><strong>Option A:</strong> 60 minutes before bed (improves sleep architecture via GABA).</li>
+          <li><strong>Option B:</strong> Pre-workout (improves muscle endurance).</li>
         </ul>
 
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">3. The Source</h3>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          You need 100% Pure L-Taurine Powder or Capsules. It is remarkably affordable—often costing less than $15 for a month's supply.
+          Use 100% Pure L-Taurine Powder or Capsules. Avoid energy drinks.
         </p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor’s Bottom Line</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We are constantly looking for the "next big thing" in longevity—Peptides, Stem Cells, TRT. But sometimes, the breakthrough is hiding in plain sight.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Taurine deficiency is a silent epidemic of aging. We accept the fatigue, the brain fog, and the slow recovery as "normal." The data now suggests it is not normal—it is simply a tank running on empty.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>You have the option to refill it.</strong>
+        We are constantly looking for the "next big thing." But sometimes, the breakthrough is hiding in plain sight. Taurine deficiency is a silent epidemic. Refilling the tank is one of the simplest, cheapest, and most scientifically validated interventions you can make.
       </p>
 
       <div style="margin-top: 3rem;">
         <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">References</h3>
         <ul style="font-size: 0.9rem; color: #666; line-height: 1.6;">
           <li style="margin-bottom: 0.5rem;">Singh, P., et al. (2023). "Taurine deficiency as a driver of aging." <em>Science</em>, 380(6649), eabn9257.</li>
-          <li style="margin-bottom: 0.5rem;">McGavock, J. M., et al. (2024). "Taurine supplementation and metabolic health: A meta-analysis of human trials." <em>Journal of Clinical Endocrinology</em>.</li>
+          <li style="margin-bottom: 0.5rem;">McGavock, J. M., et al. (2024). "Taurine supplementation and metabolic health." <em>Journal of Clinical Endocrinology</em>.</li>
         </ul>
       </div>
     `
