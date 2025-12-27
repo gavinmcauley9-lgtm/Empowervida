@@ -94,7 +94,8 @@ export default function Home() {
                             fontSize: 'clamp(2rem, 7vw, 4rem)',
                             fontWeight: '900',
                             display: 'block',
-                            marginBottom: '0.5rem'
+                            marginBottom: '1.5rem',
+                            letterSpacing: 'normal'
                         }}>
                             I REVERSED MY OWN<br />INSULIN RESISTANCE.
                         </span>
@@ -102,7 +103,8 @@ export default function Home() {
                             color: '#20B2AA',
                             fontWeight: '700',
                             fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
-                            display: 'block'
+                            display: 'block',
+                            letterSpacing: '0.15em'
                         }}>
                             NOW I FIX YOURS.
                         </span>

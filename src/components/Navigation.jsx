@@ -8,7 +8,7 @@ export default function Navigation() {
     // Force close all dropdowns on scroll to prevent click hijacking
     useEffect(() => {
         const closeAllDropdowns = () => {
-            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+            document.querySelectorAll('.dropdown-menu-safe').forEach(menu => {
                 menu.style.opacity = '0';
                 menu.style.display = 'none';
                 menu.style.pointerEvents = 'none';
@@ -62,9 +62,10 @@ export default function Navigation() {
 
                     {/* Protocols Dropdown */}
                     <div
+                        className="nav-item-dropdown"
                         style={{ position: 'relative', display: 'inline-block' }}
                         onMouseEnter={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
                                 // Clear any existing close timer
                                 const timerId = menu.getAttribute('data-timer');
@@ -73,6 +74,7 @@ export default function Navigation() {
                                     menu.removeAttribute('data-timer');
                                 }
                                 menu.style.display = 'block';
+                                menu.style.visibility = 'visible';
                                 menu.style.pointerEvents = 'auto'; // Enable clicks when visible
                                 // Small delay to allow display:block to apply before opacity transition
                                 requestAnimationFrame(() => {
@@ -82,16 +84,13 @@ export default function Navigation() {
                             }
                         }}
                         onMouseLeave={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
+                                menu.style.display = 'none'; // IMMEDIATE hide
                                 menu.style.opacity = '0';
                                 menu.style.transform = 'translateY(10px) translateX(-50%)';
-                                menu.style.pointerEvents = 'none'; // Disable clicks when hiding
-                                // Set a delay before hiding completely
-                                const timerId = setTimeout(() => {
-                                    menu.style.display = 'none';
-                                }, 0); // Immediate hide to prevent Safari race conditions
-                                menu.setAttribute('data-timer', timerId);
+                                menu.style.pointerEvents = 'none';
+                                menu.style.visibility = 'hidden';
                             }
                         }}
                     >
@@ -99,7 +98,7 @@ export default function Navigation() {
                             PROTOCOLS <span style={{ fontSize: '0.7em' }}>▼</span>
                         </span>
                         <div
-                            className="dropdown-menu"
+                            className="dropdown-menu-safe"
                             style={{
                                 position: 'absolute',
                                 top: '100%',
@@ -107,6 +106,7 @@ export default function Navigation() {
                                 transform: 'translateY(10px) translateX(-50%)', // Centered
                                 opacity: 0,
                                 display: 'none', // Default to none
+                                visibility: 'hidden', // Extra safety
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -119,25 +119,25 @@ export default function Navigation() {
                                 pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
-                            <Link to="/protocol#longevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#longevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧬 LONGEVITY
                             </Link>
-                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧠 BRAIN FOG / CLARITY
                             </Link>
-                            <Link to="/protocol#neurolongevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#neurolongevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧪 NEUROLONGEVITY
                             </Link>
-                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 ⚡ ENERGY / VITALITY
                             </Link>
-                            <Link to="/protocol#gut-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF6B6B', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 107, 107, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#gut-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF6B6B', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 107, 107, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🩺 GUT HEALTH
                             </Link>
-                            <Link to="/protocol#sleep-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#764ba2', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(118, 75, 162, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#sleep-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#764ba2', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(118, 75, 162, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 💤 SLEEP & RECOVERY
                             </Link>
-                            <Link to="/protocol#metabolic-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#DC2626', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(220, 38, 38, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/protocol#metabolic-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#DC2626', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(220, 38, 38, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🩸 METABOLIC HEALTH
                             </Link>
                         </div>
@@ -145,9 +145,10 @@ export default function Navigation() {
 
                     {/* Guides Dropdown */}
                     <div
+                        className="nav-item-dropdown"
                         style={{ position: 'relative', display: 'inline-block' }}
                         onMouseEnter={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
                                 const timerId = menu.getAttribute('data-timer');
                                 if (timerId) {
@@ -155,6 +156,7 @@ export default function Navigation() {
                                     menu.removeAttribute('data-timer');
                                 }
                                 menu.style.display = 'block';
+                                menu.style.visibility = 'visible';
                                 menu.style.pointerEvents = 'auto'; // Enable clicks when visible
                                 requestAnimationFrame(() => {
                                     menu.style.opacity = '1';
@@ -163,15 +165,13 @@ export default function Navigation() {
                             }
                         }}
                         onMouseLeave={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu');
+                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
+                                menu.style.display = 'none'; // IMMEDIATE hide
                                 menu.style.opacity = '0';
                                 menu.style.transform = 'translateY(10px) translateX(-50%)';
-                                menu.style.pointerEvents = 'none'; // Disable clicks when hiding
-                                const timerId = setTimeout(() => {
-                                    menu.style.display = 'none';
-                                }, 0); // Immediate hide to prevent Safari race conditions
-                                menu.setAttribute('data-timer', timerId);
+                                menu.style.pointerEvents = 'none';
+                                menu.style.visibility = 'hidden';
                             }
                         }}
                     >
@@ -179,7 +179,7 @@ export default function Navigation() {
                             GUIDES <span style={{ fontSize: '0.7em' }}>▼</span>
                         </span>
                         <div
-                            className="dropdown-menu"
+                            className="dropdown-menu-safe"
                             style={{
                                 position: 'absolute',
                                 top: '100%',
@@ -187,6 +187,7 @@ export default function Navigation() {
                                 transform: 'translateY(10px) translateX(-50%)',
                                 opacity: 0,
                                 display: 'none',
+                                visibility: 'hidden',
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
@@ -199,16 +200,16 @@ export default function Navigation() {
                                 pointerEvents: 'none' // Prevent click hijacking when hidden
                             }}
                         >
-                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 ⚡ Mitochondrial Health
                             </Link>
-                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🧬 The 5 Pillars of Longevity
                             </Link>
-                            <Link to="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🩸 The Insulin Story
                             </Link>
-                            <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s', pointerEvents: 'inherit' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                            <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                 🎯 Advanced Diagnostics
                             </Link>
                         </div>
@@ -272,6 +273,7 @@ export default function Navigation() {
                         zIndex: 101,
                         opacity: isOpen ? 1 : 0,
                         pointerEvents: isOpen ? 'all' : 'none',
+                        visibility: isOpen ? 'visible' : 'hidden', // PREVENT CLICKS WHEN CLOSED
                         transition: 'opacity 0.3s ease',
                         overflowY: 'auto', // Allow scrolling if content is too tall
                         padding: '2rem 1rem' // Add padding for better spacing

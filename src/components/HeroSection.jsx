@@ -32,37 +32,8 @@ const HeroSection = ({
             backgroundColor: 'transparent',
             color: textColor,
             paddingTop: '80px',
-            maskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
-            WebkitMaskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)'
         }}>
-            {/* Background Image Layer - Ken Burns Effect */}
-            <motion.div
-                style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    zIndex: 0,
-                    backgroundImage: `url(${backgroundImage})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    y: backgroundY, // Apply Parallax Y to background
-                    scale: 1.1 // Start slightly zoomed in for Ken Burns room
-                }}
-                animate={{
-                    scale: [1.1, 1.15],
-                    backgroundPosition: ['center 20%', 'center 25%']
-                }}
-                transition={{
-                    duration: 20,
-                    ease: "linear",
-                    repeat: Infinity,
-                    repeatType: "reverse"
-                }}
-            />
-
-            {/* Gradient Overlay */}
+            {/* Masked Background Wrapper */}
             <div style={{
                 position: 'absolute',
                 top: 0,
@@ -70,19 +41,59 @@ const HeroSection = ({
                 width: '100%',
                 height: '100%',
                 zIndex: 0,
-                background: overlay
-            }}></div>
+                maskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to bottom, black 85%, transparent 100%)',
+                pointerEvents: 'none'
+            }}>
+                {/* Background Image Layer - Ken Burns Effect */}
+                <motion.div
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        zIndex: 0,
+                        backgroundImage: `url(${backgroundImage})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        y: backgroundY, // Apply Parallax Y to background
+                        scale: 1.1 // Start slightly zoomed in for Ken Burns room
+                    }}
+                    animate={{
+                        scale: [1.1, 1.15],
+                        backgroundPosition: ['center 20%', 'center 25%']
+                    }}
+                    transition={{
+                        duration: 20,
+                        ease: "linear",
+                        repeat: Infinity,
+                        repeatType: "reverse"
+                    }}
+                />
 
-            {/* Right Side Fade Overlay - reduces visibility of background text */}
-            <div style={{
-                position: 'absolute',
-                top: 0,
-                right: 0,
-                width: '40%',
-                height: '100%',
-                zIndex: 0,
-                background: 'linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)'
-            }}></div>
+                {/* Gradient Overlay */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    zIndex: 0,
+                    background: overlay
+                }}></div>
+
+                {/* Right Side Fade Overlay - reduces visibility of background text */}
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    right: 0,
+                    width: '40%',
+                    height: '100%',
+                    zIndex: 0,
+                    background: 'linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)'
+                }}></div>
+            </div>
 
             {/* Content Layer */}
             <motion.header

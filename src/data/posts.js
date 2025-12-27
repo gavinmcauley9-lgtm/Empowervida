@@ -21,6 +21,11 @@ export const POSTS = [
       text: "Get Dr. Gavin's Longevity Protocol",
       link: "/protocol#longevity-stack"
     },
+    references: [
+      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of aging. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
+      { text: "Schaffer, S. W., & Kim, H. W. (2018). Effects and mechanisms of taurine as a therapeutic agent. Biomolecules & Therapeutics, 26(3), 225.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5933890/" },
+      { text: "Seidl, R., et al. (2000). A taurine and caffeine-containing drink stimulates cognitive performance and well-being. Amino Acids, 19(3-4), 635-642.", url: "https://pubmed.ncbi.nlm.nih.gov/11140366/" }
+    ],
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
 export default function Blog() {
+    const navigate = useNavigate();
     const [activeCategory, setActiveCategory] = useState('all');
 
     const filteredPosts = activeCategory === 'all'
@@ -99,8 +100,8 @@ export default function Blog() {
 
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
-                    <Link
-                        to={`/blog/${filteredPosts[0].id}`}
+                    <a
+                        href={`/blog/${filteredPosts[0].id}`}
                         style={{
                             display: 'grid',
                             gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
@@ -171,7 +172,7 @@ export default function Blog() {
                                 Read Article →
                             </span>
                         </div>
-                    </Link>
+                    </a>
                 )}
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
@@ -212,9 +213,9 @@ export default function Blog() {
                             zIndex: 99999
                         }}>
                             {filteredPosts.slice(1).map(post => (
-                                <Link
+                                <a
                                     key={post.id}
-                                    to={`/blog/${post.id}`}
+                                    href={`/blog/${post.id}`}
                                     className="protocol-card"
                                     style={{
                                         display: 'flex',
@@ -268,7 +269,7 @@ export default function Blog() {
                                             </span>
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             ))}
                         </div>
                     </main>

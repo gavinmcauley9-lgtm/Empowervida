@@ -71,16 +71,27 @@ export default function BlogPost() {
   // 3. Article Schema (Updated Logo)
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "MedicalWebPage",
     "headline": post.title,
     "description": post.excerpt,
     "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/empowervida_hero_logo.png",
     "datePublished": post.date,
+    "lastReviewed": post.date,
     "author": {
-      "@type": "Person",
-      "name": "Dr. Gavin McAuley",
-      "jobTitle": "Physician & Longevity Specialist",
+      "@type": "Physician",
+      "name": "Dr. Gavin McAuley, MBChB",
+      "medicalSpecialty": "Longevity & Metabolic Health",
+      "jobTitle": "GP & Longevity Specialist",
+      "url": "https://empowervida.com/about",
       "sameAs": "https://www.linkedin.com/in/gavin-mcauley-62147151/"
+    },
+    "reviewedBy": {
+      "@type": "Physician",
+      "name": "Dr. Gavin McAuley, MBChB"
+    },
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "patient"
     },
     "publisher": {
       "@type": "Organization",
@@ -156,6 +167,40 @@ export default function BlogPost() {
           }}>
             {post.title}
           </h1>
+
+          {/* Medical Verification Badge */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '12px',
+            padding: '12px 0',
+            borderTop: '1px solid rgba(0,0,0,0.05)',
+            borderBottom: '1px solid rgba(0,0,0,0.05)',
+            marginBottom: '2rem'
+          }}>
+            <div style={{
+              width: '40px',
+              height: '40px',
+              borderRadius: '50%',
+              background: 'var(--color-accent-teal)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: 'white',
+              fontWeight: 'bold',
+              fontSize: '18px'
+            }}>
+              Dr
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <span style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--color-text)' }}>
+                Dr. Gavin McAuley, MBChB
+              </span>
+              <span style={{ fontSize: '0.8rem', color: 'var(--color-accent-teal)', fontWeight: 600 }}>
+                ✓ Medically Reviewed Protocol
+              </span>
+            </div>
+          </div>
 
           <div style={{
             width: '60px',
@@ -250,8 +295,40 @@ export default function BlogPost() {
 
         </div>
 
+        {/* Clinical References Accordion */}
+        {post.references && (
+          <div className="container" style={{ maxWidth: '900px', margin: '0 auto 4rem auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem' }}>
+            <details style={{ cursor: 'pointer', color: 'var(--color-text-muted)' }}>
+              <summary style={{
+                fontSize: '0.9rem',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em',
+                marginBottom: '1rem',
+                userSelect: 'none',
+                outline: 'none'
+              }}>
+                🔬 Clinical References ({post.references.length})
+              </summary>
+              <ol style={{
+                paddingLeft: '1.5rem',
+                fontSize: '0.85rem',
+                color: 'var(--color-text-muted)',
+                lineHeight: '1.6',
+                fontFamily: '"Inter", sans-serif'
+              }}>
+                {post.references.map((ref, i) => (
+                  <li key={i} style={{ marginBottom: '0.75rem' }}>
+                    {ref.text} {ref.url && <a href={ref.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none' }}>↗ Source</a>}
+                  </li>
+                ))}
+              </ol>
+            </details>
+          </div>
+        )}
+
         {/* EMAIL CAPTURE - After reading the post */}
-        <EmailCapture variant="inline" />
+        <EmailCapture variant="default" />
 
         <style>{`
           .blog-content h2 {
