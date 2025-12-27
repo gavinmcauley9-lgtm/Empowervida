@@ -123,6 +123,7 @@ export default function Blog() {
                             e.currentTarget.style.transform = 'translateY(0)';
                             e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)';
                         }}
+                        onClick={() => window.scrollTo(0, 0)}
                     >
                         {filteredPosts[0].image && (
                             <div style={{ display: 'block', width: '100%', height: '100%' }}>
@@ -237,6 +238,7 @@ export default function Blog() {
                                         e.currentTarget.style.transform = 'translateY(0)';
                                         e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
                                     }}
+                                    onClick={() => window.scrollTo(0, 0)}
                                 >
                                     {/* Thumbnail Image */}
                                     {post.image && (
