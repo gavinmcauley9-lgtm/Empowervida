@@ -87,11 +87,10 @@ export default function Home() {
                 schemaData={[organizationSchema, websiteSchema, faqSchema]}
             />
             <HeroSection
-                backgroundImage="/home_hero_fade.webp"
                 title={
                     <span style={{ display: 'block', lineHeight: 1 }}>
                         <span style={{ color: '#1A3C34' }}>DON'T JUST AGE.</span><br />
-                        <span style={{ color: '#008080' }}>EVOLVE.</span>
+                        <span style={{ color: '#008080', fontWeight: '900', fontSize: '1.2em' }}>EVOLVE.</span>
                     </span>
                 }
                 subtitle="LONGEVITY, PRESCRIBED."
