@@ -57,7 +57,7 @@ const PageLoader = () => (
 
 function AppContent() {
   const location = useLocation();
-  const hideScene = location.pathname === '/longevity' || location.pathname === '/mitochondrial-guide';
+  const hideScene = true; // Disabled in favor of DNA helix pattern
 
   useEffect(() => {
     AOS.init({

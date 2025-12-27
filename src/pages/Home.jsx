@@ -88,34 +88,66 @@ export default function Home() {
             />
             <HeroSection
                 title={
-                    <span style={{ display: 'block', lineHeight: 1 }}>
-                        <span style={{ color: '#1A3C34' }}>DON'T JUST AGE.</span><br />
-                        <span style={{ color: '#008080', fontWeight: '900', fontSize: '1.2em' }}>EVOLVE.</span>
+                    <span style={{ display: 'block', lineHeight: 1.1 }}>
+                        <span style={{
+                            color: '#1A3C34',
+                            fontSize: 'clamp(2rem, 7vw, 4rem)',
+                            fontWeight: '900',
+                            display: 'block',
+                            marginBottom: '0.5rem'
+                        }}>
+                            I REVERSED MY OWN<br />INSULIN RESISTANCE.
+                        </span>
+                        <span style={{
+                            color: '#20B2AA',
+                            fontWeight: '700',
+                            fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
+                            display: 'block'
+                        }}>
+                            NOW I FIX YOURS.
+                        </span>
                     </span>
                 }
-                subtitle="LONGEVITY, PRESCRIBED."
-                overlay="linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 40%, rgba(255,255,255,0.9) 90%, #FFFFFF 100%)"
+                subtitle="Dr. Gavin McAuley, MBChB • 125kg → 95kg • ER Doctor → Longevity Specialist"
+                overlay="linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.98) 100%)"
                 textColor="#1A3C34"
-                subtitleColor="#1A3C34"
+                subtitleColor="#064E3B"
+                subtitleWeight="600"
             >
-                {/* The Hook - Vitality Teal */}
-                {/* The Hook - Moved to Title */}
-
-                <p style={{ fontSize: '1.1rem', color: 'var(--color-text)', maxWidth: '750px', margin: '0 auto 3rem', lineHeight: 1.6, fontWeight: 500 }}>
-                    The physician-led protocol to upgrade your metabolic engine, sharpen cognitive focus, and extend your prime.
-                </p>
+                {/* DNA Helix Background Pattern */}
+                <div style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    zIndex: -1,
+                    opacity: 0.08,
+                    pointerEvents: 'none',
+                    background: `url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='dna' x='0' y='0' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Cpath d='M100,0 Q120,50 100,100 T100,200' stroke='%2320B2AA' stroke-width='3' fill='none' opacity='0.4'/%3E%3Cpath d='M100,0 Q80,50 100,100 T100,200' stroke='%2320B2AA' stroke-width='3' fill='none' opacity='0.4'/%3E%3Ccircle cx='100' cy='25' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='75' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='125' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='175' r='4' fill='%2320B2AA'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='400' height='400' fill='url(%23dna)'/%3E%3C/svg%3E")`,
+                    animation: 'dnaFloat 60s linear infinite'
+                }} />
+                <style>{`
+                    @keyframes dnaFloat {
+                        0% { transform: translateY(0px); }
+                        100% { transform: translateY(-200px); }
+                    }
+                `}</style>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 1.2, duration: 0.8 }}
-                    style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}
+                    transition={{ delay: 0.8, duration: 0.8 }}
+                    style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '2rem' }}
                 >
-                    <Link to="/protocol" className="btn-primary" style={{ padding: '1rem 2.5rem' }} onClick={() => window.scrollTo(0, 0)}>
-                        FIND YOUR PROTOCOL
+                    <Link to="#email-capture" className="btn-primary" style={{ padding: '1.25rem 3rem', fontSize: '1rem', fontWeight: '700' }} onClick={(e) => {
+                        e.preventDefault();
+                        document.querySelector('#email-capture')?.scrollIntoView({ behavior: 'smooth' });
+                    }}>
+                        GET THE 5 LABS CHECKLIST
                     </Link>
-                    <Link to="/diagnostics" className="btn-secondary" style={{ padding: '1rem 2.5rem' }} onClick={() => window.scrollTo(0, 0)}>
-                        THE LABS
+                    <Link to="/protocol" className="btn-secondary" style={{ padding: '1.25rem 3rem', fontSize: '1rem' }} onClick={() => window.scrollTo(0, 0)}>
+                        READ THE PROTOCOL
                     </Link>
                 </motion.div>
             </HeroSection>
@@ -281,7 +313,9 @@ export default function Home() {
             </section >
 
             {/* EMAIL CAPTURE */}
-            < EmailCapture variant="default" />
+            <div id="email-capture">
+                <EmailCapture variant="default" />
+            </div>
 
 
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
