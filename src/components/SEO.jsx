@@ -36,6 +36,8 @@ const SEO = ({
 
             {/* Twitter */}
             <meta property="twitter:card" content={twitterCard} />
+            <meta property="twitter:site" content="@GavinMcAuleyMD" />
+            <meta property="twitter:creator" content="@GavinMcAuleyMD" />
             <meta property="twitter:url" content={fullUrl} />
             <meta property="twitter:title" content={title} />
             <meta property="twitter:description" content={description} />
