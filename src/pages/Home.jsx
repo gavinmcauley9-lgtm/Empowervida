@@ -101,10 +101,10 @@ export default function Home() {
                         </span>
                         <span style={{
                             color: '#20B2AA',
-                            fontWeight: '700',
+                            fontWeight: '800',
                             fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
                             display: 'block',
-                            letterSpacing: '0.15em'
+                            letterSpacing: '0.05em'
                         }}>
                             NOW I FIX YOURS.
                         </span>
