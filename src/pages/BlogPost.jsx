@@ -219,6 +219,33 @@ export default function BlogPost() {
             </div>
           )}
 
+          {/* Clinical Abstract / TLDR */}
+          {post.excerpt && (
+            <div style={{
+              background: '#F8F9FA',
+              borderLeft: '4px solid #20B2AA',
+              padding: '1.5rem',
+              margin: '0 0 2rem 0',
+              borderRadius: '0 8px 8px 0',
+              fontSize: '1.05rem',
+              lineHeight: '1.6',
+              color: '#374151',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.03)'
+            }}>
+              <h3 style={{
+                margin: '0 0 0.5rem 0',
+                fontSize: '0.85rem',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                color: '#20B2AA',
+                fontWeight: 800
+              }}>
+                Clinical Abstract
+              </h3>
+              {post.excerpt}
+            </div>
+          )}
+
           {/* Table of Contents */}
           {headings.length > 0 && (
             <div style={{
