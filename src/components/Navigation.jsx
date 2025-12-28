@@ -86,11 +86,15 @@ export default function Navigation() {
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
-                                menu.style.display = 'none'; // IMMEDIATE hide
-                                menu.style.opacity = '0';
-                                menu.style.transform = 'translateY(10px) translateX(-50%)';
-                                menu.style.pointerEvents = 'none';
-                                menu.style.visibility = 'hidden';
+                                // Add delay to allow moving mouse to the menu
+                                const timerId = setTimeout(() => {
+                                    menu.style.display = 'none';
+                                    menu.style.opacity = '0';
+                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                    menu.style.pointerEvents = 'none';
+                                    menu.style.visibility = 'hidden';
+                                }, 300); // 300ms grace period
+                                menu.setAttribute('data-timer', timerId);
                             }
                         }}
                     >
@@ -167,11 +171,15 @@ export default function Navigation() {
                         onMouseLeave={(e) => {
                             const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
                             if (menu) {
-                                menu.style.display = 'none'; // IMMEDIATE hide
-                                menu.style.opacity = '0';
-                                menu.style.transform = 'translateY(10px) translateX(-50%)';
-                                menu.style.pointerEvents = 'none';
-                                menu.style.visibility = 'hidden';
+                                // Add delay to allow moving mouse to the menu
+                                const timerId = setTimeout(() => {
+                                    menu.style.display = 'none';
+                                    menu.style.opacity = '0';
+                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
+                                    menu.style.pointerEvents = 'none';
+                                    menu.style.visibility = 'hidden';
+                                }, 300); // 300ms grace period
+                                menu.setAttribute('data-timer', timerId);
                             }
                         }}
                     >
