@@ -59,6 +59,7 @@ export default function Navigation() {
                 {/* Desktop Menu */}
                 <div className="desktop-only" style={{ display: 'flex', alignItems: 'center', pointerEvents: 'auto' }}>
                     <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
+                    <a href="https://empowervida.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle('https://empowervida.substack.com')}>Newsletter</a>
 
                     {/* Protocols Dropdown */}
                     <div

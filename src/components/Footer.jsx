@@ -97,6 +97,7 @@ const Footer = () => {
                         Quick Links
                     </h4>
                     <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
+                    <a href="https://empowervida.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>[ NEWSLETTER ]</a>
                     <Link to="/protocol" style={linkStyle}>[ THE PROTOCOL ]</Link>
                     <Link to="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
                     <Link to="/environmental-defense" style={linkStyle}>[ THE ELEMENTS ]</Link>
