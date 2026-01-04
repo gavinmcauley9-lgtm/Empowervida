@@ -11,6 +11,122 @@ export const CATEGORIES = [
 
 export const POSTS = [
   {
+    id: 25,
+    title: 'How to Reverse Biological Aging Naturally: The 9 Hallmarks You Can Control',
+    category: 'longevity',
+    image: '/biological_clock_reverse.png',
+    excerpt: 'Aging isn\'t just a number—it\'s accumulated damage. But damage can be repaired. From clearing zombie cells to fixing mitochondrial feedback loops, here is the science of turning back the biological clock.',
+    date: 'Jan 05, 2026',
+    cta: {
+      text: "Start the Longevity Protocol",
+      link: "/protocol#longevity-stack"
+    },
+    references: [
+      { text: "López-Otín, C., et al. (2013). The hallmarks of aging. Cell, 153(6), 1194-1217.", url: "https://www.cell.com/cell/fulltext/S0092-8674(13)00645-4" },
+      { text: "Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome biology, 14(10), 3156.", url: "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r115" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">AGE IS A VERB, NOT A NOUN</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most people think aging is something that happens <em>to</em> them—a passive slide into decline. They are wrong. Aging is an active process of unrepaired damage. If you increase the repair rate to match the damage rate, you don't just slow aging. You reverse it. Here is the blueprint.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Chronological vs. Biological Age</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Your birth certificate lies. It tells you your <strong>Chronological Age</strong>—the number of times you've orbited the sun. This number is irrelevant to your health.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        What matters is your <strong>Biological Age</strong>—the rate at which your cells are degrading.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I regularly see 40-year-olds with the blood vessels of 60-year-olds (High Stress, Poor Diet).
+        I also see 60-year-olds with the metabolic function of a 35-year-old (Optimized, Trained).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The difference isn't genetics. It's maintenance.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The 9 Hallmarks of Aging (And How to Fix Them)</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In 2013, a landmark paper in <em>Cell</em> defined the "Hallmarks of Aging." These are the specific cellular glitches that cause us to get old. Here are the top 3 you can control immediately.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Cellular Senescence (The Zombie Cells)</h3>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Problem:</strong> When cells get too damaged to divide, they should die (apoptosis). But some refuse. They become "senescent"—zombie cells that sit in your tissues and vomit inflammatory toxins onto their healthy neighbors, turning them into zombies too.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Fix: Autophagy (Self-Eating).</strong>
+        You need to starve the zombies. When you fast (16+ hours), your body runs out of easy fuel. In a desperate bid for energy, it starts hunting down and eating these inefficient, damaged cells.
+      </p>
+      
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <p style="font-weight: 700; color: var(--color-text);">Action Plan:</p>
+        <ul style="margin-bottom: 0;">
+          <li>Practice 16:8 Intermittent Fasting daily.</li>
+          <li>Use <strong>Fisetin</strong> or <strong>Quercetin</strong> (senolytics found in strawberries and onions) to help clear zombie cells.</li>
+        </ul >
+      </div>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. Genomic Instability (DNA Damage)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Problem:</strong> Your DNA takes 10,000 hits a day from UV light, radiation, and metabolic byproducts. Usually, enzymes repair this. But as you age, you run out of the fuel these enzymes need: NAD+.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Fix: Refuel the Repair Crew.</strong>
+        Without NAD+, your DNA repair team (PARP enzymes) goes on strike. We discussed this in <a href="/blog/22" style="color: var(--color-accent-teal); text-decoration: underline;">our article on NAD+</a>.
+      </p>
+
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <p style="font-weight: 700; color: var(--color-text);">Action Plan:</p>
+        <ul style="margin-bottom: 0;">
+          <li>Supplement with NAD+ precursors (NR or NMN).</li>
+          <li>Eat sirtuin-activating foods (blueberries, dark chocolate, green tea).</li>
+        </ul >
+      </div>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">3. Mitochondrial Dysfunction (The Energy Crisis)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Problem:</strong> Your cellular engines get rusty and inefficient. They produce less energy and more toxic exhaust (free radicals).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The Fix: Biogenesis.</strong>
+        You can build NEW engines. Zone 2 cardio (steady state, conversational pace) is the most potent signal for mitochondrial biogenesis.
+      </p>
+
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <p style="font-weight: 700; color: var(--color-text);">Action Plan:</p>
+        <ul style="margin-bottom: 0;">
+          <li>150-180 minutes of Zone 2 cardio per week.</li>
+          <li>Cold exposure (creates brown fat, which is packed with mitochondria).</li>
+        </ul>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor's Prescription</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        You don't need to be a billionaire to reverse your biological age. The most powerful tools are free: Fasting, Sleep, and Exercise.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Supplements are the accelerator, but lifestyle is the engine. Get the engine running, then stomp on the gas.
+      </p>
+    `
+  },
+  {
     id: 24,
     title: 'Why Did No One Tell Me? The "Energy Drink" Molecule That Actually Reverses Cellular Aging',
     category: 'longevity',

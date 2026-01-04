@@ -300,7 +300,7 @@ const MitochondrialGuide = () => {
                         <strong>Cardiovascular Disease:</strong> Heart failure, liver dysfunction, muscle weakness
                     </li>
                     <li style={{ marginBottom: '0.75rem' }}>
-                        <strong>Accelerated Aging:</strong> Chronic pain, fatigue, loss of vitality
+                        <strong>Accelerated Aging:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to reverse this.</Link>
                     </li>
                 </ul>
 
@@ -624,7 +624,7 @@ const MitochondrialGuide = () => {
                             Protect your cells from biological rust.
                         </p>
                         <a
-                            href="/shop"
+                            href="/protocol#defense-stack"
                             style={{
                                 display: 'inline-block',
                                 background: '#2E7D32',

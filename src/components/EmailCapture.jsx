@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 const EmailCapture = ({ variant = 'default' }) => {
     const [email, setEmail] = useState('');
+    const [firstName, setFirstName] = useState('');
     const [status, setStatus] = useState(''); // '', 'submitting', 'success', 'error'
     const formRef = useRef(null);
 
@@ -33,6 +34,7 @@ const EmailCapture = ({ variant = 'default' }) => {
         setTimeout(() => {
             setStatus('success');
             setEmail('');
+            setFirstName('');
             setTimeout(() => setStatus(''), 5000);
         }, 1500);
     };
@@ -108,7 +110,7 @@ const EmailCapture = ({ variant = 'default' }) => {
 
             <form
                 ref={formRef}
-                action="https://app.kit.com/forms/0fe46035f0/subscriptions"
+                action="https://app.kit.com/forms/8895620/subscriptions"
                 method="post"
                 onSubmit={handleSubmit}
                 style={{
@@ -117,11 +119,33 @@ const EmailCapture = ({ variant = 'default' }) => {
                 }}
             >
                 <input
+                    type="text"
+                    name="first_name"
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
+                    placeholder="Your first name"
+                    required
+                    disabled={status === 'submitting'}
+                    style={{
+                        width: '100%',
+                        padding: '18px 24px',
+                        fontSize: '16px',
+                        border: '2px solid rgba(255,255,255,0.3)',
+                        borderRadius: '12px',
+                        marginBottom: '16px',
+                        background: 'rgba(255,255,255,0.95)',
+                        color: '#1A3C34',
+                        fontWeight: 500,
+                        boxSizing: 'border-box',
+                        opacity: status === 'submitting' ? 0.6 : 1
+                    }}
+                />
+                <input
                     type="email"
                     name="email_address"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Enter your email address"
+                    placeholder="Your email address"
                     required
                     disabled={status === 'submitting'}
                     style={{
