@@ -28,6 +28,7 @@ const Privacy = lazy(() => import('./pages/Privacy'));
 const AffiliateDisclaimer = lazy(() => import('./pages/AffiliateDisclaimer'));
 const TermsConditions = lazy(() => import('./pages/TermsConditions'));
 const InsulinStory = lazy(() => import('./pages/InsulinStory'));
+const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -117,6 +118,7 @@ function AppContent() {
             <Route path="/advanced-optimization" element={<AdvancedOptimization />} />
             <Route path="/environmental-defense" element={<EnvironmentalDefense />} />
             <Route path="/protocol" element={<Protocol />} />
+            <Route path="/empower-protocol" element={<EmpowerProtocol />} />
             <Route path="/engine-room" element={<EngineRoom />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />

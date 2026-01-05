@@ -8,27 +8,27 @@ const Diagnostics = () => {
     const essentialMarkers = [
         {
             name: "ApoB",
-            truth: "The single most accurate predictor of cardiovascular risk.",
+            truth: "Forget LDL. This counts the actual number of particles clogging your arteries. The only lipid metric that matters.",
             target: "< 60 mg/dL (Optimal)"
         },
         {
             name: "Fasting Insulin",
-            truth: "The early warning for metabolic dysfunction before glucose rises.",
+            truth: "The canary in the coal mine. It reveals metabolic disease decades before your blood sugar spikes.",
             target: "< 5 uIU/mL (Optimal)"
         },
         {
             name: "Homocysteine",
-            truth: "A critical marker for methylation and cognitive health. High levels correlate with neurodegeneration.",
-            target: "< 10 umol/L"
+            truth: "Vascular sandpaper. High levels shred your artery walls and predict cognitive decline.",
+            target: "< 8 µmol/L"
         },
         {
             name: "hs-CRP",
-            truth: "Measures silent, low-grade inflammation. If this is high, your vessel walls are under attack.",
+            truth: "The fire alarm for your arteries. Plaque exists, but silent inflammation makes it rupture.",
             target: "< 0.5 mg/L"
         },
         {
             name: "Lipoprotein(a)",
-            truth: "A genetically determined risk factor for heart disease. 20% of people have high levels and don't know it.",
+            truth: "The Genetic Widow-Maker. You have it or you don't. Diet cannot fix this. You must test it once.",
             target: "< 30 mg/dL"
         }
     ];
@@ -36,17 +36,17 @@ const Diagnostics = () => {
     const honourableMentions = [
         {
             name: "Vitamin D",
-            truth: "Not just for bones. A critical hormone for immune defense and gene regulation.",
+            truth: "Regulates 5% of your genome. Low levels guarantee a fragile immune system and hormonal dysregulation.",
             target: "100–150 nmol/L"
         },
         {
             name: "HbA1c",
-            truth: "A 3-month average of blood glucose. Useful, but lags behind insulin.",
+            truth: "The history book. It shows where your blood sugar was 3 months ago. Good, but often too late.",
             target: "< 5.2%"
         },
         {
             name: "GGT",
-            truth: "The most sensitive marker for liver stress and oxidative burden.",
+            truth: "The liver's cry for help. The first marker to rise when your detox pathways are overwhelmed.",
             target: "< 20 U/L"
         }
     ];

@@ -598,38 +598,7 @@ const Shop = () => {
                                             </div>
                                         ) : (
                                             <>
-                                                {/* Primary Button: iHerb */}
-                                                <a
-                                                    href={product.iherbLink}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    style={{
-                                                        display: 'block',
-                                                        backgroundColor: 'var(--color-accent-teal)',
-                                                        color: '#FFFFFF',
-                                                        padding: '1rem 2rem',
-                                                        borderRadius: '8px',
-                                                        textDecoration: 'none',
-                                                        fontWeight: 700,
-                                                        textAlign: 'center',
-                                                        textTransform: 'uppercase',
-                                                        letterSpacing: '0.05em',
-                                                        boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                                                        transition: 'all 0.3s ease'
-                                                    }}
-                                                    onMouseEnter={(e) => {
-                                                        e.target.style.backgroundColor = '#1ba098';
-                                                        e.target.style.transform = 'translateY(-2px)';
-                                                        e.target.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
-                                                    }}
-                                                    onMouseLeave={(e) => {
-                                                        e.target.style.backgroundColor = 'var(--color-accent-teal)';
-                                                        e.target.style.transform = 'translateY(0)';
-                                                        e.target.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
-                                                    }}
-                                                >
-                                                    SHOP AT IHERB (BEST PRICE)
-                                                </a>
+
 
                                                 {/* Secondary Button: Amazon */}
                                                 <a

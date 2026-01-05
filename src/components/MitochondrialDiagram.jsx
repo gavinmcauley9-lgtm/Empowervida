@@ -144,12 +144,15 @@ const MitochondrialDiagram = () => {
                 `}
             </style>
             <svg
+                role="img"
+                aria-label="Interactive Mitochondrial Diagram showing supplement mechanisms"
                 viewBox="0 0 520 540"
                 style={{
                     width: '100%',
                     height: 'auto'
                 }}
             >
+                <title>Interactive Mitochondrial Supplement Guide</title>
                 {/* Mitochondrion - anatomically accurate structure */}
                 <defs>
                     <linearGradient id="mitoGradient" x1="0%" y1="0%" x2="100%" y2="100%">

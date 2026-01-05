@@ -17,7 +17,7 @@ const HeroSection = ({
     const { scrollY } = useScroll();
     const backgroundY = useTransform(scrollY, [0, 500], [0, 250]); // Background moves slower (parallax)
     const contentY = useTransform(scrollY, [0, 500], [0, -150]);   // Content moves faster (parallax)
-    const contentOpacity = useTransform(scrollY, [0, 300], [1, 0]); // Content fades out
+    const contentOpacity = useTransform(scrollY, [0, 600], [1, 0]); // Content fades out slower
 
     return (
         <section style={{
@@ -31,7 +31,7 @@ const HeroSection = ({
             overflow: 'hidden',
             backgroundColor: 'transparent',
             color: textColor,
-            paddingTop: '80px',
+            paddingTop: '120px',
         }}>
             {/* Masked Background Wrapper */}
             <div style={{
@@ -103,7 +103,7 @@ const HeroSection = ({
                     maxWidth: '1000px',
                     padding: '0 var(--spacing-md)',
                     y: contentY,       // Apply Parallax Y to content
-                    opacity: contentOpacity // Apply Scroll Fade
+                    opacity: useTransform(scrollY, [0, 600], [1, 0]) // Content fades out slower (visible longer)
                 }}
             >
                 <motion.div
@@ -124,7 +124,27 @@ const HeroSection = ({
                         textShadow: textShadow,
                         display: 'block'
                     }}>
-                        {title}
+                        <span style={{ display: 'block', lineHeight: 1.1 }}>
+                            <span style={{
+                                color: '#1A3C34',
+                                fontSize: 'clamp(2rem, 7vw, 4rem)',
+                                fontWeight: '900',
+                                display: 'block',
+                                marginBottom: '1.5rem',
+                                letterSpacing: 'normal'
+                            }}>
+                                I REVERSED MY<br />BIOLOGICAL AGE
+                            </span>
+                            <span style={{
+                                color: '#20B2AA',
+                                fontWeight: '800',
+                                fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
+                                display: 'block',
+                                letterSpacing: '0.05em'
+                            }}>
+                                NOW I SHOW YOU HOW
+                            </span>
+                        </span>
                     </h1>
                 </motion.div>
 
@@ -158,7 +178,7 @@ const HeroSection = ({
                     </motion.div>
                 )}
             </motion.header>
-        </section>
+        </section >
     );
 };
 

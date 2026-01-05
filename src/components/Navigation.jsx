@@ -5,19 +5,7 @@ export default function Navigation() {
     const location = useLocation();
     const [isOpen, setIsOpen] = React.useState(false);
 
-    // Force close all dropdowns on scroll to prevent click hijacking
-    useEffect(() => {
-        const closeAllDropdowns = () => {
-            document.querySelectorAll('.dropdown-menu-safe').forEach(menu => {
-                menu.style.opacity = '0';
-                menu.style.display = 'none';
-                menu.style.pointerEvents = 'none';
-            });
-        };
 
-        window.addEventListener('scroll', closeAllDropdowns);
-        return () => window.removeEventListener('scroll', closeAllDropdowns);
-    }, []);
 
     const linkStyle = (path) => ({
         color: location.pathname === path ? 'var(--color-primary)' : 'var(--color-text-muted)',
@@ -52,7 +40,7 @@ export default function Navigation() {
             pointerEvents: 'none' // Prevent click hijacking on blog cards below
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', pointerEvents: 'auto' }}>
-                <Link to="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102 }}>
+                <Link to="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102, pointerEvents: 'auto' }}>
                     <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
                 </Link>
 
@@ -61,92 +49,7 @@ export default function Navigation() {
                     <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
                     <a href="https://empowervida.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle('https://empowervida.substack.com')}>Newsletter</a>
 
-                    {/* Protocols Dropdown */}
-                    <div
-                        className="nav-item-dropdown"
-                        style={{ position: 'relative', display: 'inline-block' }}
-                        onMouseEnter={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
-                            if (menu) {
-                                // Clear any existing close timer
-                                const timerId = menu.getAttribute('data-timer');
-                                if (timerId) {
-                                    clearTimeout(parseInt(timerId));
-                                    menu.removeAttribute('data-timer');
-                                }
-                                menu.style.display = 'block';
-                                menu.style.visibility = 'visible';
-                                menu.style.pointerEvents = 'auto'; // Enable clicks when visible
-                                // Small delay to allow display:block to apply before opacity transition
-                                requestAnimationFrame(() => {
-                                    menu.style.opacity = '1';
-                                    menu.style.transform = 'translateY(0) translateX(-50%)';
-                                });
-                            }
-                        }}
-                        onMouseLeave={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
-                            if (menu) {
-                                // Add delay to allow moving mouse to the menu
-                                const timerId = setTimeout(() => {
-                                    menu.style.display = 'none';
-                                    menu.style.opacity = '0';
-                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
-                                    menu.style.pointerEvents = 'none';
-                                    menu.style.visibility = 'hidden';
-                                }, 300); // 300ms grace period
-                                menu.setAttribute('data-timer', timerId);
-                            }
-                        }}
-                    >
-                        <span style={{ ...linkStyle('/protocol'), cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                            PROTOCOLS <span style={{ fontSize: '0.7em' }}>▼</span>
-                        </span>
-                        <div
-                            className="dropdown-menu-safe"
-                            style={{
-                                position: 'absolute',
-                                top: '100%',
-                                left: '50%',
-                                transform: 'translateY(10px) translateX(-50%)', // Centered
-                                opacity: 0,
-                                display: 'none', // Default to none
-                                visibility: 'hidden', // Extra safety
-                                background: 'rgba(255, 255, 255, 0.95)',
-                                backdropFilter: 'blur(20px)',
-                                border: '1px solid rgba(0,0,0,0.05)',
-                                borderRadius: '12px',
-                                padding: '1rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
-                                minWidth: '280px',
-                                transition: 'opacity 0.2s ease, transform 0.2s ease',
-                                zIndex: 1000,
-                                pointerEvents: 'none' // Prevent click hijacking when hidden
-                            }}
-                        >
-                            <Link to="/protocol#longevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#1A3C34', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(26, 60, 52, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🧬 LONGEVITY
-                            </Link>
-                            <Link to="/protocol#clarity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#008080', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(0, 128, 128, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🧠 BRAIN FOG / CLARITY
-                            </Link>
-                            <Link to="/protocol#neurolongevity-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🧪 NEUROLONGEVITY
-                            </Link>
-                            <Link to="/protocol#vitality-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                ⚡ ENERGY / VITALITY
-                            </Link>
-                            <Link to="/protocol#gut-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF6B6B', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 107, 107, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🩺 GUT HEALTH
-                            </Link>
-                            <Link to="/protocol#sleep-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#764ba2', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(118, 75, 162, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                💤 SLEEP & RECOVERY
-                            </Link>
-                            <Link to="/protocol#metabolic-stack" style={{ display: 'block', padding: '0.8rem 1rem', color: '#DC2626', textDecoration: 'none', fontSize: '0.85rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(220, 38, 38, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🩸 METABOLIC HEALTH
-                            </Link>
-                        </div>
-                    </div>
+                    <Link to="/empower-protocol" style={linkStyle('/empower-protocol')}>THE PROTOCOL</Link>
 
                     {/* Guides Dropdown */}
                     <div
@@ -165,7 +68,6 @@ export default function Navigation() {
                                 menu.style.pointerEvents = 'auto'; // Enable clicks when visible
                                 requestAnimationFrame(() => {
                                     menu.style.opacity = '1';
-                                    menu.style.transform = 'translateY(0) translateX(-50%)';
                                 });
                             }
                         }}
@@ -176,10 +78,9 @@ export default function Navigation() {
                                 const timerId = setTimeout(() => {
                                     menu.style.display = 'none';
                                     menu.style.opacity = '0';
-                                    menu.style.transform = 'translateY(10px) translateX(-50%)';
                                     menu.style.pointerEvents = 'none';
                                     menu.style.visibility = 'hidden';
-                                }, 300); // 300ms grace period
+                                }, 800); // 800ms grace period
                                 menu.setAttribute('data-timer', timerId);
                             }
                         }}
@@ -191,36 +92,42 @@ export default function Navigation() {
                             className="dropdown-menu-safe"
                             style={{
                                 position: 'absolute',
-                                top: '100%',
+                                top: '0',
                                 left: '50%',
-                                transform: 'translateY(10px) translateX(-50%)',
+                                transform: 'translateX(-50%)', // Centering only
                                 opacity: 0,
                                 display: 'none',
                                 visibility: 'hidden',
+                                paddingTop: '60px', // Extended bridge to overlap trigger
+                                paddingLeft: '40px', // Wider safe zone
+                                paddingRight: '40px', // Wider safe zone
+                                transition: 'opacity 0.2s ease',
+                                zIndex: 1000,
+                                pointerEvents: 'none' // Prevent click hijacking when hidden
+                            }}
+                        >
+                            <div style={{
                                 background: 'rgba(255, 255, 255, 0.95)',
                                 backdropFilter: 'blur(20px)',
                                 border: '1px solid rgba(0,0,0,0.05)',
                                 borderRadius: '12px',
                                 padding: '1rem',
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
-                                minWidth: '260px',
-                                transition: 'opacity 0.2s ease, transform 0.2s ease',
-                                zIndex: 1000,
-                                pointerEvents: 'none' // Prevent click hijacking when hidden
-                            }}
-                        >
-                            <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                ⚡ Mitochondrial Health
-                            </Link>
-                            <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🧬 The 5 Pillars of Longevity
-                            </Link>
-                            <Link to="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🩸 The Insulin Story
-                            </Link>
-                            <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                🎯 Advanced Diagnostics
-                            </Link>
+                                minWidth: '260px'
+                            }}>
+                                <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    ⚡ Mitochondrial Health
+                                </Link>
+                                <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    🧬 The 5 Pillars of Longevity
+                                </Link>
+                                <Link to="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    🩸 The Insulin Story
+                                </Link>
+                                <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    🎯 Advanced Diagnostics
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
@@ -289,12 +196,7 @@ export default function Navigation() {
                     }}>
                     <Link to="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
 
-                    <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
-                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Protocols</p>
-                        <Link to="/protocol#vitality-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ VITALITY</Link>
-                        <Link to="/protocol#clarity-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#008080', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧠 CLARITY</Link>
-                        <Link to="/protocol#foundation-stack" style={{ ...mobileLinkStyle('/protocol'), color: '#1A3C34', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 FOUNDATION</Link>
-                    </div>
+                    <Link to="/empower-protocol" style={mobileLinkStyle('/empower-protocol')} onClick={() => setIsOpen(false)}>THE PROTOCOL</Link>
 
                     <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
                         <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Guides</p>
