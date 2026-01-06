@@ -238,8 +238,8 @@ export default function Home() {
                         }}>
                             {[
                                 { icon: '🎓', text: 'Aberdeen 2009' },
-                                { icon: '🚑', text: '5 Years ER' },
-                                { icon: '⚕️', text: '5 Years GP' },
+                                { icon: '⚕️', text: '16 Years Practising' },
+                                { icon: '🚑', text: 'ER & General Practice' },
                                 { icon: '💪', text: '-30kg in 2022' }
                             ].map((item, index) => (
                                 <motion.div

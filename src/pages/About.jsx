@@ -174,7 +174,7 @@ export default function About() {
                     </div>
                     <div>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine—first Emergency Medicine, then General Practice. The work was rewarding, but the lifestyle was brutal.
+                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine. Over 16 years, I worked in Emergency Medicine and General Practice. The work was rewarding, but the lifestyle was brutal.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
                             Night shifts. Understaffing. Chronic stress. The "work hard, play hard" culture from medical school followed me into practice. Alcohol became stress relief. Sleep became a luxury. Nutrition became an afterthought.
@@ -317,8 +317,8 @@ export default function About() {
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
                         {[
                             { label: 'University of Aberdeen 2009', icon: '🎓' },
-                            { label: '5 Years Emergency Medicine', icon: '🚑' },
-                            { label: '5 Years General Practice', icon: '⚕️' },
+                            { label: '16 Years Practising Medicine', icon: '⚕️' },
+                            { label: 'Emergency Medicine & General Practice', icon: '🚑' },
                             { label: 'Lost 30kg in 2022', icon: '💪' },
                             { label: 'Polln Clinic Holistic Medicine', icon: '🌿' }
                         ].map((cred, index) => (
