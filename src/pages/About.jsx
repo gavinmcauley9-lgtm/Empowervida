@@ -95,6 +95,33 @@ export default function About() {
 
             <div className="container" style={{ paddingTop: '6rem', paddingBottom: '0' }}>
 
+                {/* Profile Image - The Face of the Protocol */}
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    marginBottom: '6rem'
+                }} data-aos="fade-up">
+                    <div style={{
+                        position: 'relative',
+                        width: '280px',
+                        height: '280px',
+                        borderRadius: '50%',
+                        overflow: 'hidden',
+                        border: '4px solid var(--color-accent-teal)',
+                        boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
+                    }}>
+                        <img
+                            src="/dr_gavin_headshot.png"
+                            alt="Dr. Gavin McAuley"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover'
+                            }}
+                        />
+                    </div>
+                </div>
+
                 {/* Section 1: The George Clooney Myth */}
                 <section style={{
                     marginBottom: '8rem',
