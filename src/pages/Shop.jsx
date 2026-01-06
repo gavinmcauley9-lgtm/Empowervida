@@ -404,6 +404,25 @@ const Shop = () => {
                 </p>
             </HeroSection>
 
+            {/* Affiliate Disclosure Banner */}
+            <div style={{
+                background: 'rgba(255, 95, 0, 0.1)',
+                border: '1px solid rgba(255, 95, 0, 0.3)',
+                borderRadius: '12px',
+                padding: '1rem 2rem',
+                margin: '0 auto 3rem auto',
+                maxWidth: '1200px',
+                textAlign: 'center'
+            }}>
+                <p style={{
+                    fontSize: '0.9rem',
+                    color: 'rgba(255, 255, 255, 0.8)',
+                    margin: 0
+                }}>
+                    <strong style={{ color: 'var(--color-accent-teal)' }}>Transparency Notice:</strong> This page contains affiliate links. When you purchase through these links, we may earn a commission at no additional cost to you. See our <a href="/affiliate-disclaimer" style={{ color: '#FF5F00', textDecoration: 'underline' }}>Affiliate Disclaimer</a> for full details.
+                </p>
+            </div>
+
             {/* Protocols Section */}
             <section style={{
                 padding: '4rem 2rem',
