@@ -1135,7 +1135,7 @@ export const POSTS = [
   },
   {
     id: 3,
-    title: 'Nootropics That Actually Work',
+    title: 'The 3 Brain Pills That Actually Changed My Patients\' Lives (And the 7 That Are Snake Oil)',
     category: 'cognition',
     image: '/stimulants_vs_nootropics_graph_1764510405890.png',
     excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
@@ -1639,7 +1639,7 @@ export const POSTS = [
   },
   {
     id: 6,
-    title: 'Cold Plunge Protocols',
+    title: 'The 2-Minute Ice Bath Trick That Doubled My Dopamine (Proven by Stanford)',
     category: 'sleep',
     excerpt: 'When to do it, and more importantly, when NOT to do it.',
     date: 'Sep 15, 2025',
