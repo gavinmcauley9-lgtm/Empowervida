@@ -46,6 +46,10 @@ export default function Home() {
 
     const faqData = [
         {
+            question: "Why am I always tired even after sleeping?",
+            answer: "If you have already ruled out the 'Big 4' (Anaemia, Thyroid disease, Sleep Apnea, and Depression), yet you still feel exhausted, you are likely suffering from Sub-Clinical Mitochondrial Dysfunction. Your cells are receiving fuel but cannot convert it into energy (ATP). This is effectively a 'brownout' of your biological grid."
+        },
+        {
             question: "Why 'Clinical-Grade' Supplements?",
             answer: "Most off-the-shelf supplements suffer from poor bioavailability (your body can't absorb them) or low dosing. We reference only the forms and dosages used in successful clinical trials, such as Liposomal delivery and methylated B-vitamins."
         },
