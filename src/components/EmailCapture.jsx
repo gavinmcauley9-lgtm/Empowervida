@@ -108,147 +108,52 @@ const EmailCapture = ({ variant = 'default' }) => {
                 </div>
             )}
 
-            <form
-                ref={formRef}
-                action="https://app.kit.com/forms/8895620/subscriptions"
-                method="post"
-                onSubmit={handleSubmit}
+            <a
+                href="https://drgavinmcauley.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
+                    display: 'block',
+                    width: '100%',
+                    padding: '20px 32px',
+                    fontSize: '18px',
+                    fontWeight: 700,
+                    background: '#20B2AA',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '12px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.05em',
+                    transition: 'all 0.3s ease',
+                    boxSizing: 'border-box',
                     maxWidth: '600px',
                     margin: '0 auto'
                 }}
+                onMouseEnter={(e) => {
+                    e.target.style.background = '#1A9B8E';
+                    e.target.style.transform = 'translateY(-2px)';
+                    e.target.style.boxShadow = '0 10px 25px rgba(32, 178, 170, 0.4)';
+                }}
+                onMouseLeave={(e) => {
+                    e.target.style.background = '#20B2AA';
+                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.boxShadow = 'none';
+                }}
             >
-                <input
-                    type="text"
-                    name="first_name"
-                    value={firstName}
-                    onChange={(e) => setFirstName(e.target.value)}
-                    placeholder="Your first name"
-                    required
-                    disabled={status === 'submitting'}
-                    style={{
-                        width: '100%',
-                        padding: '18px 24px',
-                        fontSize: '16px',
-                        border: '2px solid rgba(255,255,255,0.3)',
-                        borderRadius: '12px',
-                        marginBottom: '16px',
-                        background: 'rgba(255,255,255,0.95)',
-                        color: '#1A3C34',
-                        fontWeight: 500,
-                        boxSizing: 'border-box',
-                        opacity: status === 'submitting' ? 0.6 : 1
-                    }}
-                />
-                <input
-                    type="email"
-                    name="email_address"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Your email address"
-                    required
-                    disabled={status === 'submitting'}
-                    style={{
-                        width: '100%',
-                        padding: '18px 24px',
-                        fontSize: '16px',
-                        border: '2px solid rgba(255,255,255,0.3)',
-                        borderRadius: '12px',
-                        marginBottom: '16px',
-                        background: 'rgba(255,255,255,0.95)',
-                        color: '#1A3C34',
-                        fontWeight: 500,
-                        boxSizing: 'border-box',
-                        opacity: status === 'submitting' ? 0.6 : 1
-                    }}
-                />
+                SUBSCRIBE ON SUBSTACK FOR FREE ACCESS
+            </a>
 
-                <button
-                    type="submit"
-                    disabled={status === 'submitting'}
-                    style={{
-                        width: '100%',
-                        padding: '18px 32px',
-                        fontSize: '18px',
-                        fontWeight: 700,
-                        background: status === 'submitting' ? '#95D5D2' : '#20B2AA',
-                        color: 'white',
-                        border: 'none',
-                        borderRadius: '12px',
-                        cursor: status === 'submitting' ? 'not-allowed' : 'pointer',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em',
-                        transition: 'all 0.3s ease',
-                        boxSizing: 'border-box'
-                    }}
-                    onMouseEnter={(e) => {
-                        if (status !== 'submitting') {
-                            e.target.style.background = '#1A9B8E';
-                            e.target.style.transform = 'translateY(-2px)';
-                            e.target.style.boxShadow = '0 10px 25px rgba(32, 178, 170, 0.4)';
-                        }
-                    }}
-                    onMouseLeave={(e) => {
-                        if (status !== 'submitting') {
-                            e.target.style.background = '#20B2AA';
-                            e.target.style.transform = 'translateY(0)';
-                            e.target.style.boxShadow = 'none';
-                        }
-                    }}
-                >
-                    {status === 'submitting' ? 'SENDING...' : 'SEND ME THE CHECKLIST'}
-                </button>
-
-                {/* Success Message */}
-                {status === 'success' && (
-                    <motion.div
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        style={{
-                            marginTop: '1rem',
-                            padding: '1rem',
-                            background: 'rgba(34, 197, 94, 0.15)',
-                            border: '2px solid #22C55E',
-                            borderRadius: '12px',
-                            textAlign: 'center',
-                            color: variant === 'default' ? '#FFFFFF' : '#1A3C34',
-                            fontWeight: 600
-                        }}
-                    >
-                        ✅ Success! Check your email for the checklist.
-                    </motion.div>
-                )}
-
-                {/* Error Message */}
-                {status === 'error' && (
-                    <motion.div
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        style={{
-                            marginTop: '1rem',
-                            padding: '1rem',
-                            background: 'rgba(239, 68, 68, 0.15)',
-                            border: '2px solid #EF4444',
-                            borderRadius: '12px',
-                            textAlign: 'center',
-                            color: variant === 'default' ? '#FFFFFF' : '#1A3C34',
-                            fontWeight: 600
-                        }}
-                    >
-                        ❌ Something went wrong. Please try again.
-                    </motion.div>
-                )}
-
-                <p style={{
-                    textAlign: 'center',
-                    marginTop: '1rem',
-                    fontSize: '0.85rem',
-                    color: '#6C757D'
-                }}>
-                    We respect your privacy. Unsubscribe at any time.
-                </p>
-            </form>
-        </motion.div>
+            <p style={{
+                textAlign: 'center',
+                marginTop: '1rem',
+                fontSize: '0.85rem',
+                color: '#6C757D'
+            }}>
+                We respect your privacy. Unsubscribe at any time.
+            </p>
+        </motion.div >
     );
 };
 
