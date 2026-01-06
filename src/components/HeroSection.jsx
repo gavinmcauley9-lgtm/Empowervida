@@ -20,7 +20,7 @@ const HeroSection = ({
     const contentOpacity = useTransform(scrollY, [0, 600], [1, 0]); // Content fades out slower
 
     return (
-        <section style={{
+        <section className="hero-section" style={{
             position: 'relative',
             minHeight: height,
             display: 'flex',

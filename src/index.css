@@ -416,10 +416,16 @@ canvas,
     padding: 0 1.5rem;
   }
 
-  /* Reduce top padding on mobile for better space usage */
-  section {
+  /* Reduce top padding on mobile for better space usage, BUT keep Hero padding large */
+  section:not(.hero-section) {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+
+  /* Specific mobile padding for Hero to clear the fixed nav */
+  section.hero-section {
+    padding-top: 8rem !important;
+    padding-bottom: 4rem !important;
   }
 
   /* Improve touch targets */
@@ -533,23 +539,24 @@ canvas,
     font-size: 2rem !important;
   }
 }
+
 /* CRITICAL: Enforce dropdown hiding to prevent click hijacking */
 .nav-item-dropdown:not(:hover) .dropdown-menu {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
+  display: none !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
 
 /* NEW SAFE DROPDOWN STYLES */
 .dropdown-menu-safe {
-    display: none;
-    pointer-events: none !important;
+  display: none;
+  pointer-events: none !important;
 }
 
 .nav-item-dropdown:not(:hover) .dropdown-menu-safe {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
+  display: none !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }

@@ -98,10 +98,28 @@ const Footer = () => {
                     </h4>
                     <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
                     <a href="https://empowervida.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>[ NEWSLETTER ]</a>
-                    <Link to="/protocol" style={linkStyle}>[ THE PROTOCOL ]</Link>
-                    <Link to="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
-                    <Link to="/environmental-defense" style={linkStyle}>[ THE ELEMENTS ]</Link>
+                    <Link to="/shop" style={linkStyle}>[ SHOP ]</Link>
                     <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
+                    <Link to="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
+                </div>
+
+                {/* Column 3: Essential Guides */}
+                <div>
+                    <h4 style={{
+                        fontSize: '0.9rem',
+                        fontWeight: 700,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.1em',
+                        marginBottom: '1.5rem',
+                        color: '#555555'
+                    }}>
+                        Essential Guides
+                    </h4>
+                    <Link to="/mitochondrial-guide" style={linkStyle}>⚡ [ MITOCHONDRIAL HEALTH ]</Link>
+                    <Link to="/longevity" style={linkStyle}>🧬 [ THE 5 PILLARS ]</Link>
+                    <Link to="/insulin-story" style={linkStyle}>🩸 [ THE INSULIN STORY ]</Link>
+                    <Link to="/advanced-optimization" style={linkStyle}>🎯 [ ADVANCED METRICS ]</Link>
+                    <Link to="/environmental-defense" style={linkStyle}>🛡️ [ THE ELEMENTS ]</Link>
                 </div>
 
                 {/* Column 3: Legal & Privacy */}
