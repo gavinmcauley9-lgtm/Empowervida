@@ -5,13 +5,42 @@ import SEO from '../components/SEO';
 export default function About() {
     const personSchema = {
         "@context": "https://schema.org",
-        "@type": "Person",
+        "@type": "Physician",
         "name": "Dr. Gavin McAuley",
-        "jobTitle": "Family Physician & Longevity Architect",
+        "honorificPrefix": "Dr.",
+        "givenName": "Gavin",
+        "familyName": "McAuley",
+        "jobTitle": "Family Physician & Longevity Specialist",
         "description": "Practicing physician who transformed from 125kg burnout to longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
         "url": "https://empowervida.com/about",
-        "alumniOf": "Medical School",
-        "knowsAbout": ["Longevity Medicine", "Mitochondrial Health", "Metabolic Optimization", "Evidence-Based Medicine"]
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Aberdeen School of Medicine",
+            "sameAs": "https://www.abdn.ac.uk/medical"
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "name": "MBChB"
+        },
+        "medicalSpecialty": [
+            "Emergency Medicine",
+            "General Practice",
+            "Longevity Medicine",
+            "Preventive Medicine"
+        ],
+        "knowsAbout": [
+            "Longevity Medicine",
+            "Mitochondrial Health",
+            "Metabolic Optimization",
+            "Insulin Resistance",
+            "Cellular Health",
+            "Evidence-Based Medicine"
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/gavin-mcauley-62147151/",
+            "https://drgavinmcauley.substack.com"
+        ]
     };
 
     return (
