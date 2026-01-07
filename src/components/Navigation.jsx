@@ -55,35 +55,6 @@ export default function Navigation() {
                     <div
                         className="nav-item-dropdown"
                         style={{ position: 'relative', display: 'inline-block' }}
-                        onMouseEnter={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
-                            if (menu) {
-                                const timerId = menu.getAttribute('data-timer');
-                                if (timerId) {
-                                    clearTimeout(parseInt(timerId));
-                                    menu.removeAttribute('data-timer');
-                                }
-                                menu.style.display = 'block';
-                                menu.style.visibility = 'visible';
-                                menu.style.pointerEvents = 'auto'; // Enable clicks when visible
-                                requestAnimationFrame(() => {
-                                    menu.style.opacity = '1';
-                                });
-                            }
-                        }}
-                        onMouseLeave={(e) => {
-                            const menu = e.currentTarget.querySelector('.dropdown-menu-safe');
-                            if (menu) {
-                                // Add delay to allow moving mouse to the menu
-                                const timerId = setTimeout(() => {
-                                    menu.style.display = 'none';
-                                    menu.style.opacity = '0';
-                                    menu.style.pointerEvents = 'none';
-                                    menu.style.visibility = 'hidden';
-                                }, 800); // 800ms grace period
-                                menu.setAttribute('data-timer', timerId);
-                            }
-                        }}
                     >
                         <span style={{ ...linkStyle('/guides'), cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
                             GUIDES <span style={{ fontSize: '0.7em' }}>▼</span>
@@ -92,27 +63,24 @@ export default function Navigation() {
                             className="dropdown-menu-safe"
                             style={{
                                 position: 'absolute',
-                                top: '0',
+                                top: '100%',
                                 left: '50%',
-                                transform: 'translateX(-50%)', // Centering only
+                                transform: 'translateX(-50%)',
                                 opacity: 0,
-                                display: 'none',
                                 visibility: 'hidden',
-                                paddingTop: '60px', // Extended bridge to overlap trigger
-                                paddingLeft: '40px', // Wider safe zone
-                                paddingRight: '40px', // Wider safe zone
-                                transition: 'opacity 0.2s ease',
-                                zIndex: 1000,
-                                pointerEvents: 'none' // Prevent click hijacking when hidden
+                                paddingTop: '1rem',
+                                transition: 'opacity 0.2s ease, visibility 0.2s ease',
+                                zIndex: 2000,
+                                pointerEvents: 'none'
                             }}
                         >
                             <div style={{
-                                background: 'rgba(255, 255, 255, 0.95)',
+                                background: 'rgba(255, 255, 255, 0.98)',
                                 backdropFilter: 'blur(20px)',
-                                border: '1px solid rgba(0,0,0,0.05)',
+                                border: '1px solid rgba(0,0,0,0.08)',
                                 borderRadius: '12px',
                                 padding: '1rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
+                                boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
                                 minWidth: '260px'
                             }}>
                                 <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>

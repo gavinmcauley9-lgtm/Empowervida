@@ -540,23 +540,15 @@ canvas,
   }
 }
 
-/* CRITICAL: Enforce dropdown hiding to prevent click hijacking */
-.nav-item-dropdown:not(:hover) .dropdown-menu {
-  display: none !important;
-  pointer-events: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-}
-
-/* NEW SAFE DROPDOWN STYLES */
-.dropdown-menu-safe {
-  display: none;
-  pointer-events: none !important;
+/* Dropdown Menu Hover System - Pure CSS (No JS Timers) */
+.nav-item-dropdown:hover .dropdown-menu-safe {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 .nav-item-dropdown:not(:hover) .dropdown-menu-safe {
-  display: none !important;
-  pointer-events: none !important;
-  visibility: hidden !important;
   opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
 }
