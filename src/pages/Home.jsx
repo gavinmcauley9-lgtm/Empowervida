@@ -94,7 +94,7 @@ export default function Home() {
                 // title prop removed as it is now inside HeroSection
                 backgroundImage="/home_hero_user.png"
                 subtitle="Dr. Gavin McAuley, MBChB • 125kg → 95kg • ER Doctor → Longevity Strategist"
-                overlay="linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.98) 100%)"
+                overlay="linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,1) 100%)"
                 textColor="#1A3C34"
                 subtitleColor="#064E3B"
                 subtitleWeight="600"
