@@ -138,9 +138,9 @@ const MitochondrialGuide = () => {
                 backgroundImage="/mitochondrion_hero_cinematic_1764586685814.png"
                 title="THE MITOCHONDRIAL GUIDE"
                 subtitle="THE ENGINE EVERYONE FORGETS: AS VITAL AS YOUR HEART"
-                overlay="linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)"
+                overlay="linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.75) 100%)"
                 textColor="#FFFFFF"
-                subtitleColor="#4DB6AC"
+                subtitleColor="#FFFFFF"
             >
                 <p style={{
                     fontSize: 'clamp(1rem, 2vw, 1.3rem)',
@@ -354,8 +354,8 @@ const MitochondrialGuide = () => {
                 </p>
             </section >
 
-            {/* Interactive Mitochondrial Diagram */}
-            < section style={{
+            {/* Mitochondrial Supplement Map */}
+            <section style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
                 padding: '4rem 2rem',
@@ -378,8 +378,17 @@ const MitochondrialGuide = () => {
                 }}>
                     Explore how each supplement supports your cellular powerhouses
                 </p>
-                <MitochondrialDiagram />
-            </section >
+                <img
+                    src="/mitochondrial_supplements_radial.png"
+                    alt="Radial diagram showing 14 mitochondrial supplements including Magnesium L-Threonate, Creatine, ALCAR, Citicoline, Alpha Lipoic Acid, GlyNAC, B-Complex, Vitamin C, Rhodiola, Urolithin A, PQQ, Ubiquinol, NAD+, and Omega-3 arranged around a central mitochondrion"
+                    style={{
+                        maxWidth: '100%',
+                        height: 'auto',
+                        borderRadius: '12px',
+                        boxShadow: '0 10px 40px rgba(0,0,0,0.1)'
+                    }}
+                />
+            </section>
 
             {/* Phase 2: The Armor */}
             < section style={{
