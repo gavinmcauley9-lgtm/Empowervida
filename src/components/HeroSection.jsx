@@ -124,27 +124,7 @@ const HeroSection = ({
                         textShadow: textShadow,
                         display: 'block'
                     }}>
-                        <span style={{ display: 'block', lineHeight: 1.1 }}>
-                            <span style={{
-                                color: '#1A3C34',
-                                fontSize: 'clamp(2rem, 7vw, 4rem)',
-                                fontWeight: '900',
-                                display: 'block',
-                                marginBottom: '1.5rem',
-                                letterSpacing: 'normal'
-                            }}>
-                                I REVERSED MY<br />BIOLOGICAL AGE
-                            </span>
-                            <span style={{
-                                color: '#20B2AA',
-                                fontWeight: '800',
-                                fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
-                                display: 'block',
-                                letterSpacing: '0.05em'
-                            }}>
-                                NOW I SHOW YOU HOW
-                            </span>
-                        </span>
+                        {title}
                     </h1>
                 </motion.div>
 
