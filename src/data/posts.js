@@ -249,7 +249,7 @@ export const POSTS = [
     title: 'THE TEST YOUR DOCTOR ISN\'T ORDERING: Why Your "Normal" Blood Work is Hiding a Metabolic Crisis',
     category: 'metabolic',
     image: '/clogged_engine_comparison.png',
-    excerpt: 'Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.',
+    excerpt: 'Fasting glucose 98? "Normal." HbA1c 56%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing the metabolic engine: eliminating refined carbs, building mitochondrial capacity with exercise, and strategic supplementation.',
     date: 'Dec 09, 2025',
     cta: {
       text: "Get The Metabolic Reset Protocol",
@@ -543,8 +543,27 @@ export const POSTS = [
         So how do you fix a grinding engine? You don't just add more fuel. You overhaul the machinery.
       </p>
 
+      <div style="background: rgba(220, 38, 38, 0.15); border: 2px solid #DC2626; padding: 2rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: #DC2626;">⚠️ THE FOUNDATION FIRST</h3>
+        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 1rem; font-weight: 600;">
+          Before we talk supplements, let's be clinically honest about how I actually lost 30kg:
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          <strong>1. DIET:</strong> I eliminated refined carbs (bread, pasta, rice, potatoes) and drastically reduced processed foods. No supplement can compensate for a broken diet.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          <strong>2. EXERCISE:</strong> I built mitochondrial capacity with Zone 2 cardio (180+ minutes per week) and strength training (3x/week). Movement is medicine.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          <strong>3. POST-MEAL WALKS:</strong> I walked for 10-15 minutes after every meal. This simple habit flattens glucose and insulin spikes more effectively than most drugs.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin: 0; font-style: italic;">
+          <strong>The supplements below supported this foundation—they did not replace it.</strong> Mitochondrial rescue is not a pill. It's a systematic overhaul of how you fuel and move your body.
+        </p>
+      </div>
+
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here is the protocol I used to go from 125kg and exhausted to 95kg and thriving:
+        With that foundation in place, here are the targeted interventions that accelerated my recovery:
       </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
