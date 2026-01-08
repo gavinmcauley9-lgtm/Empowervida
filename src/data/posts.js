@@ -128,10 +128,10 @@ export const POSTS = [
   },
   {
     id: 24,
-    title: 'Why Did No One Tell Me? The "Energy Drink" Molecule That Actually Reverses Cellular Aging',
+    title: 'Taurine and Longevity: The 2023 Science Study Proving Aging is Reversible',
     category: 'longevity',
     image: '/taurine_cell_rejuvenation.png',
-    excerpt: 'At age 60, your levels of this molecule are 80% lower than in your youth. A landmark 2023 Science study revealed that restoring it extended lifespan by 12%. And no, it\'s not caffeine.',
+    excerpt: 'By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular aging markers. This is not about energy drinks. This is about cellular survival.',
     date: 'Dec 26, 2025',
     cta: {
       text: "Get Dr. Gavin's Longevity Protocol",
@@ -146,8 +146,8 @@ export const POSTS = [
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE 80% DROP</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. I was wrong. A landmark study in <em>Science</em> has revealed that Taurine deficiency is a primary driver of aging—and restoring it acts as a "coolant" for your cellular engines.</p>
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE CELLULAR SURVIVAL MOLECULE</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">By age 60, your taurine levels have dropped by 80% compared to when you were 20. A landmark 2023 study published in <em>Science</em>—the same journal that publishes Nobel Prize-winning research—showed that restoring taurine extended healthy lifespan by 12% in animals and reversed multiple hallmarks of aging. This is not about energy drinks. This is about cellular survival. Here's why I take 3g of taurine daily, and why it's one of the most underrated longevity interventions available.</p>
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
@@ -157,18 +157,22 @@ export const POSTS = [
          </p>
        </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Deficiency of Youth"</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why Physicians (Including Me) Got This Wrong</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If you walked into my clinic five years ago and asked me about Taurine, I probably would have rolled my eyes. Like most physicians, I associated it with neon-colored energy drinks and the "jittery" culture of over-caffeinated gamers.
+        Five years ago, if you'd asked me about taurine, I would have dismissed it. Like most physicians, I associated it with neon energy drinks and the jittery culture of over-caffeinated gamers.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>I was wrong.</strong> We were all wrong.
+        <strong>I was catastrophically wrong.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        While we were dismissing Taurine as a stimulant (which it isn't), the most prestigious longevity researchers in the world were quietly uncovering a truth that changes everything we know about aging. You are not just tired because you are busy. You are tired because you are running out of the very molecule that acts as a "coolant" for your cellular engines.
+        While the medical community dismissed taurine as a stimulant (which it is not—it contains zero caffeine), longevity researchers were quietly uncovering one of the most significant discoveries in aging science: <strong>taurine deficiency is a primary driver of cellular aging</strong>, and restoring it reverses multiple hallmarks of biological decline.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The evidence is now overwhelming. This is not about energy. This is about survival at the cellular level. Let me show you the science, then explain why I now take 3 grams of taurine daily—and why you should consider it too.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: What Happened to Your Levels?</h2>
