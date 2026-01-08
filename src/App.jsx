@@ -29,6 +29,7 @@ const AffiliateDisclaimer = lazy(() => import('./pages/AffiliateDisclaimer'));
 const TermsConditions = lazy(() => import('./pages/TermsConditions'));
 const InsulinStory = lazy(() => import('./pages/InsulinStory'));
 const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
+const DiagnosticsPortal = lazy(() => import('./pages/DiagnosticsPortal'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -127,6 +128,7 @@ function AppContent() {
             <Route path="/affiliate-disclaimer" element={<AffiliateDisclaimer />} />
             <Route path="/terms" element={<TermsConditions />} />
             <Route path="/insulin-story" element={<InsulinStory />} />
+            <Route path="/diagnostics-portal" element={<DiagnosticsPortal />} />
           </Routes>
         </div>
       </Suspense>
