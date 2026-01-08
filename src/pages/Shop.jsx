@@ -66,6 +66,14 @@ const Shop = () => {
                     pick: 'Timeline Nutrition Mitopure',
                     amazonLink: 'https://geni.us/urolithin-a',
                     iherbLink: 'https://www.iherb.com/search?kw=Urolithin%20A'
+                },
+                {
+                    name: 'Bio-Fisetin (Senolytic)',
+                    subtitle: 'The Cleanup Crew',
+                    why: 'Clears senescent "zombie" cells that pump out inflammatory signals and block mitochondrial renewal.',
+                    pick: 'Doctor\'s Best Bio-Fisetin',
+                    amazonLink: 'https://amzn.to/3B0z7Qx',
+                    iherbLink: 'https://www.iherb.com/search?kw=Bio-Fisetin'
                 }
             ]
         },

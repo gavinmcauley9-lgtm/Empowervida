@@ -900,6 +900,97 @@ const MitochondrialGuide = () => {
                                 Check Price
                             </a>
                         </div>
+
+                        {/* Card 4: Bio-Fisetin */}
+                        <div style={{
+                            background: 'var(--color-bg-secondary)',
+                            padding: '2rem',
+                            borderRadius: '12px',
+                            border: '1px solid rgba(0, 150, 199, 0.2)'
+                        }}>
+                            <h4 style={{
+                                fontSize: '1.5rem',
+                                fontWeight: 700,
+                                marginBottom: '0.5rem',
+                                color: '#0096C7'
+                            }}>
+                                Bio-Fisetin (Senolytic)
+                            </h4>
+                            <p style={{
+                                fontSize: '1rem',
+                                fontWeight: 600,
+                                color: '#FF5722',
+                                marginBottom: '1rem'
+                            }}>
+                                The Cleanup Crew
+                            </p>
+                            <p style={{
+                                fontSize: '1rem',
+                                lineHeight: 1.7,
+                                color: 'var(--color-text)',
+                                marginBottom: '1rem'
+                            }}>
+                                When mitochondria fail, they don't always die gracefully. Many become <strong>senescent</strong>—refusing to trigger apoptosis but pumping out damaging ROS and inflammatory signals.
+                            </p>
+                            <p style={{
+                                fontSize: '1rem',
+                                lineHeight: 1.7,
+                                color: 'var(--color-text)',
+                                marginBottom: '1rem'
+                            }}>
+                                Bio-Fisetin selectively targets these "zombie mitochondria" for destruction, making room for fresh, efficient ones.
+                            </p>
+                            <div style={{
+                                background: 'rgba(0, 150, 199, 0.1)',
+                                borderLeft: '3px solid #0096C7',
+                                padding: '1rem',
+                                margin: '1.5rem 0',
+                                borderRadius: '4px'
+                            }}>
+                                <p style={{
+                                    margin: 0,
+                                    fontSize: '0.95rem',
+                                    lineHeight: 1.6,
+                                    fontWeight: 600,
+                                    color: '#0096C7'
+                                }}>
+                                    The Physician's Note:
+                                </p>
+                                <p style={{
+                                    margin: '0.5rem 0 0 0',
+                                    fontSize: '0.95rem',
+                                    lineHeight: 1.6
+                                }}>
+                                    In a 2018 Mayo Clinic study, Fisetin showed the <strong>strongest senolytic effect</strong> of 10 tested flavonoids. The key is using Bio-Fisetin (liposomal form) to ensure it actually enters your cells. Regular Fisetin supplements are mostly wasted in your gut.
+                                </p>
+                            </div>
+                            <p style={{
+                                fontSize: '0.9rem',
+                                color: 'var(--color-text-muted)',
+                                marginBottom: '0.5rem'
+                            }}>
+                                <strong>Dosing:</strong> 100-200mg daily, OR 1,000mg pulsed dosing (2 days/month)
+                            </p>
+                            <p style={{
+                                fontSize: '0.9rem',
+                                color: 'var(--color-text-muted)',
+                                marginBottom: '1.5rem'
+                            }}>
+                                <strong>Form:</strong> Liposomal Bio-Fisetin (25x better absorption)
+                            </p>
+                            <a href="https://amzn.to/3B0z7Qx" target="_blank" rel="noopener noreferrer" style={{
+                                display: 'inline-block',
+                                background: '#0096C7',
+                                color: '#fff',
+                                padding: '0.75rem 1.5rem',
+                                borderRadius: '6px',
+                                textDecoration: 'none',
+                                fontSize: '0.9rem',
+                                fontWeight: 600
+                            }}>
+                                Check Price
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section >

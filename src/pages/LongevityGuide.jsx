@@ -543,6 +543,7 @@ const LongevityGuide = () => {
                             </p>
                             <ul style={{ paddingLeft: '2rem', marginBottom: '1rem' }}>
                                 <li><strong>Urolithin A:</strong> Triggers mitophagy (recycling of old mitochondria)</li>
+                                <li><strong>Bio-Fisetin:</strong> Senolytic for clearing "zombie" cells that drive inflammation</li>
                                 <li><strong>NAC:</strong> Glutathione precursor for antioxidant defense</li>
                                 <li><strong>Glycine:</strong> Supports collagen synthesis and glutathione production</li>
                                 <li><strong>NAD+ Precursors:</strong> For DNA repair and sirtuin activation</li>
