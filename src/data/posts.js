@@ -3413,5 +3413,866 @@ export const POSTS = [
       </div>
     `
   }
+,
+{
+    id: 31,
+    title: 'Creatine and Berberine: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Creatine supports ATP recycling. Berberine activates AMPK (energy sensor) and improves insulin sensitivity. Both enhance cellular energy but through d...',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Yin, J., et al. (2008). Efficacy of berberine in patients with type 2 diabetes mellitus. Metabolism, 57(5), 712-717.",
+            "url": ""
+      },
+      {
+            "text": "Kreider, R. B., et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes with caution</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Creatine supports ATP recycling. Berberine activates AMPK (energy sensor) and improves insulin sensitivity. Both enhance cellular energy but through different pathways.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Creatine: 5g daily. Berberine: 500mg 2-3x daily with meals.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I use this combination for patients with metabolic syndrome. Berberine addresses insulin resistance while creatine supports cellular energy recovery. Monitor blood glucose if diabetic.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Berberine can cause GI upset. Start at 500mg daily and titrate. Creatine: avoid if CKD. No direct interaction between them.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 32,
+    title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Omega-3 reduces inflammation via prostaglandin pathways. Curcumin inhibits NF-κB and COX-2. Together they create multi-pathway anti-inflammatory effec...',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Chainani-Wu, N. (2003). Safety and anti-inflammatory activity of curcumin. Journal of Alternative and Complementary Medicine, 9(1), 161-168.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Omega-3 reduces inflammation via prostaglandin pathways. Curcumin inhibits NF-κB and COX-2. Together they create multi-pathway anti-inflammatory effect.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Omega-3: 2-3g EPA+DHA daily. Curcumin: 500-1000mg with black pepper (piperine enhances absorption).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is my go-to combination for chronic inflammation. The synergy is well documented. Patients with joint pain, cardiovascular risk, or neuroinflammation see significant benefit.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Both are blood thinners. If on warfarin, monitor INR. Take curcumin with fat for absorption. Generally very safe.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 33,
+    title: 'Vitamin D and Magnesium: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Magnesium is required to convert vitamin D to its active form (calcitriol). Without adequate magnesium, vitamin D supplementation is ineffective....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Uwitonze, A. M., & Razzaque, M. S. (2018). Role of magnesium in vitamin D activation and function. Journal of the American Osteopathic Association, 118(3), 181-189.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Magnesium is required to convert vitamin D to its active form (calcitriol). Without adequate magnesium, vitamin D supplementation is ineffective.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Vitamin D: 2000-5000 IU daily. Magnesium: 300-400mg (glycinate or threonate form).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is non-negotiable. I see patients with 'vitamin D resistance' who are simply magnesium deficient. Always supplement together.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Magnesium can cause diarrhea >600mg. Vitamin D is fat soluble - take with meals. Monitor serum 25-OH vitamin D levels.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 34,
+    title: 'Berberine and Metformin: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Both activate AMPK and improve insulin sensitivity. Berberine acts as a \'natural metformin\' but combining them may cause excessive glucose lowering....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Yin, J., et al. (2008). Efficacy of berberine in patients with type 2 diabetes mellitus.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Physician consultation required</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Both activate AMPK and improve insulin sensitivity. Berberine acts as a 'natural metformin' but combining them may cause excessive glucose lowering.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Do not combine without physician supervision. Risk of hypoglycemia.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I occasionally use this combination in prediabetic patients who need aggressive intervention, but only with careful glucose monitoring. This is NOT a DIY protocol.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Risk of hypoglycemia, GI upset, lactic acidosis (rare). Requires blood glucose monitoring and medical supervision.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 35,
+    title: 'Zinc and Copper: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Zinc and copper compete for absorption. High dose zinc causes copper deficiency (anemia, neurological damage). Ideal ratio is 10:1 zinc:copper....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Rostan, E. F., et al. (2002). Evidence supporting zinc as an important antioxidant for skin. International Journal of Dermatology, 41(9), 606-611.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must balance ratio</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Zinc and copper compete for absorption. High dose zinc causes copper deficiency (anemia, neurological damage). Ideal ratio is 10:1 zinc:copper.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If supplementing zinc >30mg daily, add 2-3mg copper. Or use a balanced multi-mineral.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I see copper deficiency regularly in patients mega-dosing zinc for immune support. Always maintain the 10:1 ratio.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Excess zinc (>50mg daily) without copper causes anemia, neuropathy. Copper excess is toxic. Use balanced formulations.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 36,
+    title: 'L-Theanine and Caffeine: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'L-theanine (from green tea) increases alpha brain waves and GABA. Caffeine blocks adenosine receptors. Together: alertness without jitters....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Haskell, C. F., et al. (2008). The effects of L-theanine, caffeine and their combination on cognition and mood. Biological Psychology, 77(2), 113-122.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        L-theanine (from green tea) increases alpha brain waves and GABA. Caffeine blocks adenosine receptors. Together: alertness without jitters.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Caffeine: 100-200mg. L-theanine: 200-400mg (2:1 ratio theanine:caffeine).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is the 'focused calm' stack. I use it myself for clinical work. The synergy is well studied and highly effective for cognitive performance.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Both are safe. L-theanine can cause drowsiness at very high doses (>600mg). Start with 200mg theanine + 100mg caffeine.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 37,
+    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Vitamin D increases calcium absorption. Vitamin K2 directs calcium to bones (not arteries). Without K2, excess calcium deposits in soft tissue (vascul...',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Schurgers, L. J., et al. (2007). Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood, 109(8), 3279-3283.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Vitamin D increases calcium absorption. Vitamin K2 directs calcium to bones (not arteries). Without K2, excess calcium deposits in soft tissue (vascular calcification).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Vitamin D: 2000-5000 IU daily. Vitamin K2 (MK-7): 100-200mcg daily.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is critical for cardiovascular protection. I never prescribe vitamin D without K2. Prevents arterial calcification.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Vitamin K2 interferes with warfarin. If on blood thinners, consult physician. Otherwise very safe.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 38,
+    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Ashwagandha reduces cortisol (calming adaptogen). Rhodiola increases catecholamines (stimulating adaptogen). Together: balanced stress response....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Panossian, A., & Wikman, G. (2010). Effects of adaptogens on the central nervous system. Pharmaceuticals, 3(1), 188-224.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes complementary</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Ashwagandha reduces cortisol (calming adaptogen). Rhodiola increases catecholamines (stimulating adaptogen). Together: balanced stress response.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Ashwagandha: 300-600mg daily (evening). Rhodiola: 200-400mg daily (morning).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I use this for patients with chronic stress and fatigue. Ashwagandha prevents burnout. Rhodiola provides energy. Timing is key.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Ashwagandha can be sedating - dose evening. Rhodiola can be stimulating - dose morning. No direct interactions. Avoid rhodiola if on MAOIs.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 39,
+    title: 'B12 and Folate: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Folate (B9) and B12 work synergistically in methylation. High folate without B12 masks B12 deficiency (causes irreversible nerve damage)....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Aparicio-Ugarriza, R., et al. (2015). A review of the cut-off points for the diagnosis of vitamin B12 deficiency in the general population. Clinical Chemistry and Laboratory Medicine, 53(8), 1149-1159.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Folate (B9) and B12 work synergistically in methylation. High folate without B12 masks B12 deficiency (causes irreversible nerve damage).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        B12: 1000mcg (methylcobalamin). Folate: 400-800mcg (methylfolate form).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Never mega-dose folate without B12. I see neurological damage in vegans who supplement folic acid but neglect B12.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        High folic acid (synthetic form) can mask B12 deficiency. Use methylated forms (methylfolate, methylcobalamin). Very safe when balanced.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 40,
+    title: 'Iron and Vitamin C: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Vitamin C converts non-heme iron (plant sources) from Fe3+ to Fe2+, increasing absorption by 3-4x. Critical for vegetarians/vegans....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Teucher, B., et al. (2004). Enhancers of iron absorption: ascorbic acid and other organic acids. International Journal for Vitamin and Nutrition Research, 74(6), 403-419.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Vitamin C converts non-heme iron (plant sources) from Fe3+ to Fe2+, increasing absorption by 3-4x. Critical for vegetarians/vegans.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Iron: 15-30mg with meals. Vitamin C: 500mg with iron dose.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If you are supplementing iron (especially plant-based), always take vitamin C. Absorption increases dramatically.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Iron causes constipation and GI upset. Take with food. Avoid tea/coffee (tannins block absorption). Vitamin C enhances absorption. Do not exceed 45mg iron daily without medical supervision.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 41,
+    title: 'Melatonin and Magnesium: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Melatonin signals sleep onset. Magnesium relaxes muscles and nervous system. Together: improved sleep onset and quality....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Held, K., et al. (2002). Oral Mg2+ supplementation reverses age-related neuroendocrine and sleep EEG changes in humans. Pharmacopsychiatry, 35(4), 135-143.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Melatonin signals sleep onset. Magnesium relaxes muscles and nervous system. Together: improved sleep onset and quality.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Melatonin: 0.3-3mg 30 min before bed. Magnesium: 300-400mg 1-2hr before bed.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is my first-line sleep stack. Start with magnesium alone. Add melatonin if needed. Most patients only need both for 2-4 weeks to reset sleep.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Melatonin can cause grogginess (start at 0.3mg). Magnesium can cause diarrhea (use glycinate form). No interactions.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 42,
+    title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'ALA is a mitochondrial antioxidant. ALCAR transports fatty acids into mitochondria for energy production. Together: mitochondrial protection + fuel de...',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Hagen, T. M., et al. (2002). Feeding acetyl-L-carnitine and lipoic acid to old rats significantly improves metabolic function while decreasing oxidative stress. Proceedings of the National Academy of Sciences, 99(4), 1870-1875.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        ALA is a mitochondrial antioxidant. ALCAR transports fatty acids into mitochondria for energy production. Together: mitochondrial protection + fuel delivery.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        ALA: 300-600mg daily. ALCAR: 500-1500mg daily.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is the classic mitochondrial support combination. I use it for neuropathy, cognitive decline, and metabolic dysfunction.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        ALA can cause hypoglycemia in diabetics (monitor glucose). ALCAR can cause fishy body odor at high doses (genetic). Both are generally safe.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 43,
+    title: 'Lysine and Arginine: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Lysine and arginine compete for absorption. High lysine blocks arginine (needed for nitric oxide). High arginine can trigger herpes outbreaks (lysine ...',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Griffith, R. S., et al. (1987). Success of L-lysine therapy in frequently recurrent herpes simplex infection. Dermatologica, 175(4), 183-190.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Do not take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Lysine and arginine compete for absorption. High lysine blocks arginine (needed for nitric oxide). High arginine can trigger herpes outbreaks (lysine suppresses it).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If supplementing for cold sores: Lysine 1000-3000mg, avoid arginine. If supplementing for NO/cardiovascular: Arginine 3-6g, normal lysine from diet.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These are antagonists. Choose one based on your goal. Do not mega-dose both simultaneously.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Arginine can cause GI upset and lower blood pressure. Lysine is very safe. If prone to herpes, avoid high arginine foods (nuts, chocolate).
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 44,
+    title: 'Probiotics and Prebiotics: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Prebiotics are food for probiotics. Without prebiotics, probiotics do not colonize effectively. Together: synbiotic effect....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Gibson, G. R., et al. (2017). Expert consensus document: The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of prebiotics. Nature Reviews Gastroenterology & Hepatology, 14(8), 491-502.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Must take together</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Prebiotics are food for probiotics. Without prebiotics, probiotics do not colonize effectively. Together: synbiotic effect.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Probiotics: 10-50 billion CFU daily. Prebiotics: 5-10g daily (inulin, FOS, resistant starch).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I always prescribe these together. Probiotics alone often fail because the gut environment is not supportive. Prebiotics create the habitat.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Start prebiotics slowly (can cause gas/bloating). Probiotics: choose multi-strain formulas. Generally very safe.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 45,
+    title: 'SAMe and B-vitamins: Can You Take Them Together? (Physician's Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'SAMe is a methyl donor (supports methylation). B-vitamins (B6, B9, B12) are cofactors for methylation. Together: enhanced methylation capacity....',
+    date: 'Jan 10, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      {
+            "text": "Papakostas, G. I., et al. (2010). S-adenosyl methionine (SAMe) augmentation of serotonin reuptake inhibitors for antidepressant nonresponders with major depressive disorder. American Journal of Psychiatry, 167(8), 942-948.",
+            "url": ""
+      }
+],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        SAMe is a methyl donor (supports methylation). B-vitamins (B6, B9, B12) are cofactors for methylation. Together: enhanced methylation capacity.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        SAMe: 400-800mg daily (morning). B-complex: 50-100mg B6, 400mcg methylfolate, 1000mcg methyl-B12.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        SAMe is expensive. Optimize B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        SAMe can be overstimulating (take morning). Avoid if bipolar (can trigger mania). B-vitamins are very safe. No direct interactions.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  }
 ];
 
+export default posts;
