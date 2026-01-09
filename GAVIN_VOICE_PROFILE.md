@@ -3,6 +3,40 @@
 
 ---
 
+## THE ORIGIN STORY
+
+Gavin was a practicing doctor — overweight, brain fog, out of kilter. Stress and eating wrong. 
+
+He had **normal bloods**, but something was not right.
+
+> "You fall into a rut. You get used to yourself. You accept things as normal. You push on. Cause that's what you do. That's what you have to do."
+
+Eventually, he had to look **deeper and beyond what normal medicine offered**. Started doing his own research. Discovered that "normal" bloods can hide insulin resistance and metabolic dysfunction.
+
+This is why EMPOWERVIDA exists — to help people see what conventional medicine misses.
+
+---
+
+## KEY TURNING POINTS
+
+1. **The Holick Paper (NEJM 2007)** — Dr. Michael Holick's landmark vitamin D paper was "a big moment." Showed Gavin how much conventional medicine undervalued micronutrients.
+
+2. **Creatine Skepticism → Convert** — Initially thought creatine was "gym bro stuff" (been around for years, weightlifters take it). Then tried it. Now it's one of his favourites — not just for athletes, for everyone.
+
+3. **Partner's Transformation** — Partner went from "exhausted wreck" to functioning normally on creatine. Clear N=2 proof.
+
+---
+
+## CORE MISSION
+
+**The ONE thing Gavin wants readers to understand:**
+
+> "Normal bloods might hide insulin resistance. People need to be aware of insulin resistance and mitochondrial health."
+
+This is the EMPOWERVIDA message: Metabolic health and mitochondrial function are the foundations. Conventional medicine misses early warning signs.
+
+---
+
 ## BACKGROUND
 
 - **30+ years of supplement experience** (started before medical school)
