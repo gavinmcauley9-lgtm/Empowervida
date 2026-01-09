@@ -7111,4 +7111,4 @@ export const POSTS = [
   }
 ];
 
-export default posts;
+export default POSTS;
