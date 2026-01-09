@@ -2908,6 +2908,510 @@ export const POSTS = [
         <li>Ames, B. N., et al. (2004). "Delaying the mitochondrial decay of aging with acetyl-L-carnitine." Annals of the New York Academy of Sciences.</li>
       </ul>
     `
+  },
+  {
+    id: 26,
+    title: 'Creatine and NAD+: Can You Take Them Together? (Physician\'s Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Both support ATP production through different pathways. A physician explains the synergy, timing, and clinical evidence for combining these cellular energy molecules.',
+    date: 'Jan 9, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      { text: "Kreider, R. B., et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition, 14, 18.", url: "https://pubmed.ncbi.nlm.nih.gov/28615996/" },
+      { text: "Rajman, L., et al. (2018). Therapeutic Potential of NAD-Boosting Molecules: The In Vivo Evidence. Cell Metabolism, 27(3), 529-547.", url: "https://pubmed.ncbi.nlm.nih.gov/29514064/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes, not only can you take creatine and NAD+ together, but they are <strong>synergistic</strong>. Both support cellular energy production through complementary mechanisms. Creatine recycles ADP to ATP in the cytoplasm, while NAD+ powers mitochondrial ATP production through oxidative phosphorylation. Combining them creates a dual pathway energy strategy.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works: The Biochemistry</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Your mitochondria are engines. But engines need both fuel <em>and</em> a recycling system to maintain power output without degradation. NAD+ is the fuel. Creatine is the recycling system.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>NAD+'s role:</strong> NAD+ (nicotinamide adenine dinucleotide) is a coenzyme required for the electron transport chain in mitochondria. It accepts electrons from NADH and shuttles them through Complex I, driving ATP synthesis. Without adequate NAD+, your mitochondria cannot produce energy efficiently, regardless of how much glucose or fat you consume.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Creatine's role:</strong> Creatine exists as phosphocreatine in muscle and brain tissue. When ATP is hydrolysed to ADP during cellular work (muscle contraction, neurotransmitter synthesis), phosphocreatine donates its phosphate group to regenerate ATP <em>instantly</em>. This prevents the energetic "lag" that occurs when mitochondria must ramp up ATP production from scratch.
+      </p>
+
+      <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Think of NAD+ as the power plant and creatine as the battery backup. NAD+ generates ATP continuously but slowly. Creatine provides rapid ATP bursts on demand. Together, you get both sustained energy (mitochondrial) and peak power (phosphocreatine system).
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Creatine monohydrate:</strong> 5g daily, taken in the morning or post exercise. Loading phases (20g/day for 5 days) are optional but not necessary. Consistency matters more than timing.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>NAD+ precursors:</strong> Nicotinamide riboside (NR) or nicotinamide mononucleotide (NMN) at 300-500mg daily, taken in the morning. NAD+ levels follow a circadian rhythm, peaking in the morning, so dosing early optimises this natural cycle.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Can you take them at the same time?</strong> Yes. There is no pharmacological interaction. I take both with my morning coffee.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In my clinical experience, combining creatine and NAD+ precursors produces noticeable cognitive improvements within 2-3 weeks. Patients report sharper focus, reduced afternoon fatigue, and better exercise recovery. The mechanism makes sense: creatine supports ATP recycling in neurons (particularly the prefrontal cortex), while NAD+ supports mitochondrial function brain wide.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is one of my core recommendations for patients over 40, when both NAD+ and creatine levels begin to decline naturally.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+       <strong>Creatine:</strong> Safe for the vast majority. Elevates serum creatinine (a metabolite), which can interfere with kidney function monitoring. <strong>Do not use if you have chronic kidney disease (CKD)</strong> without nephrologist approval. Ensure adequate hydration (2-3L water/day).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>NAD+ precursors:</strong> Generally well tolerated. Mild flushing or gastrointestinal discomfort can occur at doses above 1,000mg. Start at 300mg and titrate upwards if needed.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Interactions:</strong> No known drug interactions between creatine and NAD+ precursors. Both are classified as supplements, not pharmaceuticals.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 27,
+    title: 'Taurine and Magnesium: Can You Take Them Together? (Physician\'s Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Both support relaxation and cardiovascular health. A physician explains why this combination is synergistic for sleep, blood pressure, and metabolic function.',
+    date: 'Jan 9, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of aging. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
+      { text: "Nielsen, F. H. (2018). Magnesium deficiency and increased inflammation: current perspectives. Journal of Inflammation Research, 11, 25-34.", url: "https://pubmed.ncbi.nlm.nih.gov/29403302/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes, taurine and magnesium are not only safe to combine, but <strong>complementary</strong>. Both support GABA receptor activity, cardiovascular function, and insulin sensitivity through overlapping but distinct mechanisms. This is one of my favourite evening combinations for patients with poor sleep or elevated blood pressure.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Magnesium and taurine both act as cellular "brakes," counteracting the excitatory signals that drive stress, inflammation, and cardiovascular strain.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Magnesium's role:</strong> Magnesium is a cofactor for over 300 enzymatic reactions, including those that regulate neurotransmitter release, muscle relaxation, and blood vessel dilation. It also acts as a natural calcium channel blocker, preventing excessive calcium influx that triggers arterial constriction and neuronal excitation.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Taurine's role:</strong> Taurine modulates GABA<sub>A</sub> and glycine receptors, enhancing inhibitory neurotransmission. It also stabilises cell membranes and supports mitochondrial calcium homeostasis. In the cardiovascular system, taurine reduces oxidative stress and improves endothelial function.
+      </p>
+
+      <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Magnesium works systemically (muscles, vasculature, neurons). Taurine works intracellularly (mitochondria, membranes, receptors). Together, they create a "top down and bottom up" relaxation effect that addresses both nervous system activation and cellular excitability.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Magnesium:</strong> 300-400mg elemental magnesium, taken in the evening. Form matters: magnesium glycinate or magnesium threonate are preferred for neurological benefits. Avoid magnesium oxide (poor absorption).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Taurine:</strong> 1-3g daily, taken in the evening. Taurine has a mild sedative effect, making it ideal for pre sleep dosing. Some patients split the dose (1g morning, 2g evening).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Can you take them at the same time?</strong> Yes. I recommend taking both 1-2 hours before bed to optimise sleep architecture and reduce nighttime blood pressure surges.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In my practice, this combination is particularly effective for patients with:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Elevated systolic blood pressure</strong> (120-139 mmHg) who want to avoid pharmaceuticals</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Poor sleep quality</strong> despite adequate sleep duration</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Chronic stress</strong> with sympathetic dominance (high heart rate variability, anxiety)</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The 2023 <em>Science</em> study on taurine showed that supplementation extended lifespan by 12% in animal models, primarily through cardiovascular and mitochondrial benefits. Magnesium deficiency, meanwhile, is endemic in Western populations (estimated 50-75% subclinical deficiency). Combining these addresses two prevalent gaps simultaneously.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Magnesium:</strong> Excessive doses (>600mg elemental) can cause diarrhoea (magnesium citrate is particularly prone to this). Start at 300mg and titrate. Caution in renal impairment (hypermagnesaemia risk).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Taurine:</strong> Extremely safe. No upper tolerable limit established. Doses up to 6g/day studied without adverse effects.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Interactions:</strong> No pharmacological interactions. Both enhance the effects of GABA, so if you are taking benzodiazepines or GABAergic sleep medications, consult your physician to avoid excessive sedation.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. If you have hypertension, chronic kidney disease, or take prescription medications, consult your physician before supplementing with magnesium or taurine.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 28,
+    title: 'Fisetin and Resveratrol: Can You Take Them Together? (Physician\'s Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'Both are polyphenols with senolytic and sirtuin activating properties. A physician explains the evidence for combining these longevity molecules and optimal dosing strategies.',
+    date: 'Jan 9, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      { text: "Yousefzadeh, M. J., et al. (2018). Fisetin is a senotherapeutic that extends health and lifespan. EBioMedicine, 36, 18-28.", url: "https://pubmed.ncbi.nlm.nih.gov/30279143/" },
+      { text: "Howitz, K. T., et al. (2003). Small molecule activators of sirtuins extend Saccharomyces cerevisiae lifespan. Nature, 425(6954), 191-196.", url: "https://pubmed.ncbi.nlm.nih.gov/12939617/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes, and this is a strategic longevity combination. Both are flavonoid polyphenols that activate longevity pathways (sirtuins, AMPK) and exhibit senolytic activity. However, their mechanisms and potencies differ, making them complementary rather than redundant.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Fisetin and resveratrol both extend lifespan in model organisms, but through partially distinct pathways.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Resveratrol's role:</strong> Resveratrol is a SIRT1 activator. SIRT1 is a NAD+ dependent deacetylase that regulates gene expression related to stress resistance, mitochondrial biogenesis, and DNA repair. Resveratrol also activates AMPK (the cellular energy sensor), mimicking the biochemical effects of caloric restriction.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Fisetin's role:</strong> Fisetin is a <strong>senolytic</strong> (clears senescent "zombie" cells) and also activates sirtuins, but with broader activity across SIRT1-7. In a 2018 Mayo Clinic study, fisetin showed the strongest senolytic effect of 10 tested flavonoids. It triggers apoptosis in senescent cells while sparing healthy cells.
+      </p>
+
+      <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Resveratrol is better characterised as a sirtuin activator. Fisetin is the more potent senolytic. Combining them targets both cellular rejuvenation (sirtuins) and cellular cleanup (senolytics). This is a "dual pathway" longevity strategy.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Resveratrol:</strong> 250-500mg daily (trans-resveratrol form), taken with fats for absorption. Resveratrol is lipophilic and requires dietary fat for bioavailability.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Fisetin:</strong> Two strategies:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Daily dosing:</strong> 100-200mg Bio-Fisetin (liposomal form) daily</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Pulsed senolytic dosing:</strong> 1,000mg for 2 consecutive days per month (mimics clinical trial protocols)</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Can you take them at the same time?</strong> Yes. Both are fat soluble, so take with a meal containing healthy fats (e.g. avocado, olive oil, nuts).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The longevity field is littered with molecules that work in yeast and mice but fail in humans. Resveratrol is one of these—human trials have been mixed, largely due to poor bioavailability. Fisetin has more promising preliminary data, but large scale human trials are still pending.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        That said, the mechanistic rationale is compelling. If you are going to experiment with longevity polyphenols, this combination makes sense:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;">Resveratrol for daily sirtuin activation and AMPK signalling</li>
+        <li style="margin-bottom: 0.75rem;">Fisetin for periodic senolytic "clearing" of accumulated zombie cells</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I use this combination myself, alongside foundational interventions (Zone 2 cardio, resistance training, sleep optimisation).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Resveratrol:</strong> Generally safe. Can cause mild gastrointestinal upset at doses >1,000mg. Theoretical concern about oestrogen receptor modulation—if you have hormone sensitive cancers, consult your oncologist.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Fisetin:</strong> Well tolerated. High dose pulsed protocols (1,000mg) can cause transient digestive discomfort. Use Bio-Fisetin (liposomal) for better absorption.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Interactions:</strong> Both have mild antiplatelet effects. If you take warfarin, clopidogrel, or other anticoagulants, discuss with your physician before supplementing.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          The longevity benefits of fisetin and resveratrol are based primarily on preclinical models. Human evidence is preliminary. This information is for educational purposes and does not constitute medical advice.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 29,
+    title: 'CoQ10 and PQQ: Can You Take Them Together? (Physician\'s Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'CoQ10 protects existing mitochondria. PQQ creates new mitochondria. A physician explains why this is the ultimate mitochondrial support combination.',
+    date: 'Jan 9, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      { text: "Saini, R. (2011). Coenzyme Q10: The essential nutrient. Journal of Pharmacy & Bioallied Sciences, 3(3), 466-467.", url: "https://pubmed.ncbi.nlm.nih.gov/21966174/" },
+      { text: "Chowanadisai, W., et al. (2010). Pyrroloquinoline quinone stimulates mitochondrial biogenesis through cAMP response element-binding protein phosphorylation and increased PGC-1α expression. Journal of Biological Chemistry, 285(1), 142-152.", url: "https://pubmed.ncbi.nlm.nih.gov/19861415/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes, and this is arguably the <strong>gold standard mitochondrial support combination</strong>. CoQ10 protects and optimises existing mitochondria. PQQ triggers the creation of new mitochondria (mitochondrial biogenesis). Together, they address both maintenance and expansion of your cellular power plants.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Mitochondrial dysfunction is not just about damaged mitochondria. It is also about <em>insufficient numbers</em> of mitochondria. You can have perfectly functional mitochondria but still experience fatigue if you simply do not have enough of them.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>CoQ10's role:</strong> Coenzyme Q10 (ubiquinone) is a critical electron carrier in the mitochondrial electron transport chain. It shuttles electrons from Complex I and Complex II to Complex III, enabling ATP production. CoQ10 also functions as an antioxidant, protecting mitochondrial membranes from oxidative damage. Levels decline 50% by age 40.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>PQQ's role:</strong> Pyrroloquinoline quinone (PQQ) activates PGC-1α (peroxisome proliferator activated receptor gamma coactivator 1 alpha), the master regulator of mitochondrial biogenesis. PGC-1α signals the nucleus to produce more mitochondrial proteins and triggers the replication of mitochondrial DNA. PQQ = more mitochondria. CoQ10 = better functioning mitochondria.
+      </p>
+
+      <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Think of CoQ10 as engine oil (keeps existing engines running smoothly) and PQQ as a factory expansion signal (builds more engines). You want both. Failing to combine them is like maintaining a single old engine when you could be building a fleet of new, efficient ones.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>CoQ10:</strong> 100-200mg daily (ubiquinol form preferred for better bioavailability, especially in patients over 40). Take with fats for absorption. If you are on statins, increase dose to 200-300mg (statins deplete CoQ10).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>PQQ:</strong> 10-20mg daily. PQQ is potent at low doses. Higher doses (>40mg) do not provide additional benefit.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Can you take them at the same time?</strong> Yes. Both are fat soluble. I recommend taking both with breakfast (alongside healthy fats like eggs, avocado, or nut butter).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This combination is the cornerstone of my mitochondrial support protocol for patients over 35. The clinical benefits I observe include:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Improved exercise capacity</strong> (increased VO2 max, reduced perceived exertion)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Cognitive clarity</strong> (particularly in the afternoon, when mitochondrial function typically wanes)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Cardiovascular support</strong> (CoQ10 is concentrated in cardiac muscle, which has the highest mitochondrial density of any tissue)</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        One caveat: PQQ's effects on mitochondrial biogenesis take weeks to manifest. This is not an "instant energy" supplement. It is a structural renovation of your cellular power grid. Expect noticeable improvements at 4-6 weeks.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>CoQ10:</strong> Extremely safe. Mild gastrointestinal upset at doses >300mg. If you take warfarin, monitor INR closely (CoQ10 has structural similarity to vitamin K and may interfere with anticoagulation).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>PQQ:</strong> Well tolerated. No serious adverse effects reported in human trials at doses up to 60mg/day.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Interactions:</strong> No known pharmacological interactions between CoQ10 and PQQ. Both are safe to combine with other mitochondrial supports (e.g. NAD+ precursors, creatine).
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have cardiovascular disease or take prescription medications.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 30,
+    title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
+    category: 'supplements',
+    image: '/supplement_synergy.png',
+    excerpt: 'The combination that restores glutathione and reverses aging markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.',
+    date: 'Jan 9, 2026',
+    cta: {
+      text: "View Clinical Grade Supplements",
+      link: "/shop"
+    },
+    references: [
+      { text: "Kumar, P., et al. (2021). Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Aging HIV Patients Improves Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Endothelial Dysfunction, Insulin Resistance, Genotoxicity, Strength, and Cognition. Nutrients, 13(11), 3797.", url: "https://pubmed.ncbi.nlm.nih.gov/34836003/" },
+      { text: "Kumar, P., et al. (2023). GlyNAC (Glycine and N-Acetylcysteine) Supplementation in Mice Increases Length of Life by Correcting Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Abnormalities in Mitophagy and Nutrient Sensing, and Genomic Damage. Nutrients, 15(5), 1114.", url: "https://pubmed.ncbi.nlm.nih.gov/36904110/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Not only can you take glycine and NAC (N-acetylcysteine) together, but you <strong>must</strong> take them together if your goal is glutathione restoration. This combination (GlyNAC) is backed by human clinical trials showing reversal of multiple aging hallmarks. This is not speculative longevity science. This is evidence based intervention.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works: The Biochemistry of Glutathione</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Glutathione is your body's master antioxidant. It neutralises reactive oxygen species (ROS), detoxifies heavy metals, and supports mitochondrial function. Glutathione levels decline 30-50% between age 20 and age 60. This decline drives oxidative stress, which accelerates aging.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Glutathione is a tripeptide made from three amino acids: <strong>glutamate + cysteine + glycine</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>The rate limiting step:</strong> Cysteine availability. Your body cannot synthesise cysteine fast enough to keep up with glutathione demand, especially under oxidative stress. NAC is a precursor to cysteine. Glycine is also deficient in aging (your body synthesises it, but not at replacement levels).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>GlyNAC = cysteine (from NAC) + glycine.</strong> Together, they provide the two limiting substrates for glutathione synthesis.
+      </p>
+
+      <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Taking NAC alone provides cysteine but leaves glycine deficient. Taking glycine alone leaves cysteine deficient. The combination restores <em>both</em> substrates simultaneously, enabling glutathione synthesis to normalise. This is why the clinical trials used GlyNAC as a combination, not individual components.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Evidence: What the Trials Showed</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In 2021, Baylor College of Medicine published a human trial where older adults (median age 70) supplemented GlyNAC for 16 weeks. The results were remarkable:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Glutathione levels restored</strong> to young adult levels</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Oxidative stress reduced</strong> (measured by F2-isoprostanes)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Mitochondrial function improved</strong> (increased ATP production)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Inflammation decreased</strong> (reduced TNF-α, IL-6)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Insulin resistance improved</strong> (lower HOMA-IR)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Cognitive function improved</strong> (executive function tests)</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Physical strength increased</strong> (gait speed, grip strength)</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        A 2023 animal study showed GlyNAC supplementation <strong>extended lifespan by 24%</strong> in mice.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>NAC:</strong> 600-1,200mg daily, split into two doses (morning and evening). Higher doses (1,800mg) used in clinical trials but may cause gastrointestinal upset.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Glycine:</strong> 3-5g daily, split into two doses. Glycine has a mildly sweet taste and can be mixed into water or coffee.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Can you take them at the same time?</strong> Yes. I recommend dosing both together, twice daily (e.g. 600mg NAC + 2.5g glycine at breakfast, repeat at dinner).
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        GlyNAC is the closest thing I have seen to a "reversal of aging" intervention in humans. The Baylor trials are methodologically sound, and the results are clinically meaningful (not just statistically significant biomarker changes).
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I take GlyNAC daily and recommend it to nearly all my patients over 40. It is inexpensive (£30-40/month), well tolerated, and addresses a root cause of aging (glutathione deficiency) rather than symptoms.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        One practical note: Glycine improves sleep quality (it modulates NMDA receptors and reduces core body temperature). Many patients report deeper, more restorative sleep when dosing glycine in the evening.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>NAC:</strong> Generally safe. Can cause nausea or gastrointestinal upset at doses >1,200mg. Take with food to minimise this. NAC has mucolytic properties (breaks down mucus), so if you have asthma, start at low dose and monitor.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Glycine:</strong> Extremely safe. No upper tolerable limit established. Doses up to 10g/day studied without adverse effects.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Interactions:</strong> NAC may enhance the effects of nitroglycerin (used for angina). If you take nitrate medications, consult your cardiologist before supplementing with NAC.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. While GlyNAC has strong clinical evidence, consult your physician before starting supplementation, particularly if you have asthma, cardiovascular disease, or take prescription medications.
+        </p>
+      </div>
+    `
   }
 ];
 
