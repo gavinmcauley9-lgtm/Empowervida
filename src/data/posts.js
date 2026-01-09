@@ -2967,7 +2967,7 @@ export const POSTS = [
         <strong>Can you take them at the same time?</strong> Yes. There is no pharmacological interaction. I take both with my morning coffee.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         In my clinical experience, combining creatine and NAD+ precursors produces noticeable cognitive improvements within 2-3 weeks. Patients report sharper focus, reduced afternoon fatigue, and better exercise recovery. The mechanism makes sense: creatine supports ATP recycling in neurons (particularly the prefrontal cortex), while NAD+ supports mitochondrial function brain wide.
@@ -3057,7 +3057,7 @@ export const POSTS = [
         <strong>Can you take them at the same time?</strong> Yes. I recommend taking both 1-2 hours before bed to optimise sleep architecture and reduce nighttime blood pressure surges.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         In my practice, this combination is particularly effective for patients with:
@@ -3158,7 +3158,7 @@ export const POSTS = [
         <strong>Can you take them at the same time?</strong> Yes. Both are fat soluble, so take with a meal containing healthy fats (e.g. avocado, olive oil, nuts).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         The longevity field is littered with molecules that work in yeast and mice but fail in humans. Resveratrol is one of these—human trials have been mixed, largely due to poor bioavailability. Fisetin has more promising preliminary data, but large scale human trials are still pending.
@@ -3257,7 +3257,7 @@ export const POSTS = [
         <strong>Can you take them at the same time?</strong> Yes. Both are fat soluble. I recommend taking both with breakfast (alongside healthy fats like eggs, avocado, or nut butter).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This combination is the cornerstone of my mitochondrial support protocol for patients over 35. The clinical benefits I observe include:
@@ -3377,7 +3377,7 @@ export const POSTS = [
         <strong>Can you take them at the same time?</strong> Yes. I recommend dosing both together, twice daily (e.g. 600mg NAC + 2.5g glycine at breakfast, repeat at dinner).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         GlyNAC is the closest thing I have seen to a "reversal of aging" intervention in humans. The Baylor trials are methodologically sound, and the results are clinically meaningful (not just statistically significant biomarker changes).
@@ -3416,7 +3416,7 @@ export const POSTS = [
   ,
   {
     id: 31,
-    title: 'Creatine and Berberine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Creatine supports ATP recycling. Berberine activates AMPK (energy sensor) and improves insulin sensitivity. Both enhance cellular energy but through d...',
@@ -3455,7 +3455,7 @@ export const POSTS = [
         Creatine: 5g daily. Berberine: 500mg 2-3x daily with meals.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this combination for patients with metabolic syndrome. Berberine addresses insulin resistance while creatine supports cellular energy recovery. Monitor blood glucose if diabetic.
@@ -3477,7 +3477,7 @@ export const POSTS = [
   },
   {
     id: 32,
-    title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Omega-3 reduces inflammation via prostaglandin pathways. Curcumin inhibits NF-κB and COX-2. Together they create multi-pathway anti-inflammatory effec...',
@@ -3512,7 +3512,7 @@ export const POSTS = [
         Omega-3: 2-3g EPA+DHA daily. Curcumin: 500-1000mg with black pepper (piperine enhances absorption).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my go-to combination for chronic inflammation. The synergy is well documented. Patients with joint pain, cardiovascular risk, or neuroinflammation see significant benefit.
@@ -3534,7 +3534,7 @@ export const POSTS = [
   },
   {
     id: 33,
-    title: 'Vitamin D and Magnesium: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Vitamin D and Magnesium: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Magnesium is required to convert vitamin D to its active form (calcitriol). Without adequate magnesium, vitamin D supplementation is ineffective....',
@@ -3569,7 +3569,7 @@ export const POSTS = [
         Vitamin D: 2000-5000 IU daily. Magnesium: 300-400mg (glycinate or threonate form).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is non-negotiable. I see patients with 'vitamin D resistance' who are simply magnesium deficient. Always supplement together.
@@ -3591,7 +3591,7 @@ export const POSTS = [
   },
   {
     id: 34,
-    title: 'Berberine and Metformin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both activate AMPK and improve insulin sensitivity. Berberine acts as a \'natural metformin\' but combining them may cause excessive glucose lowering....',
@@ -3626,7 +3626,7 @@ export const POSTS = [
         Do not combine without physician supervision. Risk of hypoglycemia.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I occasionally use this combination in prediabetic patients who need aggressive intervention, but only with careful glucose monitoring. This is NOT a DIY protocol.
@@ -3648,7 +3648,7 @@ export const POSTS = [
   },
   {
     id: 35,
-    title: 'Zinc and Copper: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Zinc and copper compete for absorption. High dose zinc causes copper deficiency (anemia, neurological damage). Ideal ratio is 10:1 zinc:copper....',
@@ -3683,7 +3683,7 @@ export const POSTS = [
         If supplementing zinc >30mg daily, add 2-3mg copper. Or use a balanced multi-mineral.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I see copper deficiency regularly in patients mega-dosing zinc for immune support. Always maintain the 10:1 ratio.
@@ -3705,7 +3705,7 @@ export const POSTS = [
   },
   {
     id: 36,
-    title: 'L-Theanine and Caffeine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'L-Theanine and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'L-theanine (from green tea) increases alpha brain waves and GABA. Caffeine blocks adenosine receptors. Together: alertness without jitters....',
@@ -3740,7 +3740,7 @@ export const POSTS = [
         Caffeine: 100-200mg. L-theanine: 200-400mg (2:1 ratio theanine:caffeine).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the 'focused calm' stack. I use it myself for clinical work. The synergy is well studied and highly effective for cognitive performance.
@@ -3762,7 +3762,7 @@ export const POSTS = [
   },
   {
     id: 37,
-    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin D increases calcium absorption. Vitamin K2 directs calcium to bones (not arteries). Without K2, excess calcium deposits in soft tissue (vascul...',
@@ -3797,7 +3797,7 @@ export const POSTS = [
         Vitamin D: 2000-5000 IU daily. Vitamin K2 (MK-7): 100-200mcg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is critical for cardiovascular protection. I never prescribe vitamin D without K2. Prevents arterial calcification.
@@ -3819,7 +3819,7 @@ export const POSTS = [
   },
   {
     id: 38,
-    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Ashwagandha reduces cortisol (calming adaptogen). Rhodiola increases catecholamines (stimulating adaptogen). Together: balanced stress response....',
@@ -3854,7 +3854,7 @@ export const POSTS = [
         Ashwagandha: 300-600mg daily (evening). Rhodiola: 200-400mg daily (morning).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this for patients with chronic stress and fatigue. Ashwagandha prevents burnout. Rhodiola provides energy. Timing is key.
@@ -3876,7 +3876,7 @@ export const POSTS = [
   },
   {
     id: 39,
-    title: 'B12 and Folate: Can You Take Them Together? (Physician's Guide) ',
+    title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Folate (B9) and B12 work synergistically in methylation. High folate without B12 masks B12 deficiency (causes irreversible nerve damage)....',
@@ -3911,7 +3911,7 @@ export const POSTS = [
         B12: 1000mcg (methylcobalamin). Folate: 400-800mcg (methylfolate form).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Never mega-dose folate without B12. I see neurological damage in vegans who supplement folic acid but neglect B12.
@@ -3933,7 +3933,7 @@ export const POSTS = [
   },
   {
     id: 40,
-    title: 'Iron and Vitamin C: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin C converts non-heme iron (plant sources) from Fe3+ to Fe2+, increasing absorption by 3-4x. Critical for vegetarians/vegans....',
@@ -3968,7 +3968,7 @@ export const POSTS = [
         Iron: 15-30mg with meals. Vitamin C: 500mg with iron dose.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         If you are supplementing iron (especially plant-based), always take vitamin C. Absorption increases dramatically.
@@ -3990,7 +3990,7 @@ export const POSTS = [
   },
   {
     id: 41,
-    title: 'Melatonin and Magnesium: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Melatonin and Magnesium: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Melatonin signals sleep onset. Magnesium relaxes muscles and nervous system. Together: improved sleep onset and quality....',
@@ -4025,7 +4025,7 @@ export const POSTS = [
         Melatonin: 0.3-3mg 30 min before bed. Magnesium: 300-400mg 1-2hr before bed.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my first-line sleep stack. Start with magnesium alone. Add melatonin if needed. Most patients only need both for 2-4 weeks to reset sleep.
@@ -4047,7 +4047,7 @@ export const POSTS = [
   },
   {
     id: 42,
-    title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'ALA is a mitochondrial antioxidant. ALCAR transports fatty acids into mitochondria for energy production. Together: mitochondrial protection + fuel de...',
@@ -4082,7 +4082,7 @@ export const POSTS = [
         ALA: 300-600mg daily. ALCAR: 500-1500mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the classic mitochondrial support combination. I use it for neuropathy, cognitive decline, and metabolic dysfunction.
@@ -4104,7 +4104,7 @@ export const POSTS = [
   },
   {
     id: 43,
-    title: 'Lysine and Arginine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Lysine and arginine compete for absorption. High lysine blocks arginine (needed for nitric oxide). High arginine can trigger herpes outbreaks (lysine ...',
@@ -4139,7 +4139,7 @@ export const POSTS = [
         If supplementing for cold sores: Lysine 1000-3000mg, avoid arginine. If supplementing for NO/cardiovascular: Arginine 3-6g, normal lysine from diet.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         These are antagonists. Choose one based on your goal. Do not mega-dose both simultaneously.
@@ -4161,7 +4161,7 @@ export const POSTS = [
   },
   {
     id: 44,
-    title: 'Probiotics and Prebiotics: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Probiotics and Prebiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Prebiotics are food for probiotics. Without prebiotics, probiotics do not colonize effectively. Together: synbiotic effect....',
@@ -4196,7 +4196,7 @@ export const POSTS = [
         Probiotics: 10-50 billion CFU daily. Prebiotics: 5-10g daily (inulin, FOS, resistant starch).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I always prescribe these together. Probiotics alone often fail because the gut environment is not supportive. Prebiotics create the habitat.
@@ -4218,7 +4218,7 @@ export const POSTS = [
   },
   {
     id: 45,
-    title: 'SAMe and B-vitamins: Can You Take Them Together? (Physician's Guide) ',
+    title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'SAMe is a methyl donor (supports methylation). B-vitamins (B6, B9, B12) are cofactors for methylation. Together: enhanced methylation capacity....',
@@ -4253,7 +4253,7 @@ export const POSTS = [
         SAMe: 400-800mg daily (morning). B-complex: 50-100mg B6, 400mcg methylfolate, 1000mcg methyl-B12.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         SAMe is expensive. Optimize B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
@@ -4276,7 +4276,7 @@ export const POSTS = [
   ,
   {
     id: 31,
-    title: 'Creatine and Berberine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Creatine supports ATP recycling. Berberine activates AMPK (energy sensor) and improves insulin sensitivity. Both enhance cellular energy but through d...',
@@ -4315,7 +4315,7 @@ export const POSTS = [
         Creatine: 5g daily. Berberine: 500mg 2-3x daily with meals.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this combination for patients with metabolic syndrome. Berberine addresses insulin resistance while creatine supports cellular energy recovery. Monitor blood glucose if diabetic.
@@ -4337,7 +4337,7 @@ export const POSTS = [
   },
   {
     id: 32,
-    title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Omega-3 reduces inflammation via prostaglandin pathways. Curcumin inhibits NF-κB and COX-2. Together they create multi-pathway anti-inflammatory effec...',
@@ -4372,7 +4372,7 @@ export const POSTS = [
         Omega-3: 2-3g EPA+DHA daily. Curcumin: 500-1000mg with black pepper (piperine enhances absorption).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my go-to combination for chronic inflammation. The synergy is well documented. Patients with joint pain, cardiovascular risk, or neuroinflammation see significant benefit.
@@ -4394,7 +4394,7 @@ export const POSTS = [
   },
   {
     id: 33,
-    title: 'Vitamin D and Magnesium: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Vitamin D and Magnesium: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Magnesium is required to convert vitamin D to its active form (calcitriol). Without adequate magnesium, vitamin D supplementation is ineffective....',
@@ -4429,7 +4429,7 @@ export const POSTS = [
         Vitamin D: 2000-5000 IU daily. Magnesium: 300-400mg (glycinate or threonate form).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is non-negotiable. I see patients with 'vitamin D resistance' who are simply magnesium deficient. Always supplement together.
@@ -4451,7 +4451,7 @@ export const POSTS = [
   },
   {
     id: 34,
-    title: 'Berberine and Metformin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both activate AMPK and improve insulin sensitivity. Berberine acts as a \'natural metformin\' but combining them may cause excessive glucose lowering....',
@@ -4486,7 +4486,7 @@ export const POSTS = [
         Do not combine without physician supervision. Risk of hypoglycemia.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I occasionally use this combination in prediabetic patients who need aggressive intervention, but only with careful glucose monitoring. This is NOT a DIY protocol.
@@ -4508,7 +4508,7 @@ export const POSTS = [
   },
   {
     id: 35,
-    title: 'Zinc and Copper: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Zinc and copper compete for absorption. High dose zinc causes copper deficiency (anemia, neurological damage). Ideal ratio is 10:1 zinc:copper....',
@@ -4543,7 +4543,7 @@ export const POSTS = [
         If supplementing zinc >30mg daily, add 2-3mg copper. Or use a balanced multi-mineral.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I see copper deficiency regularly in patients mega-dosing zinc for immune support. Always maintain the 10:1 ratio.
@@ -4565,7 +4565,7 @@ export const POSTS = [
   },
   {
     id: 36,
-    title: 'L-Theanine and Caffeine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'L-Theanine and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'L-theanine (from green tea) increases alpha brain waves and GABA. Caffeine blocks adenosine receptors. Together: alertness without jitters....',
@@ -4600,7 +4600,7 @@ export const POSTS = [
         Caffeine: 100-200mg. L-theanine: 200-400mg (2:1 ratio theanine:caffeine).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the 'focused calm' stack. I use it myself for clinical work. The synergy is well studied and highly effective for cognitive performance.
@@ -4622,7 +4622,7 @@ export const POSTS = [
   },
   {
     id: 37,
-    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin D increases calcium absorption. Vitamin K2 directs calcium to bones (not arteries). Without K2, excess calcium deposits in soft tissue (vascul...',
@@ -4657,7 +4657,7 @@ export const POSTS = [
         Vitamin D: 2000-5000 IU daily. Vitamin K2 (MK-7): 100-200mcg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is critical for cardiovascular protection. I never prescribe vitamin D without K2. Prevents arterial calcification.
@@ -4679,7 +4679,7 @@ export const POSTS = [
   },
   {
     id: 38,
-    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Ashwagandha reduces cortisol (calming adaptogen). Rhodiola increases catecholamines (stimulating adaptogen). Together: balanced stress response....',
@@ -4714,7 +4714,7 @@ export const POSTS = [
         Ashwagandha: 300-600mg daily (evening). Rhodiola: 200-400mg daily (morning).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this for patients with chronic stress and fatigue. Ashwagandha prevents burnout. Rhodiola provides energy. Timing is key.
@@ -4736,7 +4736,7 @@ export const POSTS = [
   },
   {
     id: 39,
-    title: 'B12 and Folate: Can You Take Them Together? (Physician's Guide) ',
+    title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Folate (B9) and B12 work synergistically in methylation. High folate without B12 masks B12 deficiency (causes irreversible nerve damage)....',
@@ -4771,7 +4771,7 @@ export const POSTS = [
         B12: 1000mcg (methylcobalamin). Folate: 400-800mcg (methylfolate form).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Never mega-dose folate without B12. I see neurological damage in vegans who supplement folic acid but neglect B12.
@@ -4793,7 +4793,7 @@ export const POSTS = [
   },
   {
     id: 40,
-    title: 'Iron and Vitamin C: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin C converts non-heme iron (plant sources) from Fe3+ to Fe2+, increasing absorption by 3-4x. Critical for vegetarians/vegans....',
@@ -4828,7 +4828,7 @@ export const POSTS = [
         Iron: 15-30mg with meals. Vitamin C: 500mg with iron dose.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         If you are supplementing iron (especially plant-based), always take vitamin C. Absorption increases dramatically.
@@ -4850,7 +4850,7 @@ export const POSTS = [
   },
   {
     id: 41,
-    title: 'Melatonin and Magnesium: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Melatonin and Magnesium: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Melatonin signals sleep onset. Magnesium relaxes muscles and nervous system. Together: improved sleep onset and quality....',
@@ -4885,7 +4885,7 @@ export const POSTS = [
         Melatonin: 0.3-3mg 30 min before bed. Magnesium: 300-400mg 1-2hr before bed.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my first-line sleep stack. Start with magnesium alone. Add melatonin if needed. Most patients only need both for 2-4 weeks to reset sleep.
@@ -4907,7 +4907,7 @@ export const POSTS = [
   },
   {
     id: 42,
-    title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'ALA is a mitochondrial antioxidant. ALCAR transports fatty acids into mitochondria for energy production. Together: mitochondrial protection + fuel de...',
@@ -4942,7 +4942,7 @@ export const POSTS = [
         ALA: 300-600mg daily. ALCAR: 500-1500mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the classic mitochondrial support combination. I use it for neuropathy, cognitive decline, and metabolic dysfunction.
@@ -4964,7 +4964,7 @@ export const POSTS = [
   },
   {
     id: 43,
-    title: 'Lysine and Arginine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Lysine and arginine compete for absorption. High lysine blocks arginine (needed for nitric oxide). High arginine can trigger herpes outbreaks (lysine ...',
@@ -4999,7 +4999,7 @@ export const POSTS = [
         If supplementing for cold sores: Lysine 1000-3000mg, avoid arginine. If supplementing for NO/cardiovascular: Arginine 3-6g, normal lysine from diet.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         These are antagonists. Choose one based on your goal. Do not mega-dose both simultaneously.
@@ -5021,7 +5021,7 @@ export const POSTS = [
   },
   {
     id: 44,
-    title: 'Probiotics and Prebiotics: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Probiotics and Prebiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Prebiotics are food for probiotics. Without prebiotics, probiotics do not colonize effectively. Together: synbiotic effect....',
@@ -5056,7 +5056,7 @@ export const POSTS = [
         Probiotics: 10-50 billion CFU daily. Prebiotics: 5-10g daily (inulin, FOS, resistant starch).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I always prescribe these together. Probiotics alone often fail because the gut environment is not supportive. Prebiotics create the habitat.
@@ -5078,7 +5078,7 @@ export const POSTS = [
   },
   {
     id: 45,
-    title: 'SAMe and B-vitamins: Can You Take Them Together? (Physician's Guide) ',
+    title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'SAMe is a methyl donor (supports methylation). B-vitamins (B6, B9, B12) are cofactors for methylation. Together: enhanced methylation capacity....',
@@ -5113,7 +5113,7 @@ export const POSTS = [
         SAMe: 400-800mg daily (morning). B-complex: 50-100mg B6, 400mcg methylfolate, 1000mcg methyl-B12.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         SAMe is expensive. Optimize B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
@@ -5230,7 +5230,7 @@ export const POSTS = [
   },
   {
     id: 47,
-    title: 'Collagen and Vitamin C: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin C is required for collagen synthesis (hydroxylation of proline and lysine). Without adequate vitamin C, collagen supplementation is ineffectiv...',
@@ -5265,7 +5265,7 @@ export const POSTS = [
         Collagen: 10-20g daily. Vitamin C: 500-1000mg with collagen dose.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I see patients spending £50/month on collagen peptides but neglecting vitamin C. This is biochemically futile. Always supplement together.
@@ -5287,7 +5287,7 @@ export const POSTS = [
   },
   {
     id: 48,
-    title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both thin blood (omega-3 via prostaglandin modulation, aspirin via COX inhibition). Combining increases bleeding risk....',
@@ -5322,7 +5322,7 @@ export const POSTS = [
         If on aspirin therapy: Omega-3 1-2g max. Monitor for easy bruising.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this combination in high-risk cardiovascular patients, but only with careful monitoring. Do not self-prescribe if on aspirin.
@@ -5344,7 +5344,7 @@ export const POSTS = [
   },
   {
     id: 49,
-    title: 'Turmeric and Black Pepper: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Turmeric and Black Pepper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Curcumin (from turmeric) has 1% bioavailability. Piperine (from black pepper) inhibits glucuronidation, increasing curcumin absorption by 2000%....',
@@ -5379,7 +5379,7 @@ export const POSTS = [
         Turmeric: 500-1000mg curcumin. Black pepper: 5-10mg piperine (or 1/4 tsp black pepper).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is non-negotiable. Turmeric without piperine is mostly wasted. Look for curcumin supplements with added black pepper extract.
@@ -5401,7 +5401,7 @@ export const POSTS = [
   },
   {
     id: 50,
-    title: 'CBD and Melatonin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'CBD modulates serotonin and GABA receptors (anxiolytic). Melatonin signals circadian rhythm. Together: reduced sleep latency and improved sleep qualit...',
@@ -5436,7 +5436,7 @@ export const POSTS = [
         CBD: 10-25mg sublingual 1hr before bed. Melatonin: 0.3-3mg 30min before bed.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This works exceptionally well for anxiety-driven insomnia. Start with melatonin alone. Add CBD if rumination persists.
@@ -5458,7 +5458,7 @@ export const POSTS = [
   },
   {
     id: 51,
-    title: 'Calcium and Vitamin D: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Vitamin D increases calcium absorption in the gut. Without vitamin D, dietary calcium is poorly absorbed (10-15% vs 30-40% with D)....',
@@ -5493,7 +5493,7 @@ export const POSTS = [
         Calcium: 500-1000mg with meals. Vitamin D: 2000-5000 IU daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Do not mega-dose calcium without vitamin D. Also add vitamin K2 to prevent vascular calcification.
@@ -5515,7 +5515,7 @@ export const POSTS = [
   },
   {
     id: 52,
-    title: 'Cordyceps and Rhodiola: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Cordyceps and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Cordyceps increases ATP production and oxygen utilization. Rhodiola enhances stress resilience and reduces fatigue. Together: energy + endurance....',
@@ -5550,7 +5550,7 @@ export const POSTS = [
         Cordyceps: 1-3g daily (morning). Rhodiola: 200-400mg daily (morning).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my athletic performance stack. Particularly effective for endurance athletes or patients recovering from chronic fatigue.
@@ -5572,7 +5572,7 @@ export const POSTS = [
   },
   {
     id: 53,
-    title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Lions mane stimulates NGF (nerve growth factor) for neurogenesis. Bacopa enhances acetylcholine signaling. Together: structural + functional brain sup...',
@@ -5607,7 +5607,7 @@ export const POSTS = [
         Lions mane: 500-1000mg daily. Bacopa: 300-450mg daily (standardized to 50% bacosides).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the cognitive longevity stack. Takes 4-8 weeks to see benefits (not acute). For memory, focus, and neuroprotection.
@@ -5629,7 +5629,7 @@ export const POSTS = [
   },
   {
     id: 54,
-    title: 'GABA and L-Theanine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'GABA is the primary inhibitory neurotransmitter. L-theanine enhances GABA receptor sensitivity and increases alpha brain waves. Together: calm without...',
@@ -5664,7 +5664,7 @@ export const POSTS = [
         GABA: 250-750mg. L-theanine: 200-400mg.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Oral GABA has poor blood brain barrier penetration, so effects are likely via gut-brain axis. Works well for stress reduction.
@@ -5686,7 +5686,7 @@ export const POSTS = [
   },
   {
     id: 55,
-    title: '5-HTP and Tryptophan: Can You Take Them Together? (Physician's Guide) ',
+    title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both are serotonin precursors. 5-HTP is one step closer to serotonin than tryptophan. Combining them can cause serotonin syndrome (dangerous)....',
@@ -5721,7 +5721,7 @@ export const POSTS = [
         Use ONE or the other. 5-HTP: 50-100mg daily. Tryptophan: 500-1000mg daily. Never combine.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is a common mistake. Choose 5-HTP for faster effect or tryptophan for gentler, sustained support. Do not take both.
@@ -5743,7 +5743,7 @@ export const POSTS = [
   },
   {
     id: 56,
-    title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Boswellia (frankincense) inhibits 5-LOX (leukotriene pathway). Fish oil inhibits COX-2 (prostaglandin pathway). Together: dual anti-inflammatory actio...',
@@ -5778,7 +5778,7 @@ export const POSTS = [
         Boswellia: 300-500mg (standardized to 60% boswellic acids). Fish oil: 2-3g EPA+DHA.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is particularly effective for joint inflammation and inflammatory bowel disease. Synergistic pathways = greater efficacy.
@@ -5800,7 +5800,7 @@ export const POSTS = [
   },
   {
     id: 57,
-    title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physician's Guide) ',
+    title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'St Johns Wort induces CYP450 enzymes and has SSRI-like effects. Combining with pharmaceutical SSRIs causes serotonin syndrome....',
@@ -5835,7 +5835,7 @@ export const POSTS = [
         Never combine. Use one or the other. Consult physician before stopping SSRIs.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is dangerous. I see this mistake regularly. St Johns Wort is a powerful herb with real drug interactions. Not a supplement to DIY.
@@ -5857,7 +5857,7 @@ export const POSTS = [
   },
   {
     id: 58,
-    title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Green tea contains EGCG (antioxidant) and ~25mg caffeine per cup. Adding more caffeine enhances fat oxidation and alertness....',
@@ -5892,7 +5892,7 @@ export const POSTS = [
         Green tea extract: 400-500mg EGCG. Caffeine: 100-200mg.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the classic fat loss and nootropic stack. EGCG + caffeine increases metabolic rate by 4-5%. Effective but not magic.
@@ -5914,7 +5914,7 @@ export const POSTS = [
   },
   {
     id: 59,
-    title: 'Spirulina and Chlorella: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both are algae with different nutrient profiles. Spirulina is protein-rich (60-70%). Chlorella has broken cell wall for heavy metal binding. Together:...',
@@ -5949,7 +5949,7 @@ export const POSTS = [
         Spirulina: 3-5g daily. Chlorella: 3-5g daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this for patients seeking plant-based protein and gentle heavy metal chelation. Start low (both can cause GI upset initially).
@@ -5971,7 +5971,7 @@ export const POSTS = [
   },
   {
     id: 60,
-    title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Phosphatidylserine is a membrane phospholipid (cognitive function). Omega-3 provides DHA (brain structure). Together: membrane fluidity + neuroprotect...',
@@ -6006,7 +6006,7 @@ export const POSTS = [
         Phosphatidylserine: 100-300mg daily. Omega-3: 1-2g DHA daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This combination has strong evidence for cognitive decline prevention and ADHD symptom reduction. Works best over 8-12 weeks.
@@ -6028,7 +6028,7 @@ export const POSTS = [
   },
   {
     id: 61,
-    title: 'Elderberry and Zinc: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Elderberry and Zinc: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Elderberry has antiviral properties (inhibits viral neuraminidase). Zinc is required for immune cell function. Together: antiviral + immune support....',
@@ -6063,7 +6063,7 @@ export const POSTS = [
         Elderberry: 300-600mg extract during illness. Zinc: 15-30mg daily (or 50mg lozenges during acute illness).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my acute viral illness protocol. Start at first symptoms. Elderberry reduces duration by 2-4 days in studies.
@@ -6085,7 +6085,7 @@ export const POSTS = [
   },
   {
     id: 62,
-    title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Ginkgo increases cerebral blood flow (vascular). Bacopa enhances acetylcholine and BDNF (neurochemical). Together: blood flow + neurotransmitter suppo...',
@@ -6120,7 +6120,7 @@ export const POSTS = [
         Ginkgo: 120-240mg daily (standardized extract). Bacopa: 300-450mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is for cognitive performance and memory. Ginkgo works acutely (days). Bacopa requires 8-12 weeks. Use together for best results.
@@ -6142,7 +6142,7 @@ export const POSTS = [
   },
   {
     id: 63,
-    title: 'Beta-Alanine and Creatine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Beta-Alanine and Creatine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Beta-alanine increases muscle carnosine (buffering lactic acid). Creatine recycles ATP. Together: endurance + power....',
@@ -6177,7 +6177,7 @@ export const POSTS = [
         Beta-alanine: 3-6g daily (divided doses). Creatine: 5g daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the classic sports performance stack. Beta-alanine takes 4 weeks to saturate muscle carnosine. Creatine works within days.
@@ -6199,7 +6199,7 @@ export const POSTS = [
   },
   {
     id: 64,
-    title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Digestive enzymes break down food (proteases, lipases, amylases). Probiotics restore gut flora. Together: digestion + microbiome support....',
@@ -6234,7 +6234,7 @@ export const POSTS = [
         Digestive enzymes: with meals. Probiotics: 10-50 billion CFU away from meals.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I use this for SIBO, IBS, and post-antibiotic recovery. Enzymes provide immediate relief. Probiotics restore long-term balance.
@@ -6256,7 +6256,7 @@ export const POSTS = [
   },
   {
     id: 65,
-    title: 'Glutamine and Probiotics: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Glutamine and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Glutamine is fuel for intestinal cells (enterocytes). Probiotics colonize the gut lining. Together: gut barrier repair + microbiome....',
@@ -6291,7 +6291,7 @@ export const POSTS = [
         Glutamine: 5-10g daily (divided doses). Probiotics: 10-50 billion CFU.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my leaky gut protocol. Glutamine heals the intestinal lining. Probiotics restore the ecosystem. Works synergistically.
@@ -6313,7 +6313,7 @@ export const POSTS = [
   },
   {
     id: 66,
-    title: 'Milk Thistle and NAC: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Milk Thistle and NAC: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Milk thistle (silymarin) protects liver cells and increases glutathione. NAC is a direct glutathione precursor. Together: liver protection + antioxida...',
@@ -6348,7 +6348,7 @@ export const POSTS = [
         Milk thistle: 200-400mg (standardized to 70-80% silymarin). NAC: 600-1200mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the liver protection stack. Particularly useful for patients on hepatotoxic medications or alcohol exposure.
@@ -6370,7 +6370,7 @@ export const POSTS = [
   },
   {
     id: 67,
-    title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Valerian enhances GABA (sedative). Lemon balm has mild anxiolytic effects. Together: sleep onset + sleep maintenance....',
@@ -6405,7 +6405,7 @@ export const POSTS = [
         Valerian: 300-600mg 1hr before bed. Lemon balm: 300-500mg 1hr before bed.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is gentler than melatonin for some patients. Works well for stress-driven insomnia. Takes 2-4 weeks for full effect.
@@ -6427,7 +6427,7 @@ export const POSTS = [
   },
   {
     id: 68,
-    title: 'Maca and Tribulus: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Maca supports adrenal function and libido (non-hormonal). Tribulus may increase testosterone precursors. Together: energy + hormonal balance....',
@@ -6462,7 +6462,7 @@ export const POSTS = [
         Maca: 1.5-3g daily. Tribulus: 250-750mg daily (standardized to 40% saponins).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Evidence for tribulus is mixed. Maca has better data for libido and energy. I use both for andropause symptoms.
@@ -6484,7 +6484,7 @@ export const POSTS = [
   },
   {
     id: 69,
-    title: 'Selenium and Iodine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Selenium and Iodine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both are required for thyroid hormone synthesis. Too much selenium without iodine, or vice versa, impairs thyroid function....',
@@ -6519,7 +6519,7 @@ export const POSTS = [
         Selenium: 100-200mcg daily. Iodine: 150-300mcg daily (or from iodized salt).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I see subclinical hypothyroidism improve when both are optimized. Do not mega-dose iodine (>500mcg) without selenium.
@@ -6541,7 +6541,7 @@ export const POSTS = [
   },
   {
     id: 70,
-    title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Glucosamine provides building blocks for cartilage (glycosaminoglycans). Chondroitin inhibits cartilage breakdown enzymes. Together: synthesis + prote...',
@@ -6576,7 +6576,7 @@ export const POSTS = [
         Glucosamine: 1500mg daily. Chondroitin: 1200mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the classic joint health stack. Takes 8-12 weeks to see benefits. Evidence is modest but some patients respond well.
@@ -6598,7 +6598,7 @@ export const POSTS = [
   },
   {
     id: 71,
-    title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both are xanthophyll carotenoids that accumulate in the macula (retina). Lutein is in peripheral macula, zeaxanthin in center. Together: comprehensive...',
@@ -6633,7 +6633,7 @@ export const POSTS = [
         Lutein: 10-20mg daily. Zeaxanthin: 2-4mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is evidence-based macular degeneration prevention. AREDS2 trial showed clear benefit. Start early (40s) for best results.
@@ -6655,7 +6655,7 @@ export const POSTS = [
   },
   {
     id: 72,
-    title: 'Citrulline and Arginine: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Citrulline and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Citrulline converts to arginine in kidneys (avoids first-pass metabolism). Arginine is substrate for nitric oxide. Together: sustained NO production....',
@@ -6690,7 +6690,7 @@ export const POSTS = [
         Citrulline: 3-6g daily. Arginine: 3-6g daily (or use citrulline alone for better effect).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Citrulline is actually superior to arginine for NO production (better bioavailability). Combining them provides immediate + sustained effect.
@@ -6712,7 +6712,7 @@ export const POSTS = [
   },
   {
     id: 73,
-    title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Schisandra protects liver and enhances mental performance. Eleuthero (Siberian ginseng) increases stress resilience. Together: adaptogenic synergy....',
@@ -6747,7 +6747,7 @@ export const POSTS = [
         Schisandra: 500-2000mg daily. Eleuthero: 300-1200mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is the Russian adaptogen stack (studied in cosmonauts). Enhances endurance and cognitive performance under stress.
@@ -6769,7 +6769,7 @@ export const POSTS = [
   },
   {
     id: 74,
-    title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physician's Guide) ',
+    title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Tyrosine is precursor to dopamine. Mucuna provides L-DOPA (immediate dopamine precursor). Together: substrate + direct precursor....',
@@ -6804,7 +6804,7 @@ export const POSTS = [
         N-Acetyl Tyrosine: 500-1000mg morning. Mucuna: 100-300mg (standardized to 15% L-DOPA).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is for dopamine deficiency (low motivation, focus, pleasure). Powerful but should be used cautiously. Not for long-term daily use without medical supervision.
@@ -6826,7 +6826,7 @@ export const POSTS = [
   },
   {
     id: 75,
-    title: 'Resveratrol and Pterostilbene: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Resveratrol and Pterostilbene: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Resveratrol activates SIRT1 (longevity). Pterostilbene is methylated resveratrol (better bioavailability). Together: immediate + sustained sirtuin act...',
@@ -6861,7 +6861,7 @@ export const POSTS = [
         Resveratrol: 250-500mg. Pterostilbene: 50-100mg.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Pterostilbene has 4x better bioavailability than resveratrol. Combining them provides both immediate and sustained effects.
@@ -6883,7 +6883,7 @@ export const POSTS = [
   },
   {
     id: 76,
-    title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Astaxanthin is lipophilic antioxidant (membrane protection). Vitamin E prevents lipid peroxidation. Together: synergistic antioxidant effect....',
@@ -6918,7 +6918,7 @@ export const POSTS = [
         Astaxanthin: 4-12mg daily with fat. Vitamin E: 200-400 IU (mixed tocopherols).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is for skin health, eye health, and cardiovascular protection. Astaxanthin is one of the most potent antioxidants.
@@ -6940,7 +6940,7 @@ export const POSTS = [
   },
   {
     id: 77,
-    title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Berberine activates AMPK (glucose uptake). ALA improves insulin signaling and mitochondrial function. Together: enhanced glucose metabolism....',
@@ -6975,7 +6975,7 @@ export const POSTS = [
         Berberine: 500mg 2-3x daily. ALA: 300-600mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is my natural blood sugar management protocol. Works as well as metformin in some patients. Requires 8-12 weeks to see full effect.
@@ -6997,7 +6997,7 @@ export const POSTS = [
   },
   {
     id: 78,
-    title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Both are citrus flavonoids that strengthen vein walls (venotropic). Used for varicose veins and hemorrhoids. Together: additive vascular benefit....',
@@ -7032,7 +7032,7 @@ export const POSTS = [
         Hesperidin: 500mg daily. Diosmin: 450mg daily.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         This is micronized purified flavonoid fraction (MPFF) used in Europe for chronic venous insufficiency. Effective but underutilized in US.
@@ -7054,7 +7054,7 @@ export const POSTS = [
   },
   {
     id: 79,
-    title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physician's Guide) ',
+    title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Policosanol may affect cholesterol. Red yeast rice contains natural statins (monacolin K). Combining increases statin exposure....',
@@ -7089,7 +7089,7 @@ export const POSTS = [
         Use one or the other, not both. Red yeast rice: 1200-2400mg (containing 5-10mg monacolin K).
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Red yeast rice is essentially a low-dose statin. Treat it as such. Monitor liver enzymes. Policosanol evidence is controversial.
