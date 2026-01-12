@@ -301,7 +301,7 @@ export default function BlogPost() {
               borderRadius: '12px',
               border: '1px solid var(--color-border)'
             }}>
-              <h3 style={{ marginBottom: '1rem', fontSize: '1.5rem', color: 'var(--color-text)', textTransform: 'uppercase' }}>Ready to Optimize?</h3>
+              <h3 style={{ marginBottom: '1rem', fontSize: '1.5rem', color: 'var(--color-text)', textTransform: 'uppercase' }}>Ready to Optimise?</h3>
               <p style={{ marginBottom: '2rem', color: 'var(--color-text-muted)' }}>Take the next step in your health journey.</p>
               <Link to={post.cta.link} className="btn-primary" style={{
                 display: 'inline-block',

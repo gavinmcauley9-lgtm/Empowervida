@@ -162,7 +162,7 @@ const AdvancedOptimization = () => {
                         marginBottom: '2rem',
                         textTransform: 'uppercase'
                     }}>
-                        Ready to Optimize?
+                        Ready to Optimise?
                     </h2>
                     <Link to="/shop" style={{
                         display: 'inline-block',

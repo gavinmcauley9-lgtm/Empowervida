@@ -25,7 +25,7 @@ const MitochondrialGuide = () => {
                 "name": "What are mitochondria and why are they important?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Mitochondria are the powerhouses of your cells, responsible for producing ATP (cellular energy). They determine your energy levels, cognitive function, athletic performance, and rate of aging. Healthy mitochondria mean vibrant energy, sharp focus, and resilient cells. Dysfunctional mitochondria lead to chronic fatigue, brain fog, accelerated aging, and metabolic disease."
+                    "text": "Mitochondria are the powerhouses of your cells, responsible for producing ATP (cellular energy). They determine your energy levels, cognitive function, athletic performance, and rate of ageing. Healthy mitochondria mean vibrant energy, sharp focus, and resilient cells. Dysfunctional mitochondria lead to chronic fatigue, brain fog, accelerated ageing, and metabolic disease."
                 }
             },
             {
@@ -49,7 +49,7 @@ const MitochondrialGuide = () => {
                 "name": "What are signs of poor mitochondrial function?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Key indicators include: chronic fatigue despite adequate sleep, brain fog and poor focus, difficulty recovering from exercise, muscle weakness, cold intolerance, metabolic dysfunction (insulin resistance), premature aging signs, and inability to handle stress. These symptoms suggest your mitochondria aren't producing enough ATP efficiently."
+                    "text": "Key indicators include: chronic fatigue despite adequate sleep, brain fog and poor focus, difficulty recovering from exercise, muscle weakness, cold intolerance, metabolic dysfunction (insulin resistance), premature ageing signs, and inability to handle stress. These symptoms suggest your mitochondria aren't producing enough ATP efficiently."
                 }
             },
             {
@@ -69,8 +69,8 @@ const MitochondrialGuide = () => {
                 {/* Primary Meta Tags */}
                 <title>The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It | EMPOWERVIDA</title>
                 <meta name="title" content="The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It" />
-                <meta name="description" content="ER physician reveals how to optimize mitochondrial health. Stop brain fog and chronic fatigue with evidence-based supplements, dosing, and timing protocols." />
-                <meta name="keywords" content="mitochondrial health, NAD+, cellular energy, ATP production, nootropics, longevity supplements, anti-aging, brain fog, chronic fatigue, urolithin a, PQQ, creatine, physician protocol" />
+                <meta name="description" content="ER physician reveals how to optimise mitochondrial health. Stop brain fog and chronic fatigue with evidence-based supplements, dosing, and timing protocols." />
+                <meta name="keywords" content="mitochondrial health, NAD+, cellular energy, ATP production, nootropics, longevity supplements, anti-ageing, brain fog, chronic fatigue, urolithin a, PQQ, creatine, physician protocol" />
                 <meta name="author" content="Dr. Gavin McAuley" />
                 <link rel="canonical" href="https://empowervida.com/mitochondrial-guide" />
 
@@ -267,7 +267,7 @@ const MitochondrialGuide = () => {
                             Antioxidant Defense
                         </h4>
                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', margin: 0 }}>
-                            Neutralize harmful free radicals, protecting cells from oxidative stress and aging.
+                            Neutralize harmful free radicals, protecting cells from oxidative stress and ageing.
                         </p>
                     </div>
                 </div>
@@ -301,7 +301,7 @@ const MitochondrialGuide = () => {
                         <strong>Cardiovascular Disease:</strong> Heart failure, liver dysfunction, muscle weakness
                     </li>
                     <li style={{ marginBottom: '0.75rem' }}>
-                        <strong>Accelerated Aging:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to reverse this.</Link>
+                        <strong>Accelerated Ageing:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to reverse this.</Link>
                     </li>
                 </ul>
 
@@ -378,16 +378,7 @@ const MitochondrialGuide = () => {
                 }}>
                     Explore how each supplement supports your cellular powerhouses
                 </p>
-                <img
-                    src="/mitochondrial_supplements_radial.png"
-                    alt="Radial diagram showing 14 mitochondrial supplements including Magnesium L-Threonate, Creatine, ALCAR, Citicoline, Alpha Lipoic Acid, GlyNAC, B-Complex, Vitamin C, Rhodiola, Urolithin A, PQQ, Ubiquinol, NAD+, and Omega-3 arranged around a central mitochondrion"
-                    style={{
-                        maxWidth: '100%',
-                        height: 'auto',
-                        borderRadius: '12px',
-                        boxShadow: '0 10px 40px rgba(0,0,0,0.1)'
-                    }}
-                />
+                <MitochondrialDiagram />
             </section>
 
             {/* Phase 2: The Armor */}
@@ -412,7 +403,7 @@ const MitochondrialGuide = () => {
                             color: '#2E7D32',
                             marginBottom: '2rem'
                         }}>
-                            Managing Oxidative Stress & Inflammation
+                            Manageing Oxidative Stress & Inflammation
                         </h3>
                     </div>
 
@@ -930,7 +921,7 @@ const MitochondrialGuide = () => {
                                 color: 'var(--color-text)',
                                 marginBottom: '1rem'
                             }}>
-                                When mitochondria fail, they don't always die gracefully. Many become <strong>senescent</strong>—refusing to trigger apoptosis but pumping out damaging ROS and inflammatory signals.
+                                When mitochondria fail, they don't always die gracefully. Many become <strong>senescent</strong>—refusing to trigger apoptosis but pumping out damageing ROS and inflammatory signals.
                             </p>
                             <p style={{
                                 fontSize: '1rem',

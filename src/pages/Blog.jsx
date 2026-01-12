@@ -30,7 +30,7 @@ export default function Blog() {
             <SEO
                 title="The Journal - Longevity & Health Optimization | EMPOWERVIDA"
                 description="Evidence-based articles on mitochondrial health, brain optimization, cellular renewal, and longevity science. Written by Dr. Gavin McAuley."
-                keywords="longevity blog, mitochondrial health articles, anti-aging science, brain health optimization, cellular health, supplement protocols, health journal"
+                keywords="longevity blog, mitochondrial health articles, anti-ageing science, brain health optimization, cellular health, supplement protocols, health journal"
                 canonical="/blog"
                 ogImage="/dna_bg_user.jpg"
                 schemaData={collectionSchema}

@@ -128,9 +128,9 @@ export default function InsulinStory() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="The Insulin Story: Why You Are Aging Faster Than You Think | EMPOWERVIDA"
-                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower—it's about Insulin Resistance. Discover the science of smart aging."
-                keywords="insulin resistance, hyperinsulinemia, metabolic health, aging, longevity, insulin sensitivity, Type 2 diabetes prevention, smart aging"
+                title="The Insulin Story: Why You Are Ageing Faster Than You Think | EMPOWERVIDA"
+                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower—it's about Insulin Resistance. Discover the science of smart ageing."
+                keywords="insulin resistance, hyperinsulinemia, metabolic health, ageing, longevity, insulin sensitivity, Type 2 diabetes prevention, smart ageing"
                 canonical="/insulin-story"
                 schemaData={faqSchema}
             />
@@ -139,7 +139,7 @@ export default function InsulinStory() {
             <HeroSection
                 backgroundImage="/hero_cell_energy.png"
                 title="THE INSULIN STORY"
-                subtitle="Why You Are Aging Faster Than You Think"
+                subtitle="Why You Are Ageing Faster Than You Think"
                 overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#4FD1C5"
@@ -565,9 +565,9 @@ export default function InsulinStory() {
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
                                 <li>AGEs (Advanced Glycation End-products)<sup>11</sup></li>
-                                <li>Skin aging (wrinkles, loss of elasticity)<sup>12</sup></li>
+                                <li>Skin ageing (wrinkles, loss of elasticity)<sup>12</sup></li>
                                 <li>Organ brittleness (kidneys, nerves, eyes)</li>
-                                <li>Accelerated cellular aging</li>
+                                <li>Accelerated cellular ageing</li>
                             </ul>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', fontStyle: 'italic', marginTop: '1rem', color: 'var(--color-text-muted)' }}>
                                 Think of it like crème brûlée: sugar hardens tissues, making them stiff and dysfunctional.
@@ -592,7 +592,7 @@ export default function InsulinStory() {
 
                 {/* SECTION 5: THE SMART AGING PROTOCOL */}
                 <section style={sectionStyle}>
-                    <h2 style={headingStyle}>The "Smart Aging" Protocol</h2>
+                    <h2 style={headingStyle}>The "Smart Ageing" Protocol</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <div style={{
@@ -604,7 +604,7 @@ export default function InsulinStory() {
                         marginBottom: '3rem',
                         fontStyle: 'italic'
                     }}>
-                        "To Optimize, or Not to Optimize."
+                        "To Optimise, or Not to Optimise."
                     </div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.2rem' }}>
@@ -776,7 +776,7 @@ export default function InsulinStory() {
                                 <strong>Singh R, Barden A, Mori T, Beilin L.</strong> Advanced glycation end-products: a review. <em>Diabetologia</em>. 2001;44(2):129-46. doi:<a href="https://doi.org/10.1007/s001250051591" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1007/s001250051591</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
-                                <strong>Pageon H, Asselineau D.</strong> An in vitro approach to the chronological aging of skin by glycation of the collagen: the biological effect of glycation on the reconstructed skin model. <em>Ann N Y Acad Sci</em>. 2005;1043:529-32. doi:<a href="https://doi.org/10.1196/annals.1333.060" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1196/annals.1333.060</a>
+                                <strong>Pageon H, Asselineau D.</strong> An in vitro approach to the chronological ageing of skin by glycation of the collagen: the biological effect of glycation on the reconstructed skin model. <em>Ann N Y Acad Sci</em>. 2005;1043:529-32. doi:<a href="https://doi.org/10.1196/annals.1333.060" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1196/annals.1333.060</a>
                             </li>
                         </ol>
                     </div>

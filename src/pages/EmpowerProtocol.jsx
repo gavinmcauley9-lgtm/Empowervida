@@ -40,7 +40,7 @@ const EmpowerProtocol = () => {
                         marginBottom: '2.5rem',
                         fontWeight: 400
                     }}>
-                        You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimize the engine.
+                        You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimise the engine.
                     </p>
                     <a
                         href="/EmpowerProtocol_Blueprint.pdf" // Placeholder for PDF
@@ -178,7 +178,7 @@ const EmpowerProtocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
                                 <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Glucose Stability:</strong> Flatten the curve. Prevent the post-lunch crash and neuro-inflammation.</li>
                                 <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Protein Prioritization:</strong> 1g per lb of ideal body weight. The building blocks of neurotransmitters.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. 12-Hour Fasting:</strong> Give your gut a break. Stop eating 3 hours before bed to optimize Growth Hormone.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. 12-Hour Fasting:</strong> Give your gut a break. Stop eating 3 hours before bed to optimise Growth Hormone.</li>
                             </ul>
                             <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
                                 <strong>The Mechanism:</strong> High glucose spikes lead to reactive hypoglycemia and insulin resistance in the brain (Type 3 Diabetes). Keeping glucose stable preserves cognitive energy.

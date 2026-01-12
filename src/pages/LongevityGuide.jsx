@@ -148,7 +148,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginTop: '2rem'
                 }}>
-                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine—the framework I use in my clinical practice to help patients reach "escape velocity" aging.
+                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine—the framework I use in my clinical practice to help patients reach "escape velocity" ageing.
                 </p>
             </section >
 
@@ -366,7 +366,7 @@ const LongevityGuide = () => {
                             marginBottom: '1rem',
                             color: 'var(--color-text)'
                         }}>
-                            What We Optimize:
+                            What We Optimise:
                         </h3>
                         <ul style={{ paddingLeft: '2rem' }}>
                             <li style={{ marginBottom: '1rem' }}>

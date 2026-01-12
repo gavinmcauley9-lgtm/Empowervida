@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 const SEO = ({
     title = 'EMPOWERVIDA - Longevity, Prescribed',
     description = 'Evidence-based longevity protocols engineered by Dr. Gavin McAuley. Clinical-grade supplements and personalized health optimization for vitality, clarity, and cellular renewal.',
-    keywords = 'longevity protocol, mitochondrial supplements, brain fog treatment, cellular health, anti-aging supplements, evidence-based wellness, personalized health optimization',
+    keywords = 'longevity protocol, mitochondrial supplements, brain fog treatment, cellular health, anti-ageing supplements, evidence-based wellness, personalized health optimization',
     canonical = '',
     ogImage = '/empowervida_hero_logo.png',
     ogType = 'website',

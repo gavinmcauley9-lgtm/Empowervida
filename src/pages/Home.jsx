@@ -85,7 +85,7 @@ export default function Home() {
             <SEO
                 title="EMPOWERVIDA - Longevity, Prescribed | Evidence-Based Health Optimization"
                 description="Physician-led longevity protocols. Clinical-grade supplements for energy, focus, and cellular renewal. Evidence-based solutions for optimal health and performance."
-                keywords="longevity protocol, mitochondrial health, anti-aging supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
+                keywords="longevity protocol, mitochondrial health, anti-ageing supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
                 canonical="/"
                 ogImage="/home_hero_user.png"
                 schemaData={[organizationSchema, websiteSchema, faqSchema]}
@@ -246,7 +246,7 @@ export default function Home() {
                             marginBottom: '2.5rem',
                             letterSpacing: '0.005em'
                         }}>
-                            My mission is to help you optimize your healthspan through evidence-based protocols—the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimized and thriving.
+                            My mission is to help you optimise your healthspan through evidence-based protocols—the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimised and thriving.
                         </p>
 
                         {/* Premium Credentials Grid */}
@@ -430,7 +430,7 @@ export default function Home() {
                                     lineHeight: 1.7,
                                     flexGrow: 1
                                 }}>
-                                    Aging is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
+                                    Ageing is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
                                 </p>
 
                                 <span style={{

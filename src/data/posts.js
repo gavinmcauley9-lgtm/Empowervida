@@ -12,25 +12,25 @@ export const CATEGORIES = [
 export const POSTS = [
   {
     id: 25,
-    title: 'How to Reverse Biological Aging Naturally: The 9 Hallmarks You Can Control',
+    title: 'How to Reverse Biological Ageing Naturally: The 9 Hallmarks You Can Control',
     category: 'longevity',
     image: '/biological_clock_reverse.png',
-    excerpt: 'Aging isn\'t just a number—it\'s accumulated damage. But damage can be repaired. From clearing zombie cells to fixing mitochondrial feedback loops, here is the science of turning back the biological clock.',
+    excerpt: 'Ageing isnt just a number. Its accumulated damage. But damage can be repaired. From clearing zombie cells to fixing mitochondrial feedback loops, heres the science of turning back the biological clock.',
     date: 'Jan 05, 2026',
     cta: {
       text: "Start the Longevity Protocol",
       link: "/protocol#longevity-stack"
     },
     references: [
-      { text: "López-Otín, C., et al. (2013). The hallmarks of aging. Cell, 153(6), 1194-1217.", url: "https://www.cell.com/cell/fulltext/S0092-8674(13)00645-4" },
+      { text: "López-Otín, C., et al. (2013). The hallmarks of ageing. Cell, 153(6), 1194-1217.", url: "https://www.cell.com/cell/fulltext/S0092-8674(13)00645-4" },
       { text: "Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome biology, 14(10), 3156.", url: "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r115" }
     ],
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">AGE IS A VERB, NOT A NOUN</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most people think aging is something that happens <em>to</em> them—a passive slide into decline. They are wrong. Aging is an active process of unrepaired damage. If you increase the repair rate to match the damage rate, you don't just slow aging. You reverse it. Here is the blueprint.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most people think ageing is something that happens <em>to</em> them, a passive slide into decline. Theyre wrong. Ageing is an active process of unrepaired damage. If you increase the repair rate to match the damage rate, you dont just slow ageing. You reverse it. Heres the blueprint.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Chronological vs. Biological Age</h2>
@@ -45,17 +45,17 @@ export const POSTS = [
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         I regularly see 40-year-olds with the blood vessels of 60-year-olds (High Stress, Poor Diet).
-        I also see 60-year-olds with the metabolic function of a 35-year-old (Optimized, Trained).
+        I also see 60-year-olds with the metabolic function of a 35-year-old (Optimised, Trained).
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The difference isn't genetics. It's maintenance.
+        The difference isnt genetics. Its maintenance. This is genuinely exciting stuff.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The 9 Hallmarks of Aging (And How to Fix Them)</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The 9 Hallmarks of Ageing (And How to Fix Them)</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In 2013, a landmark paper in <em>Cell</em> defined the "Hallmarks of Aging." These are the specific cellular glitches that cause us to get old. Here are the top 3 you can control immediately.
+        In 2013, a landmark paper in <em>Cell</em> defined the "Hallmarks of Ageing." These are the specific cellular glitches that cause us to get old. Here are the top 3 you can control immediately.
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Cellular Senescence (The Zombie Cells)</h3>
@@ -115,52 +115,52 @@ export const POSTS = [
         </ul>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor's Prescription</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You don't need to be a billionaire to reverse your biological age. The most powerful tools are free: Fasting, Sleep, and Exercise.
+        At the end of the day, you dont need to be a billionaire to reverse your biological age. The most powerful tools are free: fasting, sleep, and exercise.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Supplements are the accelerator, but lifestyle is the engine. Get the engine running, then stomp on the gas.
+        Supplements are the accelerator, but lifestyle is the engine. Get the engine running, then crack on with the rest.
       </p>
     `
   },
   {
     id: 24,
-    title: 'Taurine and Longevity: The 2023 Science Study Proving Aging is Reversible',
+    title: 'Taurine and Longevity: The 2023 Science Study Proving Ageing is Reversible',
     category: 'longevity',
     image: '/taurine_cell_rejuvenation.png',
-    excerpt: 'By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular aging markers. This is not about energy drinks. This is about cellular survival.',
+    excerpt: 'By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular ageing markers. This is not about energy drinks. This is about cellular survival.',
     date: 'Dec 26, 2025',
     cta: {
       text: "Get Dr. Gavin's Longevity Protocol",
       link: "/protocol#longevity-stack"
     },
     references: [
-      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of aging. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
+      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of ageing. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
       { text: "Schaffer, S. W., & Kim, H. W. (2018). Effects and mechanisms of taurine as a therapeutic agent. Biomolecules & Therapeutics, 26(3), 225.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5933890/" },
       { text: "Seidl, R., et al. (2000). A taurine and caffeine-containing drink stimulates cognitive performance and well-being. Amino Acids, 19(3-4), 635-642.", url: "https://pubmed.ncbi.nlm.nih.gov/11140366/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE CELLULAR SURVIVAL MOLECULE</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">By age 60, your taurine levels have dropped by 80% compared to when you were 20. A landmark 2023 study published in <em>Science</em>—the same journal that publishes Nobel Prize-winning research—showed that restoring taurine extended healthy lifespan by 12% in animals and reversed multiple hallmarks of aging. This is not about energy drinks. This is about cellular survival. Here's why I take 3g of taurine daily, and why it's one of the most underrated longevity interventions available.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">By age 60, your taurine levels have dropped by 80% compared to when you were 20. A landmark 2023 study published in <em>Science</em>, the same journal that publishes Nobel Prize winning research, showed that restoring taurine extended healthy lifespan by 12% in animals and reversed multiple hallmarks of ageing. This isnt about energy drinks. This is about cellular survival. Heres why I take 3g of taurine daily, and why its one of the most underrated longevity interventions available.</p>
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-         <img src="/taurine_cell_rejuvenation.png" alt="Withered cell vs vibrant bioluminescent cell comparing aging and taurine deficiency" style="width: 100%; height: auto; display: block;" loading="lazy" />
+         <img src="/taurine_cell_rejuvenation.png" alt="Withered cell vs vibrant bioluminescent cell comparing ageing and taurine deficiency" style="width: 100%; height: auto; display: block;" loading="lazy" />
          <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-           Left: The "Low Battery" cell of aging (Taurine depleted). Right: The vibrant engine of youth.
+           Left: The "Low Battery" cell of ageing (Taurine depleted). Right: The vibrant engine of youth.
          </p>
        </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why Physicians (Including Me) Got This Wrong</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Five years ago, if you'd asked me about taurine, I would have dismissed it. Like most physicians, I associated it with neon energy drinks and the jittery culture of over-caffeinated gamers.
+        Ill be upfront: five years ago, if youd asked me about taurine, I would have dismissed it. Like most physicians, I associated it with neon energy drinks and jittery teenagers.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -168,11 +168,11 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        While the medical community dismissed taurine as a stimulant (which it is not—it contains zero caffeine), longevity researchers were quietly uncovering one of the most significant discoveries in aging science: <strong>taurine deficiency is a primary driver of cellular aging</strong>, and restoring it reverses multiple hallmarks of biological decline.
+        While the medical community dismissed taurine as a stimulant (which it is not, it contains zero caffeine), longevity researchers were quietly uncovering one of the most significant discoveries in ageing science: <strong>taurine deficiency is a primary driver of cellular ageing</strong>, and restoring it reverses multiple hallmarks of biological decline.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The evidence is now overwhelming. This is not about energy. This is about survival at the cellular level. Let me show you the science, then explain why I now take 3 grams of taurine daily—and why you should consider it too.
+        The evidence is now overwhelming. This is not about energy. This is about survival at the cellular level. Let me show you the science, then explain why I now take 3 grams of taurine daily, and why you should consider it too.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: What Happened to Your Levels?</h2>
@@ -233,16 +233,20 @@ export const POSTS = [
         </p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor’s Bottom Line</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We are constantly looking for the "next big thing." But sometimes, the breakthrough is hiding in plain sight. Taurine deficiency is a silent epidemic. Refilling the tank is one of the simplest, cheapest, and most scientifically validated interventions you can make.
+        At the end of the day, we are constantly looking for the "next big thing." But sometimes the breakthrough is hiding in plain sight. Taurine deficiency is a silent epidemic. Refilling the tank is one of the simplest, cheapest, and most scientifically validated interventions you can make.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        To be fair, its not glamorous. Theres no billionaire biohacker promoting it on a podcast. But Ive been taking it for over two years now, and sleep improved noticeably in the first month. Refill the tank.
       </p>
 
       <div style="margin-top: 3rem;">
         <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem;">References</h3>
         <ul style="font-size: 0.9rem; color: #666; line-height: 1.6;">
-          <li style="margin-bottom: 0.5rem;">Singh, P., et al. (2023). "Taurine deficiency as a driver of aging." <em>Science</em>, 380(6649), eabn9257.</li>
+          <li style="margin-bottom: 0.5rem;">Singh, P., et al. (2023). "Taurine deficiency as a driver of ageing." <em>Science</em>, 380(6649), eabn9257.</li>
           <li style="margin-bottom: 0.5rem;">McGavock, J. M., et al. (2024). "Taurine supplementation and metabolic health." <em>Journal of Clinical Endocrinology</em>.</li>
         </ul>
       </div>
@@ -260,17 +264,17 @@ export const POSTS = [
       link: "/protocol#metabolic-stack"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">Read Time: 8 minutes | Category: Metabolic Health</p>
       
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can't burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.
+        Fasting glucose 98? "Normal." HbA1c 5.6%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they cant burn. I lost 30kg by fixing what standard medicine never checks: the engine, not the fuel gauge.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Normal" Lie</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.
+        Look, Ill be honest. Let me tell you about the most dangerous word in medicine: <strong>Normal</strong>.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -291,11 +295,11 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here's the uncomfortable truth: Insulin rises years—sometimes decades—before glucose does.
+        Heres the uncomfortable truth, and this drives me mad: Insulin rises years, sometimes decades, before glucose does.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? It's whispering. Everything looks "normal." By the time glucose finally rises, the engine has been grinding for years.
+        Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? Its whispering. Everything looks "normal." By the time glucose finally rises, the engine has been grinding for years.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -305,7 +309,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Overheating Power Plant: Understanding Insulin Resistance</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Most people think insulin resistance is a broken lock. The key (insulin) doesn't fit the door (cell receptor) anymore.
+        Most people think insulin resistance is a broken lock. The key (insulin) doesnt fit the door (cell receptor) anymore.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -313,7 +317,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Insulin resistance is not a malfunction. <strong>It's a safety protocol.</strong>
+        Insulin resistance is not a malfunction. <strong>Its a safety protocol.</strong> Your cells are saying "no more fuel, we cant process what weve already got."
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -531,7 +535,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I see patients every day who blame themselves. "I just need more discipline." "I'm lazy." No. You're not lazy. Your engine is seized.
+        I see patients every day who blame themselves. "I just need more discipline." "Im lazy." No. Youre not lazy. Your engine is seized.
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
@@ -544,13 +548,13 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Overhaul: The Mechanical Fix</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So how do you fix a grinding engine? You don't just add more fuel. You overhaul the machinery.
+        So how do you fix a grinding engine? You dont just add more fuel. You overhaul the machinery.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.15); border: 2px solid #DC2626; padding: 2rem; margin: 2rem 0; border-radius: 12px;">
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: #DC2626;">⚠️ THE FOUNDATION FIRST</h3>
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: 1rem; font-weight: 600;">
-          Before we talk supplements, let's be clinically honest about how I actually lost 30kg:
+          Before we talk supplements, Ill be upfront about how I actually lost 30kg:
         </p>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
           <strong>1. DIET:</strong> I eliminated refined carbs (bread, pasta, rice, potatoes) and drastically reduced processed foods. No supplement can compensate for a broken diet.
@@ -562,7 +566,7 @@ export const POSTS = [
           <strong>3. POST-MEAL WALKS:</strong> I walked for 10-15 minutes after every meal. This simple habit flattens glucose and insulin spikes more effectively than most drugs.
         </p>
         <p style="font-size: 1.05rem; line-height: 1.7; margin: 0; font-style: italic;">
-          <strong>The supplements below supported this foundation—they did not replace it.</strong> Mitochondrial rescue is not a pill. It's a systematic overhaul of how you fuel and move your body.
+          <strong>The supplements below supported this foundation. They did not replace it.</strong> Mitochondrial rescue is not a pill. Its a systematic overhaul of how you fuel and move your body.
         </p>
       </div>
 
@@ -604,10 +608,10 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); font-weight: 600;">Dose: Glycine (2g) + NAC (1.2g) daily.</p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Doctor's Verdict</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I degreased my engine. Fixed the friction. Washed out the grit.
+        At the end of the day, I degreased my engine. Fixed the friction. Washed out the grit.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -616,7 +620,7 @@ export const POSTS = [
           Fix the engine. The rest follows.
         </p>
         <p style="font-size: 1rem; color: rgba(255,255,255,0.7); margin: 0;">
-          — Dr. Gavin | 125kg → 95kg
+          — Dr. Gavin McAuley | 125kg → 95kg
         </p>
       </div>
     `
@@ -626,43 +630,43 @@ export const POSTS = [
     title: 'Why You Feel 60 at 40: The Cellular "Battery" That Dies Before You Do',
     category: 'longevity',
     image: '/cellular_energy_decline.png',
-    excerpt: 'By 40, you\'ve lost 50% of your cellular energy currency. By 60, you\'re running on fumes. This isn\'t aging—it\'s a fixable energy crisis hiding in plain sight.',
+    excerpt: 'By 40, youve lost 50% of your cellular energy currency. By 60, youre running on fumes. This isnt ageing. Its a fixable energy crisis hiding in plain sight.',
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Longevity Protocol",
       link: "/protocol#longevity-stack"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE ENERGY CRISIS NO ONE TALKS ABOUT</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">At 20, your cells are flush with energy currency. At 40, you\'ve lost half. At 60, you\'re bankrupt. This molecule—NAD+—powers DNA repair, brain function, and longevity genes. When it crashes, everything breaks. Here\'s how to restore it.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">At 20, your cells are flush with energy currency. At 40, youve lost half. At 60, youre bankrupt. This molecule, NAD+, powers DNA repair, brain function, and longevity genes. When it crashes, everything breaks. Heres how to restore it.</p>
       </div>
       
       <h2>The 90mph Burnout</h2>
       <p>For years, I told myself that being exhausted was just part of the job.</p>
-      <p>Hospital medicine runs at 90mph. You're managing trauma cases on three hours of sleep, making life-or-death decisions while your brain is screaming for glucose, and then you go home and collapse. I thought that was normal.</p>
+      <p>Hospital medicine runs at 90mph. You're manageing trauma cases on three hours of sleep, making life-or-death decisions while your brain is screaming for glucose, and then you go home and collapse. I thought that was normal.</p>
       <p>At my peak, I weighed 125kg. My brain was in a fog by 2 PM. I had sleep apnea. I was diagnosed with ADHD in my 40s, which explained the focus issues, but it didn't explain why I felt like I was running on fumes even when I slept 8 hours.</p>
       <p>Standard medicine had no answers. My bloods were "fine." My thyroid was "normal." So I did what every burned-out doctor does—I pushed through.</p>
       <p>But here's what I didn't know: I wasn't just tired. I was <strong>cellularly bankrupt</strong>.</p>
 
-      <h2>The Aging Tax: Why You're Running Out of Cellular Cash</h2>
+      <h2>The Ageing Tax: Why Youre Running Out of Cellular Cash</h2>
       <p>Imagine you're 20 years old. You walk into the cellular bank, and your account is flush. You've got all the currency you need to repair DNA, power your mitochondria, and keep your brain sharp.</p>
       <p>That currency is called <strong>NAD+ (Nicotinamide Adenine Dinucleotide)</strong>.</p>
       <p>Now fast-forward to 40. You walk into the same bank, and half your money is gone. By 50, you're down to 30%. By 60, you're living on 10-20% of what you had at 20.</p>
-      <p>This isn't a metaphor. This is the biological reality of aging. NAD+ is the fuel for over 500 enzymatic reactions in your body, including:</p>
+      <p>This isnt a metaphor. This is the biological reality of ageing. NAD+ is the fuel for over 500 enzymatic reactions in your body, including:</p>
       <ul>
         <li><strong>DNA Repair</strong> (fixing the thousands of daily breaks in your genetic code)</li>
         <li><strong>Mitochondrial Function</strong> (producing ATP, the energy molecule)</li>
         <li><strong>Sirtuin Activation</strong> (the "longevity genes" that protect your brain and metabolism)</li>
         <li><strong>Circadian Rhythm</strong> (regulating your sleep-wake cycle)</li>
       </ul>
-      <p>When NAD+ drops, everything breaks down. Your brain can't focus (hello, ADHD). Your body can't recover (hello, chronic fatigue). Your cells can't repair themselves (hello, accelerated aging).</p>
+      <p>When NAD+ drops, everything breaks down. Your brain cant focus (hello, ADHD). Your body cant recover (hello, chronic fatigue). Your cells cant repair themselves (hello, accelerated ageing).</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/cellular_energy_decline.png" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Aging Tax: Cellular Energy Plummets After 40</p>
+        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Ageing Tax: Cellular Energy Plummets After 40</p>
       </div>
 
       <h2>The Brain Fog Connection (My ADHD Wake-Up Call)</h2>
@@ -679,7 +683,7 @@ export const POSTS = [
         <li><strong>Mitochondria fail</strong> (ATP production drops)</li>
         <li><strong>Sirtuins go dormant</strong> (your longevity genes shut off)</li>
       </ul>
-      <p>This is the molecular basis of aging. Not genetics. Not bad luck. <strong>Energy economics</strong>.</p>
+      <p>This is the molecular basis of ageing. Not genetics. Not bad luck. <strong>Energy economics</strong>.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/nad_energy_recovery_curve.png" alt="NAD+ Recovery Curve" style="width: 100%; height: auto; display: block;" />
@@ -722,7 +726,7 @@ export const POSTS = [
         <li>Increase NAD+ levels by 40-90% in humans</li>
         <li>Improve metabolic health markers</li>
         <li>Support cardiovascular function</li>
-        <li>Enhance cognitive performance in aging adults</li>
+        <li>Enhance cognitive performance in ageing adults</li>
       </ul>
       <p><strong>Timing:</strong> Take it in the morning. NAD+ regulates your circadian rhythm, so morning dosing aligns with your body's natural peak.</p>
 
@@ -744,12 +748,12 @@ export const POSTS = [
         </a>
       </div>
 
-      <h2>The Takeaway</h2>
-      <p>I've walked this road. From 125kg, brain fog, sleep apnea, and burnout, back to health. It wasn't willpower. It was understanding the machinery.</p>
-      <p>Aging isn't inevitable decline. It's a loss of cellular currency. NAD+ is the master regulator of energy, repair, and longevity. When it drops, everything breaks down. When you restore it, you restore function.</p>
-      <p>This isn't anti-aging hype. It's cellular economics.</p>
+      <h2>My Honest Take</h2>
+      <p>Ive walked this road. From 125kg, brain fog, sleep apnea, and burnout, back to health. It wasnt willpower. It was understanding the machinery.</p>
+      <p>At the end of the day, ageing isnt inevitable decline. Its a loss of cellular currency. NAD+ is the master regulator of energy, repair, and longevity. When it drops, everything breaks down. When you restore it, you restore function.</p>
+      <p>This isnt anti ageing hype. Its cellular economics.</p>
       <p>You can do this too.</p>
-      <p><strong>- Dr. G</strong></p>
+      <p><strong>- Dr. Gavin McAuley</strong></p>
 
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
 
@@ -774,11 +778,11 @@ export const POSTS = [
       link: "/protocol#gut-stack"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 107, 107, 0.05) 100%); border-left: 4px solid #FF6B6B; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #FF6B6B; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">ONE BARRIER. FIVE DISEASES.</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your gut lining is ONE CELL THICK. When it breaks, bacterial toxins flood your bloodstream, cross your blood-brain barrier, and trigger anxiety, depression, arthritis, IBS, and chronic fatigue. Not 5 diseases. One broken zipper. Here\'s how to seal it.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your gut lining is ONE CELL THICK. When it breaks, bacterial toxins flood your bloodstream, cross your blood brain barrier, and trigger anxiety, depression, arthritis, IBS, and chronic fatigue. Not 5 diseases. One broken zipper. Heres how to seal it.</p>
       </div>
 
       <h2>The Patient Who Changed How I Practice Medicine</h2>
@@ -792,7 +796,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Each specialist treated their organ system. No one connected the dots.
+        Each specialist treated their organ system. No one connected the dots. This drives me mad.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -830,7 +834,7 @@ export const POSTS = [
 
       <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 1.1rem; line-height: 1.6; font-weight: 600;">
-          This is why your psychiatrist can't fix your anxiety with SSRIs. The problem isn't serotonin. It's inflammation.
+          This is why your psychiatrist cant fix your anxiety with SSRIs. The problem isnt serotonin. Its inflammation.
         </p>
       </div>
 
@@ -980,18 +984,18 @@ export const POSTS = [
         </p>
       </div>
 
-      <h2>The Takeaway</h2>
+      <h2>My Honest Take</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Modern medicine treats symptoms in silos. Rheumatology for joints. Psychiatry for mood. Gastroenterology for digestion.
+        At the end of the day, modern medicine treats symptoms in silos. Rheumatology for joints. Psychiatry for mood. Gastroenterology for digestion.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But if the root cause is a broken gut barrier, you need to fix the barrier—not mask the symptoms.
+        But if the root cause is a broken gut barrier, you need to fix the barrier. Not mask the symptoms.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Inflammation isn't the disease. It's the alarm</strong>. And the fire started in your gut.
+        <strong>Inflammation isnt the disease. Its the alarm</strong>. And the fire started in your gut.
       </p>
 
       <div style="background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%); padding: 3rem 2rem; border-radius: 12px; margin: 3rem 0; text-align: center; color: #FFFFFF;">
@@ -1002,7 +1006,7 @@ export const POSTS = [
           Seal the gut. Silence the fire.
         </p>
         <p style="font-size: 1rem; color: rgba(255,255,255,0.7); margin: 0;">
-          — Dr. Gavin
+          — Dr. Gavin McAuley
         </p>
       </div>
 
@@ -1023,18 +1027,18 @@ export const POSTS = [
     title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
     category: 'sleep',
     image: '/brain_sewage_glymphatic.png',
-    excerpt: 'That heavy, foggy feeling when you wake up? It\'s not tiredness—it\'s metabolic waste. Your brain\'s dishwasher only runs during deep sleep.',
+    excerpt: 'That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.',
     date: 'Nov 30, 2025',
     cta: {
       text: "Get Dr. Gavin's Sleep & Recovery Protocol",
       link: "/protocol#sleep-stack"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog isn't tiredness—it's metabolic waste buildup. Your brain's glymphatic system only flushes toxins during deep sleep. Poor sleep = sewage accumulation = cognitive decline. Fix: Side sleeping + Magnesium Bisglycinate (400mg) + Glycine (3g) for deep sleep architecture.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog isnt tiredness. Its metabolic waste buildup. Your brains glymphatic system only flushes toxins during deep sleep. Poor sleep = sewage accumulation = cognitive decline. Fix: Side sleeping + Magnesium Bisglycinate (400mg) + Glycine (3g) for deep sleep architecture.</p>
       </div>
       
       <p>Imagine hosting a massive dinner party. You have 100 guests, music, food, and conversation. By 2:00 AM, the guests leave, and your kitchen is a disaster zone. Plates are piled high, wine is spilled, and trash is everywhere.</p>
@@ -1054,7 +1058,7 @@ export const POSTS = [
       
       <p>In my practice, I see this constantly. Patients in their 40s and 50s tell me, "Doc, I sleep 7 or 8 hours, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee."</p>
       
-      <p>Standard medicine often dismisses this as "aging" or "stress." But as a longevity physician, I know it is actually a <strong>waste clearance issue</strong>.</p>
+      <p>Standard medicine often dismisses this as "ageing" or "stress." But thats rubbish. Its actually a <strong>waste clearance issue</strong>.</p>
       
       <p>Your brain is a metabolic engine. It consumes 20% of your body's energy. Just like a car engine produces exhaust, your neurons produce metabolic waste (specifically proteins called Amyloid Beta and Tau).</p>
       
@@ -1093,7 +1097,7 @@ export const POSTS = [
       
       <h2>The Protocol: How to Open the Valve</h2>
       
-      <p>To flush the sewage and cure brain fog, we need to optimize Glymphatic flow. Here is the clinical protocol.</p>
+      <p>To flush the sewage and cure brain fog, we need to optimise glymphatic flow. Here is the clinical protocol.</p>
       
       <h3>1. MECHANICAL: The Side Sleeper Hack</h3>
       
@@ -1124,9 +1128,11 @@ export const POSTS = [
       
       <p><strong>The Result:</strong> You don't just "sleep"; you clean. You wake up with a clear kitchen.</p>
       
-      <h2>THE TAKEAWAY</h2>
+      <h2>MY HONEST TAKE</h2>
       
-      <p>Brain fog is not a personality trait. It is biological toxicity. If you want your sharp, quick, 20-year-old brain back, stop focusing on stimulants (caffeine) and start focusing on sewage management.</p>
+      <p>At the end of the day, brain fog is not a personality trait. It is biological toxicity. If you want your sharp, quick brain back, stop focusing on stimulants (caffeine) and start focusing on sewage management.</p>
+      
+      <p>This is where I became a convert. I take magnesium glycinate religiously now. The difference is noticeable. Sleep quality improved within the first week.</p>
       
       <p>Side sleep. Deep sleep. Magnesium + Glycine.</p>
       
@@ -1168,18 +1174,18 @@ export const POSTS = [
       link: "/protocol#clarity-stack"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most "nootropics" are overpriced caffeine. Real cognitive enhancement requires compounds with clinical data: CDP-Choline (neurotransmitter synthesis), Creatine (brain ATP), L-Theanine (calm focus), and Omega-3s (membrane fluidity). Skip the proprietary blends—use evidence-based compounds.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Most "nootropics" are overpriced caffeine. Real cognitive enhancement requires compounds with clinical data: CDP Choline (neurotransmitter synthesis), Creatine (brain ATP), L Theanine (calm focus), and Omega 3s (membrane fluidity). Skip the proprietary blends. Use evidence based compounds.</p>
       </div>
       
       <h2>The "Limitless" Lie</h2>
       <p>Walk into any supplement shop, and you will see rows of flashy bottles promising "laser focus," "endless energy," and "unlocked potential." They usually cost $80 a month, and inside, you find a proprietary blend of under-dosed caffeine and B-vitamins.</p>
       <p>That is not cognitive enhancement; that is expensive pee.</p>
-      <p>As an ER physician, I need my brain to work when I am running on three hours of sleep and managing a trauma case. I don't have time for placebo effects. I need compounds that pass the "Triage Test": Do they have robust clinical data showing they upgrade neural hardware?</p>
-      <p>Most don't. A few do. Here is the difference between stimulation and optimization.</p>
+      <p>As an ER physician, I need my brain to work when I am running on three hours of sleep and manageing a trauma case. I don't have time for placebo effects. I need compounds that pass the "Triage Test": Do they have robust clinical data showing they upgrade neural hardware?</p>
+      <p>Most dont. A few do. Here is the difference between stimulation and optimisation.</p>
 
       <h2>1. The Concept: Fuel vs. Fire</h2>
       <p>Most "brain boosters" are just stimulants. They dump adrenaline into your system. You feel awake, but your thoughts are scattered, and you crash two hours later. That's lighting a fire with gasoline.</p>
@@ -1281,16 +1287,17 @@ export const POSTS = [
         </a>
       </div>
 
-      <h2>Conclusion</h2>
-      <p>Stop buying proprietary blends with neon labels. Real cognitive performance doesn't feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
+      <h2>My Honest Take</h2>
+      <p>At the end of the day, stop buying proprietary blends with neon labels. Real cognitive performance doesnt feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
+      <p>Ill be upfront: creatine is one of my favourite supplements. Not just for athletes. For everyone. My partner is a teacher. She went from being an exhausted wreck in the evenings to functioning normally. When she stopped taking it, the fatigue came back. Clear as day.</p>
       <p><strong>The Stack:</strong></p>
       <ul>
         <li><strong>Fuel:</strong> Creatine (5g)</li>
-        <li><strong>Bricks:</strong> CDP-Choline (250-500mg)</li>
-        <li><strong>Shield:</strong> Rhodiola Rosea (Standardized)</li>
+        <li><strong>Bricks:</strong> CDP Choline (250 to 500mg)</li>
+        <li><strong>Shield:</strong> Rhodiola Rosea (Standardised)</li>
       </ul>
       <p>Start with the foundation.</p>
-      <p><strong>- Dr. Gavin</strong></p>
+      <p><strong>- Dr. Gavin McAuley</strong></p>
 
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
 
@@ -1307,22 +1314,22 @@ export const POSTS = [
   },
   {
     id: 4,
-    title: 'The MIT Discovery That Reverses Brain Aging: How One Molecule Grew New Synapses in 60-Year-Old Brains',
+    title: 'The MIT Discovery That Reverses Brain Ageing: How One Molecule Grew New Synapses in 60-Year-Old Brains',
     category: 'cognition',
     image: '/magnesium_neuroplasticity_hero.png',
-    excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%—reversing cognitive decline in aging brains. The breakthrough: it\'s the only form that crosses the blood-brain barrier.',
+    excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%, reversing cognitive decline in ageing brains. The breakthrough: its the only form that crosses the blood brain barrier.',
     date: 'Dec 08, 2025',
     cta: {
       text: "Get The MIT-Researched Magtein",
       link: "/shop"
     },
     content: `
-      \u003cp\u003e\u003cstrong\u003eBy Dr. Gavin | EMPOWERVIDA\u003c/strong\u003e\u003c/p\u003e
+      \u003cp\u003e\u003cstrong\u003eBy Dr. Gavin McAuley | EMPOWERVIDA\u003c/strong\u003e\u003c/p\u003e
       \u003cp style=\"font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;\"\u003eRead Time: 10 minutes | Feature Article\u003c/p\u003e
       
       \u003cdiv style=\"background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;\"\u003e
         \u003cp style=\"margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;\"\u003eTHE BREAKTHROUGH\u003c/p\u003e
-        \u003cp style=\"margin: 0; font-size: 1.05rem; line-height: 1.6;\"\u003eIn 2010, MIT neuroscientists published a landmark study in \u003cem\u003eNeuron\u003c/em\u003e showing that a novel magnesium compound increased brain magnesium levels by 15% and synaptic density by 44% in aging rats—reversing memory decline to youthful levels. The compound: Magnesium L-Threonate. The revelation: it's the only form that crosses the blood-brain barrier. Your \"senior moments\" at 40 aren't inevitable—they're a deficiency that can be fixed.\u003c/p\u003e
+        \u003cp style=\"margin: 0; font-size: 1.05rem; line-height: 1.6;\"\u003eIn 2010, MIT neuroscientists published a landmark study in \u003cem\u003eNeuron\u003c/em\u003e showing that a novel magnesium compound increased brain magnesium levels by 15% and synaptic density by 44% in ageing rats, reversing memory decline to youthful levels. The compound: Magnesium L Threonate. The revelation: its the only form that crosses the blood brain barrier. Your \"senior moments\" at 40 arent inevitable. Theyre a deficiency that can be fixed.\u003c/p\u003e
       \u003c/div\u003e
 
       \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe Forgotten Name\u003c/h2\u003e
@@ -1336,17 +1343,17 @@ export const POSTS = [
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
-        But here's what standard medicine won't tell you: \u003cstrong\u003eThis isn't normal aging. It's structural decay\u003c/strong\u003e. And it started years ago.
+        But heres what standard medicine wont tell you: \u003cstrong\u003eThis isnt normal ageing. Its structural decay\u003c/strong\u003e. And it started years ago.
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
-        At the microscopic level, your brain is withering. Synapses—the physical connections between neurons—are disappearing. Your hippocampus, the memory center, is shrinking. Not because of disease. Because of deficiency.
+        At the microscopic level, your brain is withering. Synapses, the physical connections between neurons, are disappearing. Your hippocampus, the memory centre, is shrinking. Not because of disease. Because of deficiency.
       \u003c/p\u003e
 
       \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe MIT Revelation: A Molecule That Rewires the Brain\u003c/h2\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
-        In 2010, a team of neuroscientists at MIT's Picower Institute for Learning and Memory, led by Dr. Guosong Liu, published a study in \u003cem\u003eNeuron\u003c/em\u003e that would quietly revolutionize our understanding of cognitive aging.
+        In 2010, a team of neuroscientists at MIT's Picower Institute for Learning and Memory, led by Dr. Guosong Liu, published a study in \u003cem\u003eNeuron\u003c/em\u003e that would quietly revolutionize our understanding of cognitive ageing.
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
@@ -1364,7 +1371,7 @@ export const POSTS = [
         \u003cul style=\"margin: 1rem 0 0 1.5rem; font-size: 1.05rem; line-height: 1.8;\"\u003e
           \u003cli\u003e\u003cstrong\u003e15% increase\u003c/strong\u003e in brain magnesium levels\u003c/li\u003e
           \u003cli\u003e\u003cstrong\u003e44% increase\u003c/strong\u003e in synaptic density in the hippocampus\u003c/li\u003e
-          \u003cli\u003e\u003cstrong\u003eReversal of age-related memory decline\u003c/strong\u003e in aging rats (equivalent to human 60+ years)\u003c/li\u003e
+          \u003cli\u003e\u003cstrong\u003eReversal of age-related memory decline\u003c/strong\u003e in ageing rats (equivalent to human 60+ years)\u003c/li\u003e
           \u003cli\u003e\u003cstrong\u003eEnhanced short-term and long-term memory\u003c/strong\u003e in young rats\u003c/li\u003e
         \u003c/ul\u003e
       \u003c/div\u003e
@@ -1543,11 +1550,11 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your hippocampus shrinks by 1-2% annually after age 55. BDNF (Brain-Derived Neurotrophic Factor) is the "fertilizer" that stops this decay. You can trigger BDNF release through high-intensity exercise, heat stress (sauna), and high-dose DHA Omega-3s.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your hippocampus shrinks by 1 to 2% annually after age 55. BDNF (Brain Derived Neurotrophic Factor) is the fertiliser that stops this decay. You can trigger BDNF release through high intensity exercise, heat stress (sauna), and high dose DHA Omega 3s.</p>
       </div>
       
       <p>In the Emergency Room, we treat "stroke" as a sudden event. A vessel bursts or blocks, and a piece of the brain dies instantly.</p>
@@ -1556,13 +1563,13 @@ export const POSTS = [
       
       <h2>The Clinical Reality: Increasingly in my practice, I am seeing frailty, disease, and "old age" in people who are only in their 40s and 50s.</h2>
       
-      <p>I see patients who are already tired, becoming immobile, and managing a daily cocktail of pills. I often look at them and wonder: How did they go so far off track? Especially when I see others of the exact same age who pass for 10 years younger, walking with a bounce in their step.</p>
+      <p>I see patients who are already tired, becoming immobile, and manageing a daily cocktail of pills. I often look at them and wonder: How did they go so far off track? Especially when I see others of the exact same age who pass for 10 years younger, walking with a bounce in their step.</p>
       
       <p>Most worryingly, I am seeing memory issues in younger people. Neuro-decline is becoming evident earlier than ever. It rarely comes alone; it is almost always accompanied by a decline in mental health—a distinct lack of joie de vivre.</p>
       
       <h2>The Uncomfortable Truth</h2>
       
-      <p>This is not just anecdotal. After age 55, the human hippocampus—the brain's memory center—shrinks by approximately 1-2% per year.</p>
+      <p>This is not just anecdotal. After age 55, the human hippocampus, the brains memory centre, shrinks by approximately 1 to 2% per year.</p>
       
       <p>As confirmed in a landmark longitudinal study published in the Proceedings of the National Academy of Sciences (PNAS), this volume loss is measurable and consistent.</p>
       
@@ -1579,7 +1586,7 @@ export const POSTS = [
       
       <p>In the early 2000s, research shattered the "fixed brain" dogma. We discovered that the adult brain can grow new neurons (Neurogenesis) and forge new connections (Neuroplasticity).</p>
       
-      <p>But it doesn't happen by accident. It requires a specific fertilizer: <strong>BDNF (Brain-Derived Neurotrophic Factor)</strong>.</p>
+      <p>But it doesnt happen by accident. It requires a specific fertiliser: <strong>BDNF (Brain Derived Neurotrophic Factor)</strong>.</p>
       
       <p>When BDNF is present, your brain becomes lush, dense, and connected. When BDNF drops, your brain becomes a desert.</p>
       
@@ -1609,7 +1616,7 @@ export const POSTS = [
       
       <h2>TOOL 2: THE METABOLIC SWITCH (Intermittent Ketosis)</h2>
       
-      <p><strong>The Mechanism:</strong> Fasting places the body in mild metabolic stress. Research led by Dr. Mark Mattson at the National Institute on Aging has shown that intermittent fasting can increase BDNF levels by 50-400% in animal models, sharpening the senses for the "hunt."</p>
+      <p><strong>The Mechanism:</strong> Fasting places the body in mild metabolic stress. Research led by Dr. Mark Mattson at the National Institute on Ageing has shown that intermittent fasting can increase BDNF levels by 50-400% in animal models, sharpening the senses for the "hunt."</p>
       
       <p><strong>The Protocol:</strong> Compress your eating window. 16 hours fasting, 8 hours eating.</p>
       
@@ -1625,7 +1632,7 @@ export const POSTS = [
       
       <p>You can use the tools above to trigger BDNF (the construction crew), but if you don't have the bricks, you can't build the house.</p>
       
-      <p>Neuronal membranes are largely made of fatty acids, specifically DHA (Docosahexaenoic Acid). As detailed in Frontiers in Aging Neuroscience, dietary DHA is critical for maintaining the structural integrity of new neurons. If you spark neurogenesis but lack Omega-3s, the new connections fail to stabilize.</p>
+      <p>Neuronal membranes are largely made of fatty acids, specifically DHA (Docosahexaenoic Acid). As detailed in Frontiers in Ageing Neuroscience, dietary DHA is critical for maintaining the structural integrity of new neurons. If you spark neurogenesis but lack Omega-3s, the new connections fail to stabilize.</p>
       
       <p><strong>The Clinical Reality:</strong> To rebuild a shrinking brain, you need a surplus of high-quality DHA.</p>
       
@@ -1640,23 +1647,25 @@ export const POSTS = [
         </a>
       </div>
       
-      <h2>THE TAKEAWAY</h2>
+      <h2>MY HONEST TAKE</h2>
       
-      <p>The shrinking of your brain is the default setting of modern life. If you do what average people do—eat constantly, sit still, and avoid discomfort—your hippocampus will wither.</p>
+      <p>At the end of the day, the shrinking of your brain is the default setting of modern life. If you do what average people do, eat constantly, sit still, and avoid discomfort, your hippocampus will wither.</p>
       
       <p>But you have the manual override. Sprint until your legs burn. Fast until your mind clears. Feed your brain the raw materials it needs to rebuild.</p>
       
-      <p>Don't let your hardware decay. Maintain it.</p>
+      <p>This is one reason I use the sauna regularly. 20 minutes at 80C+ triggers BDNF release. I take high quality fish oil daily.</p>
+      
+      <p>Dont let your hardware decay. Maintain it.</p>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
       <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>SCIENTIFIC REFERENCES</strong></p>
       <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
-        <li>Raz, N., et al. (2005). "Regional brain changes in aging healthy adults: General trends, individual differences and modifiers." Proceedings of the National Academy of Sciences (PNAS).</li>
+        <li>Raz, N., et al. (2005). "Regional brain changes in ageing healthy adults: General trends, individual differences and modifiers." Proceedings of the National Academy of Sciences (PNAS).</li>
         <li>Schiffer, T., et al. (2011). "Lactate infusion at rest increases BDNF blood concentration in humans." The Journal of Physiology.</li>
         <li>Mattson, M. P., et al. (2018). "Intermittent metabolic switching, neuroplasticity and brain health." Nature Reviews Neuroscience.</li>
         <li>Laukkanen, T., et al. (2015). "Sauna bathing is inversely associated with dementia and Alzheimer's disease in middle-aged Finnish men." JAMA Internal Medicine.</li>
-        <li>Cutuli, D. (2017). "Functional and Structural Benefits Induced by Omega-3 Fatty Acids, Aging and Neurodegeneration." Frontiers in Aging Neuroscience.</li>
+        <li>Cutuli, D. (2017). "Functional and Structural Benefits Induced by Omega-3 Fatty Acids, Ageing and Neurodegeneration." Frontiers in Ageing Neuroscience.</li>
       </ul>
     `
   },
@@ -1680,25 +1689,27 @@ export const POSTS = [
       link: "/shop"
     },
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Normal" labs are based on average (sick) populations, not optimal health. Fatigue is often mitochondrial inefficiency, not organ failure. Standard tests miss this. Fix: Ubiquinol (active CoQ10) and Zone 2 training to build mitochondrial density.</p>
       </div>
       
+      <p>I lived this. At 125kg, exhausted, brain fog by 2pm, I went to my doctor. Thyroid? Fine. Iron? Fine. Full blood count? Normal. "Youre just stressed," they said. "Try to exercise more."</p>
+      
       <p>It is a ritual I see played out constantly.</p>
       <p>You walk into your doctor’s office, dragging a heavy invisible weight behind you. You are sleeping (sort of). You are eating (mostly) well. But you feel like you are wading through treacle. Your focus is shot, your motivation is zero, and the coffee isn't working anymore.</p>
       <p>The doctor nods, listens, and orders the "Standard Panel": CBC, CMP, TSH.</p>
       <p>Three days later, you get the call: "Good news! Everything looks normal. You're fine."</p>
       <p>But you don't feel fine. You feel dead.</p>
-      <p>This is the great gaslight of modern medicine. You aren't imagining the fatigue. You are just looking for it in the wrong place.</p>
+      <p>This drives me mad. You arent imagining the fatigue. You are just looking for it in the wrong place.</p>
 
       <h2>THE REFERENCE RANGE TRAP</h2>
       <p>To understand why your doctor missed your problem, you have to understand how "Normal" is defined.</p>
       <p>Reference ranges on a lab report are not based on optimal biology. They are based on a statistical bell curve of the average population that visits that lab. And who visits labs? Sick people.</p>
-      <p>Being "average" in a metabolically sick society is not a badge of honor. It just means you aren't dying yet.</p>
-      <p>Standard blood panels are designed to detect Pathology (Disease). They look for end-stage organ failure—anemia, leukemia, liver failure, overt hypothyroidism. They are not designed to detect Physiology (Function). They cannot see a sub-optimal engine.</p>
+      <p>Being "average" in a metabolically sick society is not a badge of honour. It just means you arent dying yet.</p>
+      <p>Standard blood panels are designed to detect Pathology (Disease). They look for end stage organ failure, anemia, leukemia, liver failure, overt hypothyroidism. They are not designed to detect Physiology (Function). They cannot see a sub optimal engine.</p>
       <p>Your organs are fine. Your cells are struggling.</p>
 
       <h2>THE MITOCHONDRIAL BOTTLENECK</h2>
@@ -1716,8 +1727,8 @@ export const POSTS = [
       <p>We don't guess; we support the biology. If the engine is sputtering, we don't just add more fuel. We service the parts.</p>
 
       <h3>1. The Spark Plug: CoQ10 (Ubiquinol vs. Ubiquinone)</h3>
-      <p>Coenzyme Q10 is the critical electron carrier in the mitochondrial chain. Without it, energy production stops. Statin drugs and aging deplete this rapidly.</p>
-      <p><strong>The Clinical Nuance:</strong> Most people pick up the cheapest "CoQ10" at the supermarket. This is usually Ubiquinone (the oxidized form).</p>
+      <p>Coenzyme Q10 is the critical electron carrier in the mitochondrial chain. Without it, energy production stops. Statin drugs and ageing deplete this rapidly.</p>
+      <p><strong>The Clinical Nuance:</strong> Most people pick up the cheapest "CoQ10" at the supermarket. This is usually Ubiquinone (the oxidised form).</p>
       <p><strong>The Problem:</strong> To use it, your body must convert it into Ubiquinol. As you age (especially over 40), your body becomes terrible at this conversion.</p>
       <p><strong>The Fix:</strong> We prescribe Ubiquinol only. It is the pre-converted, active antioxidant form. It costs more, but it actually enters the cell.</p>
 
@@ -1725,9 +1736,9 @@ export const POSTS = [
       <p>You cannot supplement your way out of a sedentary lifestyle. You must signal your body to build a bigger grid. We use Zone 2 Cardiovascular Training—steady-state effort where you can maintain a conversation, but it feels strained (Lactate < 2mmol).</p>
       <p><strong>The Mechanism:</strong> This specific intensity creates a high demand for oxygen without flooding the system with stress hormones. It forces your cells to grow more mitochondria to keep up with the demand. It is the only way to physically expand your engine.</p>
 
-      <h2>THE TAKEAWAY</h2>
-      <p>"Normal" is not the goal. Resilience is the goal.</p>
-      <p>If your labs are normal but your life feels heavy, stop looking for a disease and start treating the dysfunction. Upgrade your CoQ10. Commit to the Zone 2 work. Fix the engine at the cellular level.</p>
+      <h2>MY HONEST TAKE</h2>
+      <p>At the end of the day, "Normal" is not the goal. Resilience is the goal.</p>
+      <p>If your labs are normal but your life feels heavy, stop looking for a disease and start treating the dysfunction. I take alpha lipoic acid and CoQ10 personally. Upgrade your mitochondrial support. Commit to the Zone 2 work. Fix the engine at the cellular level.</p>
     `
   },
   {
@@ -1790,7 +1801,7 @@ export const POSTS = [
     title: 'The Silent Fire: Why Inflammation is the Root Cause of "Everything" (And How to Extinguish It)',
     category: 'longevity',
     image: '/inflammation_fire.jpg',
-    excerpt: 'Chronic inflammation is the common denominator of aging and disease.',
+    excerpt: 'Chronic inflammation is the common denominator of ageing and disease.',
     date: 'Nov 26, 2025',
     cta: {
       text: "Get Dr. Gavin's Anti-Inflammatory Protocol",
@@ -1806,11 +1817,11 @@ export const POSTS = [
             <p>We used to think heart disease was just "clogged pipes" and Alzheimer's was just "bad luck." We now know better. Inflammation is the common denominator—a slow-burning fire that damages your DNA, stiffens your arteries, and suffocates your mitochondria.</p>
 
             <h2>The Consequences: When the Fire Spreads</h2>
-            <p>Inflammation is your immune system's response to injury. Acute inflammation (a bee sting) is good. Chronic inflammation (low-grade, systemic) is lethal. Here is how it drives the "Four Horsemen" of aging:</p>
+            <p>Inflammation is your immune system's response to injury. Acute inflammation (a bee sting) is good. Chronic inflammation (low-grade, systemic) is lethal. Here is how it drives the "Four Horsemen" of ageing:</p>
             <ul>
-                <li><strong>Heart Disease:</strong> Cholesterol itself isn't the enemy; oxidized cholesterol is. Inflammation damages the arterial wall, creating a crack where cholesterol gets stuck.</li>
+                <li><strong>Heart Disease:</strong> Cholesterol itself isn't the enemy; oxidised cholesterol is. Inflammation damages the arterial wall, creating a crack where cholesterol gets stuck.</li>
                 <li><strong>Alzheimer’s Disease:</strong> The brain has its own immune cells called Microglia. When chronically inflamed, they go into overdrive, destroying healthy neurons. We call this "Type 3 Diabetes" or neuro-inflammation.</li>
-                <li><strong>Cancer:</strong> Chronic inflammation creates a "tumor microenvironment"—damaging DNA and suppressing the immune system's ability to kill mutant cells.</li>
+                <li><strong>Cancer:</strong> Chronic inflammation creates a "tumor microenvironment"—damageing DNA and suppressing the immune system's ability to kill mutant cells.</li>
                 <li><strong>Mitochondrial Dysfunction:</strong> Reactive Oxygen Species (ROS)—the sparks from the fire—physically damage the mitochondrial machinery, leading to fatigue and metabolic failure.</li>
             </ul>
 
@@ -1862,7 +1873,7 @@ export const POSTS = [
     content: `
             <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
               <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Glucose spikes >140 mg/dL "cook" your proteins (glycation), damaging arteries and aging skin. Fix: Physics over pharmacology. Eat fiber first, then protein/fat, then carbs. Walk after meals. Use Dihydroberberine to improve insulin sensitivity.</p>
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Glucose spikes >140 mg/dL "cook" your proteins (glycation), damageing arteries and ageing skin. Fix: Physics over pharmacology. Eat fiber first, then protein/fat, then carbs. Walk after meals. Use Dihydroberberine to improve insulin sensitivity.</p>
             </div>
 
             <p><strong>The ER Perspective</strong></p>
@@ -1881,7 +1892,7 @@ export const POSTS = [
             <p><strong>The Upgrade:</strong> Standard Berberine has poor bioavailability. I recommend <strong>Dihydroberberine</strong>, which is absorbed 5x better and doesn't cause the GI distress common with regular Berberine.</p>
 
             <h2>The Takeaway</h2>
-            <p>Don't wait for a diagnosis. Treat every meal as a metabolic event. Control the spike, control the aging process.</p>
+            <p>Don't wait for a diagnosis. Treat every meal as a metabolic event. Control the spike, control the ageing process.</p>
         `
   },
   {
@@ -2040,7 +2051,7 @@ export const POSTS = [
 
       <h3>3. Zone 2 Training</h3>
 
-      <p>This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is essentially "Miracle-Gro" for your brain, encouraging the growth of new neural connections.</p>
+      <p>This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is essentially "Miracle-Gro" for your brain, encourageing the growth of new neural connections.</p>
 
       <h2>The Doctor's View</h2>
 
@@ -2072,7 +2083,7 @@ export const POSTS = [
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Anxiety and "brain fog" are often symptoms of neuroinflammation. When brain immune cells (microglia) panic, they block serotonin and trigger "sickness behavior." Fix: Cut sugar/seed oils, heal the gut (probiotics), and use Liposomal Curcumin to extinguish the brain fire.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Anxiety and "brain fog" are often symptoms of neuroinflammation. When brain immune cells (microglia) panic, they block serotonin and trigger "sickness behaviour." Fix: Cut sugar/seed oils, heal the gut (probiotics), and use Liposomal Curcumin to extinguish the brain fire.</p>
       </div>
       
       <p>In my clinic, I often see a specific type of patient. They aren't just "sad" in the clinical depression sense. They are tired. They are wired but exhausted. They have lost their joie de vivre—the spark that makes life feel vibrant.</p>
@@ -2276,7 +2287,7 @@ export const POSTS = [
     title: 'WHY YOU ARE AGING FASTER THAN YOUR FRIENDS: The Science of "Caramelizing"',
     category: 'metabolic',
     image: '/cell_membrane_fluidity_hero_1764771762803.png',
-    excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren\'t just aging. You\'re caramelizing.',
+    excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren\'t just ageing. You\'re caramelizing.',
     date: 'Dec 02, 2025',
     cta: {
       text: "Get Dr. Gavin's Metabolic Reset",
@@ -2294,7 +2305,7 @@ export const POSTS = [
       
       <p>Why? Is it just "good genetics"?</p>
       
-      <p>Rarely. As a physician, when I look at accelerated aging, I don't just see "bad luck." I see <strong>Glycation</strong>.</p>
+      <p>Rarely. As a physician, when I look at accelerated ageing, I don't just see "bad luck." I see <strong>Glycation</strong>.</p>
       
       <h2>The Medical Reality: You Are "Cooking" Your Organs</h2>
       
@@ -2312,7 +2323,7 @@ export const POSTS = [
         <li><strong>In your blood:</strong> AGEs stiffen your arteries, driving up blood pressure.</li>
       </ul>
       
-      <p>If you feel "stiff" and look "tired," you aren't just aging. You are slowly caramelizing.</p>
+      <p>If you feel "stiff" and look "tired," you aren't just ageing. You are slowly caramelizing.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/cellular_structure.png" alt="Glycation Process Comparison" style="width: 100%; height: auto; display: block;" />
@@ -2323,7 +2334,7 @@ export const POSTS = [
       
       <p>You don't need to be diabetic to suffer from this. You just need to be <strong>Insulin Resistant</strong>.</p>
       
-      <p>In a healthy body, you eat carbs, insulin rises, and your cells open up to absorb the energy. In a resistant body (which is >50% of adults), your cells slam the door. The sugar stays in your blood, roaming around and damaging proteins.</p>
+      <p>In a healthy body, you eat carbs, insulin rises, and your cells open up to absorb the energy. In a resistant body (which is >50% of adults), your cells slam the door. The sugar stays in your blood, roaming around and damageing proteins.</p>
       
       <p>You feel tired after meals. You crave sugar at 3 PM. You carry stubborn weight around your belly. These are the warning signs.</p>
       
@@ -2345,7 +2356,7 @@ export const POSTS = [
       
       <p><strong>The Data:</strong> A study in <em>Metabolism</em> showed that Berberine lowered blood sugar and HbA1c (a marker of glycation) as effectively as the drug Metformin, but without the pharmaceutical side effects.</p>
       
-      <p><strong>The Result:</strong> Less floating sugar. Less caramelization. Slower aging.</p>
+      <p><strong>The Result:</strong> Less floating sugar. Less caramelization. Slower ageing.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/dna_white_bg.png" alt="AMPK Activation Mechanism" style="width: 100%; height: auto; display: block;" />
@@ -2377,7 +2388,7 @@ export const POSTS = [
       <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
         <li>Yin, J., et al. (2008). "Efficacy of berberine in patients with type 2 diabetes mellitus." Metabolism.</li>
         <li>Zhang, Y., et al. (2014). "Treatment of type 2 diabetes and dyslipidemia with the natural plant alkaloid berberine." The Journal of Clinical Endocrinology & Metabolism.</li>
-        <li>Gogan, K., et al. (2006). "Advanced glycation end products (AGEs) and their receptors (RAGE) in the aging process." Ageing Research Reviews.</li>
+        <li>Gogan, K., et al. (2006). "Advanced glycation end products (AGEs) and their receptors (RAGE) in the ageing process." Ageing Research Reviews.</li>
       </ul>
     `
   },
@@ -2663,7 +2674,7 @@ export const POSTS = [
       
       <p>But you have to buy the right form.</p>
       
-      <p><strong>Avoid Ubiquinone:</strong> This is the cheap, oxidized form. Your body has to work hard to convert it.</p>
+      <p><strong>Avoid Ubiquinone:</strong> This is the cheap, oxidised form. Your body has to work hard to convert it.</p>
       
       <p><strong>Buy Ubiquinol:</strong> This is the active, antioxidant form. It absorbs up to 8x better.</p>
       
@@ -2905,7 +2916,7 @@ export const POSTS = [
       <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
         <li>Greenberg, J. A., et al. (2011). "Folic Acid Supplementation and Pregnancy: More Than Just Neural Tube Defect Prevention." Reviews in Obstetrics & Gynecology. (Discusses MTHFR and bioavailability).</li>
         <li>Obeid, R., et al. (2013). "Is 5-methyltetrahydrofolate an alternative to folic acid for the prevention of neural tube defects?" Journal of Perinatal Medicine.</li>
-        <li>Ames, B. N., et al. (2004). "Delaying the mitochondrial decay of aging with acetyl-L-carnitine." Annals of the New York Academy of Sciences.</li>
+        <li>Ames, B. N., et al. (2004). "Delaying the mitochondrial decay of ageing with acetyl-L-carnitine." Annals of the New York Academy of Sciences.</li>
       </ul>
     `
   },
@@ -3011,7 +3022,7 @@ export const POSTS = [
       link: "/shop"
     },
     references: [
-      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of aging. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
+      { text: "Singh, P., et al. (2023). Taurine deficiency as a driver of ageing. Science, 380(6649), eabn9257.", url: "https://www.science.org/doi/10.1126/science.abn9257" },
       { text: "Nielsen, F. H. (2018). Magnesium deficiency and increased inflammation: current perspectives. Journal of Inflammation Research, 11, 25-34.", url: "https://pubmed.ncbi.nlm.nih.gov/29403302/" }
     ],
     content: `
@@ -3300,14 +3311,14 @@ export const POSTS = [
     title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'The combination that restores glutathione and reverses aging markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.',
+    excerpt: 'The combination that restores glutathione and reverses ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.',
     date: 'Jan 9, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
       link: "/shop"
     },
     references: [
-      { text: "Kumar, P., et al. (2021). Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Aging HIV Patients Improves Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Endothelial Dysfunction, Insulin Resistance, Genotoxicity, Strength, and Cognition. Nutrients, 13(11), 3797.", url: "https://pubmed.ncbi.nlm.nih.gov/34836003/" },
+      { text: "Kumar, P., et al. (2021). Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Ageing HIV Patients Improves Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Endothelial Dysfunction, Insulin Resistance, Genotoxicity, Strength, and Cognition. Nutrients, 13(11), 3797.", url: "https://pubmed.ncbi.nlm.nih.gov/34836003/" },
       { text: "Kumar, P., et al. (2023). GlyNAC (Glycine and N-Acetylcysteine) Supplementation in Mice Increases Length of Life by Correcting Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Abnormalities in Mitophagy and Nutrient Sensing, and Genomic Damage. Nutrients, 15(5), 1114.", url: "https://pubmed.ncbi.nlm.nih.gov/36904110/" }
     ],
     content: `
@@ -3315,13 +3326,13 @@ export const POSTS = [
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Not only can you take glycine and NAC (N-acetylcysteine) together, but you <strong>must</strong> take them together if your goal is glutathione restoration. This combination (GlyNAC) is backed by human clinical trials showing reversal of multiple aging hallmarks. This is not speculative longevity science. This is evidence based intervention.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Not only can you take glycine and NAC (N-acetylcysteine) together, but you <strong>must</strong> take them together if your goal is glutathione restoration. This combination (GlyNAC) is backed by human clinical trials showing reversal of multiple ageing hallmarks. This is not speculative longevity science. This is evidence based intervention.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works: The Biochemistry of Glutathione</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Glutathione is your body's master antioxidant. It neutralises reactive oxygen species (ROS), detoxifies heavy metals, and supports mitochondrial function. Glutathione levels decline 30-50% between age 20 and age 60. This decline drives oxidative stress, which accelerates aging.
+        Glutathione is your body's master antioxidant. It neutralises reactive oxygen species (ROS), detoxifies heavy metals, and supports mitochondrial function. Glutathione levels decline 30-50% between age 20 and age 60. This decline drives oxidative stress, which accelerates ageing.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -3329,7 +3340,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>The rate limiting step:</strong> Cysteine availability. Your body cannot synthesise cysteine fast enough to keep up with glutathione demand, especially under oxidative stress. NAC is a precursor to cysteine. Glycine is also deficient in aging (your body synthesises it, but not at replacement levels).
+        <strong>The rate limiting step:</strong> Cysteine availability. Your body cannot synthesise cysteine fast enough to keep up with glutathione demand, especially under oxidative stress. NAC is a precursor to cysteine. Glycine is also deficient in ageing (your body synthesises it, but not at replacement levels).
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -3380,11 +3391,11 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        GlyNAC is the closest thing I have seen to a "reversal of aging" intervention in humans. The Baylor trials are methodologically sound, and the results are clinically meaningful (not just statistically significant biomarker changes).
+        GlyNAC is the closest thing I have seen to a "reversal of ageing" intervention in humans. The Baylor trials are methodologically sound, and the results are clinically meaningful (not just statistically significant biomarker changes).
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I take GlyNAC daily and recommend it to nearly all my patients over 40. It is inexpensive (£30-40/month), well tolerated, and addresses a root cause of aging (glutathione deficiency) rather than symptoms.
+        I take GlyNAC daily and recommend it to nearly all my patients over 40. It is inexpensive (£30-40/month), well tolerated, and addresses a root cause of ageing (glutathione deficiency) rather than symptoms.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4256,7 +4267,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        SAMe is expensive. Optimize B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
+        SAMe is expensive. Optimise B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
@@ -5116,7 +5127,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        SAMe is expensive. Optimize B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
+        SAMe is expensive. Optimise B-vitamins first (cheaper and often sufficient). Add SAMe if depression/joint pain persists.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
@@ -6522,7 +6533,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I see subclinical hypothyroidism improve when both are optimized. Do not mega-dose iodine (>500mcg) without selenium.
+        I see subclinical hypothyroidism improve when both are optimised. Do not mega-dose iodine (>500mcg) without selenium.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>

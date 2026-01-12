@@ -44,11 +44,11 @@ const Protocol = () => {
     const faqData = [
         {
             question: "What is a longevity protocol?",
-            answer: "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of aging. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
+            answer: "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of ageing. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
         },
         {
             question: "Which protocol should I start with?",
-            answer: "Start with your primary health goal: Foundational Longevity (overall anti-aging), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain aging prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
+            answer: "Start with your primary health goal: Foundational Longevity (overall anti-ageing), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain ageing prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
         },
         {
             question: "Can I combine multiple protocols?",
@@ -233,7 +233,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
                                     <strong>GlyNAC Complex (Glycine 2g + NAC 1.2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Proven to reverse aging markers.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Proven to reverse ageing markers.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
@@ -649,7 +649,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The dishwasher. Your brain accumulates metabolic waste (amyloid beta, tau proteins) all day. The glymphatic system ONLY activates during deep Non-REM sleep to flush this sewage. Poor sleep = toxic brain = brain fog. This protocol optimizes sleep architecture for maximum waste clearance.
+                            The dishwasher. Your brain accumulates metabolic waste (amyloid beta, tau proteins) all day. The glymphatic system ONLY activates during deep Non-REM sleep to flush this sewage. Poor sleep = toxic brain = brain fog. This protocol optimises sleep architecture for maximum waste clearance.
                         </p>
 
                         <div style={{
@@ -739,7 +739,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The overflow prevention system. Insulin resistance is the root of accelerated aging—hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
+                            The overflow prevention system. Insulin resistance is the root of accelerated ageing—hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
                         </p>
 
                         <div style={{

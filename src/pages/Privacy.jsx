@@ -222,7 +222,7 @@ export default function Privacy() {
                             These cookies help us understand how visitors interact with our website.
                         </p>
                         <ul style={listStyle}>
-                            <li><strong>Google Analytics:</strong> Tracks page views, visitor behavior, and demographics</li>
+                            <li><strong>Google Analytics:</strong> Tracks page views, visitor behaviour, and demographics</li>
                             <li><strong>Facebook Pixel:</strong> Tracks conversions and builds audiences for advertising</li>
                         </ul>
                     </div>
