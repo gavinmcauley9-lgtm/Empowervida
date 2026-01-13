@@ -115,6 +115,22 @@ const MitochondrialDiagram = () => {
             y: 450,
             angle: 75,
             mechanism: 'Cofactors for Krebs cycle enzymes and electron transport chain complexes'
+        },
+        {
+            id: 'methylene',
+            name: 'Methylene Blue',
+            x: 490,
+            y: 190,
+            angle: -15,
+            mechanism: 'Alternative electron carrier that bypasses Complex I and III dysfunction, enhancing ATP production'
+        },
+        {
+            id: 'resveratrol',
+            name: 'Resveratrol',
+            x: 70,
+            y: 40,
+            angle: -135,
+            mechanism: 'Activates SIRT1 and PGC-1α to promote mitochondrial biogenesis and longevity pathways'
         }
     ];
 

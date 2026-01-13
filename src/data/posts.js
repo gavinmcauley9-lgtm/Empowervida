@@ -115,10 +115,10 @@ export const POSTS = [
         </ul>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Bottom Line</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, you dont need to be a billionaire to reverse your biological age. The most powerful tools are free: fasting, sleep, and exercise.
+        Heres the thing: you dont need to be a billionaire to reverse your biological age. The most powerful tools are free: fasting, sleep, and exercise.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -164,7 +164,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>I was catastrophically wrong.</strong>
+        <strong>I had it completely wrong.</strong>
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -236,7 +236,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, we are constantly looking for the "next big thing." But sometimes the breakthrough is hiding in plain sight. Taurine deficiency is a silent epidemic. Refilling the tank is one of the simplest, cheapest, and most scientifically validated interventions you can make.
+        Look, we are constantly chasing the "next big thing." But sometimes the breakthrough is hiding in plain sight. Taurine deficiency is a silent epidemic. Refilling the tank is one of the simplest, cheapest, and most scientifically validated interventions you can make.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -295,7 +295,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Heres the uncomfortable truth, and this drives me mad: Insulin rises years, sometimes decades, before glucose does.
+        Heres the uncomfortable truth, and this frustrates me deeply: Insulin rises years, sometimes decades, before glucose does.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -608,10 +608,10 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); font-weight: 600;">Dose: Glycine (2g) + NAC (1.2g) daily.</p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What Actually Worked</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, I degreased my engine. Fixed the friction. Washed out the grit.
+        So what did I actually do? I degreased my engine. Fixed the friction. Washed out the grit.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -748,9 +748,9 @@ export const POSTS = [
         </a>
       </div>
 
-      <h2>My Honest Take</h2>
+      <h2>What This Means For You</h2>
       <p>Ive walked this road. From 125kg, brain fog, sleep apnea, and burnout, back to health. It wasnt willpower. It was understanding the machinery.</p>
-      <p>At the end of the day, ageing isnt inevitable decline. Its a loss of cellular currency. NAD+ is the master regulator of energy, repair, and longevity. When it drops, everything breaks down. When you restore it, you restore function.</p>
+      <p>The point is this: ageing isnt inevitable decline. Its a loss of cellular currency. NAD+ is the master regulator of energy, repair, and longevity. When it drops, everything breaks down. When you restore it, you restore function.</p>
       <p>This isnt anti ageing hype. Its cellular economics.</p>
       <p>You can do this too.</p>
       <p><strong>- Dr. Gavin McAuley</strong></p>
@@ -796,7 +796,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Each specialist treated their organ system. No one connected the dots. This drives me mad.
+        Each specialist treated their organ system. No one connected the dots. This is genuinely frustrating.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -984,10 +984,10 @@ export const POSTS = [
         </p>
       </div>
 
-      <h2>My Honest Take</h2>
+      <h2>The Bigger Picture</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, modern medicine treats symptoms in silos. Rheumatology for joints. Psychiatry for mood. Gastroenterology for digestion.
+        Heres what Ive learned: modern medicine treats symptoms in silos. Rheumatology for joints. Psychiatry for mood. Gastroenterology for digestion.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1058,7 +1058,7 @@ export const POSTS = [
       
       <p>In my practice, I see this constantly. Patients in their 40s and 50s tell me, "Doc, I sleep 7 or 8 hours, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee."</p>
       
-      <p>Standard medicine often dismisses this as "ageing" or "stress." But thats rubbish. Its actually a <strong>waste clearance issue</strong>.</p>
+      <p>Standard medicine often dismisses this as "ageing" or "stress." But thats missing the point entirely—not because doctors are lazy, but because theyre measuring the wrong thing. Its actually a <strong>waste clearance issue</strong>.</p>
       
       <p>Your brain is a metabolic engine. It consumes 20% of your body's energy. Just like a car engine produces exhaust, your neurons produce metabolic waste (specifically proteins called Amyloid Beta and Tau).</p>
       
@@ -1130,7 +1130,7 @@ export const POSTS = [
       
       <h2>MY HONEST TAKE</h2>
       
-      <p>At the end of the day, brain fog is not a personality trait. It is biological toxicity. If you want your sharp, quick brain back, stop focusing on stimulants (caffeine) and start focusing on sewage management.</p>
+      <p>Let me be clear: brain fog is not a personality trait. It is biological toxicity. If you want your sharp, quick brain back, stop focusing on stimulants (caffeine) and start focusing on sewage management.</p>
       
       <p>This is where I became a convert. I take magnesium glycinate religiously now. The difference is noticeable. Sleep quality improved within the first week.</p>
       
@@ -1287,8 +1287,9 @@ export const POSTS = [
         </a>
       </div>
 
-      <h2>My Honest Take</h2>
-      <p>At the end of the day, stop buying proprietary blends with neon labels. Real cognitive performance doesnt feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
+      <h2>Where I Stand</h2>
+      
+      <p>My advice? Stop buying proprietary blends with neon labels. Real cognitive performance doesnt feel like a jittery high. It feels like clarity, endurance, and the ability to handle pressure without cracking.</p>
       <p>Ill be upfront: creatine is one of my favourite supplements. Not just for athletes. For everyone. My partner is a teacher. She went from being an exhausted wreck in the evenings to functioning normally. When she stopped taking it, the fatigue came back. Clear as day.</p>
       <p><strong>The Stack:</strong></p>
       <ul>
@@ -1412,7 +1413,7 @@ export const POSTS = [
         \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eEnhanced executive function\u003c/strong\u003e (planning, decision-making, working memory)\u003c/li\u003e
         \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eImproved episodic memory\u003c/strong\u003e (remembering names, events, conversations)\u003c/li\u003e
         \u003cli style=\"margin-bottom: 0.75rem;\"\u003e\u003cstrong\u003eNo significant side effects\u003c/strong\u003e\u003c/li\u003e
-      \u003c/ul\u003e
+        \u003c/ul\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
         The placebo group? No change. The MgT group? \u003cstrong\u003eMeasurable cognitive rejuvenation\u003c/strong\u003e.
@@ -1647,9 +1648,9 @@ export const POSTS = [
         </a>
       </div>
       
-      <h2>MY HONEST TAKE</h2>
+      <h2>Takeaway</h2>
       
-      <p>At the end of the day, the shrinking of your brain is the default setting of modern life. If you do what average people do, eat constantly, sit still, and avoid discomfort, your hippocampus will wither.</p>
+      <p>Heres the reality: the shrinking of your brain is the default setting of modern life. If you do what average people do, eat constantly, sit still, and avoid discomfort, your hippocampus will wither.</p>
       
       <p>But you have the manual override. Sprint until your legs burn. Fast until your mind clears. Feed your brain the raw materials it needs to rebuild.</p>
       
@@ -1702,8 +1703,9 @@ export const POSTS = [
       <p>You walk into your doctor’s office, dragging a heavy invisible weight behind you. You are sleeping (sort of). You are eating (mostly) well. But you feel like you are wading through treacle. Your focus is shot, your motivation is zero, and the coffee isn't working anymore.</p>
       <p>The doctor nods, listens, and orders the "Standard Panel": CBC, CMP, TSH.</p>
       <p>Three days later, you get the call: "Good news! Everything looks normal. You're fine."</p>
-      <p>But you don't feel fine. You feel dead.</p>
-      <p>This drives me mad. You arent imagining the fatigue. You are just looking for it in the wrong place.</p>
+      <p>This patient is miserable. Their quality of life is tanking. And nobody believes them because the labs are "normal."</p>
+      
+      <p>This is genuinely one of the most frustrating things I see in medicine. You arent imagining the fatigue. You are just looking for it in the wrong place.</p>
 
       <h2>THE REFERENCE RANGE TRAP</h2>
       <p>To understand why your doctor missed your problem, you have to understand how "Normal" is defined.</p>
@@ -1736,8 +1738,9 @@ export const POSTS = [
       <p>You cannot supplement your way out of a sedentary lifestyle. You must signal your body to build a bigger grid. We use Zone 2 Cardiovascular Training—steady-state effort where you can maintain a conversation, but it feels strained (Lactate < 2mmol).</p>
       <p><strong>The Mechanism:</strong> This specific intensity creates a high demand for oxygen without flooding the system with stress hormones. It forces your cells to grow more mitochondria to keep up with the demand. It is the only way to physically expand your engine.</p>
 
-      <h2>MY HONEST TAKE</h2>
-      <p>At the end of the day, "Normal" is not the goal. Resilience is the goal.</p>
+      <h2>Final Thoughts</h2>
+      
+      <p>"Normal" is not the goal. Resilience is the goal.</p>
       <p>If your labs are normal but your life feels heavy, stop looking for a disease and start treating the dysfunction. I take alpha lipoic acid and CoQ10 personally. Upgrade your mitochondrial support. Commit to the Zone 2 work. Fix the engine at the cellular level.</p>
     `
   },
@@ -5214,7 +5217,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Catch</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, neither of these will fix a terrible diet or chronic sleep deprivation. Theyre multipliers, not magic pills. If youre eating processed rubbish and sleeping five hours a night, quercetin isnt going to save you.
+        Let me be blunt: neither of these will fix a terrible diet or chronic sleep deprivation. Theyre multipliers, not magic pills. If youre eating processed rubbish and sleeping five hours a night, quercetin isnt going to save you.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">

@@ -124,11 +124,13 @@ export default function About() {
 
             <div className="container" style={{ paddingTop: '6rem', paddingBottom: '0' }}>
 
-                {/* Profile Image - The Face of the Protocol */}
+                {/* Profile Image with Quote */}
                 <div style={{
                     display: 'flex',
-                    justifyContent: 'center',
-                    marginBottom: '6rem'
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    marginBottom: '6rem',
+                    gap: '2.5rem'
                 }} data-aos="fade-up">
                     <div style={{
                         position: 'relative',
@@ -140,15 +142,34 @@ export default function About() {
                         boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
                     }}>
                         <img
-                            src="/dr_gavin_headshot.png"
+                            src="/dr-gavin-mcauley.jpg"
                             alt="Dr. Gavin McAuley"
                             style={{
                                 width: '100%',
                                 height: '100%',
-                                objectFit: 'cover'
+                                objectFit: 'cover',
+                                objectPosition: 'center top'
                             }}
                         />
                     </div>
+                    <blockquote style={{
+                        textAlign: 'center',
+                        maxWidth: '700px',
+                        margin: '0',
+                        padding: '0 2rem'
+                    }}>
+                        <p style={{
+                            fontSize: 'clamp(1.3rem, 2.5vw, 1.8rem)',
+                            fontStyle: 'italic',
+                            color: 'var(--color-text)',
+                            lineHeight: '1.6',
+                            fontWeight: '500',
+                            margin: '0'
+                        }}>
+                            "I spent years meeting people when it was already urgent.<br />
+                            <span style={{ color: 'var(--color-accent-teal)' }}>Now I help people long before it gets to that point.</span>"
+                        </p>
+                    </blockquote>
                 </div>
 
                 {/* Section 1: The George Clooney Myth */}

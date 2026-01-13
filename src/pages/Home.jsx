@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
-import HeroSection from '../components/HeroSection';
+import HeroSectionHybrid from '../components/HeroSectionHybrid';
 import EmailCapture from '../components/EmailCapture';
 import TestimonialsSection from '../components/TestimonialsSection';
 import FAQSection from '../components/FAQSection';
@@ -90,74 +90,7 @@ export default function Home() {
                 ogImage="/home_hero_user.png"
                 schemaData={[organizationSchema, websiteSchema, faqSchema]}
             />
-            <HeroSection
-                title={
-                    <span style={{ display: 'block', lineHeight: 1.1 }}>
-                        <span style={{
-                            color: '#1A3C34',
-                            fontSize: 'clamp(2rem, 7vw, 4rem)',
-                            fontWeight: '900',
-                            display: 'block',
-                            marginBottom: '1.5rem',
-                            letterSpacing: 'normal'
-                        }}>
-                            I REVERSED MY<br />BIOLOGICAL AGE
-                        </span>
-                        <span style={{
-                            color: '#20B2AA',
-                            fontWeight: '800',
-                            fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
-                            display: 'block',
-                            letterSpacing: '0.05em'
-                        }}>
-                            NOW I SHOW YOU HOW
-                        </span>
-                    </span>
-                }
-                backgroundImage="/home_hero_user.png"
-                subtitle="Dr. Gavin McAuley, MBChB • 125kg → 95kg • ER Doctor → Longevity Strategist"
-                overlay="linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,1) 100%)"
-                textColor="#1A3C34"
-                subtitleColor="#064E3B"
-                subtitleWeight="600"
-            >
-                {/* DNA Helix Background Pattern */}
-                <div style={{
-                    position: 'fixed',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    zIndex: -1,
-                    opacity: 0.08,
-                    pointerEvents: 'none',
-                    background: `url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='dna' x='0' y='0' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Cpath d='M100,0 Q120,50 100,100 T100,200' stroke='%2320B2AA' stroke-width='3' fill='none' opacity='0.4'/%3E%3Cpath d='M100,0 Q80,50 100,100 T100,200' stroke='%2320B2AA' stroke-width='3' fill='none' opacity='0.4'/%3E%3Ccircle cx='100' cy='25' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='75' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='125' r='4' fill='%2320B2AA'/%3E%3Ccircle cx='100' cy='175' r='4' fill='%2320B2AA'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='400' height='400' fill='url(%23dna)'/%3E%3C/svg%3E")`,
-                    animation: 'dnaFloat 60s linear infinite'
-                }} />
-                <style>{`
-                    @keyframes dnaFloat {
-                        0% { transform: translateY(0px); }
-                        100% { transform: translateY(-200px); }
-                    }
-                `}</style>
-
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.8, duration: 0.8 }}
-                    style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '2rem' }}
-                >
-                    <Link to="#email-capture" className="btn-primary" style={{ padding: '1.25rem 3rem', fontSize: '1rem', fontWeight: '700' }} onClick={(e) => {
-                        e.preventDefault();
-                        document.querySelector('#email-capture')?.scrollIntoView({ behavior: 'smooth' });
-                    }}>
-                        GET THE 5 LABS CHECKLIST
-                    </Link>
-                    <Link to="/protocol" className="btn-secondary" style={{ padding: '1.25rem 3rem', fontSize: '1rem' }} onClick={() => window.scrollTo(0, 0)}>
-                        READ THE PROTOCOL
-                    </Link>
-                </motion.div>
-            </HeroSection>
+            <HeroSectionHybrid />
 
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
             <section style={{
@@ -222,6 +155,45 @@ export default function Home() {
                             overflow: 'hidden'
                         }}
                     >
+                        {/* Photo and Quote Section */}
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'center',
+                            marginBottom: '3rem',
+                            gap: '2rem'
+                        }}>
+                            <img
+                                src="/dr-gavin-mcauley.jpg"
+                                alt="Dr. Gavin McAuley"
+                                style={{
+                                    width: '180px',
+                                    height: '180px',
+                                    borderRadius: '50%',
+                                    objectFit: 'cover',
+                                    objectPosition: 'center top',
+                                    border: '4px solid rgba(32, 178, 170, 0.3)',
+                                    boxShadow: '0 10px 30px rgba(26, 60, 52, 0.2)'
+                                }}
+                            />
+                            <blockquote style={{
+                                textAlign: 'center',
+                                maxWidth: '600px',
+                                margin: '0'
+                            }}>
+                                <p style={{
+                                    fontSize: '1.5rem',
+                                    fontStyle: 'italic',
+                                    color: '#1A3C34',
+                                    lineHeight: '1.6',
+                                    fontWeight: '500',
+                                    margin: '0'
+                                }}>
+                                    "I spent years meeting people when it was already urgent.<br />
+                                    <span style={{ color: '#20B2AA' }}>Now I help people long before it gets to that point.</span>"
+                                </p>
+                            </blockquote>
+                        </div>
 
 
                         {/* Bio Text - Premium Typography */}

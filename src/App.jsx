@@ -30,6 +30,7 @@ const TermsConditions = lazy(() => import('./pages/TermsConditions'));
 const InsulinStory = lazy(() => import('./pages/InsulinStory'));
 const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
 const DiagnosticsPortal = lazy(() => import('./pages/DiagnosticsPortal'));
+const HeroCompare = lazy(() => import('./pages/HeroCompare'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -129,6 +130,7 @@ function AppContent() {
             <Route path="/terms" element={<TermsConditions />} />
             <Route path="/insulin-story" element={<InsulinStory />} />
             <Route path="/diagnostics-portal" element={<DiagnosticsPortal />} />
+            <Route path="/hero-compare" element={<HeroCompare />} />
           </Routes>
         </div>
       </Suspense>
