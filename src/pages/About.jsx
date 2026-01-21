@@ -143,7 +143,7 @@ export default function About() {
                     }}>
                         <img
                             src="/dr-gavin-mcauley.jpg"
-                            alt="Dr. Gavin McAuley"
+                            alt="Dr. Gavin McAuley - GP and Longevity Physician, founder of EMPOWERVIDA"
                             style={{
                                 width: '100%',
                                 height: '100%',

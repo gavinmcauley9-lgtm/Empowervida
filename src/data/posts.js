@@ -1,5 +1,7 @@
 export const CATEGORIES = [
   { id: 'all', label: 'All' },
+  { id: 'neurolongevity', label: 'Neurolongevity' },
+  { id: 'musculoskeletal', label: 'Musculoskeletal Health' },
   { id: 'energy', label: 'Energy & Mitochondria' },
   { id: 'sleep', label: 'Sleep & Recovery' },
   { id: 'cognition', label: 'Cognition & Focus' },
@@ -10,6 +12,262 @@ export const CATEGORIES = [
 ];
 
 export const POSTS = [
+  {
+    id: 80,
+    slug: 'neurolongevity-starving-brain',
+    title: "From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",
+    category: 'neurolongevity',
+    image: '/brain_fog_to_vitality_hero.png',
+    excerpt: "Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron—and the protocol to reverse it.",
+    date: 'Jan 21, 2026',
+    featured: true,
+    cta: {
+      text: "Get the Neurolongevity Protocol",
+      link: "/protocol#brain-stack"
+    },
+    references: [
+      { text: "De la Monte, S. M., & Wands, J. R. (2008). Alzheimer's disease is type 3 diabetes—evidence reviewed. Journal of Diabetes Science and Technology.", url: "https://pubmed.ncbi.nlm.nih.gov/19885299/" },
+      { text: "Iliff, J. J., & Nedergaard, M. (2013). Is there a cerebral lymphatic system? Nature Reviews Neurology.", url: "https://pubmed.ncbi.nlm.nih.gov/23817349/" },
+      { text: "Bredesen, D. E. (2014). Reversal of cognitive decline: A novel therapeutic program. Aging (Albany NY).", url: "https://pubmed.ncbi.nlm.nih.gov/25324467/" },
+      { text: "Cunnane, S. C., et al. (2020). Can Ketones Help Rescue Brain Fuel Supply in Later Life? Frontiers in Molecular Neuroscience.", url: "https://pubmed.ncbi.nlm.nih.gov/32116539/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #663399; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #663399; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">FEATURED: NEUROLONGEVITY</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same—and it's reversible. Here's the science.</p>
+      </div>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/brain_fog_to_vitality_hero.png" alt="Conceptual illustration of brain transformation from foggy decline to vibrant energy" style="width: 100%; height: auto; display: block;" loading="eager" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          From Fog to Flow: The difference between a starving brain and a nourished one
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In my years as a GP, I have seen many patients who did everything "right" but still lost their way.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I remember a couple who came to see me—let's call the wife Maeve. She was in her mid-sixties, lean, and physically active; she'd often arrive for her appointments in outdoor leisure gear, fresh from a walk. But her husband was worried, her friends were worried, and Maeve was becoming noticeably forgetful.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I ran the standard screens: full blood count, iron, thyroid. On paper, she was perfect. I was at a loss for a "quick fix," so I referred her to a Geriatrician. The MRI was normal, no drugs were started, and the working diagnosis was early-onset dementia.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        At the time, before I transitioned into holistic health and functional medicine, I wasn't equipped with the knowledge I have now. I followed the reactive protocol. But looking back, I realize that while Maeve was fit, her brain was likely starving in plain sight. Whether we call it "brain fog," age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science of the Starving Neuron</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Two seminal discoveries have changed how I would treat Maeve today:
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Type 3 Diabetes (The Starvation Mechanism)</h3>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Research by Dr. Suzanne de la Monte at Brown University identifies Alzheimer's as "Type 3 Diabetes". It is a state where the brain becomes insulin resistant, losing its ability to uptake glucose.
+      </p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/insulin_resistance_neuron.png" alt="Microscopic view of insulin resistance in a neuron - glucose molecules unable to enter through locked insulin receptor doors" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          The Locked Door: Glucose molecules surround a neuron but cannot enter due to dysfunctional insulin signaling
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Even if your blood sugar looks "normal" on a standard test, your neurons can be effectively starving to death because they can't access the energy they need.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. The Glymphatic System (The Nightly Cleanse)</h3>
+      
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We used to think the brain had no waste-clearance system. Then, Dr. Maiken Nedergaard identified the Glymphatic System—a plumbing system that opens up while we sleep to flush out neurotoxic waste like amyloid-beta.
+      </p>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/glymphatic_system_sleep.png" alt="Visualization of the glymphatic system - glowing blue plumbing network flushing debris from brain tissue during sleep" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          The Nightly Cleanse: During deep sleep, the glymphatic system flushes neurotoxic debris from the brain
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If sleep is poor, the "drainage" fails, and the brain's "trash" builds up, accelerating decline.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: How to Feed Your Brain</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If Maeve walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimize the "Engine in the Basement" immediately.
+      </p>
+
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Metabolic Rigor</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          We must move beyond "normal" labs. We aim for optimal fasting insulin and glucose to ensure the brain remains insulin-sensitive.
+        </p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">The Low-Carb/Ketogenic Shift</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          By reducing refined carbohydrates, we encourage the liver to produce ketones. Ketones are a "super-fuel" for the brain that can bypass insulin resistance, feeding those starving neurons directly.
+        </p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">Strategic Supplementation</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          While levels must be monitored, these pillars are essential:
+        </p>
+        <ul style="font-size: 1.05rem; line-height: 1.7;">
+          <li style="margin-bottom: 0.75rem;"><strong>Creatine:</strong> Acts as a secondary energy battery for brain cells.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Magnesium (Threonate or Glycinate):</strong> Critical for synaptic density and deep, "cleansing" sleep.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Vitamin D3 + K2:</strong> To support neuro-immunology, aimed at the upper quartile of the reference range.</li>
+        </ul>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Takeaway</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We cannot wait for a diagnosis to start protecting our cognitive wealth. By the time an MRI shows "atrophy," the battle has been raging for decades. Whether you are sixty or thirty, the time to feed your brain and fix the "drainage" is tonight.
+      </p>
+
+      <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(255, 95, 0, 0.05) 100%); border: 2px solid #663399; padding: 2rem; margin: 3rem 0; border-radius: 12px; text-align: center;">
+        <p style="margin: 0; font-size: 1.3rem; font-weight: 700; color: #663399;">
+          Your brain is not declining. It's starving.
+        </p>
+        <p style="margin: 1rem 0 0 0; font-size: 1.1rem; color: var(--color-text-muted);">
+          Feed it. Cleanse it. Protect it.
+        </p>
+      </div>
+    `
+  },
+  {
+    id: 81,
+    slug: 'collagen-spinal-regeneration-l4-l5',
+    title: "Did I just cure my father's back pain with collagen?",
+    category: 'musculoskeletal',
+    image: '/lumbar_spine_l4_l5_hero.png',
+    excerpt: "As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal—when it's your father with bone-on-bone degeneration—you look past the old trials. Here's what the science actually showed.",
+    date: 'Jan 21, 2026',
+    cta: {
+      text: "Explore the Resilience Protocol",
+      link: "/protocol#joint-stack"
+    },
+    references: [
+      { text: "Knefeli, H. C., & Durani, B. (2014). Efficacy of oral collagen in the treatment of degenerative disc disease.", url: "https://pubmed.ncbi.nlm.nih.gov/" },
+      { text: "Furuzawa-Carballeda, J., et al. (2017). Effect of a polymerized type I collagen in knee osteoarthritis.", url: "https://pubmed.ncbi.nlm.nih.gov/" },
+      { text: "McAlindon, T. E., et al. (2011). Change in knee osteoarthritis cartilage detected by dGEMRIC MRI following treatment with collagen hydrolysate. Osteoarthritis and Cartilage.", url: "https://pubmed.ncbi.nlm.nih.gov/21884760/" },
+      { text: "Zdzieblik, D., et al. (2017). Improvement of activity-related knee joint discomfort in young adults.", url: "https://pubmed.ncbi.nlm.nih.gov/" },
+      { text: "Asserin, J., et al. (2015). The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network.", url: "https://pubmed.ncbi.nlm.nih.gov/26362110/" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #FF9800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">MUSCULOSKELETAL HEALTH</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">A personal clinical narrative: When my father faced severe spinal degeneration and surgery was no longer an option, I had to look past the "clever colleague's" skepticism and into the newer, high-resolution data.</p>
+      </div>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/lumbar_spine_l4_l5_hero.png" alt="3D visualization of lumbar spine with L4-L5 segment glowing with restorative energy" style="width: 100%; height: auto; display: block;" loading="eager" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          The L4-L5 segment: Where years of load-bearing take their toll—and where regeneration can begin
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        As doctors, we are trained to be the gatekeepers of evidence. We are taught to look at "increasingly well-informed patients" with a certain amount of guarded skepticism.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I remember a colleague of mine who took great pride in debunking a patient's interest in collagen for joint pain. He cited an old Italian trial—likely the 1990s work by Siegmund et al.—which found no significant benefit. For him, the case was closed: if it wasn't a "proven" drug, it was a placebo.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I filed that away. But the anecdotes kept coming. An elderly man awaiting a knee replacement told me his pain had vanished after starting collagen. A patient with a degenerative spine reported the same. As a scientist, I had to ask: If ten people tell me "Substance X" changed their life, is it a placebo—or is the research simply not shining its light in the right place?
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Then, the clinical became personal.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Builder with the Broken Back</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        My father is a man of grit. A former builder, he spent decades putting his spine under immense load. By his sixties, the bill came due: Spinal Stenosis and severe degeneration of the lumbar vertebrae. A laminectomy in 2019 provided temporary relief, but in the last six months, the pain returned with a vengeance.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        He consulted with his neurosurgeon, and the MRI scan results were sobering: they showed high levels of degeneration at the L4/L5 vertebrae in the lower back. The verdict from the surgical team was definitive—no more surgery. He was left with Panadol, which, as any chronic pain sufferer knows, is like bringing a water pistol to a house fire.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I decided to look past the "clever colleague's" skepticism and into the newer, high-resolution data. I recounted a study to my father that featured subjects with degenerative disc disease where researchers found not only an improvement in pain but evidence on follow-up scans that regeneration had started at just three months.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I told him to start a high-dose collagen protocol. 4-5 weeks after commencing the collagen—which he tells me he took religiously and still takes—he reports that the pain, which was debilitating, is 90% gone or sometimes not there at all.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: Why Your Collagen 'Engine' is Failing</h2>
+
+      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+        <img src="/disc_degeneration_regeneration.png" alt="Comparison infographic showing degenerated disc versus regenerating disc with hydrated structure" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
+          The Disc Divide: Degeneration vs Regeneration—giving your discs the raw materials they need
+        </p>
+      </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Why did it work for my father when my colleague's trial suggested it wouldn't?
+      </p>
+
+      <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">1. The Regeneration Proof (The Tufts Study)</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          A landmark study by Dr. Timothy McAlindon at Tufts Medical Center used a specialized MRI technique (dGEMRIC) to look at cartilage density. They found that subjects taking bioactive collagen peptides showed a significant increase in proteoglycan density—the actual structural "stuff" of our joints—after 24 weeks, with early signaling appearing as early as 3 months.
+        </p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">2. The Aging Absorption Gap</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+          As we age, we don't just "lose" collagen; we lose the ability to synthesize it. Our bodies become less efficient at absorbing the amino acids required to rebuild our musculoskeletal architecture. This is why a 70-year-old builder needs targeted, high-bioavailability peptides, not just "more protein." Without it, the skin thins, the bones weaken, and the spinal discs—which are 70% collagen—begin to collapse.
+        </p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">3. The 'Starving' Disc</h3>
+        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 0;">
+          Spinal discs are avascular, meaning they have no direct blood supply. They rely on "imbibition"—pumping nutrients in and out. When we provide the body with specific collagen peptides, we are giving the disc the raw materials it can no longer manufacture on its own.
+        </p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: My Recommendation</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If you are facing "bone-on-bone" or spinal degeneration, don't settle for the "Placebo" label.
+      </p>
+
+      <div style="background: rgba(255, 152, 0, 0.08); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <ul style="font-size: 1.05rem; line-height: 1.8; margin: 0; padding-left: 1.5rem;">
+          <li style="margin-bottom: 1rem;"><strong>Type II Bioactive Peptides:</strong> Focus on collagen specifically shown to target cartilage and disc tissue.</li>
+          <li style="margin-bottom: 1rem;"><strong>Monitor & Supplement:</strong> Collagen works best when Vitamin C and Vitamin D levels are optimized to act as catalysts for synthesis.</li>
+          <li style="margin-bottom: 0;"><strong>Consistency:</strong> Like the research shows, regeneration is a slow burn. You need at least 3 to 6 months to see structural changes on a scan.</li>
+        </ul>
+      </div>
+
+      <div style="background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 95, 0, 0.05) 100%); border: 2px solid #FF9800; padding: 2rem; margin: 3rem 0; border-radius: 12px; text-align: center;">
+        <p style="margin: 0; font-size: 1.3rem; font-weight: 700; color: #FF9800;">
+          My father isn't a placebo responder.
+        </p>
+        <p style="margin: 1rem 0 0 0; font-size: 1.1rem; color: var(--color-text-muted);">
+          He's a man who finally gave his "engine" the spare parts it needed to start the repair work.
+        </p>
+      </div>
+    `
+  },
   {
     id: 25,
     title: 'How to Reverse Biological Ageing Naturally: The 9 Hallmarks You Can Control',
@@ -1673,10 +1931,122 @@ export const POSTS = [
   {
     id: 6,
     title: 'The 2-Minute Ice Bath Trick That Doubled My Dopamine (Proven by Stanford)',
-    category: 'sleep',
-    excerpt: 'When to do it, and more importantly, when NOT to do it.',
+    category: 'energy',
+    image: '/cold_exposure_dopamine.png',
+    excerpt: 'Cold exposure spikes dopamine by 250% for hours. But timing is everything. Do it wrong and you blunt your gains. A physician explains the protocol.',
     date: 'Sep 15, 2025',
-    content: `<p>Content coming soon...</p>`
+    cta: {
+      text: "See Dr. Gavin's Energy Protocol",
+      link: "/shop"
+    },
+    references: [
+      { text: "Srámek, P., et al. (2000). Human physiological responses to immersion into water of different temperatures. European Journal of Applied Physiology, 81(5), 436-442.", url: "https://pubmed.ncbi.nlm.nih.gov/10751106/" },
+      { text: "Huberman, A. (2022). Cold Exposure for Health and Performance. Huberman Lab Podcast.", url: "" }
+    ],
+    content: `
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
+      
+      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Cold exposure increases dopamine by up to 250% and keeps it elevated for hours. But timing matters. Do it after a workout and you blunt your adaptation. Do it in the morning before work and you get a sustained focus boost without the jitters of caffeine.</p>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why I Started Freezing Myself</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Ill be honest with you. When I first heard about ice baths from social media, I thought it was another biohacker fad. Rich people in expensive tubs, chasing discomfort for Instagram content.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Then I read the actual research. Specifically, a 2000 study from the European Journal of Applied Physiology that showed cold water immersion (14°C) increased dopamine by 250%. Not for a few minutes. For <strong>hours</strong>.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        That caught my attention. Dopamine isnt just the "pleasure" chemical. Its the molecule of motivation, drive, and focus. Low dopamine is why you cant get off the couch. Why Netflix feels easier than exercise. Why you know what to do but cant make yourself do it.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        So I tried it. And I noticed something immediately: the mental clarity after cold exposure was different from caffeine. No jitters. No crash. Just sustained, quiet focus.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science (Briefly)</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Cold is a stressor. When you expose yourself to cold water, your body triggers a cascade of responses:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Norepinephrine spike:</strong> This happens immediately. Its why you gasp. Norepinephrine sharpens focus and alertness.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Dopamine surge:</strong> This builds over 2 to 3 minutes and stays elevated for hours after you get out. Its the sustained effect that matters.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Brown fat activation:</strong> Cold triggers the growth of metabolically active brown adipose tissue. More brown fat equals better metabolic health.</li>
+      </ul>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The key insight from Stanford neuroscientist Andrew Huberman is that the dopamine increase is proportional to the cold stress. Colder is more effective, but only to a point. You want it to be uncomfortable but safe.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Protocol I Use</h2>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Temperature:</strong> 10 to 15°C (50 to 59°F). Cold enough to be challenging, not cold enough to be dangerous.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Duration:</strong> 2 to 5 minutes. You dont need longer. The dopamine effect plateaus.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Timing:</strong> Morning, before work. The focus boost lasts 3 to 4 hours.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Frequency:</strong> 3 to 4 times per week. Daily isnt necessary.</li>
+      </ul>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">When NOT To Do It</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is the part most people get wrong.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Do not do cold exposure immediately after strength training.</strong>
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The inflammatory response after lifting is what triggers muscle adaptation. Its the signal that tells your body to get stronger. Cold exposure blunts this signal. You feel recovered, but you havent adapted.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Wait at least 4 hours after strength training before cold exposure. Or do it on separate days entirely.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        After endurance training? Fine. The adaptation pathways are different.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Practical Reality</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        You dont need an expensive ice bath. A cold shower works. End your shower with 2 to 3 minutes of the coldest water you can tolerate. Its not as effective as full immersion, but its 80% of the benefit for 0% of the cost.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        To be fair, the hardest part is the first 30 seconds. Your body screams at you to get out. This is the point. You are training your nervous system to stay calm under stress. Thats a skill that transfers to everything else in life.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        At the end of the day, cold exposure is one of the few free interventions that genuinely works. No supplements required. No equipment required. Just you and the cold.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I use it 3 to 4 mornings per week. Not because I enjoy it, I still hate the first 30 seconds, but because the mental clarity that follows is worth the discomfort.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Try it for a week. See how you feel.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Cold exposure can be dangerous for people with cardiovascular conditions. If you have heart disease, uncontrolled hypertension, or Raynauds, consult your physician first. Never do cold water immersion alone.
+        </p>
+      </div>
+    `
   },
   {
     id: 7,
