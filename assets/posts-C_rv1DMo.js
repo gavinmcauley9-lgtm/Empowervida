@@ -72,7 +72,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: How to Feed Your Brain</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If Maeve walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimize the "Engine in the Basement" immediately.
+        If Maeve walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimise the "Engine in the Basement" immediately.
       </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
@@ -111,7 +111,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
           Feed it. Cleanse it. Protect it.
         </p>
       </div>
-    `},{id:81,slug:"collagen-spinal-regeneration-l4-l5",title:"Did I just cure my father's back pain with collagen?",category:"musculoskeletal",image:"/lumbar_spine_l4_l5_hero.png",excerpt:"As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal—when it's your father with bone-on-bone degeneration—you look past the old trials. Here's what the science actually showed.",date:"Jan 21, 2026",cta:{text:"Explore the Resilience Protocol",link:"/protocol#joint-stack"},references:[{text:"Knefeli, H. C., & Durani, B. (2014). Efficacy of oral collagen in the treatment of degenerative disc disease.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Furuzawa-Carballeda, J., et al. (2017). Effect of a polymerized type I collagen in knee osteoarthritis.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"McAlindon, T. E., et al. (2011). Change in knee osteoarthritis cartilage detected by dGEMRIC MRI following treatment with collagen hydrolysate. Osteoarthritis and Cartilage.",url:"https://pubmed.ncbi.nlm.nih.gov/21884760/"},{text:"Zdzieblik, D., et al. (2017). Improvement of activity-related knee joint discomfort in young adults.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Asserin, J., et al. (2015). The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network.",url:"https://pubmed.ncbi.nlm.nih.gov/26362110/"}],content:`
+    `},{id:81,slug:"collagen-spinal-regeneration-l4-l5",title:"Did collagen fix my father's back pain?",category:"musculoskeletal",image:"/lumbar_spine_l4_l5_hero.png",excerpt:"As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal—when it's your father with bone-on-bone degeneration—you look past the old trials. Here's what the science actually showed.",date:"Jan 21, 2026",cta:{text:"Explore the Resilience Protocol",link:"/protocol#joint-stack"},references:[{text:"Knefeli, H. C., & Durani, B. (2014). Efficacy of oral collagen in the treatment of degenerative disc disease.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Furuzawa-Carballeda, J., et al. (2017). Effect of a polymerized type I collagen in knee osteoarthritis.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"McAlindon, T. E., et al. (2011). Change in knee osteoarthritis cartilage detected by dGEMRIC MRI following treatment with collagen hydrolysate. Osteoarthritis and Cartilage.",url:"https://pubmed.ncbi.nlm.nih.gov/21884760/"},{text:"Zdzieblik, D., et al. (2017). Improvement of activity-related knee joint discomfort in young adults.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Asserin, J., et al. (2015). The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network.",url:"https://pubmed.ncbi.nlm.nih.gov/26362110/"}],content:`
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -199,7 +199,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <div style="background: rgba(255, 152, 0, 0.08); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <ul style="font-size: 1.05rem; line-height: 1.8; margin: 0; padding-left: 1.5rem;">
           <li style="margin-bottom: 1rem;"><strong>Type II Bioactive Peptides:</strong> Focus on collagen specifically shown to target cartilage and disc tissue.</li>
-          <li style="margin-bottom: 1rem;"><strong>Monitor & Supplement:</strong> Collagen works best when Vitamin C and Vitamin D levels are optimized to act as catalysts for synthesis.</li>
+          <li style="margin-bottom: 1rem;"><strong>Monitor & Supplement:</strong> Collagen works best when Vitamin C and Vitamin D levels are optimised to act as catalysts for synthesis.</li>
           <li style="margin-bottom: 0;"><strong>Consistency:</strong> Like the research shows, regeneration is a slow burn. You need at least 3 to 6 months to see structural changes on a scan.</li>
         </ul>
       </div>
@@ -1453,7 +1453,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So they engineered a solution: <strong>Magnesium L-Threonate (MgT)</strong>—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognizes threonate and opens the gate.
+        So they engineered a solution: <strong>Magnesium L-Threonate (MgT)</strong>—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognises threonate and opens the gate.
       </p>
 
       <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1544,7 +1544,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognizes it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
+        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognises it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2196,7 +2196,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p><strong>Here is the key:</strong> Cytokines kill your mood. They block the conversion of Tryptophan into Serotonin (your happy chemical) and instead turn it into a neurotoxin called Quinolinic Acid.</p>
       
-      <p><strong>The Result:</strong> You feel anxious, withdrawn, and foggy. Evolutionarily, this is called "Sickness Behavior." Your body wants you to isolate yourself to heal. But in the modern world, you aren't sick; you're just inflamed.</p>
+      <p><strong>The Result:</strong> You feel anxious, withdrawn, and foggy. Evolutionarily, this is called "Sickness Behaviour." Your body wants you to isolate yourself to heal. But in the modern world, you aren't sick; you're just inflamed.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/glymphatic_system.png" alt="Microglia Activation" style="width: 100%; height: auto; display: block;" />
