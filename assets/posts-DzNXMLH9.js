@@ -1,9 +1,9 @@
-const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id:"musculoskeletal",label:"Musculoskeletal Health"},{id:"energy",label:"Energy & Mitochondria"},{id:"sleep",label:"Sleep & Recovery"},{id:"cognition",label:"Cognition & Focus"},{id:"inflammation",label:"Inflammation & Cognition"},{id:"metabolic",label:"Metabolic Health"},{id:"longevity",label:"Longevity & Disease Prevention"},{id:"pantry",label:"Physician’s Pantry"}],t=[{id:80,slug:"neurolongevity-starving-brain",title:"From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",category:"neurolongevity",image:"/brain_fog_to_vitality_hero.png",excerpt:"Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron—and the protocol to reverse it.",date:"Jan 21, 2026",featured:!0,cta:{text:"Get the Neurolongevity Protocol",link:"/protocol#brain-stack"},references:[{text:"De la Monte, S. M., & Wands, J. R. (2008). Alzheimer's disease is type 3 diabetes—evidence reviewed. Journal of Diabetes Science and Technology.",url:"https://pubmed.ncbi.nlm.nih.gov/19885299/"},{text:"Iliff, J. J., & Nedergaard, M. (2013). Is there a cerebral lymphatic system? Nature Reviews Neurology.",url:"https://pubmed.ncbi.nlm.nih.gov/23817349/"},{text:"Bredesen, D. E. (2014). Reversal of cognitive decline: A novel therapeutic program. Aging (Albany NY).",url:"https://pubmed.ncbi.nlm.nih.gov/25324467/"},{text:"Cunnane, S. C., et al. (2020). Can Ketones Help Rescue Brain Fuel Supply in Later Life? Frontiers in Molecular Neuroscience.",url:"https://pubmed.ncbi.nlm.nih.gov/32116539/"}],content:`
+const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id:"musculoskeletal",label:"Musculoskeletal Health"},{id:"energy",label:"Energy & Mitochondria"},{id:"sleep",label:"Sleep & Recovery"},{id:"cognition",label:"Cognition & Focus"},{id:"inflammation",label:"Inflammation & Cognition"},{id:"metabolic",label:"Metabolic Health"},{id:"longevity",label:"Longevity & Disease Prevention"},{id:"pantry",label:"Physician’s Pantry"}],t=[{id:80,slug:"neurolongevity-starving-brain",title:"From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",category:"neurolongevity",image:"/brain_fog_to_vitality_hero.png",excerpt:"Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron, and the protocol to reverse it.",date:"Jan 21, 2026",featured:!0,cta:{text:"Get the Neurolongevity Protocol",link:"/protocol#brain-stack"},references:[{text:"De la Monte, S. M., & Wands, J. R. (2008). Alzheimer's disease is type 3 diabetes, evidence reviewed. Journal of Diabetes Science and Technology.",url:"https://pubmed.ncbi.nlm.nih.gov/19885299/"},{text:"Iliff, J. J., & Nedergaard, M. (2013). Is there a cerebral lymphatic system? Nature Reviews Neurology.",url:"https://pubmed.ncbi.nlm.nih.gov/23817349/"},{text:"Bredesen, D. E. (2014). Reversal of cognitive decline: A novel therapeutic program. Aging (Albany NY).",url:"https://pubmed.ncbi.nlm.nih.gov/25324467/"},{text:"Cunnane, S. C., et al. (2020). Can Ketones Help Rescue Brain Fuel Supply in Later Life? Frontiers in Molecular Neuroscience.",url:"https://pubmed.ncbi.nlm.nih.gov/32116539/"}],content:`
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #663399; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #663399; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">FEATURED: NEUROLONGEVITY</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same—and it's reversible. Here's the science.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same, and it's reversible. Here's the science.</p>
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
@@ -18,7 +18,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I remember a couple who came to see me—let's call the wife Maeve. She was in her mid-sixties, lean, and physically active; she'd often arrive for her appointments in outdoor leisure gear, fresh from a walk. But her husband was worried, her friends were worried, and Maeve was becoming noticeably forgetful.
+        I remember a couple who came to see me, let's call the wife Maeve. She was in her mid-sixties, lean, and physically active; she'd often arrive for her appointments in outdoor leisure gear, fresh from a walk. But her husband was worried, her friends were worried, and Maeve was becoming noticeably forgetful.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -55,7 +55,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. The Glymphatic System (The Nightly Cleanse)</h3>
       
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We used to think the brain had no waste-clearance system. Then, Dr. Maiken Nedergaard identified the Glymphatic System—a plumbing system that opens up while we sleep to flush out neurotoxic waste like amyloid-beta.
+        We used to think the brain had no waste-clearance system. Then, Dr. Maiken Nedergaard identified the Glymphatic System, a plumbing system that opens up while we sleep to flush out neurotoxic waste like amyloid-beta.
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
@@ -111,7 +111,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
           Feed it. Cleanse it. Protect it.
         </p>
       </div>
-    `},{id:81,slug:"collagen-spinal-regeneration-l4-l5",title:"Did collagen fix my father's back pain?",category:"musculoskeletal",image:"/lumbar_spine_l4_l5_hero.png",excerpt:"As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal—when it's your father with bone-on-bone degeneration—you look past the old trials. Here's what the science actually showed.",date:"Jan 21, 2026",cta:{text:"Explore the Resilience Protocol",link:"/protocol#joint-stack"},references:[{text:"Knefeli, H. C., & Durani, B. (2014). Efficacy of oral collagen in the treatment of degenerative disc disease.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Furuzawa-Carballeda, J., et al. (2017). Effect of a polymerized type I collagen in knee osteoarthritis.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"McAlindon, T. E., et al. (2011). Change in knee osteoarthritis cartilage detected by dGEMRIC MRI following treatment with collagen hydrolysate. Osteoarthritis and Cartilage.",url:"https://pubmed.ncbi.nlm.nih.gov/21884760/"},{text:"Zdzieblik, D., et al. (2017). Improvement of activity-related knee joint discomfort in young adults.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Asserin, J., et al. (2015). The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network.",url:"https://pubmed.ncbi.nlm.nih.gov/26362110/"}],content:`
+    `},{id:81,slug:"collagen-spinal-regeneration-l4-l5",title:"Did collagen fix my father's back pain?",category:"musculoskeletal",image:"/lumbar_spine_l4_l5_hero.png",excerpt:"As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal, when it's your father with bone-on-bone degeneration. You look past the old trials. Here's what the science actually showed.",date:"Jan 21, 2026",cta:{text:"Explore the Resilience Protocol",link:"/protocol#joint-stack"},references:[{text:"Knefeli, H. C., & Durani, B. (2014). Efficacy of oral collagen in the treatment of degenerative disc disease.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Furuzawa-Carballeda, J., et al. (2017). Effect of a polymerized type I collagen in knee osteoarthritis.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"McAlindon, T. E., et al. (2011). Change in knee osteoarthritis cartilage detected by dGEMRIC MRI following treatment with collagen hydrolysate. Osteoarthritis and Cartilage.",url:"https://pubmed.ncbi.nlm.nih.gov/21884760/"},{text:"Zdzieblik, D., et al. (2017). Improvement of activity-related knee joint discomfort in young adults.",url:"https://pubmed.ncbi.nlm.nih.gov/"},{text:"Asserin, J., et al. (2015). The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network.",url:"https://pubmed.ncbi.nlm.nih.gov/26362110/"}],content:`
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -122,7 +122,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
         <img src="/lumbar_spine_l4_l5_hero.png" alt="3D visualization of lumbar spine with L4-L5 segment glowing with restorative energy" style="width: 100%; height: auto; display: block;" loading="eager" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          The L4-L5 segment: Where years of load-bearing take their toll—and where regeneration can begin
+          The L4-L5 segment: Where years of load-bearing take their toll, and where regeneration can begin
         </p>
       </div>
 
@@ -131,11 +131,11 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I remember a colleague of mine who took great pride in debunking a patient's interest in collagen for joint pain. He cited an old Italian trial—likely the 1990s work by Siegmund et al.—which found no significant benefit. For him, the case was closed: if it wasn't a "proven" drug, it was a placebo.
+        I remember a colleague of mine who took great pride in debunking a patient's interest in collagen for joint pain. He cited an old Italian trial, likely the 1990s work by Siegmund et al., which found no significant benefit. For him, the case was closed: if it wasn't a "proven" drug, it was a placebo.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I filed that away. But the anecdotes kept coming. An elderly man awaiting a knee replacement told me his pain had vanished after starting collagen. A patient with a degenerative spine reported the same. As a scientist, I had to ask: If ten people tell me "Substance X" changed their life, is it a placebo—or is the research simply not shining its light in the right place?
+        I filed that away. But the anecdotes kept coming. An elderly man awaiting a knee replacement told me his pain had vanished after starting collagen. A patient with a degenerative spine reported the same. As a scientist, I had to ask: If ten people tell me "Substance X" changed their life, is it a placebo, or is the research simply not shining its light in the right place?
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -149,7 +149,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        He consulted with his neurosurgeon, and the MRI scan results were sobering: they showed high levels of degeneration at the L4/L5 vertebrae in the lower back. The verdict from the surgical team was definitive—no more surgery. He was left with Panadol, which, as any chronic pain sufferer knows, is like bringing a water pistol to a house fire.
+        He consulted with his neurosurgeon, and the MRI scan results were sobering: they showed high levels of degeneration at the L4/L5 vertebrae in the lower back. The verdict from the surgical team was definitive, no more surgery. He was left with Panadol, which, as any chronic pain sufferer knows, is like bringing a water pistol to a house fire.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -157,7 +157,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I told him to start a high-dose collagen protocol. 4-5 weeks after commencing the collagen—which he tells me he took religiously and still takes—he reports that the pain, which was debilitating, is 90% gone or sometimes not there at all.
+        I told him to start a high-dose collagen protocol. 4-5 weeks after commencing the collagen, which he tells me he took religiously and still takes, he reports that the pain, which was debilitating, is 90% gone or sometimes not there at all.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: Why Your Collagen 'Engine' is Failing</h2>
@@ -165,7 +165,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
         <img src="/disc_degeneration_regeneration.png" alt="Comparison infographic showing degenerated disc versus regenerating disc with hydrated structure" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          The Disc Divide: Degeneration vs Regeneration—giving your discs the raw materials they need
+          The Disc Divide: Degeneration vs Regeneration, giving your discs the raw materials they need
         </p>
       </div>
 
@@ -176,17 +176,17 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">1. The Regeneration Proof (The Tufts Study)</h3>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          A landmark study by Dr. Timothy McAlindon at Tufts Medical Center used a specialized MRI technique (dGEMRIC) to look at cartilage density. They found that subjects taking bioactive collagen peptides showed a significant increase in proteoglycan density—the actual structural "stuff" of our joints—after 24 weeks, with early signaling appearing as early as 3 months.
+          A landmark study by Dr. Timothy McAlindon at Tufts Medical Center used a specialized MRI technique (dGEMRIC) to look at cartilage density. They found that subjects taking bioactive collagen peptides showed a significant increase in proteoglycan density: the actual structural "stuff" of our joints, after 24 weeks, with early signaling appearing as early as 3 months.
         </p>
 
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">2. The Aging Absorption Gap</h3>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          As we age, we don't just "lose" collagen; we lose the ability to synthesize it. Our bodies become less efficient at absorbing the amino acids required to rebuild our musculoskeletal architecture. This is why a 70-year-old builder needs targeted, high-bioavailability peptides, not just "more protein." Without it, the skin thins, the bones weaken, and the spinal discs—which are 70% collagen—begin to collapse.
+          As we age, we don't just "lose" collagen; we lose the ability to synthesize it. Our bodies become less efficient at absorbing the amino acids required to rebuild our musculoskeletal architecture. This is why a 70-year-old builder needs targeted, high-bioavailability peptides, not just "more protein." Without it, the skin thins, the bones weaken, and the spinal discs, which are 70% collagen, begin to collapse.
         </p>
 
         <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">3. The 'Starving' Disc</h3>
         <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 0;">
-          Spinal discs are avascular, meaning they have no direct blood supply. They rely on "imbibition"—pumping nutrients in and out. When we provide the body with specific collagen peptides, we are giving the disc the raw materials it can no longer manufacture on its own.
+          Spinal discs are avascular, meaning they have no direct blood supply. They rely on "imbibition", which is the pumping of nutrients in and out. When we provide the body with specific collagen peptides, we are giving the disc the raw materials it can no longer manufacture on its own.
         </p>
       </div>
 
@@ -530,7 +530,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the intake gate, many foremen (insulin) are now sweating and <strong>straining desperately</strong> to push more barges through—trying to keep the factory supplied despite the internal gridlock.
+        At the intake gate, many foremen (insulin) are now sweating and <strong>straining desperately</strong> to push more barges through, trying to keep the factory supplied despite the internal gridlock.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -561,7 +561,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        And now? <strong>The river itself backs up.</strong> Hundreds of barges carrying glucose are jammed as far as the eye can see. Cargo crates spill off the barges onto the riverbanks. The entire system is in gridlock—inside the factory and out in the bloodstream.
+        And now? <strong>The river itself backs up.</strong> Hundreds of barges carrying glucose are jammed as far as the eye can see. Cargo crates spill off the barges onto the riverbanks. The entire system is in gridlock, inside the factory and out in the bloodstream.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.15); border: 2px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -791,7 +791,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <p>For years, I told myself that being exhausted was just part of the job.</p>
       <p>Hospital medicine runs at 90mph. You're manageing trauma cases on three hours of sleep, making life-or-death decisions while your brain is screaming for glucose, and then you go home and collapse. I thought that was normal.</p>
       <p>At my peak, I weighed 125kg. My brain was in a fog by 2 PM. I had sleep apnea. I was diagnosed with ADHD in my 40s, which explained the focus issues, but it didn't explain why I felt like I was running on fumes even when I slept 8 hours.</p>
-      <p>Standard medicine had no answers. My bloods were "fine." My thyroid was "normal." So I did what every burned-out doctor does—I pushed through.</p>
+      <p>Standard medicine had no answers. My bloods were "fine." My thyroid was "normal." So I did what every burned-out doctor does, I pushed through.</p>
       <p>But here's what I didn't know: I wasn't just tired. I was <strong>cellularly bankrupt</strong>.</p>
 
       <h2>The Ageing Tax: Why Youre Running Out of Cellular Cash</h2>
@@ -815,11 +815,11 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h2>The Brain Fog Connection (My ADHD Wake-Up Call)</h2>
       <p>When I was diagnosed with ADHD in my 40s, I thought, "Finally, an explanation." But medication only solved part of the problem.</p>
       <p>Here's what I learned: When your brain runs out of NAD+, it shuts down the most expensive systems first. Focus. Willpower. Executive function. The prefrontal cortex is the most energy-demanding part of your brain, and when NAD+ drops, it goes offline.</p>
-      <p>This is why people with ADHD often feel worse as they age. It's not just neurodevelopmental—it's <strong>metabolic</strong>.</p>
+      <p>This is why people with ADHD often feel worse as they age. It's not just neurodevelopmental. It's <strong>metabolic</strong>.</p>
       <p>When I started restoring my NAD+ levels, the brain fog lifted. Not overnight, but gradually. Like someone turned the lights back on in a room I'd been stumbling through in the dark.</p>
 
       <h2>The Science: Fuel vs. Fire</h2>
-      <p>Most people try to fix fatigue by shoveling more fuel into the furnace—caffeine, sugar, stimulants. But the problem isn't a lack of fuel. The problem is a lack of <strong>power plants</strong>.</p>
+      <p>Most people try to fix fatigue by shoveling more fuel into the furnace, caffeine, sugar, stimulants. But the problem isn't a lack of fuel. The problem is a lack of <strong>power plants</strong>.</p>
       <p>NAD+ is the ignition key for your cellular engine. Without it:</p>
       <ul>
         <li><strong>DNA damage accumulates</strong> (PARP enzymes can't repair breaks)</li>
@@ -838,7 +838,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
 
       <h3>1. Lifestyle: The Reset Button</h3>
       <p>I'm Irish. I grew up near the sea. And I'd forgotten how much nature resets the nervous system.</p>
-      <p>I started walking in forests (Forest Bathing). I started swimming in the ocean (Sea Bathing). These aren't woo-woo practices—they're <strong>stress modulators</strong>. They lower cortisol, which preserves NAD+.</p>
+      <p>I started walking in forests (Forest Bathing). I started swimming in the ocean (Sea Bathing). These aren't woo-woo practices. They're <strong>stress modulators</strong>. They lower cortisol, which preserves NAD+.</p>
       <p>When you're chronically stressed, your body burns through NAD+ like a house on fire. Nature is the fire extinguisher.</p>
 
       <h3>2. The Vitality Stack: Creatine + CoQ10</h3>
@@ -958,7 +958,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
 
       <ol style="font-size: 1.1rem; line-height: 1.8; margin-left: 2rem; margin-bottom: 2rem;">
         <li style="margin-bottom: 0.75rem;"><strong>Bacterial Fragments (LPS) Enter Bloodstream:</strong> Your immune system sees these as invaders and launches an attack.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Inflammatory Cytokines Flood Your System:</strong> IL-6, TNF-alpha, IL-1β—these are the molecular signals of war.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Inflammatory Cytokines Flood Your System:</strong> IL-6, TNF-alpha, IL-1β, these are the molecular signals of war.</li>
         <li style="margin-bottom: 0.75rem;"><strong>The Blood-Brain Barrier Breaks:</strong> Inflammation crosses into your brain, triggering anxiety, depression, and brain fog.</li>
       </ol>
 
@@ -1003,7 +1003,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">1. NSAIDs (The Silent Destroyer)</h3>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Ibuprofen, naproxen, aspirin—these drugs directly damage tight junctions. One dose can increase intestinal permeability within hours. Chronic use? You're systematically destroying your barrier.
+        Ibuprofen, naproxen, aspirin, these drugs directly damage tight junctions. One dose can increase intestinal permeability within hours. Chronic use? You're systematically destroying your barrier.
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">2. Glyphosate (Roundup)</h3>
@@ -1015,7 +1015,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">3. Chronic Stress</h3>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Cortisol directly increases zonulin—the protein that opens tight junctions. Chronic stress = chronic leaky gut.
+        Cortisol directly increases zonulin: the protein that opens tight junctions. Chronic stress = chronic leaky gut.
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: #FF6B6B;">4. Antibiotics</h3>
@@ -1175,7 +1175,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p>In my practice, I see this constantly. Patients in their 40s and 50s tell me, "Doc, I sleep 7 or 8 hours, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee."</p>
       
-      <p>Standard medicine often dismisses this as "ageing" or "stress." But thats missing the point entirely—not because doctors are lazy, but because theyre measuring the wrong thing. Its actually a <strong>waste clearance issue</strong>.</p>
+      <p>Standard medicine often dismisses this as "ageing" or "stress." But thats missing the point entirely, not because doctors are lazy, but because theyre measuring the wrong thing. Its actually a <strong>waste clearance issue</strong>.</p>
       
       <p>Your brain is a metabolic engine. It consumes 20% of your body's energy. Just like a car engine produces exhaust, your neurons produce metabolic waste (specifically proteins called Amyloid Beta and Tau).</p>
       
@@ -1232,12 +1232,12 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <h4 style="font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem 0;">Magnesium Bisglycinate (The Calming Agent)</h4>
       
-      <p>Unlike other forms, Bisglycinate is chelated to glycine, making it highly absorbable and gentle on the stomach. It activates GABA receptors—the brain's "brake pedal"—to quiet the racing mind and relax smooth muscle.</p>
+      <p>Unlike other forms, Bisglycinate is chelated to glycine, making it highly absorbable and gentle on the stomach. It activates GABA receptors: the brain's "brake pedal"—to quiet the racing mind and relax smooth muscle.</p>
       
       <p><strong>Dose:</strong> 400mg elemental magnesium, 30-60 minutes before bed.</p>
       
       <h4 style="font-size: 1.2rem; font-weight: 600; margin: 1.5rem 0 0.75rem 0;">Glycine (The Temperature Regulator)</h4>
-      <p>This simple amino acid is the unsung hero of sleep. Clinical trials show that 3g of glycine before bed lowers core body temperature by dilating blood vessels in the extremities—a critical signal for deep sleep onset.</p>
+      <p>This simple amino acid is the unsung hero of sleep. Clinical trials show that 3g of glycine before bed lowers core body temperature by dilating blood vessels in the extremities, a critical signal for deep sleep onset.</p>
       
       <p><strong>The Science:</strong> A study in <em>Neuropsychopharmacology</em> showed glycine improved sleep quality, reduced daytime sleepiness, and enhanced cognitive performance the next day.</p>
       
@@ -1427,7 +1427,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Forgotten Name</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You're at a dinner party. Someone approaches—a colleague you've met three times. Their face is familiar. You know you know them. But their name? Gone.
+        You're at a dinner party. Someone approaches, a colleague you've met three times. Their face is familiar. You know you know them. But their name? Gone.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1449,11 +1449,11 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        They had a problem: Magnesium is critical for memory formation—it regulates NMDA receptors, the molecular switches that encode new memories. But standard magnesium supplements don't reach the brain. The blood-brain barrier blocks them.
+        They had a problem: Magnesium is critical for memory formation. It regulates NMDA receptors, the molecular switches that encode new memories. But standard magnesium supplements don't reach the brain. The blood-brain barrier blocks them.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So they engineered a solution: <strong>Magnesium L-Threonate (MgT)</strong>—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognises threonate and opens the gate.
+        So they engineered a solution: <strong>Magnesium L-Threonate (MgT)</strong>, a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognises threonate and opens the gate.
       </p>
 
       <div style="background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -1516,9 +1516,9 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
           Magnesium L-Threonate doesn't just "boost" your brain. It rebuilds it at the structural level:
         </p>
         <ul style="font-size: 1.05rem; line-height: 1.8; margin-left: 1.5rem;">
-          <li style="margin-bottom: 0.75rem;"><strong>NMDA Receptor Modulation:</strong> Magnesium regulates NMDA receptors—the molecular gates for memory formation. It filters noise and amplifies signal.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>NMDA Receptor Modulation:</strong> Magnesium regulates NMDA receptors: the molecular gates for memory formation. It filters noise and amplifies signal.</li>
           <li style="margin-bottom: 0.75rem;"><strong>Synaptic Plasticity:</strong> Elevated brain magnesium triggers the growth of new dendritic spines (the physical connection points between neurons).</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Hippocampal Density:</strong> The hippocampus—your memory center—becomes denser, more connected, more resilient.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Hippocampal Density:</strong> The hippocampus. Your memory center, becomes denser, more connected, more resilient.</li>
         </ul>
         <p style="font-size: 1.05rem; line-height: 1.8; margin-top: 1.5rem; margin-bottom: 0; font-style: italic;">
           "We found that elevation of brain magnesium led to significant enhancement of spatial and associative memory in both young and aged rats." — Dr. Guosong Liu, MIT (<em>Neuron</em>, 2010)
@@ -1532,7 +1532,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        These forms are excellent for your body—muscle relaxation, heart rhythm, gut motility. But for your brain? <strong>They're useless</strong>.
+        These forms are excellent for your body, muscle relaxation, heart rhythm, gut motility. But for your brain? <strong>They're useless</strong>.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1544,7 +1544,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognises it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
+        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport: the BBB recognises it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1564,7 +1564,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Critical:</strong> You're not taking this for the magnesium content. You're taking it for the threonate transporter. Don't try to hit 400mg of elemental magnesium from this form alone—you'll overdose on pills.
+        <strong>Critical:</strong> You're not taking this for the magnesium content. You're taking it for the threonate transporter. Don't try to hit 400mg of elemental magnesium from this form alone. You'll overdose on pills.
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-accent-teal);">2. The Timing (Maximize Neuroplasticity)</h3>
@@ -1644,7 +1644,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p>I see patients who are already tired, becoming immobile, and manageing a daily cocktail of pills. I often look at them and wonder: How did they go so far off track? Especially when I see others of the exact same age who pass for 10 years younger, walking with a bounce in their step.</p>
       
-      <p>Most worryingly, I am seeing memory issues in younger people. Neuro-decline is becoming evident earlier than ever. It rarely comes alone; it is almost always accompanied by a decline in mental health—a distinct lack of joie de vivre.</p>
+      <p>Most worryingly, I am seeing memory issues in younger people. Neuro-decline is becoming evident earlier than ever. It rarely comes alone; it is almost always accompanied by a decline in mental health, a distinct lack of joie de vivre.</p>
       
       <h2>The Uncomfortable Truth</h2>
       
@@ -1895,7 +1895,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <p><strong>The Fix:</strong> We prescribe Ubiquinol only. It is the pre-converted, active antioxidant form. It costs more, but it actually enters the cell.</p>
 
       <h3>2. The Command Signal: Zone 2 Training</h3>
-      <p>You cannot supplement your way out of a sedentary lifestyle. You must signal your body to build a bigger grid. We use Zone 2 Cardiovascular Training—steady-state effort where you can maintain a conversation, but it feels strained (Lactate < 2mmol).</p>
+      <p>You cannot supplement your way out of a sedentary lifestyle. You must signal your body to build a bigger grid. We use Zone 2 Cardiovascular Training, steady-state effort where you can maintain a conversation, but it feels strained (Lactate < 2mmol).</p>
       <p><strong>The Mechanism:</strong> This specific intensity creates a high demand for oxygen without flooding the system with stress hormones. It forces your cells to grow more mitochondria to keep up with the demand. It is the only way to physically expand your engine.</p>
 
       <h2>Final Thoughts</h2>
@@ -1909,7 +1909,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
             </div>
 
             <p><strong>The "Brick Wall" Problem</strong></p>
-            <p>When patients tell me they feel "stiff"—whether it’s their joints or their thinking—they usually blame age. But biologically, stiffness is often a result of what your cells are constructed from.</p>
+            <p>When patients tell me they feel "stiff"—whether it’s their joints or their thinking. They usually blame age. But biologically, stiffness is often a result of what your cells are constructed from.</p>
             <p>If you are suffering from brain fog, low energy, or nagging joint pain, the problem might not be what you are eating, but what your cells are made of.</p>
 
             <h2>The Science: The Lipid Bilayer</h2>
@@ -1951,7 +1951,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
             </div>
 
             <p><strong>If you ask a cardiologist, a neurologist, and an oncologist what causes disease, they will use different jargon. But if you zoom in to the cellular level, they are all describing the same process: Chronic Inflammation.</strong></p>
-            <p>We used to think heart disease was just "clogged pipes" and Alzheimer's was just "bad luck." We now know better. Inflammation is the common denominator—a slow-burning fire that damages your DNA, stiffens your arteries, and suffocates your mitochondria.</p>
+            <p>We used to think heart disease was just "clogged pipes" and Alzheimer's was just "bad luck." We now know better. Inflammation is the common denominator, a slow-burning fire that damages your DNA, stiffens your arteries, and suffocates your mitochondria.</p>
 
             <h2>The Consequences: When the Fire Spreads</h2>
             <p>Inflammation is your immune system's response to injury. Acute inflammation (a bee sting) is good. Chronic inflammation (low-grade, systemic) is lethal. Here is how it drives the "Four Horsemen" of ageing:</p>
@@ -1959,11 +1959,11 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
                 <li><strong>Heart Disease:</strong> Cholesterol itself isn't the enemy; oxidised cholesterol is. Inflammation damages the arterial wall, creating a crack where cholesterol gets stuck.</li>
                 <li><strong>Alzheimer’s Disease:</strong> The brain has its own immune cells called Microglia. When chronically inflamed, they go into overdrive, destroying healthy neurons. We call this "Type 3 Diabetes" or neuro-inflammation.</li>
                 <li><strong>Cancer:</strong> Chronic inflammation creates a "tumor microenvironment"—damageing DNA and suppressing the immune system's ability to kill mutant cells.</li>
-                <li><strong>Mitochondrial Dysfunction:</strong> Reactive Oxygen Species (ROS)—the sparks from the fire—physically damage the mitochondrial machinery, leading to fatigue and metabolic failure.</li>
+                <li><strong>Mitochondrial Dysfunction:</strong> Reactive Oxygen Species (ROS)—the sparks from the fire, physically damage the mitochondrial machinery, leading to fatigue and metabolic failure.</li>
             </ul>
 
             <h2>The Fire Extinguishers: A Physician’s Tier List</h2>
-            <p>You cannot just "wish" inflammation away. You need chemical agents—Antioxidants—to neutralize the free radicals causing the damage.</p>
+            <p>You cannot just "wish" inflammation away. You need chemical agents, Antioxidants, to neutralize the free radicals causing the damage.</p>
             <p>Here is my ranked hierarchy of the most potent tools available, from "Daily Essentials" to "Heavy Artillery."</p>
 
             <h3>Tier 1: The Essentials (The First Line of Defense)</h3>
@@ -2028,7 +2028,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <p>If I were to conduct a tactical audit of my patients' bathroom cabinets, I would find the same scene in almost every home.</p>
       <p>There, pushed to the back behind the expired cough syrup and half-used muscle rubs, sits a bottle of Vitamin D. You bought it six months ago because you read a headline, or perhaps a relative told you to. You took it for a week, didn't feel a sudden surge of energy, and forgot about it.</p>
       <p>It is the most undervalued asset in your biological arsenal.</p>
-      <p>I don’t blame you for ignoring it. For decades, the medical establishment—myself included—did a poor job of briefing you on what this molecule actually is.</p>
+      <p>I don’t blame you for ignoring it. For decades, the medical establishment, myself included, did a poor job of briefing you on what this molecule actually is.</p>
 
       <h2>The "Bone Builder" Myth</h2>
       <p>When I was in medical school, our training on Vitamin D was incredibly brief. We learned two things:</p>
@@ -2049,12 +2049,12 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <p>The reason you stopped taking it is that Vitamin D is "silent." You take a pre-workout, and you feel the tingle. You take Magnesium, and you feel the sedation.</p>
       <p>You take Vitamin D, and... nothing happens. Or so you think.</p>
       <p>While you don't feel a buzz, that hormone is binding to receptors on your T-cells, calibrating them to distinguish between a hostile virus and your own healthy tissue.</p>
-      <p>The massive VITAL Trial (2019)—one of the largest studies of its kind—confirmed this nuance. While the headlines screamed that Vitamin D didn't stop heart attacks, the secondary data revealed the strategic value:</p>
+      <p>The massive VITAL Trial (2019)—one of the largest studies of its kind, confirmed this nuance. While the headlines screamed that Vitamin D didn't stop heart attacks, the secondary data revealed the strategic value:</p>
       <ul>
         <li><strong>Autoimmune Shielding:</strong> Participants taking Vitamin D had a significantly lower risk of developing autoimmune diseases.</li>
         <li><strong>Survivability:</strong> While it might not stop you from getting cancer, having optimal levels significantly improved the odds of surviving it.</li>
       </ul>
-      <p>It is not a magic bullet. It is body armor. You don't "feel" body armor working—until you take a hit.</p>
+      <p>It is not a magic bullet. It is body armor. You don't "feel" body armor working, until you take a hit.</p>
 
       <h2>The Resilience Protocol</h2>
       <p>In my practice, I no longer ask, "Are you taking Vitamin D?" I ask, "What is your serum level?"</p>
@@ -2078,13 +2078,13 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p>I remember the exact moment I realized my brain was betraying me.</p>
 
-      <p>I was a junior doctor, standing under the harsh fluorescent hum of the ward. It was 9:00 AM—the start of the day shift. I should have been fresh. I should have been rested.</p>
+      <p>I was a junior doctor, standing under the harsh fluorescent hum of the ward. It was 9:00 AM: the start of the day shift. I should have been fresh. I should have been rested.</p>
 
-      <p>I was looking at a patient's chart—a chart I had read a thousand times—but the words weren't registering. It felt like my head was wrapped in cotton wool. I knew the medicine, I knew the protocol, but accessing that information felt like trying to run underwater.</p>
+      <p>I was looking at a patient's chart, a chart I had read a thousand times, but the words weren't registering. It felt like my head was wrapped in cotton wool. I knew the medicine, I knew the protocol, but accessing that information felt like trying to run underwater.</p>
 
-      <p>To get through the shift, I did what many high-performers do: I manufactured stress. I forced myself into a state of panic or urgency just to get a hit of adrenaline—revving the engine into the red line just to keep the car moving.</p>
+      <p>To get through the shift, I did what many high-performers do: I manufactured stress. I forced myself into a state of panic or urgency just to get a hit of adrenaline, revving the engine into the red line just to keep the car moving.</p>
 
-      <p>I told myself it was just the shift work pattern. Or the hospital cafeteria food. Or perhaps the "doctors' poison" of choice—the few glasses of wine I used to wind down on my days off.</p>
+      <p>I told myself it was just the shift work pattern. Or the hospital cafeteria food. Or perhaps the "doctors' poison" of choice: the few glasses of wine I used to wind down on my days off.</p>
 
       <p>But now, years later, with the benefit of clinical experience and metabolic science, I know that "Brain Fog" isn't just tiredness. It is a physiological signal. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.</p>
 
@@ -2094,7 +2094,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
 
       <p>"Brain Fog" is not a clinical diagnosis in the DSM-5, but it is a very real symptom of <strong>Neuro-Inflammation</strong> and <strong>Mitochondrial Dysfunction</strong>.</p>
 
-      <p>Your brain comprises only 2% of your body weight but consumes 20% of your energy. It is a luxury organ. When your body senses a threat—be it chronic inflammation, sleep debt, or nutrient deficiency—it diverts resources away from the expensive prefrontal cortex (where you do your thinking) to the primitive survival centers.</p>
+      <p>Your brain comprises only 2% of your body weight but consumes 20% of your energy. It is a luxury organ. When your body senses a threat, be it chronic inflammation, sleep debt, or nutrient deficiency. It diverts resources away from the expensive prefrontal cortex (where you do your thinking) to the primitive survival centers.</p>
 
       <p>Here are the three primary culprits I see in my practice.</p>
 
@@ -2122,7 +2122,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
 
       <p><strong>Vitamin D:</strong> As discussed in previous columns, Vitamin D receptors in the hippocampus and cortex are crucial for planning and processing. Low D is linked to slower cognitive processing speeds.</p>
 
-      <p><strong>B-Vitamins:</strong> B12 and Folate are essential for methylation—the process that makes neurotransmitters. Without them, you can't build the chemicals you need to focus.</p>
+      <p><strong>B-Vitamins:</strong> B12 and Folate are essential for methylation: the process that makes neurotransmitters. Without them, you can't build the chemicals you need to focus.</p>
 
       <img src="/synaptic_transmission.png" alt="Synaptic Transmission" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
 
@@ -2163,7 +2163,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <li>Theoharides, T. C., et al. (2015). "Brain 'fog,' inflammation and obesity: key aspects of neuropsychiatric disorders." <em>Frontiers in Neuroscience</em>.</li>
         <li>Holick, M. F. (2007). "Vitamin D deficiency." <em>NEJM</em>.</li>
       </ul>
-    `},{id:14,title:'IS YOUR BRAIN "ON FIRE"? The Hidden Link Between Inflammation and Anxiety',category:"inflammation",image:"/inflammation_controlled_fire_hero_1764771922110.png",excerpt:'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking—blocking serotonin and triggering anxiety.',date:"Dec 01, 2025",cta:{text:"Get Dr. Gavin's Fire Extinguisher",link:"/shop"},content:`
+    `},{id:14,title:'IS YOUR BRAIN "ON FIRE"? The Hidden Link Between Inflammation and Anxiety',category:"inflammation",image:"/inflammation_controlled_fire_hero_1764771922110.png",excerpt:'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.',date:"Dec 01, 2025",cta:{text:"Get Dr. Gavin's Fire Extinguisher",link:"/shop"},content:`
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2171,7 +2171,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Anxiety and "brain fog" are often symptoms of neuroinflammation. When brain immune cells (microglia) panic, they block serotonin and trigger "sickness behaviour." Fix: Cut sugar/seed oils, heal the gut (probiotics), and use Liposomal Curcumin to extinguish the brain fire.</p>
       </div>
       
-      <p>In my clinic, I often see a specific type of patient. They aren't just "sad" in the clinical depression sense. They are tired. They are wired but exhausted. They have lost their joie de vivre—the spark that makes life feel vibrant.</p>
+      <p>In my clinic, I often see a specific type of patient. They aren't just "sad" in the clinical depression sense. They are tired. They are wired but exhausted. They have lost their joie de vivre: the spark that makes life feel vibrant.</p>
       
       <p>They often say, "Doc, I feel anxious, I have brain fog, and I just don't care about things I used to love."</p>
       
@@ -2190,7 +2190,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p>Your brain has its own private army called <strong>Microglia</strong>. Normally, these cells are the "gardeners" of the brain. They prune dead neurons, clean up debris, and keep the garden tidy.</p>
       
-      <p>But when your body is chronically inflamed—from processed food, lack of sleep, or chronic stress—these gardeners panic. They stop pruning and start attacking.</p>
+      <p>But when your body is chronically inflamed, from processed food, lack of sleep, or chronic stress, these gardeners panic. They stop pruning and start attacking.</p>
       
       <p>They enter a "primed" state and release inflammatory chemicals called <strong>Cytokines</strong>.</p>
       
@@ -2221,7 +2221,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <h3>3. THE FIRE EXTINGUISHER (Liposomal Curcumin)</h3>
       
-      <p>This is the most powerful tool in my arsenal. <strong>Curcumin</strong> (the active compound in Turmeric) is a potent anti-inflammatory. However, standard turmeric powder is useless—it doesn't absorb well, and it definitely doesn't reach the brain.</p>
+      <p>This is the most powerful tool in my arsenal. <strong>Curcumin</strong> (the active compound in Turmeric) is a potent anti-inflammatory. However, standard turmeric powder is useless. It doesn't absorb well, and it definitely doesn't reach the brain.</p>
       
       <p>To cross the blood-brain barrier and calm the Microglia, you need a highly bioavailable form, such as <strong>Phytosome (Meriva)</strong> or <strong>Liposomal Curcumin</strong>.</p>
       
@@ -2310,7 +2310,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <li>When a neuron fires, it burns ATP and turns it into a "dead" battery called <strong>ADP</strong>.</li>
         <li>Normally, it takes time and food to recharge that battery.</li>
         <li><strong>Creatine hangs out in the cell holding a spare phosphate group.</strong></li>
-        <li>As soon as the battery dies (ADP), Creatine hands over its spare part and—boom—the battery is instantly fully charged (ATP) again.</li>
+        <li>As soon as the battery dies (ADP), Creatine hands over its spare part and, boom: the battery is instantly fully charged (ATP) again.</li>
       </ol>
       
       <p><strong>The Result:</strong> Your brain can think harder, longer, and faster without crashing.</p>
@@ -2352,7 +2352,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <li>Avgerinos, K. I., et al. (2018). "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials." Experimental Gerontology.</li>
         <li>Watanabe, A., et al. (2002). "Effects of creatine on mental fatigue and cerebral hemoglobin oxygenation." Neuroscience Research.</li>
       </ul>
-    `},{id:16,title:'WHY YOU ARE AGING FASTER THAN YOUR FRIENDS: The Science of "Caramelizing"',category:"metabolic",image:"/cell_membrane_fluidity_hero_1764771762803.png",excerpt:"When blood sugar is chronically high, glucose binds to your proteins forming AGEs—sticky structures that stiffen your skin, joints, and arteries. You aren't just ageing. You're caramelizing.",date:"Dec 02, 2025",cta:{text:"Get Dr. Gavin's Metabolic Reset",link:"/shop"},content:`
+    `},{id:16,title:'WHY YOU ARE AGING FASTER THAN YOUR FRIENDS: The Science of "Caramelizing"',category:"metabolic",image:"/cell_membrane_fluidity_hero_1764771762803.png",excerpt:"When blood sugar is chronically high, glucose binds to your proteins forming AGEs, sticky structures that stiffen your skin, joints, and arteries. You aren't just ageing. You're caramelizing.",date:"Dec 02, 2025",cta:{text:"Get Dr. Gavin's Metabolic Reset",link:"/shop"},content:`
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2482,7 +2482,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <h2>The "Calcium Paradox" (Why D Alone is Dangerous)</h2>
       
-      <p>For years, doctors handed out massive doses of Vitamin D and said, "It's for your bones." They were half right—and dangerous.</p>
+      <p>For years, doctors handed out massive doses of Vitamin D and said, "It's for your bones." They were half right, and dangerous.</p>
       
       <p>Vitamin D acts like a "gatekeeper" in your gut. It opens the door to let Calcium into your bloodstream. But once the calcium is in your blood, Vitamin D has no idea where to put it.</p>
       
@@ -2545,7 +2545,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <li>Cannell, J. J., et al. (2006). "Epidemic influenza and vitamin D." Epidemiology & Infection.</li>
       </ul>
       </ul>
-    `},{id:18,title:'MUSCLE IS THE CURRENCY OF AGING: Why You Are Becoming "Frail" at 45',category:"longevity",image:"/muscle_hero.png",excerpt:"Muscle is not just for bodybuilders. It's the Organ of Longevity. When you lose muscle, you lose myokines—chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.",date:"Dec 04, 2025",cta:{text:"Get Dr. Gavin's Muscle Protocol",link:"/shop"},content:`
+    `},{id:18,title:'MUSCLE IS THE CURRENCY OF AGING: Why You Are Becoming "Frail" at 45',category:"longevity",image:"/muscle_hero.png",excerpt:"Muscle is not just for bodybuilders. It's the Organ of Longevity. When you lose muscle, you lose myokines, chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.",date:"Dec 04, 2025",cta:{text:"Get Dr. Gavin's Muscle Protocol",link:"/shop"},content:`
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2599,7 +2599,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <h2>The Protocol: The 30g Trigger</h2>
       
-      <p>You cannot graze on salad and crackers and expect to stay robust. To trigger <strong>Muscle Protein Synthesis (MPS)</strong>—the process of rebuilding tissue—you need to hit a specific threshold.</p>
+      <p>You cannot graze on salad and crackers and expect to stay robust. To trigger <strong>Muscle Protein Synthesis (MPS)</strong>—the process of rebuilding tissue. You need to hit a specific threshold.</p>
       
       <p><strong>The Magic Number:</strong> You need roughly 30 grams of high-quality protein in a single sitting to flip the switch.</p>
       
@@ -2607,7 +2607,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p><strong>The Fix:</strong> You must start your day with a high-protein bolus.</p>
       
-      <p>But let's be honest—eating 5 eggs or a chicken breast at 7:00 AM is hard. This is where supplementation becomes a medical necessity, not a gym convenience.</p>
+      <p>But let's be honest, eating 5 eggs or a chicken breast at 7:00 AM is hard. This is where supplementation becomes a medical necessity, not a gym convenience.</p>
       
       <h2>THE TAKEAWAY</h2>
       
@@ -2650,7 +2650,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <p>They are taking a <strong>Statin</strong> (to lower cholesterol).</p>
       
-      <p>Don't get me wrong—Statins save lives. They prevent heart attacks. But biologically, they come with a steep price tag that many doctors fail to explain.</p>
+      <p>Don't get me wrong, Statins save lives. They prevent heart attacks. But biologically, they come with a steep price tag that many doctors fail to explain.</p>
       
       <h2>The Mechanism</h2>
       
@@ -2724,7 +2724,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
         <li>Chowanadisai, W., et al. (2010). "Pyrroloquinoline quinone stimulates mitochondrial biogenesis." Journal of Biological Chemistry.</li>
       </ul>
       </ul>
-    `},{id:20,title:"TIRED BUT WIRED: Why You Can't Turn Your Brain Off at 10 PM",category:"sleep",image:"/sleep_brain.png",excerpt:"Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this—you're groggy at 8 AM and wired at 10 PM.",date:"Dec 06, 2025",cta:{text:"Get Dr. Gavin's Cortisol Reset",link:"/shop"},content:`
+    `},{id:20,title:"TIRED BUT WIRED: Why You Can't Turn Your Brain Off at 10 PM",category:"sleep",image:"/sleep_brain.png",excerpt:"Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You're groggy at 8 AM and wired at 10 PM.",date:"Dec 06, 2025",cta:{text:"Get Dr. Gavin's Cortisol Reset",link:"/shop"},content:`
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -2836,7 +2836,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       
       <h2>The Medical Reality: The MTHFR Mutation</h2>
       
-      <p>Methylation is a biochemical process that happens <strong>1 billion times per second</strong> in your body. It repairs your DNA, regulates your mood, clears toxins, and—crucially—turns the nutrients you eat into ATP energy.</p>
+      <p>Methylation is a biochemical process that happens <strong>1 billion times per second</strong> in your body. It repairs your DNA, regulates your mood, clears toxins, and, crucially, turns the nutrients you eat into ATP energy.</p>
       
       <p>To do this, you need <strong>B-Vitamins</strong> (specifically B9/Folate and B12).</p>
       
@@ -3115,7 +3115,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The longevity field is littered with molecules that work in yeast and mice but fail in humans. Resveratrol is one of these—human trials have been mixed, largely due to poor bioavailability. Fisetin has more promising preliminary data, but large scale human trials are still pending.
+        The longevity field is littered with molecules that work in yeast and mice but fail in humans. Resveratrol is one of these, human trials have been mixed, largely due to poor bioavailability. Fisetin has more promising preliminary data, but large scale human trials are still pending.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -3134,7 +3134,7 @@ const e=[{id:"all",label:"All"},{id:"neurolongevity",label:"Neurolongevity"},{id
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Resveratrol:</strong> Generally safe. Can cause mild gastrointestinal upset at doses >1,000mg. Theoretical concern about oestrogen receptor modulation—if you have hormone sensitive cancers, consult your oncologist.
+        <strong>Resveratrol:</strong> Generally safe. Can cause mild gastrointestinal upset at doses >1,000mg. Theoretical concern about oestrogen receptor modulation, if you have hormone sensitive cancers, consult your oncologist.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
