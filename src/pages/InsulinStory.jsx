@@ -129,7 +129,7 @@ export default function InsulinStory() {
         }}>
             <SEO
                 title="The Insulin Story: Why You Are Ageing Faster Than You Think | EMPOWERVIDA"
-                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower—it's about Insulin Resistance. Discover the science of smart ageing."
+                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower. It's about Insulin Resistance. Discover the science of smart ageing."
                 keywords="insulin resistance, hyperinsulinemia, metabolic health, ageing, longevity, insulin sensitivity, Type 2 diabetes prevention, smart ageing"
                 canonical="/insulin-story"
                 schemaData={faqSchema}
@@ -256,7 +256,7 @@ export default function InsulinStory() {
                         marginTop: '1rem',
                         textAlign: 'center'
                     }}>
-                        <strong>Figure 1:</strong> The Progressive Failure of Insulin Signaling. Note how insulin levels escalate (5 → 15 → 25 units) while glucose transport efficiency degrades. The middle "Compensated" stage shows normal blood glucose despite elevated insulin—the hidden metabolic alarm most doctors miss.
+                        <strong>Figure 1:</strong> The Progressive Failure of Insulin Signaling. Note how insulin levels escalate (5 → 15 → 25 units) while glucose transport efficiency degrades. The middle "Compensated" stage shows normal blood glucose despite elevated insulin: the hidden metabolic alarm most doctors miss.
                     </p>
                 </section>
 
@@ -266,7 +266,7 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.15rem', color: 'var(--color-text-muted)' }}>
-                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years—often decades—before symptoms appear.<sup>3</sup>
+                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years, often decades, before symptoms appear.<sup>3</sup>
                     </p>
 
                     {/* STAGE 1: METABOLIC FLEXIBILITY */}
@@ -359,7 +359,7 @@ export default function InsulinStory() {
                             </div>
 
                             <p style={{ ...paragraphStyle, fontSize: '1.25rem', fontWeight: '600', color: '#FF9500' }}>
-                                This is the most dangerous stage—because <strong>your doctor will tell you that you're fine</strong>.
+                                This is the most dangerous stage, because <strong>your doctor will tell you that you're fine</strong>.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -371,7 +371,7 @@ export default function InsulinStory() {
                             </p>
 
                             <p style={paragraphStyle}>
-                                To compensate, the pancreas pumps <em>more</em> insulin—forcing glucose into the cell despite resistance.
+                                To compensate, the pancreas pumps <em>more</em> insulin, forcing glucose into the cell despite resistance.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -442,7 +442,7 @@ export default function InsulinStory() {
                             </p>
 
                             <p style={paragraphStyle}>
-                                The cell gates are <em>shut completely</em>. The mitochondria are dark, dormant, suffocated by lipid overload. The pancreas is exhausted—years of overproduction have burned out the beta cells.
+                                The cell gates are <em>shut completely</em>. The mitochondria are dark, dormant, suffocated by lipid overload. The pancreas is exhausted, years of overproduction have burned out the beta cells.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -585,7 +585,7 @@ export default function InsulinStory() {
                     }}>
                         <p style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', marginBottom: '0' }}>
                             The worst case? <strong>Both are elevated simultaneously.</strong><br />
-                            This is the metabolic apocalypse most people are living in—unknowingly.
+                            This is the metabolic apocalypse most people are living in, unknowingly.
                         </p>
                     </div>
                 </section>

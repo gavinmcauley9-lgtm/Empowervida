@@ -354,7 +354,7 @@ const Diagnostics = () => {
                                 hs-CRP <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Silent Fire)</span>
                             </h3>
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Cholesterol builds the plaque, but inflammation makes it rupture. Think of hs-CRP as a smoke detector for your arteries. Standard CRP measures acute infection (like a fever), but High-Sensitivity CRP detects chronic, low-grade inflammation—the 'smoldering fire' caused by stress, toxins, and visceral fat.
+                                Cholesterol builds the plaque, but inflammation makes it rupture. Think of hs-CRP as a smoke detector for your arteries. Standard CRP measures acute infection (like a fever), but High-Sensitivity CRP detects chronic, low-grade inflammation: the 'smoldering fire' caused by stress, toxins, and visceral fat.
                                 <br /><br />
                                 <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus high hs-CRP, your risk of a sudden cardiac event explodes. We track this to ensure your blood vessels are cool and stable, not inflamed and fragile.
                             </p>

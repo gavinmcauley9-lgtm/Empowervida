@@ -137,7 +137,7 @@ const Protocol = () => {
                         marginBottom: '2rem'
                     }}
                 >
-                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap—that's biology.</strong> Choose your primary target, then layer as needed.
+                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
                 </motion.p>
             </section>
 
@@ -214,7 +214,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy—the supplements everyone should take, regardless of specific goals.
+                            The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy: the supplements everyone should take, regardless of specific goals.
                         </p>
 
                         <div style={{
@@ -292,7 +292,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The software upgrade. This stack targets neurotransmitter synthesis, synaptic density, and mental clarity. For when you need to think sharper, faster, clearer—today.
+                            The software upgrade. This stack targets neurotransmitter synthesis, synaptic density, and mental clarity. For when you need to think sharper, faster, clearer, today.
                         </p>
 
                         <div style={{
@@ -370,7 +370,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The structural rebuild. Not for today's meeting—for your brain at 80. This protocol targets brain-derived neurotrophic factor (BDNF), neuroplasticity, and protection against amyloid/tau accumulation.
+                            The structural rebuild. Not for today's meeting, for your brain at 80. This protocol targets brain-derived neurotrophic factor (BDNF), neuroplasticity, and protection against amyloid/tau accumulation.
                         </p>
 
                         <div style={{
@@ -460,7 +460,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The engine block. This stack targets the root of cellular energy production—your mitochondria. For when you're done with caffeine band-aids and ready to fix the power plant.
+                            The engine block. This stack targets the root of cellular energy production. Your mitochondria. For when you're done with caffeine band-aids and ready to fix the power plant.
                         </p>
 
                         <div style={{
@@ -550,7 +550,7 @@ const Protocol = () => {
                             fontSize: '1rem',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>⚠️ Critical:</strong> Supplements alone will NOT fix a broken gut if you're still eating inflammatory foods, taking NSAIDs daily, or living in chronic stress. <strong>Diet and lifestyle are non-negotiable foundations.</strong> These supplements accelerate repair—they don't replace discipline.
+                            <strong>⚠️ Critical:</strong> Supplements alone will NOT fix a broken gut if you're still eating inflammatory foods, taking NSAIDs daily, or living in chronic stress. <strong>Diet and lifestyle are non-negotiable foundations.</strong> These supplements accelerate repair. They don't replace discipline.
                         </div>
 
                         <div style={{
@@ -574,7 +574,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
                                     <strong>Collagen Peptides (10-20g daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Provides glycine and proline—building blocks for tissue repair.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Provides glycine and proline, building blocks for tissue repair.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
@@ -668,7 +668,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
                                     <strong>Glycine (3g powder)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Lowers core body temperature by dilating extremity blood vessels—critical signal for deep sleep onset.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Lowers core body temperature by dilating extremity blood vessels, critical signal for deep sleep onset.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
@@ -739,7 +739,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The overflow prevention system. Insulin resistance is the root of accelerated ageing—hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
+                            The overflow prevention system. Insulin resistance is the root of accelerated ageing, hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
                         </p>
 
                         <div style={{
@@ -773,7 +773,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
                                     <strong>Cinnamon Extract (500mg Ceylon cinnamon)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin sensitivity. Must be Ceylon (not Cassia—high coumarin content).</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin sensitivity. Must be Ceylon (not Cassia, high coumarin content).</span>
                                 </li>
                             </ul>
                         </div>

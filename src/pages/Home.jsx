@@ -205,7 +205,7 @@ export default function Home() {
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
-                            I'm a physician who lost 30kg by treating the root cause—not the symptoms.
+                            I'm a physician who lost 30kg by treating the root cause, not the symptoms.
                             After 15 years working in Emergency Medicine and General Practice, I
                             reversed my own insulin resistance and now specialize in holistic longevity
                             medicine.
@@ -218,7 +218,7 @@ export default function Home() {
                             marginBottom: '2.5rem',
                             letterSpacing: '0.005em'
                         }}>
-                            My mission is to help you optimise your healthspan through evidence-based protocols—the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimised and thriving.
+                            My mission is to help you optimise your healthspan through evidence-based protocols: the same approach that transformed my own health from 125kg with sleep apnea to metabolically optimised and thriving.
                         </p>
 
                         {/* Premium Credentials Grid */}

@@ -139,7 +139,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.7,
                         margin: 0
                     }}>
-                        <strong>This is not wellness. This is precision medicine.</strong> The goal is not just to live longer—it's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
+                        <strong>This is not wellness. This is precision medicine.</strong> The goal is not just to live longer. It's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
                     </p>
                 </div>
 
@@ -148,7 +148,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginTop: '2rem'
                 }}>
-                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine—the framework I use in my clinical practice to help patients reach "escape velocity" ageing.
+                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine: the framework I use in my clinical practice to help patients reach "escape velocity" ageing.
                 </p>
             </section >
 
@@ -218,7 +218,7 @@ const LongevityGuide = () => {
                                 Physician's Note:
                             </p>
                             <p style={{ margin: 0 }}>
-                                The goal is not calorie restriction—it's <strong>nutrient timing</strong>. We use fasting windows (12-16 hours) to downregulate mTOR and activate AMPK, which signals the cell to "clean house" via autophagy.
+                                The goal is not calorie restriction. It's <strong>nutrient timing</strong>. We use fasting windows (12-16 hours) to downregulate mTOR and activate AMPK, which signals the cell to "clean house" via autophagy.
                             </p>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ const LongevityGuide = () => {
                                 },
                                 {
                                     title: '2. Strength/Hypertrophy',
-                                    description: 'To protect against frailty and serve as a "glucose sink." Muscle is the organ of longevity—it buffers blood sugar and prevents insulin resistance.'
+                                    description: 'To protect against frailty and serve as a "glucose sink." Muscle is the organ of longevity. It buffers blood sugar and prevents insulin resistance.'
                                 },
                                 {
                                     title: '3. VO2 Max',
@@ -355,7 +355,7 @@ const LongevityGuide = () => {
                                 The Metric: Sleep Architecture
                             </p>
                             <p style={{ margin: 0 }}>
-                                We look at the ratio of <strong>Deep Sleep</strong> (physical repair) to <strong>REM Sleep</strong> (emotional/cognitive repair). Both are essential—you can't sacrifice one for the other.
+                                We look at the ratio of <strong>Deep Sleep</strong> (physical repair) to <strong>REM Sleep</strong> (emotional/cognitive repair). Both are essential. You can't sacrifice one for the other.
                             </p>
                         </div>
 
@@ -636,7 +636,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginBottom: '2rem'
                 }}>
-                    These 5 pillars are not a checklist—they're a <strong>living framework</strong>. Longevity medicine is precision medicine. It requires measurement, iteration, and clinical oversight.
+                    These 5 pillars are not a checklist. They're a <strong>living framework</strong>. Longevity medicine is precision medicine. It requires measurement, iteration, and clinical oversight.
                 </p>
                 <p style={{
                     fontSize: '1.1rem',
@@ -644,7 +644,7 @@ const LongevityGuide = () => {
                     fontStyle: 'italic',
                     color: 'var(--color-text-muted)'
                 }}>
-                    The goal is not just to add years to your life—it's to add <strong>life to your years</strong>.
+                    The goal is not just to add years to your life. It's to add <strong>life to your years</strong>.
                 </p>
             </section >
         </>

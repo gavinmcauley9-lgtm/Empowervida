@@ -11,7 +11,7 @@ const AdvancedOptimization = () => {
             title: "THYROID FUNCTION",
             subtitle: "(The Gas Pedal)",
             marker: "Free T3 (Triiodothyronine)",
-            logic: "Standard tests only look at TSH (the brain's signal). We look at Free T3—the active hormone that actually hits your cells. Low Free T3 is the primary cause of unexplained fatigue, cold intolerance, and weight gain, even when TSH is 'normal'."
+            logic: "Standard tests only look at TSH (the brain's signal). We look at Free T3: the active hormone that actually hits your cells. Low Free T3 is the primary cause of unexplained fatigue, cold intolerance, and weight gain, even when TSH is 'normal'."
         },
         {
             title: "IRON DYNAMICS",
@@ -29,7 +29,7 @@ const AdvancedOptimization = () => {
             title: "HORMONAL STATUS",
             subtitle: "(The Bio-Availability)",
             marker: "Free Testosterone & SHBG",
-            logic: "Total Testosterone is a vanity metric. What matters is Free Testosterone—the amount not bound by SHBG (Sex Hormone Binding Globulin). As we age, SHBG rises and steals our active hormones. We measure both to calculate your true hormonal status."
+            logic: "Total Testosterone is a vanity metric. What matters is Free Testosterone: the amount not bound by SHBG (Sex Hormone Binding Globulin). As we age, SHBG rises and steals our active hormones. We measure both to calculate your true hormonal status."
         }
     ];
 

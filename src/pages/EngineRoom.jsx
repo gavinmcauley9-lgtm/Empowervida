@@ -42,7 +42,7 @@ const EngineRoom = () => {
         {
             title: "Urolithin A",
             subtitle: "The Recycler",
-            mechanism: "Triggers Mitophagy—the process of identifying old, broken engines and recycling them.",
+            mechanism: "Triggers Mitophagy: the process of identifying old, broken engines and recycling them.",
             nuance: "Hard to get from diet (pomegranates) in clinical doses. Supplementation is key for longevity.",
             link: "#" // Placeholder
         }

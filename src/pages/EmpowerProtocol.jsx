@@ -255,7 +255,7 @@ const EmpowerProtocol = () => {
                         color: 'rgba(255,255,255,0.8)',
                         marginBottom: '3rem'
                     }}>
-                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. I created EMPOWERVIDA to provide clinical-grade, third-party tested tools for my own patients—and for myself.
+                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. I created EMPOWERVIDA to provide clinical-grade, third-party tested tools for my own patients, and for myself.
                     </p>
                     <a
                         href="/shop"
