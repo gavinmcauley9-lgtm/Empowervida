@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Metabolic 5 - EmpowerVida Checklist</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@700;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1A3C34;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            line-height: 1.6;
+            background: #ffffff;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #20B2AA;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            color: #1A3C34;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #20B2AA;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .intro {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #1A3C34;
+        }
+
+        .lab-item {
+            margin-bottom: 35px;
+            break-inside: avoid;
+            /* Prevents awkward page breaks when printing */
+        }
+
+        .lab-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .lab-number {
+            background: #1A3C34;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 20px;
+            margin: 0;
+            color: #1A3C34;
+        }
+
+        .ranges {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .range-box {
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .standard-range {
+            background: #F3F4F6;
+            border: 1px solid #E5E7EB;
+        }
+
+        .optimal-range {
+            background: rgba(32, 178, 170, 0.1);
+            border: 1px solid #20B2AA;
+            color: #0F5E59;
+        }
+
+        .label {
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .value {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .why-it-matters {
+            font-size: 14px;
+            color: #444;
+            margin-top: 10px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>The Metabolic 5</h1>
+        <div class="subtitle">Labs Your Doctor Isn't Testing (But Should Be)</div>
+    </div>
+
+    <div class="intro">
+        <strong>Dr. Gavin's Note:</strong> Standard reference ranges are designed to identify <em>disease</em>, not
+        health. They are statistical averages of a sick population. If you want average health, use their ranges. If you
+        want optimal longevity, use ours.
+    </div>
+
+    <!-- Lab 1 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">1</div>
+            <h2>Fasting Insulin</h2>
+        </div>
+        <div class="why-it-matters">
+            <strong>The Early Warning System.</strong> Glucose is the crime scene; Insulin is the detective. Insulin
+            rises years before blood sugar does. High insulin drives aging, vascular damage, and fat storage.
+        </div>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range (The "Sick" Zone)</span>
+                <span class="value">&lt; 25 µIU/mL</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range (The Goal)</span>
+                <span class="value">2.0 - 5.0 µIU/mL</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lab 2 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">2</div>
+            <h2>ApoB (Apolipoprotein B)</h2>
+        </div>
+        <div class="why-it-matters">
+            <strong>The True Particle Count.</strong> Standard LDL-C ("Bad Cholesterol") estimates volume, like
+            measuring traffic by weighing the cars. ApoB counts the actual number of crash-prone vehicles. It is the
+            single best predictor of cardiac risk.
+        </div>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 100 mg/dL</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 60 mg/dL</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lab 3 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">3</div>
+            <h2>High-Sensitivity CRP (hs-CRP)</h2>
+        </div>
+        <div class="why-it-matters">
+            <strong>The Fire Alarm.</strong> Chronic inflammation is the root of almost all modern disease. hs-CRP
+            measures systemic inflammation in your arteries. If this is high, your cholesterol is far more dangerous.
+        </div>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 3.0 mg/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 0.5 mg/L</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lab 4 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">4</div>
+            <h2>Homocysteine</h2>
+        </div>
+        <div class="why-it-matters">
+            <strong>The Methylation Marker.</strong> Elevates when your B-vitamin methylation pathways are jammed. High
+            levels damage arterial linings and are strongly linked to dementia and stroke risk.
+        </div>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 15 µmol/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">5.0 - 7.0 µmol/L</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lab 5 -->
+    <div class="lab-item">
+        <div class="lab-header">
+            <div class="lab-number">5</div>
+            <h2>GGT (Gamma-Glutamyl Transferase)</h2>
+        </div>
+        <div class="why-it-matters">
+            <strong>The Oxidative Stress Gauge.</strong> Often ignored as just a "liver enzyme," GGT is actually a
+            sensitive marker for total body oxidative stress and glutathione depletion. It predicts all-cause mortality
+            better than almost any other enzyme.
+        </div>
+        <div class="ranges">
+            <div class="range-box standard-range">
+                <span class="label">Standard Range</span>
+                <span class="value">&lt; 60 U/L</span>
+            </div>
+            <div class="range-box optimal-range">
+                <span class="label">Optimal Range</span>
+                <span class="value">&lt; 20 U/L</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 EmpowerVida & Dr. Gavin McAuley. For educational purposes only. Not medical advice.
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://empowervida.com/</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/home_hero_fade.png</image:loc>
+      <image:caption>Mitochondrial cell structure representing cellular energy and longevity</image:caption>
+      <image:title>EMPOWERVIDA Homepage Hero</image:title>
+    </image:image>
+  </url>
+
+  <!-- Insulin Story Page -->
+  <url>
+    <loc>https://empowervida.com/insulin-story</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/hero_cell_energy.png</image:loc>
+      <image:caption>Cellular energy production and metabolic health</image:caption>
+      <image:title>Insulin Story Hero Image</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://empowervida.com/insulin_resistance_progression.png</image:loc>
+      <image:caption>Three stages of insulin resistance showing progressive insulin escalation from normal to compensated to decompensated failure with mitochondrial dysfunction</image:caption>
+      <image:title>Insulin Resistance Progression Infographic</image:title>
+    </image:image>
+  </url>
+
+  <!-- Mitochondrial Guide -->
+  <url>
+    <loc>https://empowervida.com/mitochondrial-guide</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/mitochondrion_hero_cinematic_1764586685814.png</image:loc>
+      <image:caption>Mitochondria cellular powerhouse for energy production and longevity</image:caption>
+      <image:title>Mitochondrial Guide Hero</image:title>
+    </image:image>
+  </url>
+
+  <!-- Protocol Page -->
+  <url>
+    <loc>https://empowervida.com/protocol</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/protocol_hero_fire_v2.jpg</image:loc>
+      <image:caption>The 7 Master Protocols for longevity and metabolic optimization</image:caption>
+      <image:title>Protocol Stack Hero</image:title>
+    </image:image>
+  </url>
+
+  <!-- Longevity Guide -->
+  <url>
+    <loc>https://empowervida.com/longevity</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/hero_dna_botanical_1764284832727.png</image:loc>
+      <image:caption>DNA and botanical compounds for longevity and anti-aging</image:caption>
+      <image:title>Longevity Blueprint Hero</image:title>
+    </image:image>
+  </url>
+
+  <!-- Blog Posts with Featured Images -->
+  <url>
+    <loc>https://empowervida.com/blog</loc>
+    <image:image>
+      <image:loc>https://empowervida.com/blog_hero.jpg</image:loc>
+      <image:caption>The Journal - Evidence-based longevity and metabolic health insights</image:caption>
+      <image:title>Blog Hero Image</image:title>
+    </image:image>
+  </url>
+
+</urlset>
