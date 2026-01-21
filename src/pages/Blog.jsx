@@ -127,21 +127,30 @@ export default function Blog() {
                         onClick={() => window.scrollTo(0, 0)}
                     >
                         {filteredPosts[0].image && (
-                            <div style={{ display: 'block', width: '100%', height: '100%' }}>
+                            <div style={{
+                                display: 'block',
+                                width: '100%',
+                                height: '100%',
+                                minHeight: '400px',
+                                position: 'relative'
+                            }}>
                                 <img
                                     src={filteredPosts[0].image}
                                     alt={filteredPosts[0].title}
                                     loading="eager"
                                     style={{
                                         width: '100%',
-                                        height: '400px',
+                                        height: '100%',
                                         objectFit: 'cover',
-                                        borderRadius: '12px'
+                                        borderRadius: '12px',
+                                        position: 'absolute',
+                                        top: 0,
+                                        left: 0
                                     }}
                                 />
                             </div>
                         )}
-                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '2rem' }}>
                             <div style={{
                                 display: 'inline-block',
                                 background: 'var(--color-accent-teal)',
