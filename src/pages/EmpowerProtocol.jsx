@@ -295,7 +295,7 @@ const EmpowerProtocol = () => {
                         {[
                             { time: '07:00', label: 'WAKE', detail: 'Sunlight + 500ml Water + Sea Salt' },
                             { time: '07:30', label: 'MOVE', detail: 'Zone 2 Walk (Fasted)' },
-                            { time: '08:00', label: 'OPTIMIZE', detail: 'Coffee + 5g Creatine (Empower Vida)' },
+                            { time: '08:00', label: 'OPTIMISE', detail: 'Coffee + 5g Creatine (Empower Vida)' },
                             { time: '13:00', label: 'FUEL', detail: 'First Meal (High Protein, Low Glycemic)' },
                             { time: '18:00', label: 'CLOSE', detail: 'Last food intake (Start Fast)' },
                             { time: '21:00', label: 'SHIELD', detail: '400mg Magnesium Bisglycinate' },

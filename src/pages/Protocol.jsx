@@ -137,7 +137,7 @@ const Protocol = () => {
                         marginBottom: '2rem'
                     }}
                 >
-                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimization. <strong>Yes, there is overlap—that's biology.</strong> Choose your primary target, then layer as needed.
+                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap—that's biology.</strong> Choose your primary target, then layer as needed.
                 </motion.p>
             </section>
 
@@ -233,7 +233,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
                                     <strong>GlyNAC Complex (Glycine 2g + NAC 1.2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Proven to reverse ageing markers.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Research suggests it may help reverse markers associated with ageing.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
@@ -451,7 +451,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Mitochondrial ATP synthesis, electron transport chain optimization
+                            Mitochondrial ATP synthesis, electron transport chain optimisation
                         </p>
 
                         <p style={{
@@ -753,7 +753,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
                                     <strong>Berberine (500mg, 2-3x daily with meals)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>AMPK activator. Shown to be as effective as Metformin for glucose control in clinical trials. Take with food.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>AMPK activator. Some studies suggest comparable effects to Metformin for glucose control. Take with food.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>

@@ -105,7 +105,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: How to Feed Your Brain</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If Maeve walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimize the "Engine in the Basement" immediately.
+        If Maeve walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimise the "Engine in the Basement" immediately.
       </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
@@ -149,7 +149,7 @@ export const POSTS = [
   {
     id: 81,
     slug: 'collagen-spinal-regeneration-l4-l5',
-    title: "Did I just cure my father's back pain with collagen?",
+    title: "Did collagen fix my father's back pain?",
     category: 'musculoskeletal',
     image: '/lumbar_spine_l4_l5_hero.png',
     excerpt: "As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal—when it's your father with bone-on-bone degeneration—you look past the old trials. Here's what the science actually showed.",
@@ -253,7 +253,7 @@ export const POSTS = [
       <div style="background: rgba(255, 152, 0, 0.08); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <ul style="font-size: 1.05rem; line-height: 1.8; margin: 0; padding-left: 1.5rem;">
           <li style="margin-bottom: 1rem;"><strong>Type II Bioactive Peptides:</strong> Focus on collagen specifically shown to target cartilage and disc tissue.</li>
-          <li style="margin-bottom: 1rem;"><strong>Monitor & Supplement:</strong> Collagen works best when Vitamin C and Vitamin D levels are optimized to act as catalysts for synthesis.</li>
+          <li style="margin-bottom: 1rem;"><strong>Monitor & Supplement:</strong> Collagen works best when Vitamin C and Vitamin D levels are optimised to act as catalysts for synthesis.</li>
           <li style="margin-bottom: 0;"><strong>Consistency:</strong> Like the research shows, regeneration is a slow burn. You need at least 3 to 6 months to see structural changes on a scan.</li>
         </ul>
       </div>
@@ -1620,7 +1620,7 @@ export const POSTS = [
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
-        So they engineered a solution: \u003cstrong\u003eMagnesium L-Threonate (MgT)\u003c/strong\u003e—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognizes threonate and opens the gate.
+        So they engineered a solution: \u003cstrong\u003eMagnesium L-Threonate (MgT)\u003c/strong\u003e—a compound that binds magnesium to L-threonate, a metabolite of Vitamin C. The brain recognises threonate and opens the gate.
       \u003c/p\u003e
 
       \u003cdiv style=\"background: rgba(255, 152, 0, 0.1); border-left: 4px solid #FF9800; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;\"\u003e
@@ -1711,7 +1711,7 @@ export const POSTS = [
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
-        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognizes it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
+        Magnesium L-Threonate is different. The threonate molecule acts as a molecular passport—the BBB recognises it and opens the gate. Once inside, magnesium concentrations in cerebrospinal fluid increase by 15%.
       \u003c/p\u003e
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
@@ -2484,7 +2484,7 @@ export const POSTS = [
       
       <p><strong>Here is the key:</strong> Cytokines kill your mood. They block the conversion of Tryptophan into Serotonin (your happy chemical) and instead turn it into a neurotoxin called Quinolinic Acid.</p>
       
-      <p><strong>The Result:</strong> You feel anxious, withdrawn, and foggy. Evolutionarily, this is called "Sickness Behavior." Your body wants you to isolate yourself to heal. But in the modern world, you aren't sick; you're just inflamed.</p>
+      <p><strong>The Result:</strong> You feel anxious, withdrawn, and foggy. Evolutionarily, this is called "Sickness Behaviour." Your body wants you to isolate yourself to heal. But in the modern world, you aren't sick; you're just inflamed.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/glymphatic_system.png" alt="Microglia Activation" style="width: 100%; height: auto; display: block;" />

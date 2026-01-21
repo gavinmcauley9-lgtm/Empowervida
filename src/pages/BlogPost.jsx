@@ -357,6 +357,25 @@ export default function BlogPost() {
         {/* EMAIL CAPTURE - After reading the post */}
         <EmailCapture variant="default" />
 
+        {/* Medical Disclaimer */}
+        <div style={{
+          marginTop: '3rem',
+          padding: '1.5rem',
+          background: 'rgba(107, 114, 128, 0.05)',
+          borderRadius: '8px',
+          border: '1px solid rgba(107, 114, 128, 0.1)'
+        }}>
+          <p style={{
+            fontSize: '0.85rem',
+            color: 'var(--color-text-muted)',
+            lineHeight: '1.6',
+            margin: 0,
+            fontStyle: 'italic'
+          }}>
+            <strong>Medical Disclaimer:</strong> This article reflects the author's clinical experience and personal research. It is intended for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider before starting any supplement regimen, especially if you have existing health conditions or take medications.
+          </p>
+        </div>
+
         <style>{`
           .blog-content h2 {
             color: var(--color-text);

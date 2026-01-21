@@ -55,11 +55,11 @@ export default function Home() {
         },
         {
             question: "I'm overwhelmed. Where do I start?",
-            answer: "Begin with 'Tier 1: The Essential 5'. These are the non-negotiables: Vitamin D, Magnesium, Omega-3s, and Metabolic support. Once your baseline is stable, you can layer on 'Tier 2' optimizations for specific goals like cognitive clarity or energy."
+            answer: "Begin with 'Tier 1: The Essential 5'. These are the non-negotiables: Vitamin D, Magnesium, Omega-3s, and Metabolic support. Once your baseline is stable, you can layer on 'Tier 2' optimisations for specific goals like cognitive clarity or energy."
         },
         {
             question: "Do I need a doctor's referral?",
-            answer: "No. These protocols are designed for proactive health optimization. However, Dr. Gavin always recommends sharing your supplement regimen with your primary care provider, especially if you are on prescription medications."
+            answer: "No. These protocols are designed for proactive health optimisation. However, Dr. Gavin always recommends sharing your supplement regimen with your primary care provider, especially if you are on prescription medications."
         },
         {
             question: "How quickly will I feel results?",
@@ -323,7 +323,7 @@ export default function Home() {
                             margin: '0 auto',
                             lineHeight: '1.7'
                         }}>
-                            Navigate the three pillars of the Empowervida protocol: Education, Optimization, and Implementation.
+                            Navigate the three pillars of the Empowervida protocol: Education, Optimisation, and Implementation.
                         </p>
                     </div>
 

@@ -288,7 +288,7 @@ export default function About() {
                             In 2022, I made a choice: fix the root cause or accept decline.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I didn't need willpower. I needed a protocol. I optimised my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. I lost 30kg. Sleep apnea resolved. Energy stabilized.
+                            I didn't need willpower. I needed a protocol. I optimised my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. I lost 30kg. Sleep apnea resolved. Energy stabilised.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
                             Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
