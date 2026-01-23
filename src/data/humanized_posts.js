@@ -994,7 +994,7 @@ export const humanizedPost2 = {
   id: 2,
   title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
   category: 'sleep',
-  image: '/brain_sewage_glymphatic.png',
+  image: '/brain_sewage_glymphatic.webp',
   excerpt: "That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.",
   date: 'Jan 10, 2026',
   cta: {
@@ -1180,7 +1180,7 @@ export const humanizedPost4 = {
   id: 4,
   title: 'The MIT Discovery That Reverses Brain Aging: How One Molecule Grew New Synapses in 60-Year-Old Brains',
   category: 'cognition',
-  image: '/magnesium_neuroplasticity_hero.png',
+  image: '/magnesium_neuroplasticity_hero.webp',
   excerpt: "MIT neuroscientists discovered a magnesium form that crosses the blood brain barrier and increases synaptic density by 44%. This isnt regular magnesium.",
   date: 'Jan 10, 2026',
   cta: {

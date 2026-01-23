@@ -64,7 +64,7 @@ const EngineRoom = () => {
                 width: '100%',
                 height: '100vh',
                 zIndex: -1,
-                backgroundImage: 'url(/mitochondrion_final.png)',
+                backgroundImage: 'url(/mitochondrion_final.webp)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat'

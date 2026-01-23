@@ -43,7 +43,7 @@ const AdvancedOptimization = () => {
         }}>
             {/* Hero Section */}
             < HeroSection
-                backgroundImage="/tier3_hero_user.png"
+                backgroundImage="/tier3_hero_user.webp"
                 title={
                     <>
                         TIER 3: <br />

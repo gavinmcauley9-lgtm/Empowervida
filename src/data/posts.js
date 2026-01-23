@@ -800,7 +800,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/metabolic_state_1_normal.png" alt="Normal Metabolic State: Efficient river flow, minimal insulin, clean turbines" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/metabolic_state_1_normal.webp" alt="Normal Metabolic State: Efficient river flow, minimal insulin, clean turbines" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The Healthy System: Low Insulin, Normal Glucose, Efficient Processing
         </p>
@@ -827,7 +827,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/metabolic_state_2_struggle.png" alt="Stage 1 Metabolic Crisis: Internal backup, river still clear, many foremen struggling" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/metabolic_state_2_struggle.webp" alt="Stage 1 Metabolic Crisis: Internal backup, river still clear, many foremen struggling" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The Hidden Crisis: High Insulin, Normal Glucose, Internal Gridlock
         </p>
@@ -857,7 +857,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/metabolic_state_3_gridlock.png" alt="Stage 2 Metabolic Collapse: River jammed, factory stopped, total system failure" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/metabolic_state_3_gridlock.webp" alt="Stage 2 Metabolic Collapse: River jammed, factory stopped, total system failure" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           Total System Collapse: High Insulin, High Glucose, Complete Gridlock
         </p>
@@ -1465,7 +1465,7 @@ export const POSTS = [
     id: 2,
     title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
     category: 'sleep',
-    image: '/brain_sewage_glymphatic.png',
+    image: '/brain_sewage_glymphatic.webp',
     excerpt: 'That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.',
     date: 'Nov 30, 2025',
     cta: {
@@ -1489,7 +1489,7 @@ export const POSTS = [
       <p><strong>This is exactly what is happening inside your brain when you have "Brain Fog."</strong></p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brain_sewage_glymphatic.png" alt="Sleep vs Awake Brain Comparison" style="width: 100%; height: auto; display: block;" />
+        <img src="/brain_sewage_glymphatic.webp" alt="Sleep vs Awake Brain Comparison" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: Glymphatic Cleaning During Sleep vs. Metabolic Waste Accumulation While Awake</p>
       </div>
       
@@ -1756,7 +1756,7 @@ export const POSTS = [
     id: 4,
     title: 'The MIT Discovery That Reverses Brain Ageing: How One Molecule Grew New Synapses in 60-Year-Old Brains',
     category: 'cognition',
-    image: '/magnesium_neuroplasticity_hero.png',
+    image: '/magnesium_neuroplasticity_hero.webp',
     excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%, reversing cognitive decline in ageing brains. The breakthrough: its the only form that crosses the blood brain barrier.',
     date: 'Dec 08, 2025',
     cta: {
@@ -3114,7 +3114,7 @@ export const POSTS = [
       <p>Your body becomes deaf to the signal of protein. To overcome this resistance and stop the frailty, you need a much louder signal. You need more high-quality protein than you think.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/amino_acid_repair.png" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" />
+        <img src="/amino_acid_repair.webp" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Action: Amino Acids Repairing Muscle Fiber</p>
       </div>
       
@@ -3371,7 +3371,7 @@ export const POSTS = [
     id: 21,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
     category: 'energy',
-    image: '/mitochondria_biogenesis.png',
+    image: '/mitochondria_biogenesis.webp',
     excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
     date: 'Dec 07, 2025',
     cta: {
