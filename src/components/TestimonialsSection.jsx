@@ -4,23 +4,30 @@ import { motion } from 'framer-motion';
 const testimonials = [
     {
         id: 1,
-        quote: "We don't just treat symptoms. We identify the upstream metabolic dysfunction—the 'grinding gears'—before it becomes a disease state.",
-        author: "Root Cause Medicine",
-        role: " The Philosophy"
+        quote: "The goal isn't just to live longer—it's to extend your healthspan. We should be focused on preventing chronic disease decades before it manifests.",
+        author: "Dr. Peter Attia, MD",
+        role: "Longevity Physician & Host of The Drive Podcast",
+        initials: "PA",
+        source: "The Drive Podcast"
     },
     {
         id: 2,
-        quote: "Aging is fundamentally an energy crisis. By restoring mitochondrial currency (NAD+, ATP), we reverse the biological clock at the source.",
-        author: "Cellular Economics",
-        role: "The Mechanism"
+        quote: "Sleep is the foundation of mental and physical health. It's during sleep that the brain clears metabolic waste and consolidates learning.",
+        author: "Dr. Andrew Huberman, PhD",
+        role: "Stanford Neuroscientist & Host of Huberman Lab",
+        initials: "AH",
+        source: "Huberman Lab Podcast"
     },
     {
         id: 3,
-        quote: "Your gut, brain, and hormones are a single network. We treat the system as a whole, not as isolated parts.",
-        author: "Systems, Not Silos",
-        role: "The Architecture"
+        quote: "Aging is not inevitable. It's a disease, and like any disease, it can be treated. The question is no longer if, but when.",
+        author: "Dr. David Sinclair, PhD",
+        role: "Harvard Geneticist & Author of Lifespan",
+        initials: "DS",
+        source: "Lifespan: Why We Age and Why We Don't Have To"
     }
 ];
+
 
 const TestimonialsSection = () => {
     return (
@@ -46,7 +53,7 @@ const TestimonialsSection = () => {
                         textTransform: 'uppercase',
                         letterSpacing: '0.05em'
                     }}>
-                        The Medical Standard
+                        Expert Insights
                     </h2>
                     <p style={{
                         color: 'var(--color-accent-teal)',
@@ -55,7 +62,7 @@ const TestimonialsSection = () => {
                         textTransform: 'uppercase',
                         fontSize: '0.9rem'
                     }}>
-                        Built on Evidence, Not Hype
+                        What Leading Researchers Are Saying
                     </p>
                 </div>
 
@@ -83,10 +90,8 @@ const TestimonialsSection = () => {
                                 height: '100%'
                             }}
                         >
-                            <div style={{ marginBottom: '1.5rem' }}>
-                                {[...Array(5)].map((_, starIndex) => (
-                                    <span key={starIndex} style={{ color: '#FFB800', fontSize: '1.2rem', marginRight: '4px' }}>★</span>
-                                ))}
+                            <div style={{ marginBottom: '1rem', color: 'var(--color-accent-teal)', fontSize: '2.5rem', lineHeight: 1, opacity: 0.6 }}>
+                                "
                             </div>
                             <p style={{
                                 fontSize: '1.05rem',
@@ -104,21 +109,24 @@ const TestimonialsSection = () => {
                                 gap: '1rem'
                             }}>
                                 <div style={{
-                                    width: '40px',
-                                    height: '40px',
+                                    width: '48px',
+                                    height: '48px',
                                     borderRadius: '50%',
-                                    background: 'var(--color-accent-teal)',
+                                    background: 'linear-gradient(135deg, var(--color-accent-teal), #064E3B)',
                                     color: '#FFF',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    fontWeight: 700
+                                    fontWeight: 700,
+                                    fontSize: '1rem',
+                                    letterSpacing: '0.05em'
                                 }}>
-                                    {t.author.charAt(0)}
+                                    {t.initials}
                                 </div>
                                 <div>
-                                    <div style={{ fontWeight: 700, color: 'var(--color-text)' }}>{t.author}</div>
-                                    <div style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>{t.role}</div>
+                                    <div style={{ fontWeight: 700, color: 'var(--color-text)', fontSize: '0.95rem' }}>{t.author}</div>
+                                    <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', lineHeight: 1.4 }}>{t.role}</div>
+                                    <div style={{ fontSize: '0.75rem', color: 'var(--color-accent-teal)', marginTop: '4px', fontStyle: 'italic' }}>Source: {t.source}</div>
                                 </div>
                             </div>
                         </motion.div>
