@@ -100,7 +100,8 @@ export default function Home() {
                 position: 'relative',
                 zIndex: 10,
                 isolation: 'isolate',
-                pointerEvents: 'none'
+                pointerEvents: 'none',
+                transform: 'translateZ(0)'
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
@@ -301,7 +302,8 @@ export default function Home() {
             < section style={{
                 padding: '8rem 2rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
-                position: 'relative'
+                position: 'relative',
+                transform: 'translateZ(0)'
             }
             }>
                 <div className="container" data-aos="fade-up">
