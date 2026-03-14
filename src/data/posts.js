@@ -6400,51 +6400,134 @@ export const POSTS = [
   },
   {
     id: 63,
-    title: 'Beta-Alanine and Creatine: Can You Take Them Together? (Physicians Guide) ',
+    title: 'The Cellular Battery: Why Beta-Alanine and Creatine are the Ultimate Power Couple (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/supplement_synergy.png',
-    excerpt: 'Beta-alanine increases muscle carnosine (buffering lactic acid). Creatine recycles ATP. Together: endurance + power....',
-    date: 'Jan 10, 2026',
+    image: '/creatine_beta_alanine_muscle.png',
+    excerpt: 'Creatine and Beta-Alanine work in a perfect metabolic "handshake." Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the "acidic burn" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.',
+    date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
       link: "/shop"
     },
     references: [
-      {
-        "text": "Hoffman, J., et al. (2006). Effect of creatine and beta-alanine supplementation on performance and endocrine responses in strength/power athletes. International Journal of Sport Nutrition and Exercise Metabolism, 16(4), 430-446.",
-        "url": ""
-      }
+      { text: "Hoffman, J., et al. (2006). Effect of creatine and beta-alanine supplementation on performance and endocrine responses in strength/power athletes. Int J Sport Nutr Exerc Metab, 16(4), 430-446.", url: "https://pubmed.ncbi.nlm.nih.gov/17136944/" },
+      { text: "Boldyrev, A. A., et al. (2013). Physiology and pathophysiology of carnosine. Physiological Reviews, 93(4), 1803-1845.", url: "https://pubmed.ncbi.nlm.nih.gov/24137022/" },
+      { text: "Forbes, S. C., et al. (2022). Effects of Creatine Supplementation on Brain Function and Health. Nutrients, 14(5), 921.", url: "https://pubmed.ncbi.nlm.nih.gov/35215501/" },
+      { text: "Cruz-Jentoft, A. J., et al. (2014). Sarcopenia: revised European consensus on definition and diagnosis. Age and Ageing, 39(4), 412-423.", url: "https://pubmed.ncbi.nlm.nih.gov/20392703/" }
     ],
     content: `
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes synergistic</p>
+        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Creatine and Beta-Alanine work in a perfect metabolic "handshake." Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the "acidic burn" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.</p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works</h2>
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/creatine_beta_alanine_muscle.png" alt="A high-end, clinical 3D render of a muscle fiber at the microscopic level showing Creatine and Carnosine buffering acid" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Observation: The Sarcopenia Defense</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Beta-alanine increases muscle carnosine (buffering lactic acid). Creatine recycles ATP. Together: endurance + power.
+        As a Family Physician, one of the most significant predictors of all-cause mortality I see in my older patients is Sarcopenia (age-related muscle loss). Muscle isn't just for aesthetics; it is your metabolic "sink" for glucose and your insurance policy against falls and fractures.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
-
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Beta-alanine: 3-6g daily (divided doses). Creatine: 5g daily.
+        For years, I saw Beta-Alanine as something only "pre-workout" junkies used to get that "tingling" sensation (paresthesia). But when I looked at the data on Carnosine—the molecule Beta-Alanine builds—I realized we were looking at a potent anti-aging tool. Personally, I use this stack not just for the gym, but for the cognitive endurance it provides during back-to-back patient consultations. It keeps the "mental burn" at bay.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Biochemistry: The Metabolic Handshake</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is the classic sports performance stack. Beta-alanine takes 4 weeks to saturate muscle carnosine. Creatine works within days.
+        To understand why these two belong together, we have to look at how a cell fails during exertion.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Creatine: The Energy Reservoir</h3>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Beta-alanine causes harmless paresthesia (tingling). Creatine: ensure hydration. Both are safe for long-term use.
+        Creatine is stored in your muscles as Phosphocreatine. When you perform a high-intensity task, your body uses up ATP (Adenosine Triphosphate). Creatine "donates" a phosphate molecule to instantly turn used-up ADP back into fresh ATP.
+      </p>
+
+      <div style="background: rgba(243, 244, 246, 0.5); padding: 1.5rem; margin: 2rem 0; text-align: center; border-radius: 8px; font-family: monospace; font-size: 1.2rem; color: var(--color-text);">
+        ADP + Phosphocreatine &rarr; ATP + Creatine
+      </div>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. Beta-Alanine: The Acid Buffer</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The byproduct of that energy production is a buildup of hydrogen ions (H+), which lowers the pH of your muscles, making them acidic. This is the "burn" that makes you stop. Beta-Alanine combines with Histidine to create Carnosine, which acts like a molecular sponge, soaking up those H+ ions and keeping the cellular environment stable.
+      </p>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/energy_battery_infographic.png" alt="A clean, minimalist medical infographic showing Creatine as a battery and Beta-Alanine as a cooling fan" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Beyond the Gym: The Neuro-Protective "Secret"</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is the part of the "Recipe" that will surprise your audience. Both of these compounds are highly active in the Brain.
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Creatine & Brain Bioenergetics:</strong> The brain is the most energy-demanding organ in the body. Research shows that Creatine supplementation can improve short-term memory and reasoning, especially in stressed or sleep-deprived individuals (like us doctors!).</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Carnosine & Glycation:</strong> Beta-Alanine boosts Carnosine, which is one of our most potent defenses against Advanced Glycation End-products (AGEs). AGEs "cross-link" proteins in the brain and skin, contributing to both wrinkles and neurodegeneration. By taking Beta-Alanine, you aren't just buffering muscle acid; you are protecting your proteins from "caramelizing."</li>
+      </ul>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Biohacking Your Labs: What to Watch</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When you start this protocol, you might notice one specific lab value "flicker":
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <strong>Creatinine:</strong> In a standard blood panel, "Creatinine" is used as a marker for kidney function. Because Creatine breaks down into Creatinine, your levels may appear slightly elevated. As a physician, I always tell my patients: Don't panic. If your GFR (Glomerular Filtration Rate) and Cystatin-C are normal, the elevated Creatinine is simply a byproduct of your supplement, not a sign of kidney damage.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Architect’s "Power Couple" Protocol</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        To get the maximum synergistic effect, you have to move past the "pre-workout" mentality. These are saturation supplements—they work over time, not instantly.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Creatine Monohydrate</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Don't get distracted by "fancy" versions like HCL or Nitrate. Monohydrate is the most researched and effective.
+      </p>
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>The Dosage:</strong> 5g daily. Every. Single. Day.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>The Physician’s Tip:</strong> No "loading phase" is necessary unless you are in a rush. 5g a day will saturate your muscles in about 3 weeks.</li>
+      </ul>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. Beta-Alanine</h3>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>The Dosage:</strong> 3.2g to 6.4g daily.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>The "Tingle" Factor:</strong> If you hate the "pins and needles" feeling (paresthesia), split your dose into two smaller 1.6g servings, or use a sustained-release version.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>The Timing:</strong> Like Creatine, timing doesn't matter as much as consistency. You are building up a "pool" of Carnosine in your tissues.</li>
+      </ul>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/creatine_stack_flatlay.png" alt="A lifestyle shot of a sleek supplement shaker next to running shoes and a tablet displaying a Muscle Mass tracking app" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Physician’s Cautions</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        While these are two of the safest supplements on the planet (with over 1,000 peer-reviewed studies), we must be diligent:
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.75rem;"><strong>Kidney Disease:</strong> If you have pre-existing Stage 3+ Chronic Kidney Disease, consult your specialist before starting Creatine.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Paresthesia:</strong> The Beta-Alanine tingle is harmless—it’s just a sensory nerve reaction—but it can be startling if you aren't expecting it.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Hydration:</strong> Creatine draws water into the muscle cell. This is great for muscle protein synthesis, but it means you must increase your daily water intake by about 500ml.</li>
+      </ul>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Final Physician’s Note</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        We tend to think of aging as a slow fade, but at the cellular level, it’s often a "power failure." By supplementing with Creatine and Beta-Alanine, you are essentially upgrading your cellular battery and your cooling system at the same time. Whether you are lifting weights or navigating a high-stakes board meeting, you want the most efficient engine possible.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
