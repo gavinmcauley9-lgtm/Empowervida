@@ -1,0 +1,500 @@
+{
+  "pass": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19885299/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23709744/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25324467/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27458340/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=Knefeli+Durani+collagen+degenerative+disc+disease+2014",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 162
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22545014/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 163
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21251991/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 164
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28177710/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26362110/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 166
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18946782/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 285
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24136970/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 286
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29458744/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 287
+        }
+      ]
+    },
+    {
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r115",
+      "status": 301,
+      "location": "https://link.springer.com/article/10.1186/gb-2013-14-10-r115",
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 444
+        },
+        {
+          "source": "humanized_posts.js",
+          "line": 328
+        }
+      ]
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5933890/",
+      "status": 301,
+      "location": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5933890/",
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 560
+        },
+        {
+          "source": "humanized_posts.js",
+          "line": 456
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11140366/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 561
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10751106/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 2124
+        }
+      ]
+    },
+    {
+      "url": "https://hubermanlab.com/the-science-and-use-of-cold-exposure-for-health-and-performance/",
+      "status": 301,
+      "location": "https://hubermanlab.com/the-science-and-use-of-cold-exposure-for-health-and-performance",
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 2125
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3489
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29514064/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3490
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29403302/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3580
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30279143/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3675
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12939617/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3676
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21966175/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3779
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19861415/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3780
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33783984/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3875
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35268089/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 3876
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18579649/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28805671/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 127
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17136944/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 226
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25229917/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 566
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30067154/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 567
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29249689/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 718
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29599478/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 719
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22109896/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 846
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18283240/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 847
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22896675/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1005
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26245953/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1006
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18816480/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1115
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20152124/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1191
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21282661/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1265
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16123534/",
+      "status": 200,
+      "location": null,
+      "locations": [
+        {
+          "source": "humanized_posts.js",
+          "line": 1333
+        }
+      ]
+    }
+  ],
+  "warn": [
+    {
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(13)00645-4",
+      "status": 403,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 443
+        },
+        {
+          "source": "humanized_posts.js",
+          "line": 327
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.abn9257",
+      "status": 403,
+      "location": null,
+      "locations": [
+        {
+          "source": "posts.js",
+          "line": 559
+        },
+        {
+          "source": "posts.js",
+          "line": 3579
+        },
+        {
+          "source": "humanized_posts.js",
+          "line": 455
+        }
+      ]
+    }
+  ],
+  "fail": []
+}

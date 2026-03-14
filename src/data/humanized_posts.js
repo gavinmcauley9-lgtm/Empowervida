@@ -715,7 +715,7 @@ export const humanizedPost22 = {
     link: "/protocol#longevity-stack"
   },
   references: [
-    { text: "Yoshino, J., et al. (2018). NAD+ intermediates: The biology and therapeutic potential of NMN and NR. Cell Metabolism, 27(3), 513-528.", url: "https://pubmed.ncbi.nlm.nih.gov/29514064/" },
+    { text: "Yoshino, J., et al. (2018). NAD+ intermediates: The biology and therapeutic potential of NMN and NR. Cell Metabolism, 27(3), 513-528.", url: "https://pubmed.ncbi.nlm.nih.gov/29249689/" },
     { text: "Martens, C. R., et al. (2018). Chronic nicotinamide riboside supplementation is well-tolerated and elevates NAD+ in healthy middle-aged and older adults. Nature Communications, 9(1), 1286.", url: "https://pubmed.ncbi.nlm.nih.gov/29599478/" }
   ],
   content: `

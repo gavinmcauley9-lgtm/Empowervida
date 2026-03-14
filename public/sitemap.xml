@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://empowervida.com/blog/33</loc>
-    <lastmod>2026-01-05</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -320,7 +320,7 @@
   </url>
   <url>
     <loc>https://empowervida.com/blog/36</loc>
-    <lastmod>2026-01-05</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -350,7 +350,7 @@
   </url>
   <url>
     <loc>https://empowervida.com/blog/41</loc>
-    <lastmod>2026-01-05</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -398,7 +398,7 @@
   </url>
   <url>
     <loc>https://empowervida.com/blog/49</loc>
-    <lastmod>2026-01-05</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -599,6 +599,12 @@
   <url>
     <loc>https://empowervida.com/blog/82</loc>
     <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://empowervida.com/blog/83</loc>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
