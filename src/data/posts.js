@@ -1932,101 +1932,141 @@ export const POSTS = [
     id: 19,
     title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
     category: 'energy',
-    image: '/cortisol_stress_hero_1764771996868.png',
-    excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
-    date: 'Dec 07, 2025',
+    image: '/methylation_gears.png',
+    excerpt: 'Roughly 40% of the population has a genetic mutation that breaks their cellular engine. A physician explains the MTHFR gene, homocysteine buildup, and why standard B-vitamins might be making you more exhausted.',
+    date: 'Mar 15, 2026',
     cta: {
-      text: "Get Dr. Gavin's Methylation Stack",
-      link: "/shop"
+      text: "View The Energy & Methylation Protocol",
+      link: "/protocol#energy-stack"
     },
+    references: [
+      { text: "Frosst, P., et al. (1995). A candidate genetic risk factor for vascular disease: a common mutation in methylenetetrahydrofolate reductase. Nature Genetics.", url: "https://pubmed.ncbi.nlm.nih.gov/7663517/" },
+      { text: "Boushey, C. J., et al. (1995). A quantitative assessment of plasma homocysteine as a risk factor for vascular disease. JAMA.", url: "https://pubmed.ncbi.nlm.nih.gov/7563456/" },
+      { text: "Pietrzik, K., et al. (2010). Folic acid and L-5-methyltetrahydrofolate: comparison of clinical pharmacokinetics and pharmacodynamics. Clinical Pharmacokinetics.", url: "https://pubmed.ncbi.nlm.nih.gov/20608755/" },
+      { text: "Clarke, R., et al. (2014). Homocysteine and polyneuropathy. The Lancet Neurology.", url: "https://pubmed.ncbi.nlm.nih.gov/25231535/" }
+    ],
     content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
+      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Statins deplete CoQ10. Metformin depletes B12. Beta-blockers deplete Melatonin. Many common meds rob your mitochondria of essential nutrients. Fix: Supplement with the specific nutrients your medication depletes (e.g., Ubiquinol/CoQ10 with Statins) to restore energy.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">If you feel exhausted despite eating well and sleeping 8 hours, your "ignition" system might be broken. The Methylation Cycle is the biochemical gear that turns nutrients into usable energy. Nearly 40% of people carry an MTHFR genetic mutation that severely limits this process. Taking cheap, synthetic B-vitamins (Cyanocobalamin, Folic Acid) acts like rust in these gears. The solution? Switch to "pre-methylated" active B-vitamins to bypass the genetic block and restore cellular energy.</p>
       </div>
-      
-      <p>I see this scenario every week. A patient comes in feeling exhausted, their muscles ache, and their brain feels foggy. They ask me to check their thyroid or their iron levels.</p>
-      
-      <p>But when I look at their chart, I see the real culprit immediately.</p>
-      
-      <p>They are taking a <strong>Statin</strong> (to lower cholesterol).</p>
-      
-      <p>Don't get me wrong, Statins save lives. They prevent heart attacks. But biologically, they come with a steep price tag that many doctors fail to explain.</p>
-      
-      <h2>The Mechanism</h2>
-      
-      <p>Statins work by blocking an enzyme in the liver to stop the production of Cholesterol. <strong>The Problem:</strong> That same pathway is responsible for producing <strong>CoQ10</strong> (Coenzyme Q10).</p>
-      
-      <p>By blocking the bad guy, we are accidentally starving the good guy.</p>
-      
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/vitality_mitochondria.png" alt="Mitochondria Spark Plug" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Concept: Healthy Mitochondria vs. CoQ10-Depleted Mitochondria</p>
-      </div>
-      
-      <h2>The "Spark Plug" of Life</h2>
-      
-      <p>Your mitochondria are the engines of your cells. To turn fuel (food) into energy (ATP), they use a process called the Electron Transport Chain.</p>
-      
-      <p><strong>CoQ10 is the essential electron carrier in this chain. It is the literal spark plug.</strong></p>
-      
-      <p><strong>Without CoQ10:</strong> The engine sputters.</p>
-      
-      <p><strong>The Result:</strong> Muscle weakness, fatigue, and brain fog.</p>
-      
-      <p>If you are over 40, your natural CoQ10 levels are dropping anyway. If you add a Statin on top of that, you are essentially driving a Ferrari with an empty tank.</p>
-      
-      <h2>The "New" Mitochondria (PQQ)</h2>
-      
-      <p>While CoQ10 makes your existing engines run better, there is another molecule that actually builds new engines.</p>
-      
-      <p>It is called <strong>PQQ (Pyrroloquinoline Quinone)</strong>. PQQ triggers a process called <strong>Mitochondrial Biogenesis</strong>. It tells your cells to multiply their power plants.</p>
-      
-      <p>When you combine CoQ10 (The Spark) with PQQ (The Engine Builder), you create a massive surge in cellular energy that coffee can never replicate.</p>
-      
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Mitochondrial Biogenesis" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Biogenesis: New Mitochondria Multiplying Inside Cell</p>
-      </div>
-      
-      <h2>The Protocol: Restore the Spark</h2>
-      
-      <p>If you are on a Statin, or if you are simply over the age of 45 and feeling "slow," you need to replenish the tank.</p>
-      
-      <p>But you have to buy the right form.</p>
-      
-      <p><strong>Avoid Ubiquinone:</strong> This is the cheap, oxidised form. Your body has to work hard to convert it.</p>
-      
-      <p><strong>Buy Ubiquinol:</strong> This is the active, antioxidant form. It absorbs up to 8x better.</p>
-      
-      <h2>THE TAKEAWAY</h2>
-      
-      <p>You don't have to stop taking your heart medication to feel energetic. You just need to support the systems that the medication depletes. Put the spark plug back in the engine.</p>
-      
-      <h3>TOOL: The Active Form (Ubiquinol)</h3>
-      
-      <p>Most CoQ10 on the shelf is the cheap stuff. I recommend <strong>Ubiquinol</strong> (look for the Kaneka seal) paired with PQQ for maximum mitochondrial density.</p>
-      
-      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
 
-
-
-        <a href="https://geni.us/kyBLJ3m" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/methylation_gears.png" alt="3D macro shot of glowing golden gears inside a cell, representing the methylation cycle" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
       </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The Engine That Won't Start</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        As a clinician, one of the most frustrating puzzle boxes I see is the patient who does everything "right." They exercise, they eat organic, they sleep, yet they complain of deep, bone-weary fatigue and relentless brain fog. They feel like a sports car that just won't turn over.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When we map their genetics and deeply analyze their blood work, we frequently find the culprit hiding in plain sight: an "Ignition Failure" at the cellular level. Biochemically, we call this the Methylation Cycle.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What is Methylation?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Methylation is arguably the most critical biochemical process you have never heard of. It happens over a billion times a second in every cell of your body. 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        To put it simply, methylation is the process of passing a "methyl group" (one carbon atom and three hydrogen atoms: CH3) from one molecule to another. Think of the methyl group as a spark plug. When it attaches to a molecule, it "turns on" an engine. It tells DNA whether to express a gene or silence it. It tells the body to clear out toxins. It tells the brain to produce neurotransmitters like dopamine and serotonin. 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Without efficient methylation, your cellular engines stall. You cannot convert the food you eat into the ATP energy you need to think, move, and thrive.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Genetic Roadblock: The MTHFR Mutation</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Here is the catch: to create these vital "spark plugs," your body relies heavily on an enzyme called MTHFR (Methylenetetrahydrofolate reductase). 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Recent genetic data shows that approximately 40% of the population carries a mutation in this specific gene. If you have this mutation, your ability to convert the nutrients you consume (specifically Folate and Vitamin B12) into their active, methylated forms is severely compromised. 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        You can eat all the spinach and kale in the world, but if your MTHFR enzyme is broken, your body cannot convert that raw folate into the "Active Methylfolate" it needs to run the engine. You are pouring premium gasoline into a car with a blocked fuel line.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Toxic Exhaust: Homocysteine</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        When the methylation cycle breaks down, it creates a toxic byproduct called Homocysteine.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In a healthy methylation cycle, homocysteine is cleanly recycled back into a harmless amino acid (methionine) or converted into your body's master antioxidant (glutathione). But when you lack active B-vitamins, the gears grind to a halt. Homocysteine backs up and spills into your bloodstream.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        High homocysteine levels are highly neurotoxic. It acts like sandpaper inside your blood vessels, leading to chronic inflammation, an exponentially higher risk of cardiovascular events, and accelerated cognitive decline. Whenever I see a patient with unexplained fatigue and joint pain, the first blood marker I check is Homocysteine.
+      </p>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/b_vitamins_homocysteine.png" alt="A clean medical diagram showing Active B-Vitamins fixing cellular damage" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Rusty Gear": Why Cheap Supplements Make It Worse</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If you look at the back of a standard, cheap multivitamin from the pharmacy, you will almost certainly see these two ingredients: <strong>Folic Acid</strong> and <strong>Cyanocobalamin</strong>. 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These are cheap, synthetic versions of Vitamin B9 and B12. They are not biologically active. To use them, your body has to force them through the MTHFR enzyme. But if you have the mutation, your body can't clear them. 
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Unmetabolized synthetic Folic Acid actually blocks the receptor sites on your cells, preventing the tiny bit of real, natural folate from getting in. Taking synthetic B-vitamins when you have a methylation issue is like pouring sand into a struggling gearbox. It makes the fatigue and brain fog actively worse.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Protocol: The "Methylated Bypass"</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The clinical solution to this problem is surprisingly elegant. If the genetic enzyme (the factory) is broken, we simply give the body the finished product. We "bypass" the broken machinery entirely by supplementing with B-vitamins that are *already* methylated.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. L-Methylfolate (Vitamin B9)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Throw away anything that says "Folic Acid." You must look for <strong>L-5-MTHF</strong> or <strong>L-Methylfolate</strong>. This is the biologically active form that crosses the blood-brain barrier immediately to turn on dopamine and serotonin production.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. Methylcobalamin (Vitamin B12)</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Avoid Cyanocobalamin (which literally leaves a microscopic cyanide molecule behind in your body that must be detoxified). Switch to <strong>Methylcobalamin</strong> or <strong>Adenosylcobalamin</strong>. These active forms instantly provide the methyl-groups necessary to drive mitochondrial energy production and clear out toxic homocysteine.
+      </p>
+
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">3. Check Your Homocysteine</h3>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        A conventional doctor might tell you a homocysteine level of 14 umol/L is "fine." In functional longevity medicine, we know this is a massive cardiovascular threat. I want my patients' homocysteine strictly between <strong>6.0 and 8.0 umol/L</strong>.
+      </p>
       
-      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
-      
-      <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>SCIENTIFIC REFERENCES</strong></p>
-      <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
-        <li>Mortensen, S. A., et al. (2014). "The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO." JACC: Heart Failure.</li>
-        <li>Ghirlanda, G., et al. (1993). "Evidence of plasma CoQ10-lowering effect by HMG-CoA reductase inhibitors: a double-blind, placebo-controlled study." Journal of Clinical Pharmacology.</li>
-        <li>Chowanadisai, W., et al. (2010). "Pyrroloquinoline quinone stimulates mitochondrial biogenesis." Journal of Biological Chemistry.</li>
-      </ul>
-      </ul>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        <em><a href="/blog/23" style="color: #20B2AA; text-decoration: none; border-bottom: 1px solid #20B2AA;">Read next: Why Normal Blood Work Hides Metabolic Crises &rarr;</a></em>
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Takeaway: Turn the Ignition On</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        If you have been chronically exhausted, don't just accept it as "getting older." You may simply have a hidden roadblock in your methylation cycle. By switching your neuro-metabolic support from cheap synthetics to bio-active, pre-methylated B-vitamins, you supply the spark plugs your body is starving for. You fix the ignition, and the engine starts running again.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your dietary supplements, especially if you have known genetic mutations or chronic cardiovascular conditions.
+        </p>
+      </div>
     `
   },
   {
@@ -2133,113 +2173,6 @@ export const POSTS = [
         <li>Lopresti, A. L., et al. (2019). "An investigation into the stress-relieving and pharmacological actions of an ashwagandha (Withania somnifera) extract." Medicine.</li>
         <li>Wambier, C. G., et al. (2018). "Cortisol levels and hair loss." Journal of Drugs in Dermatology.</li>
       </ul>
-      </ul>
-    `
-  },
-  {
-    id: 21,
-    title: 'THE "IGNITION" FAILURE: Why Your Cells Can\'t Turn Food Into Energy (The Methylation Crisis)',
-    category: 'energy',
-    image: '/mitochondria_biogenesis.webp',
-    excerpt: '40% of people carry the MTHFR mutation. If you do, standard B-vitamins (Folic Acid) pile up and block energy pathways. You need methylated forms (5-MTHF) to unlock cellular ignition.',
-    date: 'Dec 07, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Methylation Stack",
-      link: "/shop"
-    },
-    content: `
-      <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
-      
-      <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">40% of people carry the MTHFR gene mutation, preventing them from converting Folic Acid into active Methylfolate. This blocks energy production and detox. Fix: Avoid synthetic Folic Acid and use Methylated B-Vitamins (5-MTHF) to unlock cellular ignition.</p>
-      </div>
-      
-      <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
-      
-      <p>You eat healthy food. You sleep enough. You drink water. But you still feel a deep, cellular exhaustion.</p>
-      
-      <p>Patients often ask me: "Doctor, I'm putting fuel in the car. Why is the tank empty?"</p>
-      
-      <p>The answer is often a biochemical traffic jam called <strong>Methylation</strong>. You might have the fuel (food) and the engine (mitochondria), but you have lost the keys to the ignition.</p>
-      
-      <h2>The Medical Reality: The MTHFR Mutation</h2>
-      
-      <p>Methylation is a biochemical process that happens <strong>1 billion times per second</strong> in your body. It repairs your DNA, regulates your mood, clears toxins, and, crucially, turns the nutrients you eat into ATP energy.</p>
-      
-      <p>To do this, you need <strong>B-Vitamins</strong> (specifically B9/Folate and B12).</p>
-      
-      <p><strong>Here is the problem:</strong> About 40% of the population carries a genetic variation called <strong>MTHFR</strong>. If you have this gene, your body struggles to convert dietary B-vitamins into their active form.</p>
-      
-      <p>If you take a standard "Multivitamin" from the supermarket, it likely contains <strong>Folic Acid</strong> (synthetic). If you have the MTHFR gene, Folic Acid can actually build up in your system and block your receptors, making your fatigue worse.</p>
-      
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Methylation Pathway Comparison" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Traffic Jam: Blocked Pathway (Folic Acid) vs. Flowing Pathway (Methylfolate)</p>
-      </div>
-      
-      <h2>The Homocysteine Danger</h2>
-      
-      <p>When methylation fails, your body can't clear a toxic amino acid called <strong>Homocysteine</strong>.</p>
-      
-      <ul>
-        <li>High Homocysteine inflames your arteries (heart disease risk).</li>
-        <li>High Homocysteine is directly linked to brain atrophy (Alzheimer's risk).</li>
-      </ul>
-      
-      <p>So, taking the right B-vitamins isn't just about "energy." It is about protecting your heart and brain from toxic buildup.</p>
-      
-      <h2>The "Other" Energy Drivers: ALCAR & ALA</h2>
-      
-      <p>While B-Vitamins turn on the ignition, two other amino acids act as the turbochargers. I often recommend adding these if B-Vitamins alone don't fully resolve the fatigue:</p>
-      
-      <ul>
-        <li><strong>Acetyl-L-Carnitine (ALCAR):</strong> Think of this as the "Shuttle Bus." It transports fatty acids into the mitochondria to be burned for fuel. Without it, you can't burn fat for brain energy.</li>
-        <li><strong>Alpha-Lipoic Acid (ALA):</strong> A potent antioxidant that works inside the mitochondria to clean up the "exhaust fumes" (free radicals) created during energy production.</li>
-      </ul>
-      
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Mitochondrial Energy Production" style="width: 100%; height: auto; display: block;" />
-        <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Ignition: Methylated B-Vitamins Unlocking Cellular Energy</p>
-      </div>
-      
-      <h2>The Protocol: "Methylated" Is Non-Negotiable</h2>
-      
-      <p>Stop buying $10 multivitamins. They are often filled with synthetic forms your body cannot use.</p>
-      
-      <p>You need a B-Complex that lists:</p>
-      
-      <ul>
-        <li><strong>Folate as 5-MTHF or Methylfolate</strong> (NOT Folic Acid).</li>
-        <li><strong>B12 as Methylcobalamin</strong> (NOT Cyanocobalamin).</li>
-      </ul>
-      
-      <p>When you switch to the active, methylated form, the ignition turns on. The fog lifts. The engine hums.</p>
-      
-      <h2>THE TAKEAWAY</h2>
-      
-      <p>If you have "unexplained" fatigue, it might be in your genes. But genes are not destiny. You just need the right key to unlock them.</p>
-      
-      <h3>TOOL: The Methylation Stack</h3>
-      
-      <p>I prescribe a <strong>Methylated B-Complex</strong> that uses the purest tissue-ready forms of folate (5-MTHF) and B12, ensuring that even those with the MTHFR mutation can absorb and use it for energy.</p>
-      
-      <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin: 2rem 0;">
-
-
-
-        <a href="https://geni.us/6fwizx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
-      </div>
-      
-      <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
-      
-      <p style="font-size: 0.9rem; color: var(--color-text-muted);"><strong>SCIENTIFIC REFERENCES</strong></p>
-      <ul style="font-size: 0.9rem; color: var(--color-text-muted);">
-        <li>Greenberg, J. A., et al. (2011). "Folic Acid Supplementation and Pregnancy: More Than Just Neural Tube Defect Prevention." Reviews in Obstetrics & Gynecology. (Discusses MTHFR and bioavailability).</li>
-        <li>Obeid, R., et al. (2013). "Is 5-methyltetrahydrofolate an alternative to folic acid for the prevention of neural tube defects?" Journal of Perinatal Medicine.</li>
-        <li>Ames, B. N., et al. (2004). "Delaying the mitochondrial decay of ageing with acetyl-L-carnitine." Annals of the New York Academy of Sciences.</li>
       </ul>
     `
   },
