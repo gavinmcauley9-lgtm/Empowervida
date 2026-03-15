@@ -147,6 +147,7 @@ export default function BlogPost() {
           ogImage={post.image || '/empowervida_hero_logo.png'}
           ogType="article"
           author="Dr. Gavin McAuley"
+          publishedTime={post.date}
           schemaData={[articleSchema, breadcrumbSchema]}
         />
 

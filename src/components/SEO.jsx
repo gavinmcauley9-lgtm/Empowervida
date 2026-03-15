@@ -10,6 +10,7 @@ const SEO = ({
     ogType = 'website',
     twitterCard = 'summary_large_image',
     author = 'Dr. Gavin McAuley',
+    publishedTime = null,
     schemaData = null,
 }) => {
     const siteUrl = typeof window !== 'undefined' ? window.location.origin : 'https://empowervida.com';
@@ -33,6 +34,7 @@ const SEO = ({
             <meta property="og:description" content={description} />
             <meta property="og:image" content={fullImageUrl} />
             <meta property="og:site_name" content="EMPOWERVIDA" />
+            {publishedTime && <meta property="article:published_time" content={new Date(publishedTime).toISOString()} />}
 
             {/* Twitter */}
             <meta property="twitter:card" content={twitterCard} />
