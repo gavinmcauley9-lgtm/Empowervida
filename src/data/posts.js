@@ -14,7 +14,7 @@ export const CATEGORIES = [
 export const POSTS = [
   {
     id: 1,
-    title: 'From Fog to Flow: The Science of the Starving Neuron',
+    title: 'Brain Fog & Cognitive Decline: The Science of the \"Starving\" Neuron',
     category: 'neurolongevity',
     image: '/neuron_starving_nourished.png',
     excerpt: 'Cognitive decline and "brain fog" are often symptoms of cerebral bioenergetic failure. When the brain becomes insulin resistant, it can no longer uptake glucose, leaving neurons to starve. A physician explains how to reverse this.',
@@ -143,7 +143,7 @@ export const POSTS = [
     `
   },  {
     id: 2,
-    title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
+    title: 'Brain Fog Causes: Why Your Brain is Full of \"Sewage\" & How to Flush It',
     category: 'sleep',
     image: '/brain_sewage_glymphatic.webp',
     excerpt: 'That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.',
@@ -660,7 +660,7 @@ export const POSTS = [
   },
   {
     id: 5,
-    title: 'YOUR BRAIN IS SHRINKING (LITERALLY): How to Trigger BDNF and Reverse the Decay',
+    title: 'Brain Atrophy & Memory Loss: How to Trigger BDNF and Reverse the Decay',
     category: 'cognition',
     image: '/brain_shrinking_hero.jpg',
     excerpt: 'After age 55, the human hippocampus shrinks by 1-2% per year. This is not just "forgetting where you put your keys." This is structural atrophy.',
@@ -911,7 +911,7 @@ export const POSTS = [
   },
   {
     id: 7,
-    title: 'I’M EXHAUSTED, BUT MY LABS ARE NORMAL: The Hidden Energy Crisis in Your Cells',
+    title: 'Chronic Fatigue Syndrome: I’M EXHAUSTED, BUT MY LABS ARE NORMAL',
     category: 'energy',
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
     excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
@@ -1032,7 +1032,7 @@ export const POSTS = [
   },
   {
     id: 10,
-    title: 'The Silent Fire: Why Inflammation is the Root Cause of "Everything" (And How to Extinguish It)',
+    title: 'Chronic Inflammation Symptoms: Why It is The Root Cause of Fatigue & Joint Pain',
     category: 'longevity',
     image: '/inflammation_fire.jpg',
     excerpt: 'Chronic inflammation is the common denominator of ageing and disease.',
@@ -1095,7 +1095,7 @@ export const POSTS = [
   },
   {
     id: 11,
-    title: 'The Sugar Spike: Why I Treat "Normal" Blood Sugar as a Medical Emergency',
+    title: 'Blood Sugar Spikes: Why I Treat \"Normal\" Fasting Glucose as a Medical Emergency',
     category: 'metabolic',
     image: '/gut_brain_axis_hero_1764771948929.png',
     excerpt: 'Every time your glucose spikes over 140 mg/dL, you are "cooking" your proteins.',
@@ -1131,7 +1131,7 @@ export const POSTS = [
   },
   {
     id: 12,
-    title: 'The "Silent" Commander: Why You Need to Dust Off That Bottle of Vitamin D',
+    title: 'Vitamin D Deficiency: The \"Silent\" Root Cause of Your Winter Fatigue',
     category: 'longevity',
     image: '/vitamin_d_clinical.png',
     excerpt: 'It’s likely sitting in the back of your cupboard right now. Here is why it is the primary layer of your biological armor.',
@@ -1195,7 +1195,7 @@ export const POSTS = [
   },
   {
     id: 13,
-    title: 'The Fog of War: Why You Can\'t Focus (And How to Clear the Haze)',
+    title: 'Focus & Attention Deficit: Why You Can\'t Concentrate (And How to Clear the Haze)',
     category: 'cognition',
     image: '/brain_fog_hero.png',
     excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
@@ -1303,7 +1303,7 @@ export const POSTS = [
   },
   {
     id: 14,
-    title: 'IS YOUR BRAIN "ON FIRE"? The Hidden Link Between Inflammation and Anxiety',
+    title: 'Anxiety & Inflammation: The Hidden Link Behind \"Brain on Fire\"',
     category: 'inflammation',
     image: '/inflammation_controlled_fire_hero_1764771922110.png',
     excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.',
@@ -1407,7 +1407,7 @@ export const POSTS = [
   },
   {
     id: 15,
-    title: 'THE ENERGY CRISIS: Why Your Brain Tires Before Your Body (And How to Fix It)',
+    title: 'Chronic Fatigue: Why Your Brain Tires Before Your Body (And How to Fix It)',
     category: 'cognition',
     image: '/mitochondrial_furnace_hero_1764771832396.png',
     excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
@@ -1942,7 +1942,7 @@ export const POSTS = [
   },
   {
     id: 20,
-    title: 'TIRED BUT WIRED: Why You Can\'t Turn Your Brain Off at 10 PM',
+    title: 'Insomnia & High Cortisol: TIRED BUT WIRED & Why You Can\'t Sleep at 10 PM',
     category: 'sleep',
     image: '/sleep_brain.png',
     excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You\'re groggy at 8 AM and wired at 10 PM.',
@@ -2156,7 +2156,7 @@ export const POSTS = [
   },
   {
     id: 22,
-    title: 'Why You Feel 60 at 40: The Cellular "Battery" That Dies Before You Do',
+    title: 'Cellular Aging: Why You Feel 60 at 40 (The \"Battery\" That Dies Before You Do)',
     category: 'longevity',
     image: '/cellular_energy_decline.png',
     excerpt: 'By 40, youve lost 50% of your cellular energy currency. By 60, youre running on fumes. This isnt ageing. Its a fixable energy crisis hiding in plain sight.',
@@ -3119,7 +3119,7 @@ export const POSTS = [
   },
   {
     id: 28,
-    title: 'Creatine and NAD+: Can You Take Them Together? (The Physician’s Guide)',
+    title: 'Creatine vs. NAD+: Why You Need Both for Ultimate Cellular Energy (Physician\'s Guide)',
     category: 'supplements',
     image: '/cell_nad_creatine.png',
     excerpt: 'Yes, not only can you take Creatine and NAD+ together, but they are highly synergistic. While Creatine focuses on rapid ATP recycling in the cytoplasm, NAD+ powers the long-term ATP production within the mitochondria. Combining them creates a dual-pathway energy strategy that supports both physical power and cognitive longevity. Just heed the warning: Timing is everything.',
@@ -4389,7 +4389,7 @@ export const POSTS = [
   },
   {
     id: 37,
-    title: 'Vitamin C and Quercetin: Can You Take Them Together?',
+    title: 'Vitamin C and Quercetin: The Ultimate Immune & Allergy Stack (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
     excerpt: 'Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.',
