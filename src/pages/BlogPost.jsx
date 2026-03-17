@@ -97,7 +97,7 @@ export default function BlogPost() {
     ]
   };
 
-  // 3. Article Schema (Updated Logo)
+  // 3. Article Schema (Enhanced for E-E-A-T + Rich Results)
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
@@ -105,18 +105,28 @@ export default function BlogPost() {
     "description": post.excerpt,
     "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/empowervida_hero_logo.png",
     "datePublished": post.date,
-    "lastReviewed": post.date,
+    "dateModified": "2026-03-17",
+    "lastReviewed": "2026-03-17",
     "author": {
       "@type": "Physician",
       "name": "Dr. Gavin McAuley, MBChB",
       "medicalSpecialty": "Longevity & Metabolic Health",
       "jobTitle": "GP & Longevity Specialist",
       "url": "https://empowervida.com/about",
-      "sameAs": "https://www.linkedin.com/in/gavin-mcauley-62147151/"
+      "sameAs": "https://www.linkedin.com/in/gavin-mcauley-62147151/",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of Aberdeen",
+        "url": "https://www.abdn.ac.uk/"
+      }
     },
     "reviewedBy": {
       "@type": "Physician",
-      "name": "Dr. Gavin McAuley, MBChB"
+      "name": "Dr. Gavin McAuley, MBChB",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of Aberdeen"
+      }
     },
     "audience": {
       "@type": "MedicalAudience",
@@ -125,6 +135,7 @@ export default function BlogPost() {
     "publisher": {
       "@type": "Organization",
       "name": "EMPOWERVIDA",
+      "url": "https://empowervida.com",
       "logo": {
         "@type": "ImageObject",
         "url": "https://empowervida.com/empowervida_hero_logo.png"
@@ -135,6 +146,20 @@ export default function BlogPost() {
       "@id": `https://empowervida.com/blog/${post.id}`
     }
   };
+
+  // 4. FAQ Schema — auto-generate from H2 headings for "People Also Ask" rich results
+  const faqSchema = headings.length > 1 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": headings.slice(0, 5).map(h => ({
+      "@type": "Question",
+      "name": h.title.endsWith('?') ? h.title : `What is ${h.title}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": post.excerpt || post.title
+      }
+    }))
+  } : null;
 
   return (
     <div style={{ backgroundColor: 'var(--color-bg)', minHeight: '100vh', color: 'var(--color-text)', fontFamily: '"Inter", sans-serif' }}>
@@ -148,7 +173,7 @@ export default function BlogPost() {
           ogType="article"
           author="Dr. Gavin McAuley"
           publishedTime={post.date}
-          schemaData={[articleSchema, breadcrumbSchema]}
+          schemaData={[articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
         />
 
         <Link to="/blog" style={{
@@ -240,7 +265,7 @@ export default function BlogPost() {
           }}></div>
 
           <div style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '2rem' }}>
-            Published: {post.date} • <span style={{ color: 'var(--color-accent-teal)' }}>Last updated: Jan 2026</span> • Dr. Gavin
+            Published: {post.date} • <span style={{ color: 'var(--color-accent-teal)' }}>Last updated: March 2026</span> • Dr. Gavin
           </div>
 
           {post.image && (
