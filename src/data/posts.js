@@ -327,7 +327,7 @@ export const POSTS = [
       <h2>The "Limitless" Lie</h2>
       <p>Walk into any supplement shop, and you will see rows of flashy bottles promising "laser focus," "endless energy," and "unlocked potential." They usually cost $80 a month, and inside, you find a proprietary blend of under-dosed caffeine and B-vitamins.</p>
       <p>That is not cognitive enhancement; that is expensive pee.</p>
-      <p>As an ER physician, I need my brain to work when I am running on three hours of sleep and manageing a trauma case. I don't have time for placebo effects. I need compounds that pass the "Triage Test": Do they have robust clinical data showing they upgrade neural hardware?</p>
+      <p>As a physician, I need my brain to work when I am running on limited sleep and managing complex cases. I don't have time for placebo effects. I need compounds that pass the "Triage Test": Do they have robust clinical data showing they upgrade neural hardware?</p>
       <p>Most dont. A few do. Here is the difference between stimulation and optimisation.</p>
 
       <h2>1. The Concept: Fuel vs. Fire</h2>

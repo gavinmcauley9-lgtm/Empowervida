@@ -69,7 +69,7 @@ const MitochondrialGuide = () => {
                 {/* Primary Meta Tags */}
                 <title>The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It | EMPOWERVIDA</title>
                 <meta name="title" content="The Ultimate Guide to Mitochondrial Health: Stop Borrowing Energy, Start Creating It" />
-                <meta name="description" content="ER physician reveals how to optimise mitochondrial health. Stop brain fog and chronic fatigue with evidence-based supplements, dosing, and timing protocols." />
+                <meta name="description" content="Physician reveals how to optimise mitochondrial health. Stop brain fog and chronic fatigue with evidence-based supplements, dosing, and timing protocols." />
                 <meta name="keywords" content="mitochondrial health, NAD+, cellular energy, ATP production, nootropics, longevity supplements, anti-ageing, brain fog, chronic fatigue, urolithin a, PQQ, creatine, physician protocol" />
                 <meta name="author" content="Dr. Gavin McAuley" />
                 <link rel="canonical" href="https://empowervida.com/mitochondrial-guide" />

@@ -137,7 +137,7 @@ const Protocol = () => {
                         marginBottom: '2rem'
                     }}
                 >
-                    In the Emergency Room, I manage acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
+                    In my years in the Emergency Room, I managed acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
                 </motion.p>
             </section>
 
