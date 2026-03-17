@@ -21,7 +21,7 @@ export default function About() {
         "hasCredential": {
             "@type": "EducationalOccupationalCredential",
             "credentialCategory": "degree",
-            "name": "MBChB"
+            "name": "MBChB (MD equivalent)"
         },
         "medicalSpecialty": [
             "Emergency Medicine",

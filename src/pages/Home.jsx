@@ -134,7 +134,7 @@ export default function Home() {
                             fontStyle: 'italic',
                             letterSpacing: '0.01em'
                         }}>
-                            MBChB, University of Aberdeen
+                            MBChB (MD equivalent), University of Aberdeen
                         </div>
                     </div>
 

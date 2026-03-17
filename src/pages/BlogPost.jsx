@@ -109,7 +109,7 @@ export default function BlogPost() {
     "lastReviewed": "2026-03-17",
     "author": {
       "@type": "Physician",
-      "name": "Dr. Gavin McAuley, MBChB",
+      "name": "Dr. Gavin McAuley, MBChB (MD equivalent)",
       "medicalSpecialty": "Longevity & Metabolic Health",
       "jobTitle": "GP & Longevity Specialist",
       "url": "https://empowervida.com/about",
@@ -122,7 +122,7 @@ export default function BlogPost() {
     },
     "reviewedBy": {
       "@type": "Physician",
-      "name": "Dr. Gavin McAuley, MBChB",
+      "name": "Dr. Gavin McAuley, MBChB (MD equivalent)",
       "alumniOf": {
         "@type": "EducationalOrganization",
         "name": "University of Aberdeen"
@@ -249,7 +249,7 @@ export default function BlogPost() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--color-text)' }}>
-                Dr. Gavin McAuley, MBChB
+                Dr. Gavin McAuley, MBChB (MD equivalent)
               </span>
               <span style={{ fontSize: '0.8rem', color: 'var(--color-accent-teal)', fontWeight: 600 }}>
                 ✓ Medically Reviewed Protocol
