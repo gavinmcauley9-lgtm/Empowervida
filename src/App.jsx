@@ -16,6 +16,7 @@ const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
+const BlogPostRedirect = lazy(() => import('./pages/BlogPostRedirect'));
 const Diagnostics = lazy(() => import('./pages/Diagnostics'));
 const AdvancedOptimization = lazy(() => import('./pages/AdvancedOptimization'));
 const EnvironmentalDefense = lazy(() => import('./pages/EnvironmentalDefense'));
@@ -115,7 +116,8 @@ function AppContent() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/blog/id/:id" element={<BlogPostRedirect />} />
             <Route path="/diagnostics" element={<Diagnostics />} />
             <Route path="/advanced-optimization" element={<AdvancedOptimization />} />
             <Route path="/environmental-defense" element={<EnvironmentalDefense />} />

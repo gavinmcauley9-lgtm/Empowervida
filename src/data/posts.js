@@ -14,6 +14,7 @@ export const CATEGORIES = [
 export const POSTS = [
   {
     id: 1,
+    slug: 'brain-fog-cognitive-decline-science-of-the-dimmer-switch',
     title: 'Brain Fog & Cognitive Decline: The Science of the \"Starving\" Neuron',
     category: 'neurolongevity',
     image: '/neuron_starving_nourished.png',
@@ -155,6 +156,7 @@ export const POSTS = [
 `
   },  {
     id: 2,
+    slug: 'brain-fog-causes-dirty-kitchen-analogy',
     title: 'Brain Fog Causes: Why Your Brain is Full of \"Sewage\" & How to Flush It',
     category: 'sleep',
     image: '/brain_sewage_glymphatic.webp',
@@ -307,6 +309,7 @@ export const POSTS = [
   },
   {
     id: 3,
+    slug: 'brain-pills-that-work-vs-snake-oil',
     title: 'The 3 Brain Pills That Actually Changed My Patients\' Lives (And the 7 That Are Snake Oil)',
     category: 'cognition',
     image: '/stimulants_vs_nootropics_graph_1764510405890.png',
@@ -499,6 +502,7 @@ export const POSTS = [
   },
   {
     id: 4,
+    slug: 'mit-discovery-reverses-brain-ageing-nmn',
     title: 'The MIT Discovery That Reverses Brain Ageing: How One Molecule Grew New Synapses in 60-Year-Old Brains',
     category: 'cognition',
     image: '/magnesium_neuroplasticity_hero.webp',
@@ -746,6 +750,7 @@ export const POSTS = [
   },
   {
     id: 5,
+    slug: 'brain-atrophy-memory-loss-bdnf-neuroplasticity',
     title: 'Brain Atrophy & Memory Loss: How to Trigger BDNF and Reverse the Decay',
     category: 'cognition',
     image: '/brain_shrinking_hero.jpg',
@@ -889,6 +894,7 @@ export const POSTS = [
   },
   {
     id: 6,
+    slug: 'ice-bath-dopamine-stanford-research',
     title: 'The 2-Minute Ice Bath Trick That Doubled My Dopamine (Proven by Stanford)',
     category: 'energy',
     image: '/cold_exposure_dopamine.png',
@@ -1053,6 +1059,7 @@ export const POSTS = [
   },
   {
     id: 7,
+    slug: 'chronic-fatigue-exhausted-but-labs-normal',
     title: 'Chronic Fatigue: Why You Are Exhausted But Your Labs Are "Normal"',
     category: 'energy',
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
@@ -1169,6 +1176,7 @@ export const POSTS = [
   },
   {
     id: 9,
+    slug: 'seed-oils-inflammation-fatigue-weight-gain',
     title: 'Why Seed Oils Are Making You Inflamed, Tired, and "Stiff" at the Cellular Level',
     category: 'metabolic',
     image: '/cell_membrane_stiff_fluid.png',
@@ -1326,6 +1334,7 @@ export const POSTS = [
   },
   {
     id: 10,
+    slug: 'chronic-inflammation-symptoms-root-cause-fatigue-joint-pain',
     title: 'Chronic Inflammation Symptoms: Why It is The Root Cause of Fatigue & Joint Pain',
     category: 'longevity',
     image: '/inflammation_fire.jpg',
@@ -1440,6 +1449,7 @@ export const POSTS = [
   },
   {
     id: 11,
+    slug: 'blood-sugar-spikes-normal-fasting-glucose-danger',
     title: 'Blood Sugar Spikes: Why I Treat "Normal" Fasting Glucose as a Medical Emergency',
     category: 'metabolic',
     image: '/glucose_chart_spikes.png',
@@ -1574,6 +1584,7 @@ export const POSTS = [
   },
   {
     id: 12,
+    slug: 'sun-phobia-spf-vitamin-d-mood',
     title: 'The Sun Phobia Trap: Why Your SPF is Costing You Your Mood',
     category: 'neurolongevity',
     image: '/spf_blocking_synthesis.png',
@@ -1717,6 +1728,7 @@ export const POSTS = [
   },
   {
     id: 13,
+    slug: 'focus-attention-deficit-natural-solutions',
     title: 'Focus & Attention Deficit: Why You Can\'t Concentrate (And How to Clear the Haze)',
     category: 'cognition',
     image: '/brain_fog_hero.png',
@@ -1839,6 +1851,7 @@ export const POSTS = [
   },
   {
     id: 14,
+    slug: 'anxiety-inflammation-hidden-link-brain-on-fire',
     title: 'Anxiety & Inflammation: The Hidden Link Behind \"Brain on Fire\"',
     category: 'inflammation',
     image: '/inflammation_controlled_fire_hero_1764771922110.png',
@@ -1994,6 +2007,7 @@ export const POSTS = [
   },
   {
     id: 15,
+    slug: 'chronic-fatigue-brain-tires-before-body',
     title: 'Chronic Fatigue: Why Your Brain Tires Before Your Body (And How to Fix It)',
     category: 'cognition',
     image: '/mitochondrial_furnace_hero_1764771832396.png',
@@ -2149,6 +2163,7 @@ export const POSTS = [
   },
   {
     id: 16,
+    slug: 'ageing-faster-than-friends-science-of-glycation',
     title: 'Why You Are Ageing Faster Than Your Friends: The Science of Glycation',
     category: 'metabolic',
     image: '/cell_membrane_fluidity_hero_1764771762803.png',
@@ -2310,6 +2325,7 @@ export const POSTS = [
 
   {
     id: 18,
+    slug: 'muscle-loss-after-40-sarcopenia',
     title: 'Muscle Loss After 40: Why Sarcopenia Is Making You "Frail" at 45',
     category: 'longevity',
     image: '/muscle_hero.png',
@@ -2440,6 +2456,7 @@ export const POSTS = [
   },
   {
     id: 19,
+    slug: 'methylation-crisis-cells-cannot-turn-food-into-fuel',
     title: 'The Methylation Crisis: Why Your Cells Cannot Turn Food Into Energy',
     category: 'energy',
     image: '/methylation_gears.png',
@@ -2590,6 +2607,7 @@ export const POSTS = [
   },
   {
     id: 20,
+    slug: 'insomnia-high-cortisol-tired-but-wired',
     title: 'Insomnia & High Cortisol: TIRED BUT WIRED & Why You Can\'t Sleep at 10 PM',
     category: 'sleep',
     image: '/sleep_brain.png',
@@ -2749,6 +2767,7 @@ export const POSTS = [
   },
   {
     id: 22,
+    slug: 'cellular-ageing-feel-60-at-40-nad-decline',
     title: 'Cellular Ageing: Why You Feel 60 at 40 (The "Battery" That Dies Before You Do)',
     category: 'longevity',
     image: '/cellular_energy_decline.png',
@@ -2916,6 +2935,7 @@ export const POSTS = [
   },
   {
     id: 23,
+    slug: 'blood-test-doctor-not-ordering-hidden-deficiencies',
     title: 'The Blood Test Your Doctor Is Not Ordering: Why "Normal" Results Hide a Metabolic Crisis',
     category: 'metabolic',
     image: '/clogged_engine_comparison.png',
@@ -3320,6 +3340,7 @@ export const POSTS = [
   },
   {
     id: 24,
+    slug: 'taurine-longevity-2023-science-study',
     title: 'Taurine and Longevity: The 2023 Science Study Proving Ageing is Reversible',
     category: 'longevity',
     image: '/taurine_cell_rejuvenation.png',
@@ -3484,6 +3505,7 @@ export const POSTS = [
   },
   {
     id: 25,
+    slug: 'reverse-biological-ageing-9-hallmarks-of-ageing',
     title: 'How to Reverse Biological Ageing Naturally: The 9 Hallmarks You Can Control',
     category: 'longevity',
     image: '/nine_hallmarks_aging.png',
@@ -3640,6 +3662,7 @@ export const POSTS = [
   },
   {
     id: 26,
+    slug: 'creatine-and-nad-take-together-physician-guide',
     title: 'Creatine and NAD+: Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -3797,6 +3820,7 @@ export const POSTS = [
 
   {
     id: 28,
+    slug: 'creatine-vs-nad-why-you-need-both',
     title: 'Creatine vs. NAD+: Why You Need Both for Ultimate Cellular Energy (Physician\'s Guide)',
     category: 'supplements',
     image: '/cell_nad_creatine.png',
@@ -4465,6 +4489,7 @@ export const POSTS = [
   },
   {
     id: 32,
+    slug: 'glycine-and-nac-glynac-take-together',
     title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -4584,6 +4609,7 @@ export const POSTS = [
   ,
   {
     id: 33,
+    slug: '3am-wake-up-brain-lacking-gaba',
     title: 'The 3 AM Wake-Up: Is Your Brain Lacking the "Quiet" Mineral?',
     category: 'neurolongevity',
     image: '/sleep_architecture_magnesium.png',
@@ -4700,6 +4726,7 @@ export const POSTS = [
   },
   {
     id: 34,
+    slug: 'l-theanine-and-caffeine-together-perfect-stack',
     title: 'L-Theanine and Caffeine Together: The "Calm Focus" Stack That Fixed My Morning Coffee (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/theanine_caffeine_hero.png',
@@ -4856,6 +4883,7 @@ export const POSTS = [
 
   {
     id: 36,
+    slug: 'probiotics-failing-garden-fertilizer-metaphor',
     title: 'The Garden & The Fertilizer: Why Your Probiotics Are Failing Without Prebiotics (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/microbial_forest_gut.png',
@@ -5010,6 +5038,7 @@ export const POSTS = [
   },
   {
     id: 37,
+    slug: 'vitamin-c-and-quercetin-immune-allergy-stack',
     title: 'Vitamin C and Quercetin: The Ultimate Immune & Allergy Stack (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -5105,6 +5134,7 @@ export const POSTS = [
   },
   {
     id: 38,
+    slug: 'turmeric-and-black-pepper-bioavailability-secret',
     title: 'Turmeric and Black Pepper: The Bioavailability Secret — Why Your Turmeric is Just "Expensive Mustard" (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/turmeric_peppercorns.png',
@@ -5261,6 +5291,7 @@ export const POSTS = [
   },
   {
     id: 39,
+    slug: 'cordyceps-and-rhodiola-expanding-gas-tank',
     title: 'The Expanding Gas Tank: Why Cordyceps and Rhodiola are the Ultimate Fatigue Shield (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/cordyceps_rhodiola_energy.png',
@@ -5417,6 +5448,7 @@ export const POSTS = [
   },
   {
     id: 40,
+    slug: 'beta-alanine-and-creatine-cellular-battery',
     title: 'The Cellular Battery: Why Beta-Alanine and Creatine are the Ultimate Power Couple (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/creatine_beta_alanine_muscle.png',
@@ -5557,6 +5589,7 @@ export const POSTS = [
   },
   {
     id: 41,
+    slug: 'resveratrol-vs-pterostilbene-longevity-switch',
     title: 'The Longevity Switch: Resveratrol vs. Pterostilbene (The Bioavailability Battle) (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/resveratrol_pterostilbene_dna.png',
@@ -5711,6 +5744,7 @@ export const POSTS = [
   },
   {
     id: 42,
+    slug: 'beyond-stimulants-physician-guide-adhd-supplements',
     title: 'Beyond Stimulants: A Physician\\\'s Guide to Neuro-Metabolic Support for ADHD',
     category: 'brain-health',
     image: '/adhd_synaptic_cleft.png',
@@ -5859,6 +5893,7 @@ export const POSTS = [
   },
   {
     id: 43,
+    slug: 'coq10-and-pqq-take-together-physician-guide',
     title: 'CoQ10 and PQQ: Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -5955,6 +5990,7 @@ export const POSTS = [
   },
   {
     id: 44,
+    slug: 'creatine-and-berberine-take-together-physician-guide',
     title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6016,6 +6052,7 @@ export const POSTS = [
   },
   {
     id: 45,
+    slug: 'omega-3-and-curcumin-take-together-physician-guide',
     title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6073,6 +6110,7 @@ export const POSTS = [
   },
   {
     id: 46,
+    slug: 'berberine-and-metformin-take-together-physician-guide',
     title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6130,6 +6168,7 @@ export const POSTS = [
   },
   {
     id: 47,
+    slug: 'zinc-and-copper-take-together-physician-guide',
     title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6187,6 +6226,7 @@ export const POSTS = [
   },
   {
     id: 48,
+    slug: 'vitamin-k2-and-vitamin-d-take-together-physician-guide',
     title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6244,6 +6284,7 @@ export const POSTS = [
   },
   {
     id: 49,
+    slug: 'ashwagandha-and-rhodiola-take-together-physician-guide',
     title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6301,6 +6342,7 @@ export const POSTS = [
   },
   {
     id: 50,
+    slug: 'b12-and-folate-take-together-physician-guide',
     title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6358,6 +6400,7 @@ export const POSTS = [
   },
   {
     id: 51,
+    slug: 'iron-and-vitamin-c-take-together-physician-guide',
     title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6415,6 +6458,7 @@ export const POSTS = [
   },
   {
     id: 52,
+    slug: 'alpha-lipoic-acid-and-acetyl-l-carnitine-together',
     title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6472,6 +6516,7 @@ export const POSTS = [
   },
   {
     id: 53,
+    slug: 'lysine-and-arginine-take-together-physician-guide',
     title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6529,6 +6574,7 @@ export const POSTS = [
   },
   {
     id: 54,
+    slug: 'same-and-b-vitamins-take-together-physician-guide',
     title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6586,6 +6632,7 @@ export const POSTS = [
   },
   {
     id: 55,
+    slug: 'collagen-and-vitamin-c-take-together-physician-guide',
     title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6643,6 +6690,7 @@ export const POSTS = [
   },
   {
     id: 56,
+    slug: 'omega-3-and-aspirin-take-together-physician-guide',
     title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6700,6 +6748,7 @@ export const POSTS = [
   },
   {
     id: 57,
+    slug: 'cbd-and-melatonin-take-together-physician-guide',
     title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6757,6 +6806,7 @@ export const POSTS = [
   },
   {
     id: 58,
+    slug: 'calcium-and-vitamin-d-take-together-physician-guide',
     title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6814,6 +6864,7 @@ export const POSTS = [
   },
   {
     id: 59,
+    slug: 'lions-mane-and-bacopa-take-together-physician-guide',
     title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6871,6 +6922,7 @@ export const POSTS = [
   },
   {
     id: 60,
+    slug: 'gaba-and-l-theanine-take-together-physician-guide',
     title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6928,6 +6980,7 @@ export const POSTS = [
   },
   {
     id: 61,
+    slug: '5-htp-and-tryptophan-take-together-physician-guide',
     title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -6985,6 +7038,7 @@ export const POSTS = [
   },
   {
     id: 62,
+    slug: 'boswellia-and-fish-oil-take-together-physician-guide',
     title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7042,6 +7096,7 @@ export const POSTS = [
   },
   {
     id: 63,
+    slug: 'st-johns-wort-and-ssris-take-together-physician-guide',
     title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7099,6 +7154,7 @@ export const POSTS = [
   },
   {
     id: 64,
+    slug: 'green-tea-extract-and-caffeine-take-together',
     title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7156,6 +7212,7 @@ export const POSTS = [
   },
   {
     id: 65,
+    slug: 'spirulina-and-chlorella-take-together-physician-guide',
     title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7213,6 +7270,7 @@ export const POSTS = [
   },
   {
     id: 66,
+    slug: 'phosphatidylserine-and-omega-3-take-together',
     title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7270,6 +7328,7 @@ export const POSTS = [
   },
   {
     id: 67,
+    slug: 'elderberry-and-zinc-take-together-physician-guide',
     title: 'Elderberry and Zinc: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7327,6 +7386,7 @@ export const POSTS = [
   },
   {
     id: 68,
+    slug: 'ginkgo-biloba-and-bacopa-take-together-physician-guide',
     title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7384,6 +7444,7 @@ export const POSTS = [
   },
   {
     id: 69,
+    slug: 'digestive-enzymes-and-probiotics-take-together',
     title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7441,6 +7502,7 @@ export const POSTS = [
   },
   {
     id: 70,
+    slug: 'glutamine-and-probiotics-take-together-physician-guide',
     title: 'Glutamine and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7498,6 +7560,7 @@ export const POSTS = [
   },
   {
     id: 71,
+    slug: 'milk-thistle-and-nac-take-together-physician-guide',
     title: 'Milk Thistle and NAC: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7555,6 +7618,7 @@ export const POSTS = [
   },
   {
     id: 72,
+    slug: 'valerian-and-lemon-balm-take-together-physician-guide',
     title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7612,6 +7676,7 @@ export const POSTS = [
   },
   {
     id: 73,
+    slug: 'maca-and-tribulus-take-together-physician-guide',
     title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7669,6 +7734,7 @@ export const POSTS = [
   },
   {
     id: 74,
+    slug: 'selenium-and-iodine-take-together-physician-guide',
     title: 'Selenium and Iodine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7726,6 +7792,7 @@ export const POSTS = [
   },
   {
     id: 75,
+    slug: 'chondroitin-and-glucosamine-take-together-physician-guide',
     title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7783,6 +7850,7 @@ export const POSTS = [
   },
   {
     id: 76,
+    slug: 'lutein-and-zeaxanthin-take-together-physician-guide',
     title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7840,6 +7908,7 @@ export const POSTS = [
   },
   {
     id: 77,
+    slug: 'citrulline-and-arginine-take-together-physician-guide',
     title: 'Citrulline and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7897,6 +7966,7 @@ export const POSTS = [
   },
   {
     id: 78,
+    slug: 'schisandra-and-eleuthero-take-together-physician-guide',
     title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -7954,6 +8024,7 @@ export const POSTS = [
   },
   {
     id: 79,
+    slug: 'n-acetyl-tyrosine-and-mucuna-pruriens-together',
     title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -8011,6 +8082,7 @@ export const POSTS = [
   },
   {
     id: 80,
+    slug: 'astaxanthin-and-vitamin-e-take-together-physician-guide',
     title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -8068,6 +8140,7 @@ export const POSTS = [
   },
   {
     id: 81,
+    slug: 'berberine-and-alpha-lipoic-acid-take-together',
     title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -8125,6 +8198,7 @@ export const POSTS = [
   },
   {
     id: 82,
+    slug: 'hesperidin-and-diosmin-take-together-physician-guide',
     title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
@@ -8182,6 +8256,7 @@ export const POSTS = [
   },
   {
     id: 83,
+    slug: 'policosanol-and-red-yeast-rice-take-together',
     title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',

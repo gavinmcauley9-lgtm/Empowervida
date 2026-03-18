@@ -101,7 +101,7 @@ export default function Blog() {
                 {/* Featured Post - Hero Card */}
                 {filteredPosts.length > 0 && (
                     <a
-                        href={`/blog/${filteredPosts[0].id}`}
+                        href={`/blog/${filteredPosts[0].slug || filteredPosts[0].id}`}
                         style={{
                             display: 'grid',
                             gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
@@ -224,7 +224,7 @@ export default function Blog() {
                             {filteredPosts.slice(1).map(post => (
                                 <a
                                     key={post.id}
-                                    href={`/blog/${post.id}`}
+                                    href={`/blog/${post.slug || post.id}`}
                                     className="protocol-card"
                                     style={{
                                         display: 'flex',

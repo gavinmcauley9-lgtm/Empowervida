@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import SEO from '../components/SEO';
 import EmailCapture from '../components/EmailCapture';
 import { POSTS, CATEGORIES } from '../data/posts';
@@ -31,18 +31,22 @@ function getRelatedPosts(currentPost, allPosts, count = 3) {
 }
 
 export default function BlogPost() {
-  const { id } = useParams();
-  // Use loose equality or string conversion to be safe
-  const post = POSTS.find(p => p.id.toString() === id);
+  const { slug } = useParams();
+  // Look up by slug first, fall back to numeric id for backwards compatibility
+  const post = POSTS.find(p => p.slug === slug) || POSTS.find(p => p.id.toString() === slug);
 
   // Get related posts for internal linking
   const relatedPosts = post ? getRelatedPosts(post, POSTS, 3) : [];
 
+  // Auto-redirect numeric URLs to slug URLs (e.g., /blog/3 → /blog/brain-pills-that-work-vs-snake-oil)
+  if (post && post.slug && slug !== post.slug) {
+    return <Navigate to={`/blog/${post.slug}`} replace />;
+  }
 
   if (!post) {
     return (
       <div className="container" style={{ paddingTop: '8rem', textAlign: 'center', backgroundColor: '#000000', minHeight: '100vh', color: '#FFFFFF' }}>
-        <h1>Post not found (ID: {id})</h1>
+        <h1>Post not found (slug: {slug})</h1>
         <p>The requested article could not be located.</p>
         <Link to="/blog" style={{ color: '#FF5F00' }}>Back to Intel</Link>
       </div>
@@ -92,7 +96,7 @@ export default function BlogPost() {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://empowervida.com/blog/${post.id}`
+        "item": `https://empowervida.com/blog/${post.slug || post.id}`
       }
     ]
   };
@@ -143,7 +147,7 @@ export default function BlogPost() {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://empowervida.com/blog/${post.id}`
+      "@id": `https://empowervida.com/blog/${post.slug || post.id}`
     }
   };
 
@@ -168,7 +172,7 @@ export default function BlogPost() {
           title={`${post.title} | EMPOWERVIDA`}
           description={post.excerpt}
           keywords={`${post.category}, longevity, health optimization, ${post.title}`}
-          canonical={`/blog/${post.id}`}
+          canonical={`/blog/${post.slug || post.id}`}
           ogImage={post.image || '/empowervida_hero_logo.png'}
           ogType="article"
           author="Dr. Gavin McAuley"
