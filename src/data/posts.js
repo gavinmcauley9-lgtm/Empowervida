@@ -60,6 +60,10 @@ export const POSTS = [
         At the time, before I transitioned into holistic health and functional medicine, I wasn't equipped with the knowledge I have now. I followed the reactive protocol—wait and watch. But looking back, I realise that while Maeve was fit, her brain was likely starving in plain sight. Whether we call it "brain fog," age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself.
       </p>
 
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Maeve haunts me. She is one of the patients I carry with me — not because I did anything wrong by the standards of the time, but because I now know what I did not know then. If she walked into my clinic today, I would not just order the standard panel. I would check her fasting insulin, her homocysteine, her Vitamin D — not against the textbook "normal" range, but against the functional ranges I now use. In my clinic, we do not settle for "normal"; we aim for optimal. A Vitamin D of 32 is technically within range. But it is a world away from the 60-80 ng/mL where the brain actually thrives. That distinction — normal versus optimal — is the gap where patients like Maeve fall through.
+      </p>
+
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science of the Starving Neuron: Type 3 Diabetes</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2274,6 +2278,8 @@ export const POSTS = [
       <p>In a healthy body, you eat carbs, insulin rises, and your cells open up to absorb the energy. In a resistant body (which is >50% of adults), your cells slam the door. The sugar stays in your blood, roaming around and damageing proteins.</p>
       
       <p>You feel tired after meals. You crave sugar at 3 PM. You carry stubborn weight around your belly. These are the warning signs.</p>
+
+      <p>I know because I had every single one of them. At 125kg, I was glycating myself every day and I did not even know it. Three meals a day built around bread, pasta, cereals — the foods the food pyramid told me were "healthy." My joints ached. My skin looked tired. I felt a decade older than my age. When I finally cut the wheat and the excess carbohydrates — going into ketosis through intermittent fasting — the transformation was not just weight loss. My joints loosened up. My face changed. People started telling me I looked younger. That is not a coincidence. That is what happens when you stop caramelising your own collagen.</p>
       
       <h2>The Solution: The "Longevity Switch" (AMPK)</h2>
       
@@ -2405,6 +2411,8 @@ export const POSTS = [
       <p>But in my practice, I am seeing a terrifying trend. I see patients in their 40s who have lost the "bounce" in their step. They are becoming biologically fragile. If they trip, they don't just stumble; they break.</p>
       
       <p>They think they are just "getting older." They are actually suffering from a silent disease called <strong>Sarcopenia</strong> (muscle poverty).</p>
+
+      <p>When I was losing weight — dropping from 125kg to 95kg — I was terrified of this. Rapid weight loss without resistance training eats your muscle. You can lose 30kg and come out the other side lighter but weaker, which is arguably worse. That is why creatine was non-negotiable for me during the entire process. Not just for brain function during fasting, but for muscle preservation. Creatine buffers ATP in the muscle, protects contractile tissue during caloric restriction, and there is evidence it improves protein synthesis even in a deficit. Most weight loss programmes ignore this completely. They focus on the number on the scale and forget that the body you are left with matters more than what you lost.</p>
       
       <h2>The Clinical Reality: Muscle is not just for bodybuilders. Muscle is the Organ of Longevity.</h2>
       
@@ -2552,6 +2560,10 @@ export const POSTS = [
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         As a clinician, one of the most frustrating puzzle boxes I see is the patient who does everything "right." They exercise, they eat organic, they sleep, yet they complain of deep, bone-weary fatigue and relentless brain fog. They feel like a sports car that just won't turn over.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This is also personal for me. I have taken B-complex vitamins for years — activated forms, not the cheap synthetic versions. The difference in my baseline anxiety and cognitive clarity when I am consistent versus when I lapse is undeniable. What frustrates me is that medical school barely mentions this. We spend years learning pharmacology — every drug mechanism, every side effect — and yet the biochemistry of B-vitamin cofactors, the very molecules that power every methylation reaction in the body, gets a single lecture if you are lucky. Most GPs will prescribe an SSRI for fatigue and brain fog before they will check a homocysteine level. That is the gap this article is about.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2865,6 +2877,9 @@ export const POSTS = [
       <p>Hospital medicine runs at 90mph. You're manageing trauma cases on three hours of sleep, making life-or-death decisions while your brain is screaming for glucose, and then you go home and collapse. I thought that was normal.</p>
       <p>At my peak, I weighed 125kg. My brain was in a fog by 2 PM. I had sleep apnea. I was diagnosed with ADHD in my 40s, which explained the focus issues, but it didn't explain why I felt like I was running on fumes even when I slept 8 hours.</p>
       <p>Standard medicine had no answers. My bloods were "fine." My thyroid was "normal." So I did what every burned-out doctor does, I pushed through.</p>
+
+      <p>The sleep was the worst part. I could handle the fatigue during the day — you learn to function on autopilot in hospital medicine. But at night, I could not switch off. Tired but wired. And what did I know about sleep supplements? Valium. Quetiapine. The pharmaceutical toolbox. It was not until years later that I discovered magnesium glycinate — an £8 bottle that transformed my sleep quality more than any prescription ever had. That is when I started to realise how much we were missing by only looking in the pharmaceutical toolbox.</p>
+
       <p>But here's what I didn't know: I wasn't just tired. I was <strong>cellularly bankrupt</strong>.</p>
 
       <h2>The Ageing Tax: Why Youre Running Out of Cellular Cash</h2>
