@@ -1330,6 +1330,14 @@ export const POSTS = [
           This information is for educational purposes and does not constitute medical advice. High-dose Omega-3 supplementation can have blood-thinning effects. Always consult your physician before initiating high-dose EPA/DHA protocols, especially if you are on anticoagulant medications.
         </p>
       </div>
+    
+      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
+        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
+        <li><a href="/blog/chronic-inflammation-symptoms-root-cause-fatigue-joint-pain" style="color: #20B2AA; text-decoration: underline;">Chronic Inflammation: The Root Cause You Are Missing</a></li>
+        <li><a href="/blog/anxiety-inflammation-hidden-link-brain-on-fire" style="color: #20B2AA; text-decoration: underline;">Anxiety and Inflammation: Your Brain on Fire</a></li>
+        </ul>
+      </div>
     `
   },
   {
@@ -1580,6 +1588,15 @@ export const POSTS = [
           This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your diet or implementing supplements like Berberine, particularly if you are currently on medication for blood sugar management.
         </p>
       </div>
+    
+      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
+        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
+        <li><a href="/blog/ageing-faster-than-friends-science-of-glycation" style="color: #20B2AA; text-decoration: underline;">Why You Are Ageing Faster: The Glycation Connection</a></li>
+        <li><a href="/blog/cellular-ageing-feel-60-at-40-nad-decline" style="color: #20B2AA; text-decoration: underline;">Why You Feel 60 at 40</a></li>
+        <li><a href="/blog/berberine-and-metformin-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">Berberine vs Metformin: Physician Comparison</a></li>
+        </ul>
+      </div>
     `
   },
   {
@@ -1723,6 +1740,14 @@ export const POSTS = [
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
           This information is for educational purposes and does not constitute medical advice. High-dose Vitamin D supplementation can be toxic if not monitored. Always consult your physician and get your blood levels tested before initiating a high-dose replenishment protocol.
         </p>
+      </div>
+    
+      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
+        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
+        <li><a href="/blog/insomnia-high-cortisol-tired-but-wired" style="color: #20B2AA; text-decoration: underline;">The Sleep-Cortisol Connection</a></li>
+        <li><a href="/blog/vitamin-k2-and-vitamin-d-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">Vitamin K2 + D: The Essential Pairing</a></li>
+        </ul>
       </div>
     `
   },
@@ -2452,6 +2477,13 @@ export const POSTS = [
         <li>Pedersen, B. K. (2011). "Muscles and their myokines." Journal of Experimental Biology.</li>
         <li>Moore, D. R., et al. (2015). "Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men." The Journals of Gerontology.</li>
       </ul>
+    
+      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
+        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
+        <li><a href="/blog/brain-pills-that-work-vs-snake-oil" style="color: #20B2AA; text-decoration: underline;">Brain Pills That Actually Work vs Snake Oil</a></li>\n        <li><a href="/blog/creatine-and-nad-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">Creatine + NAD: Refuelling the Brain Battery</a></li>
+        </ul>
+      </div>
     `
   },
   {
@@ -3814,6 +3846,15 @@ export const POSTS = [
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
           This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
         </p>
+      </div>
+    
+      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
+        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
+        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
+        <li><a href="/blog/chronic-fatigue-exhausted-but-labs-normal" style="color: #20B2AA; text-decoration: underline;">Why You Are Exhausted But Your Labs Are Normal</a></li>
+        <li><a href="/blog/creatine-vs-nad-why-you-need-both" style="color: #20B2AA; text-decoration: underline;">Creatine vs NAD: Why You Need Both</a></li>
+        <li><a href="/blog/coq10-and-pqq-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">CoQ10 + PQQ: The Mitochondrial Stack</a></li>
+        </ul>
       </div>
     `
   },
