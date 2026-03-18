@@ -43,6 +43,17 @@
 [build.processing.images]
   compress = true
 
+# Sitemap and robots.txt should never be cached long-term
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
 # Security Headers
 [[headers]]
   for = "/*"
