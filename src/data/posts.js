@@ -357,6 +357,11 @@ export const POSTS = [
       <h3>The Protocol</h3>
       <p>5g daily. Micronized/Creapure is best for solubility.</p>
 
+      <div style="background: rgba(255, 95, 0, 0.05); border-left: 4px solid #FF5F00; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #FF5F00; font-size: 1.1rem; margin-bottom: 0.75rem;">In-Clinic Moment</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.8;">I'll be upfront: creatine is one of my favourite supplements. But I used to dismiss it as "gym bro stuff." It had been around for years, weightlifters swore by it, and I assumed that was the end of the story. Then I actually read the neuroscience literature — and tried it myself. The cognitive difference was noticeable within days. But the real proof came from my partner, a teacher. She went from being an exhausted wreck by the evening — barely functioning after 3PM — to sustained energy through the entire day on creatine. When she stopped taking it for a few weeks, the fatigue came straight back. Clear causation, N=2. I now use creatine specifically to keep my brain sharp during intermittent fasting. When I was losing 30kg, I fasted through most of the day — no breakfast, minimal lunch. Creatine was the difference between working through the day on fumes and actually being clinically functional. Most fasting protocols do not mention this. They should.</p>
+      </div>
+
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
         <img src="/creatine_atp_mitochondria_1764578743512.png" alt="Mitochondrial ATP Production" style="width: 100%; height: auto; display: block;" />
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Energy Buffering Inside the Neuron</p>
@@ -777,6 +782,8 @@ export const POSTS = [
       <p>I see patients who are already tired, becoming immobile, and manageing a daily cocktail of pills. I often look at them and wonder: How did they go so far off track? Especially when I see others of the exact same age who pass for 10 years younger, walking with a bounce in their step.</p>
       
       <p>Most worryingly, I am seeing memory issues in younger people. Neuro-decline is becoming evident earlier than ever. It rarely comes alone; it is almost always accompanied by a decline in mental health, a distinct lack of joie de vivre.</p>
+      
+      <p>These are the patients who haunt me. Not the 80-year-old with expected cognitive decline — that is sad but understood. I mean the 45-year-old executive who walks into my clinic and cannot remember what he had for breakfast. The 52-year-old teacher who has started getting lost driving home from work. Young, fit people whose brains are quietly eating themselves alive while their standard blood work comes back "normal." They sit across from me and I can see the fear in their eyes — they know something is wrong, and nobody can tell them what. That look is what gets me out of bed in the morning to do this work. Because we are not powerless. The brain can rebuild. But you have to act before the decay becomes structural.</p>
       
       <h2>The Uncomfortable Truth</h2>
       
@@ -1253,6 +1260,13 @@ export const POSTS = [
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Today, the average Westerner’s cellular Omega-6 to Omega-3 ratio sits somewhere between **15:1 and 25:1**. We have completely flooded our cellular architecture with the wrong type of building blocks.
       </p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        And it is not just the oils. The entire Western dietary pattern is working against you. We have been told for decades that "healthy whole grains" should form the foundation of our diet — and most people dutifully eat toast for breakfast, a sandwich for lunch, and pasta for dinner. But wheat is a pro-inflammatory double hit: a massive carbohydrate load that spikes insulin, plus inflammatory proteins that damage the gut lining. You are simultaneously flooding your cells with the wrong fats and setting your gut on fire with every meal.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I know this because I lived it. During my own weight loss — dropping from 125kg to 95kg — I went through a period on a carnivore diet. Almost entirely red meat, no grains, no seed oils. My colleagues raised eyebrows. Red meat is preached against for cholesterol and bowel cancer risk, and here was a doctor eating steak every day. But my inflammation markers dropped. My energy surged. The brain fog I had lived with for years vanished. I am not saying carnivore is the answer for everyone. But it forced me to confront an uncomfortable truth: the foods we have been calling "healthy" might be the very things making us sick.
+      </p>
 
       <div style="margin: 2rem 0; text-align: center;">
         <img src="/omega_ratio_diagram.png" alt="A minimalist clinical diagram comparing the Omega-6 to Omega-3 ratio in human cells" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
@@ -1663,6 +1677,14 @@ export const POSTS = [
         She was a victim of the modern "Sun Phobia." We apply SPF 50 every day, work indoors from 9 to 5, and then wonder why our biology collapses.
       </p>
 
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        This case is not unusual. It is the norm. Reading Dr. Michael Holick's landmark 2007 paper in the New England Journal of Medicine was one of the biggest turning points in my medical career. It showed me how profoundly conventional medicine had undervalued this molecule — treating it as just a bone nutrient when in reality it is a master regulator of immunity, mood, and cellular function. Since then, I have persuaded patients and family members to take Vitamin D consistently, and the improvement in vitality is not subtle. It is noticeable. People come back and tell me they feel like a different person.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Here is the problem: the standard laboratory "normal" range for Vitamin D is 30-100 ng/mL. So a patient with a level of 32 gets told they are "normal." But in my clinic, we do not settle for normal. A Vitamin D of 32 is the bare minimum to prevent rickets — it is nowhere near the level required for optimal immune function, mood regulation, and neuroprotection. I aim for 60-80 ng/mL in every patient. The difference between a Vitamin D of 32 and a Vitamin D of 70 is the difference between surviving and thriving. Yet most GPs never mention this because, technically, both are "within range."
+      </p>
+
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Misunderstood Neuro-Steroid</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1919,6 +1941,8 @@ export const POSTS = [
       <p>They often say, "Doc, I feel anxious, I have brain fog, and I just don't care about things I used to love."</p>
       
       <p>Standard medicine often hands them an antidepressant (SSRI) and sends them home. But for many, the pills don't work, or they numb the bad feelings along with the good.</p>
+      
+      <p>I have taken B-complex vitamins for years specifically for this reason. I noticed years ago that my own baseline anxiety dropped when I was consistent with activated B-vitamins. When I stopped, the low-level background hum of tension crept back. It was not dramatic, but it was undeniable. This is what frustrates me about how we approach anxiety in medicine: we reach for SSRIs and benzodiazepines — drugs with real side effect profiles and dependency risks — before we even check whether the patient is deficient in the basic cofactors that their nervous system needs to function. B6, B12, folate, magnesium — these are not alternative medicine. They are biochemistry. And most anxious patients I see are deficient in at least one of them.</p>
       
       <p><strong>Why?</strong> Because we are treating the wrong system. We are treating a chemical imbalance when we should be treating a cellular fire.</p>
       
