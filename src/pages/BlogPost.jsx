@@ -109,8 +109,8 @@ export default function BlogPost() {
     "description": post.excerpt,
     "image": post.image ? `https://empowervida.com${post.image}` : "https://empowervida.com/empowervida_hero_logo.png",
     "datePublished": post.date,
-    "dateModified": "2026-03-17",
-    "lastReviewed": "2026-03-17",
+    "dateModified": "2026-03-19",
+    "lastReviewed": "2026-03-19",
     "author": {
       "@type": "Physician",
       "name": "Dr. Gavin McAuley, MBChB (MD equivalent)",
