@@ -196,6 +196,8 @@ export const POSTS = [
       <p>In my practice, I see this constantly. Patients in their 40s and 50s tell me, "Doc, I sleep 7 or 8 hours, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee."</p>
       
       <p>Standard medicine often dismisses this as "ageing" or "stress." But thats missing the point entirely, not because doctors are lazy, but because theyre measuring the wrong thing. Its actually a <strong>waste clearance issue</strong>.</p>
+
+      <p>I experienced this myself at 125kg. I had undiagnosed sleep apnea — which means my airway was collapsing dozens of times per night, yanking me out of deep sleep before the glymphatic system could finish its job. I was unconscious for eight hours but waking up with a brain full of metabolic sewage. The fog was so thick by lunchtime that I was making clinical decisions on autopilot. When I finally lost the weight and started taking magnesium glycinate before bed, the change was like clearing a clogged drain. I woke up feeling like a different person. That is when I realised that most brain fog is not a thinking problem. It is a plumbing problem.</p>
       
       <p>Your brain is a metabolic engine. It consumes 20% of your body's energy. Just like a car engine produces exhaust, your neurons produce metabolic waste (specifically proteins called Amyloid Beta and Tau).</p>
       
@@ -543,6 +545,10 @@ export const POSTS = [
 
       \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
         At the microscopic level, your brain is withering. Synapses, the physical connections between neurons, are disappearing. Your hippocampus, the memory centre, is shrinking. Not because of disease. Because of deficiency.
+      \u003c/p\u003e
+
+      \u003cp style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;\"\u003e
+        This one is personal for me. I was diagnosed with ADHD in my 40s, and part of that presentation was relentless short-term memory failure. I could hold a complex medical case in my head for hours but could not remember where I put my keys five minutes ago. When I started researching magnesium and cognition, I discovered that most forms of magnesium never reach the brain \u2014 which is why the standard \"take some magnesium\" advice from GPs does nothing for focus or memory. Magnesium L-Threonate was the first compound where I noticed a real, subjective difference in recall and mental clarity. Not dramatic. Not overnight. But consistent, like someone had quietly turned the resolution up on a slightly blurry screen. That is what structural brain support feels like \u2014 not a stimulant rush, but a gradual restoration of function you did not realise you had lost.
       \u003c/p\u003e
 
       \u003ch2 style=\"font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);\"\u003eThe MIT Revelation: A Molecule That Rewires the Brain\u003c/h2\u003e
@@ -940,6 +946,10 @@ export const POSTS = [
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         So I tried it. And I noticed something immediately: the mental clarity after cold exposure was different from caffeine. No jitters. No crash. Just sustained, quiet focus.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        I am Irish. I grew up near the sea. And there is something about plunging into cold ocean water that resets the entire nervous system in a way that no supplement or meditation app can replicate. When I was at my heaviest — 125kg, burned out, running on cortisol and caffeine — I had completely forgotten this. I was living indoors, eating badly, and wondering why I felt dead inside. Reconnecting with cold water was one of the first things that made me feel alive again. Not because of the science, although the science is compelling. Because of the raw, primal shock of it. Your body screams at you for 30 seconds, and then something shifts. The mental chatter stops. The anxiety quiets. You step out and everything looks sharper, like someone cleaned the windscreen. I now swim in the sea regularly when I am back in Ireland, and I use a cold shower protocol when I am not. It is the cheapest, most reliable mood enhancer I have ever found.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science (Briefly)</h2>
@@ -2093,6 +2103,8 @@ export const POSTS = [
       <p>You stare at your screen, and simple emails feel like complex algebra. Your decision-making ability collapses. You reach for sugar or caffeine just to get through the final hours.</p>
       
       <p>Why? If your body is resting, why is your brain failing?</p>
+
+      <p>I used to live inside this problem. At 125kg, the 2 PM crash was not a mild dip — it was a wall. I would be in the middle of a patient consultation and realise I had lost the thread of what they were telling me. My brain was shutting down while my body was just sitting in a chair. I tried every trick: espresso, sugar, power naps in the car between clinics. Nothing worked because I was treating the symptom, not the biology. When I finally understood that my brain was running out of ATP — not motivation, not willpower, but actual cellular fuel — and started supplementing with creatine, the 2 PM wall moved. It did not disappear overnight, but within two weeks it shifted to 4 PM, then 5 PM, then it stopped being a wall at all. That is when I realised this was not about discipline. It was about energy economics.</p>
       
       <h2>The Medical Truth: You are suffering from a Cerebral Energy Crisis.</h2>
       
