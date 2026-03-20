@@ -154,7 +154,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-fog-causes-why-your-brain-is-full-of-sewage-how-to-flush-it" style="color: #20B2AA; text-decoration: none;">how to flush your brain's waste system</a> — glymphatic drainage</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -507,7 +513,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-fog-cognitive-decline-the-science-of-the-starving-neuron" style="color: #20B2AA; text-decoration: none;">the starving neuron crisis</a> — why your brain needs fuel</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -764,7 +776,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-atrophy-memory-loss-how-to-trigger-bdnf" style="color: #20B2AA; text-decoration: none;">how to trigger BDNF</a> — neuroplasticity</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -910,6 +928,12 @@ export const POSTS = [
         <li>Cutuli, D. (2017). "Functional and Structural Benefits Induced by Omega-3 Fatty Acids, Ageing and Neurodegeneration." Frontiers in Ageing Neuroscience.</li>
       </ul>
     
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -1099,7 +1123,7 @@ export const POSTS = [
     title: 'Chronic Fatigue: Why You Are Exhausted But Your Labs Are "Normal"',
     category: 'energy',
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
-    excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction.',
+    excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction. A clinical breakdown by Dr. Gavin McAuley.',
     date: 'Nov 23, 2025',
     cta: {
       text: "See Dr. Gavin's Recommended Mitochondrial Stack",
@@ -1210,7 +1234,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/cellular-ageing-why-you-feel-60-at-40" style="color: #20B2AA; text-decoration: none;">cellular ageing and the dying battery</a> — mitochondrial decline</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/mitochondrial-guide" style="color: #667eea; text-decoration: underline;">Mitochondrial Energy Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -1394,7 +1424,7 @@ export const POSTS = [
     title: 'Chronic Inflammation Symptoms: Why It is The Root Cause of Fatigue & Joint Pain',
     category: 'longevity',
     image: '/inflammation_fire.jpg',
-    excerpt: 'Chronic inflammation is the common denominator of ageing and disease.',
+    excerpt: 'Chronic inflammation is the common denominator of ageing and disease. A clinical breakdown by Dr. Gavin McAuley.',
     date: 'Nov 26, 2025',
     references: [
       { text: "Furman, D., et al. (2019). Chronic inflammation in the etiology of disease across the life span. Nature Medicine, 25(12), 1822-1832.", url: "https://pubmed.ncbi.nlm.nih.gov/31806905/" },
@@ -1500,6 +1530,12 @@ export const POSTS = [
       </div>
 
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.2rem; margin: 2rem 0;">
         <p style="margin: 0; font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.5;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before making changes to your supplement regimen, particularly if you are on anti-inflammatory medications, blood thinners, or immunosuppressants. The information provided here reflects the author's clinical perspective and current peer-reviewed research.
@@ -1942,7 +1978,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/chronic-fatigue-brain-tires-before-body" style="color: #20B2AA; text-decoration: none;">why your brain tires before your body</a> — brain energy</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -2084,6 +2126,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>The Lifestyle Foundation:</strong> Anti-inflammatory supplementation works best when layered on top of an anti-inflammatory lifestyle. This means eliminating processed seed oils, reducing refined sugar intake, prioritising 7-9 hours of sleep (poor sleep elevates inflammatory cytokines by up to 40%), and maintaining a regular exercise routine. Walking 30 minutes daily reduces hs-CRP levels measurably within weeks. Address the lifestyle fire before reaching for the supplement extinguisher.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Inflammation & Longevity Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -2262,6 +2310,12 @@ export const POSTS = [
         <li>Watanabe, A., et al. (2002). "Effects of creatine on mental fatigue and cerebral haemoglobin oxygenation." Neuroscience Research.</li>
       </ul>
     
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -2409,6 +2463,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>The Hierarchy:</strong> You cannot supplement your way out of a glycation crisis. The single most impactful intervention is dietary: eliminate liquid sugar (fruit juice, soft drinks, sweetened coffee) and reduce refined carbohydrates. This alone can drop HbA1c by 0.5-1.0% within three months. Layer in resistance training to build muscle, your largest glucose sink. Add 10-minute post-meal walks to blunt glucose spikes. <em>Then</em> consider targeted supplementation: Berberine 500mg twice daily, Alpha-Lipoic Acid 300mg, and Carnosine 500mg to directly inhibit AGE formation.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/insulin-story" style="color: #667eea; text-decoration: underline;">The Insulin Story: Metabolic Repair</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -2434,7 +2494,6 @@ export const POSTS = [
       </ul>
     `
   },
-
   {
     id: 18,
     slug: 'muscle-loss-after-40-sarcopenia',
@@ -2555,6 +2614,12 @@ export const POSTS = [
       </div>
       
       
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -3066,7 +3131,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/taurine-and-longevity-2023-science-study" style="color: #20B2AA; text-decoration: none;">taurine and longevity</a> — reversing ageing</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -3471,7 +3542,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/the-methylation-crisis-cells-cannot-turn-food-into-energy" style="color: #20B2AA; text-decoration: none;">the methylation crisis</a> — homocysteine levels</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/insulin-story" style="color: #667eea; text-decoration: underline;">The Insulin Story: Metabolic Repair</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -3636,7 +3713,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/cellular-ageing-why-you-feel-60-at-40" style="color: #20B2AA; text-decoration: none;">cellular ageing and the dying battery</a> — NAD+ decline</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -3969,7 +4052,6 @@ export const POSTS = [
       </div>
     `
   },
-
   {
     id: 28,
     slug: 'creatine-vs-nad-why-you-need-both',
@@ -4300,6 +4382,12 @@ export const POSTS = [
       </div>
 
     
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
@@ -4474,7 +4562,13 @@ export const POSTS = [
           <li style="margin-bottom: 0.5rem;"><a href="/blog/chronic-inflammation-symptoms-root-cause-fatigue-joint-pain" style="color: #20B2AA; text-decoration: none;">chronic inflammation as root cause</a> — joint pain and beyond</li>
         </ul>
       </div>
-<div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Structural Integrity Protocol</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
       </div>
 `
@@ -5032,7 +5126,6 @@ export const POSTS = [
       </div>
     `
   },
-
   {
     id: 36,
     slug: 'probiotics-failing-garden-fertilizer-metaphor',
@@ -6146,7 +6239,7 @@ export const POSTS = [
     title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Creatine supports ATP recycling. Berberine activates AMPK (energy sensor) and improves insulin sensitivity. Both enhance cellular energy but through d...',
+    excerpt: 'Can you take Creatine and Berberine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6208,6 +6301,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I take both of these myself. Creatine monohydrate (5g/day) is arguably the most well-researched supplement in existence — over 700 peer-reviewed studies supporting its safety and efficacy for both physical and cognitive performance. Berberine (500mg 2x/day) addresses the metabolic side of ageing that most fitness-focused people neglect. Together, they represent a practical performance-plus-longevity stack with minimal risk and excellent evidence. If I could only recommend three supplements, creatine and berberine would occupy two of those three slots.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take diabetes medication or have kidney disease, consult your healthcare provider before starting these supplements.
@@ -6220,7 +6319,7 @@ export const POSTS = [
     title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Omega-3 reduces inflammation via prostaglandin pathways. Curcumin inhibits NF-κB and COX-2. Together they create multi-pathway anti-inflammatory effec...',
+    excerpt: 'Can you take Omega-3 and Curcumin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6275,6 +6374,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I consider omega-3 + curcumin the foundational anti-inflammatory stack. For patients with elevated hs-CRP (above 1.0 mg/L), joint pain, or a family history of cardiovascular disease, this combination is where I start before considering prescription anti-inflammatories. I typically see measurable CRP reductions within 8-12 weeks. The key is consistency and using bioavailable forms — cheap turmeric capsules and low-dose fish oil will not move the needle.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take anticoagulant medications, consult your healthcare provider before starting this combination.
@@ -6287,7 +6392,7 @@ export const POSTS = [
     title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both activate AMPK and improve insulin sensitivity. Berberine acts as a \'natural metformin\' but combining them may cause excessive glucose lowering....',
+    excerpt: 'Can you take Berberine and Metformin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6344,6 +6449,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I use berberine frequently — but almost always as an alternative to metformin, not alongside it. For pre-diabetic patients who are reluctant to start a prescription medication, berberine is a powerful first-line intervention with genuinely comparable efficacy. However, I am deeply cautious about stacking both. The risk-benefit calculation only favours combination use in specific cases where a physician can closely monitor blood glucose. If you are currently taking metformin and want to try berberine, please do not simply add it to your existing regimen. Talk to your doctor first.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Berberine can interact with prescription medications including metformin, statins, and blood thinners. Always consult your healthcare provider before combining supplements with prescription drugs.
@@ -6356,7 +6467,7 @@ export const POSTS = [
     title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Zinc and copper compete for absorption. High dose zinc causes copper deficiency (anaemia, neurological damage). Ideal ratio is 10:1 zinc:copper....',
+    excerpt: 'Can you take Zinc and Copper together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6412,6 +6523,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> The zinc-without-copper mistake is one of the most common supplementation errors I encounter. Patients come in fatigued, pale, with low iron studies — and nobody thinks to check copper. Once I add 1-2mg copper to their regimen, the anaemia resolves within weeks without any additional iron. If you are taking zinc alone, please add copper. It is inexpensive, safe at these doses, and prevents a cascade of downstream deficiencies that can take months to diagnose.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Consult your healthcare provider before starting any supplement regimen.
@@ -6424,7 +6541,7 @@ export const POSTS = [
     title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Vitamin D increases calcium absorption. Vitamin K2 directs calcium to bones (not arteries). Without K2, excess calcium deposits in soft tissue (vascul...',
+    excerpt: 'Can you take Vitamin K2 and Vitamin D together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6479,6 +6596,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I have seen coronary calcium scores improve in patients who added K2 (MK-7, 200mcg) to their existing Vitamin D regimen. The combination is inexpensive, well-tolerated, and addresses one of the most common unintended consequences of isolated Vitamin D supplementation. If you are taking Vitamin D without K2, you are solving one problem while potentially creating another. This is the single most important supplement pairing I recommend.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Consult your healthcare provider before starting any supplement regimen, particularly if you take anticoagulant medications.
@@ -6491,7 +6614,7 @@ export const POSTS = [
     title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Ashwagandha reduces cortisol (calming adaptogen). Rhodiola increases catecholamines (stimulating adaptogen). Together: balanced stress response....',
+    excerpt: 'Can you take Ashwagandha and Rhodiola together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6547,6 +6670,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is my go-to adaptogen stack for high-performing professionals dealing with chronic stress. I typically recommend Rhodiola in the morning for mental sharpness and Ashwagandha (KSM-66, 600mg) in the evening for cortisol management and sleep. Patients consistently report feeling "more resilient" within 2-3 weeks — they still face the same stressors, but their physiological response is measurably blunted. Cortisol testing before and after confirms this subjectively.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Adaptogens can interact with thyroid medications, antidepressants, and immunosuppressants. Consult your healthcare provider before starting.
@@ -6559,7 +6688,7 @@ export const POSTS = [
     title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Folate (B9) and B12 work synergistically in methylation. High folate without B12 masks B12 deficiency (causes irreversible nerve damage)....',
+    excerpt: 'Can you take B12 and Folate together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6619,6 +6748,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I check homocysteine levels on virtually every patient. It is an inexpensive, under-ordered test that reveals methylation status at a glance. When homocysteine is above 10 micromol/L, the combination of methylcobalamin (1,000mcg) and methylfolate (800mcg) typically normalises it within 8 weeks. I have seen fatigue, brain fog, and even mood disorders improve dramatically once methylation is optimised. This is one of the highest-yield, lowest-risk interventions in functional medicine.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. If you suspect B12 deficiency or have neurological symptoms, seek medical evaluation promptly.
@@ -6631,7 +6766,7 @@ export const POSTS = [
     title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Vitamin C converts non-heme iron (plant sources) from Fe3+ to Fe2+, increasing absorption by 3-4x. Critical for vegetarians/vegans....',
+    excerpt: 'Can you take Iron and Vitamin C together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6689,6 +6824,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I routinely prescribe iron with Vitamin C — it is standard practice. What surprises me is how many patients are prescribed iron by their GP without being told to take it with Vitamin C, or worse, are told to take it with food (which reduces absorption by up to 40%). The other tip: alternate-day dosing. A 2017 study showed that taking iron every other day actually resulted in higher total absorption than daily dosing, because hepcidin (the hormone that blocks iron absorption) spikes after each dose and takes 24 hours to normalise.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Iron supplementation should be guided by blood tests (serum ferritin, full blood count). Consult your healthcare provider before starting iron supplements.
@@ -6701,7 +6842,7 @@ export const POSTS = [
     title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'ALA is a mitochondrial antioxidant. ALCAR transports fatty acids into mitochondria for energy production. Together: mitochondrial protection + fuel de...',
+    excerpt: 'Can you take Alpha-Lipoic Acid and Acetyl-L-Carnitine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6761,6 +6902,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I consider the ALA + ALCAR stack a cornerstone of any mitochondrial support protocol. For patients presenting with unexplained fatigue, brain fog, or the general sense that "everything is slowing down," this addresses the most fundamental cellular energy issue — mitochondrial decline. I typically combine it with CoQ10 (200mg ubiquinol) for a complete mitochondrial triad. Patients commonly report improved mental energy and physical stamina within 3-4 weeks. The safety profile is excellent, the cost is modest, and the scientific rationale is among the strongest in the supplement world.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take diabetes medication, thyroid medication, or have a seizure disorder, consult your healthcare provider before starting these supplements.
@@ -6773,7 +6920,7 @@ export const POSTS = [
     title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Lysine and arginine compete for absorption. High lysine blocks arginine (needed for nitric oxide). High arginine can trigger herpes outbreaks (lysine ...',
+    excerpt: 'Can you take Lysine and Arginine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6835,6 +6982,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> The most common mistake I see is patients taking arginine for cardiovascular health without realising it triggers their herpes outbreaks, or patients taking lysine for herpes without understanding why. Context is everything with these two amino acids. For cardiovascular nitric oxide support, I almost always recommend citrulline instead of arginine, since it avoids the herpes trigger issue entirely. For herpes management, lysine at 1,000mg daily with increase to 3,000mg during outbreaks is my standard recommendation. The stress-reduction data for the combination is interesting but I consider it a niche application.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not supplement arginine after a heart attack. If you have kidney disease, consult your physician before starting amino acid supplements.
@@ -6847,7 +7000,7 @@ export const POSTS = [
     title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'SAMe is a methyl donor (supports methylation). B-vitamins (B6, B9, B12) are cofactors for methylation. Together: enhanced methylation capacity....',
+    excerpt: 'Can you take SAMe and B-vitamins together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6913,6 +7066,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> SAMe is one of the most underutilised tools in integrative psychiatry. For patients with depression who cannot tolerate SSRIs, or who have partial response to SSRIs, SAMe augmentation has solid clinical evidence. But I always co-prescribe a methylated B-complex (B12, folate, B6) because without these cofactors, SAMe's methyl donation stalls and homocysteine rises. I also check homocysteine levels before and after starting SAMe. If homocysteine is already elevated (above 10 umol/L), this is a red flag that B-vitamin status is already compromised and needs correcting before adding SAMe.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. SAMe can interact with psychiatric medications and is contraindicated in bipolar disorder. Do not use as a substitute for prescribed antidepressants without medical guidance.
@@ -6925,7 +7084,7 @@ export const POSTS = [
     title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Vitamin C is required for collagen synthesis (hydroxylation of proline and lysine). Without adequate vitamin C, collagen supplementation is ineffectiv...',
+    excerpt: 'Can you take Collagen and Vitamin C together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6990,6 +7149,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination to virtually every patient over 35. Collagen production declines by approximately 1-1.5% per year after age 25 — by 50, you have lost 25-35% of your collagen synthesis capacity. The visible result is thinner skin, deeper wrinkles, and joint stiffness. The combination of hydrolysed collagen peptides (providing substrate) and Vitamin C (ensuring enzymatic capacity) is one of the most straightforward, well-tolerated interventions for structural ageing. I typically recommend taking it first thing in the morning with water and a squeeze of lemon — simple, effective, and easy to maintain as a daily habit.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Consult your healthcare provider if you have kidney disease or are pregnant before starting new supplements.
@@ -7002,7 +7167,7 @@ export const POSTS = [
     title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both thin blood (omega-3 via prostaglandin modulation, aspirin via COX inhibition). Combining increases bleeding risk....',
+    excerpt: 'Can you take Omega-3 and Aspirin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7058,6 +7223,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> For patients already on prescribed low-dose aspirin for secondary cardiovascular prevention, I routinely recommend adding omega-3s (2-3g EPA+DHA). The mechanisms are complementary and the evidence for combined benefit is strong. The key is awareness rather than avoidance — know that you will bruise more easily, inform your dentist and any surgeons, and discontinue the omega-3s (not the aspirin, unless directed) before procedures. For primary prevention (no existing heart disease), I would start with omega-3s alone before even considering aspirin, as the risk-benefit of primary prevention aspirin has been significantly revised downward in recent guidelines.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not start or stop aspirin without consulting your healthcare provider. If you experience signs of excessive bleeding (black stools, prolonged bleeding from cuts, blood in urine), seek medical attention.
@@ -7070,7 +7241,7 @@ export const POSTS = [
     title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'CBD modulates serotonin and GABA receptors (anxiolytic). Melatonin signals circadian rhythm. Together: reduced sleep latency and improved sleep qualit...',
+    excerpt: 'Can you take CBD and Melatonin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7132,6 +7303,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I see too many patients taking 10mg melatonin and wondering why they feel hungover every morning. The answer is almost always dose — physiological melatonin (0.5-1mg) works better than megadoses for circadian regulation. If anxiety is the sleep barrier, I prefer addressing that directly with magnesium glycinate (400mg), L-theanine (200mg), or targeted CBD. The melatonin+CBD combination can work well for short-term use (jet lag, acute stress periods), but I encourage patients to identify and treat the underlying sleep disruptor rather than relying on nightly supplementation indefinitely.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. CBD may interact with prescription medications. Consult your healthcare provider or pharmacist before combining CBD with any medication.
@@ -7144,7 +7321,7 @@ export const POSTS = [
     title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Vitamin D increases calcium absorption in the gut. Without vitamin D, dietary calcium is poorly absorbed (10-15% vs 30-40% with D)....',
+    excerpt: 'Can you take Calcium and Vitamin D together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7202,6 +7379,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> The calcium conversation has evolved enormously. Ten years ago, we prescribed calcium carbonate tablets by the handful. Now we understand that the dose, the form, and the cofactors all matter. I prefer my patients get the majority of their calcium from food (sardines, leafy greens, fortified milks) and supplement only the gap — typically 500mg. Always with D3 and K2. The days of isolated high-dose calcium supplementation should be behind us.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. If you are being treated for osteoporosis or take medications that interact with calcium, consult your healthcare provider.
@@ -7214,7 +7397,7 @@ export const POSTS = [
     title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Lions mane stimulates NGF (nerve growth factor) for neurogenesis. Bacopa enhances acetylcholine signalling. Together: structural + functional brain sup...',
+    excerpt: 'Can you take Lions Mane and Bacopa together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7274,6 +7457,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is my primary nootropic recommendation for patients experiencing age-related cognitive decline, brain fog, or simply wanting to optimise mental performance. I prefer this stack to racetams or modafinil because it works with your brain's natural growth mechanisms rather than forcing neurotransmitter changes. The key is patience — I tell patients to commit to 12 weeks before assessing. Those who do consistently report improvements in verbal recall, mental clarity, and the ability to sustain focus during complex tasks. It is one of the most evidence-based nootropic combinations available.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you are experiencing cognitive decline, consult your healthcare provider to rule out underlying medical conditions.
@@ -7286,7 +7475,7 @@ export const POSTS = [
     title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'GABA is the primary inhibitory neurotransmitter. L-theanine enhances GABA receptor sensitivity and increases alpha brain waves. Together: calm without...',
+    excerpt: 'Can you take GABA and L-Theanine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7345,6 +7534,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination frequently as a first-line intervention for patients with mild anxiety or difficulty unwinding in the evening. It provides a noticeable calming effect without the dependency risk, cognitive impairment, or withdrawal issues associated with benzodiazepines. Many of my patients describe it as "taking the edge off" — the anxious internal chatter quietens, but mental clarity is preserved. For patients who drink tea specifically for its calming effect, this stack delivers the active ingredient (L-Theanine) at a therapeutic dose alongside its target neurotransmitter (GABA).</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you experience severe anxiety, panic attacks, or are taking psychiatric medications, consult your healthcare provider before starting supplements.
@@ -7357,7 +7552,7 @@ export const POSTS = [
     title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both are serotonin precursors. 5-HTP is one step closer to serotonin than tryptophan. Combining them can cause serotonin syndrome (dangerous)....',
+    excerpt: 'Can you take 5-HTP and Tryptophan together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7421,6 +7616,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> In practice, I prefer L-Tryptophan over 5-HTP for most patients. The rate-limiting step it must pass through acts as a natural safety valve, making it harder to accidentally overdo serotonin levels. For patients who specifically need targeted help with sleep onset, I use 5-HTP (100mg) alongside magnesium glycinate and keep the duration to 4-8 weeks rather than indefinite use. I never recommend combining both, and I always ask about SSRI use before suggesting either. The serotonin pathway is not something to approach casually.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not take 5-HTP or L-Tryptophan alongside antidepressant medications without medical supervision. If you experience agitation, rapid heartbeat, confusion, or fever after taking serotonergic supplements, seek emergency medical attention.
@@ -7433,7 +7634,7 @@ export const POSTS = [
     title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Boswellia (frankincense) inhibits 5-LOX (leukotriene pathway). Fish oil inhibits COX-2 (prostaglandin pathway). Together: dual anti-inflammatory actio...',
+    excerpt: 'Can you take Boswellia and Fish Oil together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7490,6 +7691,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> For patients wanting to reduce NSAID use for chronic joint pain, this is my preferred natural alternative. The dual COX+LOX inhibition provides a more complete anti-inflammatory effect than fish oil alone, and Boswellia's onset of action is faster than most natural approaches. I typically suggest a 6-week trial: fish oil 2,500mg EPA+DHA plus Boswellia 1,000mg daily. If pain improves, we then work on tapering NSAIDs under supervision. The key advantage over NSAIDs is the absence of gastric erosion, which makes this combination safe for long-term daily use.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not stop prescribed anti-inflammatory medications without consulting your healthcare provider. Persistent joint pain warrants proper medical evaluation.
@@ -7502,7 +7709,7 @@ export const POSTS = [
     title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'St Johns Wort induces CYP450 enzymes and has SSRI-like effects. Combining with pharmaceutical SSRIs causes serotonin syndrome....',
+    excerpt: 'Can you take St Johns Wort and SSRIs together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7572,6 +7779,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I have treated a patient who developed serotonin syndrome after adding St John's Wort to her sertraline without informing her GP. She presented with confusion, a temperature of 39.5°C, tremor, and clonus. She required hospital admission and IV cyproheptadine. She had no idea this interaction existed — she considered St John's Wort a "harmless herbal supplement." This is exactly why this topic matters. If you are considering St John's Wort for mood support, please tell your doctor and pharmacist about every medication you take. If you are on an SSRI, do not take St John's Wort under any circumstances.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you suspect serotonin syndrome, seek emergency medical attention immediately. Do not stop prescription antidepressants without medical guidance, as abrupt discontinuation can cause withdrawal symptoms.
@@ -7584,7 +7797,7 @@ export const POSTS = [
     title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Green tea contains EGCG (antioxidant) and ~25mg caffeine per cup. Adding more caffeine enhances fat oxidation and alertness....',
+    excerpt: 'Can you take Green Tea Extract and Caffeine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7644,6 +7857,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend GTE for its EGCG content, not for additional caffeine. For patients who already drink coffee, I suggest decaffeinated green tea extract so they get the catechin benefits without caffeine stacking. The metabolic synergy between EGCG and caffeine is real but modest. The bigger health benefits of GTE are its antioxidant, anti-inflammatory, and AMPK-activating properties, which contribute to longevity independently of its thermogenic effects. Always take with food to protect your liver, and cap total EGCG intake at 500mg/day from supplements.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you experience yellowing of the skin or eyes, dark urine, or abdominal pain while taking green tea extract, discontinue immediately and seek medical attention.
@@ -7656,7 +7875,7 @@ export const POSTS = [
     title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both are algae with different nutrient profiles. Spirulina is protein-rich (60-70%). Chlorella has broken cell wall for heavy metal binding. Together:...',
+    excerpt: 'Can you take Spirulina and Chlorella together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7715,6 +7934,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend the combination primarily for patients interested in nutrient-dense whole food supplementation and gentle detoxification support. The phycocyanin in spirulina has genuinely impressive anti-inflammatory data, and chlorella's heavy metal binding capacity is well-demonstrated in environmental exposure studies. However, I am honest with patients about two things: spirulina's B12 is not reliably bioactive (vegans still need a dedicated B12 supplement), and the "detox" effects of chlorella are modest — it binds metals in the gut, which is useful for preventing absorption from food, but it does not chelate stored metals from tissues. Source quality matters enormously — buy from tested, reputable brands.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take anticoagulants or have autoimmune conditions, consult your healthcare provider before starting algae supplements.
@@ -7727,7 +7952,7 @@ export const POSTS = [
     title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Phosphatidylserine is a membrane phospholipid (cognitive function). Omega-3 provides DHA (brain structure). Together: membrane fluidity + neuroprotect...',
+    excerpt: 'Can you take Phosphatidylserine and Omega-3 together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7790,6 +8015,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> For patients over 45 presenting with subjective cognitive decline ("I'm not as sharp as I used to be"), the PS + omega-3 DHA combination is my standard recommendation alongside the foundational interventions (exercise, sleep, blood sugar management). The rationale is purely structural: you are replacing the actual building materials that your neuronal membranes are made of. Unlike stimulatory nootropics that push neurons to work harder, this approach ensures neurons have the structural foundation to work efficiently. I consider it the "boring but essential" brain stack. Not exciting, not trendy, but grounded in basic neuroscience and decades of clinical evidence.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Significant or progressive cognitive decline warrants medical evaluation to rule out treatable causes. Supplements do not treat or prevent Alzheimer's disease.
@@ -7802,7 +8033,7 @@ export const POSTS = [
     title: 'Elderberry and Zinc: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Elderberry has antiviral properties (inhibits viral neuraminidase). Zinc is required for immune cell function. Together: antiviral + immune support....',
+    excerpt: 'Can you take Elderberry and Zinc together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7865,6 +8096,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I keep both in my medicine cabinet and recommend this combination to every patient during cold and flu season. The evidence base is solid, the safety profile is excellent, and the cost is minimal. The critical factor most people miss is timing — you must start within the first 24 hours of symptoms for maximum benefit. I advise patients to keep zinc lozenges and elderberry extract at home, at work, and in their travel bag. Once you feel that first throat tickle, start immediately. Waiting "to see if it develops" is waiting too long. Prevention dosing throughout winter is also reasonable, particularly for healthcare workers, teachers, and parents of young children.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If symptoms persist beyond 7 days, worsen, or include high fever, difficulty breathing, or chest pain, seek medical attention promptly.
@@ -7877,7 +8114,7 @@ export const POSTS = [
     title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Ginkgo increases cerebral blood flow (vascular). Bacopa enhances acetylcholine and BDNF (neurochemical). Together: blood flow + neurotransmitter suppo...',
+    excerpt: 'Can you take Ginkgo Biloba and Bacopa together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7944,6 +8181,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> For patients over 50 seeking evidence-based cognitive support, the ginkgo-bacopa combination is my standard recommendation alongside the foundational interventions (exercise, sleep, omega-3s). Ginkgo provides the vascular component, which is often the most relevant for age-related cognitive changes driven by reduced cerebral blood flow. Bacopa adds the synaptic and memory consolidation component. I always emphasise the 12-week minimum for bacopa. Too many patients try it for 2 weeks, notice nothing, and abandon it before the neuroplastic adaptations have had time to develop. Patience is part of the protocol.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you are experiencing significant cognitive decline, memory loss, or confusion, consult your GP for appropriate evaluation. Cognitive supplements are not treatments for dementia or Alzheimer's disease.
@@ -7956,7 +8199,7 @@ export const POSTS = [
     title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Digestive enzymes break down food (proteases, lipases, amylases). Probiotics restore gut flora. Together: digestion + microbiome support....',
+    excerpt: 'Can you take Digestive Enzymes and Probiotics together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8015,6 +8258,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination frequently for patients presenting with non-specific digestive complaints: bloating, gas, feeling "heavy" after meals, or irregular bowel habits where investigations have excluded serious pathology. The enzyme component often provides noticeable relief within 1-2 meals, while the probiotic benefits develop over 4-8 weeks. I always emphasise that supplements are not a substitute for dietary foundations: adequate fibre, fermented foods, and reducing processed food intake. But for patients over 40 with age-related enzyme decline, a broad-spectrum enzyme with meals and a quality probiotic is a sensible baseline.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Persistent digestive symptoms warrant medical investigation to rule out conditions such as coeliac disease, inflammatory bowel disease, or pancreatic insufficiency.
@@ -8027,7 +8276,7 @@ export const POSTS = [
     title: 'Glutamine and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Glutamine is fuel for intestinal cells (enterocytes). Probiotics colonise the gut lining. Together: gut barrier repair + microbiome....',
+    excerpt: 'Can you take Glutamine and Probiotics together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8085,6 +8334,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is the combination I start every gut repair protocol with. Glutamine at 5g twice daily provides the raw construction material for barrier repair, and a quality multi-strain probiotic restores the microbial balance. I typically run this for 8-12 weeks alongside dietary modifications (eliminating processed foods, increasing fibre). Most patients report reduced bloating within 2 weeks and more consistent bowel habits within 4-6 weeks. Neither supplement is expensive, both have excellent safety profiles, and the combination addresses the two fundamental aspects of gut health: structural integrity and microbial balance.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Persistent digestive symptoms should be investigated by your GP to rule out coeliac disease, inflammatory bowel disease, or other conditions requiring specific treatment.
@@ -8097,7 +8352,7 @@ export const POSTS = [
     title: 'Milk Thistle and NAC: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Milk thistle (silymarin) protects liver cells and increases glutathione. NAC is a direct glutathione precursor. Together: liver protection + antioxida...',
+    excerpt: 'Can you take Milk Thistle and NAC together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8162,6 +8417,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination to any patient taking long-term medications, consuming alcohol regularly, or presenting with elevated liver enzymes on routine blood work. NAC is one of the most underappreciated supplements available — it replenishes glutathione, the single most important antioxidant and detoxification molecule in your body. Combined with Milk Thistle's hepatocyte-protective and regenerative properties, this stack gives your liver genuine support rather than the pseudoscientific "detox" claims that dominate the wellness industry. Real liver support is biochemistry, not juice cleanses.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you have liver disease, take chemotherapy, or use nitroglycerin, consult your healthcare provider before starting these supplements.
@@ -8174,7 +8435,7 @@ export const POSTS = [
     title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Valerian enhances GABA (sedative). Lemon balm has mild anxiolytic effects. Together: sleep onset + sleep maintenance....',
+    excerpt: 'Can you take Valerian and Lemon Balm together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8229,6 +8490,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is my first-line herbal recommendation for patients with sleep-onset insomnia who want to avoid pharmaceutical sleep medications. The combination is gentle, non-habit-forming, and clinically effective. I particularly recommend it for patients whose insomnia is driven by anxiety — the "can't switch my brain off" complaint. For best results, I advise combining it with sleep hygiene practices: consistent bedtime, no screens for 60 minutes before bed, cool bedroom temperature, and the valerian-lemon balm tea as a nightly ritual. The behavioural routine itself becomes a powerful sleep cue over time.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If insomnia persists beyond 4 weeks, consult your healthcare provider to investigate underlying causes such as sleep apnoea, depression, or thyroid dysfunction.
@@ -8241,7 +8508,7 @@ export const POSTS = [
     title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Maca supports adrenal function and libido (non-hormonal). Tribulus may increase testosterone precursors. Together: energy + hormonal balance....',
+    excerpt: 'Can you take Maca and Tribulus together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8304,6 +8571,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I am honest with patients about these supplements: neither will meaningfully raise testosterone. If a man has genuinely low testosterone (confirmed by morning serum testing), the conversation should be about TRT or lifestyle interventions (sleep, resistance training, body fat reduction), not about maca and tribulus. However, for men with normal testosterone who report reduced libido or sexual satisfaction, maca has the better evidence base. I consider tribulus a weak intervention overall. The most effective non-pharmaceutical approaches to optimising testosterone remain: adequate sleep, heavy compound resistance training, maintaining body fat below 20%, and zinc/vitamin D adequacy.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you suspect low testosterone, get a morning serum testosterone test through your GP. Do not self-treat hormonal conditions with supplements.
@@ -8316,7 +8589,7 @@ export const POSTS = [
     title: 'Selenium and Iodine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both are required for thyroid hormone synthesis. Too much selenium without iodine, or vice versa, impairs thyroid function....',
+    excerpt: 'Can you take Selenium and Iodine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8375,6 +8648,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I always check selenium and iodine status together when investigating thyroid dysfunction. The standard thyroid panel (TSH, free T4) misses the nuance of poor T4-to-T3 conversion caused by selenium deficiency. I recommend 200mcg selenomethionine daily for all Hashimoto's patients based on the antibody reduction data, and 150mcg iodine for anyone not consuming iodised salt or seaweed regularly. The key message for patients is: never megadose iodine. The thyroid is exquisitely sensitive to iodine excess, and the consequences of overdoing it are more severe than mild deficiency. Two Brazil nuts a day covers your selenium. A modest iodine supplement covers the rest.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you have thyroid disease, consult your endocrinologist before supplementing iodine or selenium. Do not self-treat thyroid conditions.
@@ -8387,7 +8666,7 @@ export const POSTS = [
     title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Glucosamine provides building blocks for cartilage (glycosaminoglycans). Chondroitin inhibits cartilage breakdown enzymes. Together: synthesis + prote...',
+    excerpt: 'Can you take Chondroitin and Glucosamine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8449,6 +8728,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination for patients with early-to-moderate osteoarthritis, particularly of the knee and hip. The key is managing expectations: this is not ibuprofen. You will not feel relief in 30 minutes. What you may notice after 2-3 months is that stiffness is reduced, you can walk farther before pain starts, and you are reaching for NSAIDs less often. The GAIT trial showed the combination works best for those with moderate-to-severe symptoms, which has been consistent with my clinical experience. Use pharmaceutical-grade products, take them consistently, and give them a genuine 3-month trial before deciding they do not work.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you have severe osteoarthritis, joint deformity, or significant mobility limitation, consult an orthopaedic specialist for comprehensive management.
@@ -8461,7 +8746,7 @@ export const POSTS = [
     title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both are xanthophyll carotenoids that accumulate in the macula (retina). Lutein is in peripheral macula, zeaxanthin in centre. Together: comprehensive...',
+    excerpt: 'Can you take Lutein and Zeaxanthin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8523,6 +8808,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend lutein and zeaxanthin to every patient over 40, particularly those with a family history of AMD, those who spend significant time in front of screens (blue light exposure), and smokers or former smokers. The AREDS2 evidence is among the strongest in preventive supplementation. Most people do not consume enough lutein-rich foods (dark leafy greens, egg yolks) to achieve protective macular pigment density through diet alone. At 10mg lutein and 2mg zeaxanthin daily, the cost is minimal, the safety profile is exceptional, and the potential to preserve vision into old age is genuinely meaningful. This is one supplement recommendation I consider almost universal.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you are experiencing vision changes, floaters, or distortion, consult an ophthalmologist promptly. Supplements do not replace regular eye examinations.
@@ -8535,7 +8826,7 @@ export const POSTS = [
     title: 'Citrulline and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Citrulline converts to arginine in kidneys (avoids first-pass metabolism). Arginine is substrate for nitric oxide. Together: sustained NO production....',
+    excerpt: 'Can you take Citrulline and Arginine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8599,6 +8890,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend citrulline over arginine in almost every scenario. The pharmacokinetics are simply superior. For patients wanting cardiovascular support or improved exercise performance, L-citrulline 3-6g daily is my standard recommendation. For patients who insist on arginine (often because of marketing), I explain the first-pass metabolism issue and suggest they consider citrulline instead. The one exception is patients wanting a rapid pre-event effect, where a combination of arginine (immediate) plus citrulline (sustained) can be justified.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not combine with nitrate medications or PDE5 inhibitors without medical supervision. Avoid supplementation after myocardial infarction.
@@ -8611,7 +8908,7 @@ export const POSTS = [
     title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Schisandra protects liver and enhances mental performance. Eleuthero (Siberian ginseng) increases stress resilience. Together: adaptogenic synergy....',
+    excerpt: 'Can you take Schisandra and Eleuthero together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8674,6 +8971,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I recommend this combination for professionals and athletes experiencing sustained high-stress periods where both cognitive performance and physical resilience are needed. It is the quintessential "keep performing under pressure" stack. Schisandra's liver protection is a valuable bonus for anyone taking multiple supplements or medications. I prefer this combination to ashwagandha when the patient needs alertness rather than calm; adaptogens have different temperaments, and Schisandra-Eleuthero leans toward sharpening performance rather than reducing anxiety.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take prescription medications, check for interactions with Schisandra's CYP enzyme effects before starting supplementation.
@@ -8686,7 +8989,7 @@ export const POSTS = [
     title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Tyrosine is precursor to dopamine. Mucuna provides L-DOPA (immediate dopamine precursor). Together: substrate + direct precursor....',
+    excerpt: 'Can you take N-Acetyl Tyrosine and Mucuna Pruriens together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8747,6 +9050,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I am conservative with this combination. Mucuna pruriens is essentially an unregulated source of levodopa, and patients often do not appreciate that they are taking a pharmaceutical-grade neuroactive compound in supplement form. For most patients seeking focus and motivation support, I recommend tyrosine alone (500-1,000mg morning, empty stomach) as the safer option. I reserve Mucuna for specific situations: established low dopaminergic tone (assessed clinically), short-term use only, and always with cycling protocols. The combination of both together is rarely necessary.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Mucuna pruriens contains L-DOPA, a potent neuroactive compound. Do not combine with MAO inhibitors, psychiatric medications, or Parkinson's drugs without medical supervision.
@@ -8759,7 +9068,7 @@ export const POSTS = [
     title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Astaxanthin is lipophilic antioxidant (membrane protection). Vitamin E prevents lipid peroxidation. Together: synergistic antioxidant effect....',
+    excerpt: 'Can you take Astaxanthin and Vitamin E together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8821,6 +9130,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> Astaxanthin is one of my favourite antioxidant recommendations because of its unique membrane-spanning properties and exceptional safety profile. At 4-8mg daily, it provides broad antioxidant coverage for skin, eyes, brain, and cardiovascular tissue. For vitamin E, I recommend getting most of your intake from food (almonds, sunflower seeds, avocado, olive oil) rather than supplements. If supplementing, use a mixed tocopherol/tocotrienol formula at the RDA level (15mg), not the megadoses that caused problems in clinical trials. The combination is safe and rational at these moderate doses.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not take high-dose vitamin E supplements without medical guidance. If you take anticoagulants, consult your prescriber before adding either supplement.
@@ -8833,7 +9148,7 @@ export const POSTS = [
     title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Berberine activates AMPK (glucose uptake). ALA improves insulin signalling and mitochondrial function. Together: enhanced glucose metabolism....',
+    excerpt: 'Can you take Berberine and Alpha-Lipoic Acid together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8893,6 +9208,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is my go-to natural metabolic support combination for patients with insulin resistance or prediabetes who want to complement lifestyle interventions with supplements. The evidence for berberine is remarkably strong for a natural compound. ALA adds the insulin signalling enhancement and neuroprotective antioxidant coverage. I always emphasise that these supplements work best when combined with the foundational interventions: refined carbohydrate elimination, Zone 2 cardio, and resistance training. Without these, berberine and ALA are swimming against the current. With them, the combination can produce meaningful metabolic improvements visible on blood work within 8-12 weeks.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. If you take diabetes medications, consult your physician before adding berberine or ALA to avoid hypoglycaemia. Do not use berberine during pregnancy.
@@ -8905,7 +9226,7 @@ export const POSTS = [
     title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both are citrus flavonoids that strengthen vein walls (venotropic). Used for varicose veins and hemorrhoids. Together: additive vascular benefit....',
+    excerpt: 'Can you take Hesperidin and Diosmin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8962,6 +9283,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> This is one of the few supplement combinations that is actually a recognised pharmaceutical treatment in Europe. I prescribe MPFF for patients with chronic venous insufficiency (heavy legs, varicose veins, ankle oedema) and as adjunctive treatment for haemorrhoids. The evidence is strong, the safety profile is excellent, and in my experience, patients notice meaningful symptom relief within 3-4 weeks. For anyone with regular leg heaviness, evening ankle swelling, or spider veins, MPFF at 1,000mg daily alongside regular walking and compression stockings is the evidence-based approach.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Leg swelling can indicate serious conditions (deep vein thrombosis, heart failure). Seek medical evaluation before attributing swelling to venous insufficiency.
@@ -8974,7 +9301,7 @@ export const POSTS = [
     title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Policosanol may affect cholesterol. Red yeast rice contains natural statins (monacolin K). Combining increases statin exposure....',
+    excerpt: 'Can you take Policosanol and Red Yeast Rice together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9033,6 +9360,12 @@ export const POSTS = [
         <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>My Clinical Perspective:</strong> I am cautious about this combination. Red yeast rice is a statin without the quality control, standardised dosing, or medical monitoring that prescription statins provide. If a patient needs LDL reduction beyond what lifestyle can achieve, I would rather prescribe a low-dose rosuvastatin with proper monitoring than have them take an unregulated equivalent. As for policosanol, the evidence simply does not support the marketing claims when you look beyond the Cuban studies. If patients insist on a natural approach to cholesterol, I recommend bergamot extract (which has better independent evidence), plant sterols/stanols (2g daily, proven to reduce LDL by 10%), and omega-3s for triglycerides, before considering RYR.</p>
       </div>
 
+      
+      <!-- TOPIC CLUSTER -->
+      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
+        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
+      </div>
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
           <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Red yeast rice is a potent pharmaceutical compound. Do not combine with prescription statins. Do not use during pregnancy. Consult your physician and monitor liver function if taking RYR.
