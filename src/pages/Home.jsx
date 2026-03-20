@@ -208,7 +208,7 @@ export default function Home() {
                         }}>
                             I'm a physician who lost 30kg by treating the root cause, not the symptoms.
                             After 15 years working in Emergency Medicine and General Practice, I
-                            reversed my own insulin resistance and now specialize in holistic longevity
+                            reversed my own insulin resistance and now specialise in holistic longevity
                             medicine.
                         </p>
 
@@ -594,7 +594,7 @@ export default function Home() {
             }}>
                 <div className="container text-center">
                     <p style={{ fontSize: '0.9rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 600 }}>
-                        Founded by an Acute Care Physician & ER Veteran
+                        Evidence-Based Protocols by Dr. Gavin McAuley, MBChB
                     </p>
                 </div>
             </div >
