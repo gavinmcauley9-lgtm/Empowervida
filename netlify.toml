@@ -10,9 +10,8 @@
 # of the default SPA index.html content.
 
 # Enable Netlify's built-in prerendering for bots
-[build.processing]
-  # Note: Netlify free tier has limited prerendering
-  # For full prerendering, consider Netlify's "Prerender.io" integration
+# Note: Netlify free tier has limited prerendering
+# For full prerendering, consider Netlify's "Prerender.io" integration
 
 # Redirect with prerendering - bots get server-rendered pages
 [[redirects]]
@@ -25,7 +24,7 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# Enable Brotli compression for better network performance
+# Build processing: compression, minification, optimization
 [build.processing]
   skip_processing = false
 
