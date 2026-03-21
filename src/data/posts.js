@@ -17,7 +17,7 @@ export const POSTS = [
     slug: 'why-nad-is-not-a-magic-bullet-brain-fog-root-causes',
     title: 'Why NAD+ is Not a Magic Bullet: The 4 Hidden Systems Behind Brain Fog',
     category: 'cognition',
-    image: '/optimized_images/cellular_structure.webp',
+    image: '/cellular_structure.webp',
     excerpt: 'NAD+ therapy is highly effective, but it cannot fix brain fog caused by fractured sleep architecture, subclinical hypothyroidism, neural insulin resistance, or hidden iron deficiency. A physician explains the systems biology approach to chronic fatigue.',
     date: 'Mar 21, 2026',
     cta: {
@@ -41,14 +41,14 @@ export const POSTS = [
       <p>The standard blood panel run by most GPs checks your "haemoglobin." If you are not overtly anaemic, they tell you your iron is "normal." They rarely check <strong>Ferritin</strong>, which is your body's deep iron storage. </p>
       <p>If your Ferritin drops below 50 ng/mL, your neuronal mitochondria physically struggle to produce ATP, regardless of how much NAD+ you feed them. You are supplementing the engine while starving it of oxygen. <a href="/blog/chronic-fatigue-exhausted-but-labs-normal" style="color: #20B2AA; text-decoration: underline; font-weight: 600;">Read my full clinical breakdown on why your labs are normal but you feel exhausted here</a>.</p>
 
-      <img src="/optimized_images/mitochondrial_health_longevity.webp" alt="3D render of a healthy mitochondrion producing ATP" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
+      <img src="/mitochondrion_center.webp" alt="3D render of a healthy mitochondrion producing ATP" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">2. Neural Insulin Resistance: Starving in a Sea of Fuel</h2>
       <p>If you experience massive energy crashes at 2 PM or 3 PM, the culprit is often glycemic, not mitochondrial.</p>
       <p>Your brain runs primarily on glucose. But decades of standard Western diets force the body to pump out high levels of insulin. Eventually, your cells become "deaf" to the signal. When neurons become insulin resistant, they literally cannot pull glucose inside. The blood might be full of fuel, but the brain cells are starving.</p>
       <p>Taking an NAD+ precursor cannot force glucose through a broken insulin receptor. You must sensitise the receptor. <a href="/blog/insulin-resistance-and-aging" style="color: #20B2AA; text-decoration: underline; font-weight: 600;">Discover the exact protocols to reverse neural insulin resistance in this deep dive</a>.</p>
 
-      <img src="/optimized_images/blood_sugar_longevity.webp" alt="3D visualisation of insulin receptors and glucose uptake" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
+      <img src="/insulin_resistance_progression.webp" alt="3D visualisation of insulin receptors and glucose uptake" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">3. Fractured Sleep Architecture: The Glymphatic Blockade</h2>
       <p>Patients often tell me, "I don't understand why I am tired; I sleep 8 hours every night." The duration of sleep is irrelevant if the architecture is fractured.</p>
