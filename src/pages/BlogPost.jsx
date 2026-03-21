@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import SEO from '../components/SEO';
 import EmailCapture from '../components/EmailCapture';
+import AuthorBio from '../components/AuthorBio';
 import { POSTS, CATEGORIES } from '../data/posts';
 
 // Helper function to get related posts based on category and exclude current post
@@ -379,6 +380,11 @@ export default function BlogPost() {
             </div>
           )}
 
+        </div>
+
+        {/* E-E-A-T Author Bio block */}
+        <div className="container" style={{ maxWidth: '900px', margin: '0 auto' }}>
+             <AuthorBio />
         </div>
 
         {/* Clinical References Accordion */}

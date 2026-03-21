@@ -17,7 +17,7 @@ export const POSTS = [
     slug: 'brain-fog-cognitive-decline-science-of-the-dimmer-switch',
     title: 'Brain Fog & Cognitive Decline: The Science of the \"Starving\" Neuron',
     category: 'neurolongevity',
-    image: '/neuron_starving_nourished.png',
+    image: '/neuron_starving_nourished.webp',
     excerpt: 'Cognitive decline and "brain fog" are often symptoms of cerebral bioenergetic failure. When the brain becomes insulin resistant, it can no longer uptake glucose, leaving neurons to starve. A physician explains how to reverse this.',
     date: 'Mar 15, 2026',
     cta: {
@@ -39,7 +39,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/neuron_starving_nourished.png" alt="A cinematic 3D render of a single neuron. Withered on one side, glowing on the other." style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/neuron_starving_nourished.webp" alt="A cinematic 3D render of a single neuron. Withered on one side, glowing on the other." style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Observation: The "Paper-Perfect" Patient</h2>
@@ -75,7 +75,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/fuel_gauge_ketones.png" alt="A clean, minimalist medical infographic showing Glucose empty and Ketones full" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/fuel_gauge_ketones.webp" alt="A clean, minimalist medical infographic showing Glucose empty and Ketones full" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Nightly Cleanse: The Glymphatic System</h2>
@@ -133,7 +133,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/brain_health_flatlay.png" alt="A professional flat-lay of a wooden desk with blueberries, MRI scan, and supplements" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/brain_health_flatlay.webp" alt="A professional flat-lay of a wooden desk with blueberries, MRI scan, and supplements" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Takeaway: Protect Your Cognitive Wealth</h2>
@@ -193,7 +193,7 @@ export const POSTS = [
       <p><strong>This is exactly what is happening inside your brain when you have "Brain Fog."</strong></p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brain_sewage_glymphatic.webp" alt="Sleep vs Awake Brain Comparison" style="width: 100%; height: auto; display: block;" />
+        <img src="/brain_sewage_glymphatic.webp" alt="Sleep vs Awake Brain Comparison" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: Glymphatic Cleaning During Sleep vs. Metabolic Waste Accumulation While Awake</p>
       </div>
       
@@ -236,7 +236,7 @@ export const POSTS = [
       <p>If your nervous system is stuck in "fight or flight" due to chronic stress (high cortisol), you never drop into the deep stages. You're unconscious, but you're not recovering.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/glymphatic_system.png" alt="Glymphatic System Mechanism" style="width: 100%; height: auto; display: block;" />
+        <img src="/glymphatic_system.webp" alt="Glymphatic System Mechanism" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Rinse Cycle: Cerebrospinal Fluid Flushing Brain Tissue</p>
       </div>
       
@@ -324,7 +324,7 @@ export const POSTS = [
     slug: 'brain-pills-that-work-vs-snake-oil',
     title: 'The 3 Brain Pills That Actually Changed My Patients\' Lives (And the 7 That Are Snake Oil)',
     category: 'cognition',
-    image: '/stimulants_vs_nootropics_graph_1764510405890.png',
+    image: '/stimulants_vs_nootropics_graph_1764510405890.webp',
     excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
     date: 'Dec 01, 2025',
     cta: {
@@ -350,7 +350,7 @@ export const POSTS = [
       <p>True nootropics act as <strong>Neural Fuel</strong> or <strong>Structural Support</strong>. They increase cerebral blood flow, provide the raw materials for neurotransmitters, or protect neurons from stress.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/stimulants_vs_nootropics_graph_1764510405890.png" alt="Stimulants vs Nootropics Graph" style="width: 100%; height: auto; display: block;" />
+        <img src="/stimulants_vs_nootropics_graph_1764510405890.webp" alt="Stimulants vs Nootropics Graph" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Stimulants (Red) vs. Nootropics (Cyan): The Crash vs. The Sustain</p>
       </div>
 
@@ -372,7 +372,7 @@ export const POSTS = [
       <p>I'll be upfront: creatine is one of my favourite supplements. But I used to dismiss it as "gym bro stuff." It had been around for years, weightlifters swore by it, and I assumed that was the end of the story. Then I actually read the neuroscience literature — and tried it myself. The cognitive difference was noticeable within days. But the real proof came from my partner, a teacher. She went from being an exhausted wreck by the evening — barely functioning after 3PM — to sustained energy through the entire day on creatine. When she stopped taking it for a few weeks, the fatigue came straight back. Clear causation, N=2. I now use creatine specifically to keep my brain sharp during intermittent fasting. When I was losing 30kg, I fasted through most of the day — no breakfast, minimal lunch. Creatine was the difference between working through the day on fumes and actually being clinically functional. Most fasting protocols do not mention this. They should.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/creatine_atp_mitochondria_1764578743512.png" alt="Mitochondrial ATP Production" style="width: 100%; height: auto; display: block;" />
+        <img src="/creatine_atp_mitochondria_1764578743512.webp" alt="Mitochondrial ATP Production" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Phosphocreatine Shuttle: Energy Buffering Inside the Neuron</p>
       </div>
 
@@ -409,7 +409,7 @@ export const POSTS = [
       <p>250mg – 500mg in the morning.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/acetylcholine_synapse.png" alt="Synaptic Transmission" style="width: 100%; height: auto; display: block;" />
+        <img src="/acetylcholine_synapse.webp" alt="Synaptic Transmission" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">Neurotransmitter Release: Acetylcholine Crossing the Synaptic Cleft</p>
       </div>
 
@@ -438,7 +438,7 @@ export const POSTS = [
       <p>Look for an extract standardised to <strong>3% Rosavins and 1% Salidroside</strong>. Take it on an empty stomach in the morning.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/rhodiola_shield_1764510552456.png" alt="Cortisol Shield" style="width: 100%; height: auto; display: block;" />
+        <img src="/rhodiola_shield_1764510552456.webp" alt="Cortisol Shield" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">HPA Axis Modulation: The Stress Shield</p>
       </div>
 
@@ -598,7 +598,7 @@ export const POSTS = [
       \u003c/p\u003e
 
       \u003cdiv style=\"margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);\"\u003e
-        \u003cimg src=\"/synaptic_density_increase.png\" alt=\"Synaptic Density Increase\" style=\"width: 100%; height: auto; display: block;\" /\u003e
+        \u003cimg src=\"/synaptic_density_increase.webp\" alt=\"Synaptic Density Increase\" style=\"width: 100%; height: auto; display: block;\" /\u003e
         \u003cp style=\"text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;\"\u003eThe MIT Discovery: 44% Increase in Hippocampal Synaptic Density\u003c/p\u003e
       \u003c/div\u003e
 
@@ -792,7 +792,7 @@ export const POSTS = [
     slug: 'brain-atrophy-memory-loss-bdnf-neuroplasticity',
     title: 'Brain Atrophy & Memory Loss: How to Trigger BDNF and Reverse the Decay',
     category: 'cognition',
-    image: '/brain_shrinking_hero.jpg',
+    image: '/brain_shrinking_hero.webp',
     excerpt: 'After age 55, the human hippocampus shrinks by 1-2% per year. This is not just "forgetting where you put your keys." This is structural atrophy.',
     date: 'Nov 30, 2025',
     cta: {
@@ -826,7 +826,7 @@ export const POSTS = [
       <p>As confirmed in a landmark longitudinal study published in the Proceedings of the National Academy of Sciences (PNAS), this volume loss is measurable and consistent.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brain_fog_hero.png" alt="Brain Atrophy Comparison" style="width: 100%; height: auto; display: block;" />
+        <img src="/brain_fog_hero.webp" alt="Brain Atrophy Comparison" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Problem: Structural Brain Atrophy Over Time</p>
       </div>
       
@@ -843,7 +843,7 @@ export const POSTS = [
       <p>When BDNF is present, your brain becomes lush, dense, and connected. When BDNF drops, your brain becomes a desert.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/glymphatic_system.png" alt="BDNF Neural Network Growth" style="width: 100%; height: auto; display: block;" />
+        <img src="/glymphatic_system.webp" alt="BDNF Neural Network Growth" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: BDNF Triggering Synaptic Connections</p>
       </div>
       
@@ -856,7 +856,7 @@ export const POSTS = [
       <p>To turn on BDNF, you cannot be comfortable. You need controlled, acute stress signals.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/synaptic_transmission.png" alt="Metabolic Stress Response" style="width: 100%; height: auto; display: block;" />
+        <img src="/synaptic_transmission.webp" alt="Metabolic Stress Response" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Action: Controlled Stress Signals</p>
       </div>
       
@@ -1122,7 +1122,7 @@ export const POSTS = [
     slug: 'chronic-fatigue-exhausted-but-labs-normal',
     title: 'Chronic Fatigue: Why You Are Exhausted But Your Labs Are "Normal"',
     category: 'energy',
-    image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
+    image: '/normal_labs_hidden_dysfunction_hero_1764771895650.webp',
     excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction. A clinical breakdown by Dr. Gavin McAuley.',
     date: 'Nov 23, 2025',
     cta: {
@@ -1250,7 +1250,7 @@ export const POSTS = [
     slug: 'seed-oils-inflammation-fatigue-weight-gain',
     title: 'Why Seed Oils Are Making You Inflamed, Tired, and "Stiff" at the Cellular Level',
     category: 'metabolic',
-    image: '/cell_membrane_stiff_fluid.png',
+    image: '/cell_membrane_stiff_fluid.webp',
     excerpt: 'You are quite literally made of the fats you eat. A physician explains why modern industrial seed oils are turning your flexible cell membranes into rigid plastic, crushing your energy, and causing systemic inflammation.',
     date: 'Mar 15, 2026',
     cta: {
@@ -1272,7 +1272,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/cell_membrane_stiff_fluid.png" alt="A 3D render comparing a healthy fluid cell membrane with a diseased, rigid, inflamed cell membrane" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/cell_membrane_stiff_fluid.webp" alt="A 3D render comparing a healthy fluid cell membrane with a diseased, rigid, inflamed cell membrane" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The 30 Trillion Walls</h2>
@@ -1325,7 +1325,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/omega_ratio_diagram.png" alt="A minimalist clinical diagram comparing the Omega-6 to Omega-3 ratio in human cells" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/omega_ratio_diagram.webp" alt="A minimalist clinical diagram comparing the Omega-6 to Omega-3 ratio in human cells" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Rigidity Crisis: When Cells Become "Stiff"</h2>
@@ -1423,7 +1423,7 @@ export const POSTS = [
     slug: 'chronic-inflammation-symptoms-root-cause-fatigue-joint-pain',
     title: 'Chronic Inflammation Symptoms: Why It is The Root Cause of Fatigue & Joint Pain',
     category: 'longevity',
-    image: '/inflammation_fire.jpg',
+    image: '/inflammation_fire.webp',
     excerpt: 'Chronic inflammation is the common denominator of ageing and disease. A clinical breakdown by Dr. Gavin McAuley.',
     date: 'Nov 26, 2025',
     references: [
@@ -1555,7 +1555,7 @@ export const POSTS = [
     slug: 'blood-sugar-spikes-normal-fasting-glucose-danger',
     title: 'Blood Sugar Spikes: Why I Treat "Normal" Fasting Glucose as a Medical Emergency',
     category: 'metabolic',
-    image: '/glucose_chart_spikes.png',
+    image: '/glucose_chart_spikes.webp',
     excerpt: 'Your fasting glucose might be normal, but your post-meal spikes are secretly destroying your blood vessels. A physician explains why metabolic damage hides behind "normal" lab results.',
     date: 'Mar 15, 2026',
     cta: {
@@ -1577,7 +1577,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/glucose_chart_spikes.png" alt="A clean, minimalist medical line chart showing stable glucose vs. a massive red spike" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/glucose_chart_spikes.webp" alt="A clean, minimalist medical line chart showing stable glucose vs. a massive red spike" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The 8:00 AM Illusion</h2>
@@ -1611,7 +1611,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/endothelium_damage.png" alt="3D render of a blood vessel showing glucose crystals scraping and damaging the endothelial lining" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/endothelium_damage.webp" alt="3D render of a blood vessel showing glucose crystals scraping and damaging the endothelial lining" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1701,7 +1701,7 @@ export const POSTS = [
     slug: 'sun-phobia-spf-vitamin-d-mood',
     title: 'The Sun Phobia Trap: Why Your SPF is Costing You Your Mood',
     category: 'neurolongevity',
-    image: '/spf_blocking_synthesis.png',
+    image: '/spf_blocking_synthesis.webp',
     excerpt: 'We have been conditioned to fear the sun. But aggressive SPF use is blocking the synthesis of the most critical neuro-hormone in the human body. A physician explains the connection between Vitamin D deficiency and seasonal depression.',
     date: 'Mar 15, 2026',
     cta: {
@@ -1723,7 +1723,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/spf_blocking_synthesis.png" alt="Clinical diagram showing SPF 50 blocking the conversion of 7-DHC to Vitamin D3" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/spf_blocking_synthesis.webp" alt="Clinical diagram showing SPF 50 blocking the conversion of 7-DHC to Vitamin D3" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Perspective: The "Normal" Patient</h2>
@@ -1763,7 +1763,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/vitamin_d_brain_receptors.png" alt="3D render of a glowing human brain showing Vitamin D receptors in the hypothalamus and hippocampus" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/vitamin_d_brain_receptors.webp" alt="3D render of a glowing human brain showing Vitamin D receptors in the hypothalamus and hippocampus" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1785,7 +1785,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/immunity_shield_d3.png" alt="3D render of a white blood cell with a golden D3 shield actively defending against pathogens" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/immunity_shield_d3.webp" alt="3D render of a white blood cell with a golden D3 shield actively defending against pathogens" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1865,7 +1865,7 @@ export const POSTS = [
     slug: 'focus-attention-deficit-natural-solutions',
     title: 'Focus & Attention Deficit: Why You Can\'t Concentrate (And How to Clear the Haze)',
     category: 'cognition',
-    image: '/brain_fog_hero.png',
+    image: '/brain_fog_hero.webp',
     excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
     date: 'Nov 29, 2025',
     cta: {
@@ -1910,7 +1910,7 @@ export const POSTS = [
 
       <p>In 2013, a groundbreaking study published in <em>Science</em> by Dr. Maiken Nedergaard revealed the <strong>Glymphatic System</strong>. Think of it as the brain's dishwasher. When you enter deep sleep, your brain cells literally shrink by 60%, allowing cerebrospinal fluid to wash away metabolic waste products like beta-amyloid.</p>
 
-      <img src="/glymphatic_system.png" alt="The Glymphatic System" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
+      <img src="/glymphatic_system.webp" alt="The Glymphatic System" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" / loading="lazy">
 
       <p>If you have sleep apnea, or if you drink alcohol before bed (which crushes REM sleep), the dishwasher never turns on. You wake up with a brain full of metabolic trash. That "fog" you feel at 9:00 AM is literal cellular waste clogging your neural networks.</p>
 
@@ -1930,7 +1930,7 @@ export const POSTS = [
 
       <p><strong>B-Vitamins:</strong> B12 and Folate are essential for methylation: the process that makes neurotransmitters. Without them, you can't build the chemicals you need to focus.</p>
 
-      <img src="/synaptic_transmission.png" alt="Synaptic Transmission" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
+      <img src="/synaptic_transmission.webp" alt="Synaptic Transmission" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" / loading="lazy">
 
       <h2>The Protocol: Clearing the Haze</h2>
 
@@ -1994,7 +1994,7 @@ export const POSTS = [
     slug: 'anxiety-inflammation-hidden-link-brain-on-fire',
     title: 'Anxiety & Inflammation: The Hidden Link Behind \"Brain on Fire\"',
     category: 'inflammation',
-    image: '/inflammation_controlled_fire_hero_1764771922110.png',
+    image: '/inflammation_controlled_fire_hero_1764771922110.webp',
     excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.',
     date: 'Dec 01, 2025',
     cta: {
@@ -2022,7 +2022,7 @@ export const POSTS = [
       <h2>The Clinical Reality: You might not be "mentally ill." You might be Neuroinflamed.</h2>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/brain_fog_hero.png" alt="Brain Inflammation Concept" style="width: 100%; height: auto; display: block;" />
+        <img src="/brain_fog_hero.webp" alt="Brain Inflammation Concept" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Concept: Neuroinflammation - When Your Brain is "On Fire"</p>
       </div>
       
@@ -2039,7 +2039,7 @@ export const POSTS = [
       <p><strong>The Result:</strong> You feel anxious, withdrawn, and foggy. Evolutionarily, this is called "Sickness Behaviour." Your body wants you to isolate yourself to heal. But in the modern world, you aren't sick; you're just inflamed.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/glymphatic_system.png" alt="Microglia Activation" style="width: 100%; height: auto; display: block;" />
+        <img src="/glymphatic_system.webp" alt="Microglia Activation" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Attack: Microglia Releasing Inflammatory Cytokines</p>
       </div>
       
@@ -2162,7 +2162,7 @@ export const POSTS = [
     slug: 'chronic-fatigue-brain-tires-before-body',
     title: 'Chronic Fatigue: Why Your Brain Tires Before Your Body (And How to Fix It)',
     category: 'cognition',
-    image: '/mitochondrial_furnace_hero_1764771832396.png',
+    image: '/mitochondrial_furnace_hero_1764771832396.webp',
     excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
     date: 'Dec 01, 2025',
     cta: {
@@ -2190,7 +2190,7 @@ export const POSTS = [
       <h2>The Medical Truth: You are suffering from a Cerebral Energy Crisis.</h2>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Brain Energy Depletion" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.webp" alt="Brain Energy Depletion" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Crash: Mental Exhaustion at 2 PM</p>
       </div>
       
@@ -2215,7 +2215,7 @@ export const POSTS = [
       <p><strong>Creatine is not just a muscle builder. It is a Mitochondrial Battery Pack.</strong></p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Mitochondrial ATP Recycling" style="width: 100%; height: auto; display: block;" />
+        <img src="/dna_white_bg.webp" alt="Mitochondrial ATP Recycling" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Mechanism: Creatine Recharging Mitochondria</p>
       </div>
       
@@ -2326,7 +2326,7 @@ export const POSTS = [
     slug: 'ageing-faster-than-friends-science-of-glycation',
     title: 'Why You Are Ageing Faster Than Your Friends: The Science of Glycation',
     category: 'metabolic',
-    image: '/cell_membrane_fluidity_hero_1764771762803.png',
+    image: '/cell_membrane_fluidity_hero_1764771762803.webp',
     excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs, sticky structures that stiffen your skin, joints, and arteries. You aren\'t just ageing. You\'re caramelizing.',
     date: 'Dec 02, 2025',
     cta: {
@@ -2366,7 +2366,7 @@ export const POSTS = [
       <p>If you feel "stiff" and look "tired," you aren't just ageing. You are slowly caramelizing.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Glycation Process Comparison" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.webp" alt="Glycation Process Comparison" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Metaphor: Fresh Collagen vs. Glycated (Caramelized) Tissue</p>
       </div>
       
@@ -2401,7 +2401,7 @@ export const POSTS = [
       <p><strong>The Result:</strong> Less floating sugar. Less caramelization. Slower ageing.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="AMPK Activation Mechanism" style="width: 100%; height: auto; display: block;" />
+        <img src="/dna_white_bg.webp" alt="AMPK Activation Mechanism" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Action: Berberine Opening Cellular Glucose Channels</p>
       </div>
       
@@ -2499,7 +2499,7 @@ export const POSTS = [
     slug: 'muscle-loss-after-40-sarcopenia',
     title: 'Muscle Loss After 40: Why Sarcopenia Is Making You "Frail" at 45',
     category: 'longevity',
-    image: '/muscle_hero.png',
+    image: '/muscle_hero.webp',
     excerpt: 'Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines, chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.',
     date: 'Dec 04, 2025',
     cta: {
@@ -2527,7 +2527,7 @@ export const POSTS = [
       <p>If you have low muscle mass, you have low survivability. Period.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/sarcopenia_contrast.png" alt="Healthy vs Sarcopenic Muscle" style="width: 100%; height: auto; display: block;" />
+        <img src="/sarcopenia_contrast.webp" alt="Healthy vs Sarcopenic Muscle" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Contrast: Healthy Dense Muscle vs. Fat-Marbled Sarcopenic Muscle</p>
       </div>
       
@@ -2556,7 +2556,7 @@ export const POSTS = [
       <p>Your body becomes deaf to the signal of protein. To overcome this resistance and stop the frailty, you need a much louder signal. You need more high-quality protein than you think.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/amino_acid_repair.webp" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" />
+        <img src="/amino_acid_repair.webp" alt="Amino Acids Building Muscle" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Action: Amino Acids Repairing Muscle Fibre</p>
       </div>
       
@@ -2645,7 +2645,7 @@ export const POSTS = [
     slug: 'methylation-crisis-cells-cannot-turn-food-into-fuel',
     title: 'The Methylation Crisis: Why Your Cells Cannot Turn Food Into Energy',
     category: 'energy',
-    image: '/methylation_gears.png',
+    image: '/methylation_gears.webp',
     excerpt: 'Roughly 40% of the population has a genetic mutation that breaks their cellular engine. A physician explains the MTHFR gene, homocysteine buildup, and why standard B-vitamins might be making you more exhausted.',
     date: 'Mar 15, 2026',
     cta: {
@@ -2667,7 +2667,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/methylation_gears.png" alt="3D macro shot of glowing golden gears inside a cell, representing the methylation cycle" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/methylation_gears.webp" alt="3D macro shot of glowing golden gears inside a cell, representing the methylation cycle" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The Engine That Won't Start</h2>
@@ -2727,7 +2727,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/b_vitamins_homocysteine.png" alt="A clean medical diagram showing Active B-Vitamins fixing cellular damage" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/b_vitamins_homocysteine.webp" alt="A clean medical diagram showing Active B-Vitamins fixing cellular damage" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Rusty Gear": Why Cheap Supplements Make It Worse</h2>
@@ -2800,7 +2800,7 @@ export const POSTS = [
     slug: 'insomnia-high-cortisol-tired-but-wired',
     title: 'Insomnia & High Cortisol: TIRED BUT WIRED & Why You Can\'t Sleep at 10 PM',
     category: 'sleep',
-    image: '/sleep_brain.png',
+    image: '/sleep_brain.webp',
     excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You\'re groggy at 8 AM and wired at 10 PM.',
     date: 'Dec 06, 2025',
     cta: {
@@ -2835,7 +2835,7 @@ export const POSTS = [
       <p>For many of my patients, this curve is inverted. Because of chronic stress, blue light, and caffeine, their body thinks 10:00 PM is the start of the workday. You are getting a "second wind" of cortisol right when you should be crashing.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_structure.png" alt="Cortisol Curve Comparison" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_structure.webp" alt="Cortisol Curve Comparison" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Inverted Curve: Healthy Cortisol Pattern vs. Dysregulated Pattern</p>
       </div>
       
@@ -2863,7 +2863,7 @@ export const POSTS = [
       <p>Imagine lowering your baseline stress by nearly 30% just by taking a root extract.</p>
       
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/dna_white_bg.png" alt="Ashwagandha Root" style="width: 100%; height: auto; display: block;" />
+        <img src="/dna_white_bg.webp" alt="Ashwagandha Root" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Root: Ashwagandha - Ancient Adaptogen, Modern Science</p>
       </div>
       
@@ -2970,7 +2970,7 @@ export const POSTS = [
     slug: 'cellular-ageing-feel-60-at-40-nad-decline',
     title: 'Cellular Ageing: Why You Feel 60 at 40 (The "Battery" That Dies Before You Do)',
     category: 'longevity',
-    image: '/cellular_energy_decline.png',
+    image: '/cellular_energy_decline.webp',
     excerpt: 'By 40, youve lost 50% of your cellular energy currency. By 60, youre running on fumes. This isnt ageing. Its a fixable energy crisis hiding in plain sight.',
     date: 'Dec 01, 2025',
     cta: {
@@ -3014,7 +3014,7 @@ export const POSTS = [
       <p>When NAD+ drops, everything breaks down. Your brain cant focus (hello, ADHD). Your body cant recover (hello, chronic fatigue). Your cells cant repair themselves (hello, accelerated ageing).</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/cellular_energy_decline.png" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" />
+        <img src="/cellular_energy_decline.webp" alt="NAD+ Decline with Age" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Ageing Tax: Cellular Energy Plummets After 40</p>
       </div>
 
@@ -3035,7 +3035,7 @@ export const POSTS = [
       <p>This is the molecular basis of ageing. Not genetics. Not bad luck. <strong>Energy economics</strong>.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/nad_energy_recovery_curve.png" alt="NAD+ Recovery Curve" style="width: 100%; height: auto; display: block;" />
+        <img src="/nad_energy_recovery_curve.webp" alt="NAD+ Recovery Curve" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">The Recovery Curve: NAD+ Restoration Reverses Energy Decline</p>
       </div>
 
@@ -3065,7 +3065,7 @@ export const POSTS = [
       <p>I use <strong>NR</strong> because it has 20+ human trials, it's chemically stable, and it's the only one with FDA GRAS status.</p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-        <img src="/nad_cellular_repair_1764585477960.png" alt="NAD+ Cellular Repair" style="width: 100%; height: auto; display: block;" />
+        <img src="/nad_cellular_repair_1764585477960.webp" alt="NAD+ Cellular Repair" style="width: 100%; height: auto; display: block;" / loading="lazy">
         <p style="text-align: center; color: var(--color-text-muted); font-size: 0.9rem; margin-top: 1rem; font-style: italic;">NAD+ Powers DNA Repair, Mitochondrial Function, and Longevity Genes</p>
       </div>
 
@@ -3147,7 +3147,7 @@ export const POSTS = [
     slug: 'blood-test-doctor-not-ordering-hidden-deficiencies',
     title: 'The Blood Test Your Doctor Is Not Ordering: Why "Normal" Results Hide a Metabolic Crisis',
     category: 'metabolic',
-    image: '/clogged_engine_comparison.png',
+    image: '/clogged_engine_comparison.webp',
     excerpt: 'Fasting glucose 98? "Normal." HbA1c 56%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing the metabolic engine: eliminating refined carbs, building mitochondrial capacity with exercise, and strategic supplementation.',
     date: 'Dec 09, 2025',
     cta: {
@@ -3409,7 +3409,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/mitochondrial_gridlock_diagram.png" alt="Healthy vs Clogged Engine Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/mitochondrial_gridlock_diagram.webp" alt="Healthy vs Clogged Engine Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Bio-Energetic Death Spiral</h2>
@@ -3440,7 +3440,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/bio_energetic_trap.png" alt="The Bio-Energetic Trap Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/bio_energetic_trap.webp" alt="The Bio-Energetic Trap Diagram" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           "You cannot willpower your way out of a broken engine."
         </p>
@@ -3558,7 +3558,7 @@ export const POSTS = [
     slug: 'taurine-longevity-2023-science-study',
     title: 'Taurine and Longevity: The 2023 Science Study Proving Ageing is Reversible',
     category: 'longevity',
-    image: '/taurine_cell_rejuvenation.png',
+    image: '/taurine_cell_rejuvenation.webp',
     excerpt: 'By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular ageing markers. This is not about energy drinks. This is about cellular survival.',
     date: 'Dec 26, 2025',
     cta: {
@@ -3584,7 +3584,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-         <img src="/taurine_cell_rejuvenation.png" alt="Withered cell vs vibrant bioluminescent cell comparing ageing and taurine deficiency" style="width: 100%; height: auto; display: block;" loading="lazy" />
+         <img src="/taurine_cell_rejuvenation.webp" alt="Withered cell vs vibrant bioluminescent cell comparing ageing and taurine deficiency" style="width: 100%; height: auto; display: block;" loading="lazy" />
          <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
            Left: The "Low Battery" cell of ageing (Taurine depleted). Right: The vibrant engine of youth.
          </p>
@@ -3729,7 +3729,7 @@ export const POSTS = [
     slug: 'reverse-biological-ageing-9-hallmarks-of-ageing',
     title: 'How to Reverse Biological Ageing Naturally: The 9 Hallmarks You Can Control',
     category: 'longevity',
-    image: '/nine_hallmarks_aging.png',
+    image: '/nine_hallmarks_aging.webp',
     excerpt: 'Ageing is no longer considered an inevitable mystery; it is a complex, treatable condition driven by nine specific biological mechanisms. A longevity physician explains the "Hallmarks of Ageing" and how you can actively reverse them.',
     date: 'Mar 15, 2026',
     cta: {
@@ -3751,7 +3751,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/nine_hallmarks_aging.png" alt="A high-end, futuristic medical infographic dashboard showcasing a circular or hexagonal grid representing the 9 Hallmarks of Ageing." style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/nine_hallmarks_aging.webp" alt="A high-end, futuristic medical infographic dashboard showcasing a circular or hexagonal grid representing the 9 Hallmarks of Ageing." style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The Paradigm Shift</h2>
@@ -3789,7 +3789,7 @@ export const POSTS = [
       </p>
       
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/telomere_fraying.png" alt="A 3D macro shot of a chromosome with glowing, fraying telomere caps" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/telomere_fraying.webp" alt="A 3D macro shot of a chromosome with glowing, fraying telomere caps" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4057,7 +4057,7 @@ export const POSTS = [
     slug: 'creatine-vs-nad-why-you-need-both',
     title: 'Creatine vs. NAD+: Why You Need Both for Ultimate Cellular Energy (Physician\'s Guide)',
     category: 'supplements',
-    image: '/cell_nad_creatine.png',
+    image: '/cell_nad_creatine.webp',
     excerpt: 'Yes, not only can you take Creatine and NAD+ together, but they are highly synergistic. While Creatine focuses on rapid ATP recycling in the cytoplasm, NAD+ powers the long-term ATP production within the mitochondria. Combining them creates a dual-pathway energy strategy that supports both physical power and cognitive longevity. Just heed the warning: Timing is everything.',
     date: 'Mar 15, 2026',
     cta: {
@@ -4079,7 +4079,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/cell_nad_creatine.png" alt="A sophisticated, clinical 3D render of a single human cell with glowing blue mitochondria and golden cytoplasm" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/cell_nad_creatine.webp" alt="A sophisticated, clinical 3D render of a single human cell with glowing blue mitochondria and golden cytoplasm" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Short Answer: The Power Plant and the Battery</h2>
@@ -4127,7 +4127,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/circular_energy_flow.png" alt="A minimalist infographic showing the Circular Energy Flow between NAD+ and Creatine" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/circular_energy_flow.webp" alt="A minimalist infographic showing the Circular Energy Flow between NAD+ and Creatine" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: A Personal Warning on Timing</h2>
@@ -4176,7 +4176,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/morning_vitality_stack.png" alt="A morning sun-drenched kitchen counter with a coffee mug and supplements" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/morning_vitality_stack.webp" alt="A morning sun-drenched kitchen counter with a coffee mug and supplements" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Considerations</h2>
@@ -4227,7 +4227,7 @@ export const POSTS = [
     slug: 'neurolongevity-starving-brain',
     title: "From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",
     category: 'neurolongevity',
-    image: '/brain_fog_to_vitality_hero.png',
+    image: '/brain_fog_to_vitality_hero.webp',
     excerpt: "Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron, and the protocol to reverse it.",
     date: 'Jan 21, 2026',
     featured: true,
@@ -4255,7 +4255,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/brain_fog_to_vitality_hero.png" alt="Conceptual illustration of brain transformation from foggy decline to vibrant energy" style="width: 100%; height: auto; display: block;" loading="eager" />
+        <img src="/brain_fog_to_vitality_hero.webp" alt="Conceptual illustration of brain transformation from foggy decline to vibrant energy" style="width: 100%; height: auto; display: block;" loading="eager" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           From Fog to Flow: The difference between a starving brain and a nourished one
         </p>
@@ -4290,7 +4290,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/insulin_resistance_neuron.png" alt="Microscopic view of insulin resistance in a neuron - glucose molecules unable to enter through locked insulin receptor doors" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/insulin_resistance_neuron.webp" alt="Microscopic view of insulin resistance in a neuron - glucose molecules unable to enter through locked insulin receptor doors" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The Locked Door: Glucose molecules surround a neuron but cannot enter due to dysfunctional insulin signalling
         </p>
@@ -4307,7 +4307,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/glymphatic_system_sleep.png" alt="Visualization of the glymphatic system - glowing blue plumbing network flushing debris from brain tissue during sleep" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/glymphatic_system_sleep.webp" alt="Visualization of the glymphatic system - glowing blue plumbing network flushing debris from brain tissue during sleep" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The Nightly Cleanse: During deep sleep, the glymphatic system flushes neurotoxic debris from the brain
         </p>
@@ -4398,7 +4398,7 @@ export const POSTS = [
     slug: 'collagen-spinal-regeneration-l4-l5',
     title: "Did collagen fix my father's back pain?",
     category: 'musculoskeletal',
-    image: '/lumbar_spine_l4_l5_hero.png',
+    image: '/lumbar_spine_l4_l5_hero.webp',
     excerpt: "As doctors, we are trained to be gatekeepers of evidence. But when the clinical becomes personal, when it's your father with bone-on-bone degeneration. You look past the old trials. Here's what the science actually showed.",
     date: 'Jan 21, 2026',
     cta: {
@@ -4426,7 +4426,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/lumbar_spine_l4_l5_hero.png" alt="3D visualization of lumbar spine with L4-L5 segment glowing with restorative energy" style="width: 100%; height: auto; display: block;" loading="eager" />
+        <img src="/lumbar_spine_l4_l5_hero.webp" alt="3D visualization of lumbar spine with L4-L5 segment glowing with restorative energy" style="width: 100%; height: auto; display: block;" loading="eager" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The L4-L5 segment: Where years of load-bearing take their toll, and where regeneration can begin
         </p>
@@ -4469,7 +4469,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: Why Your Collagen 'Engine' is Failing</h2>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/disc_degeneration_regeneration.png" alt="Comparison infographic showing degenerated disc versus regenerating disc with hydrated structure" style="width: 100%; height: auto; display: block;" loading="lazy" />
+        <img src="/disc_degeneration_regeneration.webp" alt="Comparison infographic showing degenerated disc versus regenerating disc with hydrated structure" style="width: 100%; height: auto; display: block;" loading="lazy" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
           The Disc Divide: Degeneration vs Regeneration, giving your discs the raw materials they need
         </p>
@@ -4858,7 +4858,7 @@ export const POSTS = [
     slug: '3am-wake-up-brain-lacking-gaba',
     title: 'The 3 AM Wake-Up: Is Your Brain Lacking the "Quiet" Mineral?',
     category: 'neurolongevity',
-    image: '/sleep_architecture_magnesium.png',
+    image: '/sleep_architecture_magnesium.webp',
     excerpt: 'Waking up at 3 AM with a racing mind? It might not be stress; it might be a neurochemical deficiency. A physician explains why Magnesium is the ultimate neurological "brake pedal" and why standard supplements fail to cross the blood-brain barrier.',
     date: 'Mar 15, 2026',
     cta: {
@@ -4880,7 +4880,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/sleep_architecture_magnesium.png" alt="A high-end medical chart showing Sleep Architecture and Magnesium-Induced Parasympathetic Tone" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/sleep_architecture_magnesium.webp" alt="A high-end medical chart showing Sleep Architecture and Magnesium-Induced Parasympathetic Tone" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Perspective: The 3 AM Threat</h2>
@@ -4908,7 +4908,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/magnesium_synapse.png" alt="A 3D render of a neural synapse with a golden Magnesium molecule blocking excitatory red glutamate sparks" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/magnesium_synapse.webp" alt="A 3D render of a neural synapse with a golden Magnesium molecule blocking excitatory red glutamate sparks" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4934,7 +4934,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/magnesium_threonate_blood_brain.png" alt="A diagram showing Magnesium L-Threonate crossing the blood-brain barrier while Magnesium Oxide is blocked" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/magnesium_threonate_blood_brain.webp" alt="A diagram showing Magnesium L-Threonate crossing the blood-brain barrier while Magnesium Oxide is blocked" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Breakthrough: Magnesium L-Threonate</h2>
@@ -4975,7 +4975,7 @@ export const POSTS = [
     slug: 'l-theanine-and-caffeine-together-perfect-stack',
     title: 'L-Theanine and Caffeine Together: The "Calm Focus" Stack That Fixed My Morning Coffee (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/theanine_caffeine_hero.png',
+    image: '/theanine_caffeine_hero.webp',
     excerpt: 'Caffeine wakes you up. L-Theanine stops it from making you wired. Together they produce "alert relaxation" — focused attention without the jitters or the crash. A physician explains why this is the most well-studied nootropic combo in existence.',
     date: 'Mar 13, 2026',
     cta: {
@@ -4997,7 +4997,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/theanine_caffeine_hero.png" alt="A cup of steaming black coffee next to L-Theanine capsules on a physician's desk with morning sunlight" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/theanine_caffeine_hero.webp" alt="A cup of steaming black coffee next to L-Theanine capsules on a physician's desk with morning sunlight" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Confession: I Was a Coffee Wreck</h2>
@@ -5037,7 +5037,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/brain_waves_alpha.png" alt="Comparative infographic showing erratic neural activity with caffeine only versus smooth coherent alpha waves with caffeine plus L-theanine" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/brain_waves_alpha.webp" alt="Comparative infographic showing erratic neural activity with caffeine only versus smooth coherent alpha waves with caffeine plus L-theanine" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What the Research Actually Shows</h2>
@@ -5131,7 +5131,7 @@ export const POSTS = [
     slug: 'probiotics-failing-garden-fertilizer-metaphor',
     title: 'The Garden & The Fertilizer: Why Your Probiotics Are Failing Without Prebiotics (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/microbial_forest_gut.png',
+    image: '/microbial_forest_gut.webp',
     excerpt: 'Probiotics are live beneficial bacteria, but without Prebiotics (specialised plant fibres), they cannot colonise the gut effectively. To fix bloating, boost immunity, and clear the "gut-brain fog," you must follow a dual-protocol: seeding the gut with diverse strains and feeding them with fermentable fibres.',
     date: 'Mar 14, 2026',
     cta: {
@@ -5153,7 +5153,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/microbial_forest_gut.png" alt="A breathtaking cinematic 3D macro-render of a lush microbial forest inside a human gut with bioluminescent bacteria" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/microbial_forest_gut.webp" alt="A breathtaking cinematic 3D macro-render of a lush microbial forest inside a human gut with bioluminescent bacteria" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Observation: The "Sterile" Struggle</h2>
@@ -5192,7 +5192,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/seed_fertilizer_infographic.png" alt="A clean, minimalist medical infographic comparing Probiotics to Seeds and Prebiotics to a Watering Can" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/seed_fertilizer_infographic.webp" alt="A clean, minimalist medical infographic comparing Probiotics to Seeds and Prebiotics to a Watering Can" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Gut-Brain Axis: Mood is a Metabolic Byproduct</h2>
@@ -5254,7 +5254,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/longevity_breakfast_flatlay.png" alt="A professional flat-lay photograph of a Longevity Breakfast with a bowl of fibre-rich berries, a probiotic capsule, and a notepad" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/longevity_breakfast_flatlay.webp" alt="A professional flat-lay photograph of a Longevity Breakfast with a bowl of fibre-rich berries, a probiotic capsule, and a notepad" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Physician’s Cautions: The SIBO Exception</h2>
@@ -5382,7 +5382,7 @@ export const POSTS = [
     slug: 'turmeric-and-black-pepper-bioavailability-secret',
     title: 'Turmeric and Black Pepper: The Bioavailability Secret — Why Your Turmeric is Just "Expensive Mustard" (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/turmeric_peppercorns.png',
+    image: '/turmeric_peppercorns.webp',
     excerpt: 'Curcumin has notoriously poor bioavailability — without a delivery vehicle, it is rapidly excreted by the liver. Pairing it with Piperine (Black Pepper) and healthy fats increases absorption by up to 2,000%. A physician explains the Alzheimer\\\'s connection and exact dosing protocol.',
     date: 'Mar 14, 2026',
     cta: {
@@ -5404,7 +5404,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/turmeric_peppercorns.png" alt="Macro photography of vibrant orange Turmeric powder next to textured Black Peppercorns on dark slate" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/turmeric_peppercorns.webp" alt="Macro photography of vibrant orange Turmeric powder next to textured Black Peppercorns on dark slate" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Journey: From Skeptic to Believer</h2>
@@ -5448,7 +5448,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/curcumin_absorption.png" alt="Medical infographic comparing Curcumin alone being excreted versus Curcumin plus Piperine achieving 2000 percent systemic absorption" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/curcumin_absorption.webp" alt="Medical infographic comparing Curcumin alone being excreted versus Curcumin plus Piperine achieving 2000 percent systemic absorption" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -5478,7 +5478,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/brain_amyloid_curcumin.png" alt="3D render of the human brain with glowing hippocampus showing golden Curcumin particles breaking down grey Amyloid Plaques" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/brain_amyloid_curcumin.webp" alt="3D render of the human brain with glowing hippocampus showing golden Curcumin particles breaking down grey Amyloid Plaques" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Role of Fats: The Third Pillar</h2>
@@ -5505,7 +5505,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/golden_milk_latte.png" alt="Golden Milk turmeric latte in a modern ceramic mug with cinnamon stick and peppercorns in a cozy kitchen setting" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/golden_milk_latte.webp" alt="Golden Milk turmeric latte in a modern ceramic mug with cinnamon stick and peppercorns in a cozy kitchen setting" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Physician's Cautions</h2>
@@ -5539,7 +5539,7 @@ export const POSTS = [
     slug: 'cordyceps-and-rhodiola-expanding-gas-tank',
     title: 'The Expanding Gas Tank: Why Cordyceps and Rhodiola are the Ultimate Fatigue Shield (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/cordyceps_rhodiola_energy.png',
+    image: '/cordyceps_rhodiola_energy.webp',
     excerpt: 'Unlike caffeine, which merely "borrows" energy by blocking adenosine receptors, the combination of Cordyceps and Rhodiola actually increases your biological energy budget. Cordyceps optimizes cellular ATP production and oxygen delivery, while Rhodiola buffers the Central Nervous System (CNS) against cortisol-driven burnout. Together, they create a state of "resilient high-performance" without the jittery crash.',
     date: 'Mar 14, 2026',
     cta: {
@@ -5561,7 +5561,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/cordyceps_rhodiola_energy.png" alt="A high-end, clinical 3D render of a mitochondria glowing with golden energy (ATP), surrounded by protective Rhodiola hexagonal shields" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/cordyceps_rhodiola_energy.webp" alt="A high-end, clinical 3D render of a mitochondria glowing with golden energy (ATP), surrounded by protective Rhodiola hexagonal shields" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Paradox: The Caffeine Debt</h2>
@@ -5597,7 +5597,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/oxygen_delivery_infographic.png" alt="An anatomical infographic showing a stylized human lung and vascular system with glowing red blood cells" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/oxygen_delivery_infographic.webp" alt="An anatomical infographic showing a stylized human lung and vascular system with glowing red blood cells" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Rhodiola: The CNS Shield</h2>
@@ -5650,7 +5650,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/energy_stability_graph.png" alt="A professional 2D graph comparing 'Standard Energy Levels' (jagged crashes) vs. 'Adaptogenic Stability' (steady plateau)" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/energy_stability_graph.webp" alt="A professional 2D graph comparing 'Standard Energy Levels' (jagged crashes) vs. 'Adaptogenic Stability' (steady plateau)" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Architect’s Energy Stack</h2>
@@ -5696,7 +5696,7 @@ export const POSTS = [
     slug: 'beta-alanine-and-creatine-cellular-battery',
     title: 'The Cellular Battery: Why Beta-Alanine and Creatine are the Ultimate Power Couple (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/creatine_beta_alanine_muscle.png',
+    image: '/creatine_beta_alanine_muscle.webp',
     excerpt: 'Creatine and Beta-Alanine work in a perfect metabolic "handshake." Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the "acidic burn" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.',
     date: 'Mar 14, 2026',
     cta: {
@@ -5718,7 +5718,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/creatine_beta_alanine_muscle.png" alt="A high-end, clinical 3D render of a muscle fibre at the microscopic level showing Creatine and Carnosine buffering acid" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/creatine_beta_alanine_muscle.webp" alt="A high-end, clinical 3D render of a muscle fibre at the microscopic level showing Creatine and Carnosine buffering acid" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Observation: The Sarcopenia Defence</h2>
@@ -5754,7 +5754,7 @@ export const POSTS = [
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/energy_battery_infographic.png" alt="A clean, minimalist medical infographic showing Creatine as a battery and Beta-Alanine as a cooling fan" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/energy_battery_infographic.webp" alt="A clean, minimalist medical infographic showing Creatine as a battery and Beta-Alanine as a cooling fan" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Beyond the Gym: The Neuro-Protective "Secret"</h2>
@@ -5803,7 +5803,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/creatine_stack_flatlay.png" alt="A lifestyle shot of a sleek supplement shaker next to running shoes and a tablet displaying a Muscle Mass tracking app" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/creatine_stack_flatlay.webp" alt="A lifestyle shot of a sleek supplement shaker next to running shoes and a tablet displaying a Muscle Mass tracking app" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Physician’s Cautions</h2>
@@ -5837,7 +5837,7 @@ export const POSTS = [
     slug: 'resveratrol-vs-pterostilbene-longevity-switch',
     title: 'The Longevity Switch: Resveratrol vs. Pterostilbene (The Bioavailability Battle) (Physician\\\'s Guide)',
     category: 'supplements',
-    image: '/resveratrol_pterostilbene_dna.png',
+    image: '/resveratrol_pterostilbene_dna.webp',
     excerpt: 'While Resveratrol is the most famous sirtuin activator, it suffers from poor absorption and rapid metabolism. Pterostilbene, a chemically similar compound found in blueberries, is nearly 80% bioavailable compared to Resveratrol’s 20%. Together, they act as "mimics" of caloric restriction, activating cellular repair pathways (SIRT1) that protect the heart and brain.',
     date: 'Mar 14, 2026',
     cta: {
@@ -5859,7 +5859,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/resveratrol_pterostilbene_dna.png" alt="A hyper-realistic 3D render of a single blueberry and a glass of red wine with a glowing double-helix DNA strand being repaired" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/resveratrol_pterostilbene_dna.webp" alt="A hyper-realistic 3D render of a single blueberry and a glass of red wine with a glowing double-helix DNA strand being repaired" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Observation: The "French Paradox" Revisited</h2>
@@ -5902,7 +5902,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/resveratrol_pterostilbene_infographic.png" alt="A clean, minimalist infographic comparing Resveratrol with Low Absorption warning and Pterostilbene with High Bioavailability gold seal" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/resveratrol_pterostilbene_infographic.webp" alt="A clean, minimalist infographic comparing Resveratrol with Low Absorption warning and Pterostilbene with High Bioavailability gold seal" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Clinical Evidence: The Sinclair vs. Skepticism Debate</h2>
@@ -5955,7 +5955,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/stilbene_stack_flatlay.png" alt="A professional flat-lay of a wooden desk with dark berries, Trans-Resveratrol, and a medical journal" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/stilbene_stack_flatlay.webp" alt="A professional flat-lay of a wooden desk with dark berries, Trans-Resveratrol, and a medical journal" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety & Physician’s Cautions</h2>
@@ -5992,7 +5992,7 @@ export const POSTS = [
     slug: 'beyond-stimulants-physician-guide-adhd-supplements',
     title: 'Beyond Stimulants: A Physician\\\'s Guide to Neuro-Metabolic Support for ADHD',
     category: 'brain-health',
-    image: '/adhd_synaptic_cleft.png',
+    image: '/adhd_synaptic_cleft.webp',
     excerpt: 'ADHD is increasingly viewed through the lens of executive dysfunction and catecholamine dysregulation. A physician explains how supplementing with dopamine precursors, co-factors like Zinc and B6, and mitochondrial support can stabilise the "neural floor" and reduce the stimulant crash.',
     date: 'Mar 12, 2026',
     cta: {
@@ -6014,7 +6014,7 @@ export const POSTS = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/adhd_synaptic_cleft.png" alt="Cinematic 3D render of a synaptic cleft with golden dopamine particles moving between neurons in a bioluminescent medical-futurism style" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/adhd_synaptic_cleft.webp" alt="Cinematic 3D render of a synaptic cleft with golden dopamine particles moving between neurons in a bioluminescent medical-futurism style" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Observation: The "Flickering" Focus</h2>
@@ -6054,7 +6054,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/dopamine_production_line.png" alt="Minimalist infographic showing the Dopamine Production Line with Tyrosine as raw material and Vitamin B6 and Zinc as specialised tools producing the Focus molecule" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/dopamine_production_line.webp" alt="Minimalist infographic showing the Dopamine Production Line with Tyrosine as raw material and Vitamin B6 and Zinc as specialised tools producing the Focus molecule" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The "Neural Floor": Why Omega-3s and Magnesium Matter</h2>
@@ -6094,7 +6094,7 @@ export const POSTS = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/adhd_doctors_desk.png" alt="Flat-lay photograph of a medical lab report next to a stethoscope and Omega-3 capsules on a doctor's desk with soft natural lighting" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+        <img src="/adhd_doctors_desk.webp" alt="Flat-lay photograph of a medical lab report next to a stethoscope and Omega-3 capsules on a doctor's desk with soft natural lighting" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Architect's ADHD Stack</h2>
