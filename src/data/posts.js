@@ -1016,7 +1016,7 @@ export const POSTS = [
     slug: 'ice-bath-dopamine-stanford-research',
     title: 'The 2-Minute Ice Bath Trick That Doubled My Dopamine (Proven by Stanford)',
     category: 'energy',
-    image: '/cold_exposure_dopamine.png',
+    image: '/ice_bath_dopamine_hero.png',
     excerpt: 'Cold exposure spikes dopamine by 250% for hours. But timing is everything. Do it wrong and you blunt your gains. A physician explains the protocol.',
     date: 'Sep 15, 2025',
     cta: {
