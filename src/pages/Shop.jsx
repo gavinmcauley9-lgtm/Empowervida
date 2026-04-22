@@ -632,6 +632,15 @@ const Shop = () => {
                                                     href={product.amazonLink}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
+                                                    onClick={() => {
+                                                        if (typeof window !== 'undefined' && window.gtag) {
+                                                            window.gtag('event', 'amazon_outbound_click', {
+                                                                event_category: 'ecommerce',
+                                                                event_label: product.name,
+                                                                value: 1
+                                                            });
+                                                        }
+                                                    }}
                                                     style={{
                                                         display: 'block',
                                                         backgroundColor: 'transparent',
