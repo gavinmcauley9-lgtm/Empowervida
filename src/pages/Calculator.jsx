@@ -220,6 +220,36 @@ function Calculator() {
 
       <div style={{ 
         padding: '2rem', 
+        background: 'var(--color-bg-secondary)', 
+        borderRadius: '12px',
+        border: '1px solid var(--color-accent-teal)',
+        marginBottom: '2rem',
+        textAlign: 'center'
+      }}>
+        <h4 style={{ color: 'var(--color-primary-navy)', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Don't have your lab results handy?</h4>
+        <p style={{ color: 'var(--color-text)', marginBottom: '1.5rem', fontSize: '1rem' }}>
+          You can still begin repairing your bioenergetic baseline today. Review the clinical framework used to reverse cognitive exhaustion and mitochondrial dysfunction.
+        </p>
+        <Link 
+          to="/protocol#clarity-stack"
+          style={{
+            display: 'inline-block',
+            padding: '0.8rem 1.5rem',
+            background: 'transparent',
+            color: 'var(--color-accent-teal)',
+            textDecoration: 'none',
+            borderRadius: '8px',
+            fontWeight: 'bold',
+            border: '2px solid var(--color-accent-teal)',
+            transition: 'all 0.3s ease'
+          }}
+        >
+          View The Brain Fog Reversal Protocol ➞
+        </Link>
+      </div>
+
+      <div style={{ 
+        padding: '2rem', 
         background: '#f8fafc', 
         borderRadius: '12px',
         border: '1px solid #e2e8f0',
