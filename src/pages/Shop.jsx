@@ -316,7 +316,7 @@ const Shop = () => {
                     name: 'Apigenin',
                     subtitle: 'The Sedative',
                     why: 'Chamomile extract that binds to benzodiazepine receptors (mildly).',
-                    pick: 'Life Extension Bio-Quercetin',
+                    pick: 'Double Wood Apigenin',
                     unavailable: true
                 }
             ]
