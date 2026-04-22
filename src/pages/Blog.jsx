@@ -290,59 +290,22 @@ export default function Blog() {
                             {/* Email Capture */}
                             <div style={{
                                 backgroundColor: 'var(--color-bg-alt)',
-                                padding: '2rem',
+                                padding: '1rem',
                                 border: '1px solid var(--color-border)',
                                 borderRadius: '12px',
                                 boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                                marginBottom: '2rem'
+                                marginBottom: '2rem',
+                                overflow: 'hidden'
                             }}>
-                                <h4 style={{
-                                    fontSize: '1.2rem',
-                                    marginBottom: '0.5rem',
-                                    color: 'var(--color-text)',
-                                    textTransform: 'uppercase',
-                                    fontWeight: 700,
-                                    fontFamily: '"Manrope", sans-serif'
-                                }}>
-                                    Weekly Longevity Brief
-                                </h4>
-                                <p style={{
-                                    fontSize: '0.9rem',
-                                    color: 'var(--color-text-muted)',
-                                    marginBottom: '1.5rem',
-                                    lineHeight: 1.5
-                                }}>
-                                    5 minutes of science for 5 years of health. Join the Inner Circle.
-                                </p>
-                                <input
-                                    type="email"
-                                    placeholder="Your email address"
-                                    style={{
-                                        width: '100%',
-                                        padding: '0.8rem',
-                                        background: '#FFFFFF',
-                                        border: '1px solid var(--color-border)',
-                                        borderRadius: '8px',
-                                        color: 'var(--color-text)',
-                                        marginBottom: '1rem',
-                                        fontSize: '0.9rem'
-                                    }}
-                                />
-                                <button className="btn-primary" style={{
-                                    width: '100%',
-                                    textAlign: 'center',
-                                    background: 'var(--color-accent-teal)',
-                                    color: '#FFFFFF',
-                                    border: 'none',
-                                    padding: '0.8rem',
-                                    textTransform: 'uppercase',
-                                    fontWeight: 700,
-                                    cursor: 'pointer',
-                                    borderRadius: '8px',
-                                    fontSize: '0.9rem'
-                                }}>
-                                    Join the Inner Circle
-                                </button>
+                                <iframe 
+                                    src="https://drgavinmcauley.substack.com/embed" 
+                                    width="100%" 
+                                    height="320" 
+                                    style={{ border: 'none', background: 'white', borderRadius: '8px' }} 
+                                    frameBorder="0" 
+                                    scrolling="no"
+                                    title="Weekly Longevity Brief"
+                                ></iframe>
                             </div>
 
                             {/* Disclaimer */}

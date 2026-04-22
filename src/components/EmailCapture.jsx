@@ -108,42 +108,17 @@ const EmailCapture = ({ variant = 'default' }) => {
                 </div>
             )}
 
-            <a
-                href="https://drgavinmcauley.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                    display: 'block',
-                    width: '100%',
-                    padding: '20px 32px',
-                    fontSize: '18px',
-                    fontWeight: 700,
-                    background: '#20B2AA',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '12px',
-                    textAlign: 'center',
-                    textDecoration: 'none',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.05em',
-                    transition: 'all 0.3s ease',
-                    boxSizing: 'border-box',
-                    maxWidth: '600px',
-                    margin: '0 auto'
-                }}
-                onMouseEnter={(e) => {
-                    e.target.style.background = '#1A9B8E';
-                    e.target.style.transform = 'translateY(-2px)';
-                    e.target.style.boxShadow = '0 10px 25px rgba(32, 178, 170, 0.4)';
-                }}
-                onMouseLeave={(e) => {
-                    e.target.style.background = '#20B2AA';
-                    e.target.style.transform = 'translateY(0)';
-                    e.target.style.boxShadow = 'none';
-                }}
-            >
-                SUBSCRIBE ON SUBSTACK FOR FREE ACCESS
-            </a>
+            <div style={{ maxWidth: '600px', margin: '0 auto', background: '#fff', borderRadius: '12px', overflow: 'hidden' }}>
+                <iframe 
+                    src="https://drgavinmcauley.substack.com/embed" 
+                    width="100%" 
+                    height="320" 
+                    style={{ border: '1px solid #eee', background: 'white' }} 
+                    frameBorder="0" 
+                    scrolling="no"
+                    title="Newsletter Signup"
+                ></iframe>
+            </div>
 
             <p style={{
                 textAlign: 'center',

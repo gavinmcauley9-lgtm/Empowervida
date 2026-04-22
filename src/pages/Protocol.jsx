@@ -183,7 +183,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(26, 60, 52, 0.08)',
+                            color: 'rgba(26, 60, 52, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>01</div>
@@ -261,7 +261,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(0, 128, 128, 0.08)',
+                            color: 'rgba(0, 128, 128, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>02</div>
@@ -339,7 +339,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(102, 126, 234, 0.08)',
+                            color: 'rgba(102, 126, 234, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>03</div>
@@ -429,7 +429,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(255, 95, 0, 0.08)',
+                            color: 'rgba(255, 95, 0, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>04</div>
@@ -507,7 +507,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(255, 107, 107, 0.08)',
+                            color: 'rgba(255, 107, 107, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>05</div>
@@ -618,7 +618,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(118, 75, 162, 0.08)',
+                            color: 'rgba(118, 75, 162, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>06</div>
@@ -708,7 +708,7 @@ const Protocol = () => {
                         <div style={{
                             fontSize: '3.5rem',
                             fontWeight: 800,
-                            color: 'rgba(220, 38, 38, 0.08)',
+                            color: 'rgba(220, 38, 38, 0.3)',
                             lineHeight: 1,
                             marginBottom: '-1rem'
                         }}>07</div>

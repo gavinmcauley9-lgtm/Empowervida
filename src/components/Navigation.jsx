@@ -102,6 +102,7 @@ export default function Navigation() {
                     <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
                     <Link to="/shop" style={linkStyle('/shop')}>Shop</Link>
                     <Link to="/about" style={linkStyle('/about')}>About</Link>
+                    <Link to="/contact" style={linkStyle('/contact')}>Contact</Link>
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -177,6 +178,7 @@ export default function Navigation() {
                     <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
                     <Link to="/shop" style={mobileLinkStyle('/shop')} onClick={() => setIsOpen(false)}>Shop</Link>
                     <Link to="/about" style={mobileLinkStyle('/about')} onClick={() => setIsOpen(false)}>About</Link>
+                    <Link to="/contact" style={mobileLinkStyle('/contact')} onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
             </div>
         </nav>
