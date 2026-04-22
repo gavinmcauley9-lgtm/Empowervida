@@ -292,7 +292,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The software upgrade. This stack targets neurotransmitter synthesis, synaptic density, and mental clarity. For when you need to think sharper, faster, clearer, today.
+                            The structural and software upgrade. This stack targets neurotransmitter synthesis, repairs synaptic density, and eliminates metabolic bottlenecks. For when you need to think sharper today, while rebuilding the physical pathways for tomorrow.
                         </p>
 
                         <div style={{
@@ -312,6 +312,16 @@ const Protocol = () => {
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
                                     <strong>CDP-Choline / Citicoline (250-500mg)</strong><br />
                                     <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Acetylcholine synthesis for memory and learning. Crosses blood-brain barrier.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>Magnesium L-Threonate (2g)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>The only form proven to cross the blood-brain barrier. Reverses structural brain fog by increasing physical synaptic density.</span>
+                                </li>
+                                <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
+                                    <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
+                                    <strong>Methylated B-Complex (with 5-MTHF)</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crucial for anyone with MTHFR mutations (~50% of people). Bypasses genetic bottlenecks to synthesize dopamine and serotonin.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
