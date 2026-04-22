@@ -33,6 +33,7 @@ const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
 const DiagnosticsPortal = lazy(() => import('./pages/DiagnosticsPortal'));
 const HeroCompare = lazy(() => import('./pages/HeroCompare'));
 const Contact = lazy(() => import('./pages/Contact'));
+const ThankYou = lazy(() => import('./pages/ThankYou'));
 const Calculator = lazy(() => import('./pages/Calculator'));
 
 // Loading component for better UX during lazy load
@@ -127,6 +128,7 @@ function AppContent() {
             <Route path="/empower-protocol" element={<EmpowerProtocol />} />
             <Route path="/engine-room" element={<EngineRoom />} />
             <Route path="/shop" element={<Shop />} />
+            <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
             <Route path="/longevity" element={<LongevityGuide />} />
             <Route path="/privacy" element={<Privacy />} />
