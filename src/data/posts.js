@@ -6400,7 +6400,7 @@ export const POSTS = [
     title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Creatine and Berberine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Discover the physiological interactions between Creatine and Berberine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6480,7 +6480,7 @@ export const POSTS = [
     title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Omega-3 and Curcumin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Combining Omega-3 and Curcumin can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6553,7 +6553,7 @@ export const POSTS = [
     title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Berberine and Metformin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Should you stack Berberine with Metformin? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6628,7 +6628,7 @@ export const POSTS = [
     title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Zinc and Copper together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Before pairing Zinc and Copper, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6702,7 +6702,7 @@ export const POSTS = [
     title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Vitamin K2 and Vitamin D together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6775,7 +6775,7 @@ export const POSTS = [
     title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Ashwagandha and Rhodiola together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'A physician's deep dive into the pharmacokinetics of Ashwagandha and Rhodiola. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6849,7 +6849,7 @@ export const POSTS = [
     title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take B12 and Folate together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Is it safe to stack B12 with Folate? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6927,7 +6927,7 @@ export const POSTS = [
     title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Iron and Vitamin C together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'We examine the systemic effects of taking Iron alongside Vitamin C. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7003,7 +7003,7 @@ export const POSTS = [
     title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Alpha-Lipoic Acid and Acetyl-L-Carnitine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Discover the physiological interactions between Alpha-Lipoic Acid and Acetyl-L-Carnitine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7081,7 +7081,7 @@ export const POSTS = [
     title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Lysine and Arginine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Combining Lysine and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7161,7 +7161,7 @@ export const POSTS = [
     title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take SAMe and B-vitamins together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Should you stack SAMe with B-vitamins? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7245,7 +7245,7 @@ export const POSTS = [
     title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Collagen and Vitamin C together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Before pairing Collagen and Vitamin C, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7328,7 +7328,7 @@ export const POSTS = [
     title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Omega-3 and Aspirin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7402,7 +7402,7 @@ export const POSTS = [
     title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take CBD and Melatonin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'A physician's deep dive into the pharmacokinetics of CBD and Melatonin. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7482,7 +7482,7 @@ export const POSTS = [
     title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Calcium and Vitamin D together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7558,7 +7558,7 @@ export const POSTS = [
     title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Lions Mane and Bacopa together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'We examine the systemic effects of taking Lions Mane alongside Bacopa. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7636,7 +7636,7 @@ export const POSTS = [
     title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take GABA and L-Theanine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Discover the physiological interactions between GABA and L-Theanine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7713,7 +7713,7 @@ export const POSTS = [
     title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take 5-HTP and Tryptophan together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Combining 5-HTP and Tryptophan can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7795,7 +7795,7 @@ export const POSTS = [
     title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Boswellia and Fish Oil together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Should you stack Boswellia with Fish Oil? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7870,7 +7870,7 @@ export const POSTS = [
     title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take St Johns Wort and SSRIs together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Before pairing St Johns Wort and SSRIs, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7958,7 +7958,7 @@ export const POSTS = [
     title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Green Tea Extract and Caffeine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Understanding the biochemical cross-talk between Green Tea Extract and Caffeine. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8036,7 +8036,7 @@ export const POSTS = [
     title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Spirulina and Chlorella together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'A physician's deep dive into the pharmacokinetics of Spirulina and Chlorella. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8113,7 +8113,7 @@ export const POSTS = [
     title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Phosphatidylserine and Omega-3 together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Is it safe to stack Phosphatidylserine with Omega-3? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8194,7 +8194,7 @@ export const POSTS = [
     title: 'Elderberry and Zinc: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Elderberry and Zinc together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'We examine the systemic effects of taking Elderberry alongside Zinc. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8275,7 +8275,7 @@ export const POSTS = [
     title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Ginkgo Biloba and Bacopa together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Discover the physiological interactions between Ginkgo Biloba and Bacopa. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8360,7 +8360,7 @@ export const POSTS = [
     title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Digestive Enzymes and Probiotics together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Combining Digestive Enzymes and Probiotics can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8437,7 +8437,7 @@ export const POSTS = [
     title: 'Glutamine and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Glutamine and Probiotics together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Should you stack Glutamine with Probiotics? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8513,7 +8513,7 @@ export const POSTS = [
     title: 'Milk Thistle and NAC: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Milk Thistle and NAC together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Before pairing Milk Thistle and NAC, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8596,7 +8596,7 @@ export const POSTS = [
     title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Valerian and Lemon Balm together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Understanding the biochemical cross-talk between Valerian and Lemon Balm. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8669,7 +8669,7 @@ export const POSTS = [
     title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Maca and Tribulus together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'A physician's deep dive into the pharmacokinetics of Maca and Tribulus. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8750,7 +8750,7 @@ export const POSTS = [
     title: 'Selenium and Iodine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Selenium and Iodine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Is it safe to stack Selenium with Iodine? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8827,7 +8827,7 @@ export const POSTS = [
     title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Chondroitin and Glucosamine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'We examine the systemic effects of taking Chondroitin alongside Glucosamine. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8907,7 +8907,7 @@ export const POSTS = [
     title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Lutein and Zeaxanthin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Discover the physiological interactions between Lutein and Zeaxanthin. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8987,7 +8987,7 @@ export const POSTS = [
     title: 'Citrulline and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Citrulline and Arginine together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Combining Citrulline and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9069,7 +9069,7 @@ export const POSTS = [
     title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Schisandra and Eleuthero together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Should you stack Schisandra with Eleuthero? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9150,7 +9150,7 @@ export const POSTS = [
     title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take N-Acetyl Tyrosine and Mucuna Pruriens together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Before pairing N-Acetyl Tyrosine and Mucuna Pruriens, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9229,7 +9229,7 @@ export const POSTS = [
     title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Astaxanthin and Vitamin E together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Understanding the biochemical cross-talk between Astaxanthin and Vitamin E. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9309,7 +9309,7 @@ export const POSTS = [
     title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Berberine and Alpha-Lipoic Acid together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'A physician's deep dive into the pharmacokinetics of Berberine and Alpha-Lipoic Acid. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9387,7 +9387,7 @@ export const POSTS = [
     title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Hesperidin and Diosmin together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'Is it safe to stack Hesperidin with Diosmin? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9462,7 +9462,7 @@ export const POSTS = [
     title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Can you take Policosanol and Red Yeast Rice together? A UK medical doctor breaks down the science, the exact dosing protocol, and the serious interaction risks you need to know before combining these supplements.',
+    excerpt: 'We examine the systemic effects of taking Policosanol alongside Red Yeast Rice. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
