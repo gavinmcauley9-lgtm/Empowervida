@@ -101,7 +101,7 @@ export const POSTS = [
     title: 'Why NAD+ is Not a Magic Bullet: The 4 Hidden Systems Behind Brain Fog',
     category: 'cognition',
     image: '/cellular_structure.webp',
-    excerpt: 'NAD+ therapy is highly effective, but it cannot fix brain fog caused by fractured sleep architecture, subclinical hypothyroidism, neural insulin resistance, or hidden iron deficiency. A physician explains the systems biology approach to chronic fatigue.',
+    excerpt: "NAD+ therapy is highly effective, but it cannot fix brain fog caused by fractured sleep architecture, subclinical hypothyroidism, neural insulin resistance, or hidden iron deficiency. A physician explains the systems biology approach to chronic fatigue.",
     date: 'Mar 21, 2026',
     cta: {
       text: "Read the Clinical Protocol",
@@ -173,7 +173,7 @@ export const POSTS = [
     title: 'Brain Fog & Cognitive Decline: The Science of the \"Starving\" Neuron',
     category: 'neurolongevity',
     image: '/neuron_starving_nourished.webp',
-    excerpt: 'Cognitive decline and "brain fog" are often symptoms of cerebral bioenergetic failure. When the brain becomes insulin resistant, it can no longer uptake glucose, leaving neurons to starve. A physician explains how to reverse this.',
+    excerpt: "Cognitive decline and \"brain fog\" are often symptoms of cerebral bioenergetic failure. When the brain becomes insulin resistant, it can no longer uptake glucose, leaving neurons to starve. A physician explains how to reverse this.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Neurolongevity Protocol",
@@ -331,7 +331,7 @@ export const POSTS = [
     title: 'Brain Fog Causes: Why Your Brain is Full of \"Sewage\" & How to Flush It',
     category: 'sleep',
     image: '/brain_sewage_glymphatic.webp',
-    excerpt: 'That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.',
+    excerpt: "That heavy, foggy feeling when you wake up? Its not tiredness. Its metabolic waste. Your brains dishwasher only runs during deep sleep.",
     date: 'Nov 30, 2025',
     cta: {
       text: "Get Dr. Gavin's Sleep & Recovery Protocol",
@@ -486,7 +486,7 @@ export const POSTS = [
     title: 'The 3 Brain Pills That Actually Changed My Patients\' Lives (And the 7 That Are Snake Oil)',
     category: 'cognition',
     image: '/stimulants_vs_nootropics_graph_1764510405890.webp',
-    excerpt: 'Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.',
+    excerpt: "Most nootropic supplements are either overhyped garbage or rebranded caffeine. After testing 47 compounds, only 3 consistently moved the needle on focus, memory, and mental clarity. Here\'s the evidence-based cognitive stack that actually works.",
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Cognitive Stack",
@@ -691,7 +691,7 @@ export const POSTS = [
     title: 'The MIT Discovery That Reverses Brain Ageing: How One Molecule Grew New Synapses in 60-Year-Old Brains',
     category: 'cognition',
     image: '/magnesium_neuroplasticity_hero.webp',
-    excerpt: 'MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%, reversing cognitive decline in ageing brains. The breakthrough: its the only form that crosses the blood brain barrier.',
+    excerpt: "MIT neuroscientists discovered a compound that increases brain magnesium by 15% and synaptic density by 44%, reversing cognitive decline in ageing brains. The breakthrough: its the only form that crosses the blood brain barrier.",
     date: 'Dec 08, 2025',
     cta: {
       text: "Get The MIT-Researched Magtein",
@@ -954,7 +954,7 @@ export const POSTS = [
     title: 'Brain Atrophy & Memory Loss: How to Trigger BDNF and Reverse the Decay',
     category: 'cognition',
     image: '/brain_shrinking_hero.webp',
-    excerpt: 'After age 55, the human hippocampus shrinks by 1-2% per year. This is not just "forgetting where you put your keys." This is structural atrophy.',
+    excerpt: "After age 55, the human hippocampus shrinks by 1-2% per year. This is not just \"forgetting where you put your keys.\" This is structural atrophy.",
     date: 'Nov 30, 2025',
     cta: {
       text: "GET THE HIGH-DHA FORMULA",
@@ -1106,7 +1106,7 @@ export const POSTS = [
     title: 'The 2-Minute Ice Bath Trick That Doubled My Dopamine (Proven by Stanford)',
     category: 'energy',
     image: '/ice_bath_dopamine_hero.png',
-    excerpt: 'Cold exposure spikes dopamine by 250% for hours. But timing is everything. Do it wrong and you blunt your gains. A physician explains the protocol.',
+    excerpt: "Cold exposure spikes dopamine by 250% for hours. But timing is everything. Do it wrong and you blunt your gains. A physician explains the protocol.",
     date: 'Sep 15, 2025',
     cta: {
       text: "See Dr. Gavin's Energy Protocol",
@@ -1284,7 +1284,7 @@ export const POSTS = [
     title: 'Chronic Fatigue: Why You Are Exhausted But Your Labs Are "Normal"',
     category: 'energy',
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.webp',
-    excerpt: 'Why standard blood work misses the signs of mitochondrial dysfunction. A clinical breakdown by Dr. Gavin McAuley.',
+    excerpt: "Why standard blood work misses the signs of mitochondrial dysfunction. A clinical breakdown by Dr. Gavin McAuley.",
     date: 'Nov 23, 2025',
     cta: {
       text: "See Dr. Gavin's Recommended Mitochondrial Stack",
@@ -1412,7 +1412,7 @@ export const POSTS = [
     title: 'Why Seed Oils Are Making You Inflamed, Tired, and "Stiff" at the Cellular Level',
     category: 'metabolic',
     image: '/cell_membrane_stiff_fluid.webp',
-    excerpt: 'You are quite literally made of the fats you eat. A physician explains why modern industrial seed oils are turning your flexible cell membranes into rigid plastic, crushing your energy, and causing systemic inflammation.',
+    excerpt: "You are quite literally made of the fats you eat. A physician explains why modern industrial seed oils are turning your flexible cell membranes into rigid plastic, crushing your energy, and causing systemic inflammation.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Cellular Fluidity Protocol",
@@ -1585,7 +1585,7 @@ export const POSTS = [
     title: 'Chronic Inflammation Symptoms: Why It is The Root Cause of Fatigue & Joint Pain',
     category: 'longevity',
     image: '/inflammation_fire.webp',
-    excerpt: 'Chronic inflammation is the common denominator of ageing and disease. A clinical breakdown by Dr. Gavin McAuley.',
+    excerpt: "Chronic inflammation is the common denominator of ageing and disease. A clinical breakdown by Dr. Gavin McAuley.",
     date: 'Nov 26, 2025',
     references: [
       { text: "Furman, D., et al. (2019). Chronic inflammation in the etiology of disease across the life span. Nature Medicine, 25(12), 1822-1832.", url: "https://pubmed.ncbi.nlm.nih.gov/31806905/" },
@@ -1717,7 +1717,7 @@ export const POSTS = [
     title: 'Blood Sugar Spikes: Why I Treat "Normal" Fasting Glucose as a Medical Emergency',
     category: 'metabolic',
     image: '/glucose_chart_spikes.webp',
-    excerpt: 'Your fasting glucose might be normal, but your post-meal spikes are secretly destroying your blood vessels. A physician explains why metabolic damage hides behind "normal" lab results.',
+    excerpt: "Your fasting glucose might be normal, but your post-meal spikes are secretly destroying your blood vessels. A physician explains why metabolic damage hides behind \"normal\" lab results.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Metabolic Protocol",
@@ -1863,7 +1863,7 @@ export const POSTS = [
     title: 'The Sun Phobia Trap: Why Your SPF is Costing You Your Mood',
     category: 'neurolongevity',
     image: '/spf_blocking_synthesis.webp',
-    excerpt: 'We have been conditioned to fear the sun. But aggressive SPF use is blocking the synthesis of the most critical neuro-hormone in the human body. A physician explains the connection between Vitamin D deficiency and seasonal depression.',
+    excerpt: "We have been conditioned to fear the sun. But aggressive SPF use is blocking the synthesis of the most critical neuro-hormone in the human body. A physician explains the connection between Vitamin D deficiency and seasonal depression.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Neurolongevity Protocol",
@@ -2027,7 +2027,7 @@ export const POSTS = [
     title: 'Focus & Attention Deficit: Why You Can\'t Concentrate (And How to Clear the Haze)',
     category: 'cognition',
     image: '/brain_fog_hero.webp',
-    excerpt: 'Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.',
+    excerpt: "Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.",
     date: 'Nov 29, 2025',
     cta: {
       text: "Get Dr. Gav's Cognitive Stack",
@@ -2156,7 +2156,7 @@ export const POSTS = [
     title: 'Anxiety & Inflammation: The Hidden Link Behind \"Brain on Fire\"',
     category: 'inflammation',
     image: '/inflammation_controlled_fire_hero_1764771922110.webp',
-    excerpt: 'You might not be "mentally ill." You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.',
+    excerpt: "You might not be \"mentally ill.\" You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.",
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Fire Extinguisher",
@@ -2324,7 +2324,7 @@ export const POSTS = [
     title: 'Chronic Fatigue: Why Your Brain Tires Before Your Body (And How to Fix It)',
     category: 'cognition',
     image: '/mitochondrial_furnace_hero_1764771832396.webp',
-    excerpt: 'Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.',
+    excerpt: "Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.",
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Brain Battery",
@@ -2488,7 +2488,7 @@ export const POSTS = [
     title: 'Why You Are Ageing Faster Than Your Friends: The Science of Glycation',
     category: 'metabolic',
     image: '/cell_membrane_fluidity_hero_1764771762803.webp',
-    excerpt: 'When blood sugar is chronically high, glucose binds to your proteins forming AGEs, sticky structures that stiffen your skin, joints, and arteries. You aren\'t just ageing. You\'re caramelizing.',
+    excerpt: "When blood sugar is chronically high, glucose binds to your proteins forming AGEs, sticky structures that stiffen your skin, joints, and arteries. You aren\'t just ageing. You\'re caramelizing.",
     date: 'Dec 02, 2025',
     cta: {
       text: "Get Dr. Gavin's Metabolic Reset",
@@ -2661,7 +2661,7 @@ export const POSTS = [
     title: 'Muscle Loss After 40: Why Sarcopenia Is Making You "Frail" at 45',
     category: 'longevity',
     image: '/muscle_hero.webp',
-    excerpt: 'Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines, chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.',
+    excerpt: "Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines, chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.",
     date: 'Dec 04, 2025',
     cta: {
       text: "Get Dr. Gavin's Muscle Protocol",
@@ -2807,7 +2807,7 @@ export const POSTS = [
     title: 'The Methylation Crisis: Why Your Cells Cannot Turn Food Into Energy',
     category: 'energy',
     image: '/methylation_gears.webp',
-    excerpt: 'Roughly 40% of the population has a genetic mutation that breaks their cellular engine. A physician explains the MTHFR gene, homocysteine buildup, and why standard B-vitamins might be making you more exhausted.',
+    excerpt: "Roughly 40% of the population has a genetic mutation that breaks their cellular engine. A physician explains the MTHFR gene, homocysteine buildup, and why standard B-vitamins might be making you more exhausted.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Energy & Methylation Protocol",
@@ -2962,7 +2962,7 @@ export const POSTS = [
     title: 'Insomnia & High Cortisol: TIRED BUT WIRED & Why You Can\'t Sleep at 10 PM',
     category: 'sleep',
     image: '/sleep_brain.webp',
-    excerpt: 'Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You\'re groggy at 8 AM and wired at 10 PM.',
+    excerpt: "Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You\'re groggy at 8 AM and wired at 10 PM.",
     date: 'Dec 06, 2025',
     cta: {
       text: "Get Dr. Gavin's Cortisol Reset",
@@ -3132,7 +3132,7 @@ export const POSTS = [
     title: 'Cellular Ageing: Why You Feel 60 at 40 (The "Battery" That Dies Before You Do)',
     category: 'longevity',
     image: '/cellular_energy_decline.webp',
-    excerpt: 'By 40, youve lost 50% of your cellular energy currency. By 60, youre running on fumes. This isnt ageing. Its a fixable energy crisis hiding in plain sight.',
+    excerpt: "By 40, youve lost 50% of your cellular energy currency. By 60, youre running on fumes. This isnt ageing. Its a fixable energy crisis hiding in plain sight.",
     date: 'Dec 01, 2025',
     cta: {
       text: "Get Dr. Gavin's Longevity Protocol",
@@ -3309,7 +3309,7 @@ export const POSTS = [
     title: 'The Blood Test Your Doctor Is Not Ordering: Why "Normal" Results Hide a Metabolic Crisis',
     category: 'metabolic',
     image: '/clogged_engine_comparison.webp',
-    excerpt: 'Fasting glucose 98? "Normal." HbA1c 56%? "Normal." Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing the metabolic engine: eliminating refined carbs, building mitochondrial capacity with exercise, and strategic supplementation.',
+    excerpt: "Fasting glucose 98? \"Normal.\" HbA1c 56%? \"Normal.\" Meanwhile, your insulin is 10x too high and your cells are drowning in fuel they can\'t burn. I lost 30kg by fixing the metabolic engine: eliminating refined carbs, building mitochondrial capacity with exercise, and strategic supplementation.",
     date: 'Dec 09, 2025',
     cta: {
       text: "Get The Metabolic Reset Protocol",
@@ -3720,7 +3720,7 @@ export const POSTS = [
     title: 'Taurine and Longevity: The 2023 Science Study Proving Ageing is Reversible',
     category: 'longevity',
     image: '/taurine_cell_rejuvenation.webp',
-    excerpt: 'By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular ageing markers. This is not about energy drinks. This is about cellular survival.',
+    excerpt: "By age 60, your taurine levels drop 80%. A 2023 Science study showed restoring it extended lifespan by 12% and reversed cellular ageing markers. This is not about energy drinks. This is about cellular survival.",
     date: 'Dec 26, 2025',
     cta: {
       text: "Get Dr. Gavin's Longevity Protocol",
@@ -3891,7 +3891,7 @@ export const POSTS = [
     title: 'How to Reverse Biological Ageing Naturally: The 9 Hallmarks You Can Control',
     category: 'longevity',
     image: '/nine_hallmarks_aging.webp',
-    excerpt: 'Ageing is no longer considered an inevitable mystery; it is a complex, treatable condition driven by nine specific biological mechanisms. A longevity physician explains the "Hallmarks of Ageing" and how you can actively reverse them.',
+    excerpt: "Ageing is no longer considered an inevitable mystery; it is a complex, treatable condition driven by nine specific biological mechanisms. A longevity physician explains the \"Hallmarks of Ageing\" and how you can actively reverse them.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Complete Longevity Protocol",
@@ -4048,7 +4048,7 @@ export const POSTS = [
     title: 'Creatine and NAD+: Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Both support ATP production through different pathways. A physician explains the synergy, timing, and clinical evidence for combining these cellular energy molecules.',
+    excerpt: "Both support ATP production through different pathways. A physician explains the synergy, timing, and clinical evidence for combining these cellular energy molecules.",
     date: 'Jan 9, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -4219,7 +4219,7 @@ export const POSTS = [
     title: 'Creatine vs. NAD+: Why You Need Both for Ultimate Cellular Energy (Physician\'s Guide)',
     category: 'supplements',
     image: '/cell_nad_creatine.webp',
-    excerpt: 'Yes, not only can you take Creatine and NAD+ together, but they are highly synergistic. While Creatine focuses on rapid ATP recycling in the cytoplasm, NAD+ powers the long-term ATP production within the mitochondria. Combining them creates a dual-pathway energy strategy that supports both physical power and cognitive longevity. Just heed the warning: Timing is everything.',
+    excerpt: "Yes, not only can you take Creatine and NAD+ together, but they are highly synergistic. While Creatine focuses on rapid ATP recycling in the cytoplasm, NAD+ powers the long-term ATP production within the mitochondria. Combining them creates a dual-pathway energy strategy that supports both physical power and cognitive longevity. Just heed the warning: Timing is everything.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -4900,7 +4900,7 @@ export const POSTS = [
     title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'The combination that restores glutathione and reverses ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.',
+    excerpt: "The combination that restores glutathione and reverses ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.",
     date: 'Jan 9, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5020,7 +5020,7 @@ export const POSTS = [
     title: 'The 3 AM Wake-Up: Is Your Brain Lacking the "Quiet" Mineral?',
     category: 'neurolongevity',
     image: '/sleep_architecture_magnesium.webp',
-    excerpt: 'Waking up at 3 AM with a racing mind? It might not be stress; it might be a neurochemical deficiency. A physician explains why Magnesium is the ultimate neurological "brake pedal" and why standard supplements fail to cross the blood-brain barrier.',
+    excerpt: "Waking up at 3 AM with a racing mind? It might not be stress; it might be a neurochemical deficiency. A physician explains why Magnesium is the ultimate neurological \"brake pedal\" and why standard supplements fail to cross the blood-brain barrier.",
     date: 'Mar 15, 2026',
     cta: {
       text: "View The Neurolongevity Protocol",
@@ -5137,7 +5137,7 @@ export const POSTS = [
     title: 'L-Theanine and Caffeine Together: The "Calm Focus" Stack That Fixed My Morning Coffee (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/theanine_caffeine_hero.webp',
-    excerpt: 'Caffeine wakes you up. L-Theanine stops it from making you wired. Together they produce "alert relaxation" — focused attention without the jitters or the crash. A physician explains why this is the most well-studied nootropic combo in existence.',
+    excerpt: "Caffeine wakes you up. L-Theanine stops it from making you wired. Together they produce \"alert relaxation\" — focused attention without the jitters or the crash. A physician explains why this is the most well-studied nootropic combo in existence.",
     date: 'Mar 13, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5293,7 +5293,7 @@ export const POSTS = [
     title: 'The Garden & The Fertilizer: Why Your Probiotics Are Failing Without Prebiotics (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/microbial_forest_gut.webp',
-    excerpt: 'Probiotics are live beneficial bacteria, but without Prebiotics (specialised plant fibres), they cannot colonise the gut effectively. To fix bloating, boost immunity, and clear the "gut-brain fog," you must follow a dual-protocol: seeding the gut with diverse strains and feeding them with fermentable fibres.',
+    excerpt: "Probiotics are live beneficial bacteria, but without Prebiotics (specialised plant fibres), they cannot colonise the gut effectively. To fix bloating, boost immunity, and clear the \"gut-brain fog,\" you must follow a dual-protocol: seeding the gut with diverse strains and feeding them with fermentable fibres.",
     date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5448,7 +5448,7 @@ export const POSTS = [
     title: 'Vitamin C and Quercetin: The Ultimate Immune & Allergy Stack (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.',
+    excerpt: "Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5544,7 +5544,7 @@ export const POSTS = [
     title: 'Turmeric and Black Pepper: The Bioavailability Secret — Why Your Turmeric is Just "Expensive Mustard" (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/turmeric_peppercorns.webp',
-    excerpt: 'Curcumin has notoriously poor bioavailability — without a delivery vehicle, it is rapidly excreted by the liver. Pairing it with Piperine (Black Pepper) and healthy fats increases absorption by up to 2,000%. A physician explains the Alzheimer\\\'s connection and exact dosing protocol.',
+    excerpt: "Curcumin has notoriously poor bioavailability — without a delivery vehicle, it is rapidly excreted by the liver. Pairing it with Piperine (Black Pepper) and healthy fats increases absorption by up to 2,000%. A physician explains the Alzheimer\\\'s connection and exact dosing protocol.",
     date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5701,7 +5701,7 @@ export const POSTS = [
     title: 'The Expanding Gas Tank: Why Cordyceps and Rhodiola are the Ultimate Fatigue Shield (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/cordyceps_rhodiola_energy.webp',
-    excerpt: 'Unlike caffeine, which merely "borrows" energy by blocking adenosine receptors, the combination of Cordyceps and Rhodiola actually increases your biological energy budget. Cordyceps optimizes cellular ATP production and oxygen delivery, while Rhodiola buffers the Central Nervous System (CNS) against cortisol-driven burnout. Together, they create a state of "resilient high-performance" without the jittery crash.',
+    excerpt: "Unlike caffeine, which merely \"borrows\" energy by blocking adenosine receptors, the combination of Cordyceps and Rhodiola actually increases your biological energy budget. Cordyceps optimizes cellular ATP production and oxygen delivery, while Rhodiola buffers the Central Nervous System (CNS) against cortisol-driven burnout. Together, they create a state of \"resilient high-performance\" without the jittery crash.",
     date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5858,7 +5858,7 @@ export const POSTS = [
     title: 'The Cellular Battery: Why Beta-Alanine and Creatine are the Ultimate Power Couple (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/creatine_beta_alanine_muscle.webp',
-    excerpt: 'Creatine and Beta-Alanine work in a perfect metabolic "handshake." Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the "acidic burn" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.',
+    excerpt: "Creatine and Beta-Alanine work in a perfect metabolic \"handshake.\" Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the \"acidic burn\" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.",
     date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -5999,7 +5999,7 @@ export const POSTS = [
     title: 'The Longevity Switch: Resveratrol vs. Pterostilbene (The Bioavailability Battle) (Physician\\\'s Guide)',
     category: 'supplements',
     image: '/resveratrol_pterostilbene_dna.webp',
-    excerpt: 'While Resveratrol is the most famous sirtuin activator, it suffers from poor absorption and rapid metabolism. Pterostilbene, a chemically similar compound found in blueberries, is nearly 80% bioavailable compared to Resveratrol’s 20%. Together, they act as "mimics" of caloric restriction, activating cellular repair pathways (SIRT1) that protect the heart and brain.',
+    excerpt: "While Resveratrol is the most famous sirtuin activator, it suffers from poor absorption and rapid metabolism. Pterostilbene, a chemically similar compound found in blueberries, is nearly 80% bioavailable compared to Resveratrol’s 20%. Together, they act as \"mimics\" of caloric restriction, activating cellular repair pathways (SIRT1) that protect the heart and brain.",
     date: 'Mar 14, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6154,7 +6154,7 @@ export const POSTS = [
     title: 'Beyond Stimulants: A Physician\\\'s Guide to Neuro-Metabolic Support for ADHD',
     category: 'brain-health',
     image: '/adhd_synaptic_cleft.webp',
-    excerpt: 'ADHD is increasingly viewed through the lens of executive dysfunction and catecholamine dysregulation. A physician explains how supplementing with dopamine precursors, co-factors like Zinc and B6, and mitochondrial support can stabilise the "neural floor" and reduce the stimulant crash.',
+    excerpt: "ADHD is increasingly viewed through the lens of executive dysfunction and catecholamine dysregulation. A physician explains how supplementing with dopamine precursors, co-factors like Zinc and B6, and mitochondrial support can stabilise the \"neural floor\" and reduce the stimulant crash.",
     date: 'Mar 12, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6303,7 +6303,7 @@ export const POSTS = [
     title: 'CoQ10 and PQQ: Can You Take Them Together? (Physician\'s Guide)',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'CoQ10 protects existing mitochondria. PQQ creates new mitochondria. A physician explains why this is the ultimate mitochondrial support combination.',
+    excerpt: "CoQ10 protects existing mitochondria. PQQ creates new mitochondria. A physician explains why this is the ultimate mitochondrial support combination.",
     date: 'Jan 9, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6400,7 +6400,7 @@ export const POSTS = [
     title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Discover the physiological interactions between Creatine and Berberine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
+    excerpt: "Discover the physiological interactions between Creatine and Berberine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6480,7 +6480,7 @@ export const POSTS = [
     title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Combining Omega-3 and Curcumin can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
+    excerpt: "Combining Omega-3 and Curcumin can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6553,7 +6553,7 @@ export const POSTS = [
     title: 'Berberine and Metformin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Should you stack Berberine with Metformin? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
+    excerpt: "Should you stack Berberine with Metformin? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6628,7 +6628,7 @@ export const POSTS = [
     title: 'Zinc and Copper: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Before pairing Zinc and Copper, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
+    excerpt: "Before pairing Zinc and Copper, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6702,7 +6702,7 @@ export const POSTS = [
     title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
+    excerpt: "Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6775,7 +6775,7 @@ export const POSTS = [
     title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'A physician's deep dive into the pharmacokinetics of Ashwagandha and Rhodiola. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
+    excerpt: "A physician's deep dive into the pharmacokinetics of Ashwagandha and Rhodiola. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6849,7 +6849,7 @@ export const POSTS = [
     title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Is it safe to stack B12 with Folate? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
+    excerpt: "Is it safe to stack B12 with Folate? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -6927,7 +6927,7 @@ export const POSTS = [
     title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'We examine the systemic effects of taking Iron alongside Vitamin C. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
+    excerpt: "We examine the systemic effects of taking Iron alongside Vitamin C. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7003,7 +7003,7 @@ export const POSTS = [
     title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Discover the physiological interactions between Alpha-Lipoic Acid and Acetyl-L-Carnitine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
+    excerpt: "Discover the physiological interactions between Alpha-Lipoic Acid and Acetyl-L-Carnitine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7081,7 +7081,7 @@ export const POSTS = [
     title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Combining Lysine and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
+    excerpt: "Combining Lysine and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7161,7 +7161,7 @@ export const POSTS = [
     title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Should you stack SAMe with B-vitamins? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
+    excerpt: "Should you stack SAMe with B-vitamins? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7245,7 +7245,7 @@ export const POSTS = [
     title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Before pairing Collagen and Vitamin C, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
+    excerpt: "Before pairing Collagen and Vitamin C, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7328,7 +7328,7 @@ export const POSTS = [
     title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
+    excerpt: "Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7402,7 +7402,7 @@ export const POSTS = [
     title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'A physician's deep dive into the pharmacokinetics of CBD and Melatonin. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
+    excerpt: "A physician's deep dive into the pharmacokinetics of CBD and Melatonin. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7482,7 +7482,7 @@ export const POSTS = [
     title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
+    excerpt: "Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7558,7 +7558,7 @@ export const POSTS = [
     title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'We examine the systemic effects of taking Lions Mane alongside Bacopa. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
+    excerpt: "We examine the systemic effects of taking Lions Mane alongside Bacopa. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7636,7 +7636,7 @@ export const POSTS = [
     title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Discover the physiological interactions between GABA and L-Theanine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
+    excerpt: "Discover the physiological interactions between GABA and L-Theanine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7713,7 +7713,7 @@ export const POSTS = [
     title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Combining 5-HTP and Tryptophan can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
+    excerpt: "Combining 5-HTP and Tryptophan can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7795,7 +7795,7 @@ export const POSTS = [
     title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Should you stack Boswellia with Fish Oil? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
+    excerpt: "Should you stack Boswellia with Fish Oil? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7870,7 +7870,7 @@ export const POSTS = [
     title: 'St Johns Wort and SSRIs: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Before pairing St Johns Wort and SSRIs, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
+    excerpt: "Before pairing St Johns Wort and SSRIs, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7958,7 +7958,7 @@ export const POSTS = [
     title: 'Green Tea Extract and Caffeine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Understanding the biochemical cross-talk between Green Tea Extract and Caffeine. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
+    excerpt: "Understanding the biochemical cross-talk between Green Tea Extract and Caffeine. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8036,7 +8036,7 @@ export const POSTS = [
     title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'A physician's deep dive into the pharmacokinetics of Spirulina and Chlorella. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
+    excerpt: "A physician's deep dive into the pharmacokinetics of Spirulina and Chlorella. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8113,7 +8113,7 @@ export const POSTS = [
     title: 'Phosphatidylserine and Omega-3: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Is it safe to stack Phosphatidylserine with Omega-3? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
+    excerpt: "Is it safe to stack Phosphatidylserine with Omega-3? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8194,7 +8194,7 @@ export const POSTS = [
     title: 'Elderberry and Zinc: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'We examine the systemic effects of taking Elderberry alongside Zinc. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
+    excerpt: "We examine the systemic effects of taking Elderberry alongside Zinc. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8275,7 +8275,7 @@ export const POSTS = [
     title: 'Ginkgo Biloba and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Discover the physiological interactions between Ginkgo Biloba and Bacopa. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
+    excerpt: "Discover the physiological interactions between Ginkgo Biloba and Bacopa. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8360,7 +8360,7 @@ export const POSTS = [
     title: 'Digestive Enzymes and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Combining Digestive Enzymes and Probiotics can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
+    excerpt: "Combining Digestive Enzymes and Probiotics can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8437,7 +8437,7 @@ export const POSTS = [
     title: 'Glutamine and Probiotics: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Should you stack Glutamine with Probiotics? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
+    excerpt: "Should you stack Glutamine with Probiotics? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8513,7 +8513,7 @@ export const POSTS = [
     title: 'Milk Thistle and NAC: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Before pairing Milk Thistle and NAC, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
+    excerpt: "Before pairing Milk Thistle and NAC, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8596,7 +8596,7 @@ export const POSTS = [
     title: 'Valerian and Lemon Balm: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Understanding the biochemical cross-talk between Valerian and Lemon Balm. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
+    excerpt: "Understanding the biochemical cross-talk between Valerian and Lemon Balm. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8669,7 +8669,7 @@ export const POSTS = [
     title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'A physician's deep dive into the pharmacokinetics of Maca and Tribulus. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
+    excerpt: "A physician's deep dive into the pharmacokinetics of Maca and Tribulus. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8750,7 +8750,7 @@ export const POSTS = [
     title: 'Selenium and Iodine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Is it safe to stack Selenium with Iodine? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
+    excerpt: "Is it safe to stack Selenium with Iodine? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8827,7 +8827,7 @@ export const POSTS = [
     title: 'Chondroitin and Glucosamine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'We examine the systemic effects of taking Chondroitin alongside Glucosamine. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
+    excerpt: "We examine the systemic effects of taking Chondroitin alongside Glucosamine. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8907,7 +8907,7 @@ export const POSTS = [
     title: 'Lutein and Zeaxanthin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Discover the physiological interactions between Lutein and Zeaxanthin. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.',
+    excerpt: "Discover the physiological interactions between Lutein and Zeaxanthin. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8987,7 +8987,7 @@ export const POSTS = [
     title: 'Citrulline and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Combining Citrulline and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.',
+    excerpt: "Combining Citrulline and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9069,7 +9069,7 @@ export const POSTS = [
     title: 'Schisandra and Eleuthero: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Should you stack Schisandra with Eleuthero? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.',
+    excerpt: "Should you stack Schisandra with Eleuthero? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9150,7 +9150,7 @@ export const POSTS = [
     title: 'N-Acetyl Tyrosine and Mucuna Pruriens: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Before pairing N-Acetyl Tyrosine and Mucuna Pruriens, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.',
+    excerpt: "Before pairing N-Acetyl Tyrosine and Mucuna Pruriens, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9229,7 +9229,7 @@ export const POSTS = [
     title: 'Astaxanthin and Vitamin E: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Understanding the biochemical cross-talk between Astaxanthin and Vitamin E. Learn why timing matters and how to prevent these compounds from neutralizing each other.',
+    excerpt: "Understanding the biochemical cross-talk between Astaxanthin and Vitamin E. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9309,7 +9309,7 @@ export const POSTS = [
     title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'A physician's deep dive into the pharmacokinetics of Berberine and Alpha-Lipoic Acid. Protect your gut lining and maximize cellular uptake with this dosing schedule.',
+    excerpt: "A physician's deep dive into the pharmacokinetics of Berberine and Alpha-Lipoic Acid. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9387,7 +9387,7 @@ export const POSTS = [
     title: 'Hesperidin and Diosmin: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'Is it safe to stack Hesperidin with Diosmin? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.',
+    excerpt: "Is it safe to stack Hesperidin with Diosmin? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -9462,7 +9462,7 @@ export const POSTS = [
     title: 'Policosanol and Red Yeast Rice: Can You Take Them Together? (Physicians Guide) ',
     category: 'supplements',
     image: '/supplement_synergy.png',
-    excerpt: 'We examine the systemic effects of taking Policosanol alongside Red Yeast Rice. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.',
+    excerpt: "We examine the systemic effects of taking Policosanol alongside Red Yeast Rice. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
