@@ -1,44 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const EmailCapture = ({ variant = 'default' }) => {
-    const [email, setEmail] = useState('');
-    const [firstName, setFirstName] = useState('');
-    const [status, setStatus] = useState(''); // '', 'submitting', 'success', 'error'
-    const formRef = useRef(null);
-
-    // Create hidden iframe for form submission to prevent page redirect
-    useEffect(() => {
-        const iframeName = 'kit-form-iframe-' + Date.now();
-        const iframe = document.createElement('iframe');
-        iframe.name = iframeName;
-        iframe.style.display = 'none';
-        document.body.appendChild(iframe);
-
-        if (formRef.current) {
-            formRef.current.setAttribute('target', iframeName);
-        }
-
-        return () => {
-            if (document.body.contains(iframe)) {
-                document.body.removeChild(iframe);
-            }
-        };
-    }, []);
-
-    const handleSubmit = (e) => {
-        setStatus('submitting');
-
-        // Form will submit to hidden iframe - no page redirect!
-        // Show success message after brief delay
-        setTimeout(() => {
-            setStatus('success');
-            setEmail('');
-            setFirstName('');
-            setTimeout(() => setStatus(''), 5000);
-        }, 1500);
-    };
-
     const containerStyles = {
         default: {
             background: 'rgba(255, 255, 255, 0.4)',
@@ -72,7 +35,7 @@ const EmailCapture = ({ variant = 'default' }) => {
             style={{
                 ...containerStyles[variant],
                 position: 'relative',
-                zIndex: 1001  // Higher than navigation dropdowns (1000)
+                zIndex: 1001
             }}
         >
             {variant === 'default' && (
@@ -101,34 +64,54 @@ const EmailCapture = ({ variant = 'default' }) => {
                         fontSize: 'clamp(1rem, 2vw, 1.2rem)',
                         color: '#4A5568',
                         maxWidth: '600px',
-                        margin: '0 auto'
+                        margin: '0 auto',
+                        lineHeight: '1.6'
                     }}>
                         Discover the blood markers that reveal insulin resistance, mitochondrial dysfunction, and accelerated aging—before you develop symptoms.
                     </p>
                 </div>
             )}
 
-            <div style={{ maxWidth: '600px', margin: '0 auto', background: '#fff', borderRadius: '12px', overflow: 'hidden' }}>
-                <iframe 
-                    src="https://drgavinmcauley.substack.com/embed" 
-                    width="100%" 
-                    height="320" 
-                    style={{ border: '1px solid #eee', background: 'white' }} 
-                    frameBorder="0" 
-                    scrolling="no"
-                    title="Newsletter Signup"
-                ></iframe>
+            <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+                <a 
+                    href="https://drgavinmcauley.substack.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                        display: 'inline-block',
+                        background: '#FF4500',
+                        color: 'white',
+                        padding: '1rem 3rem',
+                        fontSize: '1.25rem',
+                        fontWeight: '700',
+                        borderRadius: '50px',
+                        textDecoration: 'none',
+                        boxShadow: '0 10px 25px rgba(255, 69, 0, 0.3)',
+                        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                        cursor: 'pointer'
+                    }}
+                    onMouseOver={(e) => {
+                        e.target.style.transform = 'translateY(-3px)';
+                        e.target.style.boxShadow = '0 15px 35px rgba(255, 69, 0, 0.4)';
+                    }}
+                    onMouseOut={(e) => {
+                        e.target.style.transform = 'translateY(0)';
+                        e.target.style.boxShadow = '0 10px 25px rgba(255, 69, 0, 0.3)';
+                    }}
+                >
+                    Get the Checklist & Subscribe
+                </a>
             </div>
 
             <p style={{
                 textAlign: 'center',
-                marginTop: '1rem',
+                marginTop: '1.5rem',
                 fontSize: '0.85rem',
                 color: '#6C757D'
             }}>
-                We respect your privacy. Unsubscribe at any time.
+                Join 1,000+ others. We respect your privacy. Unsubscribe at any time.
             </p>
-        </motion.div >
+        </motion.div>
     );
 };
 
