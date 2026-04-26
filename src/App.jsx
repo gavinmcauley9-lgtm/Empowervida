@@ -35,6 +35,7 @@ const HeroCompare = lazy(() => import('./pages/HeroCompare'));
 const Contact = lazy(() => import('./pages/Contact'));
 const ThankYou = lazy(() => import('./pages/ThankYou'));
 const Calculator = lazy(() => import('./pages/Calculator'));
+const Links = lazy(() => import('./pages/Links'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -139,6 +140,7 @@ function AppContent() {
             <Route path="/hero-compare" element={<HeroCompare />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/calculator" element={<Calculator />} />
+            <Route path="/links" element={<Links />} />
           </Routes>
         </div>
       </Suspense>
