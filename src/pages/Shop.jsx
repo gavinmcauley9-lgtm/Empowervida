@@ -121,7 +121,8 @@ const Shop = () => {
                     subtitle: 'The Flow State',
                     why: 'Increases alpha brain waves to promote "relaxed alertness" and reduce caffeine jitters.',
                     pick: 'Thorne Theanine',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Thorne%20Theanine',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Theanine'
                 }
             ]
         },
@@ -169,7 +170,8 @@ const Shop = () => {
                     subtitle: 'The Neuro-Grower',
                     why: 'Stimulates Nerve Growth Factor (NGF) to support neuroplasticity.',
                     pick: 'Real Mushrooms Lion\'s Mane',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Real%20Mushrooms%20Lion%5C',
+                    iherbLink: 'https://www.iherb.com/search?kw=Real%20Mushrooms%20Lion%5C'
                 }
             ]
         },
@@ -230,14 +232,16 @@ const Shop = () => {
                     subtitle: 'The Gut Healer',
                     why: 'The primary fuel source for enterocytes (cell lining of the gut).',
                     pick: 'Thorne L-Glutamine',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Thorne%20L-Glutamine',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20L-Glutamine'
                 },
                 {
                     name: 'Zinc Carnosine',
                     subtitle: 'The Mucosal Shield',
                     why: 'Restores the integrity of the stomach lining.',
                     pick: 'Life Extension Gastro-Ease',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Life%20Extension%20Gastro-Ease',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Gastro-Ease'
                 },
                 {
                     name: 'Curcumin Phytosome',
@@ -260,14 +264,16 @@ const Shop = () => {
                     subtitle: 'The Mesh',
                     why: 'Provides the amino acid matrix to seal the gut barrier.',
                     pick: 'Vital Proteins Collagen',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Vital%20Proteins%20Collagen',
+                    iherbLink: 'https://www.iherb.com/search?kw=Vital%20Proteins%20Collagen'
                 },
                 {
                     name: 'Spore-Based Probiotics',
                     subtitle: 'The Reset',
                     why: 'Survives stomach acid to colonize the gut.',
                     pick: 'MegaSporeBiotic',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=MegaSporeBiotic',
+                    iherbLink: 'https://www.iherb.com/search?kw=MegaSporeBiotic'
                 }
             ]
         },
@@ -287,7 +293,8 @@ const Shop = () => {
                     subtitle: 'The Body Relaxer',
                     why: 'Highly absorbable form that promotes physical relaxation.',
                     pick: 'Thorne Magnesium Bisglycinate',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Thorne%20Magnesium%20Bisglycinate',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Magnesium%20Bisglycinate'
                 },
                 {
                     name: 'Ashwagandha KSM-66',
@@ -310,14 +317,16 @@ const Shop = () => {
                     subtitle: 'The Core Body Temp',
                     why: 'Lowers core body temperature to initiate sleep.',
                     pick: 'Life Extension Glycine',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Life%20Extension%20Glycine',
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Glycine'
                 },
                 {
                     name: 'Apigenin',
                     subtitle: 'The Sedative',
                     why: 'Chamomile extract that binds to benzodiazepine receptors (mildly).',
                     pick: 'Double Wood Apigenin',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Double%20Wood%20Apigenin',
+                    iherbLink: 'https://www.iherb.com/search?kw=Double%20Wood%20Apigenin'
                 }
             ]
         },
@@ -347,21 +356,24 @@ const Shop = () => {
                     subtitle: 'The Sensitizer',
                     why: 'Improves insulin receptor function.',
                     pick: 'Thorne Chromium',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Thorne%20Chromium',
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Chromium'
                 },
                 {
                     name: 'Myo-Inositol',
                     subtitle: 'The Signal',
                     why: 'Functions as a secondary messenger for insulin signaling.',
                     pick: 'Jarrow Formulas Inositol',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Jarrow%20Formulas%20Inositol',
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Inositol'
                 },
                 {
                     name: 'Ceylon Cinnamon',
                     subtitle: 'The Mimic',
                     why: 'Improves glucose uptake by mimicking insulin activity.',
                     pick: 'Organic Ceylon Cinnamon',
-                    unavailable: true
+                    amazonLink: 'https://www.amazon.com/s?k=Organic%20Ceylon%20Cinnamon',
+                    iherbLink: 'https://www.iherb.com/search?kw=Organic%20Ceylon%20Cinnamon'
                 }
             ]
         }
