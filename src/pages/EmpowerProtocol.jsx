@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
-
+import EmailCapture from '../components/EmailCapture';
 
 const EmpowerProtocol = () => {
     return (
@@ -43,8 +43,9 @@ const EmpowerProtocol = () => {
                         You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimise the engine.
                     </p>
                     <a
-                        href="/EmpowerProtocol_Blueprint.pdf" // Placeholder for PDF
-                        download
+                        href="https://drgavinmcauley.substack.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',
@@ -66,7 +67,7 @@ const EmpowerProtocol = () => {
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
-                        DOWNLOAD THE BLUEPRINT (PDF)
+                        GET THE DIAGNOSTIC BLUEPRINT
                     </a>
                 </motion.div>
             </HeroSection>
@@ -328,37 +329,12 @@ const EmpowerProtocol = () => {
                     <p style={{
                         fontSize: '1.1rem',
                         color: '#555',
-                        marginBottom: '2rem'
+                        marginBottom: '3rem'
                     }}>
                         "Knowing the science is easy. Doing it daily is hard." <br />
-                        Get the <strong>30-Day Brain Battery Blueprint</strong>, including a Printable Tracker and Shopping List.
+                        Subscribe to get the <strong>30-Day Brain Battery Blueprint</strong>, including a Printable Tracker and Shopping List.
                     </p>
-                    <form style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
-                        {/* Placeholder for email input for now, or just a button as requested */}
-                        <a
-                            href="#"
-                            onClick={(e) => e.preventDefault()} // Placeholder
-                            style={{
-                                display: 'inline-block',
-                                padding: '1rem 3rem',
-                                backgroundColor: '#000000',
-                                color: '#FFFFFF',
-                                textDecoration: 'none',
-                                fontWeight: 600,
-                                borderRadius: '4px',
-                                fontSize: '0.9rem',
-                                letterSpacing: '0.05em',
-                                cursor: 'pointer',
-                                border: 'none',
-                                transition: 'background 0.3s'
-                            }}
-                            onMouseEnter={(e) => e.target.style.backgroundColor = '#333'}
-                            onMouseLeave={(e) => e.target.style.backgroundColor = '#000'}
-                        >
-                            SEND ME THE GUIDE
-                        </a>
-                        <span style={{ fontSize: '0.8rem', color: '#999' }}>Free. Instant PDF Download.</span>
-                    </form>
+                    <EmailCapture variant="inline" />
                 </div>
             </section>
 
