@@ -9,6 +9,11 @@ const Links = () => {
             primary: true
         },
         {
+            title: "Calculate Your Biological Age",
+            url: "/biological-age",
+            primary: false
+        },
+        {
             title: "Test Your HOMA-IR Score",
             url: "/calculator",
             primary: false

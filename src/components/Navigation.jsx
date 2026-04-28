@@ -95,6 +95,14 @@ export default function Navigation() {
                                 <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🎯 Advanced Diagnostics
                                 </Link>
+                                <div style={{ height: '1px', background: 'rgba(0,0,0,0.05)', margin: '0.5rem 0' }} />
+                                <p style={{ padding: '0.5rem 1rem', fontSize: '0.75rem', fontWeight: 'bold', color: '#A0AEC0', textTransform: 'uppercase', letterSpacing: '1px' }}>Clinical Tools</p>
+                                <Link to="/calculator" style={{ display: 'block', padding: '0.8rem 1rem', color: '#20B2AA', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(32, 178, 170, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    🧮 HOMA-IR Calculator
+                                </Link>
+                                <Link to="/biological-age" style={{ display: 'block', padding: '0.8rem 1rem', color: '#8A2BE2', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(138, 43, 226, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                    🧬 Biological Age Calculator
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -173,6 +181,10 @@ export default function Navigation() {
                         <Link to="/longevity" style={{ ...mobileLinkStyle('/longevity'), color: '#667eea', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 The 5 Pillars</Link>
                         <Link to="/insulin-story" style={{ ...mobileLinkStyle('/insulin-story'), color: 'var(--color-accent-red)', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🩸 The Insulin Story</Link>
                         <Link to="/advanced-optimization" style={{ ...mobileLinkStyle('/advanced-optimization'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🎯 Advanced Diagnostics</Link>
+                        
+                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '1.5rem', marginBottom: '1rem' }}>Clinical Tools</p>
+                        <Link to="/calculator" style={{ ...mobileLinkStyle('/calculator'), color: '#20B2AA', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧮 HOMA-IR Calculator</Link>
+                        <Link to="/biological-age" style={{ ...mobileLinkStyle('/biological-age'), color: '#8A2BE2', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 Biological Age Calculator</Link>
                     </div>
 
                     <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>

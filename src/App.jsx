@@ -36,6 +36,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const ThankYou = lazy(() => import('./pages/ThankYou'));
 const Calculator = lazy(() => import('./pages/Calculator'));
 const Links = lazy(() => import('./pages/Links'));
+const PhenoAge = lazy(() => import('./pages/PhenoAge'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -140,6 +141,7 @@ function AppContent() {
             <Route path="/hero-compare" element={<HeroCompare />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/calculator" element={<Calculator />} />
+            <Route path="/biological-age" element={<PhenoAge />} />
             <Route path="/links" element={<Links />} />
           </Routes>
         </div>
