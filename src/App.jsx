@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import CookieConsent from './components/CookieConsent';
 import ScrollToTop from './components/ScrollToTop';
 import Breadcrumbs from './components/Breadcrumbs';
+import MedicalBadge from './components/MedicalBadge';
 
 // Lazy load all pages for code splitting
 const Home = lazy(() => import('./pages/Home'));
@@ -37,6 +38,7 @@ const ThankYou = lazy(() => import('./pages/ThankYou'));
 const Calculator = lazy(() => import('./pages/Calculator'));
 const Links = lazy(() => import('./pages/Links'));
 const PhenoAge = lazy(() => import('./pages/PhenoAge'));
+const WelcomeInsider = lazy(() => import('./pages/WelcomeInsider'));
 
 // Loading component for better UX during lazy load
 const PageLoader = () => (
@@ -143,6 +145,7 @@ function AppContent() {
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/biological-age" element={<PhenoAge />} />
             <Route path="/links" element={<Links />} />
+            <Route path="/welcome-insider" element={<WelcomeInsider />} />
           </Routes>
         </div>
       </Suspense>
@@ -151,6 +154,7 @@ function AppContent() {
 
       {/* Custom Cursor */}
       <Cursor />
+      <MedicalBadge />
       <Footer />
     </main>
   );

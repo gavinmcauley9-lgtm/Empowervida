@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
-
+import RelatedPosts from '../components/RelatedPosts';
 export default function InsulinStory() {
     // FAQ Schema for Rich Snippets
     const faqSchema = {
@@ -706,32 +706,58 @@ export default function InsulinStory() {
                             Order a <strong>Fasting Insulin test</strong>, not just an HbA1c.<br />
                             True prevention starts <em>before</em> the sugar rises.
                         </p>
-                        <Link
-                            to="/diagnostics"
-                            onClick={() => window.scrollTo(0, 0)}
-                            style={{
-                                display: 'inline-block',
-                                padding: '1.2rem 3rem',
-                                background: 'var(--color-accent-teal)',
-                                color: '#1A3C34',
-                                fontSize: '1.1rem',
-                                fontWeight: '700',
-                                borderRadius: '10px',
-                                textDecoration: 'none',
-                                boxShadow: '0 8px 24px rgba(32, 178, 170, 0.3)',
-                                transition: 'all 0.3s ease'
-                            }}
-                            onMouseEnter={e => {
-                                e.target.style.transform = 'translateY(-3px)';
-                                e.target.style.boxShadow = '0 12px 32px rgba(32, 178, 170, 0.4)';
-                            }}
-                            onMouseLeave={e => {
-                                e.target.style.transform = 'translateY(0)';
-                                e.target.style.boxShadow = '0 8px 24px rgba(32, 178, 170, 0.3)';
-                            }}
-                        >
-                            Explore The Diagnostics →
-                        </Link>
+                        <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                            <Link
+                                to="/protocol#metabolic-stack"
+                                onClick={() => window.scrollTo(0, 0)}
+                                style={{
+                                    display: 'inline-block',
+                                    padding: '1.2rem 3rem',
+                                    background: 'var(--color-accent-teal)',
+                                    color: '#1A3C34',
+                                    fontSize: '1.1rem',
+                                    fontWeight: '700',
+                                    borderRadius: '10px',
+                                    textDecoration: 'none',
+                                    boxShadow: '0 8px 24px rgba(32, 178, 170, 0.3)',
+                                    transition: 'all 0.3s ease'
+                                }}
+                                onMouseEnter={e => {
+                                    e.target.style.transform = 'translateY(-3px)';
+                                    e.target.style.boxShadow = '0 12px 32px rgba(32, 178, 170, 0.4)';
+                                }}
+                                onMouseLeave={e => {
+                                    e.target.style.transform = 'translateY(0)';
+                                    e.target.style.boxShadow = '0 8px 24px rgba(32, 178, 170, 0.3)';
+                                }}
+                            >
+                                Start The Metabolic Protocol →
+                            </Link>
+                            <Link
+                                to="/diagnostics"
+                                onClick={() => window.scrollTo(0, 0)}
+                                style={{
+                                    display: 'inline-block',
+                                    padding: '1.2rem 3rem',
+                                    background: 'transparent',
+                                    border: '2px solid var(--color-accent-teal)',
+                                    color: 'var(--color-accent-teal)',
+                                    fontSize: '1.1rem',
+                                    fontWeight: '700',
+                                    borderRadius: '10px',
+                                    textDecoration: 'none',
+                                    transition: 'all 0.3s ease'
+                                }}
+                                onMouseEnter={e => {
+                                    e.target.style.transform = 'translateY(-3px)';
+                                }}
+                                onMouseLeave={e => {
+                                    e.target.style.transform = 'translateY(0)';
+                                }}
+                            >
+                                Explore The Diagnostics
+                            </Link>
+                        </div>
                     </div>
                 </section>
 
@@ -794,6 +820,9 @@ export default function InsulinStory() {
                     </div>
                 </section>
 
+                <div style={{ padding: '0 2rem' }}>
+                    <RelatedPosts currentCategory="metabolic" />
+                </div>
                 {/* Footer Navigation */}
                 <div style={{
                     marginTop: '6rem',

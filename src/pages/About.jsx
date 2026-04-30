@@ -98,7 +98,7 @@ export default function About() {
 
                 <div style={{ position: 'relative', zIndex: 2, maxWidth: '1000px' }} data-aos="fade-up">
                     <h1 style={{
-                        fontSize: 'clamp(2.5rem, 6vw, 5rem)',
+                        fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
                         lineHeight: '1.1',
                         marginBottom: '2rem',
                         color: '#FFFFFF',
@@ -106,8 +106,7 @@ export default function About() {
                         fontFamily: '"Manrope", sans-serif',
                         textShadow: '0 4px 20px rgba(0,0,0,0.8)'
                     }}>
-                        I Spent <span style={{ color: 'var(--color-accent-teal)' }}>16 Years</span> Saving Lives.<br />
-                        Then I Realized I Needed to Save My Own.
+                        Bridging the Gap Between <span style={{ color: 'var(--color-accent-teal)' }}>Traditional Medicine</span> & Biohacking.
                     </h1>
                     <p style={{
                         fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
@@ -117,7 +116,7 @@ export default function About() {
                         fontWeight: '400',
                         textShadow: '0 2px 10px rgba(0,0,0,0.8)'
                     }}>
-                        Why a veteran physician left the "assembly line" of modern medicine<br />to build a blueprint for true longevity.
+                        I'm a physician who spent 16 years in the traditional medical system before realising it was designed to manage sickness, not optimise health.
                     </p>
                 </div>
             </section>
@@ -189,19 +188,19 @@ export default function About() {
                             marginBottom: '-1rem'
                         }}>2009</div>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            The George Clooney Myth
+                            The Failure of the Assembly Line
                         </h2>
                         <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine. Over 16 years, I worked in Emergency Medicine and General Practice. The work was rewarding, but the lifestyle was brutal.
+                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine. Over 16 years, I worked in Emergency Medicine and General Practice. The work was rewarding, but I began to notice a devastating pattern.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            Night shifts. Understaffing. Chronic stress. The "work hard, play hard" culture from medical school followed me into practice. Alcohol became stress relief. Sleep became a luxury. Nutrition became an afterthought.
+                            Modern medicine is exceptional at acute trauma—if you have a heart attack, the ER will save you. But when it comes to chronic fatigue, metabolic dysfunction, and cognitive decline, the system is fundamentally broken. We are taught to prescribe pharmaceuticals to mask symptoms, rather than addressing the cellular root causes.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I was treating patients, but I was losing myself.
+                            I saw patients in their 40s and 50s falling apart from mitochondrial exhaustion and insulin resistance, and I had nothing to offer them but symptom management.
                         </p>
                     </div>
                 </section>

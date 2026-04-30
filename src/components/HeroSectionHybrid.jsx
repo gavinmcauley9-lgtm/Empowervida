@@ -4,7 +4,7 @@ import './HeroSectionHybrid.css';
 
 const HeroSectionHybrid = ({
     backgroundImage = "/hero-longevity.jpg",
-    title = "LONGEVITY, PRESCRIBED.",
+    title = "HEALTH IS BUILT. NOT FOUND.",
     height = "100vh"
 }) => {
     const { scrollY } = useScroll();
@@ -76,28 +76,9 @@ const HeroSectionHybrid = ({
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
+                    style={{ fontSize: '1.25rem', letterSpacing: '0.02em', marginTop: '1.5rem', marginBottom: '2.5rem' }}
                 >
-                    You don't need to <span className="hero-hybrid-italic">push harder</span> to feel better.
-                </motion.p>
-
-                {/* Supporting Text */}
-                <motion.p
-                    className="hero-hybrid-description"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.7, duration: 0.8 }}
-                >
-                    Calm, evidence-based support for energy, health, and longevity — guided by a doctor who listens.
-                </motion.p>
-
-                {/* Safety Tagline */}
-                <motion.p
-                    className="hero-hybrid-tagline"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.9, duration: 0.8 }}
-                >
-                    NO HYPE. NO OVERWHELM. JUST STEADY SCIENCE.
+                    A clinical framework for longevity, energy, and cognitive performance.
                 </motion.p>
 
                 {/* CTAs */}
@@ -107,11 +88,8 @@ const HeroSectionHybrid = ({
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.1, duration: 0.8 }}
                 >
-                    <a href="/protocol" className="hero-hybrid-btn-primary">
-                        Get the Free Starter Checklist
-                    </a>
-                    <a href="#how-we-work" className="hero-hybrid-btn-secondary">
-                        Learn how we work <span className="hero-hybrid-arrow">→</span>
+                    <a href="/protocol" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3rem', fontSize: '1.1rem' }}>
+                        Explore the framework →
                     </a>
                 </motion.div>
 

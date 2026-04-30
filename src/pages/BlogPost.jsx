@@ -5,39 +5,13 @@ import EmailCapture from '../components/EmailCapture';
 import AuthorBio from '../components/AuthorBio';
 import { POSTS, CATEGORIES } from '../data/posts';
 
-// Helper function to get related posts based on category and exclude current post
-function getRelatedPosts(currentPost, allPosts, count = 3) {
-  // First, try to get posts from the same category
-  const sameCategoryPosts = allPosts.filter(
-    p => p.category === currentPost.category && p.id !== currentPost.id
-  );
-
-  // Sort by date (most recent first) and take the first 'count' posts
-  const sortedPosts = sameCategoryPosts.sort((a, b) => {
-    const dateA = new Date(a.date);
-    const dateB = new Date(b.date);
-    return dateB - dateA;
-  });
-
-  // If we don't have enough same-category posts, fill with recent posts from other categories
-  if (sortedPosts.length < count) {
-    const otherPosts = allPosts
-      .filter(p => p.id !== currentPost.id && !sameCategoryPosts.includes(p))
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
-      .slice(0, count - sortedPosts.length);
-    return [...sortedPosts, ...otherPosts];
-  }
-
-  return sortedPosts.slice(0, count);
-}
+import RelatedPosts from '../components/RelatedPosts';
 
 export default function BlogPost() {
   const { slug } = useParams();
   // Look up by slug first, fall back to numeric id for backwards compatibility
   const post = POSTS.find(p => p.slug === slug) || POSTS.find(p => p.id.toString() === slug);
 
-  // Get related posts for internal linking
-  const relatedPosts = post ? getRelatedPosts(post, POSTS, 3) : [];
 
   // Auto-redirect numeric URLs to slug URLs (e.g., /blog/3 → /blog/brain-pills-that-work-vs-snake-oil)
   if (post && post.slug && slug !== post.slug) {
@@ -442,99 +416,7 @@ export default function BlogPost() {
         </div>
 
         {/* Related Posts Section - Internal Linking for SEO */}
-        {relatedPosts.length > 0 && (
-          <div style={{
-            marginTop: '4rem',
-            paddingTop: '3rem',
-            borderTop: '1px solid rgba(0,0,0,0.1)'
-          }}>
-            <h3 style={{
-              fontSize: '1.3rem',
-              fontWeight: 700,
-              color: 'var(--color-text)',
-              marginBottom: '1.5rem',
-              textTransform: 'uppercase',
-              letterSpacing: '0.05em',
-              fontFamily: '"Manrope", sans-serif'
-            }}>
-              Continue Reading
-            </h3>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-              gap: '1.5rem'
-            }}>
-              {relatedPosts.map(relatedPost => {
-                const relatedCategory = CATEGORIES.find(c => c.id === relatedPost.category);
-                return (
-                  <Link
-                    key={relatedPost.id}
-                    to={`/blog/${relatedPost.slug || relatedPost.id}`}
-                    style={{
-                      display: 'block',
-                      textDecoration: 'none',
-                      background: 'rgba(255,255,255,0.8)',
-                      borderRadius: '12px',
-                      overflow: 'hidden',
-                      border: '1px solid rgba(0,0,0,0.05)',
-                      transition: 'transform 0.2s ease, box-shadow 0.2s ease'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'translateY(-4px)';
-                      e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'translateY(0)';
-                      e.currentTarget.style.boxShadow = 'none';
-                    }}
-                  >
-                    {relatedPost.image && (
-                      <div style={{
-                        height: '120px',
-                        overflow: 'hidden'
-                      }}>
-                        <img
-                          src={relatedPost.image}
-                          alt={relatedPost.title}
-                          loading="lazy"
-                          style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover'
-                          }}
-                        />
-                      </div>
-                    )}
-                    <div style={{ padding: '1rem' }}>
-                      <span style={{
-                        fontSize: '0.7rem',
-                        fontWeight: 600,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.1em',
-                        color: 'var(--color-accent-teal)'
-                      }}>
-                        {relatedCategory?.label || relatedPost.category}
-                      </span>
-                      <h4 style={{
-                        fontSize: '0.95rem',
-                        fontWeight: 700,
-                        color: 'var(--color-text)',
-                        margin: '0.5rem 0 0 0',
-                        lineHeight: 1.3,
-                        display: '-webkit-box',
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: 'vertical',
-                        overflow: 'hidden'
-                      }}>
-                        {relatedPost.title}
-                      </h4>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        )}
+        <RelatedPosts currentPostId={post.id} currentCategory={post.category} />
 
         <style>{`
           .blog-content h2 {

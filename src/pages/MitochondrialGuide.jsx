@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import MitochondrialDiagram from '../components/MitochondrialDiagram';
+import RelatedPosts from '../components/RelatedPosts';
 
 const MitochondrialGuide = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -1183,13 +1184,14 @@ const MitochondrialGuide = () => {
                     border: '2px solid var(--color-accent-teal)'
                 }}>
                     <h3 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--color-accent-teal)' }}>
-                        Too Many Bottles?
+                        Ready to Restart the Engines?
                     </h3>
                     <p style={{ fontSize: '1.2rem', marginBottom: '2rem', lineHeight: 1.6 }}>
-                        Start with the Essentials. We have curated the <strong>"Executive Focus Bundle"</strong> containing just the top 3 impact players: Creatine, Citicoline, and Rhodiola.
+                        Stop borrowing energy from tomorrow. Start creating it today with our clinical <strong>Vitality Protocol</strong>.
                     </p>
-                    <a
-                        href="/shop"
+                    <Link
+                        to="/protocol#vitality-stack"
+                        onClick={() => window.scrollTo(0, 0)}
                         style={{
                             display: 'inline-block',
                             background: 'var(--color-accent-teal)',
@@ -1205,8 +1207,46 @@ const MitochondrialGuide = () => {
                             transition: 'all 0.3s ease'
                         }}
                     >
-                        Shop the Executive Bundle
-                    </a>
+                        Start The Vitality Protocol →
+                    </Link>
+                </div>
+
+                <div style={{ padding: '0 2rem' }}>
+                    <RelatedPosts currentCategory="energy" />
+                </div>
+                {/* Footer Navigation */}
+                <div style={{
+                    maxWidth: '800px',
+                    margin: '4rem auto 0',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    flexWrap: 'wrap',
+                    gap: '2rem'
+                }}>
+                    <Link
+                        to="/insulin-story"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-primary)',
+                            textDecoration: 'none',
+                            fontWeight: '600'
+                        }}
+                    >
+                        ← The Insulin Story
+                    </Link>
+                    <Link
+                        to="/longevity"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-primary)',
+                            textDecoration: 'none',
+                            fontWeight: '600'
+                        }}
+                    >
+                        The 5 Pillars of Longevity →
+                    </Link>
                 </div>
             </section >
         </>

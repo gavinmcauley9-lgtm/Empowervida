@@ -247,6 +247,20 @@ const Protocol = () => {
                                 </li>
                             </ul>
                         </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(26, 60, 52, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#1A3C34', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/longevity" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn more about the science of aging</Link>
+                            <Link to="/blog/22" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Why NAD+ Declines with Age</Link>
+                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Before starting, consider testing your biomarkers</Link>
+                        </div>
                     </div>
 
                     {/* PROTOCOL 2: BRAIN FOG / CLARITY */}
@@ -334,6 +348,19 @@ const Protocol = () => {
                                     <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Calm focus. Pairs with caffeine to smooth out jitters while maintaining alertness.</span>
                                 </li>
                             </ul>
+                        </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(0, 128, 128, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#008080', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/blog/3" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ More on nootropics for focus</Link>
+                            <Link to="/blog/1" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Science of the Starving Neuron</Link>
                         </div>
                     </div>
 
@@ -425,6 +452,19 @@ const Protocol = () => {
                         }}>
                             <strong>Note:</strong> This protocol overlaps with Clarity (both use Creatine, Omega-3). The distinction: Clarity = acute performance. Neurolongevity = structural preservation over decades.
                         </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(102, 126, 234, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#667eea', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/blog/28" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NAD+ Together?</Link>
+                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
+                        </div>
                     </div>
 
                     {/* PROTOCOL 4: ENERGY / VITALITY */}
@@ -502,6 +542,19 @@ const Protocol = () => {
                                     <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Universal antioxidant. Recycles vitamins C & E. Improves glucose uptake. Must be R-ALA (active form).</span>
                                 </li>
                             </ul>
+                        </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(255, 95, 0, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#FF5F00', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/mitochondrial-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Deep dive: Mitochondrial Guide</Link>
+                            <Link to="/blog/the-coq10-trap" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The CoQ10 Trap</Link>
                         </div>
                     </div>
 
@@ -614,6 +667,18 @@ const Protocol = () => {
                         }}>
                             <strong>Timeline:</strong> 8-12 weeks for barrier repair. 3-6 months for full symptom resolution of systemic inflammation.
                         </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(255, 107, 107, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#FF6B6B', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/blog/5" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Gut-Brain Connection</Link>
+                        </div>
                     </div>
 
                     {/* PROTOCOL 6: SLEEP & RECOVERY */}
@@ -703,6 +768,18 @@ const Protocol = () => {
                             color: 'var(--color-text)'
                         }}>
                             <strong>Mechanical Hack:</strong> Sleep on your side (lateral decubitus position). Research shows glymphatic flow is 2x more efficient on your side vs. back/stomach. Gravity matters.
+                        </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(118, 75, 162, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#764ba2', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/blog/7" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn: Sleep Optimization Protocol</Link>
                         </div>
                     </div>
 
@@ -797,6 +874,20 @@ const Protocol = () => {
                             color: 'var(--color-text)'
                         }}>
                             <strong>Note:</strong> This protocol has significant overlap with Energy/Vitality (ALA appears in both). The distinction: Metabolic Health targets glucose/insulin pathways. Energy targets ATP production. If you have insulin resistance, prioritize this stack.
+                        </div>
+
+                        <div style={{
+                            marginTop: '2rem',
+                            paddingTop: '2rem',
+                            borderTop: '1px solid rgba(220, 38, 38, 0.1)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            gap: '0.75rem'
+                        }}>
+                            <h4 style={{ color: '#DC2626', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
+                            <Link to="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Understand the insulin story</Link>
+                            <Link to="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
+                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with these labs</Link>
                         </div>
                     </div>
 

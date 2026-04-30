@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
+import RelatedPosts from '../components/RelatedPosts';
 
 const LongevityGuide = () => {
     const [scrollY, setScrollY] = useState(0);
@@ -580,7 +581,7 @@ const LongevityGuide = () => {
                         </div>
 
                         <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-                            <Link to="/mitochondrial-guide" style={{
+                            <Link to="/protocol#longevity-stack" style={{
                                 display: 'inline-block',
                                 background: 'var(--color-accent-teal)',
                                 color: '#FFFFFF',
@@ -591,25 +592,9 @@ const LongevityGuide = () => {
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.05em',
                                 boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                                marginRight: '1rem',
                                 marginBottom: '1rem'
                             }}>
-                                View Mitochondrial Guide →
-                            </Link>
-                            <Link to="/shop" style={{
-                                display: 'inline-block',
-                                background: '#1A3C34',
-                                color: '#FFFFFF',
-                                padding: '1rem 2rem',
-                                borderRadius: '8px',
-                                textDecoration: 'none',
-                                fontWeight: 700,
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em',
-                                boxShadow: '0 4px 15px rgba(26, 60, 52, 0.3)',
-                                marginBottom: '1rem'
-                            }}>
-                                Shop Supplements →
+                                Start The Longevity Protocol →
                             </Link>
                         </div>
                     </div>
@@ -646,6 +631,45 @@ const LongevityGuide = () => {
                 }}>
                     The goal is not just to add years to your life. It's to add <strong>life to your years</strong>.
                 </p>
+
+                <div style={{ padding: '0 2rem' }}>
+                    <RelatedPosts currentCategory="longevity" />
+                </div>
+                {/* Footer Navigation */}
+                <div style={{
+                    marginTop: '6rem',
+                    paddingTop: '3rem',
+                    borderTop: '2px solid rgba(0,0,0,0.08)',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    flexWrap: 'wrap',
+                    gap: '2rem'
+                }}>
+                    <Link
+                        to="/mitochondrial-guide"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-primary)',
+                            textDecoration: 'none',
+                            fontWeight: '600'
+                        }}
+                    >
+                        ← Mitochondrial Health Guide
+                    </Link>
+                    <Link
+                        to="/insulin-story"
+                        onClick={() => window.scrollTo(0, 0)}
+                        style={{
+                            fontSize: '1.1rem',
+                            color: 'var(--color-primary)',
+                            textDecoration: 'none',
+                            fontWeight: '600'
+                        }}
+                    >
+                        The Insulin Story →
+                    </Link>
+                </div>
             </section >
         </>
     );
