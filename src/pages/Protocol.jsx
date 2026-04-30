@@ -118,7 +118,7 @@ const Protocol = () => {
                     paddingLeft: '1.5rem',
                     textAlign: 'left'
                 }}>
-                    "Medicine usually waits for a crash. We engineer the machine to never fail."
+                    "Medicine usually waits for a crash. We engineer the system for maximum resilience."
                 </p>
             </HeroSection>
 
@@ -137,7 +137,7 @@ const Protocol = () => {
                         marginBottom: '2rem'
                     }}
                 >
-                    In my years in the Emergency Room, I managed acute failure. In longevity medicine, we manage chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
+                    Over 16 years across the ER, hospital medicine, and General Practice, I managed acute failure. In longevity medicine, we build chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
                 </motion.p>
             </section>
 
