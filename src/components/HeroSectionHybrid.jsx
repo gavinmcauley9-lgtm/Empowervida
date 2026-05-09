@@ -54,9 +54,9 @@ const HeroSectionHybrid = ({
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.1 }}
-                    style={{ fontSize: '0.9rem', color: '#e2e8f0', fontWeight: '700', letterSpacing: '0.05em', marginBottom: '1.5rem', textTransform: 'uppercase', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}
+                    style={{ fontSize: '0.85rem', color: '#FFFFFF', fontWeight: '500', letterSpacing: '0.05em', marginBottom: '1.5rem', textTransform: 'uppercase', textShadow: '0 2px 4px rgba(0,0,0,0.5)', opacity: 0.9 }}
                 >
-                    Led by Gavin McAuley, Physician | Specialist Interest: Metabolic & Longevity Protocols
+                    LED BY GAVIN MCAULEY, PHYSICIAN | SPECIALIST INTEREST: METABOLIC & LONGEVITY PROTOCOLS
                 </motion.div>
 
                 {/* Trust Badge */}
@@ -88,7 +88,7 @@ const HeroSectionHybrid = ({
                     transition={{ delay: 0.5, duration: 0.8 }}
                     style={{ fontSize: '1.35rem', letterSpacing: '0.01em', marginTop: '1.5rem', marginBottom: '2.5rem', lineHeight: '1.6', maxWidth: '800px', color: '#f8fafc', textShadow: '0 4px 12px rgba(0,0,0,0.6)' }}
                 >
-                    Modern medicine says you're fine, but your cells are starving. Discover our physician-engineered protocol to restore mitochondrial energy, clear brain fog, and reclaim your biological prime.
+                    Modern medicine says you're fine, but your <strong style={{ color: '#FFFFFF', fontWeight: 800 }}>cells are starving</strong>. Discover our physician-engineered protocol to restore mitochondrial energy, clear brain fog, and reclaim your biological prime.
                 </motion.p>
 
                 {/* CTAs */}
@@ -97,14 +97,35 @@ const HeroSectionHybrid = ({
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.1, duration: 0.8 }}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}
                 >
-                    <a href="/protocol" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                    <a href="/protocol" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                         Get Your Protocol →
+                    </a>
+                    
+                    {/* Anxiety Reducer */}
+                    <div style={{ fontSize: '0.85rem', color: '#94a3b8', fontWeight: '500', letterSpacing: '0.02em', textShadow: '0 1px 2px rgba(0,0,0,0.5)', marginTop: '0.25rem' }}>
+                        Immediate Access | Secure Purely Technical Delivery.
+                    </div>
+                    
+                    {/* Bifurcation Safety Net */}
+                    <a href="#email-capture" style={{ fontSize: '0.85rem', color: '#cbd5e1', textDecoration: 'underline', marginTop: '0.75rem', textShadow: '0 1px 2px rgba(0,0,0,0.5)', transition: 'color 0.2s', fontWeight: '500' }}>
+                        Or join my newsletter for weekly Medicine 3.0 case studies and metabolic research. [Tap to Access]
                     </a>
                 </motion.div>
 
                 {/* Doctor Identity removed to avoid duplication with top authority signal */}
             </motion.div>
+
+            {/* Purely Technical Disclosure (Bottom-left) */}
+            <div style={{ position: 'absolute', bottom: '20px', left: '20px', fontSize: '0.75rem', color: 'rgba(255,255,255,0.5)', zIndex: 20, letterSpacing: '0.02em', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>
+                Visualization for medical education purposes.
+            </div>
+
+            {/* Authority Stack (Bottom-right) */}
+            <div style={{ position: 'absolute', bottom: '20px', right: '20px', background: 'rgba(32, 178, 170, 0.9)', color: '#FFFFFF', padding: '0.5rem 1rem', borderRadius: '50px', fontSize: '0.8rem', fontWeight: '700', letterSpacing: '0.05em', boxShadow: '0 4px 12px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.2) inset', zIndex: 20, display: 'flex', alignItems: 'center', gap: '8px', backdropFilter: 'blur(4px)' }}>
+                <span style={{ fontSize: '1.1rem' }}>⚕️</span> MEDICALLY REVIEWED BY DR. GAVIN MCAULEY
+            </div>
         </section>
     );
 };
