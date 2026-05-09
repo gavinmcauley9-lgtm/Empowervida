@@ -141,7 +141,7 @@ const HeroSectionHybrid = ({
                     style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}
                 >
                     <a href="/protocol" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-                        Get Your Protocol →
+                        Reclaim My Energy →
                     </a>
                     
                     {/* Anxiety Reducer */}
