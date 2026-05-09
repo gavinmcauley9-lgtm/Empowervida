@@ -2,6 +2,44 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import './HeroSectionHybrid.css';
 
+const FloatingParticles = () => {
+    return (
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', overflow: 'hidden', zIndex: 5, pointerEvents: 'none' }}>
+            {[...Array(25)].map((_, i) => {
+                const size = Math.random() * 3 + 1;
+                const left = Math.random() * 100;
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 12 + 8;
+                return (
+                    <motion.div
+                        key={i}
+                        initial={{ y: '110vh', opacity: 0, x: `${left}vw` }}
+                        animate={{ 
+                            y: '-10vh', 
+                            opacity: [0, 0.6, 0],
+                            x: `calc(${left}vw + ${Math.random() * 100 - 50}px)` 
+                        }}
+                        transition={{
+                            duration: duration,
+                            repeat: Infinity,
+                            delay: delay,
+                            ease: 'linear'
+                        }}
+                        style={{
+                            position: 'absolute',
+                            width: size,
+                            height: size,
+                            borderRadius: '50%',
+                            background: '#20B2AA',
+                            boxShadow: '0 0 8px #20B2AA, 0 0 15px #20B2AA',
+                        }}
+                    />
+                );
+            })}
+        </div>
+    );
+};
+
 const HeroSectionHybrid = ({
     backgroundImage = "/hero_split_screen_mitochondria.png",
     height = "100vh"
@@ -40,6 +78,9 @@ const HeroSectionHybrid = ({
                 {/* Right Side Fade */}
                 <div className="hero-hybrid-right-fade" />
             </div>
+
+            {/* Dynamic CSS Particles Overlay */}
+            <FloatingParticles />
 
             {/* Content Layer */}
             <motion.div
