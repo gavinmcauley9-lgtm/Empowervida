@@ -44,17 +44,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    background: rgba(10, 25, 20, 0.65); /* Dark wash to make text pop */
+    backdrop-filter: blur(2px);
 }
 
 /* Right Side Fade */
 .hero-hybrid-right-fade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+    display: none; /* Hide the white fade, it conflicts with the dark theme */
 }
 
 /* Content */
@@ -85,14 +81,34 @@
 
 /* Main Title */
 .hero-hybrid-title {
-    font-size: clamp(2.5rem, 8vw, 6rem);
+    font-size: clamp(2.5rem, 7vw, 5rem);
     font-weight: 900;
     letter-spacing: -0.04em;
-    color: #1A3C34;
+    color: #FFFFFF;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     font-family: "Manrope", sans-serif;
-    line-height: 0.95;
+    line-height: 1.05;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.text-gradient-award {
+    background: linear-gradient(135deg, #FF5F00 0%, #FF2A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: inline-block;
+    filter: drop-shadow(0 4px 20px rgba(255, 95, 0, 0.15));
+}
+
+.premium-glow {
+    box-shadow: 0 0 20px rgba(32, 178, 170, 0.4), 0 0 0 1px rgba(32, 178, 170, 0.5) inset;
+    background: rgba(255, 255, 255, 0.8) !important;
+    color: #1A3C34 !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 /* Softer Subheadline */
@@ -100,9 +116,10 @@
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: clamp(1.5rem, 4vw, 2.25rem);
     font-weight: 400;
-    color: #1A3C34;
+    color: #f8fafc;
     margin-bottom: 1rem;
     line-height: 1.3;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .hero-hybrid-italic {
