@@ -117,14 +117,15 @@ const HeroSectionHybrid = ({
                 {/* Doctor Identity removed to avoid duplication with top authority signal */}
             </motion.div>
 
-            {/* Purely Technical Disclosure (Bottom-left) */}
-            <div style={{ position: 'absolute', bottom: '20px', left: '20px', fontSize: '0.75rem', color: 'rgba(255,255,255,0.5)', zIndex: 20, letterSpacing: '0.02em', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>
-                Visualization for medical education purposes.
-            </div>
-
-            {/* Authority Stack (Bottom-right) */}
-            <div style={{ position: 'absolute', bottom: '20px', right: '20px', background: 'rgba(32, 178, 170, 0.9)', color: '#FFFFFF', padding: '0.5rem 1rem', borderRadius: '50px', fontSize: '0.8rem', fontWeight: '700', letterSpacing: '0.05em', boxShadow: '0 4px 12px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.2) inset', zIndex: 20, display: 'flex', alignItems: 'center', gap: '8px', backdropFilter: 'blur(4px)' }}>
-                <span style={{ fontSize: '1.1rem' }}>⚕️</span> MEDICALLY REVIEWED BY DR. GAVIN MCAULEY
+            {/* Bottom Elements (Responsive) */}
+            <div className="hero-hybrid-bottom-bar">
+                <div className="hero-hybrid-disclosure">
+                    Visualization for medical education purposes.
+                </div>
+                
+                <div className="hero-hybrid-authority-badge">
+                    <span style={{ fontSize: '1.1rem' }}>⚕️</span> MEDICALLY REVIEWED BY DR. GAVIN MCAULEY
+                </div>
             </div>
         </section>
     );
