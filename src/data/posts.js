@@ -159,15 +159,22 @@ export const POSTS = [
         </ol>
       </div>
       
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
+
       <AuthorBio />
     `
   },
   {
     id: 1,
-    title: 'Your Psychiatrist Got It Wrong: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
+    title: 'The Gut-Brain Axis: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
     category: 'Neuro-Optimization',
     image: '/gut_brain_inflammation.png',
-    excerpt: "She had 5 diagnoses from 5 specialists. One blood test revealed the truth: her gut barrier was shattered. 12 weeks later, everything resolved.",
+    excerpt: "A patient arrived with 5 diagnoses. One blood test revealed the truth: the gut barrier was compromised. Here is the clinical approach to achieving deep remission.",
     date: 'Jan 10, 2026',
     cta: {
       text: "Get Dr. Gavin's Gut Repair Protocol",
@@ -180,7 +187,7 @@ export const POSTS = [
     content: `
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Physician's Perspective</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">She was 38, a highly successful lawyer, and she came to my clinic with five different diagnoses from five different specialists: chronic fatigue, joint pain, brain fog, anxiety, and IBS. Standard medicine had treated each symptom in a silo. Psychiatry gave her SSRIs for anxiety. Rheumatology checked her joints. No one connected the dots. When I ran a simple test for Zonulin, the truth was obvious: her gut barrier was shattered. Here is how we fixed the root cause and resolved all five "diseases" in 12 weeks.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her late thirties came to my clinic with five different diagnoses: chronic fatigue, joint pain, brain fog, anxiety, and IBS. Standard medicine had treated each symptom in a silo. Psychiatry managed the anxiety. Rheumatology checked the joints. No one connected the dots. When I ran a simple test for Zonulin, the truth was obvious: the gut barrier was compromised. Here is how we addressed the root cause and put all five conditions into deep remission.</p>
       </div>
 
       <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
@@ -256,6 +263,13 @@ export const POSTS = [
             <a href="/protocol#gut-stack" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the Gut Integrity Protocol &rarr;</a>
         </div>
       </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
     `
   },  {
     id: 2,
@@ -275,7 +289,7 @@ export const POSTS = [
     content: `
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Physician's Perspective</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">I see this constantly in clinic. High-performing patients in their 40s and 50s sit across from me and say, "Doc, I sleep 8 hours a night, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee." Standard medicine dismisses this as "normal aging" or "just stress." It is neither. That heavy, muddy feeling in your head isn't just "tiredness." It is the physical accumulation of metabolic sewage trapped inside your cranium. Here is the actual physiology of brain fog, and the precise protocol to flush it out.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">I see this constantly in clinic. High-performing patients in their 40s and 50s sit across from me and say, "Doc, I sleep 8 hours a night, but I wake up feeling like I've been hit by a truck. I can't focus until my third coffee." These symptoms are often dismissed in standard 10-minute consults as "normal aging" or "just stress." It is neither. That heavy, muddy feeling in your head isn't just "tiredness." It is the physical accumulation of metabolic sewage trapped inside your cranium. Here is the actual physiology of brain fog, and the precise protocol to flush it out.</p>
       </div>
 
       <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
@@ -325,12 +339,19 @@ export const POSTS = [
         <p style="margin-bottom: 1.5rem;">Stop treating brain fog with more caffeine. You need to structurally trigger deep sleep to activate the glymphatic flush. Here is the 3-step clinical framework:</p>
         <ol style="padding-left: 1.2rem; margin-bottom: 0;">
           <li style="margin-bottom: 1rem;"><strong>Structural Positioning:</strong> Sleep position dictates fluid dynamics. A landmark study in the Journal of Neuroscience found the glymphatic system is vastly more efficient when you sleep on your side (lateral decubitus position) compared to your back or stomach.</li>
-          <li style="margin-bottom: 1rem;"><strong>Thermal Signaling:</strong> Your brain will not enter deep sleep unless your core body temperature drops by 1-2 degrees. Keep your bedroom at 18°C (65°F) and take 3g of Glycine before bed to rapidly lower core temperature.</li>
-          <li style="margin-bottom: 0;"><strong>Neurological Braking (The Sleep Stack):</strong> Most over-the-counter magnesium is oxide or citrate (which are laxatives). To quiet a racing mind and force the transition into delta-wave sleep, you must use a form that crosses the blood-brain barrier. I mandate Magnesium Bisglycinate (400mg) taken 60 minutes before bed to activate GABA pathways.</li>
+          <li style="margin-bottom: 1rem;"><strong>Thermal Signaling:</strong> Your brain will not enter deep sleep unless your core body temperature drops by 1-2 degrees. Keep your bedroom at 18°C (65°F) and clinical protocols typically suggest 3g of Glycine before bed to rapidly lower core temperature.</li>
+          <li style="margin-bottom: 0;"><strong>Neurological Braking (The Sleep Stack):</strong> Most over-the-counter magnesium is oxide or citrate (which are laxatives). To quiet a racing mind and force the transition into delta-wave sleep, you must use a form that crosses the blood-brain barrier. In my clinical protocols, I typically recommend Magnesium Bisglycinate (400mg) taken 60 minutes before bed to activate GABA pathways.</li>
         </ol>
         <div style="margin-top: 2rem; text-align: center;">
             <a href="/protocol#sleep-stack" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the Deep Sleep & Recovery Stack &rarr;</a>
         </div>
+      </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
       </div>
     `
   },
@@ -394,13 +415,20 @@ export const POSTS = [
         <h3 style="font-size: 1.5rem; font-weight: 700; margin-top: 0; color: #20B2AA;">The Architect's Protocol&trade;</h3>
         <p style="margin-bottom: 1.5rem;">Real cognitive enhancement is boring: optimize your sleep, engage in Zone 2 cardiovascular training, and deploy targeted, clinically-dosed compounds. Skip the flashy labels and follow this 3-step daily stack:</p>
         <ol style="padding-left: 1.2rem; margin-bottom: 0;">
-          <li style="margin-bottom: 1rem;"><strong>The Energy Buffer:</strong> Take 5g of Creatine Monohydrate daily. Timing doesn't matter, just ensure the cellular saturation remains high.</li>
-          <li style="margin-bottom: 1rem;"><strong>The Structural Base:</strong> Take 2g-3g of clinical-grade Omega-3s daily, ensuring a high ratio of DHA to EPA for maximum neuro-penetration.</li>
-          <li style="margin-bottom: 0;"><strong>The Focus Switch:</strong> Take 250mg - 500mg of CDP-Choline in the morning or 30 minutes before deep work to fuel Acetylcholine production.</li>
+          <li style="margin-bottom: 1rem;"><strong>The Energy Buffer:</strong> Clinical protocols typically utilize 5g of Creatine Monohydrate daily. Timing doesn't matter, just ensure the cellular saturation remains high.</li>
+          <li style="margin-bottom: 1rem;"><strong>The Structural Base:</strong> Clinical protocols suggest 2g-3g of clinical-grade Omega-3s daily, ensuring a high ratio of DHA to EPA for maximum neuro-penetration.</li>
+          <li style="margin-bottom: 0;"><strong>The Focus Switch:</strong> I typically recommend 250mg - 500mg of CDP-Choline in the morning or 30 minutes before deep work to fuel Acetylcholine production.</li>
         </ol>
         <div style="margin-top: 2rem; text-align: center;">
             <a href="/protocol#clarity-stack" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the Cognitive Clarity Stack &rarr;</a>
         </div>
+      </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
       </div>
     `
   },
@@ -458,13 +486,20 @@ export const POSTS = [
         <h3 style="font-size: 1.5rem; font-weight: 700; margin-top: 0; color: #20B2AA;">The Architect's Protocol&trade;</h3>
         <p style="margin-bottom: 1.5rem;">I do not rely on a single form of magnesium. I use a dual-pathway approach to target both the brain (cognition) and the nervous system (sleep). Here is exactly what I prescribe:</p>
         <ol style="padding-left: 1.2rem; margin-bottom: 0;">
-          <li style="margin-bottom: 1rem;"><strong>Morning/Daytime Cognitive Support:</strong> Take 144mg of elemental magnesium derived from 2,000mg of Magnesium L-Threonate. This crosses the BBB to buffer synaptic plasticity and clear afternoon brain fog.</li>
-          <li style="margin-bottom: 1rem;"><strong>Evening/Bedtime Nervous System Braking:</strong> Take 400mg of Magnesium Bisglycinate 60 minutes before bed. This form binds to glycine receptors to rapidly lower core body temperature and induce deep, restorative delta-wave sleep.</li>
+          <li style="margin-bottom: 1rem;"><strong>Morning/Daytime Cognitive Support:</strong> Clinical protocols typically suggest 144mg of elemental magnesium derived from 2,000mg of Magnesium L-Threonate. This crosses the BBB to buffer synaptic plasticity and clear afternoon brain fog.</li>
+          <li style="margin-bottom: 1rem;"><strong>Evening/Bedtime Nervous System Braking:</strong> Clinical protocols suggest 400mg of Magnesium Bisglycinate 60 minutes before bed. This form binds to glycine receptors to rapidly lower core body temperature and induce deep, restorative delta-wave sleep.</li>
           <li style="margin-bottom: 0;"><strong>Dietary Foundation:</strong> Supplementation works best when the baseline isn't depleted. Incorporate high-magnesium foods like pumpkin seeds, spinach, and almonds into your daily diet.</li>
         </ol>
         <div style="margin-top: 2rem; text-align: center;">
             <a href="/shop" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the MIT-Backed Magtein Formula &rarr;</a>
         </div>
+      </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
       </div>
     `
   },
@@ -537,6 +572,13 @@ export const POSTS = [
         <div style="margin-top: 2rem; text-align: center;">
             <a href="/protocol#neurolongevity-stack" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the Neurolongevity Protocol &rarr;</a>
         </div>
+      </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
       </div>
     `
   },
@@ -748,7 +790,7 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This drives me mad. Standard medicine checks the petrol gauge but never looks under the bonnet.
+        This is a structural problem. Standard 10-minute consults check the petrol gauge, but rarely have time to look under the bonnet.
       </p>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Mitochondrial Crisis</h2>
@@ -782,7 +824,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, if youre exhausted and your labs are "normal," your mitochondria are probably struggling. Standard medicine wont tell you this because we dont routinely test for it.
+        At the end of the day, if youre exhausted and your labs are "normal," your mitochondria are probably struggling. Standard metabolic panels won't show you this because they aren't designed to test for it.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1062,7 +1104,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          A 55-year-old business owner came to me with three separate complaints: persistent joint stiffness (he had been referred to a rheumatologist), chronic fatigue (attributed to "work stress"), and stubborn visceral fat that would not shift despite regular exercise. His previous doctors had treated each symptom in isolation: anti-inflammatories for the joints, an SSRI trial for the fatigue, and a referral to a dietician for the weight. None had tested his hs-CRP. It came back at 5.8 mg/L, nearly six times the optimal level. His fasting insulin was 14 mIU/L. These two numbers told the entire story: chronic systemic inflammation was driving every one of his symptoms simultaneously. We implemented a 90-day protocol: eliminated seed oils, reduced refined carbohydrates, started Omega-3 fish oil at 3g daily, added NAC 600mg twice daily, and introduced Zone 2 walking for 30 minutes five mornings per week. At his recheck, hs-CRP had dropped to 1.8 mg/L. His joint stiffness had reduced by roughly 70%, his energy was markedly improved, and he had lost 4kg of visceral fat without caloric restriction. Three doctors had treated the branches. We treated the root.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in his mid-fifties presented with three separate complaints: persistent joint stiffness, chronic fatigue, and stubborn visceral fat that would not shift despite regular exercise. In standard practice, these complex symptoms are often siloed and treated in isolation: anti-inflammatories for the joints, an SSRI trial for the fatigue, and a referral to a dietician for the weight. However, his hs-CRP came back at 5.8 mg/L, and his fasting insulin was 14 mIU/L. These two numbers pointed to chronic systemic inflammation driving the symptoms simultaneously. We implemented a 90-day protocol: eliminated seed oils, reduced refined carbohydrates, started Omega-3 fish oil at 3g daily, added NAC 600mg twice daily, and introduced Zone 2 walking for 30 minutes five mornings per week. At the recheck, hs-CRP had dropped to 1.8 mg/L, joint stiffness was significantly reduced, energy was improved, and there was a noticeable reduction in visceral fat. By shifting the focus to systemic inflammation, we were able to address the underlying driver rather than just managing the branches.
         </p>
       </div>
 
@@ -1281,7 +1323,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Perspective: The "Normal" Patient</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Last November, a 34-year-old software engineer sat in my clinic. She came in complaining of overwhelming fatigue, describing a heavy "brain fog" that rolled in every afternoon, and a dark, lethargic mood that she couldn’t shake. She thought she was clinically depressed. She was already considering asking for an SSRI.
+        <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her mid-thirties recently sat in my clinic. She came in complaining of overwhelming fatigue, describing a heavy "brain fog" that rolled in every afternoon, and a dark, lethargic mood that she couldn’t shake. She thought she was clinically depressed. She was already considering asking for an SSRI.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1661,7 +1703,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          A 28-year-old accountant came to me after eighteen months on Sertraline (an SSRI) with minimal improvement. She described persistent low-grade anxiety, brain fog that worsened after meals, and joint stiffness that seemed bizarre for her age. Her previous GP had told her the anxiety was "just work stress." I ran an hs-CRP: it came back at 4.2 mg/L, nearly four times the optimal level. Her fasting insulin was also elevated at 12 mIU/L. She was not mentally ill. She was systemically inflamed. We eliminated seed oils and refined sugar, started a targeted probiotic (Lactobacillus and Bifidobacterium strains), and added Curcumin Phytosome 500mg twice daily. At eight weeks, her hs-CRP had dropped to 1.4 mg/L. She described the brain fog as "lifting like a curtain." At twelve weeks, she and her psychiatrist began tapering the SSRI, which she no longer felt she needed. The anxiety was not a psychiatric disorder. It was a fire alarm.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her late twenties came to me after eighteen months on an SSRI with minimal improvement. She described persistent low-grade anxiety, brain fog that worsened after meals, and joint stiffness that seemed bizarre for her age. She had previously been told the anxiety was "just work stress." Her hs-CRP came back at 4.2 mg/L, nearly four times the optimal level. Her fasting insulin was also elevated at 12 mIU/L. She was systemically inflamed. We eliminated seed oils and refined sugar, started a targeted probiotic, and added Curcumin Phytosome 500mg twice daily. At eight weeks, her hs-CRP had dropped to 1.4 mg/L. She described the brain fog as "lifting like a curtain." At twelve weeks, she and her psychiatrist began tapering the medication, which she no longer felt she needed. The anxiety was not a psychiatric disorder. It was a fire alarm.
         </p>
       </div>
 
@@ -1999,7 +2041,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          A 52-year-old patient came to me with an HbA1c of 6.2% (pre-diabetic), chronic joint stiffness, and skin that she described as looking "ten years older than it should." Her GP had told her the HbA1c was "borderline" and to "watch it." Instead, we implemented the full anti-glycation protocol: she eliminated liquid sugar entirely, walked for 15 minutes after each meal, started Berberine Phytosome 500mg twice daily, and added Carnosine 500mg for direct AGE inhibition. At her 90-day recheck, her HbA1c had dropped to 5.4%. She reported that her joint stiffness had reduced noticeably and, in her words, "my face looks less tired." By six months, she was at 5.1% and her fasting insulin had normalised. She had not lost significant weight. The glycation reversal alone had made her look and feel younger.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her early fifties came to me with an HbA1c of 6.2% (pre-diabetic), chronic joint stiffness, and skin that she described as looking "ten years older than it should." In standard practice, an HbA1c of 6.2% is often dismissed as "borderline" with advice to just "watch it." Instead of waiting for disease to manifest, we implemented the full anti-glycation protocol: she eliminated liquid sugar entirely, walked for 15 minutes after each meal, started Berberine Phytosome 500mg twice daily, and added Carnosine 500mg for direct AGE inhibition. At her 90-day recheck, her HbA1c had dropped to 5.4%. She reported that her joint stiffness had reduced noticeably and, in her words, "my face looks less tired." By six months, she was at 5.1% and her fasting insulin had normalised. She had not lost significant weight. The glycation reversal alone had made her look and feel younger.
         </p>
       </div>
 
@@ -2478,7 +2520,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          A 38-year-old nurse came to me after two years of worsening insomnia. She was working rotating shifts (days and nights) and her sleep was destroyed. She was taking 10mg melatonin nightly with no effect, drinking four coffees a day to function, and had gained 8kg of visceral fat despite exercising regularly. Her salivary cortisol test showed a classic inverted curve: low morning cortisol (she could barely wake up) and elevated evening cortisol (still in "fight mode" at midnight). We eliminated caffeine after 10 AM, started Ashwagandha KSM-66 with dinner, added Phosphatidylserine 300mg at 8 PM, and replaced her 10mg melatonin with 0.3mg. Within three weeks, her sleep onset time dropped from 45 minutes to under 15 minutes. By six weeks, she described feeling "restored" for the first time in years. Her morning cortisol normalised, and the visceral weight began to shift without any dietary changes. The cortisol was the keystone; once it fell into place, everything else followed.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A shift worker in her late thirties came to me after two years of worsening insomnia. She was working rotating shifts and her sleep was destroyed. She was taking high-dose melatonin nightly with no effect, drinking four coffees a day to function, and had gained visceral fat despite exercising regularly. Her salivary cortisol test showed a classic inverted curve: low morning cortisol and elevated evening cortisol. We eliminated caffeine after 10 AM, started Ashwagandha KSM-66 with dinner, added Phosphatidylserine 300mg at 8 PM, and replaced her high-dose melatonin with 0.3mg. Within three weeks, her sleep onset time dropped significantly. By six weeks, she described feeling "restored" for the first time in years. Her morning cortisol normalised, and the visceral weight began to shift without any dietary changes. The cortisol was the keystone; once it fell into place, everything else followed.
         </p>
       </div>
 
@@ -2515,6 +2557,13 @@ export const POSTS = [
         <li>Wambier, C. G., et al. (2018). "Cortisol levels and hair loss." Journal of Drugs in Dermatology.</li>
       </ul>
       </ul>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
     `
   },
   {
@@ -3139,7 +3188,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          A 45-year-old recreational runner came to me frustrated by declining performance. His 10K time had drifted from 48 minutes to 54 minutes over three years despite maintaining the same training volume. Bloodwork was "normal" by conventional standards. I started him on 5g creatine monohydrate plus 500mg NMN daily, alongside optimising his sleep to 7.5 hours. At six weeks, he reported noticeably faster recovery between interval sessions. By twelve weeks, his 10k time had improved to 50:30, approximately 3.5 minutes faster. More importantly, the afternoon "crash" he had accepted as normal had largely resolved. His subjective energy at 4 PM matched his morning levels for the first time in years. The dual pathway strategy had restored what age had silently taken.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A recreational athlete in his mid-forties came to me frustrated by declining performance. His running times had drifted significantly over three years despite maintaining the same training volume. Bloodwork was "normal" by conventional standards. I started him on 5g creatine monohydrate plus 500mg NMN daily, alongside optimising his sleep to 7.5 hours. At six weeks, he reported noticeably faster recovery between interval sessions. By twelve weeks, his performance times had improved noticeably. More importantly, the afternoon "crash" he had accepted as normal had largely resolved. His subjective energy at 4 PM matched his morning levels for the first time in years. The dual pathway strategy had restored what age had silently taken.
         </p>
       </div>
 
@@ -3398,7 +3447,7 @@ export const POSTS = [
       
       <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #663399; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #663399; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">FEATURED: NEUROLONGEVITY</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same, and it's reversible. Here's the science.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same, and it is highly modifiable. Here's the science.</p>
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
@@ -3413,15 +3462,16 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I remember a couple who came to see me, let's call the wife Mary. She was in her mid-sixties, lean, and physically active; she'd often arrive for her appointments in outdoor leisure gear, fresh from a walk. But her husband was worried, her friends were worried, and Mary was becoming noticeably forgetful.
+        <em>(Note: To protect patient privacy, the following is a composite case study representing a common clinical presentation.)</em><br><br>
+        Consider a clinical scenario I see far too often in longevity medicine: a patient presents with signs of early-onset cognitive decline, yet on paper, all their standard lab work comes back "normal." The patient is often physically active, perhaps in their sixties, but their spouse or friends have noticed significant, uncharacteristic forgetfulness.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I ran the standard screens: full blood count, iron, thyroid. On paper, she was perfect. I was at a loss for a "quick fix," so I referred her to a Geriatrician. The MRI was normal, no drugs were started, and the working diagnosis was early-onset dementia.
+        When I run the standard screens—full blood count, iron, thyroid—everything appears perfect. In the past, the reactive protocol would simply be a referral to a Geriatrician, a normal MRI, and a working diagnosis of early-onset dementia.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the time, before I transitioned into holistic health and functional medicine, I wasn't equipped with the knowledge I have now. I followed the reactive protocol. But looking back, I realise that while Mary was fit, her brain was likely starving in plain sight. Whether we call it "brain fog," age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself.
+        At the time, before I transitioned into holistic health and functional medicine, I wasn't equipped with the knowledge I have now. I followed the reactive protocol. But looking back, I realise that while this patient profile appears physically fit, their brain is likely starving in plain sight. Whether we call it "brain fog," age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science of the Starving Neuron</h2>
@@ -3694,7 +3744,7 @@ export const POSTS = [
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">A Second Case: Beyond the Spine</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          Collagen supplementation is not limited to spinal degeneration. A 48-year-old yoga instructor came to me with medial compartment knee pain. Her MRI showed Grade II cartilage loss on the medial femoral condyle. Her orthopaedic surgeon had recommended a partial knee replacement within five years. I started her on 10g hydrolysed collagen peptides plus 40mg UC-II daily, combined with 1g Vitamin C and ensured her Vitamin D was above 50 ng/mL. At six months, her pain had reduced by approximately 60%. She was able to resume full yoga practice including deep squats. At twelve months, a follow-up MRI showed no further cartilage loss, and her radiologist noted "possible early cartilage remodelling" in the affected compartment. This is not a miracle. It is biochemistry: when you provide the raw materials and the cofactors, the body has an extraordinary capacity for repair, even in avascular tissues, if given enough time and consistency.
+          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>Collagen supplementation is not limited to spinal degeneration. A fitness instructor in her late forties came to me with medial compartment knee pain. Her MRI showed cartilage loss on the medial femoral condyle. Standard surgical consultation often recommends joint replacement within a few years for this progression. Instead, we started her on 10g hydrolysed collagen peptides plus 40mg UC-II daily, combined with 1g Vitamin C and ensured her Vitamin D was above 50 ng/mL. At six months, her pain had reduced significantly. She was able to resume her practice including deep squats. At twelve months, a follow-up MRI showed no further cartilage loss, and her radiologist noted "possible early cartilage remodelling" in the affected compartment. This is not a miracle. It is biochemistry: when you provide the raw materials and the cofactors, the body has an extraordinary capacity for repair, even in avascular tissues, if given enough time and consistency.
         </p>
       </div>
 
@@ -3878,6 +3928,13 @@ export const POSTS = [
           <span style="color: var(--color-accent-teal);">Don't let the "silent suffocation" steal your years.</span>
         </p>
       </div>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+        </p>
+      </div>
     `
   },
   {
@@ -3885,7 +3942,7 @@ export const POSTS = [
     slug: 'glycine-and-nac-glynac-take-together',
     title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/glynac_glutathione_synthesis.png',
     excerpt: "The combination that restores glutathione and reverses ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.",
     date: 'Jan 9, 2026',
     cta: {
@@ -4003,6 +4060,7 @@ export const POSTS = [
   {
     id: 33,
     slug: '3am-wake-up-brain-lacking-gaba',
+    aliases: ['magnesium-threonate-vs-glycinate-sleep-brain-fog-medical-guide'],
     title: 'The 3 AM Wake-Up: Is Your Brain Lacking the "Quiet" Mineral?',
     category: 'Neuro-Optimization',
     image: '/sleep_architecture_magnesium.webp',
@@ -4037,7 +4095,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Recently, I treated a successful 50-year-old entrepreneur. He told me, "Doctor, I fall asleep instantly at 10 PM. But every single night, at exactly 3:15 AM, my eyes snap open. My heart is pounding, my mind is racing about an email I have to send, and I cannot get back to sleep for two hours."
+        <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>Recently, I treated a professional in his fifties who came to me exhausted. He told me, "Doctor, I fall asleep instantly at 10 PM. But every single night, at exactly 3:15 AM, my eyes snap open. My heart is pounding, my mind is racing, and I cannot get back to sleep for two hours."
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -5288,7 +5346,7 @@ export const POSTS = [
     slug: 'coq10-and-pqq-take-together-physician-guide',
     title: 'CoQ10 and PQQ: Can You Take Them Together? (Physician\'s Guide)',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/coq10_pqq_mitochondria.png',
     excerpt: "CoQ10 protects existing mitochondria. PQQ creates new mitochondria. A physician explains why this is the ultimate mitochondrial support combination.",
     date: 'Jan 9, 2026',
     cta: {
@@ -5385,7 +5443,7 @@ export const POSTS = [
     slug: 'creatine-and-berberine-take-together-physician-guide',
     title: 'Creatine and Berberine: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/creatine_berberine_ampk.png',
     excerpt: "Discover the physiological interactions between Creatine and Berberine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
@@ -5465,7 +5523,7 @@ export const POSTS = [
     slug: 'omega-3-and-curcumin-take-together-physician-guide',
     title: 'Omega-3 and Curcumin: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/omega3_curcumin_inflammation.png',
     excerpt: "Combining Omega-3 and Curcumin can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
@@ -5537,7 +5595,7 @@ export const POSTS = [
     id: 46,
     title: 'Vitamin C and Quercetin: Can You Take Them Together?',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/vit_c_quercetin_immune.png',
     excerpt: 'Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.',
     date: 'Jan 10, 2026',
     cta: {
@@ -5632,7 +5690,7 @@ export const POSTS = [
     id: 47,
     title: 'Collagen and Vitamin C: Can You Take Them Together?',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/collagen_vitc_synthesis.png',
     excerpt: 'You MUST take them together. Collagen without vitamin C is biochemically pointless. A physician explains why.',
     date: 'Jan 10, 2026',
     cta: {
@@ -5730,7 +5788,7 @@ export const POSTS = [
     slug: 'vitamin-k2-and-vitamin-d-take-together-physician-guide',
     title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/vitk2_vitd_bone.png',
     excerpt: "Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
@@ -5803,7 +5861,7 @@ export const POSTS = [
     slug: 'ashwagandha-and-rhodiola-take-together-physician-guide',
     title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/ashwagandha_rhodiola_adaptogen.png',
     excerpt: "A physician's deep dive into the pharmacokinetics of Ashwagandha and Rhodiola. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
@@ -5877,7 +5935,7 @@ export const POSTS = [
     slug: 'b12-and-folate-take-together-physician-guide',
     title: 'B12 and Folate: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/b12_folate_methylation.png',
     excerpt: "Is it safe to stack B12 with Folate? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
@@ -5955,7 +6013,7 @@ export const POSTS = [
     slug: 'iron-and-vitamin-c-take-together-physician-guide',
     title: 'Iron and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/iron_vitc_absorption.png',
     excerpt: "We examine the systemic effects of taking Iron alongside Vitamin C. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6031,7 +6089,7 @@ export const POSTS = [
     slug: 'alpha-lipoic-acid-and-acetyl-l-carnitine-together',
     title: 'Alpha-Lipoic Acid and Acetyl-L-Carnitine: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/ala_alcar_mitochondria.png',
     excerpt: "Discover the physiological interactions between Alpha-Lipoic Acid and Acetyl-L-Carnitine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6109,7 +6167,7 @@ export const POSTS = [
     slug: 'lysine-and-arginine-take-together-physician-guide',
     title: 'Lysine and Arginine: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/lysine_arginine_competition.png',
     excerpt: "Combining Lysine and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6189,7 +6247,7 @@ export const POSTS = [
     slug: 'same-and-b-vitamins-take-together-physician-guide',
     title: 'SAMe and B-vitamins: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/same_bvitamins_synergy.png',
     excerpt: "Should you stack SAMe with B-vitamins? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6273,7 +6331,7 @@ export const POSTS = [
     slug: 'collagen-and-vitamin-c-take-together-physician-guide',
     title: 'Collagen and Vitamin C: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/collagen_vitc_matrix.png',
     excerpt: "Before pairing Collagen and Vitamin C, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6356,7 +6414,7 @@ export const POSTS = [
     slug: 'omega-3-and-aspirin-take-together-physician-guide',
     title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/omega3_aspirin_blood.png',
     excerpt: "Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6430,7 +6488,7 @@ export const POSTS = [
     slug: 'cbd-and-melatonin-take-together-physician-guide',
     title: 'CBD and Melatonin: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/cbd_melatonin_sleep.png',
     excerpt: "A physician's deep dive into the pharmacokinetics of CBD and Melatonin. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6510,7 +6568,7 @@ export const POSTS = [
     slug: 'calcium-and-vitamin-d-take-together-physician-guide',
     title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/calcium_vitd_bone.png',
     excerpt: "Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6586,7 +6644,7 @@ export const POSTS = [
     slug: 'lions-mane-and-bacopa-take-together-physician-guide',
     title: 'Lions Mane and Bacopa: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/lions_mane_bacopa_brain.png',
     excerpt: "We examine the systemic effects of taking Lions Mane alongside Bacopa. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6664,7 +6722,7 @@ export const POSTS = [
     slug: 'gaba-and-l-theanine-take-together-physician-guide',
     title: 'GABA and L-Theanine: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/gaba_theanine_calm.png',
     excerpt: "Discover the physiological interactions between GABA and L-Theanine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6741,7 +6799,7 @@ export const POSTS = [
     slug: '5-htp-and-tryptophan-take-together-physician-guide',
     title: '5-HTP and Tryptophan: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/5htp_tryptophan_serotonin.png',
     excerpt: "Combining 5-HTP and Tryptophan can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6823,7 +6881,7 @@ export const POSTS = [
     slug: 'boswellia-and-fish-oil-take-together-physician-guide',
     title: 'Boswellia and Fish Oil: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/boswellia_fishoil_joint.png',
     excerpt: "Should you stack Boswellia with Fish Oil? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
     cta: {
@@ -6897,7 +6955,7 @@ export const POSTS = [
     id: 63,
     title: 'Creatine and Beta Alanine: Can You Take Them Together?',
     category: 'Metabolic Flexibility',
-    image: '/supplement_synergy.png',
+    image: '/creatine_beta_alanine_synergy.png',
     excerpt: 'Yes. This is the classic sports performance stack, and it works. But creatine isnt just for gym bros.',
     date: 'Jan 10, 2026',
     cta: {
