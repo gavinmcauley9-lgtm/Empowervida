@@ -3448,21 +3448,17 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>NAD+ precursors:</strong> Nicotinamide riboside (NR) or nicotinamide mononucleotide (NMN) at 300-500mg daily, taken in the morning. NAD+ levels follow a circadian rhythm, peaking in the morning, so dosing early optimises this natural cycle.
+        <strong>NAD+ precursors:</strong> Nicotinamide riboside (NR) or nicotinamide mononucleotide (NMN) at 300-500mg daily, taken in the morning. NAD+ levels follow a circadian rhythm, peaking in the morning, so dosing early optimises this natural cycle. For optimal adherence, both supplements can be consumed together during the first meal of the day.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Perspective</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Clinical observation suggests that combining creatine and NAD+ precursors can yield noticeable cognitive and physical improvements within several weeks. Patients frequently report sharper focus, reduced afternoon fatigue, and enhanced exercise recovery. Mechanistically, this aligns with creatine supporting ATP recycling in neurons (particularly the prefrontal cortex), while NAD+ supports broad mitochondrial function.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Can you take them at the same time?</strong> Yes. There is no pharmacological interaction. I take both with my morning coffee.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physicians Note</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In my clinical experience, combining creatine and NAD+ precursors produces noticeable cognitive improvements within 2-3 weeks. Patients report sharper focus, reduced afternoon fatigue, and better exercise recovery. The mechanism makes sense: creatine supports ATP recycling in neurons (particularly the prefrontal cortex), while NAD+ supports mitochondrial function brain wide.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is one of my core recommendations for patients over 40, when both NAD+ and creatine levels begin to decline naturally.
+        This combined approach is often highly relevant for adults over 40, as endogenous levels of both NAD+ and creatine naturally decline.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Who Should Consider This Stack</h2>
@@ -3500,9 +3496,9 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A recreational athlete in his mid-forties came to me frustrated by declining performance. His running times had drifted significantly over three years despite maintaining the same training volume. Bloodwork was "normal" by conventional standards. I started him on 5g creatine monohydrate plus 500mg NMN daily, alongside optimising his sleep to 7.5 hours. At six weeks, he reported noticeably faster recovery between interval sessions. By twelve weeks, his performance times had improved noticeably. More importantly, the afternoon "crash" he had accepted as normal had largely resolved. His subjective energy at 4 PM matched his morning levels for the first time in years. The dual pathway strategy had restored what age had silently taken.
+          It is a common clinical presentation for recreational athletes in their mid-forties to experience frustration over declining performance metrics despite maintaining training volume and having "normal" bloodwork. In these scenarios, introducing 5g of creatine monohydrate alongside 500mg NMN daily—while concurrently optimizing sleep architecture—often yields significant subjective and objective improvements. Within weeks, patients frequently report faster recovery between interval sessions and the resolution of the afternoon "crash." A dual-pathway bioenergetic strategy helps address these silent, age-related metabolic deficits.
         </p>
       </div>
 
@@ -3546,9 +3542,9 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
         </p>
       </div>
     
