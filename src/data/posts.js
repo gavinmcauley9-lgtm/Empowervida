@@ -1983,7 +1983,7 @@ export const POSTS = [
       
       <p>Why? If your body is resting, why is your brain failing?</p>
 
-      <p>Many patients describe the afternoon energy crash not as a mild dip, but as a physical wall. This profound cellular fatigue often occurs during consultations or work meetings, where cognitive stamina simply shuts down despite the body remaining rested. Standard interventions like espresso or power naps fail because they only treat the symptom, not the underlying biology. When patients understand that their brain is running out of ATP—actual cellular fuel—and begin targeted interventions like creatine supplementation, the energy wall shifts or disappears entirely. This is an issue of cellular energy economics, not a lack of discipline.</p>
+      <p>Many patients describe the afternoon energy crash not as a mild dip, but as a physical wall. This profound cellular fatigue often occurs during consultations or work meetings, where cognitive stamina simply shuts down despite the body remaining rested. Standard interventions like espresso or power naps fail because they only treat the symptom, not the underlying biology. When patients understand that their brain is running out of ATP—actual cellular fuel—and begin targeted interventions like creatine supplementation, they frequently report a noticeable improvement in cognitive endurance. This is an issue of cellular energy economics, not a lack of discipline.</p>
       
       <h2>The Medical Truth: You are suffering from a Cerebral Energy Crisis.</h2>
       
@@ -2043,9 +2043,9 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Observation</h2>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          I started recommending creatine to my chronically fatigued patients three years ago. The pattern I noticed was striking: patients who were sleeping seven hours, eating well, and exercising were still hitting a cognitive wall at 2 PM. Their blood work was pristine. Their thyroid was normal. But their brains were simply running out of fuel. Within two weeks of adding 5g of creatine monohydrate to their morning routine, over 70% reported that the afternoon crash either disappeared or became manageable. One patient, a barrister in her 50s, told me it was "like someone plugged my brain back in after lunch." This is not placebo. A 2018 systematic review in Experimental Gerontology confirmed that creatine supplementation significantly improves short-term memory and reasoning, particularly under conditions of stress or sleep deprivation.
+          In clinical practice, it is common to observe high-performing individuals who sleep seven hours, eat well, and exercise, yet still hit a cognitive wall at 2 PM. Their blood work appears pristine and their thyroid is normal, but their brains are simply exhausting their available cellular energy. When a bioenergetic approach is introduced—specifically the addition of 5g of creatine monohydrate to support ATP recycling—many report a substantial increase in afternoon cognitive stamina. This clinical observation aligns closely with the literature: a 2018 systematic review in Experimental Gerontology confirmed that creatine supplementation significantly improves short-term memory and reasoning, particularly under conditions of high cognitive demand or sleep deprivation.
         </p>
       </div>
 
@@ -2114,8 +2114,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 `
   },
