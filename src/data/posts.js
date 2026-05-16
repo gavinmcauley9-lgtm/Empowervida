@@ -2944,21 +2944,21 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Thats because they were. Biologically, they were.
+        That is because, on a cellular level, their energy production had stalled.
       </p>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Hidden Decade</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Heres what they dont teach in medical school (or at least, they didnt teach me): insulin rises years, sometimes decades, before glucose does.
+        Here is what is frequently underemphasized in standard medical training: insulin rises years, sometimes decades, before fasting glucose does.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your pancreas is screaming, flooding your bloodstream with insulin to force glucose into resistant cells. But your blood work? Its whispering. Everything looks "normal."
+        The pancreas floods the bloodstream with insulin to force glucose into resistant cells. But standard blood work only looks at the glucose, which appears "normal."
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        By the time glucose finally rises to the point where your doctor notices, the engine has been grinding for years. This drives me mad. We could catch this so much earlier.
+        By the time glucose finally rises to the point of a clinical diagnosis, the metabolic engine has been grinding for years. This represents a massive missed clinical opportunity. We can catch this much earlier.
       </p>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Insulin Resistance is a Safety Protocol</h2>
@@ -3002,7 +3002,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">A Clinical Approach to Sustainable Fat Loss</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Ill be upfront. Before I talk supplements, heres what actually moved the needle:
+        Before discussing targeted supplementation, here is the foundational protocol that actually shifts metabolic markers:
       </p>
   
       
@@ -3055,7 +3055,7 @@ export const POSTS = [
         <li style="margin-bottom: 0.75rem;"><strong>Creatine (5g daily):</strong> Not just for gym bros. Its the rapid response fuel that keeps your cellular gears spinning.</li>
         <li style="margin-bottom: 0.75rem;"><strong>CoQ10 / Ubiquinol (100 to 200mg daily):</strong> The lubricant that allows electrons to slide through your mitochondria without friction.</li>
         <li style="margin-bottom: 0.75rem;"><strong>GlyNAC (Glycine 2g + NAC 1.2g daily):</strong> Restores glutathione. Think of it as the degreaser that washes the metabolic grit out of your engines.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Berberine (500mg 2x daily):</strong> Natural glucose disposal agent. I use this personally.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Berberine (500mg 2x daily):</strong> A potent botanical compound that acts as a natural glucose disposal agent.</li>
       </ul>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Test You Should Ask For</h2>
@@ -3069,10 +3069,10 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Standard medicine waits for the river to back up before it acts. I look at the factory turbines smoking years earlier.
+        Standard medicine often waits for the river to back up before intervening. Proactive longevity medicine evaluates the factory turbines smoking years earlier.
       </p>
   
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
+      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Physician's Perspective</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Restoring metabolic health requires a foundational approach: degreasing the cellular engine and reversing systemic inflammation.
@@ -3087,9 +3087,9 @@ export const POSTS = [
       </p>
   
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before making changes to your diet, exercise, or supplement regimen.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before making changes to your diet, exercise, or supplement regimen.
         </p>
       </div>
     `
