@@ -2246,9 +2246,9 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her early fifties came to me with an HbA1c of 6.2% (pre-diabetic), chronic joint stiffness, and skin that she described as looking "ten years older than it should." In standard practice, an HbA1c of 6.2% is often dismissed as "borderline" with advice to just "watch it." Instead of waiting for disease to manifest, we implemented the full anti-glycation protocol: she eliminated liquid sugar entirely, walked for 15 minutes after each meal, started Berberine Phytosome 500mg twice daily, and added Carnosine 500mg for direct AGE inhibition. At her 90-day recheck, her HbA1c had dropped to 5.4%. She reported that her joint stiffness had reduced noticeably and, in her words, "my face looks less tired." By six months, she was at 5.1% and her fasting insulin had normalised. She had not lost significant weight. The glycation reversal alone had made her look and feel younger.
+          In standard practice, an HbA1c of 6.2% is often dismissed as "borderline" with the vague advice to just "watch it." However, from a longevity perspective, this indicates active and accelerating glycation. When patients presenting with "borderline" HbA1c, chronic joint stiffness, and accelerated skin aging adopt a comprehensive anti-glycation approach—eliminating liquid sugars, walking after meals, and incorporating AMPK activators like Berberine Phytosome alongside Carnosine—it is common to observe a meaningful downward trend in HbA1c. As these metabolic markers improve, patients frequently report a corresponding reduction in joint stiffness and an improvement in overall vitality, demonstrating the profound systemic impact of halting the glycation process.
         </p>
       </div>
 
@@ -2270,13 +2270,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/insulin-story" style="color: #667eea; text-decoration: underline;">The Insulin Story: Metabolic Repair</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
-      </div>
-
-      
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>The Hierarchy:</strong> You cannot supplement your way out of a glycation crisis. The single most impactful intervention is dietary: eliminate liquid sugar (fruit juice, soft drinks, sweetened coffee) and reduce refined carbohydrates. This alone can drop HbA1c by 0.5-1.0% within three months. Layer in resistance training to build muscle, your largest glucose sink. Add 10-minute post-meal walks to blunt glucose spikes. <em>Then</em> consider targeted supplementation: Berberine 500mg twice daily, Alpha-Lipoic Acid 300mg, and Carnosine 500mg to directly inhibit AGE formation.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
