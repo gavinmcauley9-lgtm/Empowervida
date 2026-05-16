@@ -637,7 +637,45 @@ const Shop = () => {
                                             </div>
                                         ) : (
                                             <>
-
+                                                {/* Primary Button: iHerb */}
+                                                <a
+                                                    href={product.iherbLink}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    onClick={() => {
+                                                        if (typeof window !== 'undefined' && window.gtag) {
+                                                            window.gtag('event', 'iherb_outbound_click', {
+                                                                event_category: 'ecommerce',
+                                                                event_label: product.name,
+                                                                value: 1
+                                                            });
+                                                        }
+                                                    }}
+                                                    style={{
+                                                        display: 'block',
+                                                        backgroundColor: 'var(--color-accent-teal)',
+                                                        color: '#0B0F11',
+                                                        padding: '0.8rem 2rem',
+                                                        borderRadius: '8px',
+                                                        textDecoration: 'none',
+                                                        fontSize: '0.95rem',
+                                                        fontWeight: 700,
+                                                        textAlign: 'center',
+                                                        marginBottom: '1rem',
+                                                        boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
+                                                        transition: 'all 0.3s ease'
+                                                    }}
+                                                    onMouseEnter={(e) => {
+                                                        e.target.style.transform = 'translateY(-2px)';
+                                                        e.target.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
+                                                    }}
+                                                    onMouseLeave={(e) => {
+                                                        e.target.style.transform = 'translateY(0)';
+                                                        e.target.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
+                                                    }}
+                                                >
+                                                    BUY DIRECT (IHERB)
+                                                </a>
 
                                                 {/* Secondary Button: Amazon */}
                                                 <a

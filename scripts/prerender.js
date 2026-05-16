@@ -25,8 +25,12 @@ const routes = [
 
 // Add all blog posts
 POSTS.forEach(post => {
-  if (post.slug) {
-    routes.push(`/blog/${post.slug}`);
+  const urlPath = post.slug ? `/blog/${post.slug}` : `/blog/${post.id}`;
+  routes.push(urlPath);
+  
+  // Also prerender the primary alias to ensure old Google links resolve instantly
+  if (post.aliases && post.aliases.length > 0) {
+      routes.push(`/blog/${post.aliases[0]}`);
   }
 });
 
@@ -37,9 +41,26 @@ async function prerender() {
   const app = express();
   app.use(express.static(DIST_DIR));
   
-  // For client-side routing, serve index.html for all other routes
-  app.use((req, res) => {
-    res.sendFile(path.resolve(DIST_DIR, 'index.html'));
+  const SPA_INDEX = path.resolve(DIST_DIR, 'spa-index.html');
+  if (!fs.existsSync(SPA_INDEX)) {
+      fs.copyFileSync(path.resolve(DIST_DIR, 'index.html'), SPA_INDEX);
+  }
+
+  // For client-side routing, serve the SPA shell for all other routes
+  app.use((req, res, next) => {
+    if (fs.existsSync(SPA_INDEX)) {
+      try {
+        const html = fs.readFileSync(SPA_INDEX, 'utf8');
+        res.setHeader('Content-Type', 'text/html');
+        res.send(html);
+      } catch (err) {
+        console.error("Error reading SPA_INDEX:", err);
+        res.status(500).send("<html><body>Error reading index.html</body></html>");
+      }
+    } else {
+      console.error("SPA_INDEX NOT FOUND AT:", SPA_INDEX);
+      res.status(404).send("<html><body>index.html not found</body></html>");
+    }
   });
 
   const port = 3001;

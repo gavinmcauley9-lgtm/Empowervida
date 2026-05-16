@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Links = () => {
     const linkItems = [
         {
-            title: "Download the Free 5-Labs Checklist",
+            title: "Start the Free Metabolic Reset",
             url: "https://drgavinmcauley.substack.com",
             primary: true
         },

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import EmailCapture from '../components/EmailCapture';
 
 function Calculator() {
   const [insulin, setInsulin] = useState('');
@@ -247,6 +248,9 @@ function Calculator() {
           View The Brain Fog Reversal Protocol ➞
         </Link>
       </div>
+
+      {/* Substack Email Capture to convert high-volume calculator traffic */}
+      <EmailCapture variant="inline" />
 
       <div style={{ 
         padding: '2rem', 

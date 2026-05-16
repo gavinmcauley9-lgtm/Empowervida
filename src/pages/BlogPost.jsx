@@ -9,8 +9,48 @@ import RelatedPosts from '../components/RelatedPosts';
 
 export default function BlogPost() {
   const { slug } = useParams();
-  // Look up by slug first, fall back to numeric id for backwards compatibility
-  const post = POSTS.find(p => p.slug === slug) || POSTS.find(p => p.id.toString() === slug);
+  const cleanSlug = slug ? slug.toLowerCase().replace(/\/+$/, '') : '';
+
+  // Look up by slug first, then by alias, then fall back to numeric id for backwards compatibility
+  let post = POSTS.find(p => p.slug === cleanSlug) || 
+               POSTS.find(p => p.aliases?.includes(cleanSlug)) || 
+               POSTS.find(p => p.id.toString() === cleanSlug);
+
+  // Advanced Fuzzy Fallback: Automatically map broken custom SEO slugs to the correct article
+  if (!post && slug) {
+    const slugWords = slug.toLowerCase().split('-').filter(w => w.length > 3);
+    let bestMatch = null;
+    let maxScore = 0;
+
+    for (const p of POSTS) {
+      const titleStr = p.title || '';
+      const targetText = `${titleStr} ${p.excerpt || ''}`.toLowerCase();
+      let score = 0;
+
+      for (const word of slugWords) {
+        if (targetText.includes(word)) {
+          score++;
+        }
+      }
+
+      // Give massive bonus to title matches to ensure accuracy
+      const normalizedSlug = slug.toLowerCase().replace(/-/g, ' ');
+      const titleNormalized = titleStr.toLowerCase().replace(/[^a-z0-9\s]/g, '');
+      if (titleStr && titleNormalized.includes(normalizedSlug.substring(0, 15))) {
+        score += 5;
+      }
+
+      if (score > maxScore) {
+        maxScore = score;
+        bestMatch = p;
+      }
+    }
+
+    // Require a minimum overlap threshold to avoid false positives
+    if (bestMatch && maxScore >= 2) {
+      post = bestMatch;
+    }
+  }
 
 
   // Auto-redirect numeric URLs to slug URLs (e.g., /blog/3 → /blog/brain-pills-that-work-vs-snake-oil)

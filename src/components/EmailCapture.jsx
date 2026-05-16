@@ -50,7 +50,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         marginBottom: '1rem',
                         letterSpacing: '-0.02em'
                     }}>
-                        Get Dr. Gavin's Free Checklist
+                        Get The Metabolic Reset Protocol
                     </h2>
                     <p style={{
                         fontSize: 'clamp(1.2rem, 2vw, 1.5rem)',
@@ -58,7 +58,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         fontWeight: 700,
                         marginBottom: '1rem'
                     }}>
-                        5 Labs Your Doctor Isn't Testing
+                        The Physician's Guide to Reversing Insulin Resistance
                     </p>
                     <p style={{
                         fontSize: 'clamp(1rem, 2vw, 1.2rem)',
@@ -67,7 +67,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         margin: '0 auto',
                         lineHeight: '1.6'
                     }}>
-                        Discover the blood markers that reveal insulin resistance, mitochondrial dysfunction, and accelerated aging—before you develop symptoms.
+                        Join the free 7-day email protocol designed by Dr. Gavin to lower fasting glucose, eliminate afternoon brain fog, and restore your cellular energy engine.
                     </p>
                 </div>
             )}
@@ -99,7 +99,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         e.target.style.boxShadow = '0 10px 25px rgba(255, 69, 0, 0.3)';
                     }}
                 >
-                    Get the Checklist & Subscribe
+                    Start the Free Reset & Subscribe
                 </a>
             </div>
 
