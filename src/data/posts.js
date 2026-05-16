@@ -1685,17 +1685,13 @@ export const POSTS = [
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog is a physiological signal of neuro-inflammation and mitochondrial dysfunction. Causes: Glymphatic failure (poor sleep), Leaky Gut (inflammation), and Nutrient deficiency. Fix: "Brain-Wash" protocol (sleep hygiene), Creatine (brain energy), and Omega-3s.</p>
       </div>
       
-      <p>I remember the exact moment I realised my brain was betraying me.</p>
+      <p>In clinical practice, it is incredibly common to see high-performing professionals—doctors, executives, engineers—describe the exact same phenomenon: standing in the middle of their workplace, attempting to process routine information, and finding that their brain simply refuses to cooperate.</p>
 
-      <p>I was a junior doctor, standing under the harsh fluorescent hum of the ward. It was 9:00 AM: the start of the day shift. I should have been fresh. I should have been rested.</p>
+      <p>They know the material, but accessing that information feels like trying to run underwater. To get through the day, many of these patients manufacture stress. They force themselves into a state of panic or urgency just to get a hit of adrenaline, revving the engine into the red line just to keep the car moving.</p>
 
-      <p>I was looking at a patient's chart, a chart I had read a thousand times, but the words weren't registering. It felt like my head was wrapped in cotton wool. I knew the medicine, I knew the protocol, but accessing that information felt like trying to run underwater.</p>
+      <p>Often, they attribute this to shift work, poor cafeteria food, or the glass of wine used to wind down on weekends.</p>
 
-      <p>To get through the shift, I did what many high-performers do: I manufactured stress. I forced myself into a state of panic or urgency just to get a hit of adrenaline, revving the engine into the red line just to keep the car moving.</p>
-
-      <p>I told myself it was just the shift work pattern. Or the hospital cafeteria food. Or perhaps the "doctors' poison" of choice: the few glasses of wine I used to wind down on my days off.</p>
-
-      <p>But now, years later, with the benefit of clinical experience and metabolic science, I know that "Brain Fog" isn't just tiredness. It is a physiological signal. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.</p>
+      <p>However, from the perspective of metabolic science, "Brain Fog" isn't just tiredness. It is a physiological signal. It is the brain entering energy preservation mode because the biological cost of thinking has become too high.</p>
 
       <p>Here is what is actually happening behind the curtain of your consciousness, and the protocol to fix it.</p>
 
@@ -1709,7 +1705,7 @@ export const POSTS = [
 
       <h3>1. The Glymphatic Failure (The Trash Compactor)</h3>
 
-      <p>During my junior doctor years, my sleep was fragmented. I thought I was just "tired." In reality, I was toxic.</p>
+      <p>When sleep is fragmented, patients often assume they are merely "tired." In reality, they are biologically toxic.</p>
 
       <p>In 2013, a groundbreaking study published in <em>Science</em> by Dr. Maiken Nedergaard revealed the <strong>Glymphatic System</strong>. Think of it as the brain's dishwasher. When you enter deep sleep, your brain cells literally shrink by 60%, allowing cerebrospinal fluid to wash away metabolic waste products like beta-amyloid.</p>
 
@@ -1727,7 +1723,7 @@ export const POSTS = [
 
       <h3>3. The Fuel Shortage (Nutrients)</h3>
 
-      <p>As I suspect was the case in my own past, many of us are operating with sub-optimal fuel.</p>
+      <p>Many patients in demanding careers are unknowingly operating with sub-optimal fuel.</p>
 
       <p><strong>Vitamin D:</strong> As discussed in previous columns, Vitamin D receptors in the hippocampus and cortex are crucial for planning and processing. Low D is linked to slower cognitive processing speeds.</p>
 
@@ -1735,36 +1731,34 @@ export const POSTS = [
 
       <img src="/synaptic_transmission.webp" alt="Synaptic Transmission" style="width: 100%; border-radius: 8px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" / loading="lazy">
 
-      <h2>The Protocol: Clearing the Haze</h2>
+      <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 3rem 0; border-radius: 12px;">
+        <p style="margin: 0 0 1.5rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid rgba(32, 178, 170, 0.2); padding-bottom: 0.5rem;">The Architect's Protocol</p>
+        
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">We do not treat brain fog with more caffeine. That is borrowing energy from tomorrow to pay for today. We treat it by reducing inflammation and restoring energy.</p>
 
-      <p>We do not treat brain fog with more caffeine. That is borrowing energy from tomorrow to pay for today. We treat it by reducing inflammation and restoring energy.</p>
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 1rem; color: var(--color-text);">1. The "Brain-Wash" Protocol (Sleep)</h3>
+        <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1rem;">You must prioritise the clearance of metabolic waste.</p>
+        <ul style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Stop eating 3 hours before bed.</strong> Digestion competes with the glymphatic system.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Zero alcohol on weeknights.</strong> Alcohol sedates you, but it paralyses the glymphatic cleaning process.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Magnesium Threonate:</strong> This specific form of magnesium crosses the blood-brain barrier and has been shown to support synaptic density and sleep architecture.</li>
+        </ul>
 
-      <h3>1. The "Brain-Wash" Protocol (Sleep)</h3>
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 1rem; color: var(--color-text);">2. Feed the Mitochondria</h3>
+        <ul style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Creatine Monohydrate (5g daily):</strong> Don't think of this as a muscle supplement. Think of it as a backup battery for your brain. It donates phosphate groups to recharge ATP (energy) in neurons during high cognitive demand.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Omega-3 Fatty Acids (EPA/DHA):</strong> Your brain is 60% fat. High-dose fish oil (2g+) reduces neuro-inflammation.</li>
+        </ul>
 
-      <p>You must prioritise the clearance of metabolic waste.</p>
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 1rem; color: var(--color-text);">3. Zone 2 Training</h3>
+        <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 0;">This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is essentially "Miracle-Gro" for your brain, encourageing the growth of new neural connections.</p>
+      </div>
 
-      <ul>
-        <li><strong>Stop eating 3 hours before bed.</strong> Digestion competes with the glymphatic system.</li>
-        <li><strong>Zero alcohol on weeknights.</strong> Alcohol sedates you, but it paralyses the glymphatic cleaning process.</li>
-        <li><strong>Magnesium Threonate:</strong> This specific form of magnesium crosses the blood-brain barrier and has been shown to support synaptic density and sleep architecture.</li>
-      </ul>
+      <h2>The Clinical View</h2>
 
-      <h3>2. Feed the Mitochondria</h3>
+      <p>When professionals rely entirely on stress and caffeine to get through morning rounds or executive meetings, they are attempting to run a high-performance engine on low-grade fuel with a clogged exhaust. The inevitable result is systemic burnout.</p>
 
-      <ul>
-        <li><strong>Creatine Monohydrate (5g daily):</strong> Don't think of this as a muscle supplement. Think of it as a backup battery for your brain. It donates phosphate groups to recharge ATP (energy) in neurons during high cognitive demand.</li>
-        <li><strong>Omega-3 Fatty Acids (EPA/DHA):</strong> Your brain is 60% fat. High-dose fish oil (2g+) reduces neuro-inflammation.</li>
-      </ul>
-
-      <h3>3. Zone 2 Training</h3>
-
-      <p>This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is essentially "Miracle-Gro" for your brain, encourageing the growth of new neural connections.</p>
-
-      <h2>The Doctor's View</h2>
-
-      <p>I look back at that young Doctor Gav in the ward, rev ving his engine on stress and caffeine to get through the morning rounds, and I feel for him. He was trying to run a Ferrari on low-grade fuel with a clogged exhaust.</p>
-
-      <p>You don't have to accept the fog as the "cost of doing business." Clarity is your natural state. It's time to claim it back.</p>
+      <p>Patients do not have to accept the fog as the "cost of doing business." Cognitive clarity is the biological baseline, and restoring it begins with repairing the metabolic foundation.</p>
 
       <h3>References & Further Reading:</h3>
       <ul>
@@ -1777,7 +1771,7 @@ export const POSTS = [
       <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
         <ul style="margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-fog-cognitive-decline-the-science-of-the-starving-neuron" style="color: #20B2AA; text-decoration: none;">the starving neuron theory</a> — brain fog</li>
+          <li style="margin-bottom: 0.5rem;"><a href="/blog/neurolongevity-starving-brain" style="color: #20B2AA; text-decoration: none;">the starving neuron theory</a> — brain fog</li>
           <li style="margin-bottom: 0.5rem;"><a href="/blog/chronic-fatigue-brain-tires-before-body" style="color: #20B2AA; text-decoration: none;">why your brain tires before your body</a> — brain energy</li>
         </ul>
       </div>
@@ -1787,8 +1781,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol#neurolongevity-stack" style="color: #667eea; text-decoration: underline;">Neurolongevity & Cognitive Optimisation</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 `
   },
