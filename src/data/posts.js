@@ -2726,14 +2726,14 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A shift worker in her late thirties came to me after two years of worsening insomnia. She was working rotating shifts and her sleep was destroyed. She was taking high-dose melatonin nightly with no effect, drinking four coffees a day to function, and had gained visceral fat despite exercising regularly. Her salivary cortisol test showed a classic inverted curve: low morning cortisol and elevated evening cortisol. We eliminated caffeine after 10 AM, started Ashwagandha KSM-66 with dinner, added Phosphatidylserine 300mg at 8 PM, and replaced her high-dose melatonin with 0.3mg. Within three weeks, her sleep onset time dropped significantly. By six weeks, she described feeling "restored" for the first time in years. Her morning cortisol normalised, and the visceral weight began to shift without any dietary changes. The cortisol was the keystone; once it fell into place, everything else followed.
+          Shift workers and high-stress professionals frequently present with sleep maintenance insomnia that is entirely resistant to high-dose melatonin. These patients often exhibit a classic inverted cortisol curve on salivary testing (low morning cortisol, elevated evening cortisol) and struggle with stubborn visceral fat despite regular exercise. When the clinical approach shifts from forcing sleep with sedatives to lowering the evening cortisol ceiling—using tools like Phosphatidylserine and adaptogenic Ashwagandha alongside strict caffeine curfews—it is common to observe a significant reduction in sleep onset time. As the cortisol curve normalizes, sleep architecture is frequently restored and the metabolic drive to store visceral fat is diminished. Cortisol is often the keystone; once it is regulated, sleep naturally follows.
         </p>
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The protocol is simple: no screens after 9 PM (blue light suppresses melatonin by up to 50%), no caffeine after midday (its half-life is 6 hours, meaning your 2 PM coffee is still half-active at 8 PM), and a 10-minute evening routine of deep breathing or journaling to signal the parasympathetic nervous system. These three habits alone resolve mild to moderate insomnia in roughly 60% of my patients within two weeks.
+        The foundational protocol is simple: no screens after 9 PM (blue light suppresses melatonin by up to 50%), no caffeine after midday (its half-life is 6 hours, meaning a 2 PM coffee is still half-active at 8 PM), and a 10-minute evening routine of deep breathing or journaling to signal the parasympathetic nervous system. These three habits alone frequently resolve mild to moderate insomnia without the need for supplementation.
       </p>
 
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
@@ -2745,10 +2745,7 @@ export const POSTS = [
         </ol>
       </div>
 
-      
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In my practice, the patients who resolve their insomnia fastest are those who address the <strong>cortisol curve</strong> first, before reaching for melatonin or sleep supplements. The protocol is simple: no screens after 9 PM (blue light suppresses melatonin by up to 50%), no caffeine after midday (its half-life is 6 hours, meaning your 2 PM coffee is still half-active at 8 PM), and a 10-minute evening routine of deep breathing or journaling to signal the parasympathetic nervous system. These three habits alone resolve mild to moderate insomnia in roughly 60% of my patients within two weeks.
-      </p>
+
 <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
         <ul style="margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
@@ -2767,9 +2764,9 @@ export const POSTS = [
       </ul>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
         </p>
       </div>
     `
