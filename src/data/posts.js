@@ -3595,7 +3595,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In clinical practice, I often see patients focusing on one or the other. But for true "Longevity Architecture," you need both sustained mitochondrial output and rapid-response recycling. Taking them together isn't just "safe"; it's biologically logical.
+        In clinical practice, patients often focus on one energy pathway or the other. However, for comprehensive metabolic optimization, both sustained mitochondrial output and rapid-response recycling are necessary. Stacking these interventions is not merely safe; it is biologically logical.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works: The Biochemistry</h2>
@@ -3636,24 +3636,24 @@ export const POSTS = [
         <img src="/circular_energy_flow.webp" alt="A minimalist infographic showing the Circular Energy Flow between NAD+ and Creatine" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: A Personal Warning on Timing</h2>
-
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Importance of Timing</h2>
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In my own life, I have experimented extensively with this stack. When I have the timing right, the results are undeniable: sharper focus, reduced afternoon fatigue, and a noticeable "lift" in exercise recovery. However, as a physician, I have to give you a stern warning about NAD+ precursors (NMN/NR). <strong>Do not take NAD+ late in the day.</strong>
+        While this combination offers potent synergistic benefits, proper timing is non-negotiable. <strong>NAD+ precursors (NMN/NR) should generally be taken early in the day.</strong>
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I learned this the hard way. I once took my NAD+ dose in the late afternoon, thinking it would help me push through some evening work. I didn't sleep a wink that night. My brain felt "electrically" awake—not a jittery caffeine feeling, but a deep, metabolic wakefulness that made sleep impossible.
+        Patients who consume NAD+ precursors in the late afternoon or evening frequently report profound sleep disturbances. Because NAD+ stimulates mitochondrial energy production without acting as a central nervous stimulant, it creates a state of deep, metabolic wakefulness that can prevent the onset of sleep.
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        NAD+ levels follow a strict Circadian Rhythm. They naturally peak in the morning. By taking a precursor late, you are essentially telling your "Master Biological Clock" that it is 8:00 AM when it’s actually 8:00 PM. This disrupts the SIRT1-mediated clock genes, throwing your entire sleep-wake cycle into chaos.
+        Endogenous NAD+ levels naturally peak in the morning alongside cortisol, aligning with the body's circadian rhythm. Consuming a precursor late in the day sends an inappropriate metabolic signal to the body's master clock, disrupting SIRT1-mediated clock genes and throwing sleep architecture into chaos.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Why: Who Is This For?</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This combination is one of my core recommendations for patients over the age of 40.
+        This bioenergetic combination is often a core consideration for adults over the age of 40.
       </p>
 
       <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
@@ -3662,17 +3662,17 @@ export const POSTS = [
         <li style="margin-bottom: 0.75rem;"><strong>Metabolic Resilience:</strong> This stack helps maintain insulin sensitivity and muscle mass—the two greatest markers for a long healthspan.</li>
       </ul>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing: The Physician’s Protocol</h2>
-
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Protocol</h2>
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To avoid the "insomnia trap" while maximising the synergy, follow this schedule:
+        To mitigate potential sleep disturbances while maximizing bioenergetic synergy, clinical dosing typically follows this structure:
       </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. The Morning Stack (The "Foundation")</h3>
-
+  
+      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. The Morning Administration</h3>
+  
       <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>NAD+ Precursor (NMN or NR):</strong> 300–500 mg daily. Take this immediately upon waking. This aligns with your natural NAD+ peak.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Creatine Monohydrate:</strong> 5g daily. You can take this at the same time as your NMN. I take both with my morning coffee. There is no pharmacological interaction between them.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>NAD+ Precursor (NMN or NR):</strong> 300–500 mg daily, taken early in the morning to align with the natural circadian peak.</li>
+        <li style="margin-bottom: 0.75rem;"><strong>Creatine Monohydrate:</strong> 5g daily. This can be co-administered with the NAD+ precursor alongside a first meal. There are no known pharmacological interactions.</li>
       </ul>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. The Optional "Push" (Post-Exercise)</h3>
@@ -3698,10 +3698,10 @@ export const POSTS = [
         <li style="margin-bottom: 0.75rem;"><strong>Hydration:</strong> Creatine requires water to work. Aim for 2–3 liters of water per day to prevent cramping and support cellular hydration.</li>
       </ul>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Final Physician’s Note</h2>
-
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Perspective</h2>
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We are living in an era where we can finally "Architect" our cellular energy. Combining Creatine and NAD+ is like giving your body both a better engine and a better battery. If you are over 40 and feel like your "spark" is fading, this is the first place I would look. Just remember: Take it with the sun, not with the moon.
+        Combining Creatine and NAD+ precursors offers a comprehensive approach to addressing the cellular energy deficits associated with aging. By simultaneously optimizing mitochondrial ATP generation and cytoplasmic ATP recycling, patients can effectively support both physical endurance and cognitive longevity. However, adherence to strict circadian timing remains critical for therapeutic success.
       </p>
 
       
@@ -3722,9 +3722,9 @@ export const POSTS = [
         </ul>
       </div>
 <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
         </p>
       </div>
     `
