@@ -1815,7 +1815,7 @@ export const POSTS = [
       
       <p>Standard medicine often hands them an antidepressant (SSRI) and sends them home. But for many, the pills don't work, or they numb the bad feelings along with the good.</p>
       
-      <p>I have taken B-complex vitamins for years specifically for this reason. I noticed years ago that my own baseline anxiety dropped when I was consistent with activated B-vitamins. When I stopped, the low-level background hum of tension crept back. It was not dramatic, but it was undeniable. This is what frustrates me about how we approach anxiety in medicine: we reach for SSRIs and benzodiazepines — drugs with real side effect profiles and dependency risks — before we even check whether the patient is deficient in the basic cofactors that their nervous system needs to function. B6, B12, folate, magnesium — these are not alternative medicine. They are biochemistry. And most anxious patients I see are deficient in at least one of them.</p>
+      <p>In clinical practice, it is common to observe that patients who consistently utilize activated B-complex vitamins report a tangible reduction in baseline anxiety. This highlights a persistent frustration with modern medicine's approach to mental health: we frequently reach for SSRIs and benzodiazepines—drugs with substantial side effect profiles and dependency risks—before checking if the patient is simply deficient in the basic metabolic cofactors required for neurological function. B6, B12, folate, and magnesium are not alternative medicine; they are fundamental biochemistry. Many patients presenting with chronic anxiety are deficient in at least one of these vital neuro-nutrients.</p>
       
       <p><strong>Why?</strong> Because we are treating the wrong system. We are treating a chemical imbalance when we should be treating a cellular fire.</p>
       
@@ -1907,9 +1907,9 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in her late twenties came to me after eighteen months on an SSRI with minimal improvement. She described persistent low-grade anxiety, brain fog that worsened after meals, and joint stiffness that seemed bizarre for her age. She had previously been told the anxiety was "just work stress." Her hs-CRP came back at 4.2 mg/L, nearly four times the optimal level. Her fasting insulin was also elevated at 12 mIU/L. She was systemically inflamed. We eliminated seed oils and refined sugar, started a targeted probiotic, and added Curcumin Phytosome 500mg twice daily. At eight weeks, her hs-CRP had dropped to 1.4 mg/L. She described the brain fog as "lifting like a curtain." At twelve weeks, she and her psychiatrist began tapering the medication, which she no longer felt she needed. The anxiety was not a psychiatric disorder. It was a fire alarm.
+          It is a frequent clinical scenario to evaluate patients who have spent months or years on SSRI therapy with minimal improvement, only to discover their symptoms are rooted in systemic inflammation rather than a primary psychiatric disorder. These patients often present with elevated hs-CRP (e.g., &gt;3.0 mg/L) alongside signs of metabolic dysfunction such as elevated fasting insulin. When the inflammatory fire is extinguished—via the elimination of seed oils and refined sugars, gut barrier repair, and targeted anti-inflammatory support like bioavailable Curcumin—inflammatory markers reliably plummet. As systemic inflammation resolves, the "anxiety" and cognitive fatigue frequently lift, revealing that the symptoms were acting as a biological fire alarm rather than an incurable mental illness.
         </p>
       </div>
 
@@ -1932,13 +1932,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Inflammation & Longevity Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
-      </div>
-
-      
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>The Lifestyle Foundation:</strong> Anti-inflammatory supplementation works best when layered on top of an anti-inflammatory lifestyle. This means eliminating processed seed oils, reducing refined sugar intake, prioritising 7-9 hours of sleep (poor sleep elevates inflammatory cytokines by up to 40%), and maintaining a regular exercise routine. Walking 30 minutes daily reduces hs-CRP levels measurably within weeks. Address the lifestyle fire before reaching for the supplement extinguisher.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
