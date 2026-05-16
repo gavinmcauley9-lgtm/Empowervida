@@ -2479,7 +2479,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is also personal for me. I have taken B-complex vitamins for years — activated forms, not the cheap synthetic versions. The difference in my baseline anxiety and cognitive clarity when I am consistent versus when I lapse is undeniable. What frustrates me is that medical school barely mentions this. We spend years learning pharmacology — every drug mechanism, every side effect — and yet the biochemistry of B-vitamin cofactors, the very molecules that power every methylation reaction in the body, gets a single lecture if you are lucky. Most GPs will prescribe an SSRI for fatigue and brain fog before they will check a homocysteine level. That is the gap this article is about.
+        In clinical practice, the transition from synthetic B-vitamins to activated forms frequently yields a noticeable difference in a patient's baseline cognitive clarity and vitality. What is often frustrating in modern medicine is that the biochemistry of B-vitamin cofactors—the very molecules that power every methylation reaction in the body—is rarely emphasized in standard pharmacological training. Many patients receive prescriptions for fatigue or low mood before any practitioner evaluates their homocysteine levels or checks for genetic methylation roadblocks. That is the gap this article addresses.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2580,8 +2580,6 @@ export const POSTS = [
         If you have been chronically exhausted, don't just accept it as "getting older." You may simply have a hidden roadblock in your methylation cycle. By switching your neuro-metabolic support from cheap synthetics to bio-active, pre-methylated B-vitamins, you supply the spark plugs your body is starving for. You fix the ignition, and the engine starts running again.
       </p>
 
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">The Architect's Protocol</p>
         <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
@@ -2590,9 +2588,11 @@ export const POSTS = [
           <li style="margin-bottom: 0.75rem;"><strong>Recheck:</strong> Retest homocysteine at 90 days. Target below 8 µmol/L. Most patients see improvement within 6-8 weeks. If resistant, add TMG (Trimethylglycine) 500mg as an alternative methyl donor.</li>
         </ol>
       </div>
-<p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your dietary supplements, especially if you have known genetic mutations or chronic cardiovascular conditions.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme, especially if you have known genetic mutations or cardiovascular conditions.
         </p>
       </div>
     `
