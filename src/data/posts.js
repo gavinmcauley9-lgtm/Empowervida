@@ -2374,9 +2374,9 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Observation</h2>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          The most sobering statistic I share with my patients is this: after the age of 30, you lose approximately 3-8% of your muscle mass per decade if you do nothing. By 60, that compounds into a 20-30% loss. I had a patient, a retired teacher aged 62, who fractured her hip after tripping on a kerb. Her bone density was borderline, but the real problem was that she had almost no muscle mass to absorb the impact. She had never lifted a weight in her life. She ate toast for breakfast, a salad for lunch, and pasta for dinner. Total daily protein: roughly 35 grams. That is half of what her body needed just to maintain existing muscle, let alone rebuild. After her recovery, we implemented a resistance training programme three times per week and increased her protein to 1.6g per kilogram of bodyweight. Within six months, her grip strength improved by 40% and her balance scores normalised. Sarcopenia is not inevitable. It is a disease of neglect that responds spectacularly well to intervention.
+          The most sobering statistic in musculoskeletal health is this: after the age of 30, individuals lose approximately 3-8% of their muscle mass per decade without intervention. By 60, this compounds into a 20-30% loss. In clinical practice, fall-related fractures in older adults are frequently exacerbated not just by low bone density, but by a profound lack of skeletal muscle to absorb the mechanical impact. This is often driven by decades of inadequate protein intake (e.g., eating toast for breakfast and a salad for lunch, totalling under 40g of daily protein) and an absence of resistance training. However, when older adults implement resistance training three times per week and increase protein intake to 1.6g per kilogram of body weight, it is common to observe rapid and significant improvements in grip strength and balance. Sarcopenia is not an inevitable consequence of aging; it is a progressive condition that responds robustly to physiological loading and amino acid repletion.
         </p>
       </div>
 
@@ -2419,8 +2419,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
       
