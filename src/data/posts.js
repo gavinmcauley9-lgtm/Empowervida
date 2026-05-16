@@ -3769,26 +3769,25 @@ export const POSTS = [
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In my years as a GP, I have seen many patients who did everything "right" but still lost their way.
+        A frequent and challenging clinical presentation involves patients who maintain ostensibly healthy lifestyles but still experience insidious cognitive changes.
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <em>(Note: To protect patient privacy, the following is a composite case study representing a common clinical presentation.)</em><br><br>
-        Consider a clinical scenario I see far too often in longevity medicine: a patient presents with signs of early-onset cognitive decline, yet on paper, all their standard lab work comes back "normal." The patient is often physically active, perhaps in their sixties, but their spouse or friends have noticed significant, uncharacteristic forgetfulness.
+        Consider a common scenario in longevity medicine: a patient presents with signs of early-onset cognitive decline—such as uncharacteristic forgetfulness noticed by a spouse—yet all standard laboratory panels return "normal." The patient may be physically active and present well, masking the underlying metabolic dysfunction.
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When I run the standard screens—full blood count, iron, thyroid—everything appears perfect. In the past, the reactive protocol would simply be a referral to a Geriatrician, a normal MRI, and a working diagnosis of early-onset dementia.
+        When evaluating standard screens—full blood count, iron, thyroid function—no immediate anomalies are detected. The conventional, reactive approach often involves a neurological referral, an unremarkable MRI, and a preliminary diagnosis of early-stage dementia, offering little in the way of actionable intervention.
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the time, before I transitioned into holistic health and functional medicine, I wasn't equipped with the knowledge I have now. I followed the reactive protocol. But looking back, I realise that while this patient profile appears physically fit, their brain is likely starving in plain sight. Whether we call it "brain fog," age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself.
+        However, applying a functional medicine lens reveals a different pathology. While this patient profile appears physically intact, their neurological architecture is likely experiencing profound energy deficits. Whether categorized clinically as "brain fog," age-related memory impairment, or early cognitive decline, the underlying biology is frequently identical: a brain that can no longer metabolize fuel efficiently.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science of the Starving Neuron</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Two seminal discoveries have changed how I would treat Mary today:
+        Two seminal discoveries have fundamentally altered the clinical approach to neurodegenerative conditions:
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Type 3 Diabetes (The Starvation Mechanism)</h3>
@@ -3828,7 +3827,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: How to Feed Your Brain</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If Mary walked into my clinic today, we wouldn't just wait for an MRI to show damage. We would optimise the "Engine in the Basement" immediately.
+        Modern clinical protocols do not wait for MRI-visible atrophy before initiating treatment. The objective is to optimize cerebral metabolism immediately.
       </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
@@ -3896,8 +3895,11 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 0.9rem; color: var(--color-text-muted); margin: 0;"><strong>Medical Disclaimer:</strong> This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
+        </p>
       </div>
 `
   },
