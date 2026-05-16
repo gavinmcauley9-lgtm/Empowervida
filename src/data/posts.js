@@ -117,7 +117,7 @@ export const POSTS = [
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why I Care About This: The Burnout Years</h2>
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">I didn't learn this systemic approach from a medical textbook; I learned it because my own biology completely collapsed.</p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">Years ago, as a busy doctor running on adrenaline and caffeine through crushing hospital shifts, my weight spiked to 125kg. By 2 PM every day, my brain fog was so severe I felt like I was thinking through wet concrete. I did exactly what my patients do: I ordered the standard blood panels to find the pathology. My colleagues reviewed my results and told me my iron, thyroid, and glucose were "perfectly normal." I was told I was just stressed and needed to sleep more.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">In clinical practice, patients often present with severe afternoon fatigue and cognitive decline (commonly described as "brain fog"), despite standard blood panels for iron, thyroid, and glucose returning as "perfectly normal." Standard medicine frequently dismisses these symptoms as mere stress or sleep deprivation, missing the underlying metabolic and mitochondrial dysfunction entirely.</p>
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">It was an incredibly isolating feeling to know something is deeply wrong with your body, only to be dismissed by a normal lab sheet. It took me years of deep-diving into longevity science and running my own n=1 experiments to realise that "Normal" does not mean "Optimal." My neurons were literally starving due to severe neural insulin resistance, and my sleep architecture was entirely fractured. The answer wasn't a magic-bullet supplement like NAD+; it was fixing the deep, underlying bio-energetic systems. If you feel dismissed by normal lab results, here is exactly what I did to find the real bottlenecks.</p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">1. The Hypoxic Brain: Ferritin and Oxygen Delivery</h2>
@@ -814,7 +814,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I am Irish. I grew up near the sea. And there is something about plunging into cold ocean water that resets the entire nervous system in a way that no supplement or meditation app can replicate. When I was at my heaviest — 125kg, burned out, running on cortisol and caffeine — I had completely forgotten this. I was living indoors, eating badly, and wondering why I felt dead inside. Reconnecting with cold water was one of the first things that made me feel alive again. Not because of the science, although the science is compelling. Because of the raw, primal shock of it. Your body screams at you for 30 seconds, and then something shifts. The mental chatter stops. The anxiety quiets. You step out and everything looks sharper, like someone cleaned the windscreen. I now swim in the sea regularly when I am back in Ireland, and I use a cold shower protocol when I am not. It is the cheapest, most reliable mood enhancer I have ever found.
+        There is a profound physiological response to cold water immersion that resets the autonomic nervous system in a way that no supplement or meditation app can replicate. For patients suffering from burnout, chronic stress, or metabolic distress, the raw, primal shock of cold exposure forces a systemic reset. The body reacts intensely for the first 30 seconds, followed by a significant neurochemical shift. The mental chatter stops, anxiety quiets, and cognitive clarity sharply increases. Cold exposure remains one of the most accessible and reliable interventions for rapid mood enhancement and autonomic regulation.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science (Briefly)</h2>
@@ -961,7 +961,7 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I lived this. At 125kg, exhausted, brain fog by 2pm, I went to my doctor. Thyroid? Fine. Iron? Fine. Full blood count? Normal.
+        In clinical practice, I routinely see patients presenting with unexplained weight gain and severe afternoon fatigue, yet their standard blood work returns perfectly "normal" results.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -1992,7 +1992,7 @@ export const POSTS = [
       
       <p>Why? If your body is resting, why is your brain failing?</p>
 
-      <p>I used to live inside this problem. At 125kg, the 2 PM crash was not a mild dip — it was a wall. I would be in the middle of a patient consultation and realise I had lost the thread of what they were telling me. My brain was shutting down while my body was just sitting in a chair. I tried every trick: espresso, sugar, power naps in the car between clinics. Nothing worked because I was treating the symptom, not the biology. When I finally understood that my brain was running out of ATP — not motivation, not willpower, but actual cellular fuel — and started supplementing with creatine, the 2 PM wall moved. It did not disappear overnight, but within two weeks it shifted to 4 PM, then 5 PM, then it stopped being a wall at all. That is when I realised this was not about discipline. It was about energy economics.</p>
+      <p>Many patients describe the afternoon energy crash not as a mild dip, but as a physical wall. This profound cellular fatigue often occurs during consultations or work meetings, where cognitive stamina simply shuts down despite the body remaining rested. Standard interventions like espresso or power naps fail because they only treat the symptom, not the underlying biology. When patients understand that their brain is running out of ATP—actual cellular fuel—and begin targeted interventions like creatine supplementation, the energy wall shifts or disappears entirely. This is an issue of cellular energy economics, not a lack of discipline.</p>
       
       <h2>The Medical Truth: You are suffering from a Cerebral Energy Crisis.</h2>
       
@@ -2185,7 +2185,7 @@ export const POSTS = [
       
       <p>You feel tired after meals. You crave sugar at 3 PM. You carry stubborn weight around your belly. These are the warning signs.</p>
 
-      <p>I know because I had every single one of them. At 125kg, I was glycating myself every day and I did not even know it. Three meals a day built around bread, pasta, cereals — the foods the food pyramid told me were "healthy." My joints ached. My skin looked tired. I felt a decade older than my age. When I finally cut the wheat and the excess carbohydrates — going into ketosis through intermittent fasting — the transformation was not just weight loss. My joints loosened up. My face changed. People started telling me I looked younger. That is not a coincidence. That is what happens when you stop caramelising your own collagen.</p>
+      <p>Patients suffering from undiagnosed insulin resistance are often experiencing accelerated glycation daily without realizing it. A standard diet built around refined carbohydrates frequently results in chronic joint stiffness, premature skin aging, and systemic fatigue. When patients eliminate excess carbohydrates and transition towards metabolic flexibility through interventions like intermittent fasting, the transformation extends far beyond weight loss. Joint mobility improves, systemic inflammation markers drop, and cognitive clarity returns. This is the physiological result of halting the ongoing glycation of structural proteins like collagen.</p>
       
       <h2>The Solution: The "Longevity Switch" (AMPK)</h2>
       
@@ -2327,7 +2327,7 @@ export const POSTS = [
       
       <p>They think they are just "getting older." They are actually suffering from a silent disease called <strong>Sarcopenia</strong> (muscle poverty).</p>
 
-      <p>When I was losing weight — dropping from 125kg to 95kg — I was terrified of this. Rapid weight loss without resistance training eats your muscle. You can lose 30kg and come out the other side lighter but weaker, which is arguably worse. That is why creatine was non-negotiable for me during the entire process. Not just for brain function during fasting, but for muscle preservation. Creatine buffers ATP in the muscle, protects contractile tissue during caloric restriction, and there is evidence it improves protein synthesis even in a deficit. Most weight loss programmes ignore this completely. They focus on the number on the scale and forget that the body you are left with matters more than what you lost.</p>
+      <p>A primary clinical concern during rapid weight loss is the unintended loss of lean muscle mass. Significant caloric restriction without concurrent resistance training and adequate amino acid support can leave a patient lighter but physically weaker and more metabolically vulnerable. This is why targeted supplementation, such as creatine, is often utilized during these periods. Creatine buffers ATP in the muscle, protecting contractile tissue during caloric deficits and improving protein synthesis. Effective metabolic protocols must focus not just on fat reduction, but on preserving the structural integrity of the body.</p>
       
       <h2>The Clinical Reality: Muscle is not just for bodybuilders. Muscle is the Organ of Longevity.</h2>
       
@@ -2810,7 +2810,7 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At my peak, I weighed 125kg. My brain was in a fog by 2pm. I had sleep apnea. I was diagnosed with ADHD in my 40s, which explained the focus issues, but it didnt explain why I felt like I was running on fumes even when I slept 8 hours.
+        Many patients present with a cluster of metabolic symptoms: significant weight gain, severe afternoon brain fog, and disrupted sleep architectures like sleep apnea. Even with secondary diagnoses addressing focus issues, the profound, unyielding fatigue points directly to cellular energy deficits.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2882,7 +2882,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Ive walked this road. From 125kg, brain fog, sleep apnea, and burnout, back to health. It wasnt willpower. It was understanding the machinery.
+        The path to reversing metabolic distress is not simply about willpower; it requires a systemic approach to restoring cellular machinery.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -2938,7 +2938,7 @@ export const POSTS = [
     title: "THE TEST YOUR DOCTOR ISN'T ORDERING: Why Your 'Normal' Blood Work is Hiding a Metabolic Crisis",
     category: 'Metabolic Flexibility',
     image: '/clogged_engine_comparison.png',
-    excerpt: "Fasting glucose 98? 'Normal.' HbA1c 5.6%? 'Normal.' Meanwhile, your insulin is 10x too high. I lost 30kg by fixing what standard medicine never checks.",
+    excerpt: "Fasting glucose 98? 'Normal.' HbA1c 5.6%? 'Normal.' Meanwhile, your insulin is 10x too high. Discover how to fix what standard medicine never checks.",
     date: 'Jan 10, 2026',
     cta: {
       text: "Get The Metabolic Reset Protocol",
@@ -2960,7 +2960,7 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I know this because I lived it. At 125kg, exhausted, running on cortisol and caffeine, my fasting glucose was 94. Normal. My HbA1c was fine. Normal. But I felt like my gears were grinding.
+        In clinical practice, it is common to evaluate patients who are entirely exhausted, surviving on high cortisol and caffeine, yet their fasting glucose and HbA1c tests return as perfectly "normal." Despite these reassuring lab results, their underlying metabolic machinery is deeply compromised.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -3019,7 +3019,7 @@ export const POSTS = [
         This is why willpower fails. Youre not lazy. Your engine is seized.
       </p>
   
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">How I Actually Lost 30kg</h2>
+      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">A Clinical Approach to Sustainable Fat Loss</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         Ill be upfront. Before I talk supplements, heres what actually moved the needle:
@@ -3095,7 +3095,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, I went from 125kg to 95kg. I degreased the engine. Fixed the friction. Washed out the grit.
+        Restoring metabolic health requires a foundational approach: degreasing the cellular engine and reversing systemic inflammation.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4198,7 +4198,7 @@ export const POSTS = [
       </ul>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I realised I wasn't just "tired." I was <strong>metabolically broken</strong>. My weight narrowed my airway, my airway ruined my sleep, and my ruined sleep altered my hormones to make me gain more weight.
+        Many patients eventually realize they aren't just "tired"—they are <strong>metabolically compromised</strong>. Excess weight can mechanically narrow the airway, ruining sleep architecture, which in turn alters hormonal balance, creating a vicious cycle of fatigue and further weight gain.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Wake-Up Call</h2>
