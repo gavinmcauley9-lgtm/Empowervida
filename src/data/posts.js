@@ -2794,23 +2794,15 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        For years, I told myself that being exhausted was just part of the job. Hospital medicine runs at 90mph. You manage trauma cases on three hours of sleep, make life or death decisions while your brain is screaming for glucose, then go home and collapse.
+        In modern life, chronic exhaustion is often normalized as "part of the job." High-stress professionals manage complex decisions on minimal sleep, relying on caffeine and cortisol while their brains are screaming for glucose, only to go home and collapse.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I thought that was normal.
+        Many patients present with a cluster of metabolic symptoms: significant weight gain, severe afternoon brain fog, and disrupted sleep architectures. Even with secondary diagnoses addressing focus issues, the profound, unyielding fatigue points directly to cellular energy deficits.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Many patients present with a cluster of metabolic symptoms: significant weight gain, severe afternoon brain fog, and disrupted sleep architectures like sleep apnea. Even with secondary diagnoses addressing focus issues, the profound, unyielding fatigue points directly to cellular energy deficits.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Standard medicine had no answers. My bloods were "fine." My thyroid was "normal." So I did what every burned out doctor does. I pushed through.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But heres what I didnt know: I wasnt just tired. I was <strong>cellularly bankrupt</strong>.
+        Standard blood work often returns as "fine" and thyroid panels appear "normal," leaving patients to simply push through. But they aren't just tired. Their mitochondria are frequently <strong>cellularly bankrupt</strong>.
       </p>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Aging Tax</h2>
@@ -2835,43 +2827,39 @@ export const POSTS = [
         When NAD+ drops, everything breaks down. Your brain cant focus (hello, late onset ADHD). Your body cant recover (hello, chronic fatigue). Your cells cant repair themselves.
       </p>
   
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The ADHD Connection</h2>
+      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Focus Connection</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When I was diagnosed with ADHD in my 40s, I thought "finally, an explanation." But medication only solved part of the problem.
+        In clinical practice, it is common to see patients relying entirely on stimulants to maintain focus. However, when the brain runs out of NAD+, it inherently shuts down the most energy-expensive systems first: focus, willpower, and executive function.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Heres what I learned: when your brain runs out of NAD+, it shuts down the most expensive systems first. Focus. Willpower. Executive function. The prefrontal cortex is the most energy demanding part of your brain. When NAD+ drops, it goes offline.
+        The prefrontal cortex is the most metabolically demanding region of the brain. When NAD+ drops, cognitive stamina goes offline. This is why many adults report worsening cognitive fatigue as they age. It is not just a psychological issue; it is a <strong>metabolic</strong> one.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is why people with ADHD often feel worse as they age. Its not just neurodevelopmental. Its <strong>metabolic</strong>.
+        When patients begin to support their cellular NAD+ levels, they frequently report that cognitive fog lifts. Not overnight, but gradually, as the bioenergetic capacity of their neurons is restored.
+      </p>
+  
+      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Clinical Protocol</h2>
+  
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Restoring cellular energy is not achieved through willpower; it is achieved through a structured bioenergetic protocol.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When I started restoring my NAD+ levels, the brain fog lifted. Not overnight. Gradually. Like someone turned the lights back on in a room Id been stumbling through in the dark.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">How I Fixed It</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I didnt fix this with willpower. I fixed it with a protocol.
+        <strong>1. Lifestyle first.</strong> Regular exposure to nature, such as forest walks and ocean swims, are not just recreational. They are potent stress modulators. They lower cortisol, which in turn preserves the body's NAD+ pools.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>1. Lifestyle first.</strong> Im Irish. I grew up near the sea. Id forgotten how much nature resets the nervous system. Forest walks. Ocean swims. These arent woo woo practices. Theyre stress modulators. They lower cortisol, which preserves NAD+.
+        <strong>2. The foundation stack.</strong> Creatine (5g daily) and CoQ10 (200mg daily). These support ATP production and foundational mitochondrial function.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>2. The foundation stack.</strong> Creatine (5g daily) and CoQ10 (200mg daily). These support ATP production and mitochondrial function. You cant restore NAD+ if your mitochondria are broken.
+        <strong>3. NAD+ precursors.</strong> Supplementation with NR (nicotinamide riboside), typically 300mg daily in the morning, is highly effective. NR is supported by over 20 human trials, is chemically stable, and holds FDA GRAS status.
       </p>
   
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>3. NAD+ precursors.</strong> I use NR (nicotinamide riboside), 300mg daily in the morning. I chose NR because it has over 20 human trials, its chemically stable, and its the only form with FDA GRAS status.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
+      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Physician's Perspective</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         The path to reversing metabolic distress is not simply about willpower; it requires a systemic approach to restoring cellular machinery.
@@ -2918,9 +2906,9 @@ export const POSTS = [
         Most adults are not actually sleeping; they are simply sedated. Alcohol, prescription sleep aids, and chronic stress fragment your sleep architecture, preventing you from ever reaching these restorative stages. To support healthy biological aging, you must treat sleep as a clinical intervention. This means respecting your circadian biology: viewing morning sunlight to set your cortisol rhythm, avoiding blue light 90 minutes before bed, dropping your core body temperature, and utilizing targeted compounds like <a href="/protocol#sleep-stack" style="color: var(--color-accent-teal); text-decoration: underline;">Magnesium Bisglycinate</a> to facilitate the transition into deep sleep.
       </p>
     \n\n      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
         </p>
       </div>
     `
