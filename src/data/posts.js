@@ -1125,7 +1125,7 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I know this because I lived it. During my own weight loss — dropping from 125kg to 95kg — I went through a period on a carnivore diet. Almost entirely red meat, no grains, no seed oils. My colleagues raised eyebrows. Red meat is preached against for cholesterol and bowel cancer risk, and here was a doctor eating steak every day. But my inflammation markers dropped. My energy surged. The brain fog I had lived with for years vanished. I am not saying carnivore is the answer for everyone. But it forced me to confront an uncomfortable truth: the foods we have been calling "healthy" might be the very things making us sick.
+        Clinical observation consistently demonstrates that transitioning away from a diet heavily reliant on processed grains and industrial seed oils towards one based on stable fats and high-quality proteins often correlates with significant reductions in systemic inflammatory markers. While a strict elimination diet is not necessary for every patient, it highlights an important clinical principle: many foods conventionally labeled as "heart healthy" may actually be primary drivers of metabolic and cellular distress.
       </p>
 
       <div style="margin: 2rem 0; text-align: center;">
@@ -1178,7 +1178,7 @@ export const POSTS = [
       </p>
       
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <em><a href="/blog/19" style="color: #20B2AA; text-decoration: none; border-bottom: 1px solid #20B2AA;">Read next: The "Ignition Failure" (Why Your Cells Can't Turn Food Into Energy) &rarr;</a></em>
+        <em><a href="/blog/methylation-crisis-cells-cannot-turn-food-into-fuel" style="color: #20B2AA; text-decoration: none; border-bottom: 1px solid #20B2AA;">Read next: The Methylation Crisis (Why Your Cells Can't Turn Food Into Energy) &rarr;</a></em>
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">3. The Phospholipid Upgrade (Astaxanthin/Krill)</h3>
@@ -1197,19 +1197,19 @@ export const POSTS = [
         Stop eating the industrial oils that make your cells stiff. Commit to a clinical-grade Omega-3 "Oil Change." Restore the fluid mosaic, and you will restore the very foundation of your cellular energy infrastructure.
       </p>
 
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">The Architect's Protocol</p>
         <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
           <li style="margin-bottom: 0.75rem;"><strong>Eliminate:</strong> Remove all industrial seed oils from your kitchen: canola, sunflower, safflower, soybean, and corn oil. Replace with extra virgin olive oil (cooking below smoke point), coconut oil (high heat), and grass-fed butter or ghee.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Rebuild:</strong> Supplement with 2-3g high-quality Omega-3 fish oil daily (EPA + DHA combined). Look for triglyceride form, third-party tested for heavy metals. It takes 60-90 days to fully remodel cell membranes.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Verify:</strong> Request an Omega-3 Index blood test. Target an index above 8% (most Western populations score 4-5%). Retest every 6 months until optimal.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Rebuild:</strong> Supplement with high-quality Omega-3 fish oil daily (EPA + DHA combined). Look for triglyceride form, third-party tested for heavy metals.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Verify:</strong> Request an Omega-3 Index blood test. Target an optimal index above 8% to ensure adequate cellular integration.</li>
         </ol>
       </div>
-<p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. High-dose Omega-3 supplementation can have blood-thinning effects. Always consult your physician before initiating high-dose EPA/DHA protocols, especially if you are on anticoagulant medications.
+          High-dose Omega-3 supplementation can alter blood viscosity. Patients currently prescribed anticoagulant medications (e.g., Warfarin, Apixaban) must consult their primary care physician prior to initiating high-dose EPA/DHA protocols.
         </p>
       </div>
     
@@ -1312,9 +1312,9 @@ export const POSTS = [
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">From the Clinic</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Physician's Perspective</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>A patient in his mid-fifties presented with three separate complaints: persistent joint stiffness, chronic fatigue, and stubborn visceral fat that would not shift despite regular exercise. In standard practice, these complex symptoms are often siloed and treated in isolation: anti-inflammatories for the joints, an SSRI trial for the fatigue, and a referral to a dietician for the weight. However, his hs-CRP came back at 5.8 mg/L, and his fasting insulin was 14 mIU/L. These two numbers pointed to chronic systemic inflammation driving the symptoms simultaneously. We implemented a 90-day protocol: eliminated seed oils, reduced refined carbohydrates, started Omega-3 fish oil at 3g daily, added NAC 600mg twice daily, and introduced Zone 2 walking for 30 minutes five mornings per week. At the recheck, hs-CRP had dropped to 1.8 mg/L, joint stiffness was significantly reduced, energy was improved, and there was a noticeable reduction in visceral fat. By shifting the focus to systemic inflammation, we were able to address the underlying driver rather than just managing the branches.
+          In clinical practice, it is common to see patients presenting with a triad of symptoms: persistent joint stiffness, chronic fatigue, and metabolic resistance (stubborn visceral fat). Standard models often silo these symptoms into separate treatments—anti-inflammatories, antidepressants, and dietetics. However, comprehensive blood panels frequently reveal elevated hs-CRP and fasting insulin, pointing to chronic systemic inflammation as the unifying driver. Transitioning from a symptom-management approach to a foundational inflammatory protocol—eliminating processed seed oils, reducing refined carbohydrates, and ensuring adequate Omega-3 intake—often correlates with broad improvements across all these domains simultaneously.
         </p>
       </div>
 
@@ -1340,16 +1340,17 @@ export const POSTS = [
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/longevity" style="color: #667eea; text-decoration: underline;">The Longevity Master Guide</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
       </div>
-      <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.2rem; margin: 2rem 0;">
-        <p style="margin: 0; font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.5;">
-          <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before making changes to your supplement regimen, particularly if you are on anti-inflammatory medications, blood thinners, or immunosuppressants. The information provided here reflects the author's clinical perspective and current peer-reviewed research.
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
+          Methylene Blue and high-dose antioxidants can interact with prescription medications, particularly SSRIs. This article is for educational purposes only. Always consult a qualified healthcare professional before initiating new supplementation protocols.
         </p>
       </div>
 <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
         <ul style="margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/why-seed-oils-are-making-you-inflamed-tired-and-stiff" style="color: #20B2AA; text-decoration: none;">seed oils and cell membrane damage</a> — inflammation</li>
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/blood-sugar-spikes-why-i-treat-normal-fasting-glucose" style="color: #20B2AA; text-decoration: none;">blood sugar spikes and metabolic damage</a> — insulin resistance</li>
+          <li style="margin-bottom: 0.5rem;"><a href="/blog/seed-oils-inflammation-fatigue-weight-gain" style="color: #20B2AA; text-decoration: none;">seed oils and cell membrane damage</a> — inflammation</li>
+          <li style="margin-bottom: 0.5rem;"><a href="/blog/blood-sugar-spikes-normal-fasting-glucose-danger" style="color: #20B2AA; text-decoration: none;">blood sugar spikes and metabolic damage</a> — insulin resistance</li>
         </ul>
       </div>
 `
@@ -1394,7 +1395,9 @@ export const POSTS = [
         As a physician who spent over a decade in frontline medicine before transitioning into Longevity Medicine, I see this interaction as one of the greatest failures of modern healthcare.
       </p>
 
-      <p>I know this because I lived it. At 125kg, exhausted, brain fog by 2PM — my own fasting glucose was "normal." I remember walking into a shop one day, catching myself in the mirror from an angle I was not expecting. Not the trusty head-on bathroom mirror — a side angle, full body, no mercy. It was a cringe moment. That, combined with people on hands-free calls telling me I sounded out of breath just from walking, was the wake-up call. My fasting glucose said I was fine. My body said otherwise. I eventually broke the cycle with intermittent fasting, near-zero carbohydrate intake, and used creatine to keep my brain functioning while fasting through the workday. I cut alcohol completely. The weight came off, the brain fog lifted, the breathlessness vanished. But my fasting glucose had been "normal" the entire time I was metabolically broken. That is the illusion.</p>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In clinical practice, I routinely see patients presenting with unexplained weight gain, severe afternoon fatigue, and profound brain fog, all while their fasting glucose sits perfectly within the "normal" reference range. When these patients are transitioned to a protocol involving continuous glucose monitoring, intermittent fasting, and targeted carbohydrate reduction, the improvement is often dramatic. The weight shifts, energy stabilizes, and cognitive clarity returns. Yet, standard fasting lab work would have missed their metabolic distress entirely. That is the illusion of the 8:00 AM blood draw.
+      </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         That fasting number is an illusion. It tells me what your blood sugar is when you are doing absolutely nothing, in a perfectly starved state. It tells me nothing about what happens to your body at 2:00 PM after you eat a supposedly "healthy" sandwich and a fruit smoothie.
@@ -1474,19 +1477,19 @@ export const POSTS = [
         Protect your endothelium. Flatten the spike. By optimising your post-meal responses with movement and strategic supplementation, you safeguard your long-term cardiovascular and cognitive wealth.
       </p>
 
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">The Architect's Protocol</p>
         <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
           <li style="margin-bottom: 0.75rem;"><strong>Test:</strong> Ask your GP for a fasting insulin test alongside standard glucose and HbA1c. Calculate your HOMA-IR score (fasting insulin × fasting glucose ÷ 22.5). A HOMA-IR above 1.5 signals early insulin resistance, even with "normal" glucose.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Eat:</strong> Front-load protein and fat at every meal. Eat vegetables and protein first, carbohydrates last. This simple sequencing can reduce glucose spikes by up to 73% (Stanford study). Eliminate liquid sugar entirely.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Move:</strong> Walk for 10 minutes after every meal. Post-meal walking reduces glucose spikes by 30-50%. Add resistance training 3x weekly to build your glucose "sink" (muscle tissue).</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Eat:</strong> Front-load protein and fat at every meal. Eat vegetables and protein first, carbohydrates last. This simple sequencing can significantly blunt glucose excursions. Eliminate liquid sugar entirely.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Move:</strong> Walk for 10 minutes after every meal. Post-meal walking reduces glucose spikes. Add resistance training 3x weekly to build your glucose "sink" (muscle tissue).</li>
         </ol>
       </div>
-<p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your diet or implementing supplements like Berberine, particularly if you are currently on medication for blood sugar management.
+          This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your diet or implementing supplements like Berberine, particularly if you are currently prescribed anti-diabetic medications or insulin, as this may increase the risk of hypoglycemia.
         </p>
       </div>
     
