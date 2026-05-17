@@ -5,7 +5,7 @@ import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
 import HeroSectionHybrid from '../components/HeroSectionHybrid';
 import EmailCapture from '../components/EmailCapture';
-import TestimonialsSection from '../components/TestimonialsSection';
+import ExpertInsightsSection from '../components/ExpertInsightsSection';
 import FAQSection from '../components/FAQSection';
 import SEO from '../components/SEO';
 
@@ -579,8 +579,8 @@ export default function Home() {
                 </div>
             </section >
 
-            {/* Testimonials Section */}
-            <TestimonialsSection />
+            {/* Expert Insights Section */}
+            <ExpertInsightsSection />
 
             {/* FAQ Section */}
             <FAQSection data={faqData} />

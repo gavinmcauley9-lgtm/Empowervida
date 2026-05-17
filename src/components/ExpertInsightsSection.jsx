@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const testimonials = [
+const insights = [
     {
         id: 1,
         quote: "The goal isn't just to live longer—it's to extend your healthspan. We should be focused on preventing chronic disease decades before it manifests.",
@@ -20,7 +20,7 @@ const testimonials = [
     },
     {
         id: 3,
-        quote: "Aging is not inevitable. It's a disease, and like any disease, it can be treated. The question is no longer if, but when.",
+        quote: "Biological age and chronological age are not the same thing. We are learning that the pace of cellular decline can be significantly influenced by our daily metabolic choices.",
         author: "Dr. David Sinclair, PhD",
         role: "Harvard Geneticist & Author of Lifespan",
         initials: "DS",
@@ -29,7 +29,7 @@ const testimonials = [
 ];
 
 
-const TestimonialsSection = () => {
+const ExpertInsightsSection = () => {
     return (
         <section style={{
             padding: '6rem 2rem',
@@ -71,7 +71,7 @@ const TestimonialsSection = () => {
                     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
                     gap: '2rem'
                 }}>
-                    {testimonials.map((t, i) => (
+                    {insights.map((t, i) => (
                         <motion.div
                             key={t.id}
                             initial={{ opacity: 0, y: 20 }}
@@ -137,4 +137,4 @@ const TestimonialsSection = () => {
     );
 };
 
-export default TestimonialsSection;
+export default ExpertInsightsSection;
