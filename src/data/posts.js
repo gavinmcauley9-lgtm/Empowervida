@@ -4423,15 +4423,15 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Perspective: The 3 AM Threat</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        As a clinician, one of the most common—and debilitating—complaints I hear is the "3 AM Wake-Up." 
+        In longevity medicine, one of the most prevalent—and metabolically debilitating—clinical presentations is the "3 AM Wake-Up."
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <em>(Note: The following is a composite case study representing a common clinical presentation.)</em><br><br>Recently, I treated a professional in his fifties who came to me exhausted. He told me, "Doctor, I fall asleep instantly at 10 PM. But every single night, at exactly 3:15 AM, my eyes snap open. My heart is pounding, my mind is racing, and I cannot get back to sleep for two hours."
+        Consider a common clinical scenario: A patient presents with profound exhaustion. They report falling asleep without difficulty around 10 PM. However, almost uniformly, they experience an abrupt awakening between 3:00 and 3:30 AM. They report an elevated heart rate, racing thoughts, and an inability to return to sleep for hours.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        He assumed it was purely psychological stress. He was trying meditation and deep breathing, to no avail. What he didn't realise was that his problem was fundamentally biochemical. His nervous system had lost its ability to regulate "excitatory" signals. He was profoundly deficient in the "Quiet Mineral": Magnesium.
+        Patients frequently misattribute this to psychological stress and attempt meditation or breathing exercises with minimal success. However, the pathology is often fundamentally biochemical. The patient's nervous system has lost the capacity to regulate excitatory signals due to a profound deficiency in a critical neuro-modulatory mineral: Magnesium.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Neurological Brake Pedal</h2>
@@ -4459,7 +4459,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Great Magnesium "Scam"</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Once patients learn this, they often run to the nearest pharmacy and buy the cheapest magnesium supplement on the shelf. Two weeks later, they return to my clinic, frustrated that they are still waking up at 3 AM.
+        Upon learning this, patients often self-prescribe over-the-counter magnesium supplements. Weeks later, they report continuing frustration as their sleep architecture remains fragmented and the 3 AM awakenings persist.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4517,9 +4517,9 @@ export const POSTS = [
         You cannot medicate your way out of mitochondrial dysfunction. You must systematically rebuild the architecture of your cells. This is the difference between simply masking symptoms and fundamentally improving the foundational markers of your biological age.
       </p>
     \n\n      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. If you suffer from chronic, severe insomnia, consult a sleep physician rule out sleep apnea or other underlying conditions.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. If you suffer from chronic, severe insomnia, consult a sleep physician to rule out sleep apnea or other underlying conditions.
         </p>
       </div>
     `
