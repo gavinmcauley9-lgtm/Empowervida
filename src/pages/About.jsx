@@ -11,7 +11,7 @@ export default function About() {
         "givenName": "Gavin",
         "familyName": "McAuley",
         "jobTitle": "Family Physician & Longevity Specialist",
-        "description": "Practicing physician who transformed from 125kg burnout to longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
+        "description": "Practicing physician who transformed his metabolic health to become a longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
         "url": "https://empowervida.com/about",
         "alumniOf": {
             "@type": "EducationalOrganization",
@@ -52,7 +52,7 @@ export default function About() {
         }}>
             <SEO
                 title="About Dr. Gavin | The Doctor Who Saved Himself | EMPOWERVIDA"
-                description="From 125kg burnout to longevity architect. Why a veteran physician left the assembly line of modern medicine to build a blueprint for true health."
+                description="From physician burnout to longevity architect. Why a veteran physician left the assembly line of modern medicine to build a blueprint for true health."
                 keywords="dr gavin mcauley, longevity doctor, physician burnout, metabolic health, weight loss transformation, evidence-based wellness"
                 canonical="/about"
                 ogImage="/water_refraction.png"
@@ -229,13 +229,13 @@ export default function About() {
 
                     <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
                         <div style={{
-                            fontSize: '6rem',
+                            fontSize: '4.5rem',
                             fontWeight: '800',
                             color: '#FF5722',
                             opacity: 0.15,
                             marginBottom: '-2rem',
                             textAlign: 'center'
-                        }}>125kg</div>
+                        }}>BURNOUT</div>
 
                         <h2 style={{
                             fontSize: '2.5rem',
@@ -250,7 +250,7 @@ export default function About() {
                         <div style={{ width: '50px', height: '4px', background: '#FF5722', margin: '0 auto 3rem' }}></div>
 
                         <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
-                            The stress of the job took its toll. I peaked at <strong style={{ color: '#FF5722' }}>125kg</strong>. I developed sleep apnea and lived in a fog of fatigue. I was using food and alcohol to numb the stress of the day.
+                            The stress of the job took its toll. I developed severe metabolic syndrome and sleep apnea, living in a constant fog of fatigue. I was using food and alcohol to numb the stress of the day.
                         </p>
                         <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
                             I was a doctor who knew the pathology of disease, but I had <strong>lost the recipe for health</strong>.
@@ -276,9 +276,9 @@ export default function About() {
                             color: 'var(--color-accent-teal)',
                             opacity: 0.2,
                             marginBottom: '-1rem'
-                        }}>-30kg</div>
+                        }}>RECOVERY</div>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            From 125kg to The Protocol
+                            From Metabolic Decline to The Protocol
                         </h2>
                         <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
@@ -287,7 +287,7 @@ export default function About() {
                             In 2022, I made a choice: fix the root cause or accept decline.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I didn't need willpower. I needed a protocol. I optimised my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. I lost 30kg. Sleep apnea resolved. Energy stabilised.
+                            I didn't need willpower. I needed a protocol. I optimised my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. My metabolic markers normalized. Sleep apnea resolved. Energy stabilised.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
                             Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
@@ -339,7 +339,7 @@ export default function About() {
                             { label: 'University of Aberdeen 2009', icon: '🎓' },
                             { label: '16 Years Practising Medicine', icon: '⚕️' },
                             { label: 'Emergency Medicine & General Practice', icon: '🚑' },
-                            { label: 'Lost 30kg in 2022', icon: '💪' },
+                            { label: 'Metabolically Optimised', icon: '💪' },
                             { label: 'Polln Clinic Holistic Medicine', icon: '🌿' }
                         ].map((cred, index) => (
                             <div key={index} style={{
@@ -374,10 +374,10 @@ export default function About() {
                     I've Walked This Road
                 </h2>
                 <p style={{ fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
-                    From 125kg, brain fog, sleep apnea, and burnout, back to health.
+                    From severe metabolic dysfunction, brain fog, sleep apnea, and burnout, back to health.
                 </p>
                 <p style={{ fontSize: '1.5rem', color: 'var(--color-accent-teal)', marginBottom: '3rem', fontWeight: '600' }}>
-                    You can too.
+                    Evidence-based protocols can help.
                 </p>
                 <Link
                     to="/longevity"
