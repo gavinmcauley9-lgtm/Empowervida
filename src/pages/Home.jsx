@@ -25,7 +25,7 @@ export default function Home() {
         "founder": {
             "@type": "Person",
             "name": "Dr. Gavin McAuley",
-            "jobTitle": "Physician & Longevity Specialist"
+            "jobTitle": "Physician, Clinical Focus in Longevity"
         },
         "sameAs": [
             "https://www.linkedin.com/in/gavin-mcauley-62147151/"
@@ -219,7 +219,7 @@ export default function Home() {
                             marginBottom: '2.5rem',
                             letterSpacing: '0.005em'
                         }}>
-                            My mission is to help you optimise your healthspan through evidence-based protocols: the same approach that transformed my own health from severe metabolic syndrome and sleep apnea to being metabolically optimised and thriving.
+                            My mission is to help you optimise your healthspan through evidence-based protocols: a systematic approach designed to support metabolic optimization and thriving longevity.
                         </p>
 
                         {/* Premium Credentials Grid */}

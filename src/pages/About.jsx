@@ -10,8 +10,8 @@ export default function About() {
         "honorificPrefix": "Dr.",
         "givenName": "Gavin",
         "familyName": "McAuley",
-        "jobTitle": "Family Physician & Longevity Specialist",
-        "description": "Practicing physician who transformed his metabolic health to become a longevity specialist. Evidence-based protocols for metabolic health and cellular optimization.",
+        "jobTitle": "Family Physician, Clinical Focus in Longevity",
+        "description": "Practicing physician with a clinical focus on longevity. Evidence-based protocols for metabolic health and cellular optimization.",
         "url": "https://empowervida.com/about",
         "alumniOf": {
             "@type": "EducationalOrganization",
@@ -53,7 +53,7 @@ export default function About() {
             <SEO
                 title="About Dr. Gavin | The Doctor Who Saved Himself | EMPOWERVIDA"
                 description="From physician burnout to longevity architect. Why a veteran physician left the assembly line of modern medicine to build a blueprint for true health."
-                keywords="dr gavin mcauley, longevity doctor, physician burnout, metabolic health, weight loss transformation, evidence-based wellness"
+                keywords="dr gavin mcauley, longevity doctor, physician burnout, metabolic health, evidence-based wellness"
                 canonical="/about"
                 ogImage="/water_refraction.png"
                 schemaData={personSchema}
@@ -250,7 +250,7 @@ export default function About() {
                         <div style={{ width: '50px', height: '4px', background: '#FF5722', margin: '0 auto 3rem' }}></div>
 
                         <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
-                            The stress of the job took its toll. I developed severe metabolic syndrome and sleep apnea, living in a constant fog of fatigue. I was using food and alcohol to numb the stress of the day.
+                            The stress of the job took its toll. Like many professionals, I experienced the cascading effects of metabolic dysfunction, living in a constant fog of fatigue and relying on maladaptive coping mechanisms.
                         </p>
                         <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
                             I was a doctor who knew the pathology of disease, but I had <strong>lost the recipe for health</strong>.
@@ -287,7 +287,7 @@ export default function About() {
                             In 2022, I made a choice: fix the root cause or accept decline.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I didn't need willpower. I needed a protocol. I optimised my mitochondrial function with CoQ10, ALCAR, and PQQ. I restored insulin sensitivity with berberine, alpha-lipoic acid, and time-restricted eating. My metabolic markers normalized. Sleep apnea resolved. Energy stabilised.
+                            I didn't need willpower. I needed a protocol. I focused on optimizing mitochondrial function with specific cofactors and supporting insulin sensitivity with targeted compounds and time-restricted eating. Through this systematic approach, physiological resilience and energy can be stabilized.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
                             Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
@@ -374,7 +374,7 @@ export default function About() {
                     I've Walked This Road
                 </h2>
                 <p style={{ fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
-                    From severe metabolic dysfunction, brain fog, sleep apnea, and burnout, back to health.
+                    From severe metabolic dysfunction and burnout to comprehensive metabolic health.
                 </p>
                 <p style={{ fontSize: '1.5rem', color: 'var(--color-accent-teal)', marginBottom: '3rem', fontWeight: '600' }}>
                     Evidence-based protocols can help.
