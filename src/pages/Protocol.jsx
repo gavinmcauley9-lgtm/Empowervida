@@ -233,7 +233,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
                                     <strong>GlyNAC Complex (Glycine 2g + NAC 1.2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Research suggests it may help reverse markers associated with ageing.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Research suggests it may help improve markers associated with ageing.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
@@ -330,7 +330,7 @@ const Protocol = () => {
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
                                     <strong>Magnesium L-Threonate (2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>The only form proven to cross the blood-brain barrier. Reverses structural brain fog by increasing physical synaptic density.</span>
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>The only form proven to cross the blood-brain barrier. Addresses structural brain fog by supporting physical synaptic density.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>

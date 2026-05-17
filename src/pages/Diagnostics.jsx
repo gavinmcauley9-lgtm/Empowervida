@@ -36,7 +36,7 @@ const Diagnostics = () => {
     const honourableMentions = [
         {
             name: "Vitamin D",
-            truth: "Regulates 5% of your genome. Low levels guarantee a fragile immune system and hormonal dysregulation.",
+            truth: "Regulates 5% of your genome. Low levels significantly compromise immune function and hormonal regulation.",
             target: "100–150 nmol/L"
         },
         {

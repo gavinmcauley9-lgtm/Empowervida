@@ -302,7 +302,7 @@ const MitochondrialGuide = () => {
                         <strong>Cardiovascular Disease:</strong> Heart failure, liver dysfunction, muscle weakness
                     </li>
                     <li style={{ marginBottom: '0.75rem' }}>
-                        <strong>Accelerated Ageing:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to reverse this.</Link>
+                        <strong>Accelerated Ageing:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to address this.</Link>
                     </li>
                 </ul>
 

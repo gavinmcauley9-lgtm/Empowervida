@@ -608,7 +608,7 @@ export default function InsulinStory() {
                     </div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.2rem' }}>
-                        The question is not whether insulin resistance will affect you. The question is <strong>how far it has already progressed</strong>—and whether you will reverse it.
+                        The question is not whether insulin resistance will affect you. The question is <strong>how far it has already progressed</strong>—and whether you will address it.
                     </p>
 
                     <div style={{

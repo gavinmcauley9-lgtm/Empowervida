@@ -229,7 +229,7 @@ function Calculator() {
       }}>
         <h4 style={{ color: 'var(--color-primary-navy)', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Don't have your lab results handy?</h4>
         <p style={{ color: 'var(--color-text)', marginBottom: '1.5rem', fontSize: '1rem' }}>
-          You can still begin repairing your bioenergetic baseline today. Review the clinical framework used to reverse cognitive exhaustion and mitochondrial dysfunction.
+          You can still begin repairing your bioenergetic baseline today. Review the clinical framework used to support cognitive function and mitochondrial health.
         </p>
         <Link 
           to="/protocol#clarity-stack"

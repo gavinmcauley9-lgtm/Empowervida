@@ -94,7 +94,7 @@ export const POSTS = [
     id: 999,
     slug: 'why-nad-is-not-a-magic-bullet-brain-fog-root-causes',
     aliases: ['brain-fog-cognitive-decline-science-of-the-dimmer-switch', 'why-nad-is-not-a-magic-bullet-brain-fog-root-causes'],
-    title: 'Why NAD+ is Not a Magic Bullet: The 4 Hidden Systems Behind Brain Fog',
+    title: 'Why NAD+ is Not a Comprehensive Solution: The 4 Hidden Systems Behind Brain Fog',
     category: 'Neuro-Optimization',
     image: '/cellular_structure.webp',
     excerpt: "NAD+ therapy is highly effective, but it cannot fix brain fog caused by fractured sleep architecture, subclinical hypothyroidism, neural insulin resistance, or hidden iron deficiency. A physician explains the systems biology approach to chronic fatigue.",
@@ -112,7 +112,7 @@ export const POSTS = [
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Physician's Perspective</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">I see patients in clinic constantly spending hundreds of pounds a month on NAD+ precursors like NMN and Nicotinamide Riboside (NR), expecting a magic cure for their brain fog. When they feel nothing, they assume the supplement is broken. The supplement isn't broken; their diagnostic framework is. As described by López-Otín in the 2023 Hallmarks of Aging update, NAD+ is just one critical piece of a much larger metabolic puzzle. NAD+ cannot unilaterally resolve energy failure if the underlying system is crippled by sleep apnea, subclinical hypothyroidism, insulin resistance, or suffocation from low ferritin. Here is how I investigate the 4 non-NAD+ bottlenecks of brain fog.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">I see patients in clinic constantly spending hundreds of pounds a month on NAD+ precursors like NMN and Nicotinamide Riboside (NR), expecting an immediate resolution for their brain fog. When they feel nothing, they assume the supplement is broken. The supplement isn't broken; their diagnostic framework is. As described by López-Otín in the 2023 Hallmarks of Aging update, NAD+ is just one critical piece of a much larger metabolic puzzle. NAD+ cannot unilaterally resolve energy failure if the underlying system is crippled by sleep apnea, subclinical hypothyroidism, insulin resistance, or suffocation from low ferritin. Here is how I investigate the 4 non-NAD+ bottlenecks of brain fog.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why I Care About This: The Burnout Years</h2>
@@ -130,7 +130,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">2. Neural Insulin Resistance: Starving in a Sea of Fuel</h2>
       <p>If you experience massive energy crashes at 2 PM or 3 PM, the culprit is often glycemic, not mitochondrial. This is typically accompanied by a feeling of intense lethargy directly after eating a heavy meal (a "post-meal coma").</p>
       <p>Your brain runs primarily on glucose. But decades of standard Western diets force the body to pump out unusually high levels of insulin to clear the glucose from your bloodstream. To protect themselves from this toxic insulin load, your cells downregulate their insulin receptors. Eventually, your cells become entirely "deaf" to the signal. When neurons become insulin resistant, they literally cannot pull glucose inside. The blood might be overflowing with fuel, but the brain cells are starving to death.</p>
-      <p>Taking an NAD+ precursor cannot force glucose through a broken insulin receptor. You must sensitise the receptor. We do this clinically by activating the AMPK pathway (the cellular "low-fuel" sensor) through Zone 2 cardiovascular training, 14-hour fasting windows, and AMPK-activators like Berberine or Metformin. Activating AMPK brings glucose transporters (GLUT4) to the cell surface completely independent of insulin. <a href="/blog/insulin-resistance-and-aging" style="color: #20B2AA; text-decoration: underline; font-weight: 600;">Discover the exact protocols to reverse neural insulin resistance in this deep dive</a>.</p>
+      <p>Taking an NAD+ precursor cannot force glucose through a broken insulin receptor. You must sensitise the receptor. We do this clinically by activating the AMPK pathway (the cellular "low-fuel" sensor) through Zone 2 cardiovascular training, 14-hour fasting windows, and AMPK-activators like Berberine or Metformin. Activating AMPK brings glucose transporters (GLUT4) to the cell surface completely independent of insulin. <a href="/blog/insulin-resistance-and-aging" style="color: #20B2AA; text-decoration: underline; font-weight: 600;">Discover the exact protocols to address neural insulin resistance in this deep dive</a>.</p>
 
       <img src="/insulin_resistance_progression.webp" alt="3D visualisation of insulin receptors and glucose uptake" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
 
@@ -461,7 +461,7 @@ export const POSTS = [
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Creatine acts as an intracellular battery, aggressively buffering and replenishing ATP in the frontal lobe during periods of high cognitive demand. My partner is a teacher; she went from being an exhausted wreck at 5:00 PM to functioning normally purely by adding 5g of Creatine daily. The clinical data on its ability to reverse sleep-deprivation-induced brain fog is undeniable.
+        Creatine acts as an intracellular battery, aggressively buffering and replenishing ATP in the frontal lobe during periods of high cognitive demand. My partner is a teacher; she went from being an exhausted wreck at 5:00 PM to functioning normally purely by adding 5g of Creatine daily. The clinical data on its ability to mitigate sleep-deprivation-induced brain fog is undeniable.
       </p>
 
       <img src="/synapse_firing_3d.png" alt="3D medical render of neurotransmitters and ATP energy molecules crossing a synapse" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
@@ -570,7 +570,7 @@ export const POSTS = [
       </div>
 
       <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> The blood-brain barrier prevents 90% of standard magnesium supplements from ever touching a neuron. In 2010, MIT neuroscientists engineered Magnesium L-Threonate (Magtein)—a proprietary form specifically designed to breach this barrier. Clinical trials demonstrate that this specific molecule increases synaptic density by 44% in aging brains and can reverse cognitive age by up to 9.4 years.
+        <strong>The short answer:</strong> The blood-brain barrier prevents 90% of standard magnesium supplements from ever touching a neuron. In 2010, MIT neuroscientists engineered Magnesium L-Threonate (Magtein)—a proprietary form specifically designed to breach this barrier. Clinical trials demonstrate that this specific molecule increases synaptic density by 44% in aging brains and can improve cognitive age markers by up to 9.4 years.
       </p>
   
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Anatomy of Synaptic Decay</h2>
@@ -695,7 +695,7 @@ export const POSTS = [
       <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">BDNF: The Brain's Fertilizer</h2>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        BDNF is a highly specialized protein that acts like biological miracle-grow for your central nervous system. When BDNF levels are high, it does three things:
+        BDNF is a highly specialized protein that acts as a critical growth factor for your central nervous system. When BDNF levels are high, it does three things:
       </p>
 
       <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
@@ -1162,7 +1162,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Protocol: The Cellular Oil Change</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You cannot fix a stiff cell membrane overnight. The half-life of linoleic acid (Omega-6) in human adipose tissue is incredibly long—approximately 680 days. Ejecting these rancid fats takes time and deliberate action. But if you want to restore your energy and reverse inflammation, an "Oil Change" is non-negotiable.
+        You cannot fix a stiff cell membrane overnight. The half-life of linoleic acid (Omega-6) in human adipose tissue is incredibly long—approximately 680 days. Ejecting these rancid fats takes time and deliberate action. But if you want to restore your energy and modulate inflammation, an "Oil Change" is non-negotiable.
       </p>
 
       <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Stop Pouring Sand in the Engine</h3>
@@ -1751,7 +1751,7 @@ export const POSTS = [
         </ul>
 
         <h3 style="font-size: 1.2rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 1rem; color: var(--color-text);">3. Zone 2 Training</h3>
-        <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 0;">This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is essentially "Miracle-Gro" for your brain, encourageing the growth of new neural connections.</p>
+        <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 0;">This is the "engine tuning." Steady-state cardio (where you can still hold a conversation) increases <strong>Brain-Derived Neurotrophic Factor (BDNF)</strong>. BDNF is a primary growth factor for your brain, encourageing the growth of new neural connections.</p>
       </div>
 
       <h2>The Clinical View</h2>
@@ -3236,7 +3236,7 @@ export const POSTS = [
   },
   {
     id: 25,
-    title: 'How to Reverse Biological Aging Naturally: The 9 Hallmarks You Can Control',
+    title: 'How to Optimize Biological Aging Naturally: The 9 Hallmarks You Can Control',
     category: 'Metabolic Flexibility',
     image: '/biological_clock_reverse.png',
     excerpt: 'Aging isnt a number. Its accumulated damage. And damage can be repaired. A physician explains the science of turning back the biological clock.',
@@ -3253,7 +3253,7 @@ export const POSTS = [
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
       <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> You can reverse biological aging. Not with expensive clinics or billionaire biohacks. With lifestyle and targeted supplementation.
+        <strong>The short answer:</strong> You can optimize biological aging markers. Not with expensive clinics or billionaire biohacks. With lifestyle and targeted supplementation.
       </p>
   
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -3735,7 +3735,7 @@ export const POSTS = [
     title: "From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",
     category: 'Neuro-Optimization',
     image: '/brain_fog_to_vitality_hero.webp',
-    excerpt: "Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron, and the protocol to reverse it.",
+    excerpt: "Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron, and the protocol to address it.",
     date: 'Jan 21, 2026',
     featured: true,
     cta: {
@@ -4241,7 +4241,7 @@ export const POSTS = [
     title: 'Glycine and NAC (GlyNAC): Can You Take Them Together? (Physician\'s Guide)',
     category: 'Metabolic Flexibility',
     image: '/glynac_glutathione_synthesis.png',
-    excerpt: "The combination that restores glutathione and reverses ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.",
+    excerpt: "The combination that restores glutathione and improves ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.",
     date: 'Jan 9, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -4727,7 +4727,7 @@ export const POSTS = [
         <li style="margin-bottom: 0.75rem;"><strong>Prebiotics:</strong> These are the "Fertilizer." They are non-digestible carbohydrates (like Inulin, FOS, and GOS) that pass through the small intestine unchanged. When they reach the colon, your beneficial bacteria ferment them.</li>
       </ul>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Short-Chain Fatty Acid (SCFA) Miracle</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Short-Chain Fatty Acid (SCFA) Mechanism</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         When your probiotics eat your prebiotics, they produce Short-Chain Fatty Acids, primarily Butyrate.
@@ -5590,7 +5590,7 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Final Physician’s Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The longevity field is full of "miracle molecules," but as an architect of your own health, you must choose the one with the best "foundation." Resveratrol started the fire, but Pterostilbene is the fuel that actually keeps the engine running. Pair them wisely, take them with fat, and don't forget the blueberries.
+        The longevity field is full of "breakthrough molecules," but as an architect of your own health, you must choose the one with the best "foundation." Resveratrol started the fire, but Pterostilbene is the fuel that actually keeps the engine running. Pair them wisely, take them with fat, and don't forget the blueberries.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -6516,7 +6516,7 @@ export const POSTS = [
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Yes — this is one of the most well-researched mitochondrial support stacks in longevity science.</strong> Alpha-Lipoic Acid (ALA) is a universal antioxidant that protects mitochondria from oxidative damage, while Acetyl-L-Carnitine (ALCAR) shuttles fatty acids into mitochondria for energy production. Together, they have been shown to reverse age-related mitochondrial decay in landmark studies by Dr. Bruce Ames at UC Berkeley.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Yes — this is one of the most well-researched mitochondrial support stacks in longevity science.</strong> Alpha-Lipoic Acid (ALA) is a universal antioxidant that protects mitochondria from oxidative damage, while Acetyl-L-Carnitine (ALCAR) shuttles fatty acids into mitochondria for energy production. Together, they have been shown to mitigate age-related mitochondrial decay in landmark studies by Dr. Bruce Ames at UC Berkeley.</p>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Ames Research: Reversing Mitochondrial Ageing</h2>

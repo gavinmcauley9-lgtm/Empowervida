@@ -9,7 +9,7 @@ const EnvironmentalDefense = () => {
             title: 'LAYER 1: HYDRATION DEFENSE',
             subtitle: 'The Water Filter',
             problem: 'Tap water is a chemical cocktail of chlorine, fluoride, heavy metals, and pharmaceutical residue. Bottled water is a source of obesogenic microplastics.',
-            solution: 'A Reverse Osmosis (RO) system with remineralization. It is the only way to guarantee zero-contaminant hydration.',
+            solution: 'A Reverse Osmosis (RO) system with remineralization. It is the only way to ensure zero-contaminant hydration.',
             buttonText: 'VIEW RECOMMENDED FILTER >',
             link: '#'
         },
