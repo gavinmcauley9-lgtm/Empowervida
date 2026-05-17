@@ -4329,21 +4329,21 @@ export const POSTS = [
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I take GlyNAC daily and recommend it to nearly all my patients over 40. It is inexpensive (£30-40/month), well tolerated, and addresses a root cause of ageing (glutathione deficiency) rather than symptoms.
+        <strong>Can they be taken together?</strong> Yes. Clinical protocols typically advise co-administration, twice daily (e.g., 600mg NAC + 2.5g glycine at breakfast, repeated at dinner).
       </p>
 
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician's Perspective</h2>
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        One practical note: Glycine improves sleep quality (it modulates NMDA receptors and reduces core body temperature). Many patients report deeper, more restorative sleep when dosing glycine in the evening.
+        GlyNAC represents a significant advancement in human longevity interventions. The Baylor trials provide methodologically sound evidence that reversing glutathione deficiency yields clinically meaningful improvements across multiple ageing hallmarks, rather than merely altering isolated biomarkers.
       </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>NAC:</strong> Generally safe. Can cause nausea or gastrointestinal upset at doses >1,200mg. Take with food to minimise this. NAC has mucolytic properties (breaks down mucus), so if you have asthma, start at low dose and monitor.
+        This combination is increasingly considered a foundational recommendation for adults over 40. It offers a well-tolerated and accessible method to address a fundamental driver of ageing—oxidative stress—at the cellular level.
       </p>
-
+  
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Glycine:</strong> Extremely safe. No upper tolerable limit established. Doses up to 10g/day studied without adverse effects.
+        A practical clinical observation: Glycine administration frequently improves sleep architecture by modulating NMDA receptors and reducing core body temperature. Patients routinely report more restorative sleep when the second dose is taken in the evening.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
@@ -4381,13 +4381,12 @@ export const POSTS = [
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
         You cannot medicate your way out of mitochondrial dysfunction. You must systematically rebuild the architecture of your cells. This is the difference between simply masking symptoms and fundamentally improving the foundational markers of your biological age.
       </p>
-    \n\n      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
+      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. While GlyNAC has strong clinical evidence, consult your physician before starting supplementation, particularly if you have asthma, cardiovascular disease, or take prescription medications.
+          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. While GlyNAC has strong clinical evidence, consult your physician before starting supplementation, particularly if you have asthma, cardiovascular disease, or take prescription medications.
         </p>
       </div>
-    `
   }
   ,
   {
