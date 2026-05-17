@@ -130,7 +130,7 @@ export default function BlogPost() {
       "@type": "Physician",
       "name": "Dr. Gavin McAuley, MBChB (MD equivalent)",
       "medicalSpecialty": "Longevity & Metabolic Health",
-      "jobTitle": "GP & Longevity Specialist",
+      "jobTitle": "General Practitioner, Clinical Focus in Longevity",
       "url": "https://empowervida.com/about",
       "sameAs": "https://www.linkedin.com/in/gavin-mcauley-62147151/",
       "alumniOf": {

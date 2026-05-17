@@ -97,7 +97,7 @@ const HeroSectionHybrid = ({
                     transition={{ duration: 0.6, delay: 0.1 }}
                     style={{ fontSize: '0.85rem', color: '#FFFFFF', fontWeight: '500', letterSpacing: '0.05em', marginBottom: '1.5rem', textTransform: 'uppercase', textShadow: '0 2px 4px rgba(0,0,0,0.5)', opacity: 0.9 }}
                 >
-                    LED BY GAVIN MCAULEY, PHYSICIAN | SPECIALIST INTEREST: METABOLIC & LONGEVITY PROTOCOLS
+                    LED BY GAVIN MCAULEY, PHYSICIAN | CLINICAL FOCUS: METABOLIC & LONGEVITY PROTOCOLS
                 </motion.div>
 
                 {/* Trust Badge */}

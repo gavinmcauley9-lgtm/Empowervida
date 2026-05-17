@@ -5179,14 +5179,14 @@ export const POSTS = [
         <img src="/cordyceps_rhodiola_energy.webp" alt="A high-end, clinical 3D render of a mitochondria glowing with golden energy (ATP), surrounded by protective Rhodiola hexagonal shields" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Paradox: The Caffeine Debt</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Paradox: The Caffeine Debt</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In my early residency, I lived on a cycle of "stimulate and crash." Like most of my peers, I viewed caffeine as a fuel source. It took years of clinical practice—and a few bouts of my own adrenal exhaustion—to realise that caffeine doesn't provide energy; it provides an illusion. It's a high-interest loan on your future vitality.
+        In high-stress professions, there is a common reliance on a cycle of "stimulate and crash." Many view caffeine as a direct fuel source. However, clinical understanding demonstrates that caffeine does not provide actual cellular energy; it provides a physiological illusion. It acts as an adenosine receptor antagonist, effectively taking out a high-interest metabolic loan on future vitality.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When I first encountered the research on Cordyceps militaris and Rhodiola rosea, I was skeptical. I had tried the "energy mushrooms" before with little effect. But when I began pairing them with a focus on metabolic versus central fatigue, the shift was profound. It wasn't the "kick" of an espresso; it was the feeling that my "gas tank" had suddenly doubled in size during a 12-hour shift.
+        When evaluating the clinical literature on <em>Cordyceps militaris</em> and <em>Rhodiola rosea</em>, it becomes clear why isolated use often yields limited results. However, when these compounds are utilized synergistically—targeting both metabolic and central fatigue simultaneously—the physiological shift is profound. Rather than the temporary autonomic "kick" of an espresso, this combination supports sustained metabolic capacity, effectively expanding the biological "gas tank" during prolonged periods of exertion.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Cordyceps: The Metabolic Fuel Line</h2>
@@ -5249,7 +5249,7 @@ export const POSTS = [
       </ul>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is why this stack is a favourite in the biohacking community. You get the endurance of a marathoner with the mental resilience of a grandmaster, all without touching your adrenaline levels.
+        This is why these compounds are frequently utilized in clinical optimization protocols. This physiological synergy supports both prolonged endurance and sustained cognitive resilience, without artificially elevating adrenaline levels.
       </p>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Biohacking Your Labs: Tracking Fatigue</h2>
@@ -5295,13 +5295,12 @@ export const POSTS = [
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Final Physician’s Note</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Most people are looking for a "spark" to get them through the day. But sparks are temporary. If you want to sustain high performance over decades, you don't need a spark; you need a more efficient engine and a bigger tank. Cordyceps and Rhodiola are the blueprint for that engine.
+        Most people are looking for a "spark" to get them through the day. But sparks are temporary. If you want to sustain high performance over decades, you don't need a spark; you need a more efficient engine and a bigger tank. Cordyceps and Rhodiola provide a clinical framework for supporting that metabolic engine.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
+          <strong style="color: #DC2626;">Medical Disclaimer (AHPRA Compliance):</strong> This article is for educational purposes only and does not constitute medical advice. The nutritional and supplement protocols discussed are intended to support general health and complement, not replace, conventional medical therapies. <strong>Do not stop, alter, or abandon your prescribed medications or standard-of-care treatments</strong> without direct consultation with your primary care physician or specialist. Always discuss any new supplement or dietary protocol with your healthcare provider to ensure it is safe for your specific medical history.
         </p>
       </div>
     `

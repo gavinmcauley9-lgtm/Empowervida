@@ -30,7 +30,7 @@ const Shop = () => {
                 {
                     name: 'GlyNAC (Glycine + NAC)',
                     subtitle: 'The Cellular Shield',
-                    why: 'The combination proven to restore glutathione synthesis and correct intracellular oxidative stress in older adults.',
+                    why: 'The combination demonstrated to support glutathione synthesis and manage intracellular oxidative stress in older adults.',
                     pick: 'Life Extension NAC + Glycine Powder',
                     amazonLink: 'https://geni.us/glynac',
                     iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20NAC%20Glycine'
@@ -70,7 +70,7 @@ const Shop = () => {
                 {
                     name: 'Bio-Fisetin (Senolytic)',
                     subtitle: 'The Cleanup Crew',
-                    why: 'Clears senescent "zombie" cells that pump out inflammatory signals and block mitochondrial renewal.',
+                    why: 'Supports the body\'s natural clearance of senescent cells.',
                     pick: 'Doctor\'s Best Bio-Fisetin',
                     amazonLink: 'https://amzn.to/3B0z7Qx',
                     iherbLink: 'https://www.iherb.com/search?kw=Bio-Fisetin'
@@ -238,7 +238,7 @@ const Shop = () => {
                 {
                     name: 'Zinc Carnosine',
                     subtitle: 'The Mucosal Shield',
-                    why: 'Restores the integrity of the stomach lining.',
+                    why: 'Supports the structural integrity of the stomach lining.',
                     pick: 'Life Extension Gastro-Ease',
                     amazonLink: 'https://www.amazon.com/s?k=Life%20Extension%20Gastro-Ease',
                     iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Gastro-Ease'
@@ -246,7 +246,7 @@ const Shop = () => {
                 {
                     name: 'Curcumin Phytosome',
                     subtitle: 'The Fire Extinguisher',
-                    why: 'Reduces gut inflammation and supports barrier integrity.',
+                    why: 'Modulates gut inflammation and supports barrier integrity.',
                     pick: 'Thorne Curcumin Phytosome',
                     amazonLink: 'https://geni.us/fCiHC',
                     iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome'
@@ -713,7 +713,7 @@ const Shop = () => {
                                                         e.target.style.color = 'rgba(255,255,255,0.6)';
                                                     }}
                                                 >
-                                                    CHECK REVIEWS ON AMAZON
+                                                    VIEW ON AMAZON
                                                 </a>
                                             </>
                                         )}

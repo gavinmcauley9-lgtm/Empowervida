@@ -49,10 +49,10 @@ const AuthorBio = () => {
                     textTransform: 'uppercase',
                     letterSpacing: '0.05em'
                 }}>
-                    Physician & Longevity Specialist
+                    Physician, Clinical Focus in Longevity
                 </p>
                 <p style={{ margin: '0 0 1rem 0', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                    Dr. McAuley is a UK-trained medical doctor specializing in metabolic health, longevity protocols, and performance optimization. He combines clinical evidence with practical biohacking to help high-performers achieve peak cellular vitality.
+                    Dr. McAuley is a UK-trained medical doctor with a clinical focus on metabolic health, longevity protocols, and performance optimization. He combines clinical evidence with practical biohacking to help high-performers achieve peak cellular vitality.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem' }}>
                     <a href="https://www.linkedin.com/in/gavin-mcauley-62147151/" target="_blank" rel="noopener noreferrer" style={{
