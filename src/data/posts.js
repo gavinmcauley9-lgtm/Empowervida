@@ -4076,21 +4076,16 @@ export const POSTS = [
   {
     id: 31,
     slug: 'dying-to-sleep-stress-alcohol-apnea',
-    title: "Dying to Sleep: How I Broke the Cycle of Stress, Alcohol, and Apnea",
+    title: "The Metabolic Vicious Cycle: Stress, Alcohol, and Sleep Apnea",
     category: 'Neuro-Optimization',
     image: '/blog/sleep_apnea_header.png',
-    excerpt: "I was a doctor treating patients by day, but destroying my own biology by night. Here is the science of the 'Vicious Cycle', and how I broke it.",
+    excerpt: "Chronic stress, alcohol consumption, and undiagnosed sleep apnea frequently interact to create a metabolic vicious cycle. Here is the clinical science of how this cycle operates and the protocol to break it.",
     date: 'Jan 22, 2026',
     featured: false,
     cta: {
       text: "Get the Sleep Protocol",
       link: "/protocol#sleep-stack"
     },
-    title: "The Metabolic Vicious Cycle: Stress, Alcohol, and Sleep Apnea",
-    category: 'Neuro-Optimization',
-    image: '/blog/sleep_apnea_header.png',
-    excerpt: "Chronic stress, alcohol consumption, and undiagnosed sleep apnea frequently interact to create a metabolic vicious cycle. Here is the clinical science of how this cycle operates and the protocol to break it.",
-    ],
     content: `
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
       
@@ -4238,6 +4233,7 @@ export const POSTS = [
           This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
         </p>
       </div>
+    `
   },
   {
     id: 32,
@@ -4387,8 +4383,8 @@ export const POSTS = [
           This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. While GlyNAC has strong clinical evidence, consult your physician before starting supplementation, particularly if you have asthma, cardiovascular disease, or take prescription medications.
         </p>
       </div>
-  }
-  ,
+    `
+  },
   {
     id: 33,
     slug: '3am-wake-up-brain-lacking-gaba',
