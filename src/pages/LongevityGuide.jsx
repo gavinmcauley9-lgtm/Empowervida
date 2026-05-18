@@ -140,7 +140,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.7,
                         margin: 0
                     }}>
-                        <strong>This is not wellness. This is precision medicine.</strong> The goal is not just to live longer. It's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
+                        <strong>This is evidence-based, proactive medicine.</strong> The goal is not just to live longer. It's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
                     </p>
                 </div>
 
@@ -149,7 +149,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginTop: '2rem'
                 }}>
-                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine: the framework I use in my clinical practice to help patients reach "escape velocity" ageing.
+                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine: the framework I use in my clinical education to support patients in optimising their healthspan.
                 </p>
             </section >
 
@@ -257,7 +257,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem', fontWeight: 600, fontSize: '1.2rem' }}>
-                            Exercise is widely considered the <strong>single most effective intervention</strong> for extending life.
+                            Exercise is widely regarded as one of the <strong>most effective interventions</strong> for supporting longevity.
                         </p>
 
                         <h3 style={{
@@ -435,7 +435,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem', fontWeight: 600, fontSize: '1.2rem' }}>
-                            You can have perfect labs, but if your sympathetic nervous system is chronically stuck in "fight or flight," your cortisol will shred your insulin sensitivity and gut lining.
+                            You can have perfect labs, but if your sympathetic nervous system is chronically activated in "fight or flight," elevated cortisol may compromise insulin sensitivity and gut barrier integrity.
                         </p>
 
                         <div style={{
@@ -511,7 +511,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            This is where our specific role shines. This pillar acknowledges that even a <strong>perfect lifestyle may not be enough</strong> to reach "escape velocity" longevity.
+                            This pillar acknowledges that even a <strong>well-optimised lifestyle may benefit from additional support</strong> to maximise healthspan potential.
                         </p>
 
                         <h3 style={{
@@ -576,7 +576,7 @@ const LongevityGuide = () => {
                                 <li><strong>GLP-1 Agonists:</strong> For metabolic optimization (when indicated)</li>
                             </ul>
                             <p style={{ marginTop: '1rem', fontStyle: 'italic', fontSize: '0.95rem' }}>
-                                <strong>Note:</strong> These are prescription medications and should only be used under physician supervision with appropriate monitoring.
+                                <strong>Important:</strong> These are prescription medications used off-label in longevity contexts. They should only be considered under direct physician supervision with appropriate monitoring. This information is for educational purposes only and does not constitute a recommendation.
                             </p>
                         </div>
 
@@ -594,7 +594,7 @@ const LongevityGuide = () => {
                                 boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
                                 marginBottom: '1rem'
                             }}>
-                                Start The Longevity Protocol →
+                                Explore The Longevity Framework →
                             </Link>
                         </div>
                     </div>

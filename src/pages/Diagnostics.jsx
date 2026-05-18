@@ -8,7 +8,7 @@ const Diagnostics = () => {
     const essentialMarkers = [
         {
             name: "ApoB",
-            truth: "Forget LDL. This counts the actual number of particles clogging your arteries. The only lipid metric that matters.",
+            truth: "LDL alone can be misleading. ApoB counts the actual number of atherogenic particles in your blood — a metric increasingly recognised as a superior marker of cardiovascular risk.",
             target: "< 60 mg/dL (Optimal)"
         },
         {
@@ -18,7 +18,7 @@ const Diagnostics = () => {
         },
         {
             name: "Homocysteine",
-            truth: "Vascular sandpaper. High levels shred your artery walls and predict cognitive decline.",
+            truth: "An amino acid linked to vascular damage. Elevated levels are associated with endothelial injury and may predict cognitive decline.",
             target: "< 8 µmol/L"
         },
         {
@@ -28,7 +28,7 @@ const Diagnostics = () => {
         },
         {
             name: "Lipoprotein(a)",
-            truth: "The Genetic Widow-Maker. You have it or you don't. Diet cannot fix this. You must test it once.",
+            truth: "A genetically determined lipoprotein. Elevated levels are an independent cardiovascular risk factor. Diet and lifestyle have limited impact — testing is recommended at least once.",
             target: "< 30 mg/dL"
         }
     ];
@@ -46,7 +46,7 @@ const Diagnostics = () => {
         },
         {
             name: "GGT",
-            truth: "The liver's cry for help. The first marker to rise when your detox pathways are overwhelmed.",
+            truth: "An early indicator of hepatic stress. Often the first marker to rise when detoxification pathways are under increased demand.",
             target: "< 20 U/L"
         }
     ];
@@ -72,9 +72,8 @@ const Diagnostics = () => {
             {/* Intro Section */}
             <section style={{ padding: '4rem 2rem', maxWidth: '800px', margin: '0 auto' }} data-aos="fade-up" data-aos-delay="100">
                 <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: 'var(--color-text)', marginBottom: '2rem' }}>
-                    Standard blood panels are designed to catch disease when it is too late. They are "sick-care" diagnostics.
-                    <strong style={{ color: 'var(--color-accent-teal)' }}> We use "health-care" diagnostics.</strong> We look for optimal ranges, not just "normal" ranges.
-                    Normal is average, and average is sick.
+                    Standard blood panels are primarily designed to identify established disease. 
+                    <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> We look for optimal ranges, not just "normal" ranges, to identify potential dysfunction earlier.
                 </p>
             </section>
 
@@ -356,7 +355,7 @@ const Diagnostics = () => {
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
                                 Cholesterol builds the plaque, but inflammation makes it rupture. Think of hs-CRP as a smoke detector for your arteries. Standard CRP measures acute infection (like a fever), but High-Sensitivity CRP detects chronic, low-grade inflammation: the 'smoldering fire' caused by stress, toxins, and visceral fat.
                                 <br /><br />
-                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus high hs-CRP, your risk of a sudden cardiac event explodes. We track this to ensure your blood vessels are cool and stable, not inflamed and fragile.
+                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus elevated hs-CRP, the combined risk profile is significantly elevated. We track this to assess vascular stability.
                             </p>
                         </div>
                     </div>

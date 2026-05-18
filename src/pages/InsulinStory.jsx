@@ -359,11 +359,11 @@ export default function InsulinStory() {
                             </div>
 
                             <p style={{ ...paragraphStyle, fontSize: '1.25rem', fontWeight: '600', color: '#FF9500' }}>
-                                This is the most dangerous stage, because <strong>your doctor will tell you that you're fine</strong>.
+                                This is the most dangerous stage, because <strong>standard testing may not detect it</strong>.
                             </p>
 
                             <p style={paragraphStyle}>
-                                Your <strong>blood glucose is normal</strong>. Your HbA1c is "in range." But beneath the surface, <strong>your insulin is screaming</strong>.
+                                Your <strong>blood glucose is normal</strong>. Your HbA1c is "in range." But beneath the surface, <strong>insulin levels may already be significantly elevated</strong>.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -392,7 +392,7 @@ export default function InsulinStory() {
                                 marginTop: '2rem'
                             }}>
                                 <p style={{ fontSize: '1.15rem', fontWeight: '600', color: 'var(--color-text)', marginBottom: '0' }}>
-                                    ⚠️ <strong>Critical Insight:</strong> This stage can persist for <strong>10-20 years</strong> before blood glucose rises.<sup>4,5</sup> By the time you're diagnosed with "Pre-Diabetes," the damage is already systemic.
+                                    ⚠️ <strong>Critical Insight:</strong> This stage can persist for <strong>10-20 years</strong> before blood glucose rises.<sup>4,5</sup> By the time a "Pre-Diabetes" diagnosis occurs, significant metabolic changes may already be underway.
                                 </p>
                             </div>
 
@@ -501,7 +501,7 @@ export default function InsulinStory() {
                                 color: 'var(--color-primary)',
                                 marginBottom: '1rem'
                             }}>
-                                The Silent Assassin
+                                The Hidden Driver
                             </h3>
                             <div style={{
                                 fontSize: '1rem',
@@ -514,7 +514,7 @@ export default function InsulinStory() {
                                 Hyperinsulinemia
                             </div>
                             <p style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '1rem' }}>
-                                High insulin itself is <strong>toxic</strong>—even if glucose is normal.
+                                High insulin itself can be <strong>harmful</strong>—even if glucose is normal.
                             </p>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '0.75rem' }}>
                                 <strong>Damage:</strong>
@@ -545,7 +545,7 @@ export default function InsulinStory() {
                                 color: '#FF3B30',
                                 marginBottom: '1rem'
                             }}>
-                                The Loud Destroyer
+                                The Visible Damage
                             </h3>
                             <div style={{
                                 fontSize: '1rem',
@@ -585,7 +585,7 @@ export default function InsulinStory() {
                     }}>
                         <p style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', marginBottom: '0' }}>
                             The worst case? <strong>Both are elevated simultaneously.</strong><br />
-                            This is the metabolic apocalypse most people are living in, unknowingly.
+                            This represents a significant combined metabolic risk that many people may be living with unknowingly.
                         </p>
                     </div>
                 </section>
@@ -608,7 +608,7 @@ export default function InsulinStory() {
                     </div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.2rem' }}>
-                        The question is not whether insulin resistance will affect you. The question is <strong>how far it has already progressed</strong>—and whether you will address it.
+                        The question is not whether metabolic health matters. The question is <strong>where you currently sit on the spectrum</strong>—and whether you will take proactive steps.
                     </p>
 
                     <div style={{
@@ -674,10 +674,10 @@ export default function InsulinStory() {
                             </p>
                             <ul style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)', marginLeft: '1.2rem' }}>
                                 <li style={{ marginBottom: '0.5rem' }}>
-                                    <strong>Berberine:</strong> AMPK activator (500mg, 2x/day)
+                                    <strong>Berberine:</strong> AMPK activator (dosage as per clinical guidance)
                                 </li>
                                 <li>
-                                    <strong>Alpha Lipoic Acid:</strong> Mitochondrial antioxidant (600mg/day)
+                                    <strong>Alpha Lipoic Acid:</strong> Mitochondrial antioxidant (dosage as per clinical guidance)
                                 </li>
                             </ul>
                         </div>
@@ -703,8 +703,8 @@ export default function InsulinStory() {
                             Stop Guessing. Start Measuring.
                         </h3>
                         <p style={{ fontSize: '1.25rem', lineHeight: '1.8', marginBottom: '2rem', color: 'rgba(255,255,255,0.95)' }}>
-                            Order a <strong>Fasting Insulin test</strong>, not just an HbA1c.<br />
-                            True prevention starts <em>before</em> the sugar rises.
+                            Consider discussing a <strong>Fasting Insulin test</strong> with your healthcare provider, not just an HbA1c.<br />
+                            Proactive assessment may begin <em>before</em> glucose levels change.
                         </p>
                         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link

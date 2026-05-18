@@ -51,9 +51,9 @@ export default function About() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="About Dr. Gavin | The Doctor Who Saved Himself | EMPOWERVIDA"
-                description="From physician burnout to longevity architect. Why a veteran physician left the assembly line of modern medicine to build a blueprint for true health."
-                keywords="dr gavin mcauley, longevity doctor, physician burnout, metabolic health, evidence-based wellness"
+                title="About Dr. Gavin | Physician & Longevity Educator | EMPOWERVIDA"
+                description="Meet Dr. Gavin McAuley — a physician specialising in evidence-based longevity medicine and metabolic health education."
+                keywords="dr gavin mcauley, longevity doctor, longevity medicine, metabolic health, evidence-based wellness"
                 canonical="/about"
                 ogImage="/water_refraction.png"
                 schemaData={personSchema}
@@ -116,7 +116,7 @@ export default function About() {
                         fontWeight: '400',
                         textShadow: '0 2px 10px rgba(0,0,0,0.8)'
                     }}>
-                        I'm a physician who spent 16 years in the traditional medical system before realising it was designed to manage sickness, not optimise health.
+                        I'm a physician who spent 16 years in acute and general practice medicine before expanding my clinical focus toward proactive health optimisation.
                     </p>
                 </div>
             </section>
@@ -197,10 +197,10 @@ export default function About() {
                             When I graduated from the University of Aberdeen in 2009, I threw myself into medicine. Over 16 years, I worked in Emergency Medicine and General Practice. The work was rewarding, but I began to notice a devastating pattern.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            Modern medicine is exceptional at acute trauma—if you have a heart attack, the ER will save you. But when it comes to chronic fatigue, metabolic dysfunction, and cognitive decline, the system is fundamentally broken. We are taught to prescribe pharmaceuticals to mask symptoms, rather than addressing the cellular root causes.
+                            Modern medicine is exceptional at acute intervention — if you have a heart attack, the system will save your life. However, for complex presentations like chronic fatigue, metabolic dysfunction, and early cognitive decline, there is growing recognition that a more proactive, systems-based approach can complement standard care.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I saw patients in their 40s and 50s falling apart from mitochondrial exhaustion and insulin resistance, and I had nothing to offer them but symptom management.
+                            I saw patients in their 40s and 50s presenting with patterns consistent with mitochondrial dysfunction and insulin resistance, and the standard toolkit offered limited options beyond symptom management.
                         </p>
                     </div>
                 </section>
@@ -333,7 +333,7 @@ export default function About() {
                             { label: 'University of Aberdeen 2009', icon: '🎓' },
                             { label: '16 Years Practising Medicine', icon: '⚕️' },
                             { label: 'Emergency Medicine & General Practice', icon: '🚑' },
-                            { label: 'Metabolically Optimised', icon: '💪' },
+                            { label: 'Clinical Focus: Metabolic Health', icon: '🔬' },
                             { label: 'Polln Clinic Holistic Medicine', icon: '🌿' }
                         ].map((cred, index) => (
                             <div key={index} style={{

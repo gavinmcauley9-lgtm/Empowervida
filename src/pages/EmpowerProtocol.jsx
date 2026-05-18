@@ -116,7 +116,7 @@ const EmpowerProtocol = () => {
                                 <strong style={{ color: '#000' }}>The Rule:</strong> Biology craves rhythm. Before we add fuel, we must align the clock.
                             </p>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7, marginTop: '1rem' }}>
-                                <strong style={{ color: '#000' }}>The Prescription:</strong>
+                                <strong style={{ color: '#000' }}>The Approach:</strong>
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
                                 <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Morning Sunlight:</strong> View 10 mins within 30 mins of waking. Anchors your circadian cortisol peak.</li>
@@ -174,15 +174,15 @@ const EmpowerProtocol = () => {
                                 <strong style={{ color: '#000' }}>The Rule:</strong> Stable blood sugar = Stable brain energy.
                             </p>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7, marginTop: '1rem' }}>
-                                <strong style={{ color: '#000' }}>The Prescription:</strong>
+                                <strong style={{ color: '#000' }}>The Approach:</strong>
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Glucose Stability:</strong> Flatten the curve. Prevent the post-lunch crash and neuro-inflammation.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Glucose Stability:</strong> Flatten the curve. May help reduce the post-lunch crash and neuro-inflammation.</li>
                                 <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Protein Prioritization:</strong> 1g per lb of ideal body weight. The building blocks of neurotransmitters.</li>
                                 <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. 12-Hour Fasting:</strong> Give your gut a break. Stop eating 3 hours before bed to optimise Growth Hormone.</li>
                             </ul>
                             <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                <strong>The Mechanism:</strong> High glucose spikes lead to reactive hypoglycemia and insulin resistance in the brain (Type 3 Diabetes). Keeping glucose stable preserves cognitive energy.
+                                <strong>The Mechanism:</strong> High glucose spikes lead to reactive hypoglycemia and insulin resistance in the brain (Type 3 Diabetes). Keeping glucose stable may support cognitive function.
                             </div>
                         </div>
                     </div>
@@ -203,11 +203,11 @@ const EmpowerProtocol = () => {
                             </p>
                             <div style={{ marginTop: '2rem' }}>
                                 <div style={{ marginBottom: '1.5rem' }}>
-                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Prescription A: Creatine Monohydrate</h4>
+                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option A: Creatine Monohydrate</h4>
                                     <p style={{ fontSize: '1rem', color: '#555' }}>Not just for gym rats. It recycles ATP in the brain, providing cognitive backup power during high-demand tasks.</p>
                                 </div>
                                 <div>
-                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Prescription B: Magnesium Bisglycinate</h4>
+                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option B: Magnesium Bisglycinate</h4>
                                     <p style={{ fontSize: '1rem', color: '#555' }}>The nervous system's "off switch." Essential for cortisol regulation and achieving deep, restorative sleep.</p>
                                 </div>
                                 <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
@@ -256,7 +256,7 @@ const EmpowerProtocol = () => {
                         color: 'rgba(255,255,255,0.8)',
                         marginBottom: '3rem'
                     }}>
-                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. I created EMPOWERVIDA to provide clinical-grade, third-party tested tools for my own patients, and for myself.
+                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. EMPOWERVIDA was created to provide clinical-grade, third-party tested tools for those seeking evidence-based options.
                     </p>
                     <a
                         href="/shop"
@@ -296,10 +296,10 @@ const EmpowerProtocol = () => {
                         {[
                             { time: '07:00', label: 'WAKE', detail: 'Sunlight + 500ml Water + Sea Salt' },
                             { time: '07:30', label: 'MOVE', detail: 'Zone 2 Walk (Fasted)' },
-                            { time: '08:00', label: 'OPTIMISE', detail: 'Coffee + 5g Creatine (Empower Vida)' },
+                            { time: '08:00', label: 'OPTIMISE', detail: 'Coffee + Creatine (as per individual needs)' },
                             { time: '13:00', label: 'FUEL', detail: 'First Meal (High Protein, Low Glycemic)' },
                             { time: '18:00', label: 'CLOSE', detail: 'Last food intake (Start Fast)' },
-                            { time: '21:00', label: 'SHIELD', detail: '400mg Magnesium Bisglycinate' },
+                            { time: '21:00', label: 'SHIELD', detail: 'Magnesium Bisglycinate (as per individual needs)' },
                             { time: '22:30', label: 'REST', detail: 'Sleep (Cool Room)' },
                         ].map((item, index) => (
                             <div key={index} style={{ borderLeft: '2px solid #000', paddingLeft: '1rem' }}>

@@ -40,7 +40,7 @@ function Calculator() {
     <div style={{ padding: '6rem 2rem', maxWidth: '800px', margin: '0 auto' }}>
       <Helmet>
         <title>HOMA-IR Calculator | Fasting Insulin & Brain Health | EmpowerVida</title>
-        <meta name="description" content="Calculate your HOMA-IR score to check for early insulin resistance. A critical metric for predicting neuro-longevity, brain fog, and Type 3 Diabetes." />
+        <meta name="description" content="Calculate your HOMA-IR score to assess insulin sensitivity. An educational tool for understanding metabolic health and cognitive function." />
       </Helmet>
 
       <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
@@ -166,9 +166,9 @@ function Calculator() {
 
             {score >= 1.0 && (
               <div style={{ textAlign: 'left', background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #eee' }}>
-                <h4 style={{ color: '#ef4444', marginBottom: '0.5rem' }}>⚠️ The "Starving Neuron" Risk (Type 3 Diabetes)</h4>
+                <h4 style={{ color: '#ef4444', marginBottom: '0.5rem' }}>⚠️ Elevated Insulin Resistance Detected</h4>
                 <p style={{ fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '1.5rem' }}>
-                  A score above 1.0 indicates your cells are losing sensitivity to insulin. If this resistance reaches your brain, your neurons lose the ability to uptake glucose efficiently. They literally starve while swimming in fuel, resulting in brain fog, cognitive decline, and what functional medicine calls "Type 3 Diabetes."
+                  A score above 1.0 may indicate reduced cellular sensitivity to insulin. Research suggests that prolonged insulin resistance can affect glucose uptake in the brain, potentially contributing to cognitive symptoms such as brain fog and reduced mental clarity. Discuss these results with your healthcare provider.
                 </p>
                 <Link 
                   to="/protocol"
@@ -185,7 +185,7 @@ function Calculator() {
                     boxShadow: '0 4px 12px rgba(153, 27, 27, 0.3)'
                   }}
                 >
-                  View The Cellular Energy Rescue Protocol ➞
+                  View The Metabolic Health Framework ➞
                 </Link>
               </div>
             )}
@@ -229,7 +229,7 @@ function Calculator() {
       }}>
         <h4 style={{ color: 'var(--color-primary-navy)', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Don't have your lab results handy?</h4>
         <p style={{ color: 'var(--color-text)', marginBottom: '1.5rem', fontSize: '1rem' }}>
-          You can still begin repairing your bioenergetic baseline today. Review the clinical framework used to support cognitive function and mitochondrial health.
+          You can still begin supporting your metabolic baseline today. Review the clinical framework used to support cognitive function and mitochondrial health.
         </p>
         <Link 
           to="/protocol#clarity-stack"
@@ -245,7 +245,7 @@ function Calculator() {
             transition: 'all 0.3s ease'
           }}
         >
-          View The Brain Fog Reversal Protocol ➞
+          View The Brain Fog Support Framework ➞
         </Link>
       </div>
 

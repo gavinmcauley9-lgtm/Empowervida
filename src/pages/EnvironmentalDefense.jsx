@@ -8,7 +8,7 @@ const EnvironmentalDefense = () => {
             id: 'hydration',
             title: 'LAYER 1: HYDRATION DEFENSE',
             subtitle: 'The Water Filter',
-            problem: 'Tap water is a chemical cocktail of chlorine, fluoride, heavy metals, and pharmaceutical residue. Bottled water is a source of obesogenic microplastics.',
+            problem: 'Tap water may contain chlorine, fluoride, heavy metals, and pharmaceutical residue. Bottled water can be a source of microplastics, which are an area of growing research concern.',
             solution: 'A Reverse Osmosis (RO) system with remineralization. It is the only way to ensure zero-contaminant hydration.',
             buttonText: 'VIEW RECOMMENDED FILTER >',
             link: '#'
@@ -18,7 +18,7 @@ const EnvironmentalDefense = () => {
             title: 'LAYER 2: AIR QUALITY',
             subtitle: 'The HEPA Shield',
             problem: 'Indoor air is often 5x more polluted than outdoor air. Dust, mold spores, VOCs from furniture, and PM2.5 particles bypass your lungs\' defenses and enter your bloodstream, driving systemic inflammation.',
-            solution: 'A Medical-Grade H13 HEPA Air Purifier running 24/7 in your bedroom. This is non-negotiable for sleep quality.',
+            solution: 'A Medical-Grade H13 HEPA Air Purifier running 24/7 in your bedroom. This can be an important factor in supporting sleep quality.',
             buttonText: 'VIEW RECOMMENDED PURIFIER >',
             link: '#'
         },
@@ -26,7 +26,7 @@ const EnvironmentalDefense = () => {
             id: 'light',
             title: 'LAYER 3: LIGHT MANAGEMENT',
             subtitle: 'The Circadian Armor',
-            problem: 'Junk light is junk food for your eyes. Artificial blue light after dark suppresses melatonin, destroys sleep architecture, and disrupts mitochondrial function.',
+            problem: 'Artificial blue light after dark may suppress melatonin production, potentially disrupting sleep architecture and affecting mitochondrial function.',
             solution: 'High-quality Blue Light Blocking glasses for evening use (sunset to sleep).',
             buttonText: 'VIEW OPTICAL LIFESTYLE >',
             link: '#'
@@ -114,7 +114,7 @@ const EnvironmentalDefense = () => {
                             lineHeight: 1.6,
                             textAlign: 'center'
                         }}>
-                            You can take all the CoQ10 in the world, but if you are drinking microplastics and breathing PM2.5 particles, your inflammation will never drop. Supplements build the engine; Lifestyle protects the chassis. This is the hardware required to shield your biology.
+                            You can take all the CoQ10 in the world, but if you are drinking microplastics and breathing PM2.5 particles, it may be difficult to reduce systemic inflammation. Supplements support the engine; Lifestyle protects the chassis. This is the hardware required to shield your biology.
                         </p>
                     </Reveal>
                 </div>
@@ -145,7 +145,7 @@ const EnvironmentalDefense = () => {
                         lineHeight: 1.6,
                         marginBottom: '1rem'
                     }}>
-                        The wellness market is flooded with ineffective, mass-produced hardware. I have spent years filtering through manufacturers to find the 'Clinical Grade' minority. The products below are hand-picked for durability, filtration efficacy, and biological impact. These are premium tools for a premium outcome.
+                        The wellness market is flooded with ineffective, mass-produced hardware. The products below have been selected based on durability, filtration efficacy, and alignment with current environmental health research. These are premium tools for a premium outcome.
                     </p>
                     <p style={{
                         color: 'var(--color-accent-orange)',

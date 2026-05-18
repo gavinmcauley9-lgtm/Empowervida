@@ -22,7 +22,7 @@ const Shop = () => {
                 {
                     name: 'Vitamin D3 + K2 (Liquid)',
                     subtitle: 'The Solar Hormone',
-                    why: 'Vitamin D controls 5% of your genome. Without K2, calcium goes to your arteries. With K2, it goes to your bones.',
+                    why: 'Vitamin D is estimated to influence up to 5% of the human genome. Without K2, calcium may deposit in arteries. With K2, it is directed to bones.',
                     pick: 'Thorne Vitamin D/K2 Liquid',
                     amazonLink: 'https://geni.us/BvEHS0',
                     iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Vitamin%20D%20Liquid'
@@ -54,7 +54,7 @@ const Shop = () => {
                 {
                     name: 'NAD+ Precursor (NR)',
                     subtitle: 'The Repair Signal',
-                    why: 'Restores NAD+ levels which drop 50% by age 40. Essential for sirtuin activation and DNA repair.',
+                    why: 'May support NAD+ levels, which research suggests decline significantly with age. NAD+ is involved in sirtuin activation and DNA repair.',
                     pick: 'Tru Niagen (300mg)',
                     amazonLink: 'https://geni.us/v8Dd0',
                     iherbLink: 'https://www.iherb.com/search?kw=Tru%20Niagen'
@@ -95,7 +95,7 @@ const Shop = () => {
                 {
                     name: 'Creatine Monohydrate',
                     subtitle: 'The Battery',
-                    why: 'Recycles ATP in the brain to prevent mental fatigue and cognitive crashing.',
+                    why: 'Recycles ATP in the brain, which may help reduce mental fatigue during high-demand cognitive tasks.',
                     pick: 'Thorne Creatine (Creapure)',
                     amazonLink: 'https://geni.us/0FAo',
                     iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Creatine'
@@ -144,7 +144,7 @@ const Shop = () => {
                 {
                     name: 'Magnesium L-Threonate',
                     subtitle: 'The "Brain Cleaner"',
-                    why: 'The only magnesium proven to cross the blood-brain barrier. Calms NMDA receptors.',
+                    why: 'A magnesium form studied for its ability to cross the blood-brain barrier. May support NMDA receptor function.',
                     pick: 'Life Extension Neuro-Mag',
                     amazonLink: 'https://geni.us/hAgLBH',
                     iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag'
@@ -299,7 +299,7 @@ const Shop = () => {
                 {
                     name: 'Ashwagandha KSM-66',
                     subtitle: 'The Cortisol Thermostat',
-                    why: 'Lowers evening cortisol to allow natural melatonin production.',
+                    why: 'Studied for its potential to modulate evening cortisol, which may support natural melatonin production.',
                     pick: 'Jarrow Formulas KSM-66',
                     amazonLink: 'https://geni.us/AxGBnX',
                     iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Ashwagandha%20KSM-66'
@@ -338,7 +338,7 @@ const Shop = () => {
                 {
                     name: 'Berberine Phytosome',
                     subtitle: 'The Switch',
-                    why: 'Activates AMPK to improve insulin sensitivity and glucose disposal.',
+                    why: 'Activates AMPK, which may support insulin sensitivity and glucose disposal.',
                     pick: 'Thorne Berberine-500',
                     amazonLink: 'https://geni.us/ANVjh',
                     iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Berberine'
@@ -346,7 +346,7 @@ const Shop = () => {
                 {
                     name: 'R-Lipoic Acid (ALA)',
                     subtitle: 'The Antioxidant',
-                    why: 'Improves insulin sensitivity and reduces oxidative stress from high blood sugar.',
+                    why: 'May support insulin sensitivity and help reduce oxidative stress associated with elevated blood sugar.',
                     pick: 'Life Extension Super R-Lipoic Acid',
                     amazonLink: 'https://geni.us/aRKwL6',
                     iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid'
@@ -354,7 +354,7 @@ const Shop = () => {
                 {
                     name: 'Chromium Picolinate',
                     subtitle: 'The Sensitizer',
-                    why: 'Improves insulin receptor function.',
+                    why: 'May support insulin receptor function.',
                     pick: 'Thorne Chromium',
                     amazonLink: 'https://www.amazon.com/s?k=Thorne%20Chromium',
                     iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Chromium'
@@ -370,7 +370,7 @@ const Shop = () => {
                 {
                     name: 'Ceylon Cinnamon',
                     subtitle: 'The Mimic',
-                    why: 'Improves glucose uptake by mimicking insulin activity.',
+                    why: 'May support glucose uptake through insulin-mimetic activity.',
                     pick: 'Organic Ceylon Cinnamon',
                     amazonLink: 'https://www.amazon.com/s?k=Organic%20Ceylon%20Cinnamon',
                     iherbLink: 'https://www.iherb.com/search?kw=Organic%20Ceylon%20Cinnamon'

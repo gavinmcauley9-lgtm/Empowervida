@@ -61,7 +61,7 @@ export default function WelcomeInsider() {
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#FF3B30', marginBottom: '0.5rem' }}>1. Fasting Insulin</h3>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '1rem', fontWeight: 600 }}>Standard medicine checks: Fasting Glucose</p>
                             <p style={{ lineHeight: 1.7 }}>
-                                <strong>Why you need this:</strong> Your fasting glucose can remain perfectly "normal" for 10-15 years while you silently develop severe insulin resistance. The pancreas simply pumps out more insulin to keep glucose down. By the time glucose rises, your system is already breaking.
+                                <strong>Why you need this:</strong> Your fasting glucose can remain perfectly "normal" for 10-15 years while insulin resistance silently develops. The pancreas compensates by producing more insulin to keep glucose down. By the time glucose rises, significant metabolic dysfunction may already be present.
                             </p>
                             <p style={{ marginTop: '1rem', fontWeight: 700, color: 'var(--color-text)' }}>Optimal Target: &lt; 5 µIU/mL</p>
                         </div>
@@ -71,7 +71,7 @@ export default function WelcomeInsider() {
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#FF9500', marginBottom: '0.5rem' }}>2. HOMA-IR</h3>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '1rem', fontWeight: 600 }}>Standard medicine checks: HbA1c</p>
                             <p style={{ lineHeight: 1.7 }}>
-                                <strong>Why you need this:</strong> HOMA-IR is a calculation based on your Fasting Insulin and Fasting Glucose. It is the gold-standard proxy for measuring how insulin resistant you are. If this is high, you are on the path to metabolic failure, regardless of what your HbA1c says.
+                                <strong>Why you need this:</strong> HOMA-IR is a calculation based on your Fasting Insulin and Fasting Glucose. It is a widely used proxy for measuring insulin resistance. An elevated score may indicate early metabolic dysfunction, regardless of what your HbA1c says.
                             </p>
                             <p style={{ marginTop: '1rem', fontWeight: 700, color: 'var(--color-text)' }}>Optimal Target: &lt; 1.0</p>
                         </div>
@@ -101,7 +101,7 @@ export default function WelcomeInsider() {
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#5856D6', marginBottom: '0.5rem' }}>5. GGT (Gamma-Glutamyl Transferase)</h3>
                             <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '1rem', fontWeight: 600 }}>Standard medicine checks: ALT / AST</p>
                             <p style={{ lineHeight: 1.7 }}>
-                                <strong>Why you need this:</strong> While often thrown in a liver panel, GGT is far more than a liver enzyme. It is one of our best surrogate markers for deep, intracellular oxidative stress and depletion of Glutathione (your body's master antioxidant). If GGT is high, your cells are rusting.
+                                <strong>Why you need this:</strong> While often included in a liver panel, GGT is far more than a liver enzyme. It is one of our best surrogate markers for intracellular oxidative stress and depletion of Glutathione (the body's master antioxidant). Elevated GGT may indicate increased oxidative burden.
                             </p>
                             <p style={{ marginTop: '1rem', fontWeight: 700, color: 'var(--color-text)' }}>Optimal Target: &lt; 20 U/L</p>
                         </div>
