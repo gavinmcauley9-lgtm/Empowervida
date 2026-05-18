@@ -107,6 +107,8 @@ async function prerender() {
 }
 
 prerender().catch(err => {
+  console.error("Prerendering failed (this is expected on Netlify/Vercel without Chrome). Skipping prerender:");
   console.error(err);
-  process.exit(1);
+  // Exit with 0 so the build still succeeds and deploys the base SPA
+  process.exit(0);
 });
