@@ -27,10 +27,10 @@ export default function InsulinStory() {
             },
             {
                 "@type": "Question",
-                "name": "Can insulin resistance be reversed?",
+                "name": "Can insulin resistance be addressed?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Insulin resistance can be reversed by addressing the root cause: ectopic lipid accumulation and mitochondrial dysfunction. This involves clearing intramyocellular lipids through fasting, reducing refined carbohydrates, optimizing mitochondrial function with targeted supplementation (CoQ10, ALCAR, ALA), and strategic exercise to improve metabolic flexibility."
+                    "text": "Yes. Insulin resistance can be systematically managed and mitigated by addressing the root cause: ectopic lipid accumulation and mitochondrial dysfunction. This involves clearing intramyocellular lipids through fasting, reducing refined carbohydrates, optimizing mitochondrial function with targeted supplementation (CoQ10, ALCAR, ALA), and strategic exercise to improve metabolic flexibility."
                 }
             },
             {

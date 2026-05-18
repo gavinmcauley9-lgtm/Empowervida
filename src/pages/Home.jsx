@@ -206,10 +206,9 @@ export default function Home() {
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
-                            I'm a physician who reversed severe metabolic dysfunction by treating the root cause, not the symptoms.
-                            After 15 years working in Emergency Medicine and General Practice, I
-                            resolved my own insulin resistance and now specialise in holistic longevity
-                            medicine.
+                            I'm a physician who transitioned from acute care to proactively addressing the root causes of systemic health decline.
+                            After 16 years working in Emergency Medicine and General Practice, I
+                            now specialise in evidence-based, holistic longevity medicine.
                         </p>
 
                         <p style={{
@@ -235,7 +234,7 @@ export default function Home() {
                                 { icon: '🎓', text: 'Aberdeen 2009' },
                                 { icon: '⚕️', text: '16 Years Practising' },
                                 { icon: '🚑', text: 'ER & General Practice' },
-                                { icon: '💪', text: 'Metabolically Optimised' }
+                                { icon: '💪', text: 'Clinical Optimization' }
                             ].map((item, index) => (
                                 <motion.div
                                     key={index}
