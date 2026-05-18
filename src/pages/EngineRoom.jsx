@@ -36,7 +36,7 @@ const EngineRoom = () => {
             title: "NAC",
             subtitle: "The Exhaust System",
             mechanism: "Mitochondria produce toxic exhaust (free radicals). NAC builds Glutathione to scrub this waste.",
-            nuance: "Prevents the machinery from rusting (oxidative stress) during energy production.",
+            nuance: "Supports protection of the machinery from oxidative stress during energy production.",
             link: "#" // Placeholder
         },
         {

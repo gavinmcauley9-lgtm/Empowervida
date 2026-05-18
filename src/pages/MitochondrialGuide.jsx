@@ -314,7 +314,7 @@ const MitochondrialGuide = () => {
                     borderRadius: '8px'
                 }}>
                     <p style={{ margin: 0, fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--color-text)' }}>
-                        "In my clinic, I see patients with 'normal' lab results who feel terrible. Their mitochondria are screaming, but standard medicine isn't listening. This is why mitochondrial health is the new frontier of longevity medicine."
+                        "In clinical practice, patients with 'normal' lab results can still present with significant fatigue. Their mitochondrial function may be suboptimal, but standard panels don't assess this directly. This is why mitochondrial health is an emerging frontier of longevity medicine."
                     </p>
                     <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', color: 'var(--color-text-muted)', textAlign: 'right' }}>
                         — Dr. Gavin
@@ -492,7 +492,7 @@ const MitochondrialGuide = () => {
                             }}>
                                 <p style={{ fontWeight: 600, marginBottom: '0.5rem', fontSize: '0.9rem' }}>The Physician's Note:</p>
                                 <p style={{ fontSize: '0.9rem', lineHeight: 1.6, fontStyle: 'italic' }}>
-                                    "Most people waste money on plain 'Glutathione' capsules. They are destroyed by stomach acid before they reach your blood. I prescribe <strong>N-Acetyl Cysteine (NAC)</strong> instead. It is the precursor that survives digestion and forces your body to make its own fresh Glutathione."
+                                    "Most people waste money on plain 'Glutathione' capsules. They are destroyed by stomach acid before they reach your blood. The evidence supports using <strong>N-Acetyl Cysteine (NAC)</strong> instead. It is the precursor that survives digestion and supports your body's own Glutathione production."
                                 </p>
                             </div>
 
@@ -699,7 +699,7 @@ const MitochondrialGuide = () => {
                             borderRadius: '4px',
                             fontStyle: 'italic'
                         }}>
-                            <strong>Note:</strong> This is the most expensive phase of the protocol. It is for those serious about reversing cellular age.
+                            <strong>Note:</strong> This is the most expensive phase of the protocol. It is for those serious about supporting long-term cellular health.
                         </p>
                     </div>
 

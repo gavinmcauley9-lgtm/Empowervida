@@ -17,7 +17,7 @@ const AdvancedOptimization = () => {
             title: "IRON DYNAMICS",
             subtitle: "(The Double-Edged Sword)",
             marker: "Ferritin",
-            logic: "Iron is oxygen transport, but it is also a pro-oxidant. Too low (<50), and you have air hunger. Too high (>200), and you are literally 'rusting' your organs with oxidative stress. We aim for the Goldilocks zone."
+            logic: "Iron is oxygen transport, but it is also a pro-oxidant. Too low (<50), and you may experience air hunger. Too high (>200), and excess iron can contribute to oxidative stress in your organs. We aim for the Goldilocks zone."
         },
         {
             title: "KIDNEY FILTRATION",

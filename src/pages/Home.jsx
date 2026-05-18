@@ -83,7 +83,7 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="EMPOWERVIDA - Longevity, Prescribed | Evidence-Based Health Optimization"
+                title="EMPOWERVIDA - Longevity, Engineered | Evidence-Based Health Optimization"
                 description="Physician-led longevity protocols. Clinical-grade supplements for energy, focus, and cellular renewal. Evidence-based solutions for optimal health and performance."
                 keywords="longevity protocol, mitochondrial health, anti-ageing supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
                 canonical="/"
