@@ -205,7 +205,7 @@ export default function About() {
                     </div>
                 </section>
 
-                {/* Section 2: The Crash (Dark Background) */}
+                {/* Section 2: A New Paradigm (Dark Background) */}
                 <section style={{
                     marginBottom: '8rem',
                     background: 'linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(26,26,26,0.95) 100%)',
@@ -231,11 +231,11 @@ export default function About() {
                         <div style={{
                             fontSize: '4.5rem',
                             fontWeight: '800',
-                            color: '#FF5722',
+                            color: '#20B2AA',
                             opacity: 0.15,
                             marginBottom: '-2rem',
                             textAlign: 'center'
-                        }}>BURNOUT</div>
+                        }}>EVIDENCE</div>
 
                         <h2 style={{
                             fontSize: '2.5rem',
@@ -244,24 +244,18 @@ export default function About() {
                             fontWeight: '700',
                             textAlign: 'center'
                         }}>
-                            The Crash
+                            A New Paradigm
                         </h2>
 
-                        <div style={{ width: '50px', height: '4px', background: '#FF5722', margin: '0 auto 3rem' }}></div>
+                        <div style={{ width: '50px', height: '4px', background: '#20B2AA', margin: '0 auto 3rem' }}></div>
 
-                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
-                            The stress of the job took its toll. Like many professionals, I experienced the cascading effects of metabolic dysfunction, living in a constant fog of fatigue and relying on maladaptive coping mechanisms.
-                        </p>
-                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem' }}>
-                            I was a doctor who knew the pathology of disease, but I had <strong>lost the recipe for health</strong>.
-                        </p>
-                        <p style={{ fontSize: '1.4rem', lineHeight: '1.8', color: '#20B2AA', fontStyle: 'italic', marginTop: '2rem', textAlign: 'center' }}>
-                            "That was my breaking point. I realized I couldn't lead patients to vitality if I was walking towards an early grave."
+                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem', textAlign: 'center' }}>
+                            Modern healthcare excels at acute intervention but struggles with systemic optimization. To truly address the complex physiological demands of modern life, we require a framework built on proactive metabolic resilience.
                         </p>
                     </div>
                 </section>
 
-                {/* Section 3: The Evolution */}
+                {/* Section 3: The Protocol */}
                 <section style={{
                     marginBottom: '8rem',
                     display: 'grid',
@@ -276,18 +270,18 @@ export default function About() {
                             color: 'var(--color-accent-teal)',
                             opacity: 0.2,
                             marginBottom: '-1rem'
-                        }}>RECOVERY</div>
+                        }}>CLINICAL</div>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            From Metabolic Decline to The Protocol
+                            The Protocol Architecture
                         </h2>
                         <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
                     </div>
                     <div style={{ order: 1 }}>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            In 2022, I made a choice: fix the root cause or accept decline.
+                            The solution to metabolic decline requires a systematic approach.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I didn't need willpower. I needed a protocol. I focused on optimizing mitochondrial function with specific cofactors and supporting insulin sensitivity with targeted compounds and time-restricted eating. Through this systematic approach, physiological resilience and energy can be stabilized.
+                            By focusing on optimizing mitochondrial function with specific cofactors and supporting insulin sensitivity with targeted compounds and evidence-based protocols, physiological resilience and energy can be stabilized.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
                             Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
@@ -371,13 +365,13 @@ export default function About() {
                 borderTop: '1px solid rgba(255,255,255,0.1)'
             }}>
                 <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#FFFFFF', fontWeight: '700' }}>
-                    I've Walked This Road
+                    Begin Your Optimization
                 </h2>
                 <p style={{ fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
-                    From severe metabolic dysfunction and burnout to comprehensive metabolic health.
+                    Evidence-based protocols designed for comprehensive metabolic health.
                 </p>
                 <p style={{ fontSize: '1.5rem', color: 'var(--color-accent-teal)', marginBottom: '3rem', fontWeight: '600' }}>
-                    Evidence-based protocols can help.
+                    Take control of your cellular resilience.
                 </p>
                 <Link
                     to="/longevity"
