@@ -20,6 +20,45 @@
   <!-- Kit (ConvertKit) -->
   <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 
+  <!-- Schema.org JSON-LD for E-E-A-T (Medical/Longevity) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalOrganization",
+          "@id": "https://empowervida.com/#organization",
+          "name": "EmpowerVida",
+          "url": "https://empowervida.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://empowervida.com/empowervida_hero_logo.png"
+          },
+          "description": "Educational platform focused on functional longevity, metabolic health, and cognitive optimization.",
+          "founder": {
+            "@id": "https://empowervida.com/#person"
+          }
+        },
+        {
+          "@type": ["Person", "Physician"],
+          "@id": "https://empowervida.com/#person",
+          "name": "Dr. Gavin McAuley",
+          "jobTitle": "Medical Doctor & Longevity Educator",
+          "description": "Dr. Gavin McAuley, MBChB, is a medical doctor and the founder of EmpowerVida, focusing on precision longevity science and cellular health.",
+          "url": "https://empowervida.com/about",
+          "image": "https://empowervida.com/dr_gavin_headshot.png",
+          "sameAs": [
+            "https://www.linkedin.com/in/gavin-mcauley-460980287/"
+          ],
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Medical School"
+          }
+        }
+      ]
+    }
+  </script>
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KT0YQ12H33"></script>
   <script>
