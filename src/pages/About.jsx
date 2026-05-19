@@ -284,7 +284,7 @@ export default function About() {
                             By focusing on optimizing mitochondrial function with specific cofactors and supporting insulin sensitivity with targeted compounds and evidence-based protocols, physiological resilience and energy can be stabilized.
                         </p>
                         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            Today, I practice holistic medicine, consulting with patients at Polln Clinic and through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the medicine I practice now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
+                            Today, I focus on proactive health education through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the approach I emphasize now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
                         </p>
                     </div>
                 </section>
@@ -333,8 +333,7 @@ export default function About() {
                             { label: 'University of Aberdeen 2009', icon: '🎓' },
                             { label: '16 Years Practising Medicine', icon: '⚕️' },
                             { label: 'Emergency Medicine & General Practice', icon: '🚑' },
-                            { label: 'Clinical Focus: Metabolic Health', icon: '🔬' },
-                            { label: 'Polln Clinic Holistic Medicine', icon: '🌿' }
+                            { label: 'Clinical Focus: Metabolic Health', icon: '🔬' }
                         ].map((cred, index) => (
                             <div key={index} style={{
                                 padding: '1.5rem 2rem',
