@@ -1,7 +1,9 @@
+"use client";
+
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const ThankYou = () => {
     // Fire a specific conversion event when this page loads
@@ -74,7 +76,7 @@ const ThankYou = () => {
                 </div>
 
                 <Link
-                    to="/protocol"
+                    href="/protocol"
                     style={{
                         display: 'inline-block',
                         padding: '1rem 2rem',

@@ -1,6 +1,8 @@
+"use client";
+
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
@@ -584,7 +586,7 @@ const DiagnosticsPortal = () => {
                         The Empowervida approach is systematic: measure, intervene, remeasure. Biological optimisation is not guesswork. It is architecture.
                     </p>
 
-                    <Link to="/shop" style={{
+                    <Link href="/shop" style={{
                         display: 'inline-block',
                         background: 'var(--color-accent-teal)',
                         color: '#FFFFFF',

@@ -1,8 +1,11 @@
+"use client";
+
 import React, { useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Navigation() {
-    const location = useLocation();
+    const location = usePathname();
     const [isOpen, setIsOpen] = React.useState(false);
 
 
@@ -40,16 +43,16 @@ export default function Navigation() {
             pointerEvents: 'none' // Prevent click hijacking on blog cards below
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', pointerEvents: 'auto' }}>
-                <Link to="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102, pointerEvents: 'auto' }}>
+                <Link href="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102, pointerEvents: 'auto' }}>
                     <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
                 </Link>
 
                 {/* Desktop Menu */}
                 <div className="desktop-only" style={{ display: 'flex', alignItems: 'center', pointerEvents: 'auto' }}>
-                    <Link to="/blog" style={linkStyle('/blog')}>The Journal</Link>
+                    <Link href="/blog" style={linkStyle('/blog')}>The Journal</Link>
                     <a href="https://drgavinmcauley.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle('https://drgavinmcauley.substack.com')}>Newsletter</a>
 
-                    <Link to="/empower-protocol" style={linkStyle('/empower-protocol')}>THE PROTOCOL</Link>
+                    <Link href="/empower-protocol" style={linkStyle('/empower-protocol')}>THE PROTOCOL</Link>
 
                     {/* Guides Dropdown */}
                     <div
@@ -83,34 +86,34 @@ export default function Navigation() {
                                 boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
                                 minWidth: '260px'
                             }}>
-                                <Link to="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     ⚡ Mitochondrial Health
                                 </Link>
-                                <Link to="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🧬 The 5 Pillars of Longevity
                                 </Link>
-                                <Link to="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🩸 The Insulin Story
                                 </Link>
-                                <Link to="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🎯 Advanced Diagnostics
                                 </Link>
                                 <div style={{ height: '1px', background: 'rgba(0,0,0,0.05)', margin: '0.5rem 0' }} />
                                 <p style={{ padding: '0.5rem 1rem', fontSize: '0.75rem', fontWeight: 'bold', color: '#A0AEC0', textTransform: 'uppercase', letterSpacing: '1px' }}>Clinical Tools</p>
-                                <Link to="/calculator" style={{ display: 'block', padding: '0.8rem 1rem', color: '#20B2AA', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(32, 178, 170, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/calculator" style={{ display: 'block', padding: '0.8rem 1rem', color: '#20B2AA', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(32, 178, 170, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🧮 HOMA-IR Calculator
                                 </Link>
-                                <Link to="/biological-age" style={{ display: 'block', padding: '0.8rem 1rem', color: '#8A2BE2', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(138, 43, 226, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
+                                <Link href="/biological-age" style={{ display: 'block', padding: '0.8rem 1rem', color: '#8A2BE2', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(138, 43, 226, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
                                     🧬 Biological Age Calculator
                                 </Link>
                             </div>
                         </div>
                     </div>
 
-                    <Link to="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
-                    <Link to="/shop" style={linkStyle('/shop')}>Shop</Link>
-                    <Link to="/about" style={linkStyle('/about')}>About</Link>
-                    <Link to="/contact" style={linkStyle('/contact')}>Contact</Link>
+                    <Link href="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
+                    <Link href="/shop" style={linkStyle('/shop')}>Shop</Link>
+                    <Link href="/about" style={linkStyle('/about')}>About</Link>
+                    <Link href="/contact" style={linkStyle('/contact')}>Contact</Link>
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -171,26 +174,26 @@ export default function Navigation() {
                         overflowY: 'auto', // Allow scrolling if content is too tall
                         padding: '2rem 1rem' // Add padding for better spacing
                     }}>
-                    <Link to="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
+                    <Link href="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
 
-                    <Link to="/empower-protocol" style={mobileLinkStyle('/empower-protocol')} onClick={() => setIsOpen(false)}>THE PROTOCOL</Link>
+                    <Link href="/empower-protocol" style={mobileLinkStyle('/empower-protocol')} onClick={() => setIsOpen(false)}>THE PROTOCOL</Link>
 
                     <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
                         <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Guides</p>
-                        <Link to="/mitochondrial-guide" style={{ ...mobileLinkStyle('/mitochondrial-guide'), color: '#EC4899', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ Mitochondrial Health</Link>
-                        <Link to="/longevity" style={{ ...mobileLinkStyle('/longevity'), color: '#667eea', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 The 5 Pillars</Link>
-                        <Link to="/insulin-story" style={{ ...mobileLinkStyle('/insulin-story'), color: 'var(--color-accent-red)', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🩸 The Insulin Story</Link>
-                        <Link to="/advanced-optimization" style={{ ...mobileLinkStyle('/advanced-optimization'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🎯 Advanced Diagnostics</Link>
+                        <Link href="/mitochondrial-guide" style={{ ...mobileLinkStyle('/mitochondrial-guide'), color: '#EC4899', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ Mitochondrial Health</Link>
+                        <Link href="/longevity" style={{ ...mobileLinkStyle('/longevity'), color: '#667eea', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 The 5 Pillars</Link>
+                        <Link href="/insulin-story" style={{ ...mobileLinkStyle('/insulin-story'), color: 'var(--color-accent-red)', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🩸 The Insulin Story</Link>
+                        <Link href="/advanced-optimization" style={{ ...mobileLinkStyle('/advanced-optimization'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🎯 Advanced Diagnostics</Link>
                         
                         <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '1.5rem', marginBottom: '1rem' }}>Clinical Tools</p>
-                        <Link to="/calculator" style={{ ...mobileLinkStyle('/calculator'), color: '#20B2AA', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧮 HOMA-IR Calculator</Link>
-                        <Link to="/biological-age" style={{ ...mobileLinkStyle('/biological-age'), color: '#8A2BE2', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 Biological Age Calculator</Link>
+                        <Link href="/calculator" style={{ ...mobileLinkStyle('/calculator'), color: '#20B2AA', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧮 HOMA-IR Calculator</Link>
+                        <Link href="/biological-age" style={{ ...mobileLinkStyle('/biological-age'), color: '#8A2BE2', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 Biological Age Calculator</Link>
                     </div>
 
-                    <Link to="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
-                    <Link to="/shop" style={mobileLinkStyle('/shop')} onClick={() => setIsOpen(false)}>Shop</Link>
-                    <Link to="/about" style={mobileLinkStyle('/about')} onClick={() => setIsOpen(false)}>About</Link>
-                    <Link to="/contact" style={mobileLinkStyle('/contact')} onClick={() => setIsOpen(false)}>Contact</Link>
+                    <Link href="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
+                    <Link href="/shop" style={mobileLinkStyle('/shop')} onClick={() => setIsOpen(false)}>Shop</Link>
+                    <Link href="/about" style={mobileLinkStyle('/about')} onClick={() => setIsOpen(false)}>About</Link>
+                    <Link href="/contact" style={mobileLinkStyle('/contact')} onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
             </div>
         </nav>

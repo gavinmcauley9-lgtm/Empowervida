@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { POSTS, CATEGORIES } from '../data/posts';
 
 export default function RelatedPosts({ currentPostId, currentCategory, count = 3, title = "Continue Reading" }) {
@@ -63,7 +65,7 @@ export default function RelatedPosts({ currentPostId, currentCategory, count = 3
                     return (
                         <Link
                             key={relatedPost.id}
-                            to={`/blog/${relatedPost.slug || relatedPost.id}`}
+                            href={`/blog/${relatedPost.slug || relatedPost.id}`}
                             style={{
                                 display: 'block',
                                 textDecoration: 'none',

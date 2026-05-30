@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { motion } from 'framer-motion'; // We might need to install framer-motion, or just use CSS transitions. 
 // Let's stick to CSS for now as per plan, or simple inline styles. 

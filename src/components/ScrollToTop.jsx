@@ -1,8 +1,10 @@
+"use client";
+
 import { useLayoutEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 
 export default function ScrollToTop() {
-    const { pathname } = useLocation();
+    const { pathname } = usePathname();
 
     useLayoutEffect(() => {
         // 1. Disable browser's default scroll restoration to prevent "phantom" scroll positions

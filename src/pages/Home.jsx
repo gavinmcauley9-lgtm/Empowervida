@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Reveal from '../components/Reveal';
 import SpotlightCard from '../components/SpotlightCard';
@@ -270,7 +272,7 @@ export default function Home() {
                         {/* Premium CTA Button */}
                         <div style={{ textAlign: 'center', marginTop: '4rem' }}>
                             <Link
-                                to="/about"
+                                href="/about"
                                 onClick={() => window.scrollTo(0, 0)}
                                 className="btn-primary"
                                 style={{
@@ -343,7 +345,7 @@ export default function Home() {
                             data-aos-delay="100"
                         >
                             <Link
-                                to="/longevity"
+                                href="/longevity"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
@@ -432,7 +434,7 @@ export default function Home() {
                             data-aos-delay="200"
                         >
                             <Link
-                                to="/mitochondrial-guide"
+                                href="/mitochondrial-guide"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(255, 95, 0, 0.04) 0%, rgba(255, 165, 0, 0.06) 100%)',
@@ -508,7 +510,7 @@ export default function Home() {
                             data-aos-delay="300"
                         >
                             <Link
-                                to="/shop"
+                                href="/shop"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     background: 'linear-gradient(135deg, rgba(0, 128, 128, 0.04) 0%, rgba(32, 178, 170, 0.06) 100%)',

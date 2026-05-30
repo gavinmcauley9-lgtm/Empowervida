@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function SpotlightCard({ to, children, delay = 0 }) {
@@ -41,7 +43,7 @@ export default function SpotlightCard({ to, children, delay = 0 }) {
             style={{ height: '100%' }}
         >
             <Link
-                to={to}
+                href={to}
                 ref={divRef}
                 onMouseMove={handleMouseMove}
                 onFocus={handleFocus}

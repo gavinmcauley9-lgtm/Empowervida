@@ -1,8 +1,11 @@
+"use client";
+
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Breadcrumbs = () => {
-    const location = useLocation();
+    const location = usePathname();
     const pathnames = location.pathname.split('/').filter(x => x);
 
     // Map paths to readable names
@@ -74,7 +77,7 @@ const Breadcrumbs = () => {
                 >
                     {/* Home Link */}
                     <Link
-                        to="/"
+                        href="/"
                         style={{
                             color: 'var(--color-text-muted)',
                             textDecoration: 'none',
@@ -109,7 +112,7 @@ const Breadcrumbs = () => {
                                     </span>
                                 ) : (
                                     <Link
-                                        to={routeTo}
+                                        href={routeTo}
                                         style={{
                                             color: 'var(--color-text-muted)',
                                             textDecoration: 'none',

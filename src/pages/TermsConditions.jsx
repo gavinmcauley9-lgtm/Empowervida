@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 export default function TermsConditions() {
@@ -301,7 +303,7 @@ export default function TermsConditions() {
                         <li>Any transactions you conduct with third parties</li>
                     </ul>
                     <p style={paragraphStyle}>
-                        We recommend you read the terms and privacy policies of any third-party websites you visit. See our <Link to="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link> for more information.
+                        We recommend you read the terms and privacy policies of any third-party websites you visit. See our <Link href="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link> for more information.
                     </p>
                 </section>
 
@@ -400,7 +402,7 @@ export default function TermsConditions() {
                 <section style={sectionStyle}>
                     <h2 style={headingStyle}>14. Entire Agreement</h2>
                     <p style={paragraphStyle}>
-                        These Terms, together with our <Link to="/privacy" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Privacy Policy</Link> and <Link to="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link>, constitute the entire agreement between you and BGMED PTY LTD regarding your use of this Website.
+                        These Terms, together with our <Link href="/privacy" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Privacy Policy</Link> and <Link href="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link>, constitute the entire agreement between you and BGMED PTY LTD regarding your use of this Website.
                     </p>
                 </section>
 
@@ -462,7 +464,7 @@ export default function TermsConditions() {
                     flexWrap: 'wrap'
                 }}>
                     <Link
-                        to="/privacy"
+                        href="/privacy"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2rem',
@@ -487,7 +489,7 @@ export default function TermsConditions() {
                         Privacy Policy
                     </Link>
                     <Link
-                        to="/affiliate-disclaimer"
+                        href="/affiliate-disclaimer"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2rem',
@@ -512,7 +514,7 @@ export default function TermsConditions() {
                         Affiliate Disclaimer
                     </Link>
                     <Link
-                        to="/"
+                        href="/"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',

@@ -1,5 +1,8 @@
+"use client";
+
 import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useParams, Navigate } from 'next/navigation';
 import SEO from '../components/SEO';
 import EmailCapture from '../components/EmailCapture';
 import AuthorBio from '../components/AuthorBio';
@@ -63,7 +66,7 @@ export default function BlogPost() {
       <div className="container" style={{ paddingTop: '8rem', textAlign: 'center', backgroundColor: '#000000', minHeight: '100vh', color: '#FFFFFF' }}>
         <h1>Post not found (slug: {slug})</h1>
         <p>The requested article could not be located.</p>
-        <Link to="/blog" style={{ color: '#FF5F00' }}>Back to Intel</Link>
+        <Link href="/blog" style={{ color: '#FF5F00' }}>Back to Intel</Link>
       </div>
     );
   }
@@ -195,7 +198,7 @@ export default function BlogPost() {
           schemaData={[articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
         />
 
-        <Link to="/blog" style={{
+        <Link href="/blog" style={{
           display: 'inline-block',
           marginBottom: '2rem',
           color: 'var(--color-text-muted)',
@@ -377,7 +380,7 @@ export default function BlogPost() {
             }}>
               <h3 style={{ marginBottom: '1rem', fontSize: '1.5rem', color: 'var(--color-text)', textTransform: 'uppercase' }}>Ready to Optimise?</h3>
               <p style={{ marginBottom: '2rem', color: 'var(--color-text-muted)' }}>Take the next step in your health journey.</p>
-              <Link to={post.cta.link} className="btn-primary" style={{
+              <Link href={post.cta.link} className="btn-primary" style={{
                 display: 'inline-block',
                 textDecoration: 'none',
                 fontSize: '1rem',
