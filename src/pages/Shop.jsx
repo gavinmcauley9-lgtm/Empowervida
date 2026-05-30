@@ -27,7 +27,7 @@ const Shop = () => {
                     why: 'Vitamin D is estimated to influence up to 5% of the human genome. Without K2, calcium may deposit in arteries. With K2, it is directed to bones.',
                     pick: 'Thorne Vitamin D/K2 Liquid',
                     amazonLink: 'https://geni.us/BvEHS0',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Vitamin%20D%20Liquid'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Vitamin%20D%20Liquid&rcode=FKX4668'
                 },
                 {
                     name: 'GlyNAC (Glycine + NAC)',
@@ -35,7 +35,7 @@ const Shop = () => {
                     why: 'The combination demonstrated to support glutathione synthesis and manage intracellular oxidative stress in older adults.',
                     pick: 'Life Extension NAC + Glycine Powder',
                     amazonLink: 'https://geni.us/glynac',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20NAC%20Glycine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20NAC%20Glycine&rcode=FKX4668'
                 },
                 {
                     name: 'Methylated B-Complex',
@@ -43,7 +43,7 @@ const Shop = () => {
                     why: 'Essential for DNA repair and users with the MTHFR gene mutation who cannot process standard folic acid.',
                     pick: 'Thorne Basic B',
                     amazonLink: 'https://geni.us/6fwizx',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Basic%20B%20Complex'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Basic%20B%20Complex&rcode=FKX4668'
                 },
                 {
                     name: 'High-DHA Omega-3',
@@ -51,7 +51,7 @@ const Shop = () => {
                     why: 'The structural brick for cell membranes. Reduces systemic inflammation and supports longevity.',
                     pick: 'Nordic Naturals ProOmega 2000',
                     amazonLink: 'https://geni.us/0id7g',
-                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000'
+                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000&rcode=FKX4668'
                 },
                 {
                     name: 'NAD+ Precursor (NR)',
@@ -59,7 +59,7 @@ const Shop = () => {
                     why: 'May support NAD+ levels, which research suggests decline significantly with age. NAD+ is involved in sirtuin activation and DNA repair.',
                     pick: 'Tru Niagen (300mg)',
                     amazonLink: 'https://geni.us/v8Dd0',
-                    iherbLink: 'https://www.iherb.com/search?kw=Tru%20Niagen'
+                    iherbLink: 'https://www.iherb.com/search?kw=Tru%20Niagen&rcode=FKX4668'
                 },
                 {
                     name: 'Urolithin A',
@@ -67,7 +67,7 @@ const Shop = () => {
                     why: 'Triggers mitophagy—the recycling of old, dysfunctional mitochondria.',
                     pick: 'Timeline Nutrition Mitopure',
                     amazonLink: 'https://geni.us/urolithin-a',
-                    iherbLink: 'https://www.iherb.com/search?kw=Urolithin%20A'
+                    iherbLink: 'https://www.iherb.com/search?kw=Urolithin%20A&rcode=FKX4668'
                 },
                 {
                     name: 'Bio-Fisetin (Senolytic)',
@@ -75,7 +75,7 @@ const Shop = () => {
                     why: 'Supports the body\'s natural clearance of senescent cells.',
                     pick: 'Doctor\'s Best Bio-Fisetin',
                     amazonLink: 'https://amzn.to/3B0z7Qx',
-                    iherbLink: 'https://www.iherb.com/search?kw=Bio-Fisetin'
+                    iherbLink: 'https://www.iherb.com/search?kw=Bio-Fisetin&rcode=FKX4668'
                 }
             ]
         },
@@ -100,7 +100,7 @@ const Shop = () => {
                     why: 'Recycles ATP in the brain, which may help reduce mental fatigue during high-demand cognitive tasks.',
                     pick: 'Thorne Creatine (Creapure)',
                     amazonLink: 'https://geni.us/0FAo',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Creatine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Creatine&rcode=FKX4668'
                 },
                 {
                     name: 'CDP-Choline (Citicoline)',
@@ -108,7 +108,7 @@ const Shop = () => {
                     why: 'Increases acetylcholine (the learning neurotransmitter) and repairs cell membranes.',
                     pick: 'Jarrow Formulas Citicoline',
                     amazonLink: 'https://geni.us/BEY5',
-                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Citicoline'
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Citicoline&rcode=FKX4668'
                 },
                 {
                     name: 'Rhodiola Rosea',
@@ -116,7 +116,7 @@ const Shop = () => {
                     why: 'Modulates cortisol and reduces decision fatigue. Helps you stay calm under pressure.',
                     pick: 'Thorne Rhodiola',
                     amazonLink: 'https://geni.us/V4dBIU',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Rhodiola'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Rhodiola&rcode=FKX4668'
                 },
                 {
                     name: 'L-Theanine',
@@ -124,7 +124,7 @@ const Shop = () => {
                     why: 'Increases alpha brain waves to promote "relaxed alertness" and reduce caffeine jitters.',
                     pick: 'Thorne Theanine',
                     amazonLink: 'https://www.amazon.com/s?k=Thorne%20Theanine',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Theanine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Theanine&rcode=FKX4668'
                 }
             ]
         },
@@ -149,7 +149,7 @@ const Shop = () => {
                     why: 'A magnesium form studied for its ability to cross the blood-brain barrier. May support NMDA receptor function.',
                     pick: 'Life Extension Neuro-Mag',
                     amazonLink: 'https://geni.us/hAgLBH',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag&rcode=FKX4668'
                 },
                 {
                     name: 'High-DHA Omega-3',
@@ -157,7 +157,7 @@ const Shop = () => {
                     why: '60% of your brain is fat. DHA is the raw material for building new neurons.',
                     pick: 'Nordic Naturals ProOmega 2000',
                     amazonLink: 'https://geni.us/0id7g',
-                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000'
+                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000&rcode=FKX4668'
                 },
                 {
                     name: 'Curcumin Phytosome',
@@ -165,7 +165,7 @@ const Shop = () => {
                     why: 'Lowers neuroinflammation. Phytosome technology ensures it reaches the brain.',
                     pick: 'Thorne Curcumin Phytosome',
                     amazonLink: 'https://geni.us/fCiHC',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome&rcode=FKX4668'
                 },
                 {
                     name: 'Lion\'s Mane Mushroom',
@@ -173,7 +173,7 @@ const Shop = () => {
                     why: 'Stimulates Nerve Growth Factor (NGF) to support neuroplasticity.',
                     pick: 'Real Mushrooms Lion\'s Mane',
                     amazonLink: 'https://www.amazon.com/s?k=Real%20Mushrooms%20Lion%5C',
-                    iherbLink: 'https://www.iherb.com/search?kw=Real%20Mushrooms%20Lion%5C'
+                    iherbLink: 'https://www.iherb.com/search?kw=Real%20Mushrooms%20Lion%5C&rcode=FKX4668'
                 }
             ]
         },
@@ -188,7 +188,7 @@ const Shop = () => {
                     why: 'Essential for electron transport and mitochondrial biogenesis.',
                     pick: 'Life Extension Super Ubiquinol',
                     amazonLink: 'https://geni.us/kyBLJ3m',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20Ubiquinol'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20Ubiquinol&rcode=FKX4668'
                 },
                 {
                     name: 'PQQ (BioPQQ)',
@@ -196,7 +196,7 @@ const Shop = () => {
                     why: 'Triggers the growth of brand new mitochondria.',
                     pick: 'Jarrow Formulas PQQ',
                     amazonLink: 'https://geni.us/gZB1H',
-                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20PQQ'
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20PQQ&rcode=FKX4668'
                 },
                 {
                     name: 'Acetyl-L-Carnitine',
@@ -204,7 +204,7 @@ const Shop = () => {
                     why: 'Shuttles fatty acids into the mitochondria to be burned for fuel.',
                     pick: 'Life Extension Acetyl-L-Carnitine',
                     amazonLink: 'https://geni.us/Dp3jeAg',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Acetyl-L-Carnitine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Acetyl-L-Carnitine&rcode=FKX4668'
                 },
                 {
                     name: 'R-Lipoic Acid (ALA)',
@@ -212,7 +212,7 @@ const Shop = () => {
                     why: 'Potent mitochondrial antioxidant that recycles other antioxidants.',
                     pick: 'Life Extension Super R-Lipoic Acid',
                     amazonLink: 'https://geni.us/aRKwL6',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid&rcode=FKX4668'
                 },
                 {
                     name: 'Grass-Fed Whey Isolate',
@@ -220,7 +220,7 @@ const Shop = () => {
                     why: 'Bioavailable protein to support muscle mass and metabolic rate.',
                     pick: 'Thorne Whey Isolate',
                     amazonLink: 'https://geni.us/zrRNpo',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Whey%20Protein%20Isolate'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Whey%20Protein%20Isolate&rcode=FKX4668'
                 }
             ]
         },
@@ -235,7 +235,7 @@ const Shop = () => {
                     why: 'The primary fuel source for enterocytes (cell lining of the gut).',
                     pick: 'Thorne L-Glutamine',
                     amazonLink: 'https://www.amazon.com/s?k=Thorne%20L-Glutamine',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20L-Glutamine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20L-Glutamine&rcode=FKX4668'
                 },
                 {
                     name: 'Zinc Carnosine',
@@ -243,7 +243,7 @@ const Shop = () => {
                     why: 'Supports the structural integrity of the stomach lining.',
                     pick: 'Life Extension Gastro-Ease',
                     amazonLink: 'https://www.amazon.com/s?k=Life%20Extension%20Gastro-Ease',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Gastro-Ease'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Gastro-Ease&rcode=FKX4668'
                 },
                 {
                     name: 'Curcumin Phytosome',
@@ -251,7 +251,7 @@ const Shop = () => {
                     why: 'Modulates gut inflammation and supports barrier integrity.',
                     pick: 'Thorne Curcumin Phytosome',
                     amazonLink: 'https://geni.us/fCiHC',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Curcumin%20Phytosome&rcode=FKX4668'
                 },
                 {
                     name: 'High-DHA Omega-3',
@@ -259,7 +259,7 @@ const Shop = () => {
                     why: 'Supports a healthy microbiome and reduces intestinal inflammation.',
                     pick: 'Nordic Naturals ProOmega 2000',
                     amazonLink: 'https://geni.us/0id7g',
-                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000'
+                    iherbLink: 'https://www.iherb.com/search?kw=Nordic%20Naturals%20ProOmega%202000&rcode=FKX4668'
                 },
                 {
                     name: 'Collagen Peptides',
@@ -267,7 +267,7 @@ const Shop = () => {
                     why: 'Provides the amino acid matrix to seal the gut barrier.',
                     pick: 'Vital Proteins Collagen',
                     amazonLink: 'https://www.amazon.com/s?k=Vital%20Proteins%20Collagen',
-                    iherbLink: 'https://www.iherb.com/search?kw=Vital%20Proteins%20Collagen'
+                    iherbLink: 'https://www.iherb.com/search?kw=Vital%20Proteins%20Collagen&rcode=FKX4668'
                 },
                 {
                     name: 'Spore-Based Probiotics',
@@ -275,7 +275,7 @@ const Shop = () => {
                     why: 'Survives stomach acid to colonize the gut.',
                     pick: 'MegaSporeBiotic',
                     amazonLink: 'https://www.amazon.com/s?k=MegaSporeBiotic',
-                    iherbLink: 'https://www.iherb.com/search?kw=MegaSporeBiotic'
+                    iherbLink: 'https://www.iherb.com/search?kw=MegaSporeBiotic&rcode=FKX4668'
                 }
             ]
         },
@@ -296,7 +296,7 @@ const Shop = () => {
                     why: 'Highly absorbable form that promotes physical relaxation.',
                     pick: 'Thorne Magnesium Bisglycinate',
                     amazonLink: 'https://www.amazon.com/s?k=Thorne%20Magnesium%20Bisglycinate',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Magnesium%20Bisglycinate'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Magnesium%20Bisglycinate&rcode=FKX4668'
                 },
                 {
                     name: 'Ashwagandha KSM-66',
@@ -304,7 +304,7 @@ const Shop = () => {
                     why: 'Studied for its potential to modulate evening cortisol, which may support natural melatonin production.',
                     pick: 'Jarrow Formulas KSM-66',
                     amazonLink: 'https://geni.us/AxGBnX',
-                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Ashwagandha%20KSM-66'
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Ashwagandha%20KSM-66&rcode=FKX4668'
                 },
                 {
                     name: 'Magnesium L-Threonate',
@@ -312,7 +312,7 @@ const Shop = () => {
                     why: 'Supports GABA levels and calm for sleep onset.',
                     pick: 'Life Extension Neuro-Mag',
                     amazonLink: 'https://geni.us/hAgLBH',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Neuro-Mag&rcode=FKX4668'
                 },
                 {
                     name: 'Glycine',
@@ -320,7 +320,7 @@ const Shop = () => {
                     why: 'Lowers core body temperature to initiate sleep.',
                     pick: 'Life Extension Glycine',
                     amazonLink: 'https://www.amazon.com/s?k=Life%20Extension%20Glycine',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Glycine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Glycine&rcode=FKX4668'
                 },
                 {
                     name: 'Apigenin',
@@ -328,7 +328,7 @@ const Shop = () => {
                     why: 'Chamomile extract that binds to benzodiazepine receptors (mildly).',
                     pick: 'Double Wood Apigenin',
                     amazonLink: 'https://www.amazon.com/s?k=Double%20Wood%20Apigenin',
-                    iherbLink: 'https://www.iherb.com/search?kw=Double%20Wood%20Apigenin'
+                    iherbLink: 'https://www.iherb.com/search?kw=Double%20Wood%20Apigenin&rcode=FKX4668'
                 }
             ]
         },
@@ -343,7 +343,7 @@ const Shop = () => {
                     why: 'Activates AMPK, which may support insulin sensitivity and glucose disposal.',
                     pick: 'Thorne Berberine-500',
                     amazonLink: 'https://geni.us/ANVjh',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Berberine'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Berberine&rcode=FKX4668'
                 },
                 {
                     name: 'R-Lipoic Acid (ALA)',
@@ -351,7 +351,7 @@ const Shop = () => {
                     why: 'May support insulin sensitivity and help reduce oxidative stress associated with elevated blood sugar.',
                     pick: 'Life Extension Super R-Lipoic Acid',
                     amazonLink: 'https://geni.us/aRKwL6',
-                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid'
+                    iherbLink: 'https://www.iherb.com/search?kw=Life%20Extension%20Super%20R-Lipoic%20Acid&rcode=FKX4668'
                 },
                 {
                     name: 'Chromium Picolinate',
@@ -359,7 +359,7 @@ const Shop = () => {
                     why: 'May support insulin receptor function.',
                     pick: 'Thorne Chromium',
                     amazonLink: 'https://www.amazon.com/s?k=Thorne%20Chromium',
-                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Chromium'
+                    iherbLink: 'https://www.iherb.com/search?kw=Thorne%20Chromium&rcode=FKX4668'
                 },
                 {
                     name: 'Myo-Inositol',
@@ -367,7 +367,7 @@ const Shop = () => {
                     why: 'Functions as a secondary messenger for insulin signaling.',
                     pick: 'Jarrow Formulas Inositol',
                     amazonLink: 'https://www.amazon.com/s?k=Jarrow%20Formulas%20Inositol',
-                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Inositol'
+                    iherbLink: 'https://www.iherb.com/search?kw=Jarrow%20Formulas%20Inositol&rcode=FKX4668'
                 },
                 {
                     name: 'Ceylon Cinnamon',
@@ -375,7 +375,7 @@ const Shop = () => {
                     why: 'May support glucose uptake through insulin-mimetic activity.',
                     pick: 'Organic Ceylon Cinnamon',
                     amazonLink: 'https://www.amazon.com/s?k=Organic%20Ceylon%20Cinnamon',
-                    iherbLink: 'https://www.iherb.com/search?kw=Organic%20Ceylon%20Cinnamon'
+                    iherbLink: 'https://www.iherb.com/search?kw=Organic%20Ceylon%20Cinnamon&rcode=FKX4668'
                 }
             ]
         }
