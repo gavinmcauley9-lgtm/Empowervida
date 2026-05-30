@@ -13,16 +13,16 @@
 # Note: Netlify free tier has limited prerendering
 # For full prerendering, consider Netlify's "Prerender.io" integration
 
-# Redirect with prerendering - bots get server-rendered pages
+# Redirect all non-file requests to the SPA fallback index
+# (Netlify will automatically serve prerendered /path/index.html if it exists)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  # Force prerendering for common bot user agents
-  conditions = {Role = ["admin", "user"]}
 
 [build.environment]
   NODE_VERSION = "20"
+  PUPPETEER_CACHE_DIR = "/opt/build/repo/.cache/puppeteer"
 
 # Build processing: compression, minification, optimization
 [build.processing]

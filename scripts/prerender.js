@@ -69,7 +69,10 @@ async function prerender() {
   });
 
   // 2. Launch Puppeteer
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const browser = await puppeteer.launch({ 
+    headless: 'new', 
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'] 
+  });
   
   for (const route of routes) {
     console.log(`Pre-rendering: ${route}`);
@@ -96,6 +99,7 @@ async function prerender() {
       console.log(`✅ Saved ${route}/index.html`);
     } catch (e) {
       console.error(`❌ Failed to pre-render ${route}:`, e);
+      throw e; // Fail the build if a route fails
     } finally {
       await page.close();
     }
@@ -107,8 +111,7 @@ async function prerender() {
 }
 
 prerender().catch(err => {
-  console.error("Prerendering failed (this is expected on Netlify/Vercel without Chrome). Skipping prerender:");
+  console.error("Prerendering failed! Check the logs above:");
   console.error(err);
-  // Exit with 0 so the build still succeeds and deploys the base SPA
-  process.exit(0);
+  process.exit(1);
 });
