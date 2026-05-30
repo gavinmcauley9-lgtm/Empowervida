@@ -13,6 +13,19 @@
 # Note: Netlify free tier has limited prerendering
 # For full prerendering, consider Netlify's "Prerender.io" integration
 
+# =============================================
+# CANONICAL DOMAIN ENFORCEMENT
+# Forces all www traffic to non-www (301 permanent)
+# This resolves "Duplicate, Google chose different canonical than user"
+# in Search Console and tells Google definitively that
+# https://empowervida.com is the one true canonical domain.
+# =============================================
+[[redirects]]
+  from = "https://www.empowervida.com/*"
+  to = "https://empowervida.com/:splat"
+  status = 301
+  force = true
+
 # Next.js static export generates an HTML file per route.
 # No SPA catch-all redirect needed — each page has its own /path/index.html file.
 # 404 handling
