@@ -1,4 +1,16 @@
+# EmpowerVida robots.txt
+# Last updated: May 2026
+
 User-agent: *
 Allow: /
 
+# Prevent indexing of utility/internal pages that shouldn't rank
+Disallow: /thank-you/
+Disallow: /welcome-insider/
+Disallow: /blog-post-redirect/
+Disallow: /hero-compare/
+Disallow: /links/
+
+# Sitemaps
 Sitemap: https://empowervida.com/sitemap.xml
+Sitemap: https://empowervida.com/sitemap-images.xml

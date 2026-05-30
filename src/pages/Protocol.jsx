@@ -3,14 +3,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import FAQSection from '../components/FAQSection';
-import SEO from '../components/SEO';
 
 const Protocol = () => {
-    const { hash } = usePathname();
+    // usePathname() returns a string, not an object — use window.location for hash access
+    const hash = typeof window !== 'undefined' ? window.location.hash : '';
 
     React.useEffect(() => {
         if (hash) {
@@ -88,13 +87,14 @@ const Protocol = () => {
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
         }}>
-            <SEO
-                title="The 7 Master Protocols - Clinical Longevity Stack | EMPOWERVIDA"
-                description="Physician-designed supplement protocols for longevity, brain health, energy, gut repair, sleep, and metabolic health. Evidence-based stacks with exact dosing."
-                keywords="longevity supplement protocol, brain fog supplements, gut health protocol, sleep supplements, metabolic health, insulin sensitivity, mitochondrial support"
-                canonical="/protocol"
-                ogImage="/protocol_hero_fire_v2.jpg"
-                schemaData={[breadcrumbSchema, faqSchema]}
+            {/* JSON-LD Schemas — server-rendered, visible to Googlebot immediately */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
             {/* Hero Section */}

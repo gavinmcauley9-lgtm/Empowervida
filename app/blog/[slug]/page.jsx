@@ -36,6 +36,9 @@ export async function generateMetadata({ params }) {
       images: [
         {
           url: post.image ? `https://empowervida.com${post.image}` : 'https://empowervida.com/water_refraction.png',
+          width: 1200,
+          height: 630,
+          alt: post.title,
         },
       ],
     },
@@ -58,11 +61,17 @@ export default async function BlogPostPage({ params }) {
     "headline": post.title,
     "image": post.image ? [`https://empowervida.com${post.image}`] : [],
     "datePublished": post.date,
-    "dateModified": post.date,
+    // dateModified — use a dedicated field if it exists, else fall back to datePublished
+    "dateModified": post.dateModified || post.date,
     "author": {
       "@type": "Physician",
       "name": "Dr. Gavin McAuley",
-      "url": "https://empowervida.com/about"
+      "url": "https://empowervida.com/about",
+      "sameAs": [
+        "https://www.linkedin.com/in/gavin-mcauley-62147151/",
+        "https://drgavinmcauley.substack.com"
+      ],
+      "image": "https://empowervida.com/dr-gavin-mcauley.jpg"
     },
     "publisher": {
       "@type": "MedicalOrganization",
@@ -72,7 +81,11 @@ export default async function BlogPostPage({ params }) {
         "url": "https://empowervida.com/empowervida_hero_logo.png"
       }
     },
-    "description": post.excerpt
+    "description": post.excerpt,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://empowervida.com/blog/${slug}`
+    }
   };
 
   return (

@@ -15,7 +15,10 @@ export const metadata = {
     url: 'https://empowervida.com/about',
     images: [
       {
-        url: 'https://empowervida.com/water_refraction.png',
+        url: 'https://empowervida.com/dr-gavin-mcauley.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Dr. Gavin McAuley — Longevity Physician and founder of EmpowerVida',
       },
     ],
   },
@@ -56,6 +59,7 @@ export default function About() {
             "Cellular Health",
             "Evidence-Based Medicine"
         ],
+        "image": "https://empowervida.com/dr-gavin-mcauley.jpg",
         "sameAs": [
             "https://www.linkedin.com/in/gavin-mcauley-62147151/",
             "https://drgavinmcauley.substack.com"

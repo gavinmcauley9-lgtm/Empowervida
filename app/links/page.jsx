@@ -2,11 +2,17 @@ import React from 'react';
 import Links from '../../../src/pages/Links';
 
 export const metadata = {
-  title: 'Links | EMPOWERVIDA',
-  description: 'Longevity and metabolic health optimization protocols.',
+  title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',
+  description: 'All links for Dr. Gavin McAuley: EmpowerVida protocols, Substack newsletter, social media, and clinical longevity resources.',
   alternates: {
     canonical: 'https://empowervida.com/links',
-  }
+  },
+  openGraph: {
+    title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',
+    description: 'All links for Dr. Gavin McAuley: EmpowerVida protocols, Substack newsletter, social media, and clinical longevity resources.',
+    url: 'https://empowervida.com/links',
+    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+  },
 };
 
 export default function Page() {
