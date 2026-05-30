@@ -10,10 +10,10 @@ export const POSTS = [
     
     {
         id: "the-coq10-trap",
-        title: "Is your CoQ10 actually working? (The Over-40 Rule)",
+        title: "Ubiquinol vs Ubiquinone: Which CoQ10 Should You Take After 40? (Physician Guide)",
         date: "2026-04-19",
         category: 'Mitochondrial Efficiency',
-        excerpt: "90% of people take the wrong form of CoQ10. An ER physician breaks down ubiquinone vs ubiquinol: absorption, bioavailability, and which one you actually need.",
+        excerpt: "After 40, your body struggles to convert CoQ10 to ubiquinol. An ER physician explains why ubiquinol is the only form worth taking over 40, and the exact dose that works.",
         image: "/coq10_mitochondria_header.png",
         slug: "the-coq10-trap",
         content: `
@@ -6250,10 +6250,10 @@ export const POSTS = [
   {
     id: 49,
     slug: 'ashwagandha-and-rhodiola-take-together-physician-guide',
-    title: 'Ashwagandha and Rhodiola: Can You Take Them Together? (Physicians Guide) ',
+    title: 'Ashwagandha and Rhodiola Together: Physician\'s Dosing & Safety Guide',
     category: 'Metabolic Flexibility',
     image: '/ashwagandha_rhodiola_adaptogen.png',
-    excerpt: "A physician's deep dive into the pharmacokinetics of Ashwagandha and Rhodiola. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
+    excerpt: "Yes — ashwagandha and rhodiola are safe to take together and work synergistically. Ashwagandha calms cortisol while rhodiola sharpens energy. Physician-reviewed dose and timing.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -7448,7 +7448,7 @@ export const POSTS = [
     title: 'Spirulina and Chlorella: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
     image: '/supplement_synergy.png',
-    excerpt: "A physician's deep dive into the pharmacokinetics of Spirulina and Chlorella. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
+    excerpt: "Yes — spirulina and chlorella are safe to stack and work synergistically for detoxification and cellular nutrition. Physician-reviewed dosing ratio, timing, and what to watch for.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8081,7 +8081,7 @@ export const POSTS = [
     title: 'Maca and Tribulus: Can You Take Them Together? (Physicians Guide) ',
     category: 'Metabolic Flexibility',
     image: '/supplement_synergy.png',
-    excerpt: "A physician's deep dive into the pharmacokinetics of Maca and Tribulus. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
+    excerpt: "Can you take maca and tribulus together safely? A physician reviews the evidence on combining these two adaptogens for hormonal balance, energy, and libido support.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
@@ -8718,10 +8718,10 @@ export const POSTS = [
   {
     id: 81,
     slug: 'berberine-and-alpha-lipoic-acid-take-together',
-    title: 'Berberine and Alpha-Lipoic Acid: Can You Take Them Together? (Physicians Guide) ',
+    title: 'Berberine and Alpha-Lipoic Acid Together: Safe? Physician\'s Dosing Guide',
     category: 'Metabolic Flexibility',
     image: '/supplement_synergy.png',
-    excerpt: "A physician's deep dive into the pharmacokinetics of Berberine and Alpha-Lipoic Acid. Protect your gut lining and maximize cellular uptake with this dosing schedule.",
+    excerpt: "Yes — berberine and alpha-lipoic acid are a powerful metabolic stack. Both target insulin resistance through different pathways. Physician-reviewed dosing schedule and what to expect.",
     date: 'Jan 10, 2026',
     cta: {
       text: "View Clinical Grade Supplements",
