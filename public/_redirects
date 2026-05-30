@@ -154,4 +154,6 @@
 /blog/id/81  /blog/berberine-and-alpha-lipoic-acid-take-together  301
 /blog/id/82  /blog/hesperidin-and-diosmin-take-together-physician-guide  301
 /blog/id/83  /blog/policosanol-and-red-yeast-rice-take-together  301
-/*  /index.html  200
+
+# Next.js static export — every page has its own HTML file.
+# No catch-all SPA redirect needed.
