@@ -123,20 +123,125 @@ export default async function BlogPostPage({ params }) {
             <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'white', margin: '1rem 0' }}>
               {post.title}
             </h1>
-            <p style={{ color: 'rgba(255,255,255,0.8)' }}>
-              Published: {new Date(post.date).toLocaleDateString()}
+          </div>
+        </div>
+      </div>
+
+      {/* ── AUTHOR BYLINE ── E-E-A-T signal for Google */}
+      <div style={{ maxWidth: '800px', margin: '2.5rem auto 0', padding: '0 2rem' }}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '1.25rem',
+          padding: '1.25rem 1.5rem',
+          borderRadius: '12px',
+          border: '1px solid rgba(32, 178, 170, 0.25)',
+          background: 'rgba(32, 178, 170, 0.04)',
+          marginBottom: '2rem'
+        }}>
+          {/* Author photo */}
+          <div style={{
+            position: 'relative',
+            width: '64px',
+            height: '64px',
+            borderRadius: '50%',
+            overflow: 'hidden',
+            flexShrink: 0,
+            border: '2px solid var(--color-accent-teal)'
+          }}>
+            <Image
+              src="/dr-gavin-mcauley.jpg"
+              alt="Dr. Gavin McAuley"
+              fill
+              sizes="64px"
+              style={{ objectFit: 'cover', objectPosition: 'center top' }}
+            />
+          </div>
+
+          {/* Author info */}
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+              <span style={{ fontWeight: '700', fontSize: '1rem', color: 'var(--color-text)' }}>
+                Dr. Gavin McAuley
+              </span>
+              <span style={{
+                fontSize: '0.7rem',
+                fontWeight: '700',
+                color: 'var(--color-accent-teal)',
+                background: 'rgba(32,178,170,0.1)',
+                padding: '0.2rem 0.6rem',
+                borderRadius: '20px',
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em'
+              }}>
+                MBChB · Physician
+              </span>
+            </div>
+            <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', margin: '0.25rem 0 0', lineHeight: '1.4' }}>
+              16 years in Emergency Medicine &amp; General Practice · Clinical focus: Longevity &amp; Metabolic Health
             </p>
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '0.4rem', fontSize: '0.8rem', color: 'var(--color-text-muted)', flexWrap: 'wrap' }}>
+              <span>📅 Published: {new Date(post.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+              <a href="/about" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '600' }}>
+                View full credentials →
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Content Body */}
-      <div style={{ maxWidth: '800px', margin: '4rem auto', padding: '0 2rem' }}>
+      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 2rem' }}>
         <div 
           className="blog-content"
           style={{ fontSize: '1.2rem', lineHeight: '1.8' }}
           dangerouslySetInnerHTML={{ __html: post.content }} 
         />
+
+        {/* ── REFERENCES ── if post has them */}
+        {post.references && post.references.length > 0 && (
+          <div style={{
+            marginTop: '4rem',
+            paddingTop: '2rem',
+            borderTop: '2px solid rgba(32,178,170,0.2)'
+          }}>
+            <h2 style={{ fontSize: '1.3rem', fontWeight: '700', marginBottom: '1.25rem', color: 'var(--color-text)' }}>
+              Clinical References
+            </h2>
+            <ol style={{ paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {post.references.map((ref, i) => (
+                <li key={i} style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
+                  {ref.url ? (
+                    <a href={ref.url} target="_blank" rel="noopener noreferrer"
+                      style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>
+                      {ref.text}
+                    </a>
+                  ) : ref.text || ref}
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
+        {/* ── MEDICAL DISCLAIMER ── required for Google E-E-A-T on health content */}
+        <div style={{
+          marginTop: '3rem',
+          padding: '1.25rem 1.5rem',
+          borderRadius: '10px',
+          background: 'rgba(255, 152, 0, 0.06)',
+          borderLeft: '4px solid #FF9800',
+          fontSize: '0.85rem',
+          color: 'var(--color-text-muted)',
+          lineHeight: '1.6'
+        }}>
+          <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.4rem' }}>
+            ⚕️ Medical Disclaimer
+          </strong>
+          This article is written for educational purposes by a licensed physician (MBChB). 
+          It does not constitute medical advice, diagnosis, or treatment. Always consult 
+          your own doctor before starting any supplement protocol, particularly if you 
+          have underlying health conditions or take prescribed medications.
+        </div>
       </div>
     </div>
   );
