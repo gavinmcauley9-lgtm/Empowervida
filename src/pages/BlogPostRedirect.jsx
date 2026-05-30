@@ -1,4 +1,6 @@
-import { useParams, Navigate } from 'react-router-dom';
+"use client";
+
+import { useParams, Navigate } from 'next/navigation';
 import { POSTS } from '../data/posts';
 
 /**

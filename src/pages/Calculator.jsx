@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import EmailCapture from '../components/EmailCapture';
 
 function Calculator() {
@@ -171,7 +173,7 @@ function Calculator() {
                   A score above 1.0 may indicate reduced cellular sensitivity to insulin. Research suggests that prolonged insulin resistance can affect glucose uptake in the brain, potentially contributing to cognitive symptoms such as brain fog and reduced mental clarity. Discuss these results with your healthcare provider.
                 </p>
                 <Link 
-                  to="/protocol"
+                  href="/protocol"
                   style={{
                     display: 'block',
                     textAlign: 'center',
@@ -197,7 +199,7 @@ function Calculator() {
                   Excellent. Your cells are highly sensitive to insulin, meaning your mitochondria are efficiently producing ATP and your neurons are well-fed. To maintain this baseline and slow epigenetic aging, ensure you are providing the mitochondria with the required baseline raw materials.
                 </p>
                 <Link 
-                  to="/empower-protocol"
+                  href="/empower-protocol"
                   style={{
                     display: 'block',
                     textAlign: 'center',
@@ -232,7 +234,7 @@ function Calculator() {
           You can still begin supporting your metabolic baseline today. Review the clinical framework used to support cognitive function and mitochondrial health.
         </p>
         <Link 
-          to="/protocol#clarity-stack"
+          href="/protocol#clarity-stack"
           style={{
             display: 'inline-block',
             padding: '0.8rem 1.5rem',

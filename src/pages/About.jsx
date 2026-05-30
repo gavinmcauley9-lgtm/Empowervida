@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 export default function About() {
@@ -373,7 +375,7 @@ export default function About() {
                     Take control of your cellular resilience.
                 </p>
                 <Link
-                    to="/longevity"
+                    href="/longevity"
                     className="btn-primary"
                     style={{
                         display: 'inline-block',

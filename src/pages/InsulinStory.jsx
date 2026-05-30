@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
 import RelatedPosts from '../components/RelatedPosts';
@@ -708,7 +710,7 @@ export default function InsulinStory() {
                         </p>
                         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
-                                to="/protocol#metabolic-stack"
+                                href="/protocol#metabolic-stack"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     display: 'inline-block',
@@ -734,7 +736,7 @@ export default function InsulinStory() {
                                 Start The Metabolic Protocol →
                             </Link>
                             <Link
-                                to="/diagnostics"
+                                href="/diagnostics"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     display: 'inline-block',
@@ -834,7 +836,7 @@ export default function InsulinStory() {
                     gap: '2rem'
                 }}>
                     <Link
-                        to="/mitochondrial-guide"
+                        href="/mitochondrial-guide"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
@@ -846,7 +848,7 @@ export default function InsulinStory() {
                         ← Mitochondrial Health Guide
                     </Link>
                     <Link
-                        to="/longevity"
+                        href="/longevity"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',

@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
@@ -302,7 +304,7 @@ const MitochondrialGuide = () => {
                         <strong>Cardiovascular Disease:</strong> Heart failure, liver dysfunction, muscle weakness
                     </li>
                     <li style={{ marginBottom: '0.75rem' }}>
-                        <strong>Accelerated Ageing:</strong> Chronic pain, fatigue, loss of vitality. <Link to="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to address this.</Link>
+                        <strong>Accelerated Ageing:</strong> Chronic pain, fatigue, loss of vitality. <Link href="/blog/25" style={{ color: 'var(--color-accent-teal)', textDecoration: 'underline' }}>Learn how to address this.</Link>
                     </li>
                 </ul>
 
@@ -1190,7 +1192,7 @@ const MitochondrialGuide = () => {
                         Stop borrowing energy from tomorrow. Start creating it today with our clinical <strong>Vitality Protocol</strong>.
                     </p>
                     <Link
-                        to="/protocol#vitality-stack"
+                        href="/protocol#vitality-stack"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             display: 'inline-block',
@@ -1224,7 +1226,7 @@ const MitochondrialGuide = () => {
                     gap: '2rem'
                 }}>
                     <Link
-                        to="/insulin-story"
+                        href="/insulin-story"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
@@ -1236,7 +1238,7 @@ const MitochondrialGuide = () => {
                         ← The Insulin Story
                     </Link>
                     <Link
-                        to="/longevity"
+                        href="/longevity"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',

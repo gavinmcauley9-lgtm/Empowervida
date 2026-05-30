@@ -1,6 +1,8 @@
+"use client";
+
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
 
 export default function WelcomeInsider() {
@@ -125,7 +127,7 @@ export default function WelcomeInsider() {
 
                     <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <Link 
-                            to="/protocol" 
+                            href="/protocol" 
                             style={{
                                 display: 'inline-block',
                                 padding: '1.2rem 3rem',
@@ -145,7 +147,7 @@ export default function WelcomeInsider() {
                         </Link>
 
                         <Link 
-                            to="/shop" 
+                            href="/shop" 
                             style={{
                                 display: 'inline-block',
                                 padding: '1.2rem 3rem',

@@ -1,7 +1,9 @@
+"use client";
+
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 
@@ -164,7 +166,7 @@ const AdvancedOptimization = () => {
                     }}>
                         Ready to Optimise?
                     </h2>
-                    <Link to="/shop" style={{
+                    <Link href="/shop" style={{
                         display: 'inline-block',
                         padding: '1rem 3rem',
                         backgroundColor: '#FF5F00',

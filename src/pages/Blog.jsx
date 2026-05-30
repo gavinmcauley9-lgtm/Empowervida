@@ -1,10 +1,13 @@
+"use client";
+
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
 export default function Blog() {
-    const navigate = useNavigate();
+    const navigate = useRouter();
     const [activeCategory, setActiveCategory] = useState('all');
 
     const filteredPosts = activeCategory === 'all'

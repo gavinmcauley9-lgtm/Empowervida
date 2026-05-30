@@ -1,13 +1,16 @@
+"use client";
+
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import FAQSection from '../components/FAQSection';
 import SEO from '../components/SEO';
 
 const Protocol = () => {
-    const { hash } = useLocation();
+    const { hash } = usePathname();
 
     React.useEffect(() => {
         if (hash) {
@@ -257,9 +260,9 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#1A3C34', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/longevity" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn more about the science of aging</Link>
-                            <Link to="/blog/22" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Why NAD+ Declines with Age</Link>
-                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Before starting, consider testing your biomarkers</Link>
+                            <Link href="/longevity" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn more about the science of aging</Link>
+                            <Link href="/blog/22" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Why NAD+ Declines with Age</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Before starting, consider testing your biomarkers</Link>
                         </div>
                     </div>
 
@@ -359,8 +362,8 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#008080', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/blog/3" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ More on nootropics for focus</Link>
-                            <Link to="/blog/1" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Science of the Starving Neuron</Link>
+                            <Link href="/blog/3" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ More on nootropics for focus</Link>
+                            <Link href="/blog/1" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Science of the Starving Neuron</Link>
                         </div>
                     </div>
 
@@ -462,8 +465,8 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#667eea', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/blog/28" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NAD+ Together?</Link>
-                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
+                            <Link href="/blog/28" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NAD+ Together?</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
                         </div>
                     </div>
 
@@ -553,8 +556,8 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#FF5F00', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/mitochondrial-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Deep dive: Mitochondrial Guide</Link>
-                            <Link to="/blog/the-coq10-trap" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The CoQ10 Trap</Link>
+                            <Link href="/mitochondrial-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Deep dive: Mitochondrial Guide</Link>
+                            <Link href="/blog/the-coq10-trap" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The CoQ10 Trap</Link>
                         </div>
                     </div>
 
@@ -677,7 +680,7 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#FF6B6B', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/blog/5" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Gut-Brain Connection</Link>
+                            <Link href="/blog/5" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Gut-Brain Connection</Link>
                         </div>
                     </div>
 
@@ -779,7 +782,7 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#764ba2', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/blog/7" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn: Sleep Optimization Protocol</Link>
+                            <Link href="/blog/7" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Learn: Sleep Optimization Protocol</Link>
                         </div>
                     </div>
 
@@ -885,9 +888,9 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#DC2626', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link to="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Understand the insulin story</Link>
-                            <Link to="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
-                            <Link to="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with these labs</Link>
+                            <Link href="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Understand the insulin story</Link>
+                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with these labs</Link>
                         </div>
                     </div>
 
@@ -986,7 +989,7 @@ const Protocol = () => {
                 <h2 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '2rem', color: 'var(--color-text)' }}>
                     Ready to Upgrade Your Biology?
                 </h2>
-                <Link to="/shop" style={{
+                <Link href="/shop" style={{
                     display: 'inline-block',
                     padding: '1.2rem 3rem',
                     background: 'var(--color-accent-teal)',

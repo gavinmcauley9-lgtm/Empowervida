@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Footer = () => {
     const linkStyle = {
@@ -96,12 +98,12 @@ const Footer = () => {
                     }}>
                         Quick Links
                     </h4>
-                    <Link to="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
+                    <Link href="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
                     <a href="https://drgavinmcauley.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>[ NEWSLETTER ]</a>
-                    <Link to="/shop" style={linkStyle}>[ SHOP ]</Link>
-                    <Link to="/about" style={linkStyle}>[ ABOUT ]</Link>
-                    <Link to="/contact" style={linkStyle}>[ CONTACT ]</Link>
-                    <Link to="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
+                    <Link href="/shop" style={linkStyle}>[ SHOP ]</Link>
+                    <Link href="/about" style={linkStyle}>[ ABOUT ]</Link>
+                    <Link href="/contact" style={linkStyle}>[ CONTACT ]</Link>
+                    <Link href="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
                 </div>
 
                 {/* Column 3: Essential Guides */}
@@ -116,11 +118,11 @@ const Footer = () => {
                     }}>
                         Essential Guides
                     </h4>
-                    <Link to="/mitochondrial-guide" style={linkStyle}>⚡ [ MITOCHONDRIAL HEALTH ]</Link>
-                    <Link to="/longevity" style={linkStyle}>🧬 [ THE 5 PILLARS ]</Link>
-                    <Link to="/insulin-story" style={linkStyle}>🩸 [ THE INSULIN STORY ]</Link>
-                    <Link to="/advanced-optimization" style={linkStyle}>🎯 [ ADVANCED METRICS ]</Link>
-                    <Link to="/environmental-defense" style={linkStyle}>🛡️ [ THE ELEMENTS ]</Link>
+                    <Link href="/mitochondrial-guide" style={linkStyle}>⚡ [ MITOCHONDRIAL HEALTH ]</Link>
+                    <Link href="/longevity" style={linkStyle}>🧬 [ THE 5 PILLARS ]</Link>
+                    <Link href="/insulin-story" style={linkStyle}>🩸 [ THE INSULIN STORY ]</Link>
+                    <Link href="/advanced-optimization" style={linkStyle}>🎯 [ ADVANCED METRICS ]</Link>
+                    <Link href="/environmental-defense" style={linkStyle}>🛡️ [ THE ELEMENTS ]</Link>
                 </div>
 
                 {/* Column 3: Legal & Privacy */}
@@ -135,9 +137,9 @@ const Footer = () => {
                     }}>
                         Legal & Privacy
                     </h4>
-                    <Link to="/terms" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
-                    <Link to="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
-                    <Link to="/affiliate-disclaimer" style={linkStyle}>[ AFFILIATE DISCLAIMER ]</Link>
+                    <Link href="/terms" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
+                    <Link href="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
+                    <Link href="/affiliate-disclaimer" style={linkStyle}>[ AFFILIATE DISCLAIMER ]</Link>
                 </div>
 
                 {/* Column 4: Medical Disclaimer */}
@@ -178,7 +180,7 @@ const Footer = () => {
                 <span>© 2025 EmpowerVida. All Rights Reserved.</span>
                 <span style={{ opacity: 0.5 }}>|</span>
                 <Link
-                    to="/terms"
+                    href="/terms"
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',
@@ -189,7 +191,7 @@ const Footer = () => {
                 </Link>
                 <span style={{ opacity: 0.5 }}>|</span>
                 <Link
-                    to="/privacy"
+                    href="/privacy"
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',
@@ -200,7 +202,7 @@ const Footer = () => {
                 </Link>
                 <span style={{ opacity: 0.5 }}>|</span>
                 <Link
-                    to="/affiliate-disclaimer"
+                    href="/affiliate-disclaimer"
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',

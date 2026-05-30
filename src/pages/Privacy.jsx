@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 export default function Privacy() {
@@ -431,7 +433,7 @@ export default function Privacy() {
                 {/* Back to Home CTA */}
                 <div style={{ textAlign: 'center', marginTop: '4rem', paddingTop: '3rem', borderTop: '2px solid rgba(0,0,0,0.1)' }}>
                     <Link
-                        to="/"
+                        href="/"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',

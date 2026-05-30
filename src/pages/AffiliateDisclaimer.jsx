@@ -1,5 +1,7 @@
+"use client";
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import SEO from '../components/SEO';
 
 export default function AffiliateDisclaimer() {
@@ -314,7 +316,7 @@ export default function AffiliateDisclaimer() {
                     flexWrap: 'wrap'
                 }}>
                     <Link
-                        to="/privacy"
+                        href="/privacy"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2rem',
@@ -339,7 +341,7 @@ export default function AffiliateDisclaimer() {
                         View Privacy Policy
                     </Link>
                     <Link
-                        to="/"
+                        href="/"
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',

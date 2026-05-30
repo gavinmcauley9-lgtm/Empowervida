@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
@@ -385,7 +387,7 @@ const LongevityGuide = () => {
                         </ul>
 
                         <div style={{ marginTop: '2rem', textAlign: 'center' }}>
-                            <Link to="/shop" style={{
+                            <Link href="/shop" style={{
                                 display: 'inline-block',
                                 background: '#764ba2',
                                 color: '#FFFFFF',
@@ -581,7 +583,7 @@ const LongevityGuide = () => {
                         </div>
 
                         <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-                            <Link to="/protocol#longevity-stack" style={{
+                            <Link href="/protocol#longevity-stack" style={{
                                 display: 'inline-block',
                                 background: 'var(--color-accent-teal)',
                                 color: '#FFFFFF',
@@ -646,7 +648,7 @@ const LongevityGuide = () => {
                     gap: '2rem'
                 }}>
                     <Link
-                        to="/mitochondrial-guide"
+                        href="/mitochondrial-guide"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
@@ -658,7 +660,7 @@ const LongevityGuide = () => {
                         ← Mitochondrial Health Guide
                     </Link>
                     <Link
-                        to="/insulin-story"
+                        href="/insulin-story"
                         onClick={() => window.scrollTo(0, 0)}
                         style={{
                             fontSize: '1.1rem',
