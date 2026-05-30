@@ -3,12 +3,11 @@ const nextConfig = {
   output: 'export',
   distDir: 'dist',
   trailingSlash: true,
-  // Image optimisation enabled — next/image will serve WebP and resize automatically
+  // Note: next/image optimisation requires a Node.js server.
+  // With output:'export' (static HTML), we must use unoptimized.
+  // WebP versions already exist in /public/ for manual use.
   images: {
-    unoptimized: false,
-    formats: ['image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    unoptimized: true,
   },
 };
 
