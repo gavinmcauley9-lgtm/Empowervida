@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About Dr. Gavin | Physician & Longevity Educator | EMPOWERVIDA',
@@ -85,19 +86,16 @@ export default function About() {
                 overflow: 'hidden',
                 marginBottom: '0'
             }}>
-                {/* Background Image */}
-                <div className="ken-burns-active" style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/about_hero_transformation.png)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                    opacity: 0.9
-                }}></div>
+                {/* Background Image - Optimized with next/image */}
+                <Image 
+                    src="/about_hero_transformation.png"
+                    alt="Dr. Gavin McAuley Background"
+                    fill
+                    priority
+                    sizes="100vw"
+                    style={{ objectFit: 'cover', zIndex: 0, opacity: 0.9 }}
+                    className="ken-burns-active"
+                />
 
                 {/* Overlay */}
                 <div style={{
@@ -154,12 +152,12 @@ export default function About() {
                         border: '4px solid var(--color-accent-teal)',
                         boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
                     }}>
-                        <img
+                        <Image
                             src="/dr-gavin-mcauley.jpg"
                             alt="Dr. Gavin McAuley - GP and Longevity Physician, founder of EMPOWERVIDA"
+                            fill
+                            sizes="280px"
                             style={{
-                                width: '100%',
-                                height: '100%',
                                 objectFit: 'cover',
                                 objectPosition: 'center top'
                             }}

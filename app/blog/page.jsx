@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { POSTS } from '../../src/data/posts';
 
 export const metadata = {
@@ -36,7 +37,15 @@ export default function BlogListing() {
               background: 'rgba(0,0,0,0.2)'
             }}>
               {post.image && (
-                <img src={post.image} alt={post.title} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <div style={{ position: 'relative', width: '100%', height: '200px' }}>
+                  <Image 
+                    src={post.image} 
+                    alt={post.title} 
+                    fill
+                    sizes="(max-width: 768px) 100vw, 300px"
+                    style={{ objectFit: 'cover' }} 
+                  />
+                </div>
               )}
               <div style={{ padding: '1.5rem' }}>
                 <div style={{ fontSize: '0.8rem', color: 'var(--color-accent-teal)', textTransform: 'uppercase', marginBottom: '0.5rem' }}>

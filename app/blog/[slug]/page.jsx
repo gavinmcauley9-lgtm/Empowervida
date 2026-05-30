@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { POSTS } from '../../../src/data/posts';
 import { notFound } from 'next/navigation';
 
@@ -85,10 +86,13 @@ export default async function BlogPostPage({ params }) {
       {/* Hero Header */}
       <div style={{ position: 'relative', height: '50vh', width: '100%', overflow: 'hidden' }}>
         {post.image && (
-          <img 
+          <Image 
             src={post.image} 
             alt={post.title} 
-            style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} 
+            fill
+            priority
+            sizes="100vw"
+            style={{ objectFit: 'cover', opacity: 0.7 }} 
           />
         )}
         <div style={{
