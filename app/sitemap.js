@@ -1,5 +1,8 @@
 import { POSTS } from '../src/data/posts';
 
+// Required for Next.js static export — declares this route as fully static
+export const dynamic = 'force-static';
+
 export default function sitemap() {
   const DOMAIN = 'https://empowervida.com';
 
