@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import Link from 'next/link';
 import EmailCapture from '../components/EmailCapture';
 
@@ -40,10 +39,6 @@ function Calculator() {
 
   return (
     <div style={{ padding: '6rem 2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <Helmet>
-        <title>HOMA-IR Calculator | Fasting Insulin & Brain Health | EmpowerVida</title>
-        <meta name="description" content="Calculate your HOMA-IR score to assess insulin sensitivity. An educational tool for understanding metabolic health and cognitive function." />
-      </Helmet>
 
       <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
         <h1 style={{ fontSize: '2.5rem', color: 'var(--color-primary-navy)', marginBottom: '1rem' }}>

@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
 import EmailCapture from '../components/EmailCapture';
 
 const PhenoAge = () => {
@@ -71,10 +70,6 @@ const PhenoAge = () => {
 
     return (
         <div style={{ padding: '6rem 1.5rem', background: '#F8F9FA', minHeight: '100vh', fontFamily: 'Inter, sans-serif' }}>
-            <Helmet>
-                <title>Phenotypic Biological Age Calculator | EmpowerVida</title>
-                <meta name="description" content="Calculate your true cellular age using the 9 clinical biomarkers of the Phenotypic Age (PhenoAge) algorithm." />
-            </Helmet>
 
             <motion.div 
                 initial={{ opacity: 0, y: 20 }}

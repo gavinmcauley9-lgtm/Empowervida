@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
@@ -25,10 +24,6 @@ const ThankYou = () => {
             background: 'var(--color-bg-secondary)',
             padding: '2rem'
         }}>
-            <Helmet>
-                <title>Welcome to the Architecture | EmpowerVida</title>
-                <meta name="robots" content="noindex" />
-            </Helmet>
 
             <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}

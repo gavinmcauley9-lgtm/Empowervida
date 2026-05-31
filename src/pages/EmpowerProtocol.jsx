@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import EmailCapture from '../components/EmailCapture';
@@ -9,11 +8,6 @@ import EmailCapture from '../components/EmailCapture';
 const EmpowerProtocol = () => {
     return (
         <>
-            <Helmet>
-                <title>The Empower Protocol | EMPOWERVIDA</title>
-                <meta name="description" content="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance. Stop Biohacking. Start Building." />
-                <link rel="canonical" href="https://empowervida.com/empower-protocol" />
-            </Helmet>
 
             {/* Section 1: The Hero */}
             <HeroSection

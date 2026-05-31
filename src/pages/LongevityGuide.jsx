@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
@@ -19,56 +18,6 @@ const LongevityGuide = () => {
 
     return (
         <>
-            <Helmet>
-                {/* Primary Meta Tags */}
-                <title>The 5 Pillars of Longevity Medicine: A Physician's Framework | EMPOWERVIDA</title>
-                <meta name="title" content="The 5 Pillars of Longevity Medicine: A Physician's Framework" />
-                <meta name="description" content="Beyond diet and exercise. Learn the evidence-based framework for extending healthspan: nutritional biochemistry, exercise physiology, sleep architecture, stress resilience, and targeted supplementation." />
-                <meta name="keywords" content="longevity medicine, healthspan, mTOR, AMPK, autophagy, VO2 max, zone 2 training, glymphatic system, HRV, rapamycin, metformin, longevity supplements" />
-                <meta name="author" content="Dr. Gavin McAuley" />
-                <link rel="canonical" href="https://empowervida.com/longevity" />
-
-                {/* Open Graph / Facebook */}
-                <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://empowervida.com/longevity" />
-                <meta property="og:title" content="The 5 Pillars of Longevity Medicine | EMPOWERVIDA" />
-                <meta property="og:description" content="A physician's evidence-based framework for extending healthspan through nutritional biochemistry, exercise physiology, sleep optimization, and targeted interventions." />
-                <meta property="og:site_name" content="EMPOWERVIDA" />
-
-                {/* Twitter */}
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://empowervida.com/longevity" />
-                <meta property="twitter:title" content="The 5 Pillars of Longevity Medicine | EMPOWERVIDA" />
-                <meta property="twitter:description" content="A physician's evidence-based framework for extending healthspan." />
-
-                {/* Schema.org Structured Data */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "MedicalWebPage",
-                        "headline": "The 5 Pillars of Longevity Medicine: A Physician's Framework",
-                        "description": "Evidence-based framework for extending healthspan through nutritional biochemistry, exercise physiology, sleep optimization, stress resilience, and targeted supplementation.",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Dr. Gavin McAuley",
-                            "jobTitle": "Physician",
-                            "description": "The Longevity Architect"
-                        },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "EMPOWERVIDA",
-                            "url": "https://empowervida.com"
-                        },
-                        "mainEntityOfPage": {
-                            "@type": "WebPage",
-                            "@id": "https://empowervida.com/longevity"
-                        },
-                        "datePublished": "2025-12-02",
-                        "dateModified": "2025-12-02",
-                        "specialty": "Longevity Medicine"
-                    })}
-                </script>
-            </Helmet>
 
             <HeroSection
                 backgroundImage="/longevity_hero_cinematic_1764666029631.png"

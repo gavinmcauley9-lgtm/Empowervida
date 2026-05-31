@@ -1,17 +1,12 @@
 "use client";
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
 
 export default function WelcomeInsider() {
     return (
         <div style={{ backgroundColor: 'var(--color-bg)', minHeight: '100vh', color: 'var(--color-text)', fontFamily: '"Inter", sans-serif' }}>
-            <Helmet>
-                <title>Welcome to the Insider Lab | EMPOWERVIDA</title>
-                <meta name="robots" content="noindex, nofollow" />
-            </Helmet>
 
             {/* HERO SECTION */}
             <HeroSection

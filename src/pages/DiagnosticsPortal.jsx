@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
@@ -10,55 +9,6 @@ import Footer from '../components/Footer';
 const DiagnosticsPortal = () => {
     return (
         <>
-            <Helmet>
-                {/* Primary Meta Tags */}
-                <title>The Diagnostics Portal: Your Biological Audit | EMPOWERVIDA</title>
-                <meta name="title" content="The Diagnostics Portal: Your Biological Audit" />
-                <meta name="description" content="Standard blood work detects disease. Our protocol defines optimisation. The Empowervida 5: Fasting Insulin, ApoB, hsCRP, Homocysteine, GGT. Independent clinical guidance for exceptional healthspan." />
-                <meta name="keywords" content="fasting insulin test, apolipoprotein b, hsCRP, homocysteine, GGT liver function, advanced blood work, longevity blood tests, metabolic health markers" />
-                <meta name="author" content="Dr. Gavin McAuley" />
-                <link rel="canonical" href="https://empowervida.com/diagnostics" />
-
-                {/* Open Graph / Facebook */}
-                <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://empowervida.com/diagnostics" />
-                <meta property="og:title" content="The Diagnostics Portal: Your Biological Audit | EMPOWERVIDA" />
-                <meta property="og:description" content="The advanced blood markers standard medicine ignores. Independent clinical guidance for optimisation, not detection." />
-                <meta property="og:site_name" content="EMPOWERVIDA" />
-
-                {/* Twitter */}
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://empowervida.com/diagnostics" />
-                <meta property="twitter:title" content="The Diagnostics Portal: Your Biological Audit" />
-                <meta property="twitter:description" content="Standard blood work detects disease. Our protocol defines optimisation." />
-
-                {/* Schema.org Structured Data */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "MedicalWebPage",
-                        "headline": "The Diagnostics Portal: Your Biological Audit",
-                        "description": "Independent clinical guidance for advanced blood markers that define metabolic optimisation",
-                        "author": {
-                            "@type": "Person",
-                            "@id": "https://empowervida.com/about#gavin",
-                            "name": "Dr. Gavin McAuley",
-                            "jobTitle": "Physician",
-                            "description": "Former Emergency Medicine Physician, Longevity Architect"
-                        },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "EMPOWERVIDA",
-                            "url": "https://empowervida.com"
-                        },
-                        "mainEntityOfPage": {
-                            "@type": "WebPage",
-                            "@id": "https://empowervida.com/diagnostics"
-                        },
-                        "specialty": "Longevity Medicine"
-                    })}
-                </script>
-            </Helmet>
 
             <HeroSection
                 backgroundImage="/diagnostics_hero.jpg"
