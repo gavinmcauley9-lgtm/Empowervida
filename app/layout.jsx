@@ -1,6 +1,7 @@
 import React from 'react';
 import Script from 'next/script';
 import { Inter, Manrope } from 'next/font/google';
+import Footer from '../src/components/Footer';
 import '../src/index.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
@@ -39,7 +40,10 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#008080" />
       </head>
       <body>
-        <div id="root">{children}</div>
+        <div id="root">
+          {children}
+          <Footer />
+        </div>
         
         {/* Google Analytics - Optimized with Next.js Script */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-KT0YQ12H33" strategy="afterInteractive" />

@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
 import RelatedPosts from '../components/RelatedPosts';
 
 const LongevityGuide = () => {

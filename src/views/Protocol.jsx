@@ -4,7 +4,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
 import FAQSection from '../components/FAQSection';
 
 const Protocol = () => {
@@ -1015,7 +1014,7 @@ const Protocol = () => {
                 </Link>
             </section>
 
-            <Footer />
+            
         </div>
     );
 };

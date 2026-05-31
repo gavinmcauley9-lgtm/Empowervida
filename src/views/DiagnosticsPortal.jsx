@@ -4,7 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
 
 const DiagnosticsPortal = () => {
     return (
@@ -555,7 +554,7 @@ const DiagnosticsPortal = () => {
                 </div>
             </section>
 
-            <Footer />
+            
         </>
     );
 };

@@ -4,7 +4,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import SafetyAccordion from '../components/SafetyAccordion';
 
