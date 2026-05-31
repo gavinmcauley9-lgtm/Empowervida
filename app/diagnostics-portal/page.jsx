@@ -1,5 +1,5 @@
 import React from 'react';
-import DiagnosticsPortal from '../../../src/pages/DiagnosticsPortal';
+import DiagnosticsPortal from '../../src/pages/DiagnosticsPortal';
 
 export const metadata = {
   title: 'Longevity Diagnostics Portal | EMPOWERVIDA',

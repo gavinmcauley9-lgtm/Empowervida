@@ -1,5 +1,5 @@
 import React from 'react';
-import Diagnostics from '../../../src/pages/Diagnostics';
+import Diagnostics from '../../src/pages/Diagnostics';
 
 export const metadata = {
   title: 'Longevity Biomarker Testing & Diagnostics | EMPOWERVIDA',

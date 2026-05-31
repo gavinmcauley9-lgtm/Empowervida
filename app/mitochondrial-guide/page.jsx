@@ -1,5 +1,5 @@
 import React from 'react';
-import MitochondrialGuide from '../../../src/pages/MitochondrialGuide';
+import MitochondrialGuide from '../../src/pages/MitochondrialGuide';
 
 export const metadata = {
   title: 'The Complete Mitochondrial Health Guide | EMPOWERVIDA',

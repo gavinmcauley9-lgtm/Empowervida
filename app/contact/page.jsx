@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from '../../../src/pages/Contact';
+import Contact from '../../src/pages/Contact';
 
 export const metadata = {
   title: 'Contact Dr. Gavin McAuley | EMPOWERVIDA',

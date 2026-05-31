@@ -1,5 +1,5 @@
 import React from 'react';
-import EmpowerProtocol from '../../../src/pages/EmpowerProtocol';
+import EmpowerProtocol from '../../src/pages/EmpowerProtocol';
 
 export const metadata = {
   title: 'The EmpowerVida Protocol — Your Clinical Longevity Framework | EMPOWERVIDA',

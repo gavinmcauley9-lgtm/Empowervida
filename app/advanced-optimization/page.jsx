@@ -1,5 +1,5 @@
 import React from 'react';
-import AdvancedOptimization from '../../../src/pages/AdvancedOptimization';
+import AdvancedOptimization from '../../src/pages/AdvancedOptimization';
 
 export const metadata = {
   title: 'Advanced Longevity Optimization Protocols | EMPOWERVIDA',

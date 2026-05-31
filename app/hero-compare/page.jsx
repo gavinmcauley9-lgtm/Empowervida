@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroCompare from '../../../src/pages/HeroCompare';
+import HeroCompare from '../../src/pages/HeroCompare';
 
 export const metadata = {
   title: 'Why EmpowerVida — The Difference That Matters | EMPOWERVIDA',

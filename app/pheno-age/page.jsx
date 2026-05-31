@@ -1,5 +1,5 @@
 import React from 'react';
-import PhenoAge from '../../../src/pages/PhenoAge';
+import PhenoAge from '../../src/pages/PhenoAge';
 
 export const metadata = {
   title: 'PhenoAge — Measuring Your Biological Age | EMPOWERVIDA',

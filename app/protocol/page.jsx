@@ -1,5 +1,5 @@
 import React from 'react';
-import Protocol from '../../../src/pages/Protocol';
+import Protocol from '../../src/pages/Protocol';
 
 export const metadata = {
   title: 'The 7 Master Longevity Protocols — Clinical Supplement Stacks | EMPOWERVIDA',

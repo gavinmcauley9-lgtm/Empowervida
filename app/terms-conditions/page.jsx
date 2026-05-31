@@ -1,5 +1,5 @@
 import React from 'react';
-import TermsConditions from '../../../src/pages/TermsConditions';
+import TermsConditions from '../../src/pages/TermsConditions';
 
 export const metadata = {
   title: 'Terms & Conditions | EMPOWERVIDA',

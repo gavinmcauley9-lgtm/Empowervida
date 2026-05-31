@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomeInsider from '../../../src/pages/WelcomeInsider';
+import WelcomeInsider from '../../src/pages/WelcomeInsider';
 
 export const metadata = {
   title: 'Welcome, Insider — Your Clinical Longevity Resource | EMPOWERVIDA',

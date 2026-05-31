@@ -1,5 +1,5 @@
 import React from 'react';
-import EngineRoom from '../../../src/pages/EngineRoom';
+import EngineRoom from '../../src/pages/EngineRoom';
 
 export const metadata = {
   title: 'The Engine Room — Mitochondrial & Metabolic Deep Dive | EMPOWERVIDA',

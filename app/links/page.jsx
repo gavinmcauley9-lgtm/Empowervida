@@ -1,5 +1,5 @@
 import React from 'react';
-import Links from '../../../src/pages/Links';
+import Links from '../../src/pages/Links';
 
 export const metadata = {
   title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',
