@@ -70,7 +70,7 @@ const Footer = () => {
                         </a>
 
                         {/* LinkedIn */}
-                        <a href="https://www.linkedin.com/in/gavin-mcauley-62147151/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{
+                        <a href="https://www.linkedin.com/in/drgavinmcauley/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{
                             color: 'var(--color-text-muted)',
                             transition: 'color 0.2s ease',
                             display: 'flex',
