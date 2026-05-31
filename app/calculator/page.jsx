@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from '../../src/pages/Calculator';
+import Calculator from '../../src/views/Calculator';
 
 export const metadata = {
   title: 'Biological Age & Longevity Calculator | EMPOWERVIDA',

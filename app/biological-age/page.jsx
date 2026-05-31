@@ -1,5 +1,5 @@
 import React from 'react';
-import PhenoAge from '../../src/pages/PhenoAge';
+import PhenoAge from '../../src/views/PhenoAge';
 
 export const metadata = {
   title: 'Biological Age Calculator — How Old Are Your Cells? | EMPOWERVIDA',

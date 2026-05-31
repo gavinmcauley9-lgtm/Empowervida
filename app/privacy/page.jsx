@@ -1,5 +1,5 @@
 import React from 'react';
-import Privacy from '../../src/pages/Privacy';
+import Privacy from '../../src/views/Privacy';
 
 export const metadata = {
   title: 'Privacy Policy | EMPOWERVIDA',

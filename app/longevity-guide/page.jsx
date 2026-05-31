@@ -1,5 +1,5 @@
 import React from 'react';
-import LongevityGuide from '../../src/pages/LongevityGuide';
+import LongevityGuide from '../../src/views/LongevityGuide';
 
 export const metadata = {
   title: 'The Complete Guide to Longevity Medicine | EMPOWERVIDA',

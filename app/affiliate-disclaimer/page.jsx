@@ -1,5 +1,5 @@
 import React from 'react';
-import AffiliateDisclaimer from '../../src/pages/AffiliateDisclaimer';
+import AffiliateDisclaimer from '../../src/views/AffiliateDisclaimer';
 
 export const metadata = {
   title: 'Affiliate Disclaimer | EMPOWERVIDA',

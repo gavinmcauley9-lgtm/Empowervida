@@ -1,5 +1,5 @@
 import React from 'react';
-import ThankYou from '../../src/pages/ThankYou';
+import ThankYou from '../../src/views/ThankYou';
 
 export const metadata = {
   title: 'Thank You — Welcome to EmpowerVida | EMPOWERVIDA',

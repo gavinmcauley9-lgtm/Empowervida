@@ -1,5 +1,5 @@
 import React from 'react';
-import InsulinStory from '../../src/pages/InsulinStory';
+import InsulinStory from '../../src/views/InsulinStory';
 
 export const metadata = {
   title: 'The Insulin Resistance Story — Metabolic Health Explained | EMPOWERVIDA',

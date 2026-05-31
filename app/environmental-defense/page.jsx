@@ -1,5 +1,5 @@
 import React from 'react';
-import EnvironmentalDefense from '../../src/pages/EnvironmentalDefense';
+import EnvironmentalDefense from '../../src/views/EnvironmentalDefense';
 
 export const metadata = {
   title: 'Environmental Defense — Detox & Cellular Protection | EMPOWERVIDA',

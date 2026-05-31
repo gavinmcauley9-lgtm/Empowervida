@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPostRedirect from '../../src/pages/BlogPostRedirect';
+import BlogPostRedirect from '../../src/views/BlogPostRedirect';
 
 export const metadata = {
   title: 'Clinical Insights — Article Redirect | EMPOWERVIDA',

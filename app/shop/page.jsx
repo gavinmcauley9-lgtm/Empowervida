@@ -1,5 +1,5 @@
 import React from 'react';
-import Shop from '../../src/pages/Shop';
+import Shop from '../../src/views/Shop';
 
 export const metadata = {
   title: 'Clinical Supplement Shop — Longevity Stacks | EMPOWERVIDA',
