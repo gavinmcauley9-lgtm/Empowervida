@@ -40,7 +40,7 @@ jobs:
             git checkout -b build-debug
             git add build-output.log
             git commit -m "chore: save build error log"
-            git push origin build-debug --force
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/gavinmcauley9-lgtm/Empowervida.git build-debug --force
             exit 1
           )
           cp dist/index.html dist/404.html
