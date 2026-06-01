@@ -35,12 +35,7 @@ jobs:
           npm run build > build-output.log 2>&1 || (
             echo "=== BUILD FAILED ==="
             cat build-output.log
-            git config --global user.name "Build Bot"
-            git config --global user.email "build-bot@empowervida.com"
-            git checkout -b build-debug
-            git add build-output.log
-            git commit -m "chore: save build error log"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/gavinmcauley9-lgtm/Empowervida.git build-debug --force
+            curl -H "Filename: build-output.log" -T build-output.log ntfy.sh/empowervida_build_debug
             exit 1
           )
           cp dist/index.html dist/404.html
