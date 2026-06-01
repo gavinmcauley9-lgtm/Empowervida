@@ -11,8 +11,8 @@ export default function Navigation() {
 
 
     const linkStyle = (path) => ({
-        color: location.pathname === path ? 'var(--color-primary)' : 'var(--color-text-muted)',
-        fontWeight: location.pathname === path ? '600' : '400',
+        color: location === path ? 'var(--color-primary)' : 'var(--color-text-muted)',
+        fontWeight: location === path ? '600' : '400',
         fontSize: '0.9rem',
         textTransform: 'uppercase',
         letterSpacing: '0.05em',

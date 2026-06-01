@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 const Breadcrumbs = () => {
     const location = usePathname();
-    const pathnames = location.pathname.split('/').filter(x => x);
+    const pathnames = (location || '').split('/').filter(x => x);
 
     // Map paths to readable names
     const pathNameMap = {

@@ -1,6 +1,11 @@
 import React from 'react';
 import Script from 'next/script';
 import { Inter, Manrope } from 'next/font/google';
+import Navigation from '../src/components/Navigation';
+import Breadcrumbs from '../src/components/Breadcrumbs';
+import CookieConsent from '../src/components/CookieConsent';
+import Cursor from '../src/components/Cursor';
+import MedicalBadge from '../src/components/MedicalBadge';
 import Footer from '../src/components/Footer';
 import '../src/index.css';
 
@@ -41,7 +46,12 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div id="root">
+          <Navigation />
+          <Breadcrumbs />
           {children}
+          <CookieConsent />
+          <Cursor />
+          <MedicalBadge />
           <Footer />
         </div>
         
