@@ -100,6 +100,7 @@ const Footer = () => {
                         </a>
 
                 </div>
+            </div>
 
                 {/* Column 2: Quick Links */}
                 <div>
