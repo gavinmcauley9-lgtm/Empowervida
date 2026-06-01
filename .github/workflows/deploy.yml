@@ -32,20 +32,8 @@ jobs:
       
       - name: Build
         run: |
-          npm run build > build-output.log 2>&1 || (
-            echo "=== BUILD FAILED ==="
-            cat build-output.log
-            curl -H "Filename: build-output.log" -T build-output.log ntfy.sh/empowervida_build_debug
-            exit 1
-          )
+          npm run build
           cp dist/index.html dist/404.html
-      
-      - name: Upload Build Log
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-log
-          path: build-output.log
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
