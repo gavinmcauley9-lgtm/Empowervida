@@ -183,7 +183,7 @@ export default async function BlogPostPage({ params }) {
             <div style={{ display: 'flex', gap: '1rem', marginTop: '0.4rem', fontSize: '0.8rem', color: 'var(--color-text-muted)', flexWrap: 'wrap' }}>
               <span>📅 Published: {new Date(post.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
               <a href="/about" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '600' }}>
-                View full credentials →
+                Meet Dr. Gavin →
               </a>
             </div>
           </div>
