@@ -45,6 +45,13 @@ jobs:
           )
           cp dist/index.html dist/404.html
       
+      - name: Upload Build Log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build-output.log
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
