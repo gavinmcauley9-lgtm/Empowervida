@@ -5,7 +5,7 @@ export const metadata = {
   title: 'The Engine Room — Mitochondrial & Metabolic Deep Dive | EMPOWERVIDA',
   description: "Go deep on the science of cellular energy. A physician's guide to mitochondrial function, ATP synthesis, and metabolic resilience.",
   alternates: {
-    canonical: 'https://empowervida.com/engine-room',
+    canonical: 'https://empowervida.com/engine-room/',
   },
   openGraph: {
     title: 'The Engine Room — Mitochondrial & Metabolic Deep Dive | EMPOWERVIDA',

@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Biological Age Calculator — How Old Are Your Cells? | EMPOWERVIDA',
   description: 'Calculate your biological age and understand what it means for your longevity. Dr. Gavin McAuley explains epigenetic age clocks and how to turn back the cellular clock.',
   alternates: {
-    canonical: 'https://empowervida.com/biological-age',
+    canonical: 'https://empowervida.com/biological-age/',
   },
   openGraph: {
     title: 'Biological Age Calculator — How Old Are Your Cells? | EMPOWERVIDA',

@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Advanced Longevity Optimization Protocols | EMPOWERVIDA',
   description: 'Advanced cellular optimization strategies for high-performers. Go beyond foundational supplements with precision longevity interventions.',
   alternates: {
-    canonical: 'https://empowervida.com/advanced-optimization',
+    canonical: 'https://empowervida.com/advanced-optimization/',
   },
   openGraph: {
     title: 'Advanced Longevity Optimization Protocols | EMPOWERVIDA',

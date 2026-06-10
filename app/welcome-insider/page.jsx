@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Welcome, Insider — Your Clinical Longevity Resource | EMPOWERVIDA',
   description: 'Welcome to the EmpowerVida insider programme. Access exclusive physician-curated longevity protocols and clinical insights.',
   alternates: {
-    canonical: 'https://empowervida.com/welcome-insider',
+    canonical: 'https://empowervida.com/welcome-insider/',
   },
   openGraph: {
     title: 'Welcome, Insider — Your Clinical Longevity Resource | EMPOWERVIDA',

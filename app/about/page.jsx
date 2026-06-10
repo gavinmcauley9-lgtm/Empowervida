@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Meet Dr. Gavin McAuley — a physician specialising in evidence-based longevity medicine and metabolic health education.',
   keywords: 'dr gavin mcauley, longevity doctor, longevity medicine, metabolic health, evidence-based wellness',
   alternates: {
-    canonical: 'https://empowervida.com/about',
+    canonical: 'https://empowervida.com/about/',
   },
   openGraph: {
     title: 'About Dr. Gavin | Physician & Longevity Educator | EMPOWERVIDA',

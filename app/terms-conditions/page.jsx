@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Terms & Conditions | EMPOWERVIDA',
   description: "EmpowerVida's terms and conditions of use. Educational content disclaimer and site usage policy.",
   alternates: {
-    canonical: 'https://empowervida.com/terms-conditions',
+    canonical: 'https://empowervida.com/terms-conditions/',
   },
   openGraph: {
     title: 'Terms & Conditions | EMPOWERVIDA',

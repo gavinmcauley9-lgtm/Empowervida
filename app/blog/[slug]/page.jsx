@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     title: `${post.title} | EMPOWERVIDA Clinical Insights`,
     description: post.excerpt,
     alternates: {
-      canonical: `https://empowervida.com/blog/${slug}`,
+      canonical: `https://empowervida.com/blog/${slug}/`,
     },
     openGraph: {
       title: post.title,

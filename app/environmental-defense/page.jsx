@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Environmental Defense — Detox & Cellular Protection | EMPOWERVIDA',
   description: 'Protect your cells from environmental toxins, heavy metals, and oxidative stress. Physician-designed detox and defence protocols.',
   alternates: {
-    canonical: 'https://empowervida.com/environmental-defense',
+    canonical: 'https://empowervida.com/environmental-defense/',
   },
   openGraph: {
     title: 'Environmental Defense — Detox & Cellular Protection | EMPOWERVIDA',

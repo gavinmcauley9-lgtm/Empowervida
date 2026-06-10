@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Clinical Insights — Article Redirect | EMPOWERVIDA',
   description: 'You are being redirected to a clinical insights article on EmpowerVida.',
   alternates: {
-    canonical: 'https://empowervida.com/blog-post-redirect',
+    canonical: 'https://empowervida.com/blog-post-redirect/',
   },
   openGraph: {
     title: 'Clinical Insights — Article Redirect | EMPOWERVIDA',

@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Physician-designed supplement protocols for longevity, brain fog, energy, gut health, sleep & metabolic health. Evidence-based stacks with exact clinical dosing by Dr. Gavin McAuley.',
   keywords: 'longevity supplement protocol, brain fog supplements, gut health protocol, sleep supplements, metabolic health, mitochondrial support, NAD+ protocol',
   alternates: {
-    canonical: 'https://empowervida.com/protocol',
+    canonical: 'https://empowervida.com/protocol/',
   },
   openGraph: {
     title: 'The 7 Master Longevity Protocols — Clinical Supplement Stacks | EMPOWERVIDA',

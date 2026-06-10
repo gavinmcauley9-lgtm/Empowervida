@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',
   description: 'All links for Dr. Gavin McAuley: EmpowerVida protocols, Substack newsletter, social media, and clinical longevity resources.',
   alternates: {
-    canonical: 'https://empowervida.com/links',
+    canonical: 'https://empowervida.com/links/',
   },
   openGraph: {
     title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',

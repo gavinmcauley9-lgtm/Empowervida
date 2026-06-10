@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Privacy Policy | EMPOWERVIDA',
   description: "EmpowerVida's privacy policy. How we collect, use, and protect your personal information in compliance with data protection regulations.",
   alternates: {
-    canonical: 'https://empowervida.com/privacy',
+    canonical: 'https://empowervida.com/privacy/',
   },
   openGraph: {
     title: 'Privacy Policy | EMPOWERVIDA',

@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Thank You — Welcome to EmpowerVida | EMPOWERVIDA',
   description: 'Thank you for joining the EmpowerVida community. Your longevity education journey starts here.',
   alternates: {
-    canonical: 'https://empowervida.com/thank-you',
+    canonical: 'https://empowervida.com/thank-you/',
   },
   openGraph: {
     title: 'Thank You — Welcome to EmpowerVida | EMPOWERVIDA',

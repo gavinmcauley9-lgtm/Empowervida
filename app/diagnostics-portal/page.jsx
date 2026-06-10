@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Longevity Diagnostics Portal | EMPOWERVIDA',
   description: 'Access your personalised longevity diagnostics and biomarker tracking. Monitor the metrics that matter for long-term cellular health.',
   alternates: {
-    canonical: 'https://empowervida.com/diagnostics-portal',
+    canonical: 'https://empowervida.com/diagnostics-portal/',
   },
   openGraph: {
     title: 'Longevity Diagnostics Portal | EMPOWERVIDA',

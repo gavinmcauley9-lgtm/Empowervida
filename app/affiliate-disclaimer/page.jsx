@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Affiliate Disclaimer | EMPOWERVIDA',
   description: "EmpowerVida's affiliate and commission disclosure. We only recommend products we genuinely use and trust.",
   alternates: {
-    canonical: 'https://empowervida.com/affiliate-disclaimer',
+    canonical: 'https://empowervida.com/affiliate-disclaimer/',
   },
   openGraph: {
     title: 'Affiliate Disclaimer | EMPOWERVIDA',

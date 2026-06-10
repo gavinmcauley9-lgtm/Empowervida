@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Contact Dr. Gavin McAuley | EMPOWERVIDA',
   description: 'Get in touch with the EmpowerVida team. Contact Dr. Gavin McAuley for educational enquiries, partnerships, or media requests.',
   alternates: {
-    canonical: 'https://empowervida.com/contact',
+    canonical: 'https://empowervida.com/contact/',
   },
   openGraph: {
     title: 'Contact Dr. Gavin McAuley | EMPOWERVIDA',

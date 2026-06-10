@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Biological Age & Longevity Calculator | EMPOWERVIDA',
   description: 'Estimate your true biological age based on lifestyle factors and health markers. A physician-designed tool for longevity self-assessment.',
   alternates: {
-    canonical: 'https://empowervida.com/calculator',
+    canonical: 'https://empowervida.com/calculator/',
   },
   openGraph: {
     title: 'Biological Age & Longevity Calculator | EMPOWERVIDA',

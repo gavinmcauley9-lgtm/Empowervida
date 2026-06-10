@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Why EmpowerVida — The Difference That Matters | EMPOWERVIDA',
   description: "See how EmpowerVida's physician-designed protocols compare to generic supplement advice. Evidence over marketing.",
   alternates: {
-    canonical: 'https://empowervida.com/hero-compare',
+    canonical: 'https://empowervida.com/hero-compare/',
   },
   openGraph: {
     title: 'Why EmpowerVida — The Difference That Matters | EMPOWERVIDA',
