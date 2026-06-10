@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Biological Age & Longevity Calculator | EMPOWERVIDA',
     description: 'Estimate your true biological age based on lifestyle factors and health markers. A physician-designed tool for longevity self-assessment.',
-    url: 'https://empowervida.com/calculator',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/calculator/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

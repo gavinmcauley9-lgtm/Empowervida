@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'PhenoAge — Measuring Your Biological Age | EMPOWERVIDA',
     description: 'Understand the PhenoAge algorithm and what your biological age means for longevity. A physician explains the science behind epigenetic age clocks.',
-    url: 'https://empowervida.com/pheno-age',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/pheno-age/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

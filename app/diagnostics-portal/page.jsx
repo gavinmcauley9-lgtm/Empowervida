@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Longevity Diagnostics Portal | EMPOWERVIDA',
     description: 'Access your personalised longevity diagnostics and biomarker tracking. Monitor the metrics that matter for long-term cellular health.',
-    url: 'https://empowervida.com/diagnostics-portal',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/diagnostics-portal/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

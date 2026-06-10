@@ -11,8 +11,8 @@ export const metadata = {
   openGraph: {
     title: 'The 7 Master Longevity Protocols — Clinical Supplement Stacks | EMPOWERVIDA',
     description: 'Physician-designed supplement protocols for longevity, brain fog, energy, gut health, sleep & metabolic health.',
-    url: 'https://empowervida.com/protocol',
-    images: [{ url: 'https://empowervida.com/protocol_hero_fire_v2.jpg', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/protocol/',
+    images: [{ url: 'https://empowervida.com/protocol_hero_fire_v2.jpg/', width: 1200, height: 630 }],
   },
 };
 

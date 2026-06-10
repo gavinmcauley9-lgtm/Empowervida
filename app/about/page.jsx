@@ -12,10 +12,10 @@ export const metadata = {
   openGraph: {
     title: 'About Dr. Gavin | Physician & Longevity Educator | EMPOWERVIDA',
     description: 'Meet Dr. Gavin McAuley — a physician specialising in evidence-based longevity medicine and metabolic health education.',
-    url: 'https://empowervida.com/about',
+    url: 'https://empowervida.com/about/',
     images: [
       {
-        url: 'https://empowervida.com/dr-gavin-mcauley.jpg',
+        url: 'https://empowervida.com/dr-gavin-mcauley.jpg/',
         width: 1200,
         height: 630,
         alt: 'Dr. Gavin McAuley — Longevity Physician and founder of EmpowerVida',

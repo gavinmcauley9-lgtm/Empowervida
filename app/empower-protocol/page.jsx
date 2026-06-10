@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'The EmpowerVida Protocol — Your Clinical Longevity Framework | EMPOWERVIDA',
     description: 'The complete EmpowerVida longevity framework. A physician-designed system for cellular resilience, metabolic health, and long-term vitality.',
-    url: 'https://empowervida.com/empower-protocol',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/empower-protocol/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

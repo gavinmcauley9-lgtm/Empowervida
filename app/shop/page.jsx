@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Clinical Supplement Shop — Longevity Stacks | EMPOWERVIDA',
     description: 'Physician-curated supplement stacks for longevity, brain health, metabolic optimization, and cellular energy. Recommended by Dr. Gavin McAuley.',
-    url: 'https://empowervida.com/shop',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/shop/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

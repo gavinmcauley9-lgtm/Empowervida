@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Advanced Longevity Optimization Protocols | EMPOWERVIDA',
     description: 'Advanced cellular optimization strategies for high-performers. Go beyond foundational supplements with precision longevity interventions.',
-    url: 'https://empowervida.com/advanced-optimization',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/advanced-optimization/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

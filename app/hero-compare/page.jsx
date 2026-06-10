@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Why EmpowerVida — The Difference That Matters | EMPOWERVIDA',
     description: "See how EmpowerVida's physician-designed protocols compare to generic supplement advice. Evidence over marketing.",
-    url: 'https://empowervida.com/hero-compare',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/hero-compare/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

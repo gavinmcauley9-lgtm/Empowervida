@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'The Insulin Resistance Story — Metabolic Health Explained | EMPOWERVIDA',
     description: 'How insulin resistance silently develops, why it accelerates ageing, and the clinical strategies that reverse metabolic dysfunction.',
-    url: 'https://empowervida.com/insulin-story',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/insulin-story/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

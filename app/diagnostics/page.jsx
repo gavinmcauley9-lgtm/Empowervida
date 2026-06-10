@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Longevity Biomarker Testing & Diagnostics | EMPOWERVIDA',
     description: 'Understand your metabolic and cellular health with evidence-based biomarker testing. Dr. Gavin McAuley explains which labs actually matter for longevity.',
-    url: 'https://empowervida.com/diagnostics',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/diagnostics/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Biological Age Calculator — How Old Are Your Cells? | EMPOWERVIDA',
     description: 'Calculate your biological age. Dr. Gavin McAuley explains epigenetic age clocks and how to turn back the cellular clock.',
-    url: 'https://empowervida.com/biological-age',
-    images: [{ url: 'https://empowervida.com/biological_clock_reverse.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/biological-age/',
+    images: [{ url: 'https://empowervida.com/biological_clock_reverse.png/', width: 1200, height: 630 }],
   },
 };
 

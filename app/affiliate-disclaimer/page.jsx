@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Affiliate Disclaimer | EMPOWERVIDA',
     description: "EmpowerVida's affiliate and commission disclosure. We only recommend products we genuinely use and trust.",
-    url: 'https://empowervida.com/affiliate-disclaimer',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/affiliate-disclaimer/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

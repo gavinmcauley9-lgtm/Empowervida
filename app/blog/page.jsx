@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Clinical Insights & Longevity Protocols | EMPOWERVIDA',
     description: 'Evidence-based articles on metabolic health, mitochondrial efficiency, and cognitive optimization by Dr. Gavin McAuley.',
-    url: 'https://empowervida.com/blog',
+    url: 'https://empowervida.com/blog/',
     images: [{ url: 'https://empowervida.com/water_refraction.png' }],
   },
 };

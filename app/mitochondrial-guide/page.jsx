@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'The Complete Mitochondrial Health Guide | EMPOWERVIDA',
     description: 'Everything you need to know about mitochondria: how they work, why they fail with age, and the evidence-based interventions that restore cellular energy.',
-    url: 'https://empowervida.com/mitochondrial-guide',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/mitochondrial-guide/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

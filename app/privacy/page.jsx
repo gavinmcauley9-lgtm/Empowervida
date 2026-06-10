@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Privacy Policy | EMPOWERVIDA',
     description: "EmpowerVida's privacy policy. How we collect, use, and protect your personal information in compliance with data protection regulations.",
-    url: 'https://empowervida.com/privacy',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/privacy/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

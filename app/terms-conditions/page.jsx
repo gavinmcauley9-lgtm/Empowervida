@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Terms & Conditions | EMPOWERVIDA',
     description: "EmpowerVida's terms and conditions of use. Educational content disclaimer and site usage policy.",
-    url: 'https://empowervida.com/terms-conditions',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/terms-conditions/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

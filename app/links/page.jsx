@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Dr. Gavin McAuley — Links & Resources | EMPOWERVIDA',
     description: 'All links for Dr. Gavin McAuley: EmpowerVida protocols, Substack newsletter, social media, and clinical longevity resources.',
-    url: 'https://empowervida.com/links',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/links/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

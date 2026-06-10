@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: 'Welcome, Insider — Your Clinical Longevity Resource | EMPOWERVIDA',
     description: 'Welcome to the EmpowerVida insider programme. Access exclusive physician-curated longevity protocols and clinical insights.',
-    url: 'https://empowervida.com/welcome-insider',
-    images: [{ url: 'https://empowervida.com/water_refraction.png', width: 1200, height: 630 }],
+    url: 'https://empowervida.com/welcome-insider/',
+    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
   },
 };
 

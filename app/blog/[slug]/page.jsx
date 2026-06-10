@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://empowervida.com/blog/${slug}`,
+      url: `https://empowervida.com/blog/${slug}/`,
       type: 'article',
       publishedTime: post.date,
       images: [
