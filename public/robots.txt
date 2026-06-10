@@ -4,6 +4,10 @@
 User-agent: *
 Allow: /
 
+# Block compiled JS/CSS bundles from being crawled (wastes crawl budget)
+Disallow: /assets/
+Disallow: /_next/static/
+
 # Prevent indexing of utility/internal pages that shouldn't rank
 Disallow: /thank-you/
 Disallow: /welcome-insider/
