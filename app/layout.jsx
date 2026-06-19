@@ -43,6 +43,15 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="theme-color" content="#008080" />
+        {/* Noscript fallback: ensure content is visible if JS fails to load */}
+        <noscript>
+          <style>{`
+            [style*="opacity: 0"], [style*="opacity:0"] {
+              opacity: 1 !important;
+              transform: none !important;
+            }
+          `}</style>
+        </noscript>
       </head>
       <body>
         <div id="root">
@@ -55,6 +64,9 @@ export default function RootLayout({ children }) {
           <Footer />
         </div>
         
+        {/* Kit (ConvertKit) — required for inline email capture form */}
+        <Script src="https://f.convertkit.com/ckjs/ck.5.js" strategy="afterInteractive" />
+
         {/* Google Analytics - Optimized with Next.js Script */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-KT0YQ12H33" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -64,6 +76,8 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             gtag('config', 'G-KT0YQ12H33', {
               page_path: window.location.pathname,
+              anonymize_ip: true,
+              cookie_flags: 'SameSite=None;Secure'
             });
           `}
         </Script>
@@ -71,3 +85,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

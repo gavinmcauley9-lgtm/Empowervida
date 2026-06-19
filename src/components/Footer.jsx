@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { trackOutboundLink } from '../utils/analytics';
 
 const Footer = () => {
     const linkStyle = {
@@ -61,6 +62,7 @@ const Footer = () => {
                             display: 'flex',
                             alignItems: 'center'
                         }}
+                            onClick={() => trackOutboundLink('https://x.com/GavinMcAuleyMD', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#000000'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
                         >
@@ -76,6 +78,7 @@ const Footer = () => {
                             display: 'flex',
                             alignItems: 'center'
                         }}
+                            onClick={() => trackOutboundLink('https://www.linkedin.com/in/drgavinmcauley/', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#0077b5'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
                         >
@@ -91,6 +94,7 @@ const Footer = () => {
                             display: 'flex',
                             alignItems: 'center'
                         }}
+                            onClick={() => trackOutboundLink('https://www.facebook.com/profile.php?id=61589172749004', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#1877F2'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
                         >
@@ -193,7 +197,7 @@ const Footer = () => {
                 alignItems: 'center',
                 gap: '0.5rem'
             }}>
-                <span>© 2025 EmpowerVida. All Rights Reserved.</span>
+                <span>© {new Date().getFullYear()} EmpowerVida. All Rights Reserved.</span>
                 <span style={{ opacity: 0.5 }}>|</span>
                 <Link
                     href="/terms"

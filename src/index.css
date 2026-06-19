@@ -551,3 +551,20 @@ canvas,
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+/* ========================================
+   ACCESSIBILITY: Reduced Motion
+   Ensures content is visible for users who
+   prefer reduced motion (and helps with
+   Framer Motion's opacity:0 initial states)
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

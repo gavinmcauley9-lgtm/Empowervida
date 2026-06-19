@@ -1,16 +1,84 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
+import { trackContactFormSubmit } from '../utils/analytics';
+
+// Formspree endpoint — free tier, no backend needed.
+// To set up: go to https://formspree.io, create a form, replace this ID.
+// Or use your Netlify form name if Netlify detects it.
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpwrwkqo';
 
 export default function Contact() {
+    const [status, setStatus] = useState('idle'); // idle | loading | success | error
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+
     const pageSchema = {
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "Contact Dr. Gavin McAuley - EMPOWERVIDA",
         "description": "Get in touch with Dr. Gavin McAuley for inquiries, collaborations, or questions about longevity protocols.",
         "url": "https://empowervida.com/contact"
+    };
+
+    const handleChange = (e) => {
+        setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (status === 'loading') return;
+
+        setStatus('loading');
+
+        try {
+            const response = await fetch(FORMSPREE_ENDPOINT, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                body: JSON.stringify({
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message,
+                    _subject: `EmpowerVida Contact: ${formData.name}`,
+                }),
+            });
+
+            if (response.ok) {
+                setStatus('success');
+                setFormData({ name: '', email: '', message: '' });
+                trackContactFormSubmit();
+            } else {
+                setStatus('error');
+            }
+        } catch (err) {
+            setStatus('error');
+        }
+    };
+
+    const inputStyle = {
+        padding: '0.8rem 1rem',
+        borderRadius: '8px',
+        border: '1px solid var(--color-border)',
+        fontSize: '1rem',
+        background: '#F8FAFC',
+        transition: 'border-color 0.3s ease, box-shadow 0.3s ease',
+        outline: 'none',
+        width: '100%',
+    };
+
+    const inputFocusHandlers = {
+        onFocus: (e) => {
+            e.target.style.borderColor = 'var(--color-accent-teal)';
+            e.target.style.boxShadow = '0 0 0 3px rgba(32, 178, 170, 0.15)';
+        },
+        onBlur: (e) => {
+            e.target.style.borderColor = 'var(--color-border)';
+            e.target.style.boxShadow = 'none';
+        },
     };
 
     return (
@@ -68,100 +136,168 @@ export default function Contact() {
                         border: '1px solid var(--color-border)'
                     }}
                 >
-                    <form 
-                        name="contact" 
-                        method="POST" 
-                        data-netlify="true" 
-                        netlify-honeypot="bot-field"
-                        style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}
-                    >
-                        <input type="hidden" name="form-name" value="contact" />
-                        <div hidden>
-                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                        </div>
-
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            <label htmlFor="name" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Name</label>
-                            <input 
-                                type="text" 
-                                id="name" 
-                                name="name" 
-                                required 
-                                style={{
-                                    padding: '0.8rem 1rem',
-                                    borderRadius: '8px',
-                                    border: '1px solid var(--color-border)',
-                                    fontSize: '1rem',
-                                    background: '#F8FAFC'
-                                }}
-                            />
-                        </div>
-
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            <label htmlFor="email" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Email Adddress</label>
-                            <input 
-                                type="email" 
-                                id="email" 
-                                name="email" 
-                                required 
-                                style={{
-                                    padding: '0.8rem 1rem',
-                                    borderRadius: '8px',
-                                    border: '1px solid var(--color-border)',
-                                    fontSize: '1rem',
-                                    background: '#F8FAFC'
-                                }}
-                            />
-                        </div>
-
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                            <label htmlFor="message" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Message</label>
-                            <textarea 
-                                id="message" 
-                                name="message" 
-                                rows="5"
-                                required 
-                                style={{
-                                    padding: '0.8rem 1rem',
-                                    borderRadius: '8px',
-                                    border: '1px solid var(--color-border)',
-                                    fontSize: '1rem',
-                                    background: '#F8FAFC',
-                                    resize: 'vertical'
-                                }}
-                            ></textarea>
-                        </div>
-
-                        <button 
-                            type="submit" 
+                    {/* SUCCESS STATE */}
+                    {status === 'success' ? (
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.4 }}
                             style={{
-                                background: 'var(--color-accent-teal)',
-                                color: '#FFFFFF',
-                                padding: '1rem',
-                                borderRadius: '8px',
-                                border: 'none',
-                                fontWeight: 700,
-                                fontSize: '1rem',
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em',
-                                cursor: 'pointer',
-                                transition: 'all 0.3s ease',
-                                marginTop: '1rem'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.background = '#1A9B8E';
-                                e.currentTarget.style.transform = 'translateY(-2px)';
-                                e.currentTarget.style.boxShadow = '0 10px 20px rgba(32, 178, 170, 0.3)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.background = 'var(--color-accent-teal)';
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = 'none';
+                                textAlign: 'center',
+                                padding: '3rem 2rem',
                             }}
                         >
-                            Send Message
-                        </button>
-                    </form>
+                            <div style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>✅</div>
+                            <h2 style={{
+                                fontSize: '1.8rem',
+                                fontWeight: 800,
+                                color: '#1A3C34',
+                                marginBottom: '1rem',
+                                fontFamily: '"Manrope", sans-serif'
+                            }}>
+                                Message Sent Successfully
+                            </h2>
+                            <p style={{
+                                fontSize: '1.1rem',
+                                color: '#4A5568',
+                                lineHeight: '1.6',
+                                maxWidth: '450px',
+                                margin: '0 auto 2rem'
+                            }}>
+                                Thank you for reaching out. Dr. Gavin will review your message and respond within 48 hours.
+                            </p>
+                            <button
+                                onClick={() => setStatus('idle')}
+                                style={{
+                                    background: 'var(--color-accent-teal)',
+                                    color: '#FFFFFF',
+                                    padding: '0.8rem 2rem',
+                                    borderRadius: '8px',
+                                    border: 'none',
+                                    fontWeight: 700,
+                                    fontSize: '0.9rem',
+                                    cursor: 'pointer',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '0.05em',
+                                }}
+                            >
+                                Send Another Message
+                            </button>
+                        </motion.div>
+                    ) : (
+                        <form 
+                            onSubmit={handleSubmit}
+                            style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}
+                        >
+                            {/* Honeypot for spam protection */}
+                            <div style={{ position: 'absolute', left: '-9999px' }} aria-hidden="true">
+                                <label>Don&apos;t fill this out if you&apos;re human: <input name="bot-field" tabIndex="-1" autoComplete="off" /></label>
+                            </div>
+
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                <label htmlFor="name" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    required 
+                                    style={inputStyle}
+                                    {...inputFocusHandlers}
+                                />
+                            </div>
+
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                <label htmlFor="email" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Email Address</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    required 
+                                    style={inputStyle}
+                                    {...inputFocusHandlers}
+                                />
+                            </div>
+
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                <label htmlFor="message" style={{ fontWeight: 600, color: 'var(--color-text)', fontSize: '0.9rem' }}>Message</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    rows="5"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    required 
+                                    style={{
+                                        ...inputStyle,
+                                        resize: 'vertical'
+                                    }}
+                                    {...inputFocusHandlers}
+                                ></textarea>
+                            </div>
+
+                            {/* Error state */}
+                            {status === 'error' && (
+                                <motion.p
+                                    initial={{ opacity: 0, y: -10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    style={{
+                                        color: '#DC2626',
+                                        fontSize: '0.9rem',
+                                        fontWeight: 600,
+                                        margin: '0',
+                                        padding: '0.75rem 1rem',
+                                        background: 'rgba(220, 38, 38, 0.08)',
+                                        borderRadius: '8px',
+                                        textAlign: 'center'
+                                    }}
+                                >
+                                    Something went wrong. Please try again or email directly at{' '}
+                                    <a href="mailto:gavin@empowervida.com" style={{ color: '#DC2626', textDecoration: 'underline' }}>
+                                        gavin@empowervida.com
+                                    </a>
+                                </motion.p>
+                            )}
+
+                            <button 
+                                type="submit"
+                                disabled={status === 'loading'}
+                                style={{
+                                    background: status === 'loading' ? '#94a3b8' : 'var(--color-accent-teal)',
+                                    color: '#FFFFFF',
+                                    padding: '1rem',
+                                    borderRadius: '8px',
+                                    border: 'none',
+                                    fontWeight: 700,
+                                    fontSize: '1rem',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '0.05em',
+                                    cursor: status === 'loading' ? 'wait' : 'pointer',
+                                    transition: 'all 0.3s ease',
+                                    marginTop: '1rem'
+                                }}
+                                onMouseEnter={(e) => {
+                                    if (status !== 'loading') {
+                                        e.currentTarget.style.background = '#1A9B8E';
+                                        e.currentTarget.style.transform = 'translateY(-2px)';
+                                        e.currentTarget.style.boxShadow = '0 10px 20px rgba(32, 178, 170, 0.3)';
+                                    }
+                                }}
+                                onMouseLeave={(e) => {
+                                    if (status !== 'loading') {
+                                        e.currentTarget.style.background = 'var(--color-accent-teal)';
+                                        e.currentTarget.style.transform = 'translateY(0)';
+                                        e.currentTarget.style.boxShadow = 'none';
+                                    }
+                                }}
+                            >
+                                {status === 'loading' ? 'Sending...' : 'Send Message'}
+                            </button>
+                        </form>
+                    )}
                 </motion.div>
             </div>
         </div>
