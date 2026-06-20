@@ -5,10 +5,9 @@ import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
 import { trackContactFormSubmit } from '../utils/analytics';
 
-// Formspree endpoint — free tier, no backend needed.
-// To set up: go to https://formspree.io, create a form, replace this ID.
-// Or use your Netlify form name if Netlify detects it.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpwrwkqo';
+// Web3Forms — free, unlimited submissions, sends full email notifications.
+const WEB3FORMS_ENDPOINT = 'https://api.web3forms.com/submit';
+const WEB3FORMS_ACCESS_KEY = '0d7ca794-804b-4975-afa0-46bfcf504135';
 
 export default function Contact() {
     const [status, setStatus] = useState('idle'); // idle | loading | success | error
@@ -33,17 +32,19 @@ export default function Contact() {
         setStatus('loading');
 
         try {
-            const response = await fetch(FORMSPREE_ENDPOINT, {
+            const response = await fetch(WEB3FORMS_ENDPOINT, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json',
                 },
                 body: JSON.stringify({
+                    access_key: WEB3FORMS_ACCESS_KEY,
                     name: formData.name,
                     email: formData.email,
                     message: formData.message,
-                    _subject: `EmpowerVida Contact: ${formData.name}`,
+                    subject: `EmpowerVida Contact: ${formData.name}`,
+                    from_name: 'EmpowerVida Contact Form',
                 }),
             });
 
