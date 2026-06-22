@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { trackNewsletterSignup } from '../utils/analytics';
 
-const KIT_FORM_UID = '0fe46035f0';
+const KIT_FORM_UID = '0a0c3d4c2b';
 const KIT_FORM_ACTION = `https://app.kit.com/forms/${KIT_FORM_UID}/subscriptions`;
 
 const EmailCapture = ({ variant = 'default' }) => {
