@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { trackNewsletterSignup, trackOutboundLink } from '../utils/analytics';
 
-const KIT_FORM_ID = '0fe46035f0';
-const KIT_FORM_ACTION = `https://app.kit.com/forms/${KIT_FORM_ID}/subscriptions`;
+const KIT_FORM_UID = '0fe46035f0';
+const KIT_FORM_ACTION = `https://app.kit.com/forms/${KIT_FORM_UID}/subscriptions`;
 
 const EmailCapture = ({ variant = 'default' }) => {
     const [email, setEmail] = useState('');
-    const [status, setStatus] = useState('idle'); // idle | loading | success | error
+    const [status, setStatus] = useState('idle'); // idle | success
 
     const containerStyles = {
         default: {
@@ -35,43 +35,18 @@ const EmailCapture = ({ variant = 'default' }) => {
         }
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        if (!email || status === 'loading') return;
+    // Listen for Kit's successful subscription event
+    useEffect(() => {
+        const handleKitSuccess = () => {
+            setStatus('success');
+            setEmail('');
+            trackNewsletterSignup('inline_form');
+        };
 
-        setStatus('loading');
-
-        try {
-            const formData = new FormData();
-            formData.append('email_address', email);
-
-            const response = await fetch(KIT_FORM_ACTION, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json',
-                },
-            });
-
-            if (response.ok || response.status === 200 || response.status === 302) {
-                setStatus('success');
-                setEmail('');
-                trackNewsletterSignup('inline_form');
-            } else {
-                setStatus('error');
-            }
-        } catch (err) {
-            // Kit often returns opaque responses due to CORS on form endpoints.
-            // If we get a TypeError (network/CORS), the submission likely succeeded.
-            // Fall back to direct form submission approach.
-            setStatus('error');
-        }
-    };
-
-    // Fallback: If JS fetch fails due to CORS, use native form submission
-    const handleFallbackSubmit = () => {
-        trackNewsletterSignup('inline_form_fallback');
-    };
+        // Kit fires a custom event on successful submission
+        window.addEventListener('ck:form:submit:success', handleKitSuccess);
+        return () => window.removeEventListener('ck:form:submit:success', handleKitSuccess);
+    }, []);
 
     return (
         <motion.div
@@ -133,14 +108,14 @@ const EmailCapture = ({ variant = 'default' }) => {
                         border: '2px solid rgba(32, 178, 170, 0.3)',
                     }}
                 >
-                    <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
+                    <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>&#x2705;</div>
                     <h3 style={{
                         fontSize: '1.5rem',
                         fontWeight: 800,
                         color: '#1A3C34',
                         marginBottom: '0.75rem'
                     }}>
-                        You're In — Check Your Inbox
+                        You're In &mdash; Check Your Inbox
                     </h3>
                     <p style={{
                         fontSize: '1.05rem',
@@ -149,15 +124,19 @@ const EmailCapture = ({ variant = 'default' }) => {
                         maxWidth: '500px',
                         margin: '0 auto'
                     }}>
-                        Your first protocol email is on its way. Look for an email from Dr. Gavin McAuley — check spam if you don't see it within 5 minutes.
+                        Your first protocol email is on its way. Look for an email from Dr. Gavin McAuley. Check spam if you don't see it within 5 minutes.
                     </p>
                 </motion.div>
             ) : (
-                /* FORM STATE */
+                /* FORM — Uses Kit data attributes so ck.5.js handles submission */
                 <form
                     action={KIT_FORM_ACTION}
                     method="POST"
-                    onSubmit={handleSubmit}
+                    data-sv-form={KIT_FORM_UID}
+                    data-uid={KIT_FORM_UID}
+                    data-format="inline"
+                    data-version="5"
+                    onSubmit={() => trackNewsletterSignup('inline_form')}
                     style={{
                         display: 'flex',
                         flexDirection: 'column',
@@ -205,8 +184,6 @@ const EmailCapture = ({ variant = 'default' }) => {
                         />
                         <button
                             type="submit"
-                            disabled={status === 'loading'}
-                            onClick={handleFallbackSubmit}
                             style={{
                                 flex: '0 0 auto',
                                 padding: '1rem 2.5rem',
@@ -214,9 +191,9 @@ const EmailCapture = ({ variant = 'default' }) => {
                                 fontWeight: '700',
                                 borderRadius: '50px',
                                 border: 'none',
-                                background: status === 'loading' ? '#94a3b8' : '#FF4500',
+                                background: '#FF4500',
                                 color: 'white',
-                                cursor: status === 'loading' ? 'wait' : 'pointer',
+                                cursor: 'pointer',
                                 boxShadow: '0 10px 25px rgba(255, 69, 0, 0.3)',
                                 transition: 'transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease',
                                 textTransform: 'uppercase',
@@ -224,45 +201,17 @@ const EmailCapture = ({ variant = 'default' }) => {
                                 whiteSpace: 'nowrap',
                             }}
                             onMouseOver={(e) => {
-                                if (status !== 'loading') {
-                                    e.target.style.transform = 'translateY(-3px)';
-                                    e.target.style.boxShadow = '0 15px 35px rgba(255, 69, 0, 0.4)';
-                                }
+                                e.target.style.transform = 'translateY(-3px)';
+                                e.target.style.boxShadow = '0 15px 35px rgba(255, 69, 0, 0.4)';
                             }}
                             onMouseOut={(e) => {
                                 e.target.style.transform = 'translateY(0)';
                                 e.target.style.boxShadow = '0 10px 25px rgba(255, 69, 0, 0.3)';
                             }}
                         >
-                            {status === 'loading' ? 'Subscribing...' : 'Start the Free Reset'}
+                            Start the Free Reset
                         </button>
                     </div>
-
-                    {/* Error state */}
-                    {status === 'error' && (
-                        <motion.p
-                            initial={{ opacity: 0, y: -10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            style={{
-                                color: '#DC2626',
-                                fontSize: '0.9rem',
-                                fontWeight: 600,
-                                margin: '0',
-                                textAlign: 'center'
-                            }}
-                        >
-                            Something went wrong. Please try again or{' '}
-                            <a
-                                href="https://drgavinmcauley.substack.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ color: '#DC2626', textDecoration: 'underline' }}
-                                onClick={() => trackOutboundLink('https://drgavinmcauley.substack.com', 'newsletter_fallback')}
-                            >
-                                subscribe via Substack
-                            </a>.
-                        </motion.p>
-                    )}
                 </form>
             )}
 
