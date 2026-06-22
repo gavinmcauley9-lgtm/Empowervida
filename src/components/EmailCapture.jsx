@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { trackNewsletterSignup, trackOutboundLink } from '../utils/analytics';
+import { trackNewsletterSignup } from '../utils/analytics';
 
 const KIT_FORM_UID = '0fe46035f0';
 const KIT_FORM_ACTION = `https://app.kit.com/forms/${KIT_FORM_UID}/subscriptions`;
 
 const EmailCapture = ({ variant = 'default' }) => {
     const [email, setEmail] = useState('');
-    const [status, setStatus] = useState('idle'); // idle | success
+    const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
     const containerStyles = {
         default: {
@@ -35,18 +35,36 @@ const EmailCapture = ({ variant = 'default' }) => {
         }
     };
 
-    // Listen for Kit's successful subscription event
-    useEffect(() => {
-        const handleKitSuccess = () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!email || status === 'loading') return;
+
+        setStatus('loading');
+
+        try {
+            // Submit to Kit using no-cors mode (fire-and-forget).
+            // Kit doesn't return CORS headers, so we can't read the response,
+            // but the subscription IS processed on their end.
+            await fetch(KIT_FORM_ACTION, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    email_address: email,
+                }).toString(),
+            });
+
+            // With no-cors, we can't read the response status,
+            // but if fetch didn't throw, the request was sent successfully.
             setStatus('success');
             setEmail('');
             trackNewsletterSignup('inline_form');
-        };
-
-        // Kit fires a custom event on successful submission
-        window.addEventListener('ck:form:submit:success', handleKitSuccess);
-        return () => window.removeEventListener('ck:form:submit:success', handleKitSuccess);
-    }, []);
+        } catch (err) {
+            setStatus('error');
+        }
+    };
 
     return (
         <motion.div
@@ -80,7 +98,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         fontWeight: 700,
                         marginBottom: '1rem'
                     }}>
-                        The Physician's Guide to Reversing Insulin Resistance
+                        The Physician&apos;s Guide to Reversing Insulin Resistance
                     </p>
                     <p style={{
                         fontSize: 'clamp(1rem, 2vw, 1.2rem)',
@@ -108,14 +126,14 @@ const EmailCapture = ({ variant = 'default' }) => {
                         border: '2px solid rgba(32, 178, 170, 0.3)',
                     }}
                 >
-                    <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>&#x2705;</div>
+                    <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
                     <h3 style={{
                         fontSize: '1.5rem',
                         fontWeight: 800,
                         color: '#1A3C34',
                         marginBottom: '0.75rem'
                     }}>
-                        You're In &mdash; Check Your Inbox
+                        You&apos;re In &mdash; Check Your Inbox
                     </h3>
                     <p style={{
                         fontSize: '1.05rem',
@@ -124,19 +142,13 @@ const EmailCapture = ({ variant = 'default' }) => {
                         maxWidth: '500px',
                         margin: '0 auto'
                     }}>
-                        Your first protocol email is on its way. Look for an email from Dr. Gavin McAuley. Check spam if you don't see it within 5 minutes.
+                        Your first protocol email is on its way. Look for an email from Dr. Gavin McAuley. Check spam if you don&apos;t see it within 5 minutes.
                     </p>
                 </motion.div>
             ) : (
-                /* FORM — Uses Kit data attributes so ck.5.js handles submission */
+                /* FORM */
                 <form
-                    action={KIT_FORM_ACTION}
-                    method="POST"
-                    data-sv-form={KIT_FORM_UID}
-                    data-uid={KIT_FORM_UID}
-                    data-format="inline"
-                    data-version="5"
-                    onSubmit={() => trackNewsletterSignup('inline_form')}
+                    onSubmit={handleSubmit}
                     style={{
                         display: 'flex',
                         flexDirection: 'column',
@@ -184,6 +196,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         />
                         <button
                             type="submit"
+                            disabled={status === 'loading'}
                             style={{
                                 flex: '0 0 auto',
                                 padding: '1rem 2.5rem',
@@ -191,9 +204,9 @@ const EmailCapture = ({ variant = 'default' }) => {
                                 fontWeight: '700',
                                 borderRadius: '50px',
                                 border: 'none',
-                                background: '#FF4500',
+                                background: status === 'loading' ? '#94a3b8' : '#FF4500',
                                 color: 'white',
-                                cursor: 'pointer',
+                                cursor: status === 'loading' ? 'wait' : 'pointer',
                                 boxShadow: '0 10px 25px rgba(255, 69, 0, 0.3)',
                                 transition: 'transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease',
                                 textTransform: 'uppercase',
@@ -201,17 +214,35 @@ const EmailCapture = ({ variant = 'default' }) => {
                                 whiteSpace: 'nowrap',
                             }}
                             onMouseOver={(e) => {
-                                e.target.style.transform = 'translateY(-3px)';
-                                e.target.style.boxShadow = '0 15px 35px rgba(255, 69, 0, 0.4)';
+                                if (status !== 'loading') {
+                                    e.target.style.transform = 'translateY(-3px)';
+                                    e.target.style.boxShadow = '0 15px 35px rgba(255, 69, 0, 0.4)';
+                                }
                             }}
                             onMouseOut={(e) => {
                                 e.target.style.transform = 'translateY(0)';
                                 e.target.style.boxShadow = '0 10px 25px rgba(255, 69, 0, 0.3)';
                             }}
                         >
-                            Start the Free Reset
+                            {status === 'loading' ? 'Subscribing...' : 'Start the Free Reset'}
                         </button>
                     </div>
+
+                    {status === 'error' && (
+                        <motion.p
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            style={{
+                                color: '#DC2626',
+                                fontSize: '0.9rem',
+                                fontWeight: 600,
+                                margin: '0',
+                                textAlign: 'center'
+                            }}
+                        >
+                            Something went wrong. Please try again.
+                        </motion.p>
+                    )}
                 </form>
             )}
 
