@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 import { trackNewsletterSignup } from '../utils/analytics';
 
 const KIT_FORM_UID = '0a0c3d4c2b';
-const KIT_FORM_ACTION = `https://app.kit.com/forms/${KIT_FORM_UID}/subscriptions`;
+// The numeric ID is required for the backend POST request
+const KIT_FORM_ACTION = `https://app.kit.com/forms/9596301/subscriptions`;
 
 const EmailCapture = ({ variant = 'default' }) => {
     const [email, setEmail] = useState('');
