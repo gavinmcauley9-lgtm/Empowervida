@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useParams, Navigate } from 'next/navigation';
 import SEO from '../components/SEO';
 import EmailCapture from '../components/EmailCapture';
+import BlogInlineCTA from '../components/BlogInlineCTA';
 import AuthorBio from '../components/AuthorBio';
 import { POSTS, CATEGORIES } from '../data/posts';
 
@@ -74,8 +75,8 @@ export default function BlogPost() {
   const categoryLabel = CATEGORIES.find(c => c.id === post.category)?.label;
 
   // 1. Generate Table of Contents & Inject IDs
-  const { headings, modifiedContent } = React.useMemo(() => {
-    if (!post?.content) return { headings: [], modifiedContent: '' };
+  const { headings, contentFirstHalf, contentSecondHalf } = React.useMemo(() => {
+    if (!post?.content) return { headings: [], contentFirstHalf: '', contentSecondHalf: '' };
 
     const headingsList = [];
     const contentWithIds = post.content.replace(/<h2([^>]*)>(.*?)<\/h2>/g, (match, attrs, title) => {
@@ -90,7 +91,29 @@ export default function BlogPost() {
       return `<h2 id="${id}"${attrs}>${title}</h2>`;
     });
 
-    return { headings: headingsList, modifiedContent: contentWithIds };
+    // Split content after the 2nd H2 to inject inline CTA at the midpoint
+    let firstHalf = contentWithIds;
+    let secondHalf = '';
+    const h2Regex = /<h2[^>]*>.*?<\/h2>/g;
+    let matchResult;
+    let splitIndex = -1;
+    let h2Count = 0;
+
+    while ((matchResult = h2Regex.exec(contentWithIds)) !== null) {
+      h2Count++;
+      if (h2Count === 3) {
+        // Split right before the 3rd H2 (so CTA appears after 2 sections)
+        splitIndex = matchResult.index;
+        break;
+      }
+    }
+
+    if (splitIndex > 0) {
+      firstHalf = contentWithIds.substring(0, splitIndex);
+      secondHalf = contentWithIds.substring(splitIndex);
+    }
+
+    return { headings: headingsList, contentFirstHalf: firstHalf, contentSecondHalf: secondHalf };
   }, [post]);
 
   // 2. Breadcrumb Schema
@@ -366,8 +389,19 @@ export default function BlogPost() {
           <div
             className="blog-content"
             style={{ fontSize: '1.125rem', lineHeight: '1.8', color: 'var(--color-text)' }}
-            dangerouslySetInnerHTML={{ __html: modifiedContent }}
+            dangerouslySetInnerHTML={{ __html: contentFirstHalf }}
           />
+
+          {/* Inline CTA — injected at the midpoint of the article */}
+          {contentSecondHalf && <BlogInlineCTA />}
+
+          {contentSecondHalf && (
+            <div
+              className="blog-content"
+              style={{ fontSize: '1.125rem', lineHeight: '1.8', color: 'var(--color-text)' }}
+              dangerouslySetInnerHTML={{ __html: contentSecondHalf }}
+            />
+          )}
 
           {post.cta && (
             <div style={{
