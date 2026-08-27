@@ -1,4 +1,4 @@
-import { POSTS } from '../src/data/posts';
+import { PUBLISHED_POSTS } from '../src/data/posts';
 
 // Required for Next.js static export — declares this route as fully static
 export const dynamic = 'force-static';
@@ -29,9 +29,9 @@ export default function sitemap() {
     priority: route === '' ? 1 : 0.8,
   }));
 
-  const dynamicRoutes = POSTS.map((post) => ({
+  const dynamicRoutes = PUBLISHED_POSTS.map((post) => ({
     url: `${DOMAIN}/blog/${post.slug || post.id}`,
-    lastModified: new Date(post.date),
+    lastModified: new Date(post.dateModified || post.date),
     changeFrequency: 'monthly',
     priority: 0.7,
   }));

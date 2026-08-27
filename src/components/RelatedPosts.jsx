@@ -2,15 +2,15 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { POSTS, CATEGORIES } from '../data/posts';
+import { PUBLISHED_POSTS, CATEGORIES } from '../data/posts';
 
 export default function RelatedPosts({ currentPostId, currentCategory, count = 3, title = "Continue Reading" }) {
     // Helper function to get related posts
     const getRelatedPosts = () => {
         // Filter out current post if provided
         let availablePosts = currentPostId 
-            ? POSTS.filter(p => p.id !== currentPostId && p.slug !== currentPostId) 
-            : [...POSTS];
+            ? PUBLISHED_POSTS.filter(p => p.id !== currentPostId && p.slug !== currentPostId)
+            : [...PUBLISHED_POSTS];
 
         let sortedPosts = [];
 

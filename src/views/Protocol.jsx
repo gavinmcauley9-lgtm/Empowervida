@@ -493,7 +493,7 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#667eea', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link href="/blog/28" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NAD+ Together?</Link>
+                            <Link href="/blog/creatine-and-nad-take-together-physician-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NMN Together?</Link>
                             <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
                         </div>
                     </div>

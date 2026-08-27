@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { POSTS } from '../../src/data/posts';
+import { PUBLISHED_POSTS } from '../../src/data/posts';
 
 export const metadata = {
   title: 'Clinical Insights & Longevity Protocols | EMPOWERVIDA',
@@ -29,7 +29,7 @@ export default function BlogListing() {
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
-          {POSTS.map((post) => (
+          {PUBLISHED_POSTS.map((post) => (
             <div key={post.slug || post.id} style={{
               border: '1px solid rgba(255,255,255,0.1)',
               borderRadius: '12px',

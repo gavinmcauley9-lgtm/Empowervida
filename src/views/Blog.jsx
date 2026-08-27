@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { POSTS, CATEGORIES } from '../data/posts';
+import { PUBLISHED_POSTS, CATEGORIES } from '../data/posts';
 import SEO from '../components/SEO';
 
 export default function Blog() {
@@ -11,8 +11,8 @@ export default function Blog() {
     const [activeCategory, setActiveCategory] = useState('all');
 
     const filteredPosts = activeCategory === 'all'
-        ? POSTS
-        : POSTS.filter(post => post.category === activeCategory);
+        ? PUBLISHED_POSTS
+        : PUBLISHED_POSTS.filter(post => post.category === activeCategory);
 
 
     const collectionSchema = {

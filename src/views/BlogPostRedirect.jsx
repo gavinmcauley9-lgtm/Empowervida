@@ -18,8 +18,9 @@ export default function BlogPostRedirect() {
 
     if (id) {
       const post = POSTS.find(p => p.id.toString() === id);
-      if (post?.slug) {
-        router.replace(`/blog/${post.slug}`);
+      const destination = post?.redirectTo || (post?.slug ? `/blog/${post.slug}` : null);
+      if (destination) {
+        router.replace(destination);
         return;
       }
     }
