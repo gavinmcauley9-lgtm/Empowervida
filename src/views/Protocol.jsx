@@ -45,23 +45,23 @@ const Protocol = () => {
     const faqData = [
         {
             question: "What is a longevity protocol?",
-            answer: "A longevity protocol is a physician-designed supplement regimen targeting specific biological pathways of ageing. Unlike random supplementation, protocols combine synergistic compounds with precise dosing and timing to address root causes: mitochondrial dysfunction, inflammation, insulin resistance, and cellular senescence."
+            answer: "On this page, “protocol” refers to an educational framework that brings together lifestyle priorities and supplements studied for particular health goals. It is not a personalised treatment plan. The relevance of any supplement depends on diet, health history, medicines, symptoms and clinical findings."
         },
         {
             question: "Which protocol should I start with?",
-            answer: "Start with your primary health goal: Foundational Longevity (overall anti-ageing), Metabolic Health (insulin resistance/weight), Energy/Vitality (fatigue/mitochondria), Brain Fog/Clarity (cognition/focus), or Neurolongevity (brain ageing prevention). Most people benefit from the Longevity Stack as a foundation, then adding targeted protocols."
+            answer: "There is no universal starting stack. Begin with lifestyle foundations and address any identified deficiency or health concern with an appropriately qualified health professional. If you are considering a supplement, choose it for a defined reason rather than treating one of these sections as a default foundation."
         },
         {
             question: "Can I combine multiple protocols?",
-            answer: "Yes. Protocols are designed to stack synergistically. Start with your primary protocol for 30 days, then add a second. Avoid combining more than 2-3 protocols initially. Common combinations: Longevity + Metabolic, Vitality + Clarity, or Neurolongevity + Longevity."
+            answer: "Combining multiple sections can duplicate ingredients and increase total doses or interaction risks. Do not assume that combinations are synergistic. Review the complete ingredient list, medicines and health circumstances with an appropriately qualified health professional before combining products."
         },
         {
             question: "How long before I see results from a longevity protocol?",
-            answer: "Timeline varies by protocol: Energy/cognitive changes (2-4 weeks), metabolic improvements (4-8 weeks), longevity biomarkers (8-12 weeks). NAD+ precursors work quickly (days), while mitochondrial biogenesis takes months. Consistency is key - these are marathon interventions, not quick fixes."
+            answer: "Response varies according to the reason for use, baseline status, product, adherence and other care. Some supplements may have no noticeable effect. No general timetable can be promised for energy, cognition, metabolic markers or long-term health outcomes. Persistent symptoms or abnormal results warrant appropriate assessment."
         },
         {
             question: "Are these protocols safe to take long-term?",
-            answer: "Yes. All protocols use evidence-based compounds with established safety profiles for long-term use. We prioritize nutrients and compounds your body naturally produces (NAD+, CoQ10, creatine) that decline with age. As with any supplement regimen, consult your physician, especially if you have medical conditions or take medications."
+            answer: "No supplement regimen is automatically safe for long-term use. Safety depends on the ingredient, dose, duration, product quality, health conditions, pregnancy or breastfeeding, kidney or liver function, medicines and duplication across products. Ongoing need should be reviewed, and adverse effects warrant appropriate professional advice."
         }
     ];
 
@@ -139,7 +139,7 @@ const Protocol = () => {
                         marginBottom: '2rem'
                     }}
                 >
-                    Over 16 years across the ER, hospital medicine, and General Practice, I managed acute failure. In longevity medicine, we build chronic capacity. I have designed <strong style={{ color: 'var(--color-accent-teal)' }}>seven distinct protocols</strong> targeting the primary pillars of human performance: Longevity, Brain Health, Neurolongevity, Energy, Gut Health, Sleep, and Metabolic Optimisation. <strong>Yes, there is overlap, that's biology.</strong> Choose your primary target, then layer as needed.
+                    Over 16 years across emergency medicine, hospital medicine and general practice, I have seen how symptoms and long-term health are influenced by lifestyle, existing conditions and individual circumstances. This page organises seven educational areas: Longevity, Brain Fog / Clarity, Cognitive Health, Energy / Vitality, Gut Health, Sleep & Recovery and Metabolic Health. They are not universal prescriptions or instructions to combine multiple supplement regimens. Use them as topics for informed discussion with an appropriately qualified health professional.
                 </motion.p>
             </section>
 
@@ -172,6 +172,21 @@ const Protocol = () => {
                     position: 'relative',
                     zIndex: 1
                 }}>
+                    {/* EVIDENCE AND SAFETY NOTE */}
+                    <div style={{
+                        background: 'rgba(255, 152, 0, 0.08)',
+                        borderLeft: '4px solid #FF9800',
+                        borderRadius: '12px',
+                        padding: '1.75rem 2rem',
+                        marginBottom: '3rem',
+                        fontSize: '1rem',
+                        lineHeight: '1.6',
+                        color: 'var(--color-text)'
+                    }}>
+                        <p style={{ margin: 0, fontWeight: 500 }}>
+                            <strong>Evidence and safety note:</strong> Supplement needs vary according to diet, health conditions, medications, age and laboratory findings. None of the combinations below is universally indicated. They are presented for education and discussion with an appropriately qualified health professional, not as personalised treatment.
+                        </p>
+                    </div>
 
                     {/* PROTOCOL 1: LONGEVITY (FOUNDATION) */}
                     <div id="longevity-stack" className="protocol-phase" style={{
@@ -207,7 +222,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Genomic stability, cellular resilience, daily non-negotiables
+                            Nutritional adequacy, deficiency correction and carefully selected options
                         </p>
 
                         <p style={{
@@ -216,7 +231,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The chassis. Without a stable genomic and metabolic foundation, high-performance interventions fail. This is your biological insurance policy: the supplements everyone should take, regardless of specific goals.
+                            Healthy ageing begins with diet, physical activity, sleep and management of established health risks. The nutrients and compounds below are frequently discussed in healthy-ageing research, but their usefulness depends on individual circumstances. They should not be treated as a universal longevity stack or biological insurance policy.
                         </p>
 
                         <div style={{
@@ -229,23 +244,27 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
-                                    <strong>Vitamin D3 (5,000 IU) + K2 (MK-7, 100mcg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Controls 5% of your genome. K2 directs calcium to bones, not arteries.</span>
+                                    <strong>Vitamin D3 ± K2</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Vitamin D supports bone and muscle health. Supplementation is most appropriate when dietary intake, sun exposure, clinical risk or testing suggests it may be needed. Vitamin K is included in some combined formulations but may interact with medicines such as warfarin.</span><br />
+                                    <span style={{ color: '#1A3C34', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to clinical circumstances and applicable guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
-                                    <strong>GlyNAC Complex (Glycine 2g + NAC 1.2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Restores glutathione, the master antioxidant. Research suggests it may help improve markers associated with ageing.</span>
+                                    <strong>Glycine + NAC</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Glycine and N-acetylcysteine support pathways involved in glutathione production. Small human studies have examined their effects on selected metabolic and oxidative-stress markers, but benefits for lifespan or prevention of age-related disease have not been established.</span><br />
+                                    <span style={{ color: '#1A3C34', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise; long-term outcome evidence remains limited.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
-                                    <strong>Methylated B-Complex</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Supports methylation pathways critical for DNA repair and neurotransmitter synthesis.</span>
+                                    <strong>B-Complex</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>B vitamins perform essential metabolic and neurological functions. Supplementation is most relevant when intake is inadequate, deficiency risk is present or a clinical indication has been identified. Common MTHFR variants alone do not establish that a methylated B-complex is necessary.</span><br />
+                                    <span style={{ color: '#1A3C34', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Base on dietary intake, clinical context and, where appropriate, testing.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
-                                    <strong>Omega-3 (EPA/DHA 2-3g daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Membrane fluidity, anti-inflammatory, cardiovascular protection.</span>
+                                    <strong>Omega-3</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>EPA and DHA are important fatty acids found principally in seafood. Regular fish consumption is generally preferred as a dietary source. Supplements may be appropriate in selected circumstances, but they have not been shown to provide a universal longevity benefit.</span><br />
+                                    <span style={{ color: '#1A3C34', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Higher-dose supplementation should be discussed with a clinician, particularly when medicines or cardiovascular conditions are relevant.</span>
                                 </li>
                             </ul>
                         </div>
@@ -299,7 +318,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Acute cognitive enhancement, focus, processing speed
+                            Compounds studied for cognitive performance in particular settings
                         </p>
 
                         <p style={{
@@ -308,7 +327,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The structural and software upgrade. This stack targets neurotransmitter synthesis, repairs synaptic density, and eliminates metabolic bottlenecks. For when you need to think sharper today, while rebuilding the physical pathways for tomorrow.
+                            Persistent brain fog can have many causes, including inadequate sleep, medication effects, mood disorders, metabolic conditions and nutritional deficiencies. Supplements should not be assumed to correct an unidentified structural or metabolic problem. The options below have been studied for aspects of cognition or fatigue, but results vary between populations.
                         </p>
 
                         <div style={{
@@ -321,33 +340,39 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>Creatine Monohydrate (5g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Brain ATP buffer. Proven to improve working memory and reduce mental fatigue.</span>
+                                    <strong>Creatine Monohydrate</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Creatine supports cellular energy buffering. Some human studies report modest cognitive benefits, particularly during sleep deprivation, high cognitive demand or low dietary creatine intake, while results in generally healthy populations are mixed.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Commonly studied amount—not a personalised recommendation</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>CDP-Choline / Citicoline (250-500mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Acetylcholine synthesis for memory and learning. Crosses blood-brain barrier.</span>
+                                    <strong>Citicoline</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Citicoline participates in phospholipid and acetylcholine pathways. It has been studied for several neurological and cognitive applications, but evidence for routine cognitive enhancement in healthy adults remains limited.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; individual suitability should be reviewed.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>Magnesium L-Threonate (2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>The only form proven to cross the blood-brain barrier. Addresses structural brain fog by supporting physical synaptic density.</span>
+                                    <strong>Magnesium L-Threonate</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>This form of magnesium has been examined in preliminary cognitive and sleep research. Current human evidence does not establish that it uniquely enters the brain, repairs synaptic structure or treats brain fog.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Follow product guidance and consider total magnesium intake and kidney function.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>Methylated B-Complex (with 5-MTHF)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crucial for anyone with MTHFR mutations (~50% of people). Bypasses genetic bottlenecks to synthesize dopamine and serotonin.</span>
+                                    <strong>B-Complex with 5-MTHF</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Folate, vitamin B12 and vitamin B6 are important for neurological function. Supplementation should address dietary inadequacy, deficiency or another identified clinical need rather than being based solely on a common MTHFR variant.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise and avoid unnecessary high-dose or duplicated B-vitamin products.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>Rhodiola Rosea (300-500mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Adaptogen. Raises threshold for stress-induced cognitive decline. Take morning, empty stomach.</span>
+                                    <strong>Rhodiola Rosea</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Small studies have examined rhodiola for fatigue, stress and cognitive performance, but findings are not conclusive. It may be unsuitable with certain medicines or health conditions.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Discuss suitability and possible interactions with a qualified health professional.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
-                                    <strong>L-Theanine (200mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Calm focus. Pairs with caffeine to smooth out jitters while maintaining alertness.</span>
+                                    <strong>L-Theanine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>L-theanine has been studied for relaxed attention, frequently in combination with caffeine. Evidence does not show that it repairs neural pathways or prevents cognitive decline.</span><br />
+                                    <span style={{ color: '#008080', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; effects may differ when combined with caffeine.</span>
                                 </li>
                             </ul>
                         </div>
@@ -389,7 +414,7 @@ const Protocol = () => {
                             marginBottom: '0.5rem',
                             fontFamily: '"Manrope", sans-serif'
                         }}>
-                            NEUROLONGEVITY
+                            COGNITIVE HEALTH: COMPOUNDS UNDER INVESTIGATION
                         </h2>
 
                         <p style={{
@@ -400,7 +425,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Long-term brain preservation, dementia prevention
+                            Research areas in long-term cognitive health—not dementia prevention
                         </p>
 
                         <p style={{
@@ -409,7 +434,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The structural rebuild. Not for today's meeting, for your brain at 80. This protocol targets brain-derived neurotrophic factor (BDNF), neuroplasticity, and protection against amyloid/tau accumulation.
+                            No supplement stack has been shown to prevent dementia or preserve brain structure over decades. The compounds below are being investigated for possible effects on cognitive or neurological pathways. This preliminary research should not be interpreted as evidence of disease prevention, neural repair or protection against Alzheimer-related pathology.
                         </p>
 
                         <div style={{
@@ -422,23 +447,27 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
-                                    <strong>Magnesium L-Threonate (2g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Only form that crosses blood-brain barrier to increase brain magnesium. Boosts BDNF.</span>
+                                    <strong>Magnesium L-Threonate</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Preliminary human studies have examined possible effects on cognition and sleep. It has not been demonstrated to prevent dementia, increase BDNF meaningfully in humans or repair brain structure.</span><br />
+                                    <span style={{ color: '#667eea', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Follow product guidance and consider total magnesium intake and kidney function.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
-                                    <strong>High-DHA Omega-3 (2g DHA minimum)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Brain is 60% fat. DHA is structural component of neurons. Anti-inflammatory.</span>
+                                    <strong>DHA / Omega-3</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>DHA is an important component of neuronal cell membranes. Fish consumption is associated with several general health benefits, but omega-3 supplements have not been shown convincingly to prevent dementia in adequately nourished adults.</span><br />
+                                    <span style={{ color: '#667eea', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise; higher-dose supplementation warrants clinical review.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
-                                    <strong>Lions Mane Mushroom (1g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Stimulates nerve growth factor (NGF). Promotes neurogenesis and myelin repair.</span>
+                                    <strong>Lion’s Mane</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Lion’s mane has effects on nerve-growth pathways in laboratory research. Human studies are small and preliminary, and there is no established evidence that it produces neurogenesis, repairs myelin or prevents cognitive disease.</span><br />
+                                    <span style={{ color: '#667eea', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: No established dose exists for dementia prevention or neural repair.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
-                                    <strong>Curcumin (500mg, 2x daily with black pepper)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crosses blood-brain barrier. Reduces amyloid plaque formation. Potent anti-inflammatory.</span>
+                                    <strong>Curcumin</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Curcumin has anti-inflammatory effects in laboratory research, but human cognitive trials are limited and inconsistent. It has not been shown to remove or prevent amyloid plaque in the human brain.</span><br />
+                                    <span style={{ color: '#667eea', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Formulations vary and may interact with medicines; clinical review may be appropriate.</span>
                                 </li>
                             </ul>
                         </div>
@@ -452,7 +481,7 @@ const Protocol = () => {
                             fontStyle: 'italic',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>Note:</strong> This protocol overlaps with Clarity (both use Creatine, Omega-3). The distinction: Clarity = acute performance. Neurolongevity = structural preservation over decades.
+                            <strong>Note:</strong> Clarity-oriented supplements are generally studied for short-term performance or fatigue. Long-term cognitive health is better supported by attention to physical activity, vascular risk, sleep, hearing, social engagement and overall dietary quality.
                         </div>
 
                         <div style={{
@@ -503,7 +532,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Mitochondrial ATP synthesis, electron transport chain optimisation
+                            Compounds studied for cellular energy and fatigue in selected settings
                         </p>
 
                         <p style={{
@@ -512,7 +541,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The engine block. This stack targets the root of cellular energy production. Your mitochondria. For when you're done with caffeine band-aids and ready to fix the power plant.
+                            Fatigue can have many causes, including inadequate sleep, medication effects, nutritional deficiency and underlying medical or psychological conditions. Persistent, new or unexplained fatigue warrants appropriate assessment. Physical activity, sleep, dietary quality and management of identified causes are the foundations. The compounds below participate in cellular-energy pathways or have been studied for fatigue, but no supplement stack should be assumed to repair mitochondria or reliably restore energy.
                         </p>
 
                         <div style={{
@@ -525,23 +554,27 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
-                                    <strong>CoQ10 (Ubiquinol 200mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Electron carrier in the mitochondrial membrane. Must be Ubiquinol (active form) if over 40.</span>
+                                    <strong>CoQ10</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Coenzyme Q10 participates in mitochondrial electron transport. Ubiquinol has shown higher bioavailability than ubiquinone in some studies, but absorption also depends on formulation and individual factors. Evidence does not establish that everyone over 40 must use ubiquinol or that ubiquinone is ineffective. Evidence for general energy enhancement in otherwise healthy people remains limited.</span><br />
+                                    <span style={{ color: '#FF5F00', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to the reason for use, formulation, health history and medicines. Review possible interactions, including warfarin and glucose-lowering treatment.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
-                                    <strong>Acetyl-L-Carnitine (1g)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Shuttles fatty acids into mitochondria for beta-oxidation. Acetyl form crosses blood-brain barrier.</span>
+                                    <strong>Acetyl-L-Carnitine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Acetyl-L-carnitine participates in fatty-acid transport into mitochondria and has been studied in selected fatigue and cognitive research settings. Clinical outcomes vary, and evidence does not establish universal fatigue reduction or energy restoration.</span><br />
+                                    <span style={{ color: '#FF5F00', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; consider individual health circumstances, medicines and the reason for use.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
-                                    <strong>PQQ (20mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Triggers mitochondrial biogenesis. Builds NEW power plants. Use BioPQQ® (natural fermentation).</span>
+                                    <strong>PQQ</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>PQQ has been studied for mitochondrial signalling and selected biological markers. Human research is small and preliminary. Current evidence does not establish that PQQ supplementation builds new mitochondria or reliably improves energy or physical performance.</span><br />
+                                    <span style={{ color: '#FF5F00', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: No generally established dose applies for mitochondrial restoration or routine energy enhancement.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
-                                    <strong>Alpha-Lipoic Acid (R-ALA 300-600mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Universal antioxidant. Recycles vitamins C & E. Improves glucose uptake. Must be R-ALA (active form).</span>
+                                    <strong>Alpha-Lipoic Acid</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Alpha-lipoic acid participates in energy metabolism and antioxidant pathways. Clinical evidence does not support describing it as a universal antioxidant or claiming that every user requires the R-isomer. Formulations differ, and supplementation may cause adverse effects or interact with medicines.</span><br />
+                                    <span style={{ color: '#FF5F00', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise and seek professional advice when glucose-lowering medicines or relevant health conditions are present.</span>
                                 </li>
                             </ul>
                         </div>
@@ -583,7 +616,7 @@ const Protocol = () => {
                             marginBottom: '0.5rem',
                             fontFamily: '"Manrope", sans-serif'
                         }}>
-                            GUT HEALTH: THE BARRIER
+                            GUT HEALTH: DIGESTIVE SUPPORT
                         </h2>
 
                         <p style={{
@@ -594,7 +627,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Intestinal barrier repair, systemic inflammation control
+                            Dietary foundations and compounds studied for digestive health
                         </p>
 
                         <p style={{
@@ -603,7 +636,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The firewall. Your gut lining is ONE CELL THICK. When it breaks, bacterial toxins flood your bloodstream, triggering anxiety, joint pain, brain fog, and chronic fatigue. This protocol seals the barrier and extinguishes systemic inflammation.
+                            Digestive symptoms can have many causes, and persistent, recurrent or concerning symptoms warrant appropriate assessment. Dietary quality, fibre intake as tolerated, sleep, physical activity and treatment of identified gastrointestinal conditions form the foundation. The compounds below have been studied for selected digestive outcomes, but no supplement combination should be assumed to repair an undefined barrier problem or control systemic inflammation.
                         </p>
 
                         <div style={{
@@ -615,7 +648,7 @@ const Protocol = () => {
                             fontSize: '1rem',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>⚠️ Critical:</strong> Supplements alone will NOT fix a broken gut if you're still eating inflammatory foods, taking NSAIDs daily, or living in chronic stress. <strong>Diet and lifestyle are non-negotiable foundations.</strong> These supplements accelerate repair. They don't replace discipline.
+                            Diet and lifestyle are important foundations, but individual needs vary. Supplements should be selected for a defined purpose and should not be assumed to accelerate intestinal tissue repair.
                         </div>
 
                         <div style={{
@@ -628,33 +661,39 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>L-Glutamine (5g, 2x daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Primary fuel for intestinal cells. Repairs tight junctions. Clinical trials show reduced permeability.</span>
+                                    <strong>L-Glutamine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Glutamine is an amino acid used by intestinal and immune cells. Studies of supplementation and intestinal permeability have produced mixed, population-dependent results. It has not been established as a universal way to repair tight junctions or intestinal tissue.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to the reason for use, health history and applicable professional guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>Zinc Carnosine (75mg daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Directly heals gut lining. Used in Japan for gastric ulcers for decades.</span>
+                                    <strong>Zinc Carnosine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Zinc carnosine has been investigated in selected upper gastrointestinal settings. Evidence does not support presenting it as a universal treatment that directly heals the intestinal lining. Total zinc intake and duration matter because excessive supplemental zinc can cause adverse effects and impair copper status.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Consider total zinc exposure and seek professional guidance for prolonged supplementation.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>Collagen Peptides (10-20g daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Provides glycine and proline, building blocks for tissue repair.</span>
+                                    <strong>Collagen Peptides</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Collagen peptides provide amino acids such as glycine and proline, but evidence that supplementation produces targeted intestinal repair is limited.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to health history, medicines and applicable professional guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>Curcumin (500mg, 2x daily with black pepper)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>NF-κB inhibitor. Blocks the master switch of inflammation.</span>
+                                    <strong>Curcumin</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Curcumin has been investigated for inflammatory and digestive outcomes, but human findings vary according to the condition and formulation studied. It should not be described as blocking or extinguishing systemic inflammation.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Formulations vary and may interact with medicines; individual suitability should be reviewed.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>Omega-3 (EPA/DHA 2-3g daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Competes with inflammatory omega-6. Reduces IL-6 and TNF-alpha cytokine production.</span>
+                                    <strong>Omega-3</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>EPA and DHA are long-chain fatty acids found in seafood and algae. While studied for anti-inflammatory pathways, evidence does not show that omega-3 supplements control systemic inflammation on their own.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to health history, medicines and applicable professional guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
-                                    <strong>Spore-Based Probiotics (Bacillus subtilis, B. coagulans)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Survive stomach acid. Recolonize gut. Produce anti-inflammatory compounds.</span>
+                                    <strong>Spore-Based Probiotics</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Probiotic effects are strain- and condition-specific; evidence for one strain or product does not apply automatically to another. Supplements should not be described as producing reliable or permanent recolonisation. People who are seriously ill or have compromised immune function should seek clinical advice before use.</span><br />
+                                    <span style={{ color: '#FF6B6B', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Product selection and duration should reflect the specific strain, intended purpose and individual circumstances.</span>
                                 </li>
                             </ul>
                         </div>
@@ -667,7 +706,7 @@ const Protocol = () => {
                             fontSize: '0.95rem',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>Timeline:</strong> 8-12 weeks for barrier repair. 3-6 months for full symptom resolution of systemic inflammation.
+                            Response varies according to the cause of symptoms, the intervention used and individual circumstances. No general timeline can be promised for intestinal-barrier repair or complete symptom resolution. Persistent, recurrent or worsening symptoms warrant appropriate clinical assessment.
                         </div>
 
                         <div style={{
@@ -717,7 +756,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Glymphatic activation, deep sleep architecture, waste clearance
+                            Sleep quality, regularity and carefully selected support
                         </p>
 
                         <p style={{
@@ -726,7 +765,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The dishwasher. Your brain accumulates metabolic waste (amyloid beta, tau proteins) all day. The glymphatic system ONLY activates during deep Non-REM sleep to flush this sewage. Poor sleep = toxic brain = brain fog. This protocol optimises sleep architecture for maximum waste clearance.
+                            Sleep supports cognitive and physical function, but persistent sleep problems can have many causes, including insomnia, sleep apnoea, medication effects, pain, mood disorders and circadian disruption. Regular sleep timing, appropriate light exposure, physical activity and evidence-based care for an identified sleep disorder are the foundations. Emerging research links sleep with brain fluid-transport processes, but its clinical significance remains uncertain and does not justify promises of disease-related waste clearance.
                         </p>
 
                         <div style={{
@@ -739,23 +778,27 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
-                                    <strong>Magnesium Bisglycinate (400mg elemental)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Activates GABA receptors (brain's brake pedal). Superior absorption vs. oxide/citrate. Take 30-60 min before bed.</span>
+                                    <strong>Magnesium Bisglycinate</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Magnesium contributes to normal nerve and muscle function. Sleep studies have used different magnesium forms, doses and populations, and do not establish magnesium bisglycinate as universally superior to oxide or citrate. Supplement labels should be interpreted according to their elemental magnesium content.</span><br />
+                                    <span style={{ color: '#764ba2', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Consider total supplemental elemental magnesium, medicines and individual circumstances. People with impaired kidney function should obtain professional advice before supplementation.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
-                                    <strong>Glycine (3g powder)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Lowers core body temperature by dilating extremity blood vessels, critical signal for deep sleep onset.</span>
+                                    <strong>Glycine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Glycine is an amino acid involved in several physiological processes. Small human studies have examined subjective sleep outcomes, but the evidence remains limited and does not establish glycine as a treatment for persistent sleep problems.</span><br />
+                                    <span style={{ color: '#764ba2', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; consider individual health circumstances, medicines and tolerance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
-                                    <strong>Apigenin (50mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Flavonoid from chamomile. Binds to benzodiazepine receptors without addiction risk.</span>
+                                    <strong>Apigenin</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Apigenin is a plant flavonoid investigated mainly in laboratory and preclinical research. Human evidence for isolated apigenin as a sleep aid is limited, and its clinical effects and long-term safety are not established.</span><br />
+                                    <span style={{ color: '#764ba2', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: No generally established sleep dose applies to everyone; individual suitability should be reviewed.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
-                                    <strong>L-Theanine (200mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Crosses blood-brain barrier. Increases alpha waves. Calms without sedation.</span>
+                                    <strong>L-Theanine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>L-theanine is an amino acid found in tea and has been studied for relaxation and sleep-related outcomes. Human studies are limited and do not establish it as a treatment for insomnia or another sleep disorder.</span><br />
+                                    <span style={{ color: '#764ba2', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; individual suitability and medicines should be reviewed.</span>
                                 </li>
                             </ul>
                         </div>
@@ -769,7 +812,7 @@ const Protocol = () => {
                             fontStyle: 'italic',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>Mechanical Hack:</strong> Sleep on your side (lateral decubitus position). Research shows glymphatic flow is 2x more efficient on your side vs. back/stomach. Gravity matters.
+                            <strong>Note:</strong> Sleep position should be guided by comfort, breathing, reflux and individual clinical needs. Research suggesting greater glymphatic transport in the lateral position was conducted in anaesthetised rodents and has not established a twofold benefit in sleeping humans.
                         </div>
 
                         <div style={{
@@ -819,7 +862,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             letterSpacing: '0.05em'
                         }}>
-                            Insulin sensitivity, glucose disposal, mitochondrial efficiency
+                            Lifestyle foundations and clinically guided metabolic risk reduction
                         </p>
 
                         <p style={{
@@ -828,7 +871,7 @@ const Protocol = () => {
                             marginBottom: '2rem',
                             lineHeight: 1.6
                         }}>
-                            The overflow prevention system. Insulin resistance is the root of accelerated ageing, hyperinsulinemia damages everything from your brain to your arteries. This protocol targets AMPK activation, insulin signaling, and cellular glucose uptake. Critical if you have pre-diabetes, metabolic syndrome, or a family history of Type 2 diabetes.
+                            Insulin resistance and raised blood glucose can have several contributing causes and warrant appropriate assessment. Regular physical activity, dietary quality, sleep, weight management where relevant, and management of established cardiovascular risk factors are the foundations of metabolic health. The compounds below have been studied for selected metabolic outcomes, but none should be treated as a substitute for diagnosis, monitoring or prescribed treatment.
                         </p>
 
                         <div style={{
@@ -841,28 +884,33 @@ const Protocol = () => {
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
-                                    <strong>Berberine (500mg, 2-3x daily with meals)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>AMPK activator. Some studies suggest comparable effects to Metformin for glucose control. Take with food.</span>
+                                    <strong>Berberine</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Berberine has been studied for possible effects on blood glucose and blood lipids, but results are variable and it should not be treated as a substitute for prescribed treatment. It can cause gastrointestinal adverse effects and interact with medicines. It should not be used during pregnancy or breastfeeding.</span><br />
+                                    <span style={{ color: '#DC2626', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individual suitability requires clinician or pharmacist review, particularly when glucose-lowering medicines are used.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
-                                    <strong>Alpha-Lipoic Acid (R-ALA 300-600mg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin-mediated glucose uptake. Recycles antioxidants. Must be R-ALA (active isomer).</span>
+                                    <strong>Alpha-Lipoic Acid</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Alpha-lipoic acid participates in oxidative metabolism and has been examined for glucose-uptake pathways. Formulations and oral absorption vary, and higher-dose supplementation should be used with caution in individuals taking blood-glucose-lowering medicines.</span><br />
+                                    <span style={{ color: '#DC2626', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to health history, medicines, dietary intake and applicable professional guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
-                                    <strong>Chromium Picolinate (200-400mcg)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Enhances insulin receptor signaling. Reduces cravings. Picolinate form has best absorption.</span>
+                                    <strong>Chromium Picolinate</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Chromium is a trace element involved in carbohydrate and lipid metabolism. Clinical trial evidence for routine supplementation in people with adequate dietary intake remains inconsistent.</span><br />
+                                    <span style={{ color: '#DC2626', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to health history, medicines, dietary intake and applicable professional guidance.</span>
                                 </li>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
-                                    <strong>Myo-Inositol (2g daily)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Second messenger for insulin signaling. Proven effective in PCOS and metabolic syndrome.</span>
+                                    <strong>Myo-Inositol</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Myo-inositol has been studied in selected reproductive and metabolic settings. Some outcomes may improve, but the evidence remains limited and uncertain, and no single formulation or dose is established for everyone.</span><br />
+                                    <span style={{ color: '#DC2626', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Study protocols vary; individual circumstances and treatment goals should be reviewed with an appropriately qualified health professional.</span>
                                 </li>
                                 <li style={{ marginBottom: '0', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
-                                    <strong>Cinnamon Extract (500mg Ceylon cinnamon)</strong><br />
-                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Improves insulin sensitivity. Must be Ceylon (not Cassia, high coumarin content).</span>
+                                    <strong>Cinnamon Extract</strong><br />
+                                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>Cinnamon extracts have been examined for glycaemic markers in small clinical trials. Results across studies are variable, and extracts should not be relied upon to manage elevated blood glucose.</span><br />
+                                    <span style={{ color: '#DC2626', fontSize: '0.88rem', fontWeight: 600, fontStyle: 'italic' }}>Dose: Individualise according to health history, medicines, dietary intake and applicable professional guidance.</span>
                                 </li>
                             </ul>
                         </div>
@@ -875,7 +923,7 @@ const Protocol = () => {
                             fontSize: '0.95rem',
                             color: 'var(--color-text)'
                         }}>
-                            <strong>Note:</strong> This protocol has significant overlap with Energy/Vitality (ALA appears in both). The distinction: Metabolic Health targets glucose/insulin pathways. Energy targets ATP production. If you have insulin resistance, prioritize this stack.
+                            <strong>Note:</strong> If you have been told that you have insulin resistance or abnormal glucose results, discuss appropriate assessment, monitoring and treatment with your healthcare team before considering supplements. Do not change prescribed treatment on the basis of this page.
                         </div>
 
                         <div style={{
@@ -887,9 +935,9 @@ const Protocol = () => {
                             gap: '0.75rem'
                         }}>
                             <h4 style={{ color: '#DC2626', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
-                            <Link href="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Understand the insulin story</Link>
-                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
-                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with these labs</Link>
+                            <Link href="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Understand the insulin story</Link>
+                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Track your progress with these labs</Link>
                         </div>
                     </div>
 
@@ -949,26 +997,26 @@ const Protocol = () => {
                             fontWeight: 800
                         }}>
                             <span style={{ fontSize: '1.5rem' }}>⚠️</span>
-                            WHY MOST SUPPLEMENTS FAIL
+                            PRACTICAL SUPPLEMENT CONSIDERATIONS
                         </h3>
 
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Wrong Forms</h4>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Formulation and Suitability</h4>
                                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Magnesium Oxide = 4% absorption. CoQ10 as Ubiquinone is useless over 40. Methylated B vitamins matter if you have MTHFR mutations. <strong>Form {'>'} {'>'} {'>'} Dose.</strong>
+                                    Supplement form can affect absorption, tolerability and convenience, but no single rule applies across all ingredients. Ubiquinol may have higher bioavailability than ubiquinone in some studies, while age alone does not make ubiquinone ineffective. Common MTHFR variants do not by themselves establish a need for methylated B-vitamin supplements. Consider the evidence, total dose, formulation, health history and medicines together.
                                 </p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. Proprietary Blends</h4>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. Ingredient Transparency</h4>
                                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    If a label says "Mitochondrial Blend 500mg" but doesn't list exact milligrams of each ingredient, it's a scam. Demand transparency.
+                                    Proprietary blends may state a total blend amount without disclosing the amount of each ingredient. This can make it difficult to compare a product with relevant research or assess whether individual ingredient amounts are appropriate. Prefer labels that clearly identify each ingredient and amount, while recognising that transparent labelling alone does not establish efficacy or quality.
                                 </p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>3. Bad Timing</h4>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>3. Timing and Administration</h4>
                                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Fat-soluble vitamins (D, K, CoQ10) need dietary fat. Magnesium before bed. Rhodiola on empty stomach. Timing matters.
+                                    Administration can affect absorption or tolerability for some supplements. Taking fat-soluble vitamins and compounds such as CoQ10 with a meal containing dietary fat may support absorption. Magnesium timing can be chosen according to formulation, purpose and tolerance. Rhodiola and other botanical products should be used according to product directions and individual tolerance. Potential medicine interactions should be checked where relevant. Timing is one consideration and does not replace evidence, appropriate dosing or individual suitability.
                                 </p>
                             </div>
                         </div>
@@ -1010,7 +1058,7 @@ const Protocol = () => {
                         e.currentTarget.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
                     }}
                 >
-                    GET THE FULL STACK
+                    EXPLORE OPTIONS
                 </Link>
             </section>
 
