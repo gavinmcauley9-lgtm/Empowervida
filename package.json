@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "verify:creatine-nmn": "node scripts/verify-creatine-nmn-release.mjs",
     "vite:dev": "vite",
     "vite:build": "vite build"
   },

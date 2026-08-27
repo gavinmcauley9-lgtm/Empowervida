@@ -7,7 +7,7 @@ import SEO from '../components/SEO';
 import EmailCapture from '../components/EmailCapture';
 import BlogInlineCTA from '../components/BlogInlineCTA';
 import AuthorBio from '../components/AuthorBio';
-import { POSTS, CATEGORIES } from '../data/posts';
+import { PUBLISHED_POSTS, CATEGORIES } from '../data/posts';
 
 import RelatedPosts from '../components/RelatedPosts';
 
@@ -16,9 +16,9 @@ export default function BlogPost() {
   const cleanSlug = slug ? slug.toLowerCase().replace(/\/+$/, '') : '';
 
   // Look up by slug first, then by alias, then fall back to numeric id for backwards compatibility
-  let post = POSTS.find(p => p.slug === cleanSlug) || 
-               POSTS.find(p => p.aliases?.includes(cleanSlug)) || 
-               POSTS.find(p => p.id.toString() === cleanSlug);
+  let post = PUBLISHED_POSTS.find(p => p.slug === cleanSlug) ||
+               PUBLISHED_POSTS.find(p => p.aliases?.includes(cleanSlug)) ||
+               PUBLISHED_POSTS.find(p => p.id.toString() === cleanSlug);
 
   // Advanced Fuzzy Fallback: Automatically map broken custom SEO slugs to the correct article
   if (!post && slug) {
@@ -26,7 +26,7 @@ export default function BlogPost() {
     let bestMatch = null;
     let maxScore = 0;
 
-    for (const p of POSTS) {
+    for (const p of PUBLISHED_POSTS) {
       const titleStr = p.title || '';
       const targetText = `${titleStr} ${p.excerpt || ''}`.toLowerCase();
       let score = 0;

@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import { POSTS } from '../../../src/data/posts';
+import { PUBLISHED_POSTS } from '../../../src/data/posts';
 import { notFound } from 'next/navigation';
 
 // 1. Generate Static Params (SSG)
 // This tells Next.js at build time exactly which URLs to pre-render as static HTML files.
 export async function generateStaticParams() {
-  return POSTS.map((post) => ({
+  return PUBLISHED_POSTS.map((post) => ({
     slug: post.slug || post.id.toString(),
   }));
 }
@@ -15,22 +15,22 @@ export async function generateStaticParams() {
 // This automatically injects the perfect Title, Description, and OpenGraph tags into the HTML <head>
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const post = POSTS.find((p) => p.slug === slug || p.id.toString() === slug);
+  const post = PUBLISHED_POSTS.find((p) => p.slug === slug || p.id.toString() === slug);
   
   if (!post) {
     return { title: 'Post Not Found' };
   }
 
   return {
-    title: `${post.title} | EMPOWERVIDA Clinical Insights`,
-    description: post.excerpt,
+    title: post.seoTitle || `${post.title} | EMPOWERVIDA Clinical Insights`,
+    description: post.metaDescription || post.excerpt,
     alternates: {
       canonical: `https://empowervida.com/blog/${slug}/`,
     },
     openGraph: {
       title: post.title,
-      description: post.excerpt,
-      url: `https://empowervida.com/blog/${slug}/`,
+      description: post.metaDescription || post.excerpt,
+      url: `https://empowervida.com/blog/${post.slug || slug}/`,
       type: 'article',
       publishedTime: post.date,
       images: [
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }) {
 // 3. The Server Component
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
-  const post = POSTS.find((p) => p.slug === slug || p.id.toString() === slug);
+  const post = PUBLISHED_POSTS.find((p) => p.slug === slug || p.id.toString() === slug);
 
   if (!post) {
     notFound();

@@ -2182,7 +2182,7 @@ export const POSTS = [
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But I must stress the hierarchy. Creatine is not a substitute for <strong>sleep</strong>. If you are getting fewer than seven hours, no supplement on earth will rescue your cognition. Fix the foundation first: sleep, then nutrition (adequate protein and healthy fats for neuronal membrane repair), then exercise (which independently boosts mitochondrial density in the brain). <em>Then</em> add creatine as the accelerator. For a deeper dive into how creatine pairs with NAD+ for dual-pathway energy, see my guide on <a href="/blog/creatine-vs-nad-why-you-need-both-for-ultimate-cellular-energy-physicians-guide" style="color: #20B2AA;">Creatine vs. NAD+</a>.
+        But I must stress the hierarchy. Creatine is not a substitute for <strong>sleep</strong>. If you are getting fewer than seven hours, no supplement on earth will rescue your cognition. Fix the foundation first: sleep, then nutrition (adequate protein and healthy fats for neuronal membrane repair), then exercise (which independently boosts mitochondrial density in the brain). <em>Then</em> consider creatine for a defined goal. For a deeper evidence review, see <a href="/blog/creatine-and-nad-take-together-physician-guide" style="color: #20B2AA;">Can You Take Creatine and NMN Together?</a>.
       </p>
 
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
@@ -3526,151 +3526,160 @@ export const POSTS = [
   {
     id: 26,
     slug: 'creatine-and-nad-take-together-physician-guide',
-    title: 'Creatine and NAD+: Can You Take Them Together? (Physician\'s Guide)',
+    title: 'Can You Take Creatine and NMN Together? A Physician’s Evidence Review',
+    seoTitle: 'Can You Take Creatine and NMN Together? | EmpowerVida',
+    metaDescription: 'Creatine and NMN can be used on the same day, but their combined benefits have not been tested directly. Review the evidence, safety and Australian guidance.',
     category: 'Metabolic Flexibility',
     image: '/supplement_synergy.png',
-    excerpt: "Both support ATP production through different pathways. A physician explains the synergy, timing, and clinical evidence for combining these cellular energy molecules.",
+    excerpt: "Creatine and NMN affect different parts of cellular energy metabolism, but no human trial has shown that combining them produces added benefit. Here is what the evidence and Australian guidance actually support.",
     date: 'Jan 9, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+    dateModified: 'Aug 27, 2026',
+    cta: null,
     references: [
       { text: "Kreider, R. B., et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition, 14, 18.", url: "https://pubmed.ncbi.nlm.nih.gov/28615996/" },
-      { text: "Rajman, L., et al. (2018). Therapeutic Potential of NAD-Boosting Molecules: The In Vivo Evidence. Cell Metabolism, 27(3), 529-547.", url: "https://pubmed.ncbi.nlm.nih.gov/29514064/" }
+      { text: "Antonio, J., et al. (2021). Common questions and misconceptions about creatine supplementation: what does the scientific evidence really show? Journal of the International Society of Sports Nutrition, 18, 13.", url: "https://pubmed.ncbi.nlm.nih.gov/33557850/" },
+      { text: "Yoshino, M., et al. (2021). Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women. Science, 372(6547), 1224–1229.", url: "https://pubmed.ncbi.nlm.nih.gov/33888596/" },
+      { text: "Igarashi, M., et al. (2022). Chronic nicotinamide mononucleotide supplementation elevates blood nicotinamide adenine dinucleotide levels and alters muscle function in healthy older men. NPJ Aging, 8, 5.", url: "https://pubmed.ncbi.nlm.nih.gov/35927255/" },
+      { text: "Yi, L., et al. (2023). The efficacy and safety of β-nicotinamide mononucleotide supplementation in healthy middle-aged adults: a randomised, placebo-controlled trial. GeroScience, 45, 29–43.", url: "https://pubmed.ncbi.nlm.nih.gov/36482258/" },
+      { text: "Orr, M. E., et al. (2024). A randomised placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment. GeroScience, 46, 665–682.", url: "https://pubmed.ncbi.nlm.nih.gov/37994989/" },
+      { text: "Therapeutic Goods Administration. NAD, NAD+, NADH or NMN medicines sold in Australia. Updated 3 February 2026.", url: "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/nad-nad-nadh-or-nmn-medicines-sold-australia" }
     ],
     content: `
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
 
       <div style="background: linear-gradient(135deg, rgba(32,178,170,0.1), rgba(102,126,234,0.1)); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; border: 1px solid rgba(32,178,170,0.2);">
         <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px;">📋 TL;DR</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">Creatine and NAD+ work on different but complementary energy pathways. Creatine provides rapid ATP recycling for brain and muscle, while NAD+ fuels mitochondrial electron transport for sustained cellular energy. Stacking both addresses the two biggest bottlenecks in cellular energy production. Take creatine monohydrate 5g daily alongside NMN 250-500mg mornings.</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">Creatine and nicotinamide mononucleotide (NMN) can be taken on the same day, and no direct interaction between them has been established. However, no human trial has tested the combination or shown that it is synergistic. Creatine has substantial evidence for strength and repeated high-intensity performance; NMN can increase NAD-related metabolites, but evidence for meaningful long-term health benefits remains preliminary.</p>
       </div>
       
       <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Yes, not only can you take creatine and NAD+ together, but they are <strong>synergistic</strong>. Both support cellular energy production through complementary mechanisms. Creatine recycles ADP to ATP in the cytoplasm, while NAD+ powers mitochondrial ATP production through oxidative phosphorylation. Combining them creates a dual pathway energy strategy.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Probably, for many otherwise healthy adults—but the evidence supports a cautious answer.</strong> Creatine and NMN act in different biochemical systems, and there is no recognised reason that they must be separated. That is not the same as proving the combination is more effective than either supplement alone. The choice should depend on the reason for use, health history, medicines and product quality.</p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Works: The Biochemistry</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">How Creatine and NMN Differ</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your mitochondria are engines. But engines need both fuel <em>and</em> a recycling system to maintain power output without degradation. NAD+ is the fuel. Creatine is the recycling system.
+        Creatine helps buffer short-term energy demand. In muscle and brain, the creatine kinase system transfers a phosphate group between phosphocreatine and ADP, helping regenerate ATP when demand changes quickly.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>NAD+'s role:</strong> NAD+ (nicotinamide adenine dinucleotide) is a coenzyme required for the electron transport chain in mitochondria. It accepts electrons from NADH and shuttles them through Complex I, driving ATP synthesis. Without adequate NAD+, your mitochondria cannot produce energy efficiently, regardless of how much glucose or fat you consume.
+        <strong>NMN’s role:</strong> NMN is a precursor used by the body to make nicotinamide adenine dinucleotide (NAD+). NAD+ accepts electrons during metabolic reactions and is converted to NADH; NADH can then donate electrons to the mitochondrial electron-transport chain. Raising a blood NAD-related measure is a biochemical outcome, not proof that a person will feel more energetic, think more clearly or live longer.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Creatine's role:</strong> Creatine exists as phosphocreatine in muscle and brain tissue. When ATP is hydrolysed to ADP during cellular work (muscle contraction, neurotransmitter synthesis), phosphocreatine donates its phosphate group to regenerate ATP <em>instantly</em>. This prevents the energetic "lag" that occurs when mitochondria must ramp up ATP production from scratch.
+        These systems are biologically connected to energy metabolism, but mechanistic plausibility does not establish a clinically useful interaction. I could not identify a randomised human trial comparing creatine plus NMN with either supplement alone.
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">The Clinical Why</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">What the Mechanism Does—and Does Not—Show</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          Think of NAD+ as the power plant and creatine as the battery backup. NAD+ generates ATP continuously but slowly. Creatine provides rapid ATP bursts on demand. Together, you get both sustained energy (mitochondrial) and peak power (phosphocreatine system).
+          It is reasonable to describe creatine and NMN as affecting different parts of energy metabolism. It is not reasonable to promise a “dual-pathway energy boost”, cognitive improvement or longevity benefit from combining them without direct clinical evidence.
         </p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing: What the Evidence Supports</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Creatine monohydrate:</strong> 5g daily, taken in the morning or post exercise. Loading phases (20g/day for 5 days) are optional but not necessary. Consistency matters more than timing.
+        <strong>Creatine monohydrate:</strong> A maintenance intake of 3–5 g daily is commonly studied in adults. A loading phase can increase muscle stores more quickly but is not essential. For most people, consistency matters more than whether creatine is taken in the morning or after exercise.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>NAD+ precursors:</strong> Nicotinamide riboside (NR) or nicotinamide mononucleotide (NMN) at 300-500mg daily, taken in the morning. NAD+ levels follow a circadian rhythm, peaking in the morning, so dosing early optimises this natural cycle. For optimal adherence, both supplements can be consumed together during the first meal of the day.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Educational Perspective</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Clinical observation suggests that combining creatine and NAD+ precursors can yield noticeable cognitive and physical improvements within several weeks. individuals frequently report sharper focus, reduced afternoon fatigue, and enhanced exercise recovery. Mechanistically, this aligns with creatine supporting ATP recycling in neurons (particularly the prefrontal cortex), while NAD+ supports broad mitochondrial function.
+        <strong>NMN:</strong> Short human trials have used different doses and populations, so they do not establish one universal regimen. In Australia, NMN-containing listed medicines are subject to specific TGA conditions, including a maximum recommended daily dose of 500 mg, use for no longer than 12 weeks, adults only, and exclusion during pregnancy and lactation. Follow the label of an ARTG-listed product and seek individual advice rather than copying a dose from a study.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This combined approach is often highly relevant for adults over 40, as endogenous levels of both NAD+ and creatine naturally decline.
+        There is no convincing human evidence that NMN must be taken in the morning, that evening use inevitably disrupts sleep, or that taking it with creatine improves absorption. A practical schedule should prioritise adherence and any directions on the product label. If a supplement appears to affect sleep or causes adverse effects, stop and seek advice.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Who Should Consider This Stack</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What Human Studies Actually Show</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This combination is most relevant for adults over 35 experiencing the early signs of cellular energy decline. NAD+ levels drop by approximately 50% between the ages of 40 and 60, while creatine stores in muscle and brain tissue diminish with age, inactivity, and poor dietary protein intake. If you recognise any of the following, this dual-pathway strategy may be worth discussing with your physician:
+        Creatine is supported by a large research base for improving strength, lean mass gains during resistance training and repeated high-intensity exercise performance. Evidence for cognitive effects is less consistent and may depend on factors such as diet, sleep deprivation, age and baseline creatine status.
       </p>
 
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.5rem;">Persistent afternoon brain fog or "decision fatigue" (see my deep dive on <a href="/blog/brain-fog-cognitive-decline-the-science-of-the-starving-neuron" style="color: #20B2AA;">the starving neuron</a>)</li>
-        <li style="margin-bottom: 0.5rem;">Declining exercise performance despite consistent training</li>
-        <li style="margin-bottom: 0.5rem;">Slower recovery from workouts or illness</li>
-        <li style="margin-bottom: 0.5rem;">Vegetarians or vegans (creatine is found almost exclusively in animal products)</li>
-      </ul>
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        NMN trials are much smaller and shorter. Studies have shown increases in blood NAD-related metabolites, and selected trials have reported signals in outcomes such as muscle insulin sensitivity or physical function in specific populations. These findings do not prove broad benefits for energy, cognition, recovery, biological age or longevity. A trial of the related precursor nicotinamide riboside in older adults with mild cognitive impairment increased blood NAD+ but did not improve cognition over the study period.
+      </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The NAD+ Decline: Why Age 35 Is the Tipping Point</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Who Might Consider One or Both Supplements?</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Understanding the urgency requires knowing the numbers. NAD+ levels decline in a predictable, age-dependent curve:
+        Creatine may be reasonable for an adult with a defined strength, training or dietary goal. NMN is a more experimental choice: the biological rationale is interesting, but long-term clinical benefit and safety remain uncertain. Age alone, afternoon fatigue or “brain fog” does not establish a deficiency in creatine, NAD+ or NMN.
       </p>
 
       <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.5rem;"><strong>Age 20-30:</strong> Peak NAD+ levels. Mitochondria operate at full capacity.</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Age 30-40:</strong> NAD+ begins declining by approximately 25%. The first signs: slower workout recovery, mild afternoon dips.</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Age 40-50:</strong> 40-50% reduction. Decision fatigue, reduced exercise capacity, and visible signs of ageing accelerate.</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Age 60+:</strong> NAD+ may be reduced by 80% or more. Cellular energy production is severely compromised.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Training goals:</strong> Creatine has the clearest role when paired with resistance or repeated high-intensity exercise.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Low dietary creatine intake:</strong> Vegetarians and vegans generally consume less creatine, although response still varies.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>NMN:</strong> Consider only after discussing the uncertain benefit, short trial durations, product quality and personal risk factors.</li>
+      </ul>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why “NAD+ Decline” Needs Careful Interpretation</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        NAD biology changes with ageing, inflammation and metabolic disease, but there is no clinically validated age-by-age blood curve that can diagnose an individual’s need for NMN. Measurements differ by tissue, sample type and assay, and blood values may not reflect NAD+ availability in muscle, brain or other organs.
+      </p>
+
+      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
+        <li style="margin-bottom: 0.5rem;">A plausible mechanism is not a diagnosis.</li>
+        <li style="margin-bottom: 0.5rem;">An increase in a biomarker is not automatically a patient-important benefit.</li>
+        <li style="margin-bottom: 0.5rem;">Short-term tolerability does not establish long-term safety.</li>
+        <li style="margin-bottom: 0.5rem;">Symptoms such as fatigue and brain fog have many causes that deserve ordinary clinical assessment.</li>
       </ul>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The primary driver of this decline is an enzyme called <strong>CD38</strong>. CD38 activity increases with age and chronic inflammation, and it consumes NAD+ voraciously. Research from the Buck Institute has shown that CD38 can degrade up to 100 times more NAD+ than normal cellular metabolism. This is why addressing inflammation (see my post on <a href="/blog/chronic-inflammation-symptoms-root-cause-fatigue-joint-pain" style="color: #20B2AA;">chronic inflammation as root cause</a>) is essential alongside NAD+ supplementation; if CD38 is raging, your NMN supplement is being consumed before it can do its job.
+        CD38 and other enzymes are relevant to NAD+ metabolism, but statements that a supplement is being “consumed before it can do its job” go beyond what can be concluded for an individual. The useful clinical question is not whether a pathway sounds compelling; it is whether a well-designed human trial shows a meaningful benefit that outweighs cost and risk.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Meanwhile, creatine faces a parallel decline. Skeletal muscle creatine stores decrease with age due to reduced physical activity, lower dietary protein intake, and declining activity of the enzyme AGAT (arginine-glycine amidinotransferase) that synthesises creatine endogenously. Vegetarians and vegans are particularly vulnerable, as dietary creatine comes almost exclusively from meat and fish. A 2003 study in <em>Proceedings of the Royal Society B</em> found that vegetarians showed significant cognitive improvements when supplementing creatine, while omnivores showed smaller gains, likely because their baseline stores were already partially replenished through diet.
+        Creatine is different because it has a much larger evidence base and measurable performance outcomes. Even so, not everyone needs it, and cognitive benefits should not be promised universally. Diet, training status, sleep and baseline stores can influence response.
       </p>
 
       <div style="background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Observation</p>
+        <p style="margin: 0; font-weight: 700; color: #667eea; font-size: 1.1rem; margin-bottom: 0.75rem;">Evidence Gap</p>
         <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          It is a common clinical presentation for recreational athletes in their mid-forties to experience frustration over declining performance metrics despite maintaining training volume and having "normal" bloodwork. In these scenarios, introducing 5g of creatine monohydrate alongside 500mg NMN daily—while concurrently optimizing sleep architecture—often yields significant subjective and objective improvements. Within weeks, individuals frequently report faster recovery between interval sessions and the resolution of the afternoon "crash." A dual-pathway bioenergetic strategy helps address these silent, age-related metabolic deficits.
+          There is currently no direct human evidence that adding NMN to creatine improves energy, cognition, recovery, insulin sensitivity or longevity more than creatine alone. Any claim of synergy is therefore an inference, not an established clinical result.
         </p>
       </div>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Foundation Hierarchy</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Foundations Before Supplements</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I must be clear about the order of operations. No supplement stack replaces the fundamentals. Before spending money on NMN or creatine, ensure these foundations are in place:
+        Neither supplement replaces assessment of persistent fatigue, cognitive symptoms or declining exercise capacity. Sleep, progressive exercise, adequate energy and protein intake, alcohol use, medicines and common medical causes usually matter more than a supplement stack.
       </p>
 
       <ol style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.5rem;"><strong>Sleep:</strong> 7-9 hours of quality sleep. NAD+ is recycled during sleep through circadian-regulated enzymes (NAMPT). Poor sleep literally depletes the molecule you are trying to supplement.</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Exercise:</strong> Resistance training 3x per week plus 150 minutes of zone 2 cardio. Exercise upregulates both mitochondrial biogenesis and the creatine kinase shuttle independently.</li>
-        <li style="margin-bottom: 0.5rem;"><strong>Nutrition:</strong> Adequate protein (1.6g/kg bodyweight), whole foods rich in NAD+ precursors (chicken, salmon, avocado), and minimal processed carbohydrates.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Sleep:</strong> Aim for a regular schedule and enough sleep for daytime function; investigate snoring, apnoea symptoms or persistent insomnia.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Exercise:</strong> Combine resistance and aerobic work at a level appropriate to health, fitness and recovery.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Nutrition:</strong> Meet individual energy, protein and micronutrient needs before looking for a biochemical shortcut.</li>
       </ol>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <em>Then</em> and only then does the creatine + NAD+ stack amplify what the foundations have already built.
+        Supplements may support a defined goal, but they should not be used to explain away symptoms that require assessment.
       </p>
 
       <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
-        <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">An Educational Framework</p>
+        <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">A Safer Decision Framework</p>
         <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.75rem;"><strong>Morning dose:</strong> 5g Creatine Monohydrate + 300mg NMN (or NR), taken with your first meal or coffee. Both are water-soluble; no fat required for absorption.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Hydrate:</strong> Creatine pulls water into cells. Increase daily water intake to 2.5-3L. Dehydration blunts both creatine and NAD+ efficacy.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Track:</strong> Monitor subjective energy, workout recovery times, and cognitive sharpness for 30 days before adjusting dose. Blood markers to watch: serum creatinine (will rise, which is normal) and fasting glucose (should improve).</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Define the goal:</strong> Strength and training performance have better creatine evidence than vague “anti-ageing” or energy claims.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Change one variable:</strong> Starting two products together makes benefit and adverse effects harder to interpret.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Use an appropriate product:</strong> In Australia, check for an AUST L, AUST L(A) or AUST R number and follow the approved label.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Review rather than escalate:</strong> Stop if adverse effects occur, and do not keep increasing a dose because a biochemical story sounds persuasive.</li>
         </ol>
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Safety Considerations</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-       <strong>Creatine:</strong> Safe for the vast majority. Elevates serum creatinine (a metabolite), which can interfere with kidney function monitoring. <strong>Do not use if you have chronic kidney disease (CKD)</strong> without nephrologist approval. Ensure adequate hydration (2-3L water/day).
+       <strong>Creatine:</strong> Creatine monohydrate is generally well tolerated at commonly studied doses in healthy adults. It can increase serum creatinine without reducing glomerular filtration, which may complicate interpretation of kidney tests. People with chronic kidney disease, reduced renal function or a condition requiring fluid restriction should seek individual medical advice before use.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>NAD+ precursors:</strong> Generally well tolerated. Mild flushing or gastrointestinal discomfort can occur at doses above 1,000mg. Start at 300mg and titrate upwards if needed.
+        <strong>NMN:</strong> Published human studies are mostly short and relatively small. Gastrointestinal symptoms and other adverse effects are possible, and long-term safety is not established. Australian listed NMN medicines are limited to adults and are not indicated during pregnancy or lactation under current TGA conditions.
       </p>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Interactions:</strong> No known drug interactions between creatine and NAD+ precursors. Both are classified as supplements, not pharmaceuticals.
+        <strong>Interactions and product quality:</strong> The absence of a documented creatine–NMN interaction is not proof that no interaction or individual risk exists. Discuss use if you take prescribed medicines, have cancer or significant liver, kidney or metabolic disease, are preparing for surgery, or are being investigated for unexplained symptoms. Avoid products that are not entered in the ARTG unless a lawful exemption applies.
       </p>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
@@ -3684,8 +3693,8 @@ export const POSTS = [
         <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
         <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
         <li><a href="/blog/chronic-fatigue-exhausted-but-labs-normal" style="color: #20B2AA; text-decoration: underline;">Why You Are Exhausted But Your Labs Are Normal</a></li>
-        <li><a href="/blog/creatine-vs-nad-why-you-need-both" style="color: #20B2AA; text-decoration: underline;">Creatine vs NAD: Why You Need Both</a></li>
-        <li><a href="/blog/coq10-and-pqq-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">CoQ10 + PQQ: The Mitochondrial Stack</a></li>
+        <li><a href="/blog/muscle-loss-after-40-sarcopenia" style="color: #20B2AA; text-decoration: underline;">Muscle Loss After 40: What Actually Helps</a></li>
+        <li><a href="/mitochondrial-guide" style="color: #20B2AA; text-decoration: underline;">Mitochondrial Health: An Evidence-Based Guide</a></li>
         </ul>
       </div>
     `
@@ -3693,6 +3702,7 @@ export const POSTS = [
   {
     id: 28,
     slug: 'creatine-vs-nad-why-you-need-both',
+    redirectTo: '/blog/creatine-and-nad-take-together-physician-guide',
     title: 'Creatine vs. NAD+: Why You Need Both for Ultimate Cellular Energy (Physician\'s Guide)',
     category: 'Metabolic Flexibility',
     image: '/cell_nad_creatine.webp',
@@ -9244,5 +9254,7 @@ export const POSTS = [
     `
   }
 ];
+
+export const PUBLISHED_POSTS = POSTS.filter((post) => !post.redirectTo);
 
 export default POSTS;
