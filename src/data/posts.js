@@ -1903,7 +1903,7 @@ export const POSTS = [
       <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
         <ul style="margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/neurolongevity-starving-brain" style="color: #20B2AA; text-decoration: none;">the starving neuron theory</a> — brain fog</li>
+          <li style="margin-bottom: 0.5rem;"><a href="/blog/neurolongevity-starving-brain" style="color: #20B2AA; text-decoration: none;">brain fog, cognitive change and dementia risk</a></li>
           <li style="margin-bottom: 0.5rem;"><a href="/blog/chronic-fatigue-brain-tires-before-body" style="color: #20B2AA; text-decoration: none;">why your brain tires before your body</a> — brain energy</li>
         </ul>
       </div>
@@ -3874,174 +3874,160 @@ export const POSTS = [
     id: 29,
     slug: 'neurolongevity-starving-brain',
     aliases: ['brain-fog-cognitive-decline-the-science-of-the-starving-neuron'],
-    title: "From Brain Fog to Alzheimer's: Your Brain is Starving. Here's Why. (And how to stop it)",
+    title: 'Brain Fog or Early Cognitive Decline? What It Means for Dementia Risk',
+    seoTitle: 'Brain Fog or Dementia? Signs and Risk | EmpowerVida',
+    metaDescription: 'Brain fog is not the same as dementia. Learn which cognitive changes need assessment and what evidence supports for reducing dementia risk.',
     category: 'Neuro-Optimization',
     image: '/brain_fog_to_vitality_hero.webp',
-    excerpt: "Whether we call it brain fog, age-related forgetfulness, or the early stages of cognitive decline, the underlying biology is often the same: a brain that can no longer feed itself. Here's the science of the starving neuron, and the protocol to address it.",
+    excerpt: 'Brain fog, mild cognitive impairment and dementia are not interchangeable. Here is how to recognise concerning changes, seek assessment and focus on dementia risk factors that can actually be modified.',
     date: 'Jan 21, 2026',
+    dateModified: '2026-08-28',
     featured: true,
     cta: {
-      text: "Get the Neurolongevity Protocol",
-      link: "/protocol#brain-stack"
+      text: 'Explore Cognitive Health Evidence',
+      link: '/protocol#neurolongevity-stack'
     },
     references: [
-      { text: "De la Monte, S. M., & Wands, J. R. (2008). Alzheimer's disease is type 3 diabetes, evidence reviewed. Journal of Diabetes Science and Technology.", url: "https://pubmed.ncbi.nlm.nih.gov/19885299/" },
-      { text: "Iliff, J. J., & Nedergaard, M. (2013). Is there a cerebral lymphatic system? Nature Reviews Neurology.", url: "https://pubmed.ncbi.nlm.nih.gov/23709744/" },
-      { text: "Bredesen, D. E. (2014). Reversal of cognitive decline: A novel therapeutic programme. Aging (Albany NY).", url: "https://pubmed.ncbi.nlm.nih.gov/25324467/" },
-      { text: "Cunnane, S. C., et al. (2016). Can Ketones Help Rescue Brain Fuel Supply in Later Life? Frontiers in Molecular Neuroscience.", url: "https://pubmed.ncbi.nlm.nih.gov/27458340/" }
+      { text: 'World Health Organization. (2026). Risk reduction of cognitive decline and dementia: WHO guidelines, second edition.', url: 'https://www.who.int/publications/i/item/9789240123557' },
+      { text: 'Livingston, G., et al. (2024). Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. The Lancet, 404, 572–628.', url: 'https://pubmed.ncbi.nlm.nih.gov/39096926/' },
+      { text: 'Ngandu, T., et al. (2015). A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at risk older people: a randomised controlled trial. The Lancet, 385, 2255–2263.', url: 'https://pubmed.ncbi.nlm.nih.gov/25771249/' },
+      { text: 'Wang, X. T., et al. (2021). Association of subjective cognitive decline with risk of cognitive impairment and dementia: a systematic review and meta analysis of prospective longitudinal studies. Journal of Prevention of Alzheimer’s Disease, 8, 277–285.', url: 'https://pubmed.ncbi.nlm.nih.gov/34101784/' },
+      { text: 'Miao, A., et al. (2024). Brain clearance is reduced during sleep and anaesthesia. Nature Neuroscience, 27, 1046–1050.', url: 'https://www.nature.com/articles/s41593-024-01638-y' },
+      { text: 'Healthdirect Australia. Dementia: early signs, symptoms, treatment and statistics.', url: 'https://www.healthdirect.gov.au/dementia-overview' },
+      { text: 'Healthdirect Australia. Worried about your memory?', url: 'https://www.healthdirect.gov.au/worried-about-your-memory' }
     ],
     content: `
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
 
       <div style="background: linear-gradient(135deg, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0.05) 100%); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
         <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Your brain consumes 20% of your body's energy despite being only 2% of its mass. Cognitive decline begins decades before an MRI shows atrophy. The dual threat: starving neurons (poor fuel delivery via insulin resistance and glucose hypometabolism) and a clogged waste system (impaired glymphatic drainage during poor sleep). Fix both simultaneously: restore mitochondrial energy with targeted supplementation and optimise deep sleep to flush neurotoxic waste.</p>
-      </div>
-      
-      <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(32, 178, 170, 0.1) 100%); border-left: 4px solid #663399; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #663399; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">FEATURED: NEUROLONGEVITY</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">The inaugural article of our Neurolongevity series. Whether you're experiencing brain fog at 35 or worried about cognitive decline at 65, the underlying biology is often the same, and it is highly modifiable. Here's the science.</p>
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Brain fog is a description, not a diagnosis, and it is not the same as dementia. Poor sleep, stress, mood disorders, medicines, alcohol, infection, hormonal change and nutritional or medical problems can all affect concentration and memory. Progressive changes, difficulty with familiar tasks or concerns noticed by other people deserve a proper assessment. Dementia risk can be reduced, but no supplement stack has been shown to prevent Alzheimer's disease.</p>
       </div>
 
       <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/brain_fog_to_vitality_hero.webp" alt="Conceptual illustration of brain transformation from foggy decline to vibrant energy" style="width: 100%; height: auto; display: block;" loading="eager" />
+        <img src="/brain_fog_to_vitality_hero.webp" alt="Conceptual illustration representing changes in memory and mental clarity" style="width: 100%; height: auto; display: block;" loading="eager" />
         <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          From Fog to Flow: The difference between a starving brain and a nourished one
+          Brain fog and dementia are not points on one simple pathway.
         </p>
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        A frequent and challenging clinical presentation involves patients who maintain ostensibly healthy lifestyles but still experience insidious cognitive changes.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Consider a common scenario in longevity medicine: An individual presents with signs of early-onset cognitive decline—such as uncharacteristic forgetfulness noticed by a spouse—yet all standard laboratory panels return "normal." The patient may be physically active and present well, masking the underlying metabolic dysfunction.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When evaluating standard screens—full blood count, iron, thyroid function—no immediate anomalies are detected. The conventional, reactive approach often involves a neurological referral, an unremarkable MRI, and a preliminary diagnosis of early-stage dementia, offering little in the way of actionable intervention.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        However, applying a functional medicine lens reveals a different pathology. While this patient profile appears physically intact, their neurological architecture is likely experiencing profound energy deficits. Whether categorized clinically as "brain fog," age-related memory impairment, or early cognitive decline, the underlying biology is frequently identical: a brain that can no longer metabolize fuel efficiently.
+        Look, I'll be honest: “your brain is starving” makes a dramatic headline. It is also far too neat for real medicine.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science of the Starving Neuron</h2>
-
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Two seminal discoveries have fundamentally altered the clinical approach to neurodegenerative conditions:
+        In general practice, “brain fog” can mean slow thinking after a run of poor sleep, trouble finding words during perimenopause, medication effects, depression, anxiety, sleep apnoea, post viral illness or something else entirely. Sometimes the concern is temporary. Sometimes it is the first clue that a person needs a closer look.
       </p>
 
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. Type 3 Diabetes (The Starvation Mechanism)</h3>
-      
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Research by Dr. Suzanne de la Monte at Brown University identifies Alzheimer's as "Type 3 Diabetes". It is a state where the brain becomes insulin resistant, losing its ability to uptake glucose.
+        The useful question is not, “Which brain supplement should I take?” It is, “What has changed, how quickly, and is it affecting daily life?” That is less exciting than a stack, but it is far more useful.
       </p>
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/insulin_resistance_neuron.webp" alt="Microscopic view of insulin resistance in a neuron - glucose molecules unable to enter through locked insulin receptor doors" style="width: 100%; height: auto; display: block;" loading="lazy" />
-        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          The Locked Door: Glucose molecules surround a neuron but cannot enter due to dysfunctional insulin signalling
-        </p>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Brain Fog, Mild Cognitive Impairment and Dementia Are Different</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These terms are often blurred together online. Clinically, the distinctions matter:
+      </p>
+
+      <ul style="font-size: 1.08rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="margin-bottom: 0.9rem;"><strong>Brain fog</strong> is an informal description of poor concentration, slowed thinking, forgetfulness or mental fatigue. It does not identify a cause.</li>
+        <li style="margin-bottom: 0.9rem;"><strong>Subjective cognitive decline</strong> means a person feels that their thinking or memory has worsened even when standard testing may still be normal. It is associated with higher future risk in research, but it does not mean dementia is inevitable.</li>
+        <li style="margin-bottom: 0.9rem;"><strong>Mild cognitive impairment</strong> involves measurable changes that are greater than expected for age, while independence in everyday life is broadly preserved.</li>
+        <li style="margin-bottom: 0;"><strong>Dementia</strong> describes progressive cognitive impairment that interferes with everyday function. Alzheimer's disease is one cause; vascular disease, Lewy body disease, frontotemporal degeneration and other conditions can also cause dementia.</li>
+      </ul>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">When Cognitive Changes Need Assessment</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Book a GP appointment when memory or thinking changes are persistent, worsening, noticed by someone close to you, or beginning to interfere with work, medicines, finances, driving, cooking or other familiar tasks. Repeating questions, getting lost in familiar places, new language difficulty, poor judgement or marked personality change should not be explained away as “just ageing”.
+      </p>
+
+      <div style="background: rgba(220, 38, 38, 0.08); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.7;"><strong>Seek urgent medical help:</strong> Sudden confusion is not typical brain fog. If it appears abruptly, particularly with weakness, facial droop, speech difficulty, severe headache, fever, collapse or a major change in alertness, call 000 or seek emergency assessment.</p>
       </div>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Even if your blood sugar looks "normal" on a standard test, your neurons can be effectively starving to death because they can't access the energy they need.
+        Assessment is not simply a scan or a single blood test. A clinician may review the timeline, sleep, mood, alcohol, medicines and supplements; speak with someone who knows you well; perform cognitive and neurological assessment; and investigate relevant causes such as thyroid disease, vitamin B12 deficiency, infection or medication effects. The workup depends on the individual.
       </p>
 
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. The Glymphatic System (The Nightly Cleanse)</h3>
-      
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Metabolic Link Is Important, but It Is Not the Whole Diagnosis</h2>
+
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We used to think the brain had no waste-clearance system. Then, Dr. Maiken Nedergaard identified the Glymphatic System, a plumbing system that opens up while we sleep to flush out neurotoxic waste like amyloid-beta.
+        Diabetes, high blood pressure, abnormal cholesterol, smoking and other vascular risks are associated with dementia. Insulin signalling and glucose metabolism are also active areas of Alzheimer's research. That makes metabolic health relevant; it does not make every case of brain fog a starving neuron.
       </p>
 
-      <div style="margin: 3rem 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <img src="/glymphatic_system_sleep.webp" alt="Visualization of the glymphatic system - glowing blue plumbing network flushing debris from brain tissue during sleep" style="width: 100%; height: auto; display: block;" loading="lazy" />
-        <p style="padding: 1rem; background: #F8F9FA; color: var(--color-text-muted); font-size: 0.9rem; margin: 0; text-align: center; font-style: italic;">
-          The Nightly Cleanse: During deep sleep, the glymphatic system flushes neurotoxic debris from the brain
-        </p>
-      </div>
-
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If sleep is poor, the "drainage" fails, and the brain's "trash" builds up, accelerating decline.
+        “Type 3 diabetes” is a research nickname, not a recognised clinical diagnosis. A normal fasting glucose does not prove that the brain is insulin resistant, and a fasting insulin result does not diagnose Alzheimer's disease. Treat established diabetes and cardiovascular risk because doing so protects the brain, heart, kidneys and blood vessels—not because one biomarker reveals a hidden dementia pathway.
       </p>
 
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Resilience Protocol: How to Feed Your Brain</h2>
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Sleep Matters. The “Brain Wash” Story Is Too Simple</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Modern clinical protocols do not wait for MRI-visible atrophy before initiating treatment. The objective is to optimize cerebral metabolism immediately.
+        Sleep is essential for attention, memory, mood and physical health. Poor sleep can produce very real cognitive symptoms, and conditions such as sleep apnoea deserve assessment. The popular claim that deep sleep switches on a dishwasher that flushes amyloid from the human brain, however, goes beyond established clinical evidence.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Glymphatic research is evolving. Much of the original work was performed in animals, human measurement remains difficult, and a 2024 mouse study reported lower rather than higher clearance during sleep. The brain is not a blocked kitchen sink. Improve sleep because it supports health and daytime function, not because a particular position or supplement has been proven to wash dementia proteins away.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What Actually Supports Lower Dementia Risk?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The 2024 Lancet Commission estimated that addressing 14 modifiable factors could prevent or delay a substantial proportion of dementia at a population level. That estimate is not a personal guarantee, and not every factor is under individual control. It does show why brain health is much broader than supplements.
       </p>
 
       <div style="background: #F8F9FA; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Metabolic Rigor</h3>
-        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          We must move beyond "normal" labs. We aim for optimal fasting insulin and glucose to ensure the brain remains insulin-sensitive.
-        </p>
-
-        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">The Low-Carb/Ketogenic Shift</h3>
-        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          By reducing refined carbohydrates, we encourage the liver to produce ketones. Ketones are a "super-fuel" for the brain that can bypass insulin resistance, feeding those starving neurons directly.
-        </p>
-
-        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text); margin-top: 2rem;">Strategic Supplementation</h3>
-        <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
-          While levels must be monitored, these pillars are essential:
-        </p>
-        <ul style="font-size: 1.05rem; line-height: 1.7;">
-          <li style="margin-bottom: 0.75rem;"><strong>Creatine:</strong> Acts as a secondary energy battery for brain cells.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Magnesium (Threonate or Glycinate):</strong> Critical for synaptic density and deep, "cleansing" sleep.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Vitamin D3 + K2:</strong> To support neuro-immunology, aimed at the upper quartile of the reference range.</li>
+        <ul style="font-size: 1.05rem; line-height: 1.8; margin: 0; padding-left: 1.5rem;">
+          <li style="margin-bottom: 0.75rem;"><strong>Protect vascular health:</strong> identify and manage blood pressure, diabetes and LDL cholesterol with appropriate care.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Move regularly:</strong> combine aerobic activity, strength and less sedentary time at a level that is safe for you.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Do not smoke:</strong> seek evidence based cessation support if needed.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Keep alcohol modest:</strong> higher intake increases several health risks and can directly affect cognition.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Address hearing and vision:</strong> assessment and correction can support communication, independence and cognitive health.</li>
+          <li style="margin-bottom: 0.75rem;"><strong>Stay cognitively and socially engaged:</strong> meaningful activity and connection matter across the life course.</li>
+          <li style="margin-bottom: 0;"><strong>Look after sleep and mental health:</strong> treat sleep disorders and depression rather than trying to out supplement them.</li>
         </ul>
       </div>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The FINGER trial is a useful example of the evidence hierarchy. It tested a two year combination of diet, exercise, cognitive training and vascular risk monitoring in older adults at increased risk. The intervention produced a modest benefit in cognitive performance. It did not prove that one food, one laboratory target or one capsule prevents dementia.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What About Creatine, Magnesium, Lion's Mane and Omega 3?</h2>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        These products are often marketed using plausible mechanisms. That is not the same as showing that they prevent dementia. Creatine has established uses in sport and growing cognitive research, but it is not a dementia prevention treatment. Evidence for magnesium L threonate and Lion's Mane remains insufficient for that claim.
+      </p>
+
+      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        The 2026 WHO guideline does not recommend vitamins B or E, omega 3 supplements, or multivitamin and mineral products for dementia risk reduction in people without a diagnosed deficiency. Correct a deficiency when there is a clinical reason to do so. Do not turn an interesting mechanism into a universal prescription.
+      </p>
+
+      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">A Sensible Next Step</h2>
+
+      <ol style="font-size: 1.08rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 1.5rem;">
+        <li style="margin-bottom: 0.8rem;"><strong>Write down what is happening:</strong> note when it began, whether it fluctuates, what makes it better or worse, and which daily tasks are affected.</li>
+        <li style="margin-bottom: 0.8rem;"><strong>Review the basics:</strong> sleep, mood, alcohol, recent illness, hearing, vision, medicines and supplements can all provide clues.</li>
+        <li style="margin-bottom: 0.8rem;"><strong>Book an assessment:</strong> bring a medicine and supplement list. If possible, take someone who has noticed the changes.</li>
+        <li style="margin-bottom: 0;"><strong>Work on risk without waiting for certainty:</strong> movement, smoking cessation, cardiovascular care, social connection and a balanced diet are worthwhile even when every cause is not yet clear.</li>
+      </ol>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Takeaway</h2>
 
       <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We cannot wait for a diagnosis to start protecting our cognitive wealth. By the time an MRI shows "atrophy," the battle has been raging for decades. Whether you are sixty or thirty, the time to feed your brain and fix the "drainage" is tonight.
+        Brain fog is not automatically dementia, and dementia is not simply a brain that has run out of fuel. Persistent change deserves assessment because some causes are treatable and early support matters. At the end of the day, the best supported brain health strategy is not a dramatic detox or supplement stack. It is careful assessment plus the unglamorous work of protecting vascular, sensory, physical and mental health over time.
       </p>
 
-      <div style="background: linear-gradient(135deg, rgba(102, 51, 153, 0.1) 0%, rgba(255, 95, 0, 0.05) 100%); border: 2px solid #663399; padding: 2rem; margin: 3rem 0; border-radius: 12px; text-align: center;">
-        <p style="margin: 0; font-size: 1.3rem; font-weight: 700; color: #663399;">
-          Your brain is not declining. It's starving.
-        </p>
-        <p style="margin: 1rem 0 0 0; font-size: 1.1rem; color: var(--color-text-muted);">
-          Feed it. Cleanse it. Protect it.
-        </p>
-      </div>
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>The Foundation Reminder:</strong> Neuroprotection is not a pill. The most potent intervention for brain health is sleep: 7-9 hours of quality sleep allows the glymphatic system to clear amyloid-beta and tau proteins that accumulate during waking hours. Layer in 150 minutes of zone 2 cardio per week (walking, cycling, swimming) to boost cerebral blood flow and BDNF production. Reduce refined sugar to below 25g daily as chronic hyperglycaemia starves neurons of fuel. Only after these foundations are solid should you consider supplemental support.</p>
+      <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
+        <p style="margin: 0 0 0.75rem 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem;">Evidence and safety note</p>
+        <p style="margin: 0; font-size: 1rem; line-height: 1.7;">This article provides general education and cannot determine the cause of an individual's symptoms. It does not diagnose dementia or recommend a supplement, diet or treatment. Seek personalised assessment for persistent or progressive cognitive change.</p>
       </div>
 
-      
       <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
         <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em;">Related Reading</p>
         <ul style="margin: 0; padding-left: 1.5rem; font-size: 1rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-fog-cognitive-decline-the-science-of-the-starving-neuron" style="color: #20B2AA; text-decoration: none;">the starving neuron theory</a> — ATP depletion in the brain</li>
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/brain-fog-causes-why-your-brain-is-full-of-sewage-how-to-flush-it" style="color: #20B2AA; text-decoration: none;">how to flush your brain waste system</a> — glymphatic drainage</li>
-          <li style="margin-bottom: 0.5rem;"><a href="/blog/the-mit-discovery-that-reverses-brain-ageing" style="color: #20B2AA; text-decoration: none;">the MIT magnesium breakthrough</a> — synapse repair</li>
+          <li style="margin-bottom: 0.5rem;"><a href="/protocol#neurolongevity-stack" style="color: #20B2AA; text-decoration: none;">Cognitive health evidence and supplement limitations</a></li>
+          <li style="margin-bottom: 0;"><a href="/blog/creatine-and-nad-take-together-physician-guide" style="color: #20B2AA; text-decoration: none;">Creatine and NMN: what the evidence actually shows</a></li>
         </ul>
-      </div>
-<div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
-        <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">An Educational Framework</p>
-        <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.75rem;"><strong>Sleep:</strong> Prioritise 7-9 hours. Use blackout curtains, keep the room below 18°C, and avoid screens 1 hour before bed. Your glymphatic system operates almost exclusively during deep sleep.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Fuel:</strong> Magnesium L-Threonate (2g), Lion's Mane (500mg), and Omega-3 DHA (1g) daily. These directly support synaptic plasticity, neuronal membrane integrity, and mitochondrial function in the brain.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Test:</strong> Request fasting insulin (brain insulin resistance precedes Alzheimer's by decades), homocysteine (neurotoxic above 10), and Vitamin D (target 50-70 ng/mL for neuroprotection).</li>
-        </ol>
-      </div>
-
-    
-      
-      <!-- TOPIC CLUSTER -->
-      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
-        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
-      </div>
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This content is for educational and informational purposes only. It is not intended as medical advice and should not replace consultation with a qualified healthcare professional. Always consult your physician before starting any new supplement, diet, or exercise programme.
-        </p>
       </div>
 `
   },

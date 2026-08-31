@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "verify:creatine-nmn": "node scripts/verify-creatine-nmn-release.mjs",
+    "verify:brain-fog-dementia": "node scripts/verify-brain-fog-dementia-release.mjs",
     "vite:dev": "vite",
     "vite:build": "vite build"
   },
