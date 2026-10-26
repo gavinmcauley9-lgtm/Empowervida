@@ -136,20 +136,37 @@ The strongest approach is often less glamorous than the supplement advertising.
 
 None of this is a claim that lifestyle can cure autoimmune disease or replace medication. Modern anti-inflammatory and immune-modulating treatments have transformed outcomes for many people with conditions such as rheumatoid arthritis and inflammatory bowel disease. Dismissing them as 'mere symptom management' would be profoundly unfair to patients—and scientifically wrong.
 
-## The more useful way to think about inflammaging
+## Why this research gives us reason to be optimistic
 
-The idea that inflammation helps connect metabolism, immune function and ageing has changed how researchers ask questions. That's a genuine achievement.
+The most exciting part of the inflammation story is not the prospect of a universal anti-inflammatory pill. It is the growing ability to identify specific immune pathways and test whether changing them improves outcomes that matter to patients.
 
-The temptation is to take the next step too quickly: to treat every association as causation, every biomarker as a diagnosis and every antioxidant as a therapy.
+The CANTOS trial offered a powerful proof of principle in a carefully selected cardiovascular population: targeting an inflammatory pathway changed clinical events without lowering LDL cholesterol. That did not settle the question for every disease, and the safety trade-offs were real. But it opened an important door.
 
-Medicine progresses by resisting that temptation.
+Meanwhile, researchers are studying how immune ageing, senescent cells, metabolic health and tissue repair interact. Some ideas will fail when tested in people. Others may eventually reshape prevention or treatment. Both outcomes move the field forward.
 
-Inflammation can protect us. It can also harm us when dysregulated or persistent. In some diseases, targeting it improves outcomes. In others, the most promising mechanisms have not yet translated into reliable treatments.
+For anyone interested in living longer *and* living better, that's an energising prospect: a deeper understanding of biology could lead to more targeted care.
 
-That isn't a disappointing conclusion. It's a far more powerful one.
+## What you can do with this knowledge today
 
-It means we can take the science seriously without buying the myth of a single hidden fire behind every illness—or a single bottle capable of extinguishing it.
+**Protect the fundamentals.** Regular physical activity, not smoking, adequate sleep and a balanced dietary pattern support health through multiple pathways. You do not need to prove that each habit 'switches off inflammation' for it to be worth doing.
 
+**Treat real risk factors.** Blood pressure, LDL cholesterol, diabetes risk and established inflammatory conditions deserve attention because there are interventions with meaningful clinical evidence behind them.
+
+**Be curious, not alarmed, about biomarkers.** If hs-CRP is appropriate to a cardiovascular risk discussion, it can add context. It should not become a score you chase with supplements.
+
+**Investigate symptoms properly.** Persistent fatigue, joint pain or unexplained systemic symptoms are reasons for thoughtful clinical assessment, not a self-diagnosis of inflammaging.
+
+**Keep experimental treatments in their lane.** Methylene blue, antioxidant stacks and other fashionable interventions should not be promoted as established longevity therapies simply because their mechanisms sound promising.
+
+## The discoveries worth watching
+
+Three areas deserve particular attention: trials of targeted immune therapies in defined diseases; research on how cellular senescence interacts with inflammatory signalling; and better ways to distinguish harmful chronic inflammation from the immune responses we need.
+
+The goal is not to suppress the immune system indiscriminately. It is to understand when, where and for whom an intervention changes health outcomes.
+
+That is a far more hopeful future than a shelf full of 'fire extinguishers'.
+
+Inflammation is not the explanation for every illness. But learning to understand it—and, in the right circumstances, treat it more precisely—could be one of the important chapters in the story of healthier ageing.
 ---
 
 ## Landmark research and further reading
