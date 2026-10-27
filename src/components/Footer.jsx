@@ -157,7 +157,7 @@ const Footer = () => {
                     }}>
                         Legal & Privacy
                     </h4>
-                    <Link href="/terms" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
+                    <Link href="/terms-conditions" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
                     <Link href="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
                     <Link href="/affiliate-disclaimer" style={linkStyle}>[ AFFILIATE DISCLAIMER ]</Link>
                 </div>
@@ -200,7 +200,7 @@ const Footer = () => {
                 <span>© {new Date().getFullYear()} EmpowerVida. All Rights Reserved.</span>
                 <span style={{ opacity: 0.5 }}>|</span>
                 <Link
-                    href="/terms"
+                    href="/terms-conditions"
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',

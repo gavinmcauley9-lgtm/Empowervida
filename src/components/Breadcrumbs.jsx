@@ -21,8 +21,11 @@ const Breadcrumbs = () => {
         'about': 'About',
         'privacy': 'Privacy Policy',
         'terms': 'Terms & Conditions',
+        'terms-conditions': 'Terms & Conditions',
         'affiliate-disclaimer': 'Affiliate Disclaimer'
     };
+
+    const formatName = (name) => pathNameMap[name] || name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
 
     // Don't show breadcrumbs on homepage
     if (pathnames.length === 0) return null;
@@ -41,8 +44,8 @@ const Breadcrumbs = () => {
             ...pathnames.map((name, index) => ({
                 "@type": "ListItem",
                 "position": index + 2,
-                "name": pathNameMap[name] || name.charAt(0).toUpperCase() + name.slice(1),
-                "item": `https://empowervida.com/${pathnames.slice(0, index + 1).join('/')}`
+                "name": formatName(name),
+                "item": `https://empowervida.com/${pathnames.slice(0, index + 1).join('/')}/`
             }))
         ]
     };
@@ -58,7 +61,7 @@ const Breadcrumbs = () => {
             <nav
                 aria-label="Breadcrumb"
                 style={{
-                    padding: '1rem 2rem',
+                    padding: 'calc(80px + 1rem) 1rem 1rem',
                     backgroundColor: 'var(--color-bg-alt)',
                     borderBottom: '1px solid rgba(0,0,0,0.05)',
                     fontSize: '0.9rem'
@@ -71,7 +74,9 @@ const Breadcrumbs = () => {
                         margin: '0 auto',
                         display: 'flex',
                         alignItems: 'center',
-                        flexWrap: 'wrap',
+                        flexWrap: 'nowrap',
+                        minWidth: 0,
+                        overflow: 'hidden',
                         gap: '0.5rem'
                     }}
                 >
@@ -93,7 +98,7 @@ const Breadcrumbs = () => {
                     {pathnames.map((name, index) => {
                         const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
                         const isLast = index === pathnames.length - 1;
-                        const displayName = pathNameMap[name] || name.charAt(0).toUpperCase() + name.slice(1);
+                        const displayName = formatName(name);
 
                         return (
                             <React.Fragment key={routeTo}>
@@ -104,7 +109,11 @@ const Breadcrumbs = () => {
                                     <span
                                         style={{
                                             color: 'var(--color-text)',
-                                            fontWeight: '600'
+                                            fontWeight: '600',
+                                            minWidth: 0,
+                                            overflow: 'hidden',
+                                            textOverflow: 'ellipsis',
+                                            whiteSpace: 'nowrap'
                                         }}
                                         aria-current="page"
                                     >
