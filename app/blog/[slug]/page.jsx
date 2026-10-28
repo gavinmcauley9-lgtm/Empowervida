@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
           url: post.image ? `https://empowervida.com${post.image}` : 'https://empowervida.com/water_refraction.png',
           width: 1200,
           height: 630,
-          alt: post.title,
+          alt: post.imageAlt || post.title,
         },
       ],
     },
@@ -101,7 +101,7 @@ export default async function BlogPostPage({ params }) {
         {post.image && (
           <Image 
             src={post.image} 
-            alt={post.title} 
+            alt={post.imageAlt || post.title} 
             fill
             priority
             sizes="100vw"
