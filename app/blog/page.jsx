@@ -40,7 +40,7 @@ export default function BlogListing() {
                 <div style={{ position: 'relative', width: '100%', height: '200px' }}>
                   <Image 
                     src={post.image} 
-                    alt={post.title} 
+                    alt={post.imageAlt || post.title} 
                     fill
                     sizes="(max-width: 768px) 100vw, 300px"
                     style={{ objectFit: 'cover' }} 

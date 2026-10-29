@@ -91,7 +91,7 @@ export default function RelatedPosts({ currentPostId, currentCategory, count = 3
                                 }}>
                                     <img
                                         src={relatedPost.image}
-                                        alt={relatedPost.title}
+                                        alt={relatedPost.imageAlt || relatedPost.title}
                                         loading="lazy"
                                         style={{
                                             width: '100%',

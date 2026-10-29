@@ -139,7 +139,7 @@ export default function Blog() {
                             }}>
                                 <img
                                     src={filteredPosts[0].image}
-                                    alt={filteredPosts[0].title}
+                                    alt={filteredPosts[0].imageAlt || filteredPosts[0].title}
                                     loading="eager"
                                     style={{
                                         width: '100%',
@@ -258,7 +258,7 @@ export default function Blog() {
                                         <div style={{ display: 'block', width: '100%' }}>
                                             <img
                                                 src={post.image}
-                                                alt={post.title}
+                                                alt={post.imageAlt || post.title}
                                                 loading="lazy"
                                                 style={{
                                                     width: '100%',
