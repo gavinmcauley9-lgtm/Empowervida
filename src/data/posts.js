@@ -1466,153 +1466,91 @@ export const POSTS = [
   {
     id: 11,
     slug: 'blood-sugar-spikes-normal-fasting-glucose-danger',
-    title: 'Blood Sugar Spikes: Why "Normal" Fasting Glucose is Often Treated as a Medical Emergency',
+    title: 'Can Your Blood Sugar Be Normal While Your Metabolic Health Is Declining?',
     category: 'Metabolic Flexibility',
     image: '/glucose_chart_spikes.webp',
-    excerpt: "Your fasting glucose might be normal, but your post-meal spikes are secretly destroying your blood vessels. A physician explains why metabolic damage hides behind \"normal\" lab results.",
+    imageAlt: 'Illustrative line chart of blood glucose responses after meals; not a diagnostic trace.',
+    excerpt: 'A normal fasting glucose result is reassuring, but it cannot tell the whole metabolic story. What HbA1c, glucose tolerance tests and CGMs can—and cannot—reveal.',
     date: 'Mar 15, 2026',
-    cta: {
-      text: "View The Metabolic Protocol",
-      link: "/protocol#metabolic-stack"
-    },
+    cta: { text: "Explore Metabolic Health", link: "/protocol#metabolic-stack" },
     references: [
-      { text: "Ceriello, A. (2000). The post-prandial state and cardiovascular disease: relevance to diabetes mellitus. Diabetes/Metabolism Research and Reviews.", url: "https://pubmed.ncbi.nlm.nih.gov/10751744/" },
-      { text: "O'Keefe, J. H., et al. (2008). Postprandial hyperglycemia/hyperlipidemia (postprandial dysmetabolism) is a cardiovascular risk factor. The American Journal of Cardiology.", url: "https://pubmed.ncbi.nlm.nih.gov/18155980/" },
-      { text: "Parchman, M. L., et al. (2001). The evidence for a relationship between postprandial glucose and cardiovascular disease. Journal of Family Practice.", url: "https://pubmed.ncbi.nlm.nih.gov/11401569/" },
-      { text: "Hui, H., et al. (2009). Hypoglycemic herbs and their action mechanisms. Chinese Medicine.", url: "https://pubmed.ncbi.nlm.nih.gov/19476632/" }
+      { text: "American Diabetes Association. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026.", url: "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926" },
+      { text: "Australian Diabetes Society. HbA1c for Diagnosis of Diabetes Mellitus (2023).", url: "https://www.diabetessociety.com.au/guideline/hba1c-for-diagnosis-of-diabetes-mellitus-may-2023/" },
+      { text: "Engeroff T et al. Postprandial Exercise and Glycemic Response: Systematic Review and Meta-analysis (2023).", url: "https://pubmed.ncbi.nlm.nih.gov/36715875/" },
+      { text: "Slebe R et al. Timing of Exercise Relative to Meals and Glycaemia: Meta-analysis (2024).", url: "https://pubmed.ncbi.nlm.nih.gov/38548105/" },
+      { text: "Continuous glucose monitoring in non-diabetic populations: Systematic Review (2026).", url: "https://pubmed.ncbi.nlm.nih.gov/41588451/" }
     ],
     content: `
       <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">TL;DR</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">A "normal" fasting glucose test is misleading. Most metabolic damage—including arterial damage, brain fog, and chronic fatigue—happens during massive post-meal blood sugar spikes. These spikes act like microscopic shards of glass, scraping the lining of your blood vessels (the endothelium). Discover why continuous monitoring and targeted interventions like Berberine and Apple Cider Vinegar are essential to halt the silent damage.</p>
-      </div>
-
-      <div style="margin: 2rem 0; text-align: center;">
-        <img src="/glucose_chart_spikes.webp" alt="A clean, minimalist medical line chart showing stable glucose vs. a massive red spike" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
-      </div>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Note: The 8:00 AM Illusion</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Walk into any standard general practice for an annual check-up, and your doctor will reliably order a Fasting Blood Glucose test. You fasted for 12 hours, they draw the blood, and the result comes back at 90 mg/dL (or ~5.0 mmol/L). The doctor smiles, tells you that your blood sugar is "perfectly normal," and sends you on your way.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        As a physician who spent over a decade in frontline medicine before transitioning into Longevity Medicine, I see this interaction as one of the greatest failures of modern healthcare.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        It is common to observe individuals presenting with unexplained weight gain, severe afternoon fatigue, and profound brain fog, all while their fasting glucose sits perfectly within the "normal" reference range. When these patients are transitioned to a protocol involving continuous glucose monitoring, intermittent fasting, and targeted carbohydrate reduction, the improvement is often dramatic. The weight shifts, energy stabilizes, and cognitive clarity returns. Yet, standard fasting lab work would have missed their metabolic distress entirely. That is the illusion of the 8:00 AM blood draw.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        That fasting number is an illusion. It tells me what your blood sugar is when you are doing absolutely nothing, in a perfectly starved state. It tells me nothing about what happens to your body at 2:00 PM after you eat a supposedly "healthy" sandwich and a fruit smoothie.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">What Happens When You Spike? (The Micro-Shards of Glass)</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        A Continuous Glucose Monitor (CGM) changes everything. If we put a CGM on that same "perfectly normal" patient, we often see their blood sugar skyrocket to 180 or even 200 mg/dL after a carbohydrate-heavy meal.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Why does this matter if it eventually comes back down? Because of <strong>Endothelial Damage</strong>.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Think of your blood vessels as smooth, Teflon-coated pipes. The delicate inner lining is called the endothelium. When blood glucose spikes rapidly, it causes acute oxidative stress and glycation. In clinical terms, circulating high glucose acts like microscopic shards of glass, scraping and tearing at that smooth Teflon lining.
-      </p>
-
-      <div style="margin: 2rem 0; text-align: center;">
-        <img src="/endothelium_damage.webp" alt="3D render of a blood vessel showing glucose crystals scraping and damaging the endothelial lining" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" / loading="lazy">
-      </div>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The body tries to heal these micro-tears using cholesterol as a biological "plaster." Over decades, this constant cycle of spiking, tearing, and plastering leads to arterial plaque. By the time your fasting glucose finally creeps out of the "normal" range ten years later, the cardiovascular damage is already deeply established.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Insulin Cost: Hyperinsulinemia</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        There is a second reason these post-meal spikes are dangerous: <strong>The Insulin Crash.</strong>
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To force a massive spike of glucose out of your bloodstream, your pancreas has to hyper-secrete Insulin. Insulin is a fat-storage and growth hormone. High insulin puts a hard lock on your fat cells; you cannot lose weight while insulin is elevated. 
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Worse, that massive wave of insulin often overcorrects the problem. It shoves so much glucose into your cells that your blood sugar plummets below baseline. This reactive hypoglycemia happens about two hours after eating. You know this feeling intimately: it is the 3:00 PM brain fog, the sudden exhaustion, the desperate craving for coffee or a sugary snack.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Physician’s Protocol: Flattening the Curve</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        We don't just want a normal fasting number; we want a perfectly "flat" metabolic curve throughout the day. Here is how we engineer it:
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">1. The 10-Minute Walk</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Muscle is a glucose sink. But it only absorbs glucose independently of insulin when it is contracting. Walking for just 10 minutes immediately after a meal opens up the GLUT4 receptors in your leg muscles, soaking up the glucose spike before it can hit your bloodstream. Never sit at your desk immediately after lunch.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">2. Apple Cider Vinegar (Acetic Acid)</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Taking one tablespoon of ACV in a tall glass of water before a meal slows gastric emptying and inhibits alpha-amylase (the enzyme that breaks down carbs). Clinical studies show this simple habit can blunt a glucose spike by up to 30%.
-      </p>
-
-      <h3 style="font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem 0; color: var(--color-text);">3. Berberine: The "Metabolic Architect"</h3>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If you are eating a carbohydrate-heavy meal, Berberine is an incredibly powerful adjunctive tool. It activates AMPK (the cellular energy switch), forcing your cells to pull glucose out of the blood without requiring massive amounts of insulin. In numerous trials, Berberine has been shown to be as effective as pharmaceutical metformin in controlling post-prandial (post-meal) spikes. Educational frameworks often suggest 500mg taken 15-20 minutes before your largest meal of the day.
-      </p>
-      
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <em><a href="/blog/23" style="color: #20B2AA; text-decoration: none; border-bottom: 1px solid #20B2AA;">Read next: Why Your Normal Blood Work is Hiding a Metabolic Crisis &rarr;</a></em>
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Takeaway: Demand Real Data</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Do not be lulled into a false sense of security by a standard fasting lab test. If you suffer from afternoon fatigue, brain fog, or stubborn weight retention, you are likely experiencing violent blood sugar excursions throughout the day.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Protect your endothelium. Flatten the spike. By optimising your post-meal responses with movement and strategic supplementation, you safeguard your long-term cardiovascular and cognitive wealth.
-      </p>
-
-      <div style="background: rgba(32, 178, 170, 0.08); border: 1px solid rgba(32, 178, 170, 0.3); padding: 2rem; margin: 2rem 0; border-radius: 12px;">
-        <p style="margin: 0 0 1rem 0; font-weight: 700; color: #20B2AA; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">An Educational Framework</p>
-        <ol style="margin: 0; padding-left: 1.5rem; font-size: 1.05rem; line-height: 1.8;">
-          <li style="margin-bottom: 0.75rem;"><strong>Test:</strong> Ask your GP for a fasting insulin test alongside standard glucose and HbA1c. Calculate your HOMA-IR score (fasting insulin × fasting glucose ÷ 22.5). A HOMA-IR above 1.5 signals early insulin resistance, even with "normal" glucose.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Eat:</strong> Front-load protein and fat at every meal. Eat vegetables and protein first, carbohydrates last. This simple sequencing can significantly blunt glucose excursions. Eliminate liquid sugar entirely.</li>
-          <li style="margin-bottom: 0.75rem;"><strong>Move:</strong> Walk for 10 minutes after every meal. Post-meal walking reduces glucose spikes. Add resistance training 3x weekly to build your glucose "sink" (muscle tissue).</li>
-        </ol>
-      </div>
-
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Clinical Addendum</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before changing your diet or implementing supplements like Berberine, particularly if you are currently prescribed anti-diabetic medications or insulin, as this may increase the risk of hypoglycemia.
-        </p>
-      </div>
-    
-      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 12px;">
-        <h3 style="color: #20B2AA; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 1rem 0;">📚 Related Reading</h3>
-        <ul style="margin: 0; padding-left: 1.2rem; list-style: none;">
-        <li><a href="/blog/ageing-faster-than-friends-science-of-glycation" style="color: #20B2AA; text-decoration: underline;">Why You Are Ageing Faster: The Glycation Connection</a></li>
-        <li><a href="/blog/cellular-ageing-feel-60-at-40-nad-decline" style="color: #20B2AA; text-decoration: underline;">Why You Feel 60 at 40</a></li>
-        <li><a href="/blog/berberine-and-metformin-take-together-physician-guide" style="color: #20B2AA; text-decoration: underline;">Berberine vs Metformin: Physician Comparison</a></li>
-        </ul>
-      </div>
+      <h2>The blood test that doesn't tell the whole story</h2>
+      <p>Imagine two people who receive exactly the same fasting blood glucose result: 5.0 mmol/L. Both are told their result falls within the usual reference range. Yet one has excellent glucose regulation, while the other has difficulty handling a substantial glucose load.</p>
+      <p>Could that happen? Yes. And the reason is more interesting than the familiar online warning that every post-meal rise in glucose is damaging your arteries.</p>
+      <p>A fasting blood glucose test captures one moment in a dynamic system. It is useful, accessible and clinically validated. But glucose regulation involves what happens between meals, after meals and across weeks and months. No single test captures every dimension.</p>
+      <p>That is why clinicians may also consider HbA1c or, in selected circumstances, an oral glucose tolerance test. The important distinction is between <strong>recognising the limits of a test</strong> and declaring a normal result meaningless. The first is good medicine. The second is not.</p>
+      <h2>What happens to glucose after you eat?</h2>
+      <p>Carbohydrates are digested into sugars, including glucose, which enters the circulation. The pancreas releases insulin, helping tissues take up glucose and supporting the storage and use of energy. In a healthy system, blood glucose typically rises after a meal and then returns towards its previous level.</p>
+      <p>The shape of that response depends on more than whether a food is labelled &ldquo;healthy&rdquo;. Portion size, carbohydrate content, fibre, protein, fat, recent activity, sleep and individual physiology all influence it.</p>
+      <p>A rise in glucose after eating is therefore <strong>not automatically evidence of disease</strong>. Nor is the goal to achieve a perfectly flat line. The body is designed to respond to food.</p>
+      <p>In diabetes, persistent hyperglycaemia can damage blood vessels and organs through complex biological pathways involving oxidative stress, inflammatory signalling and other processes. But glucose does not turn into microscopic shards that scrape the artery wall. That image may be memorable; it is not accurate physiology.</p>
+      <h2>Why a normal fasting result can miss a problem</h2>
+      <p>Fasting glucose reflects the concentration of glucose after a period without caloric intake. It is particularly useful because the measurement is standardised and widely available.</p>
+      <p>However, some people have <strong>impaired glucose tolerance</strong>: their fasting value may be below the diagnostic threshold while their two-hour response to a standardised glucose drink is elevated.</p>
+      <p>The American Diabetes Association's 2026 Standards of Care explicitly recognise that fasting glucose, HbA1c and the two-hour oral glucose tolerance test identify overlapping—but not identical—groups of people. The oral glucose tolerance test can detect additional cases of prediabetes and diabetes that the other tests miss.</p>
+      <p>That does not mean everyone needs an oral glucose tolerance test. Testing should be guided by symptoms, medical history, risk factors, pregnancy-related considerations and clinical judgement.</p>
+      <h2>Three tests, three different questions</h2>
+      <p><strong>Fasting plasma glucose:</strong> What is your blood glucose after at least eight hours without calories? This is a snapshot, not a complete picture.</p>
+      <p><strong>HbA1c:</strong> What has your average glycaemic exposure looked like over approximately the preceding two to three months? HbA1c is convenient because fasting is not required, but it can be misleading in some conditions that affect red blood cells or haemoglobin.</p>
+      <p><strong>Oral glucose tolerance test (OGTT):</strong> How does your body handle a standardised 75-gram glucose challenge? A blood sample taken two hours later may identify impaired glucose tolerance that fasting testing does not show. The test takes more time and is not routinely necessary for everyone.</p>
+      <p>For orientation, widely used diagnostic thresholds for diabetes in non-pregnant adults include fasting plasma glucose at or above 7.0 mmol/L, HbA1c at or above 48 mmol/mol (6.5%), or two-hour OGTT glucose at or above 11.1 mmol/L. Unless hyperglycaemia is unequivocal, diagnosis requires confirmation. Thresholds and testing pathways should be interpreted in the relevant clinical context.</p>
+      <p>The lesson is not to distrust routine pathology. It is to choose the right test for the question being asked.</p>
+      <h2>What about insulin resistance?</h2>
+      <p>Insulin resistance means that certain tissues respond less effectively to insulin. The pancreas may compensate by producing more insulin, sometimes maintaining glucose within a normal range for a considerable period.</p>
+      <p>That helps explain why metabolic health cannot always be reduced to one fasting glucose number.</p>
+      <p>But insulin resistance is not diagnosed reliably by an internet calculator alone. HOMA-IR, which combines fasting insulin and glucose, is used extensively in research. Its interpretation varies with populations, assays and clinical settings; a universal cut-off such as 1.5 is not an established diagnostic rule for individual patients.</p>
+      <p>Nor does an elevated insulin level mean that fat loss becomes biologically impossible. Insulin influences fuel use and temporarily suppresses fat breakdown, but longer-term body-weight change involves energy balance, appetite, activity, sleep, medication effects and many other factors.</p>
+      <p>If you have risk factors such as a strong family history, central adiposity, a history of gestational diabetes or abnormal lipids, discussing an appropriate metabolic assessment with your clinician is more useful than chasing a single insulin number.</p>
+      <h2>Do post-meal spikes cause cardiovascular disease?</h2>
+      <p>Long-term hyperglycaemia is clearly associated with complications in diabetes. Researchers have also investigated whether post-meal glucose excursions independently contribute to vascular risk.</p>
+      <p>The biology is plausible, and some observational findings are concerning. But it is a substantial leap from those observations to claiming that every glucose peak in a person without diabetes is silently tearing their arteries apart.</p>
+      <p>Cardiovascular risk is multifactorial. Blood pressure, smoking, LDL cholesterol, physical activity, genetics, diabetes status and overall diet all matter. An isolated consumer-device glucose trace is not a substitute for assessing those established risks.</p>
+      <p>A balanced message is both more accurate and more empowering: take genuine metabolic abnormalities seriously, but do not mistake normal physiology for damage.</p>
+      <h2>Should everyone wear a continuous glucose monitor?</h2>
+      <p>Continuous glucose monitors (CGMs) can be transformative for some people living with diabetes, particularly when treatment decisions depend on recognising high and low glucose patterns.</p>
+      <p>They are also fascinating devices. Seeing how glucose changes after different meals can feel like receiving a live dashboard of your metabolism.</p>
+      <p>Yet more data is not always better care.</p>
+      <p>For people without diabetes, the evidence that routine CGM use improves long-term health outcomes is limited. Sensors measure glucose in interstitial fluid rather than directly in blood, readings have measurement uncertainty and time lag, and there is no universally validated &ldquo;perfect curve&rdquo; for healthy people to pursue.</p>
+      <p>The ADA's 2026 diagnostic guidance states that evidence is insufficient to use CGM to screen for or diagnose prediabetes or diabetes.</p>
+      <p>If someone has symptoms or risk factors, validated laboratory tests remain the starting point. A CGM may have a specific role in selected clinical situations, but it should not be marketed as essential for everyone who wants to age well.</p>
+      <h2>What about the 3 pm slump?</h2>
+      <p>Fatigue after lunch is real, but it is not a diagnosis. Sleep debt, circadian rhythms, meal size, stress, medications, dehydration and numerous medical conditions can contribute.</p>
+      <p>Reactive hypoglycaemia can occur, but it should not be presumed from tiredness or cravings alone. Clinically significant hypoglycaemia is evaluated in the context of symptoms and a documented low glucose measurement, with attention to whether symptoms improve when glucose is corrected.</p>
+      <p>Persistent fatigue, dizziness, sweating, confusion or other concerning symptoms deserve an individual assessment rather than a self-prescribed supplement protocol.</p>
+      <h2>The everyday habits that actually help</h2>
+      <p>There is encouraging news: the fundamentals of metabolic health do not require an expensive sensor or a cabinet full of supplements.</p>
+      <p><strong>Move after meals.</strong> Even a short walk can reduce the size of a post-meal glucose rise, and regular physical activity improves insulin sensitivity over time. Choose a duration that fits your circumstances; ten minutes is a practical starting point, not a magic threshold.</p>
+      <p><strong>Build meals around quality, not fear.</strong> Fibre-rich vegetables, legumes, whole grains, fruit, nuts and appropriate sources of protein can support a healthier dietary pattern. Combining carbohydrate-rich foods with fibre, protein and unsaturated fats may alter the immediate glucose response, but the bigger objective is sustainable nutritional quality.</p>
+      <p><strong>Include resistance training.</strong> Skeletal muscle plays a major role in glucose disposal. Strength training supports muscle mass, physical function and metabolic health, particularly as we age.</p>
+      <p><strong>Protect sleep.</strong> Poor or insufficient sleep can adversely affect glucose regulation and appetite. Consistent sleep habits are a meaningful part of prevention.</p>
+      <p><strong>Address established risk factors.</strong> Blood pressure, lipids, smoking, body composition and family history often tell us more about long-term cardiovascular risk than the height of a single post-meal peak.</p>
+      <p>These are not spectacular interventions. That is part of their strength: they can be practised for years.</p>
+      <h2>Do vinegar or berberine belong in the plan?</h2>
+      <p>Small studies have explored whether vinegar changes post-meal glucose responses. Some results are promising, but study designs, populations and effects vary. Vinegar is not an established substitute for diabetes prevention or treatment, and acidic drinks may cause dental or gastrointestinal problems.</p>
+      <p>Berberine has also been studied for glucose regulation, including in people with type 2 diabetes. However, supplement quality, trial methodology, drug interactions and adverse effects complicate the evidence. It is not appropriate to present berberine as interchangeable with metformin or recommend a universal pre-meal dose to otherwise healthy readers.</p>
+      <p>For an Australian physician-authored publication, specific therapeutic claims and dosing advice about supplements require particular care. The strongest recommendation here is to discuss treatment options with a qualified clinician rather than self-prescribing based on a glucose graph.</p>
+      <h2>When should you ask for further testing?</h2>
+      <p>If you have a history of gestational diabetes, a strong family history of type 2 diabetes, other metabolic risk factors, or symptoms suggestive of hyperglycaemia, ask your GP which screening test is appropriate.</p>
+      <p>Depending on the situation, that might mean fasting plasma glucose, HbA1c or an OGTT. It may also mean looking at the broader picture: blood pressure, lipids, waist circumference, medications, sleep and activity.</p>
+      <p>A normal test can be reassuring without being the end of every conversation. Equally, one unexpected reading does not establish a diagnosis.</p>
+      <h2>The real opportunity</h2>
+      <p>Metabolic health is not a competition to produce the flattest possible glucose trace.</p>
+      <p>It is about understanding risk early enough to act, using tests that answer meaningful clinical questions, and building habits that improve health over the long term.</p>
+      <p>A normal fasting glucose result is valuable information. Sometimes it is sufficient. Sometimes it is one piece of a larger puzzle.</p>
+      <p>The optimistic part is that we do not need to turn every meal into a medical emergency to take prevention seriously. Better questions, appropriate testing and sustainable changes can take us much further than fear.</p>
+      <p><em>Educational information only. Speak with your healthcare professional about individual symptoms, tests or treatments.</em></p>
     `
   },
   {
-    id: 12,
+
     slug: 'sun-phobia-spf-vitamin-d-mood',
     title: 'The Sunscreen–Vitamin D Dilemma: What the Science Says About Sunlight, Mood and Health',
     category: 'Neuro-Optimization',
