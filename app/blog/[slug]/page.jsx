@@ -192,6 +192,16 @@ export default async function BlogPostPage({ params }) {
 
       {/* Content Body */}
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 2rem' }}>
+        <style>{`
+          .blog-content a {
+            color: var(--color-accent-teal);
+            text-decoration: underline;
+            display: inline !important;
+            min-height: 0 !important;
+            min-width: 0 !important;
+            word-break: break-word;
+          }
+        `}</style>
         <div 
           className="blog-content"
           style={{ fontSize: '1.2rem', lineHeight: '1.8' }}
