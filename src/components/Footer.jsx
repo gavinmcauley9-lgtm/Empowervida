@@ -219,17 +219,7 @@ const Footer = () => {
                     Privacy
                 </Link>
                 <span style={{ opacity: 0.5 }}>|</span>
-                <Link
-                    href="/affiliate-disclaimer"
-                    style={{
-                        color: 'inherit',
-                        textDecoration: 'underline',
-                        opacity: 0.8
-                    }}
-                >
-                    Affiliate Disclaimer
-                </Link>
-                <span style={{ opacity: 0.5 }}>|</span>
+                
                 <button
                     onClick={() => window.dispatchEvent(new Event('openCookieSettings'))}
                     style={{
