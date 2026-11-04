@@ -165,21 +165,7 @@ const AdvancedOptimization = () => {
                     }}>
                         Ready to Optimise?
                     </h2>
-                    <Link href="/shop" style={{
-                        display: 'inline-block',
-                        padding: '1rem 3rem',
-                        backgroundColor: '#FF5F00',
-                        color: '#FFFFFF',
-                        textDecoration: 'none',
-                        fontWeight: 700,
-                        fontSize: '1.1rem',
-                        borderRadius: '4px',
-                        letterSpacing: '0.05em',
-                        transition: 'all 0.3s ease',
-                        border: '1px solid #FF5F00'
-                    }}>
-                        BOOK A CONSULT
-                    </Link>
+                    
 
                     <p style={{
                         fontSize: '0.85rem',
