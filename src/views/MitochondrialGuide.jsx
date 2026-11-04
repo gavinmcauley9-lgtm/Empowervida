@@ -690,18 +690,7 @@ const MitochondrialGuide = () => {
                             <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)', marginBottom: '1rem' }}>
                                 Recommendation: Timeline Nutrition (Mitopure)
                             </p>
-                            <a href="https://geni.us/urolithin-a" target="_blank" rel="noopener noreferrer" style={{
-                                display: 'inline-block',
-                                background: '#0096C7',
-                                color: '#fff',
-                                padding: '0.75rem 1.5rem',
-                                borderRadius: '6px',
-                                textDecoration: 'none',
-                                fontSize: '0.9rem',
-                                fontWeight: 600
-                            }}>
-                                Check Price
-                            </a>
+                            
                         </div>
 
                         {/* Card 2: PQQ */}
@@ -751,18 +740,7 @@ const MitochondrialGuide = () => {
                             <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)', marginBottom: '1rem' }}>
                                 Recommendation: Jarrow Formulas PQQ
                             </p>
-                            <a href="https://geni.us/gZB1H" target="_blank" rel="noopener noreferrer" style={{
-                                display: 'inline-block',
-                                background: '#0096C7',
-                                color: '#fff',
-                                padding: '0.75rem 1.5rem',
-                                borderRadius: '6px',
-                                textDecoration: 'none',
-                                fontSize: '0.9rem',
-                                fontWeight: 600
-                            }}>
-                                Check Price
-                            </a>
+                            
                         </div>
 
                         {/* Card 3: NAD+ */}
@@ -812,18 +790,7 @@ const MitochondrialGuide = () => {
                             <p style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--color-text-muted)', marginBottom: '1rem' }}>
                                 Recommendation: Tru Niagen (300mg)
                             </p>
-                            <a href="https://geni.us/v8Dd0" target="_blank" rel="noopener noreferrer" style={{
-                                display: 'inline-block',
-                                background: '#0096C7',
-                                color: '#fff',
-                                padding: '0.75rem 1.5rem',
-                                borderRadius: '6px',
-                                textDecoration: 'none',
-                                fontSize: '0.9rem',
-                                fontWeight: 600
-                            }}>
-                                Check Price
-                            </a>
+                            
                         </div>
 
                         {/* Card 4: Bio-Fisetin */}
@@ -903,18 +870,7 @@ const MitochondrialGuide = () => {
                             }}>
                                 <strong>Form:</strong> Liposomal Bio-Fisetin (25x better absorption)
                             </p>
-                            <a href="https://amzn.to/3B0z7Qx" target="_blank" rel="noopener noreferrer" style={{
-                                display: 'inline-block',
-                                background: '#0096C7',
-                                color: '#fff',
-                                padding: '0.75rem 1.5rem',
-                                borderRadius: '6px',
-                                textDecoration: 'none',
-                                fontSize: '0.9rem',
-                                fontWeight: 600
-                            }}>
-                                Check Price
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
