@@ -3069,8 +3069,9 @@ export const POSTS = [
     title: 'Taurine and Longevity: What the 2023–2026 Research Really Shows',
     category: 'Metabolic Flexibility',
     image: '/taurine_cell_rejuvenation.png',
+    imageAlt: 'Scientific illustration of a cell representing research into taurine and healthy ageing',
     excerpt: 'Taurine helped mice live longer in a remarkable 2023 experiment. But human research challenges the simple deficiency story, while a 2026 study reveals a fascinating link to inflammation. Here is what the evidence actually shows.',
-    date: 'Nov 4, 2026',
+    date: '2026-11-04',
     cta: {
       text: "Explore EmpowerVida's Longevity Resources",
       link: "/protocol#longevity-stack"
