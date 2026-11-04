@@ -160,7 +160,6 @@ export default function Privacy() {
                     </p>
                     <ul style={listStyle}>
                         <li><strong>Analytics Providers:</strong> Google Analytics, Facebook Pixel</li>
-                        <li><strong>Affiliate Networks:</strong> When you click on affiliate links</li>
                     </ul>
                 </section>
 
@@ -175,7 +174,6 @@ export default function Privacy() {
                         <li><strong>To communicate with you:</strong> Send newsletters, updates, and respond to inquiries</li>
                         <li><strong>To analyze website usage:</strong> Understand how visitors use our site to improve user experience</li>
                         <li><strong>To comply with legal obligations:</strong> Respond to legal requests and prevent fraud</li>
-                        <li><strong>To manage affiliate relationships:</strong> Track affiliate link clicks and commissions (no personal data sold to affiliates)</li>
                     </ul>
                 </section>
 
@@ -284,10 +282,8 @@ export default function Privacy() {
                         We use an email service provider (to be specified) to manage our newsletter and email communications. Your email address will be stored securely by our provider.
                     </p>
 
-                    <h3 style={subheadingStyle}>6.3 Affiliate Programs</h3>
-                    <p style={paragraphStyle}>
-                        Our website contains affiliate links to various third-party retailers. When you click on these links, the affiliate network may collect information about your visit. We do not share your personal information with affiliate partners. We may earn a commission if you make a purchase through these links, at no additional cost to you.
-                    </p>
+                    <h3 style={subheadingStyle}>6.3 Previous Commercial Links</h3>
+                    <p style={paragraphStyle}>Affiliate links have been suspended. Links used before suspension may have been processed by third-party referral networks under their applicable privacy policies.</p>
                 </section>
 
                 {/* Section 7: Data Sharing and Disclosure */}
