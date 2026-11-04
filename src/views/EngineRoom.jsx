@@ -149,10 +149,6 @@ const EngineRoom = () => {
                             <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1rem', color: '#000000' }}>The Nuance:</strong>
                             <p style={{ fontSize: '1rem', lineHeight: '1.5', margin: 0, fontStyle: 'italic', color: '#444' }}>"{card.nuance}"</p>
                         </div>
-
-                        <a href={card.link} className="btn-primary" style={{ width: '100%', textAlign: 'center', display: 'block' }}>
-                            View Source
-                        </a>
                     </motion.div>
                 ))}
 
