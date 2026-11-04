@@ -155,3 +155,42 @@ The optimistic part is that we do not need to turn every meal into a medical eme
 - Remove berberine dosage, metformin equivalence, HOMA-IR 1.5 threshold and CGM-for-everyone recommendations.
 - Check all references, internal links and structured metadata; test 320/375/390 widths and desktop.
 - Keep draft isolated on `review/blood-glucose-evidence-rewrite`. **Do not merge or publish without explicit approval.**
+
+
+---
+
+# Revised editorial direction — insulin-centred feature (4 November 2026)
+
+**Status:** Approved direction for next revision; NOT yet approved for publication. Preserve post ID 11 and existing slug to avoid unnecessary SEO disruption. This is the working editorial brief; the existing post remains unchanged pending full rewrite and verification.
+
+## Working headline
+
+**Insulin Resistance: The Hidden Metabolic Problem — and What You Can Do About It**
+
+**Reader promise:** Explain what insulin actually does, why a normal glucose result may miss early metabolic dysfunction, and what human evidence shows about improving insulin sensitivity. Accessible to readers without scientific training, with practical optimism and no fear-based claims.
+
+## Proposed narrative structure
+
+1. **Opening:** Two people with similar fasting glucose may have different insulin sensitivity. Avoid suggesting that identical calorie intake necessarily causes different fat gain solely because of insulin.
+2. **Insulin explained:** Pancreatic beta cells, glucose uptake into skeletal muscle, suppression of hepatic glucose production, glycogen storage, suppression of adipose lipolysis, and anabolic functions. Clarify that insulin is a fat-storage hormone *and* much more; its short-term effects do not override long-term energy balance.
+3. **What insulin resistance is:** Reduced tissue responsiveness; compensatory hyperinsulinaemia can maintain normal glucose for years. Distinguish tissue-specific resistance and avoid simplistic linear models.
+4. **Why it develops:** Genetics, excess visceral/ectopic fat, inactivity, sleep, medications and other factors. Explain bidirectional relationships and avoid implying weight alone defines metabolic health.
+5. **Why two people respond differently:** Energy intake versus expenditure, appetite, muscle mass, spontaneous activity, thermogenesis, genetics, and insulin sensitivity. Do not claim that insulin resistance by itself proves different fat gain under matched energy balance.
+6. **What it can mean for health:** Prediabetes/type 2 diabetes risk, fatty liver/MASLD, dyslipidaemia and cardiovascular risk; distinguish associations from causality.
+7. **Can insulin resistance improve or reverse?** Exercise (aerobic and resistance, including benefits independent of weight loss), loss of excess visceral/liver fat where relevant, dietary quality, adequate sleep and appropriate clinical treatment. Use 'improve substantially' rather than promise reversal for everyone. Separate insulin-sensitivity improvement, normoglycaemia and type 2 diabetes remission.
+8. **Fasting and dietary comparisons:** Intermittent fasting/time-restricted eating can help some people, but test whether benefits exceed those from matched energy restriction. Do not overclaim a unique fasting effect.
+9. **Evidence in humans:** Discuss Diabetes Prevention Program (58% relative reduction in diabetes incidence with intensive lifestyle intervention over ~2.8 years in high-risk adults), making clear this is a diabetes-incidence endpoint, not direct proof of universal insulin-resistance reversal. Explain limits of short-term mechanistic metabolic-ward studies.
+10. **Testing wisely:** Fasting glucose, HbA1c, OGTT, appropriate risk assessment; HOMA-IR not a universal diagnostic test; CGM not routine screening for people without diabetes. Australian clinical context and diagnostic caveats.
+11. **Practical action plan:** Regular movement and strength training, dietary pattern, sleep, tobacco cessation, risk-factor management; achievable actions without rigid prescriptions or supplement marketing.
+12. **Conclusion:** Metabolic health is modifiable; focus on meaningful outcomes, not a perfectly flat glucose graph.
+
+## Accuracy and editorial safeguards
+
+- No statement that insulin resistance alone explains why two people eating the same calories necessarily gain different amounts of fat.
+- No statement that carbohydrate or insulin reduction makes energy balance irrelevant.
+- No invented first-person patient stories, unsupported prevalence estimates or claims of guaranteed reversal.
+- Distinguish observational, mechanistic, randomised surrogate-endpoint and long-term clinical-outcome evidence.
+- Keep the existing article's accurate OGTT/HbA1c/CGM explanations but subordinate them to the new insulin narrative.
+- Verify ADA 2026 and Australian sources, DPP primary paper, exercise and fasting RCTs/systematic reviews, supplement regulatory claims, images, metadata, internal links and mobile layout before integrating.
+- Final article should be human, engaging and understandable without medical training; define terms on first use.
+- Maintain review branch isolation; no merge/deployment without explicit user approval.
