@@ -3070,7 +3070,7 @@ export const POSTS = [
     category: 'Metabolic Flexibility',
     image: '/taurine_cell_rejuvenation.png',
     excerpt: 'Taurine helped mice live longer in a remarkable 2023 experiment. But human research challenges the simple deficiency story, while a 2026 study reveals a fascinating link to inflammation. Here is what the evidence actually shows.',
-    date: 'Jan 10, 2026',
+    date: 'Nov 4, 2026',
     cta: {
       text: "Explore EmpowerVida's Longevity Resources",
       link: "/protocol#longevity-stack"
@@ -3084,8 +3084,8 @@ export const POSTS = [
     ],
     content: `
       <p><strong>By Dr Gavin McAuley | EMPOWERVIDA</strong></p>
-      <p>What if a molecule already present in our bodies could help researchers understand why we age? In 2023, a striking experiment suggested exactly that. Mice given taurine lived longer, and scientists observed improvements in several measures associated with ageing. The finding deserved attention. It also raised a question that remains unanswered: <strong>could any of this translate into longer, healthier human lives?</strong></p>
-      <p>Since then, the story has become more complicated—and arguably more interesting. New research has challenged a central part of the original hypothesis. That is not science failing. It is science doing its job.</p>
+      <p>In 2023, a remarkable experiment made headlines: mice given taurine lived longer. For a moment, a compound already found in our bodies looked like a possible new lead in the search for healthier ageing. But then came the twist. In 2025, researchers challenged the idea that taurine levels inevitably fall as we get older. And in October 2026, another team uncovered a surprising connection between taurine and the immune system's inflammatory alarm.</p>
+      <p>So was the original excitement misplaced—or are scientists finally getting closer to understanding what taurine actually does? The answer is more interesting than a simple yes or no. <strong>The animal findings are promising, but we still do not know whether taking taurine helps people live longer.</strong></p>
       <h2>First, what is taurine?</h2>
       <p>Taurine is a sulphur-containing compound found naturally in the body and in foods such as fish, shellfish, meat and dairy. It helps regulate processes including bile salt formation, cellular calcium handling and aspects of nervous-system and mitochondrial function. Unlike caffeine, taurine is not a stimulant. Its presence in energy drinks should not be confused with evidence that those drinks promote longevity.</p>
       <h2>The 2023 experiment that sparked the excitement</h2>
