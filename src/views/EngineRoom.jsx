@@ -11,28 +11,28 @@ const EngineRoom = () => {
             subtitle: "The Fuel Injector",
             mechanism: "The shuttle that transports fatty acids into the mitochondria to be burned.",
             nuance: "We use the Acetyl form because it crosses the blood-brain barrier to support cognitive energy.",
-            link: "https://amzn.to/3XTdwbX" // Assuming generic search or reusing a link if known, using placeholder or Protocol link for now. User said "View Source", I'll use a generic # or the protocol link if I can find it. I'll use the Creatine link as a placeholder or just # for now since I don't have all specific links for these exact new items except what's in Protocol. Actually, I'll use the Protocol links where they match (Creatine, CoQ10, Magnesium). For others, I'll use a placeholder.
+            link: null,
         },
         {
             title: "CoQ10 Ubiquinol",
             subtitle: "The Engine Oil",
             mechanism: "A critical component of the Electron Transport Chain. Without it, the assembly line stops.",
             nuance: "Must be Ubiquinol (active form), not Ubiquinone. Statin drugs deplete this rapidly.",
-            link: "https://amzn.to/44kS03A" // Matches Protocol
+            link: null,
         },
         {
             title: "Magnesium Malate/Glycinate",
             subtitle: "The Stabilizer",
             mechanism: "ATP must bind to a magnesium ion to be biologically active (Mg-ATP).",
             nuance: "Malate is preferred for energy (Krebs cycle); Glycinate is preferred for sleep.",
-            link: "https://amzn.to/3M5OSCl" // Matches Protocol
+            link: null,
         },
         {
             title: "Creatine Monohydrate",
             subtitle: "The Buffer",
             mechanism: "Recycles used energy (ADP) back into usable energy (ATP) rapidly.",
             nuance: "Not just for muscles. It is the primary energy buffer for the brain during high-demand tasks.",
-            link: "https://amzn.to/3XTdwbX" // Matches Protocol
+            link: null,
         },
         {
             title: "NAC",
