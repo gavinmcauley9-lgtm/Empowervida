@@ -535,22 +535,7 @@ const DiagnosticsPortal = () => {
                         The Empowervida approach is systematic: measure, intervene, remeasure. Biological optimisation is not guesswork. It is architecture.
                     </p>
 
-                    <Link href="/shop" style={{
-                        display: 'inline-block',
-                        background: 'var(--color-accent-teal)',
-                        color: '#FFFFFF',
-                        padding: '1.25rem 2.5rem',
-                        borderRadius: '8px',
-                        textDecoration: 'none',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em',
-                        fontSize: '1.1rem',
-                        boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                        transition: 'all 0.3s ease'
-                    }}>
-                        View Nutrient Protocols →
-                    </Link>
+                    
                 </div>
             </section>
 
