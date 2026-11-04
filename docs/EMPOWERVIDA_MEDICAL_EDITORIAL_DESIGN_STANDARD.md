@@ -28,3 +28,11 @@ The scientific credibility of a medical publication, the visual sophistication o
 ## First reference implementation
 Insulin Resistance: The Hidden Metabolic Problem — and What You Can Do About It.
 The current preview's overly busy glucose-testing SVG should move into the diagnostics section; replace the hero with calm imagery and high-contrast category label. Improve paragraph/heading spacing and breadcrumb title. This is a pending implementation, not yet completed.
+
+## Mandatory article opening summary — “In 30 Seconds”
+- Every new EmpowerVida blog article must include an “In 30 Seconds” summary immediately after the standfirst/introduction and before the main body.
+- Use three or four concise, plain-English takeaways: what readers need to know, why it matters, and practical implications where supported by evidence.
+- Make each summary specific to its article, clinically accurate, non-sensational and accessible to readers without scientific training.
+- Design as a restrained, high-contrast editorial element with generous spacing, not a loud coloured callout. Ensure mobile readability.
+- Add to existing articles progressively during their scheduled editorial reviews; do not automatically rewrite or publish unreviewed posts.
+- Do not mistake the summary for medical advice or overstate early-stage evidence.
