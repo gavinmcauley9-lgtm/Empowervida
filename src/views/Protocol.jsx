@@ -1028,39 +1028,7 @@ const Protocol = () => {
             <FAQSection data={faqData} />
 
             {/* Final CTA */}
-            <section style={{
-                padding: '6rem 2rem',
-                textAlign: 'center',
-                marginTop: '4rem'
-            }}>
-                <h2 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '2rem', color: 'var(--color-text)' }}>
-                    Ready to Upgrade Your Biology?
-                </h2>
-                <Link href="/shop" style={{
-                    display: 'inline-block',
-                    padding: '1.2rem 3rem',
-                    background: 'var(--color-accent-teal)',
-                    color: '#FFFFFF',
-                    fontSize: '1.2rem',
-                    fontWeight: 800,
-                    letterSpacing: '0.05em',
-                    textDecoration: 'none',
-                    borderRadius: '8px',
-                    boxShadow: '0 4px 15px rgba(32, 178, 170, 0.3)',
-                    transition: 'all 0.2s ease'
-                }}
-                    onMouseEnter={(e) => {
-                        e.currentTarget.style.transform = 'translateY(-2px)';
-                        e.currentTarget.style.boxShadow = '0 6px 20px rgba(32, 178, 170, 0.4)';
-                    }}
-                    onMouseLeave={(e) => {
-                        e.currentTarget.style.transform = 'translateY(0)';
-                        e.currentTarget.style.boxShadow = '0 4px 15px rgba(32, 178, 170, 0.3)';
-                    }}
-                >
-                    EXPLORE OPTIONS
-                </Link>
-            </section>
+            
 
             
         </div>
