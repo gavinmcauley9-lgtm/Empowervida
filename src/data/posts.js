@@ -1375,87 +1375,87 @@ export const POSTS = [
   {
     id: 11,
     slug: 'blood-sugar-spikes-normal-fasting-glucose-danger',
-    title: 'Can Your Blood Sugar Be Normal While Your Metabolic Health Is Declining?',
+    title: 'Insulin Resistance: The Hidden Metabolic Problem — and What You Can Do About It',
     category: 'Metabolic Flexibility',
     image: '/blood-glucose-tests.svg',
     imageAlt: 'Conceptual comparison of fasting glucose, HbA1c and oral glucose tolerance testing; not patient data.',
-    excerpt: 'A normal fasting glucose result is reassuring, but it cannot tell the whole metabolic story. What HbA1c, glucose tolerance tests and CGMs can—and cannot—reveal.',
-    date: 'Mar 15, 2026',
+    excerpt: 'What insulin really does, why resistance can develop despite normal blood sugar, and how exercise, nutrition and sleep can improve metabolic health.',
+    date: '2026-11-04',
     cta: { text: "Explore Metabolic Health", link: "/protocol#metabolic-stack" },
     references: [
-      { text: "American Diabetes Association. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026.", url: "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926" },
-      { text: "Australian Diabetes Society. HbA1c for Diagnosis of Diabetes Mellitus (2023).", url: "https://www.diabetessociety.com.au/guideline/hba1c-for-diagnosis-of-diabetes-mellitus-may-2023/" },
-      { text: "Engeroff T et al. Postprandial Exercise and Glycemic Response: Systematic Review and Meta-analysis (2023).", url: "https://pubmed.ncbi.nlm.nih.gov/36715875/" },
-      { text: "Slebe R et al. Timing of Exercise Relative to Meals and Glycaemia: Meta-analysis (2024).", url: "https://pubmed.ncbi.nlm.nih.gov/38548105/" },
-      { text: "Continuous glucose monitoring in non-diabetic populations: Systematic Review (2026).", url: "https://pubmed.ncbi.nlm.nih.gov/41588451/" }
+      { text: 'Diabetes Prevention Program Research Group (2002). Reduction in the Incidence of Type 2 Diabetes with Lifestyle Intervention or Metformin.', url: 'https://pubmed.ncbi.nlm.nih.gov/11832527/' },
+      { text: 'American Diabetes Association (2026). Diagnosis and Classification of Diabetes: Standards of Care.', url: 'https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926' },
+      { text: 'Hall KD et al. (2015). Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction.', url: 'https://pubmed.ncbi.nlm.nih.gov/26278052/' },
+      { text: 'Liu D et al. (2022). Calorie Restriction with or without Time-Restricted Eating in Weight Loss.', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2114833' },
+      { text: 'Effect of Isocaloric, Time-Restricted Eating on Body Weight (2024).', url: 'https://pubmed.ncbi.nlm.nih.gov/38639542/' },
+      { text: 'Engeroff T et al. (2023). Postprandial Exercise and Glycemic Response: Systematic Review and Meta-analysis.', url: 'https://pubmed.ncbi.nlm.nih.gov/36715875/' },
+      { text: 'Slebe R et al. (2024). Timing of Exercise Relative to Meals and Glycaemia: Meta-analysis.', url: 'https://pubmed.ncbi.nlm.nih.gov/38548105/' },
+      { text: 'CPAP and glucose and lipid profiles in obstructive sleep apnoea: systematic review and meta-analysis (2023).', url: 'https://pubmed.ncbi.nlm.nih.gov/37024342/' }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      <h2>The blood test that doesn't tell the whole story</h2>
-      <p>Imagine two people who receive exactly the same fasting blood glucose result: 5.0 mmol/L. Both are told their result falls within the usual reference range. Yet one has excellent glucose regulation, while the other has difficulty handling a substantial glucose load.</p>
-      <p>Could that happen? Yes. And the reason is more interesting than the familiar online warning that every post-meal rise in glucose is damaging your arteries.</p>
-      <p>A fasting blood glucose test captures one moment in a dynamic system. It is useful, accessible and clinically validated. But glucose regulation involves what happens between meals, after meals and across weeks and months. No single test captures every dimension.</p>
-      <p>That is why clinicians may also consider HbA1c or, in selected circumstances, an oral glucose tolerance test. The important distinction is between <strong>recognising the limits of a test</strong> and declaring a normal result meaningless. The first is good medicine. The second is not.</p>
-      <h2>What happens to glucose after you eat?</h2>
-      <p>Carbohydrates are digested into sugars, including glucose, which enters the circulation. The pancreas releases insulin, helping tissues take up glucose and supporting the storage and use of energy. In a healthy system, blood glucose typically rises after a meal and then returns towards its previous level.</p>
-      <p>The shape of that response depends on more than whether a food is labelled &ldquo;healthy&rdquo;. Portion size, carbohydrate content, fibre, protein, fat, recent activity, sleep and individual physiology all influence it.</p>
-      <p>A rise in glucose after eating is therefore <strong>not automatically evidence of disease</strong>. Nor is the goal to achieve a perfectly flat line. The body is designed to respond to food.</p>
-      <p>In diabetes, persistent hyperglycaemia can damage blood vessels and organs through complex biological pathways involving oxidative stress, inflammatory signalling and other processes. But glucose does not turn into microscopic shards that scrape the artery wall. That image may be memorable; it is not accurate physiology.</p>
-      <h2>Why a normal fasting result can miss a problem</h2>
-      <p>Fasting glucose reflects the concentration of glucose after a period without caloric intake. It is particularly useful because the measurement is standardised and widely available.</p>
-      <p>However, some people have <strong>impaired glucose tolerance</strong>: their fasting value may be below the diagnostic threshold while their two-hour response to a standardised glucose drink is elevated.</p>
-      <p>The American Diabetes Association's 2026 Standards of Care explicitly recognise that fasting glucose, HbA1c and the two-hour oral glucose tolerance test identify overlapping—but not identical—groups of people. The oral glucose tolerance test can detect additional cases of prediabetes and diabetes that the other tests miss.</p>
-      <p>That does not mean everyone needs an oral glucose tolerance test. Testing should be guided by symptoms, medical history, risk factors, pregnancy-related considerations and clinical judgement.</p>
-      <h2>Three tests, three different questions</h2>
-      <p><strong>Fasting plasma glucose:</strong> What is your blood glucose after at least eight hours without calories? This is a snapshot, not a complete picture.</p>
-      <p><strong>HbA1c:</strong> What has your average glycaemic exposure looked like over approximately the preceding two to three months? HbA1c is convenient because fasting is not required, but it can be misleading in some conditions that affect red blood cells or haemoglobin.</p>
-      <p><strong>Oral glucose tolerance test (OGTT):</strong> How does your body handle a standardised 75-gram glucose challenge? A blood sample taken two hours later may identify impaired glucose tolerance that fasting testing does not show. The test takes more time and is not routinely necessary for everyone.</p>
-      <p>For orientation, widely used diagnostic thresholds for diabetes in non-pregnant adults include fasting plasma glucose at or above 7.0 mmol/L, HbA1c at or above 48 mmol/mol (6.5%), or two-hour OGTT glucose at or above 11.1 mmol/L. Unless hyperglycaemia is unequivocal, diagnosis requires confirmation. Thresholds and testing pathways should be interpreted in the relevant clinical context.</p>
-      <p>The lesson is not to distrust routine pathology. It is to choose the right test for the question being asked.</p>
-      <h2>What about insulin resistance?</h2>
-      <p>Insulin resistance means that certain tissues respond less effectively to insulin. The pancreas may compensate by producing more insulin, sometimes maintaining glucose within a normal range for a considerable period.</p>
-      <p>That helps explain why metabolic health cannot always be reduced to one fasting glucose number.</p>
-      <p>But insulin resistance is not diagnosed reliably by an internet calculator alone. HOMA-IR, which combines fasting insulin and glucose, is used extensively in research. Its interpretation varies with populations, assays and clinical settings; a universal cut-off such as 1.5 is not an established diagnostic rule for individual patients.</p>
-      <p>Nor does an elevated insulin level mean that fat loss becomes biologically impossible. Insulin influences fuel use and temporarily suppresses fat breakdown, but longer-term body-weight change involves energy balance, appetite, activity, sleep, medication effects and many other factors.</p>
-      <p>If you have risk factors such as a strong family history, central adiposity, a history of gestational diabetes or abnormal lipids, discussing an appropriate metabolic assessment with your clinician is more useful than chasing a single insulin number.</p>
-      <h2>Do post-meal spikes cause cardiovascular disease?</h2>
-      <p>Long-term hyperglycaemia is clearly associated with complications in diabetes. Researchers have also investigated whether post-meal glucose excursions independently contribute to vascular risk.</p>
-      <p>The biology is plausible, and some observational findings are concerning. But it is a substantial leap from those observations to claiming that every glucose peak in a person without diabetes is silently tearing their arteries apart.</p>
-      <p>Cardiovascular risk is multifactorial. Blood pressure, smoking, LDL cholesterol, physical activity, genetics, diabetes status and overall diet all matter. An isolated consumer-device glucose trace is not a substitute for assessing those established risks.</p>
-      <p>A balanced message is both more accurate and more empowering: take genuine metabolic abnormalities seriously, but do not mistake normal physiology for damage.</p>
-      <h2>Should everyone wear a continuous glucose monitor?</h2>
-      <p>Continuous glucose monitors (CGMs) can be transformative for some people living with diabetes, particularly when treatment decisions depend on recognising high and low glucose patterns.</p>
-      <p>They are also fascinating devices. Seeing how glucose changes after different meals can feel like receiving a live dashboard of your metabolism.</p>
-      <p>Yet more data is not always better care.</p>
-      <p>For people without diabetes, the evidence that routine CGM use improves long-term health outcomes is limited. Sensors measure glucose in interstitial fluid rather than directly in blood, readings have measurement uncertainty and time lag, and there is no universally validated &ldquo;perfect curve&rdquo; for healthy people to pursue.</p>
-      <p>The ADA's 2026 diagnostic guidance states that evidence is insufficient to use CGM to screen for or diagnose prediabetes or diabetes.</p>
-      <p>If someone has symptoms or risk factors, validated laboratory tests remain the starting point. A CGM may have a specific role in selected clinical situations, but it should not be marketed as essential for everyone who wants to age well.</p>
-      <h2>What about the 3 pm slump?</h2>
-      <p>Fatigue after lunch is real, but it is not a diagnosis. Sleep debt, circadian rhythms, meal size, stress, medications, dehydration and numerous medical conditions can contribute.</p>
-      <p>Reactive hypoglycaemia can occur, but it should not be presumed from tiredness or cravings alone. Clinically significant hypoglycaemia is evaluated in the context of symptoms and a documented low glucose measurement, with attention to whether symptoms improve when glucose is corrected.</p>
-      <p>Persistent fatigue, dizziness, sweating, confusion or other concerning symptoms deserve an individual assessment rather than a self-prescribed supplement protocol.</p>
-      <h2>The everyday habits that actually help</h2>
-      <p>There is encouraging news: the fundamentals of metabolic health do not require an expensive sensor or a cabinet full of supplements.</p>
-      <p><strong>Move after meals.</strong> Even a short walk can reduce the size of a post-meal glucose rise, and regular physical activity improves insulin sensitivity over time. Choose a duration that fits your circumstances; ten minutes is a practical starting point, not a magic threshold.</p>
-      <p><strong>Build meals around quality, not fear.</strong> Fibre-rich vegetables, legumes, whole grains, fruit, nuts and appropriate sources of protein can support a healthier dietary pattern. Combining carbohydrate-rich foods with fibre, protein and unsaturated fats may alter the immediate glucose response, but the bigger objective is sustainable nutritional quality.</p>
-      <p><strong>Include resistance training.</strong> Skeletal muscle plays a major role in glucose disposal. Strength training supports muscle mass, physical function and metabolic health, particularly as we age.</p>
-      <p><strong>Protect sleep.</strong> Poor or insufficient sleep can adversely affect glucose regulation and appetite. Consistent sleep habits are a meaningful part of prevention.</p>
-      <p><strong>Address established risk factors.</strong> Blood pressure, lipids, smoking, body composition and family history often tell us more about long-term cardiovascular risk than the height of a single post-meal peak.</p>
-      <p>These are not spectacular interventions. That is part of their strength: they can be practised for years.</p>
-      <h2>Do vinegar or berberine belong in the plan?</h2>
-      <p>Small studies have explored whether vinegar changes post-meal glucose responses. Some results are promising, but study designs, populations and effects vary. Vinegar is not an established substitute for diabetes prevention or treatment, and acidic drinks may cause dental or gastrointestinal problems.</p>
-      <p>Berberine has also been studied for glucose regulation, including in people with type 2 diabetes. However, supplement quality, trial methodology, drug interactions and adverse effects complicate the evidence. It is not appropriate to present berberine as interchangeable with metformin or recommend a universal pre-meal dose to otherwise healthy readers.</p>
-      <p>For an Australian physician-authored publication, specific therapeutic claims and dosing advice about supplements require particular care. The strongest recommendation here is to discuss treatment options with a qualified clinician rather than self-prescribing based on a glucose graph.</p>
-      <h2>When should you ask for further testing?</h2>
-      <p>If you have a history of gestational diabetes, a strong family history of type 2 diabetes, other metabolic risk factors, or symptoms suggestive of hyperglycaemia, ask your GP which screening test is appropriate.</p>
-      <p>Depending on the situation, that might mean fasting plasma glucose, HbA1c or an OGTT. It may also mean looking at the broader picture: blood pressure, lipids, waist circumference, medications, sleep and activity.</p>
-      <p>A normal test can be reassuring without being the end of every conversation. Equally, one unexpected reading does not establish a diagnosis.</p>
-      <h2>The real opportunity</h2>
-      <p>Metabolic health is not a competition to produce the flattest possible glucose trace.</p>
-      <p>It is about understanding risk early enough to act, using tests that answer meaningful clinical questions, and building habits that improve health over the long term.</p>
-      <p>A normal fasting glucose result is valuable information. Sometimes it is sufficient. Sometimes it is one piece of a larger puzzle.</p>
-      <p>The optimistic part is that we do not need to turn every meal into a medical emergency to take prevention seriously. Better questions, appropriate testing and sustainable changes can take us much further than fear.</p>
-      <p><em>Educational information only. Speak with your healthcare professional about individual symptoms, tests or treatments.</em></p>
+
+<p><strong>By Dr Gavin McAuley | EmpowerVida</strong></p>
+<p><em>Two people can have identical blood-sugar results while their bodies work very differently to achieve them. Here is what insulin really does, why resistance develops, and what the best human evidence tells us about improving metabolic health.</em></p>
+<h2>The blood test that doesn't tell the whole story</h2>
+<p>Imagine two people whose fasting blood glucose is 5.0 mmol/L. Both receive reassuring results. Yet one may have excellent insulin sensitivity while the other's pancreas needs to release considerably more insulin to keep glucose in the same range.</p>
+<p>That is possible because blood glucose measures the result of a complex regulatory system, not how hard that system is working. Insulin resistance can develop before fasting glucose becomes abnormal. But a normal result is still useful: it should not be dismissed or treated as evidence of a hidden disease.</p>
+<p>To understand why this matters, we need to understand insulin itself.</p>
+<h2>Insulin is more than a blood-sugar hormone</h2>
+<p>Insulin is produced by beta cells in the pancreas. After we eat, especially carbohydrate-containing food, blood glucose typically rises and insulin helps coordinate the response.</p>
+<p><strong>In muscle,</strong> insulin encourages glucose uptake and storage as glycogen. <strong>In the liver,</strong> it helps suppress glucose production and promotes energy storage. <strong>In fat tissue,</strong> it suppresses the release of stored fatty acids. Insulin also participates in protein metabolism and other essential functions.</p>
+<p>So is insulin a fat-storage hormone? Yes—but that is only part of the story. Insulin favours storage after meals, while lower insulin between meals allows greater mobilisation of stored energy. This switching is normal physiology, not a defect.</p>
+<p>Claims that insulin alone determines whether we gain or lose body fat go too far. Long-term changes in body fat reflect energy intake, expenditure, appetite, activity and multiple hormonal signals. Insulin influences those processes; it does not make energy balance irrelevant.</p>
+<h2>What exactly is insulin resistance?</h2>
+<p>Insulin resistance means that certain tissues respond less effectively to insulin's signals. The pancreas may compensate by producing more insulin, maintaining normal glucose for years. This is sometimes called compensatory hyperinsulinaemia.</p>
+<p>Insulin resistance is not identical in every tissue. Muscle may become less effective at taking up glucose; the liver may inadequately suppress glucose production; fat tissue may handle stored energy differently. Over time, some people develop impaired glucose tolerance, prediabetes or type 2 diabetes when insulin secretion can no longer meet demand. Others do not.</p>
+<p>That is why the absence of diabetes does not automatically mean optimal metabolic health—and why insulin resistance should not be diagnosed from a single symptom or internet calculator.</p>
+<h2>Why does insulin resistance develop?</h2>
+<p>There is no single cause. Genetics, physical inactivity, ageing, sleep disruption, certain medicines and medical conditions can all contribute. Excess visceral fat—the fat surrounding abdominal organs—and fat deposited within the liver or muscle are especially relevant in many people.</p>
+<p>These fat deposits can accompany changes in cellular signalling that make tissues less responsive to insulin. But the relationship is not one-way: metabolic dysfunction can influence where energy is stored, and people of similar weight may have very different metabolic profiles.</p>
+<p>Skeletal muscle offers an important opportunity. It is a major site of glucose disposal, and muscle contractions can increase glucose uptake through pathways that are partly independent of insulin. This helps explain why exercise improves glucose handling even before substantial weight loss occurs.</p>
+<h2>Why do two people eating the same calories gain different amounts of weight?</h2>
+<p>Suppose two people both eat 2,500 calories a day. One maintains their weight and the other gains. It is tempting to blame the second person's insulin levels. But identical calorie intake does not mean identical energy balance.</p>
+<p>Resting energy expenditure, muscle mass, spontaneous movement, digestion, thermogenesis, genetics and appetite regulation differ between individuals. Insulin sensitivity may be one part of that picture, but insulin resistance alone does not establish that the same energy surplus produces more fat gain.</p>
+<p>A tightly controlled metabolic-ward study by Kevin Hall and colleagues found that reducing dietary carbohydrate lowered insulin more than reducing fat, yet did not produce greater body-fat loss over the short experimental periods when calories were controlled. The study was small and short, so it cannot settle every dietary question; it does challenge the idea that lowering insulin automatically overrides energy balance.</p>
+<p>Low-carbohydrate diets can still help many people, particularly if they make it easier to eat well and sustain an appropriate energy intake. They are one option, not a metabolic loophole.</p>
+<h2>Why insulin resistance matters beyond blood sugar</h2>
+<p>Insulin resistance frequently travels alongside other cardiometabolic risk factors: increased waist circumference, excess liver fat, raised triglycerides, lower HDL cholesterol and high blood pressure. These abnormalities can increase the likelihood of type 2 diabetes and cardiovascular disease.</p>
+<p>But association does not mean insulin resistance single-handedly causes every one of these conditions. Smoking, LDL cholesterol, blood pressure, family history and overall fitness remain central to risk assessment. The useful insight is that improving metabolic health often means addressing several risks together.</p>
+<h2>Can insulin resistance be reversed?</h2>
+<p>Often, insulin sensitivity can improve substantially—and sometimes return towards a normal range. The extent and durability of improvement depend on the cause, the person and the changes they can maintain.</p>
+<p>Three outcomes are worth separating: <strong>improving insulin sensitivity</strong>, <strong>normalising glucose tests</strong>, and <strong>achieving type 2 diabetes remission</strong>. They overlap but are not interchangeable. No single diet, supplement or exercise programme guarantees all three.</p>
+<h3>1. Move more—and use your muscles</h3>
+<p>Aerobic exercise and resistance training both support insulin sensitivity. Brisk walking, cycling and swimming improve fitness; strength training helps maintain the muscle tissue that handles much of our glucose. Benefits can occur without major changes on the scales.</p>
+<p>A short walk after eating may reduce the immediate glucose rise, although studies disagree about whether exercise after meals is consistently superior to exercising beforehand. A ten-minute walk is a practical starting point, not a magic prescription. Regular activity matters more than achieving a perfect glucose trace.</p>
+<h3>2. Reduce excess visceral and liver fat when relevant</h3>
+<p>For people with excess abdominal or liver fat, sustained weight reduction can improve insulin sensitivity and glucose regulation. Some liver-metabolism changes occur relatively quickly; durable improvements depend on maintaining the underlying changes. Not everyone with insulin resistance is overweight, however, and weight alone is not a diagnosis.</p>
+<h3>3. Choose a dietary pattern you can sustain</h3>
+<p>There is no single proven 'insulin resistance diet'. Mediterranean-style eating patterns, fibre-rich vegetables, legumes, fruit, whole grains, nuts and appropriate protein sources offer a sensible foundation. Some people find reducing refined carbohydrates useful; others do better with different approaches.</p>
+<p>The key is nutritional quality, an appropriate energy intake and long-term adherence—not fear of every post-meal insulin rise. For people taking glucose-lowering medication, substantial dietary changes may require clinical guidance.</p>
+<h3>4. Treat sleep as part of metabolic health</h3>
+<p>Insufficient or fragmented sleep can worsen glucose regulation and make appetite management harder. One particularly important and sometimes overlooked condition is <strong>obstructive sleep apnoea</strong>, in which the upper airway repeatedly narrows or collapses during sleep.</p>
+<p>Sleep apnoea and excess weight can reinforce each other. Repeated oxygen dips and sleep disruption may contribute to insulin resistance; excess weight can worsen airway obstruction. Randomised-trial reviews suggest that CPAP treatment produces modest improvements in some insulin-resistance measures, but it does not consistently improve HbA1c or cause weight loss.</p>
+<p>Loud habitual snoring, witnessed breathing pauses, waking unrefreshed or significant daytime sleepiness deserve assessment. Sleep apnoea can also occur in people who are not overweight. We will explore its cardiovascular and hormonal consequences in a dedicated EmpowerVida feature.</p>
+<h3>5. What about intermittent fasting?</h3>
+<p>Time-restricted eating can be a useful structure for some people. Longer periods without food lower circulating insulin temporarily, but that alone does not prove fasting has unique long-term benefits.</p>
+<p>In a 12-month randomised trial, adding an eight-hour eating window to calorie restriction did not produce significantly greater weight loss than calorie restriction alone. A smaller controlled-feeding trial likewise found no additional weight or glucose benefit when calorie intake was matched. Other studies report improvements in selected metabolic markers, so the picture is not entirely settled.</p>
+<p>Fasting is an option, not an obligation. People taking insulin or medicines that can cause hypoglycaemia, pregnant people and those with a history of eating disorders should seek individual advice rather than experimenting independently.</p>
+<h2>The human trial that gives us genuine reason for optimism</h2>
+<p>In the landmark Diabetes Prevention Program, 3,234 adults at high risk of type 2 diabetes were assigned to intensive lifestyle intervention, metformin or placebo. The lifestyle programme targeted at least 7% weight loss and 150 minutes of physical activity weekly.</p>
+<p>Over an average of 2.8 years, the lifestyle group had <strong>58% fewer new diabetes diagnoses relative to placebo</strong>. That is a relative risk reduction in a specific high-risk population—not a promise that everyone can reverse insulin resistance. But it is compelling evidence that sustained lifestyle changes can alter an important clinical outcome.</p>
+<h2>How can you tell whether you have a problem?</h2>
+<p>Routine tests answer different questions. <strong>Fasting plasma glucose</strong> measures glucose after a fast. <strong>HbA1c</strong> reflects average glycaemic exposure over roughly two to three months, although certain blood disorders can affect accuracy. A <strong>75-gram oral glucose tolerance test</strong> can reveal impaired glucose tolerance that fasting testing misses.</p>
+<p>For non-pregnant adults, widely used diabetes thresholds include fasting plasma glucose of at least 7.0 mmol/L, HbA1c of at least 48 mmol/mol (6.5%), or two-hour glucose of at least 11.1 mmol/L on an OGTT. Diagnosis generally requires confirmation unless hyperglycaemia is unequivocal. Your clinician should interpret results using appropriate Australian guidance and your individual circumstances.</p>
+<p>Fasting insulin and HOMA-IR are useful in research, but there is no universally accepted cut-off that diagnoses insulin resistance in every individual. Likewise, the American Diabetes Association's 2026 guidance finds insufficient evidence to use continuous glucose monitors to screen for or diagnose prediabetes or diabetes.</p>
+<p>CGMs are valuable in diabetes care, but healthy people do not need to chase a perfectly flat glucose curve. Normal rises after eating are part of normal physiology.</p>
+<h2>What should you do next?</h2>
+<p>If you have a family history of type 2 diabetes, previous gestational diabetes, increased waist circumference, high blood pressure, abnormal lipids or symptoms of hyperglycaemia, discuss appropriate testing with your GP. A good assessment looks beyond glucose alone.</p>
+<p>Meanwhile, build on the interventions with the strongest foundations: move regularly, strengthen your muscles, eat nutritious foods you enjoy, protect sleep, avoid smoking and manage established cardiovascular risk factors. Supplements such as berberine or vinegar should not replace proven prevention or treatment, and claims of universal 'insulin-reset' effects are not justified.</p>
+<h2>The real opportunity</h2>
+<p>Insulin is not the villain of the metabolic story. It is an essential hormone that allows us to use and store energy. Insulin resistance is not a moral failing, and it is not always visible on a routine blood test.</p>
+<p>But metabolic health is often modifiable. Muscles respond to movement. Liver metabolism can respond to changes in energy balance. Better sleep and sustained lifestyle changes can make a meaningful difference. For people at high risk, those changes can substantially reduce the likelihood of developing type 2 diabetes.</p>
+<p><strong>The goal is not to eliminate insulin spikes. It is to build a body that responds well to insulin—and habits that support health for years to come.</strong></p>
+<p><em>Educational information only. This article is not a substitute for individual medical advice, diagnosis or treatment.</em></p>
     `
   },
   {
