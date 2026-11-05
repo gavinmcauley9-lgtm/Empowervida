@@ -96,36 +96,45 @@ export default async function BlogPostPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       
-      {/* Hero Header */}
-      <div style={{ position: 'relative', height: '50vh', width: '100%', overflow: 'hidden' }}>
+      {/* Shared, accessible hero for every article: stable contrast and responsive type. */}
+      <header className="article-hero" style={{ position: 'relative', width: '100%', isolation: 'isolate', overflow: 'hidden', backgroundColor: '#14352f' }}>
         {post.image && (
-          <Image 
-            src={post.image} 
-            alt={post.imageAlt || post.title} 
+          <Image
+            src={post.image}
+            alt={post.imageAlt || post.title}
             fill
             priority
             sizes="100vw"
-            style={{ objectFit: 'cover', opacity: 0.7 }} 
+            style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -2 }}
           />
         )}
-        <div style={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          width: '100%',
-          padding: '4rem 2rem',
-          background: 'linear-gradient(transparent, rgba(0,0,0,0.9))'
-        }}>
-          <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <span style={{ color: 'var(--color-accent-teal)', textTransform: 'uppercase', fontWeight: 'bold' }}>
-              {post.category}
-            </span>
-            <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'white', margin: '1rem 0' }}>
-              {post.title}
-            </h1>
-          </div>
+        <div aria-hidden="true" style={{
+          position: 'absolute', inset: 0, zIndex: -1,
+          background: 'linear-gradient(90deg, rgba(5,24,23,0.88) 0%, rgba(5,24,23,0.74) 58%, rgba(5,24,23,0.58) 100%)'
+        }} />
+        <div className="article-hero-inner" style={{ maxWidth: '960px', width: '100%', margin: '0 auto', position: 'relative' }}>
+          <span style={{
+            display: 'inline-block', color: '#FFFFFF', backgroundColor: '#116E65',
+            padding: '0.45rem 0.75rem', borderRadius: '5px', textTransform: 'uppercase',
+            fontWeight: 800, letterSpacing: '0.09em', fontSize: '0.8rem', lineHeight: 1.5
+          }}>
+            {post.category}
+          </span>
+          <h1 className="article-hero-title" style={{ color: '#FFFFFF', margin: '1.25rem 0 0', fontWeight: 800, letterSpacing: '-0.025em', lineHeight: 1.13, overflowWrap: 'break-word' }}>
+            {post.title}
+          </h1>
         </div>
-      </div>
+      </header>
+      <style>{`
+        .article-hero { min-height: 340px; display: flex; align-items: flex-end; }
+        .article-hero-inner { padding: clamp(5rem, 9vw, 7rem) 2rem clamp(2rem, 4vw, 3.5rem); }
+        .article-hero-title { font-size: clamp(2rem, 3.3vw, 3.15rem); max-width: 900px; }
+        @media (max-width: 600px) {
+          .article-hero { min-height: 300px; }
+          .article-hero-inner { padding: 5rem 1.25rem 2rem; }
+          .article-hero-title { font-size: clamp(1.75rem, 7vw, 2.4rem); }
+        }
+      `}</style>
 
       {/* ── AUTHOR BYLINE ── E-E-A-T signal for Google */}
       <div style={{ maxWidth: '800px', margin: '2.5rem auto 0', padding: '0 2rem' }}>
