@@ -23,11 +23,9 @@ const AdvancedOptimization = lazy(() => import('./pages/AdvancedOptimization'));
 const EnvironmentalDefense = lazy(() => import('./pages/EnvironmentalDefense'));
 const Protocol = lazy(() => import('./pages/Protocol'));
 const EngineRoom = lazy(() => import('./pages/EngineRoom'));
-const Shop = lazy(() => import('./pages/Shop'));
 const MitochondrialGuide = lazy(() => import('./pages/MitochondrialGuide'));
 const LongevityGuide = lazy(() => import('./pages/LongevityGuide'));
 const Privacy = lazy(() => import('./pages/Privacy'));
-const AffiliateDisclaimer = lazy(() => import('./pages/AffiliateDisclaimer'));
 const TermsConditions = lazy(() => import('./pages/TermsConditions'));
 const InsulinStory = lazy(() => import('./pages/InsulinStory'));
 const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
@@ -131,12 +129,10 @@ function AppContent() {
             <Route path="/protocol" element={<Protocol />} />
             <Route path="/empower-protocol" element={<EmpowerProtocol />} />
             <Route path="/engine-room" element={<EngineRoom />} />
-            <Route path="/shop" element={<Shop />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/mitochondrial-guide" element={<MitochondrialGuide />} />
             <Route path="/longevity" element={<LongevityGuide />} />
             <Route path="/privacy" element={<Privacy />} />
-            <Route path="/affiliate-disclaimer" element={<AffiliateDisclaimer />} />
             <Route path="/terms" element={<TermsConditions />} />
             <Route path="/insulin-story" element={<InsulinStory />} />
             <Route path="/diagnostics-portal" element={<DiagnosticsPortal />} />
