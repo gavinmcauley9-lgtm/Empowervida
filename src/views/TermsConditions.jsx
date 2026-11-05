@@ -295,7 +295,7 @@ export default function TermsConditions() {
                 <section style={sectionStyle}>
                     <h2 style={headingStyle}>8. Third-Party Links and Products</h2>
                     <p style={paragraphStyle}>
-                        This Website may contain links to third-party websites and affiliate links to products. We are not responsible for:
+                        This Website may contain links to third-party websites. We are not responsible for:
                     </p>
                     <ul style={listStyle}>
                         <li>The content, accuracy, or practices of third-party websites</li>
@@ -303,7 +303,7 @@ export default function TermsConditions() {
                         <li>Any transactions you conduct with third parties</li>
                     </ul>
                     <p style={paragraphStyle}>
-                        We recommend you read the terms and privacy policies of any third-party websites you visit. See our <Link href="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link> for more information.
+                        We recommend you read the terms and privacy policies of any third-party websites you visit.
                     </p>
                 </section>
 
@@ -402,7 +402,7 @@ export default function TermsConditions() {
                 <section style={sectionStyle}>
                     <h2 style={headingStyle}>14. Entire Agreement</h2>
                     <p style={paragraphStyle}>
-                        These Terms, together with our <Link href="/privacy" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Privacy Policy</Link> and <Link href="/affiliate-disclaimer" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Affiliate Disclaimer</Link>, constitute the entire agreement between you and BGMED PTY LTD regarding your use of this Website.
+                        These Terms, together with our <Link href="/privacy" style={{ color: 'var(--color-accent-teal)', fontWeight: '600' }}>Privacy Policy</Link>, constitute the entire agreement between you and BGMED PTY LTD regarding your use of this Website.
                     </p>
                 </section>
 
@@ -488,31 +488,7 @@ export default function TermsConditions() {
                     >
                         Privacy Policy
                     </Link>
-                    <Link
-                        href="/affiliate-disclaimer"
-                        style={{
-                            display: 'inline-block',
-                            padding: '1rem 2rem',
-                            background: 'transparent',
-                            color: 'var(--color-primary)',
-                            textDecoration: 'none',
-                            borderRadius: '8px',
-                            fontSize: '1rem',
-                            fontWeight: '600',
-                            border: '2px solid var(--color-primary)',
-                            transition: 'all 0.2s ease'
-                        }}
-                        onMouseEnter={e => {
-                            e.target.style.background = 'var(--color-primary)';
-                            e.target.style.color = '#FFFFFF';
-                        }}
-                        onMouseLeave={e => {
-                            e.target.style.background = 'transparent';
-                            e.target.style.color = 'var(--color-primary)';
-                        }}
-                    >
-                        Affiliate Disclaimer
-                    </Link>
+                    
                     <Link
                         href="/"
                         style={{

@@ -335,20 +335,7 @@ const LongevityGuide = () => {
                         </ul>
 
                         <div style={{ marginTop: '2rem', textAlign: 'center' }}>
-                            <Link href="/shop" style={{
-                                display: 'inline-block',
-                                background: '#764ba2',
-                                color: '#FFFFFF',
-                                padding: '1rem 2rem',
-                                borderRadius: '8px',
-                                textDecoration: 'none',
-                                fontWeight: 700,
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em',
-                                boxShadow: '0 4px 15px rgba(118, 75, 162, 0.3)'
-                            }}>
-                                View Sleep Protocol →
-                            </Link>
+                            
                         </div>
                     </div>
                 </div>

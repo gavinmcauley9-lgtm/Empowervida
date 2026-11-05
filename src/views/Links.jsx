@@ -24,11 +24,6 @@ const Links = () => {
             title: "Read the Clinical Journal",
             url: "https://drgavinmcauley.substack.com",
             primary: false
-        },
-        {
-            title: "The EmpowerVida Dispensary",
-            url: "/shop",
-            primary: false
         }
     ];
 

@@ -141,25 +141,7 @@ export default function WelcomeInsider() {
                             View All Clinical Protocols
                         </Link>
 
-                        <Link 
-                            href="/shop" 
-                            style={{
-                                display: 'inline-block',
-                                padding: '1.2rem 3rem',
-                                background: 'var(--color-accent-teal)',
-                                color: '#FFFFFF',
-                                fontSize: '1.1rem',
-                                fontWeight: 700,
-                                borderRadius: '10px',
-                                textDecoration: 'none',
-                                boxShadow: '0 8px 24px rgba(32, 178, 170, 0.3)',
-                                transition: 'transform 0.2s ease'
-                            }}
-                            onMouseEnter={e => e.target.style.transform = 'translateY(-3px)'}
-                            onMouseLeave={e => e.target.style.transform = 'translateY(0)'}
-                        >
-                            Shop The "Core 3" Stack
-                        </Link>
+                        
                     </div>
                 </section>
             </div>

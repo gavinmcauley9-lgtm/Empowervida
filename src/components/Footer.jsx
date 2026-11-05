@@ -120,7 +120,6 @@ const Footer = () => {
                     </h4>
                     <Link href="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
                     <a href="https://drgavinmcauley.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>[ NEWSLETTER ]</a>
-                    <Link href="/shop" style={linkStyle}>[ SHOP ]</Link>
                     <Link href="/about" style={linkStyle}>[ ABOUT ]</Link>
                     <Link href="/contact" style={linkStyle}>[ CONTACT ]</Link>
                     <Link href="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
@@ -159,7 +158,6 @@ const Footer = () => {
                     </h4>
                     <Link href="/terms-conditions" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
                     <Link href="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
-                    <Link href="/affiliate-disclaimer" style={linkStyle}>[ AFFILIATE DISCLAIMER ]</Link>
                 </div>
 
                 {/* Column 4: Medical Disclaimer */}
@@ -221,17 +219,7 @@ const Footer = () => {
                     Privacy
                 </Link>
                 <span style={{ opacity: 0.5 }}>|</span>
-                <Link
-                    href="/affiliate-disclaimer"
-                    style={{
-                        color: 'inherit',
-                        textDecoration: 'underline',
-                        opacity: 0.8
-                    }}
-                >
-                    Affiliate Disclaimer
-                </Link>
-                <span style={{ opacity: 0.5 }}>|</span>
+                
                 <button
                     onClick={() => window.dispatchEvent(new Event('openCookieSettings'))}
                     style={{

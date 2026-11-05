@@ -15,10 +15,7 @@ export const POSTS = [
     image: '/forest_bathing_header.png',
     excerpt: 'A physician explains the precise biochemistry of Shinrin-yoku (forest bathing) — how tree terpenes activate NK cells, how fractals shift brainwaves from Beta to Alpha, and the 4-step clinical protocol to maximise the therapeutic benefit.',
     date: '2026-05-31',
-    cta: {
-      text: 'View Clinical Grade Supplements',
-      link: '/shop'
-    },
+
     references: [
       {
         text: 'Dr. Qing Li (2009). Effect of forest bathing trips on human immune function. Environmental Health and Preventive Medicine.',
@@ -692,10 +689,7 @@ export const POSTS = [
     image: '/magnesium_neuroplasticity_hero.webp',
     excerpt: "MIT neuroscientists discovered a magnesium form that crosses the blood brain barrier and supports synaptic density. This isnt regular magnesium.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "Get The MIT-Researched Magtein",
-      link: "/shop"
-    },
+
     references: [
       { text: "Slutsky, I., et al. (2010). Enhancement of Learning and Memory by Elevating Brain Magnesium. Neuron, 65(2), 165-177.", url: "https://pubmed.ncbi.nlm.nih.gov/20152124/" }
     ],
@@ -780,7 +774,7 @@ export const POSTS = [
           <li style="margin-bottom: 0;"><strong>Dietary Foundation:</strong> Supplementation is intended to complement, not replace, nutrition. Limiting highly processed sugars and incorporating high-magnesium foods (like pumpkin seeds, dark leafy greens, and almonds) provides a crucial foundational base.</li>
         </ol>
         <div style="margin-top: 2.5rem; text-align: center;">
-            <a href="/shop" style="background: var(--color-accent-teal); color: white; padding: 1.2rem 2.5rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3);">Explore Support Options &rarr;</a>
+            
         </div>
       </div>
 
@@ -799,10 +793,7 @@ export const POSTS = [
     image: '/brain_shrinking_hero.jpg',
     excerpt: "After age 55, the human hippocampus shrinks by 1 to 2% per year. This is structural atrophy. BDNF is the biological signal that combats it. Heres how to trigger it.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "GET THE HIGH-DHA FORMULA",
-      link: "/shop"
-    },
+
     references: [
       { text: "Erickson, K.I., et al. (2011). Exercise training increases size of hippocampus and improves memory. PNAS, 108(7), 3017-3022.", url: "https://pubmed.ncbi.nlm.nih.gov/21282661/" }
     ],
@@ -910,10 +901,7 @@ export const POSTS = [
     image: '/ice_bath_dopamine_hero.png',
     excerpt: "Cold exposure spikes dopamine by 250% for hours. But timing is everything. Do it wrong and you blunt your gains. An educational overview of the protocol.",
     date: 'Sep 15, 2025',
-    cta: {
-      text: "See Dr. Gavin's Energy Protocol",
-      link: "/shop"
-    },
+
     references: [
       { text: "Srámek, P., et al. (2000). Human physiological responses to immersion into water of different temperatures. European Journal of Applied Physiology, 81(5), 436-442.", url: "https://pubmed.ncbi.nlm.nih.gov/10751106/" },
       { text: "Huberman, A. (2022). Cold Exposure for Health and Performance. Huberman Lab Podcast.", url: "https://hubermanlab.com/the-science-and-use-of-cold-exposure-for-health-and-performance/" }
@@ -1078,10 +1066,7 @@ export const POSTS = [
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
     excerpt: "Your thyroid is fine. Your iron is fine. So why are you exhausted? Because standard blood work doesnt look at your mitochondria.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "See Dr. Gavin's Recommended Mitochondrial Stack",
-      link: "/shop"
-    },
+
     references: [
       { text: "Wallace, D. C. (2005). A mitochondrial paradigm of metabolic and degenerative diseases, aging, and cancer. Genetics, 171(4), 1995-2010.", url: "https://pubmed.ncbi.nlm.nih.gov/16123534/" }
     ],
@@ -1641,10 +1626,7 @@ export const POSTS = [
     image: '/brain_fog_hero.webp',
     excerpt: "Brain fog isn\'t tiredness. It is your brain entering energy preservation mode because the biological cost of thinking has become too high.",
     date: 'Nov 29, 2025',
-    cta: {
-      text: "Get Dr. Gav's Cognitive Stack",
-      link: "/shop"
-    },
+
     content: `
 
       <p style="font-size: 0.95rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;">By Dr. Gavin McAuley, Family Physician</p>
@@ -1767,10 +1749,7 @@ export const POSTS = [
     image: '/inflammation_controlled_fire_hero_1764771922110.webp',
     excerpt: "You might not be \"mentally ill.\" You might be Neuroinflamed. When microglia panic, they stop being gardeners and start attacking, blocking serotonin and triggering anxiety.",
     date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Fire Extinguisher",
-      link: "/shop"
-    },
+
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
@@ -1851,9 +1830,7 @@ export const POSTS = [
 
 
 
-        <a href="https://geni.us/fCiHC" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+        
       </div>
 
       <h2>The Kynurenine Pathway: The "Tryptophan Steal"</h2>
@@ -1933,10 +1910,7 @@ export const POSTS = [
     image: '/mitochondrial_furnace_hero_1764771832396.webp',
     excerpt: "Your brain uses 20% of your energy but is only 2% of your body weight. When ATP runs out at 2 PM, your brain throttles down. Creatine is the mitochondrial battery pack.",
     date: 'Dec 01, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Brain Battery",
-      link: "/shop"
-    },
+
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
@@ -2064,9 +2038,7 @@ export const POSTS = [
 
 
 
-        <a href="https://geni.us/0FAo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+        
       </div>
       
       <hr style="border-color: rgba(255,255,255,0.1); margin: 3rem 0;" />
@@ -2100,10 +2072,7 @@ export const POSTS = [
     image: '/cell_membrane_fluidity_hero_1764771762803.webp',
     excerpt: "When blood sugar is chronically high, glucose binds to your proteins forming AGEs, sticky structures that stiffen your skin, joints, and arteries. You aren\'t just ageing. You\'re caramelizing.",
     date: 'Dec 02, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Metabolic Reset",
-      link: "/shop"
-    },
+
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
@@ -2190,9 +2159,7 @@ export const POSTS = [
 
 
 
-         <a href="https://geni.us/ANVjh" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+         
       </div>
 
       <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Biomarker You Already Have: HbA1c</h2>
@@ -2271,10 +2238,7 @@ export const POSTS = [
     image: '/muscle_hero.webp',
     excerpt: "Muscle is not just for bodybuilders. It\'s the Organ of Longevity. When you lose muscle, you lose myokines, chemical messengers that travel to your brain, liver, and bones. You become inflamed, diabetic, and weak.",
     date: 'Dec 04, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Muscle Protocol",
-      link: "/shop"
-    },
+
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
@@ -2377,9 +2341,7 @@ export const POSTS = [
 
 
 
-        <a href="https://geni.us/zrRNpo" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+        
       </div>
       
       
@@ -2575,10 +2537,7 @@ export const POSTS = [
     image: '/sleep_brain.webp',
     excerpt: "Your cortisol curve is inverted. Morning cortisol should be high to wake you. Evening cortisol should be low for sleep. Chronic stress flips this. You\'re groggy at 8 AM and wired at 10 PM.",
     date: 'Dec 06, 2025',
-    cta: {
-      text: "Get Dr. Gavin's Cortisol Reset",
-      link: "/shop"
-    },
+
     content: `
       <p><strong>By Dr. Gavin | EMPOWERVIDA</strong></p>
       
@@ -2587,7 +2546,7 @@ export const POSTS = [
         <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">"Tired but wired" means your cortisol curve is inverted. You have low cortisol in the morning (groggy) and high cortisol at night (insomnia). Fix: Morning sunlight (resets circadian clock), Adaptogens (Ashwagandha KSM-66) to modulate stress, and Phosphatidylserine to lower evening cortisol.</p>
       </div>
       
-      <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. Some recommendations below contain affiliate links, meaning we earn a small commission at no extra cost to you. I only recommend products I have clinically verified.</p>
+      <p style="font-size: 0.9rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 2rem;"><strong>Transparency Note:</strong> I am a physician, but I am not your physician. The content on Empowervida is for educational purposes only and does not constitute medical advice. </p>
       
       <p>It is 10:30 PM. You have been exhausted all day. You struggled to keep your eyes open during your 2:00 PM meeting. You told yourself, "Tonight, I am going to sleep early."</p>
       
@@ -2659,9 +2618,7 @@ export const POSTS = [
 
 
 
-        <a href="https://geni.us/AxGBnX" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: transparent; color: var(--color-text-muted); padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-size: 0.9rem; border: 1px solid var(--color-border); transition: all 0.3s ease;">
-          Check Reviews on Amazon
-        </a>
+        
       </div>
       
       
@@ -3546,10 +3503,7 @@ export const POSTS = [
     image: '/cell_nad_creatine.webp',
     excerpt: "Yes, not only can you take Creatine and NAD+ together, but they are highly synergistic. While Creatine focuses on rapid ATP recycling in the cytoplasm, NAD+ powers the long-term ATP production within the mitochondria. Combining them creates a dual-pathway energy strategy that supports both physical power and cognitive longevity. Just heed the warning: Timing is everything.",
     date: 'Mar 15, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Tarnopolsky, M. A. (2014). Synergy between Creatine and Mitochondrial Function. Amino Acids.", url: "https://pubmed.ncbi.nlm.nih.gov/26748651/" },
       { text: "Asher, G., & Sassone-Corsi, P. (2015). Time for food: the intimate interplay between nutrition, metabolism, and the circadian clock. Cell, 161(1), 84-92.", url: "https://pubmed.ncbi.nlm.nih.gov/22179986/" },
@@ -4082,10 +4036,7 @@ export const POSTS = [
     image: '/glynac_glutathione_synthesis.png',
     excerpt: "The combination that restores glutathione and improves ageing markers. A physician explains the clinical evidence behind GlyNAC and optimal dosing strategies.",
     date: 'Jan 9, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Kumar, P., et al. (2021). Glycine and N-acetylcysteine (GlyNAC) supplementation in older adults improves glutathione deficiency, oxidative stress, mitochondrial dysfunction, inflammation, insulin resistance, endothelial dysfunction, genotoxicity, muscle strength, and cognition. Clinical and Translational Medicine, 11(3), e372.", url: "https://pubmed.ncbi.nlm.nih.gov/33783984/" },
       { text: "Kumar, P., et al. (2022). GlyNAC (Glycine and N-Acetylcysteine) Supplementation in Mice Increases Length of Life by Correcting Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Abnormalities in Mitophagy and Nutrient Sensing, and Genomic Damage. Nutrients, 14(5), 1114.", url: "https://pubmed.ncbi.nlm.nih.gov/35268089/" }
@@ -4329,7 +4280,7 @@ export const POSTS = [
         <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;"><strong>1. Purge the Oxide.</strong> Go to your supplement cabinet. If your magnesium or multivitamin lists "Magnesium Oxide," throw it in the trash. It is a gastrointestinal irritant, not a neurological tool.</p>
         
         <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;"><strong>2. Upgrade to L-Threonate or Bisglycinate.</strong> To eliminate the 3 AM wake-up, you need a form that reaches the brain. Take 1,000mg to 2,000mg of Magnesium L-Threonate approximately 60 minutes before bed. Alternatively, Magnesium Bisglycinate is highly absorbable and provides a strong calming effect.</p>
-        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 1.5rem; border-left: 3px solid #FF5F00;"><em><a href="/shop" style="color: #FF5F00; text-decoration: none; font-weight: 600;">View our Clinical-Grade Magnesium Stack Here &rarr;</a></em></p>
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 1.5rem; border-left: 3px solid #FF5F00;"><em></em></p>
         
         <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 0;"><strong>3. Add the Precursor.</strong> Once you have stabilised your magnesium, ensure your brain has the "building blocks" for sleep by optimising Vitamin D levels.<br/><br/><em><a href="/blog/12" style="color: #20B2AA; text-decoration: none; font-weight: 600;">Read our complete guide to Vitamin D testing &rarr;</a></em></p>
       </div>
@@ -4367,10 +4318,7 @@ export const POSTS = [
     image: '/theanine_caffeine_hero.webp',
     excerpt: "Caffeine wakes you up. L-Theanine stops it from making you wired. Together they produce \"alert relaxation\" — focused attention without the jitters or the crash. A physician explains why this is the most well-studied nootropic combo in existence.",
     date: 'Mar 13, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Haskell, C. F., et al. (2008). The effects of L-theanine, caffeine and their combination on cognition and mood. Biological Psychology, 77(2), 113-122.", url: "https://pubmed.ncbi.nlm.nih.gov/18006208/" },
       { text: "Owen, G. N., et al. (2008). The combined effects of L-theanine and caffeine on cognitive performance and mood. Nutritional Neuroscience, 11(4), 193-198.", url: "https://pubmed.ncbi.nlm.nih.gov/18681988/" },
@@ -4523,10 +4471,7 @@ export const POSTS = [
     image: '/microbial_forest_gut.webp',
     excerpt: "Probiotics are live beneficial bacteria, but without Prebiotics (specialised plant fibres), they cannot colonise the gut effectively. To fix bloating, boost immunity, and clear the \"gut-brain fog,\" you must follow a dual-protocol: seeding the gut with diverse strains and feeding them with fermentable fibres.",
     date: 'Mar 14, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Makki, K., et al. (2018). The impact of dietary fibre on gut microbiota in host health and disease. Cell Host & Microbe, 23(6), 705-715.", url: "https://pubmed.ncbi.nlm.nih.gov/28165863/" },
       { text: "Dalile, B., et al. (2019). The role of short-chain fatty acids from gut microbiota in gut-brain communication. Frontiers in Endocrinology, 10, 25.", url: "https://pubmed.ncbi.nlm.nih.gov/32082260/" },
@@ -4695,10 +4640,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Vitamin C and Quercetin provide highly synergistic antioxidant protection. This clinical overview explains the mechanisms by which they support immune function and stabilize mast cells.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Davis, J. M., et al. (2008). Quercetin reduces susceptibility to influenza infection. American Journal of Physiology.",
@@ -4825,10 +4767,7 @@ export const POSTS = [
     image: '/turmeric_peppercorns.webp',
     excerpt: "Curcumin has notoriously poor bioavailability — without a delivery vehicle, it is rapidly excreted by the liver. Pairing it with Piperine (Black Pepper) and healthy fats increases absorption by up to 2,000%. A physician explains the Alzheimer\\\'s connection and exact dosing protocol.",
     date: 'Mar 14, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Shoba, G., et al. (1998). Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Medica, 64(4), 353-356.", url: "https://pubmed.ncbi.nlm.nih.gov/9619120/" },
       { text: "Lim, G. P., et al. (2001). The curry spice curcumin reduces oxidative damage and amyloid pathology in an Alzheimer transgenic mouse. Journal of Neuroscience, 21(21), 8370-8377.", url: "https://pubmed.ncbi.nlm.nih.gov/11606625/" },
@@ -4996,10 +4935,7 @@ export const POSTS = [
     image: '/cordyceps_rhodiola_energy.webp',
     excerpt: "Unlike caffeine, which merely \"borrows\" energy by blocking adenosine receptors, the combination of Cordyceps and Rhodiola actually increases your biological energy budget. Cordyceps optimizes cellular ATP production and oxygen delivery, while Rhodiola buffers the Central Nervous System (CNS) against cortisol-driven burnout. Together, they create a state of \"resilient high-performance\" without the jittery crash.",
     date: 'Mar 14, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Panossian, A., & Wikman, G. (2010). Effects of Adaptogens on the Central Nervous System and the Molecular Mechanisms Associated with Their Stress-Protective Activity. Pharmaceuticals, 3(1), 188-224.", url: "https://pubmed.ncbi.nlm.nih.gov/27713248/" },
       { text: "Hirsch, K. R., et al. (2017). Cordyceps militaris Improves Tolerance to High-Intensity Exercise After Acute and Chronic Supplementation. Journal of Dietary Supplements, 14(1), 42-53.", url: "https://pubmed.ncbi.nlm.nih.gov/27408987/" },
@@ -5152,10 +5088,7 @@ export const POSTS = [
     image: '/creatine_beta_alanine_muscle.webp',
     excerpt: "Creatine and Beta-Alanine work in a perfect metabolic \"handshake.\" Creatine increases your capacity for short-burst, high-intensity energy (ATP), while Beta-Alanine increases your levels of Carnosine, a buffer that prevents the \"acidic burn\" in your muscles and brain. Together, they allow you to train harder, recover faster, and protect your neurological health as you age.",
     date: 'Mar 14, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Hoffman, J., et al. (2006). Effect of creatine and beta-alanine supplementation on performance and endocrine responses in strength/power athletes. Int J Sport Nutr Exerc Metab, 16(4), 430-446.", url: "https://pubmed.ncbi.nlm.nih.gov/17136944/" },
       { text: "Boldyrev, A. A., et al. (2013). Physiology and pathophysiology of carnosine. Physiological Reviews, 93(4), 1803-1845.", url: "https://pubmed.ncbi.nlm.nih.gov/24137022/" },
@@ -5293,10 +5226,7 @@ export const POSTS = [
     image: '/resveratrol_pterostilbene_dna.webp',
     excerpt: "While Resveratrol is the most famous sirtuin activator, it suffers from poor absorption and rapid metabolism. Pterostilbene, a chemically similar compound found in blueberries, is nearly 80% bioavailable compared to Resveratrol’s 20%. Together, they act as \"mimics\" of caloric restriction, activating cellular repair pathways (SIRT1) that protect the heart and brain.",
     date: 'Mar 14, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Kapetanovic, I. M., et al. (2011). Pharmacokinetics, oral bioavailability, and metabolic profile of resveratrol and its dimethylether analog, pterostilbene, in rats. Cancer Chemotherapy and Pharmacology, 68(3), 593-601.", url: "https://pubmed.ncbi.nlm.nih.gov/21116625/" },
       { text: "Houtkooper, R. H., et al. (2012). The role of mammalian sirtuins in the regulation of metabolism, ageing, and longevity. Experimental Gerontology, 47(11), 812-821.", url: "https://pubmed.ncbi.nlm.nih.gov/21879449/" },
@@ -5448,10 +5378,7 @@ export const POSTS = [
     image: '/adhd_synaptic_cleft.webp',
     excerpt: "ADHD is increasingly viewed through the lens of executive dysfunction and catecholamine dysregulation. A physician explains how supplementing with dopamine precursors, co-factors like Zinc and B6, and mitochondrial support can stabilise the \"neural floor\" and reduce the stimulant crash.",
     date: 'Mar 12, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Bloch, M. H., & Qawasmi, A. (2011). Omega-3 fatty acid supplementation for the treatment of children with attention-deficit/hyperactivity disorder symptomatology: systematic review and meta-analysis. Journal of the American Academy of Child & Adolescent Psychiatry, 50(10), 991-1000.", url: "https://pubmed.ncbi.nlm.nih.gov/21961774/" },
       { text: "Arnold, L. E., et al. (2011). Zinc for attention-deficit/hyperactivity disorder: placebo-controlled double-blind pilot trial alone and combined with amphetamine. Journal of Child and Adolescent Psychopharmacology, 21(1), 1-19.", url: "https://pubmed.ncbi.nlm.nih.gov/21309695/" },
@@ -5597,10 +5524,7 @@ export const POSTS = [
     image: '/coq10_pqq_mitochondria.png',
     excerpt: "CoQ10 protects existing mitochondria. PQQ creates new mitochondria. A physician explains why this is the ultimate mitochondrial support combination.",
     date: 'Jan 9, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       { text: "Saini, R. (2011). Coenzyme Q10: The essential nutrient. Journal of Pharmacy & Bioallied Sciences, 3(3), 466-467.", url: "https://pubmed.ncbi.nlm.nih.gov/21966175/" },
       { text: "Chowanadisai, W., et al. (2010). Pyrroloquinoline quinone stimulates mitochondrial biogenesis through cAMP response element-binding protein phosphorylation and increased PGC-1α expression. Journal of Biological Chemistry, 285(1), 142-152.", url: "https://pubmed.ncbi.nlm.nih.gov/19861415/" }
@@ -5694,10 +5618,7 @@ export const POSTS = [
     image: '/creatine_berberine_ampk.png',
     excerpt: "Discover the physiological interactions between Creatine and Berberine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Yin, J., et al. (2008). Efficacy of berberine in patients with type 2 diabetes mellitus. Metabolism, 57(5), 712-717.",
@@ -5774,10 +5695,7 @@ export const POSTS = [
     image: '/omega3_curcumin_inflammation.png',
     excerpt: "Combining Omega-3 and Curcumin can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Chainani-Wu, N. (2003). Safety and anti-inflammatory activity of curcumin. Journal of Alternative and Complementary Medicine, 9(1), 161-168.",
@@ -5846,10 +5764,7 @@ export const POSTS = [
     image: '/vit_c_quercetin_immune.png',
     excerpt: 'Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.',
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         text: "Davis, J. M., et al. (2008). Quercetin reduces susceptibility to influenza infection. American Journal of Physiology.",
@@ -5941,10 +5856,7 @@ export const POSTS = [
     image: '/collagen_vitc_synthesis.png',
     excerpt: 'You MUST take them together. Collagen without vitamin C is biochemically pointless. A physician explains why.',
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         text: "Pullar, J. M., et al. (2017). The roles of vitamin C in skin health. Nutrients, 9(8), 866.",
@@ -6039,10 +5951,7 @@ export const POSTS = [
     image: '/vitk2_vitd_bone.png',
     excerpt: "Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Schurgers, L. J., et al. (2007). Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood, 109(8), 3279-3283.",
@@ -6112,10 +6021,7 @@ export const POSTS = [
     image: '/ashwagandha_rhodiola_adaptogen.png',
     excerpt: "Yes — ashwagandha and rhodiola are safe to take together and work synergistically. Ashwagandha calms cortisol while rhodiola sharpens energy. Physician-reviewed dose and timing.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Panossian, A., & Wikman, G. (2010). Effects of adaptogens on the central nervous system. Pharmaceuticals, 3(1), 188-224.",
@@ -6186,10 +6092,7 @@ export const POSTS = [
     image: '/b12_folate_methylation.png',
     excerpt: "Is it safe to stack B12 with Folate? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Aparicio-Ugarriza, R., et al. (2015). A review of the cut-off points for the diagnosis of vitamin B12 deficiency in the general population. Clinical Chemistry and Laboratory Medicine, 53(8), 1149-1159.",
@@ -6264,10 +6167,7 @@ export const POSTS = [
     image: '/iron_vitc_absorption.png',
     excerpt: "We examine the systemic effects of taking Iron alongside Vitamin C. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Teucher, B., et al. (2004). Enhancers of iron absorption: ascorbic acid and other organic acids. International Journal for Vitamin and Nutrition Research, 74(6), 403-419.",
@@ -6340,10 +6240,7 @@ export const POSTS = [
     image: '/ala_alcar_mitochondria.png',
     excerpt: "Discover the physiological interactions between Alpha-Lipoic Acid and Acetyl-L-Carnitine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Hagen, T. M., et al. (2002). Feeding acetyl-L-carnitine and lipoic acid to old rats significantly improves metabolic function while decreasing oxidative stress. Proceedings of the National Academy of Sciences, 99(4), 1870-1875.",
@@ -6418,10 +6315,7 @@ export const POSTS = [
     image: '/lysine_arginine_competition.png',
     excerpt: "Combining Lysine and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Griffith, R. S., et al. (1987). Success of L-lysine therapy in frequently recurrent herpes simplex infection. Dermatologica, 175(4), 183-190.",
@@ -6498,10 +6392,7 @@ export const POSTS = [
     image: '/same_bvitamins_synergy.png',
     excerpt: "Should you stack SAMe with B-vitamins? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Papakostas, G. I., et al. (2010). S-adenosyl methionine (SAMe) augmentation of serotonin reuptake inhibitors for antidepressant nonresponders with major depressive disorder. American Journal of Psychiatry, 167(8), 942-948.",
@@ -6582,10 +6473,7 @@ export const POSTS = [
     image: '/collagen_vitc_matrix.png',
     excerpt: "Before pairing Collagen and Vitamin C, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Pullar, J. M., et al. (2017). The roles of vitamin C in skin health. Nutrients, 9(8), 866.",
@@ -6665,10 +6553,7 @@ export const POSTS = [
     image: '/omega3_aspirin_blood.png',
     excerpt: "Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Bays, H. E. (2007). Safety considerations with omega-3 fatty acid therapy. American Journal of Cardiology, 99(6), S35-S43.",
@@ -6740,10 +6625,7 @@ export const POSTS = [
     image: '/calcium_vitd_bone.png',
     excerpt: "Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Holick, M. F. (2007). Vitamin D deficiency. New England Journal of Medicine, 357(3), 266-281.",
@@ -6816,10 +6698,7 @@ export const POSTS = [
     image: '/lions_mane_bacopa_brain.png',
     excerpt: "We examine the systemic effects of taking Lions Mane alongside Bacopa. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Mori, K., et al. (2009). Improving effects of the mushroom Yamabushitake on mild cognitive impairment. Phytotherapy Research, 23(3), 367-372.",
@@ -6894,10 +6773,7 @@ export const POSTS = [
     image: '/gaba_theanine_calm.png',
     excerpt: "Discover the physiological interactions between GABA and L-Theanine. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Abdou, A. M., et al. (2006). Relaxation and immunity enhancement effects of γ-aminobutyric acid administration in humans. BioFactors, 26(3), 201-208.",
@@ -6971,10 +6847,7 @@ export const POSTS = [
     image: '/5htp_tryptophan_serotonin.png',
     excerpt: "Combining 5-HTP and Tryptophan can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Birdsall, T. C. (1998). 5-Hydroxytryptophan: a clinically-effective serotonin precursor. Alternative Medicine Review, 3(4), 271-280.",
@@ -7053,10 +6926,7 @@ export const POSTS = [
     image: '/boswellia_fishoil_joint.png',
     excerpt: "Should you stack Boswellia with Fish Oil? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Kimmatkar, N., et al. (2003). Efficacy and tolerability of Boswellia serrata extract in treatment of osteoarthritis of knee. Phytomedicine, 10(1), 3-7.",
@@ -7127,10 +6997,7 @@ export const POSTS = [
     image: '/creatine_beta_alanine_synergy.png',
     excerpt: 'Yes. This is the classic sports performance stack, and it works. But creatine isnt just for gym bros.',
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         text: "Hoffman, J., et al. (2006). Effect of creatine and beta alanine supplementation on performance. International Journal of Sport Nutrition.",
@@ -7229,10 +7096,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Understanding the biochemical cross-talk between Green Tea Extract and Caffeine. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Dulloo, A. G., et al. (1999). Efficacy of a green tea extract rich in catechin polyphenols and caffeine in increasing 24-h energy expenditure and fat oxidation. American Journal of Clinical Nutrition, 70(6), 1040-1045.",
@@ -7307,10 +7171,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Yes — spirulina and chlorella are safe to stack and work synergistically for detoxification and cellular nutrition. Physician-reviewed dosing ratio, timing, and what to watch for.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Yamane, Y., et al. (1988). Effect of chlorella on colonic microbiota. Biotherapy, 1(4), 251-259.",
@@ -7384,10 +7245,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Is it safe to stack Phosphatidylserine with Omega-3? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Kato-Kataoka, A., et al. (2010). Soybean-derived phosphatidylserine improves memory function of the elderly Japanese subjects with memory complaints. Journal of Clinical Biochemistry and Nutrition, 47(3), 246-255.",
@@ -7465,10 +7323,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "We examine the systemic effects of taking Elderberry alongside Zinc. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Zakay-Rones, Z., et al. (2004). Randomized study of the efficacy and safety of oral elderberry extract in the treatment of influenza A and B virus infections. Journal of International Medical Research, 32(2), 132-140.",
@@ -7546,10 +7401,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Discover the physiological interactions between Ginkgo Biloba and Bacopa. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Mix, J. A., & Crews, W. D. (2002). A double-blind, placebo-controlled, randomized trial of Ginkgo biloba extract EGb 761 in a sample of cognitively intact older adults. Human Psychopharmacology, 17(6), 267-277.",
@@ -7631,10 +7483,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Combining Digestive Enzymes and Probiotics can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Money, M. E., & Camilleri, M. (2012). Review: management of postprandial diarrhoea syndrome. American Journal of Medicine, 125(6), 538-544.",
@@ -7708,10 +7557,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Should you stack Glutamine with Probiotics? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Zuhl, M., et al. (2014). The effects of acute oral glutamine supplementation on exercise-induced gastrointestinal permeability and heat shock protein expression. Journal of the International Society of Sports Nutrition, 11(1), 8.",
@@ -7784,10 +7630,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Before pairing Milk Thistle and NAC, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Polyak, S. J., et al. (2007). Identification of hepatoprotective flavonolignans from silymarin. Proceedings of the National Academy of Sciences, 104(13), 5995-5999.",
@@ -7867,10 +7710,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Understanding the biochemical cross-talk between Valerian and Lemon Balm. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Cerny, A., & Schmid, K. (1999). Tolerability and efficacy of valerian/lemon balm in healthy volunteers. Fitoterapia, 70(3), 221-228.",
@@ -7940,10 +7780,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Can you take maca and tribulus together safely? A physician reviews the evidence on combining these two adaptogens for hormonal balance, energy, and libido support.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Gonzales, G. F., et al. (2002). Effect of Lepidium meyenii (MACA) on sexual desire and its absent relationship with serum testosterone levels in adult healthy men. Andrologia, 34(6), 367-372.",
@@ -8021,10 +7858,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Is it safe to stack Selenium with Iodine? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Ventura, M., et al. (2017). Selenium and thyroid disease: from pathophysiology to treatment. International Journal of Endocrinology, 2017.",
@@ -8098,10 +7932,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "We examine the systemic effects of taking Chondroitin alongside Glucosamine. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Clegg, D. O., et al. (2006). Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis. New England Journal of Medicine, 354(8), 795-808.",
@@ -8178,10 +8009,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Discover the physiological interactions between Lutein and Zeaxanthin. Learn how to sequence your dosing to avoid absorption competition and maximize bioenergetic impact.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Age-Related Eye Disease Study 2 Research Group. (2013). Lutein + zeaxanthin and omega-3 fatty acids for age-related macular degeneration. JAMA, 309(19), 2005-2015.",
@@ -8258,10 +8086,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Combining Citrulline and Arginine can trigger unexpected biological pathways. I review the clinical half-life and provide a safe integration framework for your protocol.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Schwedhelm, E., et al. (2008). Pharmacokinetic and pharmacodynamic properties of oral L-citrulline and L-arginine. Amino Acids, 34(3), 413-420.",
@@ -8340,10 +8165,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Should you stack Schisandra with Eleuthero? A breakdown of the metabolic synergies, potential gastrointestinal side effects, and exact clinical dosing guidelines.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Panossian, A., & Wikman, G. (2008). Pharmacology of Schisandra chinensis Bail. Journal of Ethnopharmacology, 118(2), 183-212.",
@@ -8421,10 +8243,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Before pairing N-Acetyl Tyrosine and Mucuna Pruriens, review this clinical assessment on receptor competition, toxicity risks, and the optimal timing for maximum absorption.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Katzenschlager, R., et al. (2004). Mucuna pruriens in Parkinson's disease: a double blind clinical and pharmacological study. Journal of Neurology, Neurosurgery & Psychiatry, 75(12), 1672-1677.",
@@ -8500,10 +8319,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Understanding the biochemical cross-talk between Astaxanthin and Vitamin E. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Tominaga, K., et al. (2012). Cosmetic benefits of astaxanthin on humans subjects. Acta Biochimica Polonica, 59(1), 43-47.",
@@ -8580,10 +8396,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Yes — berberine and alpha-lipoic acid are a powerful metabolic stack. Both target insulin resistance through different pathways. Physician-reviewed dosing schedule and what to expect.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Zhang, H., et al. (2008). Berberine lowers blood glucose in type 2 diabetes mellitus patients through increasing insulin receptor expression. Metabolism, 57(5), 712-717.",
@@ -8658,10 +8471,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "Is it safe to stack Hesperidin with Diosmin? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Rabe, E., & Pannier, F. (2012). Clinical, aetiological, anatomical and pathological classification in patients with chronic venous disorders. Phlebology, 27(3), 23-27.",
@@ -8733,10 +8543,7 @@ export const POSTS = [
     image: '/supplement_synergy.png',
     excerpt: "We examine the systemic effects of taking Policosanol alongside Red Yeast Rice. Learn the medical protocols for dosing to ensure you aren't wasting your supplements.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "View Clinical Grade Supplements",
-      link: "/shop"
-    },
+
     references: [
       {
         "text": "Becker, D. J., et al. (2009). Red yeast rice for dyslipidemia in statin-intolerant patients. Annals of Internal Medicine, 150(12), 830-839.",
@@ -8809,10 +8616,7 @@ export const POSTS = [
     image: '/joint_inflammation_render.png',
     excerpt: 'Conventional medicine manages joint pain with anti-inflammatories, but the true root cause often lies in the gut barrier. Discover the hidden Gut-Joint Axis.',
     date: 'May 16, 2026',
-    cta: {
-      text: "View the Anti-Inflammatory Protocol",
-      link: "/shop"
-    },
+
     references: [
       { text: "Cani, P. D., et al. (2007). Metabolic endotoxemia initiates obesity and insulin resistance. Diabetes, 56(7), 1761–1772.", url: "https://pubmed.ncbi.nlm.nih.gov/17456850/" },
       { text: "Carroccio, A., et al. (2012). Non-celiac wheat sensitivity diagnoses by double-blind placebo-controlled challenge. Am J Gastroenterol, 107(12), 1898–1906.", url: "https://pubmed.ncbi.nlm.nih.gov/22825366/" },
@@ -8936,9 +8740,7 @@ export const POSTS = [
       </div>
 
       <div style="text-align: center; margin: 3rem 0;">
-        <a href="/shop" style="display: inline-block; background-color: var(--color-accent-teal); color: #0B0F11; padding: 1rem 2rem; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.3s ease;">
-          View the Full Clinical Protocol in the Dispensary
-        </a>
+        
       </div>
 
       <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">

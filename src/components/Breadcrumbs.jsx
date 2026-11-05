@@ -17,18 +17,16 @@ const Breadcrumbs = () => {
         'mitochondrial-guide': 'Mitochondrial Health',
         'longevity': 'Longevity Blueprint',
         'insulin-story': 'The Insulin Story',
-        'shop': 'Shop',
         'about': 'About',
         'privacy': 'Privacy Policy',
         'terms': 'Terms & Conditions',
         'terms-conditions': 'Terms & Conditions',
-        'affiliate-disclaimer': 'Affiliate Disclaimer'
     };
 
     const formatName = (name) => pathNameMap[name] || name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
 
     // Don't show breadcrumbs on homepage
-    if (pathnames.length === 0) return null;
+    if (pathnames.length === 0 || pathnames[0] === 'shop' || pathnames[0] === 'affiliate-disclaimer') return null;
 
     // Breadcrumb Schema for SEO
     const breadcrumbSchema = {

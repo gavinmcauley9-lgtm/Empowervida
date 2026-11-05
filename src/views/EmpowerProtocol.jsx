@@ -254,31 +254,7 @@ const EmpowerProtocol = () => {
                     }}>
                         We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. EMPOWERVIDA was created to provide clinical-grade, third-party tested tools for those seeking evidence-based options.
                     </p>
-                    <a
-                        href="/shop"
-                        style={{
-                            display: 'inline-block',
-                            padding: '1rem 3rem',
-                            backgroundColor: '#FFFFFF',
-                            color: '#000000',
-                            textDecoration: 'none',
-                            fontWeight: 700,
-                            borderRadius: '4px',
-                            fontSize: '0.9rem',
-                            letterSpacing: '0.05em',
-                            transition: 'all 0.3s ease'
-                        }}
-                        onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#EEEEEE';
-                            e.target.style.transform = 'translateY(-2px)';
-                        }}
-                        onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = '#FFFFFF';
-                            e.target.style.transform = 'translateY(0)';
-                        }}
-                    >
-                        SHOP THE BRAIN BATTERY
-                    </a>
+                    
                 </div>
             </section>
 

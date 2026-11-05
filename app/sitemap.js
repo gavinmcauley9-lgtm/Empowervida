@@ -16,7 +16,6 @@ export default function sitemap() {
     '/protocol',
     '/empower-protocol',
     '/engine-room',
-    '/shop',
     '/mitochondrial-guide',
     '/longevity',
     '/calculator',
