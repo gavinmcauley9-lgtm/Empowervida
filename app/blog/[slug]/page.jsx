@@ -54,6 +54,15 @@ export default async function BlogPostPage({ params }) {
     notFound();
   }
 
+  // Apply the editorial reading treatment only to articles already reviewed.
+  const editorialReadingLayout = [
+    'sun-phobia-spf-vitamin-d-mood',
+    'chronic-inflammation-symptoms-root-cause-fatigue-joint-pain',
+    'seed-oils-inflammation-fatigue-weight-gain',
+    'blood-sugar-spikes-normal-fasting-glucose-danger',
+    'forest-bathing-biochemistry-shinrin-yoku',
+  ].includes(post.slug) || /taurine/i.test(post.title);
+
   // Generate dynamic Article Schema for E-E-A-T
   const articleSchema = {
     "@context": "https://schema.org",
@@ -210,10 +219,24 @@ export default async function BlogPostPage({ params }) {
             min-width: 0 !important;
             word-break: break-word;
           }
+          ${editorialReadingLayout ? `
+            .blog-content.editorial-reading { font-size: clamp(1.06rem, 1.5vw, 1.18rem); line-height: 1.85; }
+            .blog-content.editorial-reading > p { margin: 0 0 1.55em !important; }
+            .blog-content.editorial-reading > h2 { margin: 2.5em 0 0.8em !important; line-height: 1.24 !important; font-size: clamp(1.55rem, 2.5vw, 2rem) !important; }
+            .blog-content.editorial-reading > h3 { margin: 2.1em 0 0.7em !important; line-height: 1.3 !important; }
+            .blog-content.editorial-reading > ul, .blog-content.editorial-reading > ol { margin: 1.25rem 0 2rem !important; padding-left: 1.5rem; }
+            .blog-content.editorial-reading li { margin-bottom: 0.75rem; }
+            .blog-content.editorial-reading img { max-width: 100%; height: auto; border-radius: 12px; }
+            .blog-content.editorial-reading > figure, .blog-content.editorial-reading > div:has(> img) { margin: 2.5rem 0 !important; }
+            @media (max-width: 600px) {
+              .blog-content.editorial-reading { font-size: 1.05rem; line-height: 1.8; }
+              .blog-content.editorial-reading > h2 { margin-top: 2rem !important; }
+            }
+          ` : ''}
         `}</style>
         <div 
-          className="blog-content"
-          style={{ fontSize: '1.2rem', lineHeight: '1.8' }}
+          className={editorialReadingLayout ? "blog-content editorial-reading" : "blog-content"}
+          style={{ fontSize: editorialReadingLayout ? undefined : '1.2rem', lineHeight: editorialReadingLayout ? undefined : '1.8' }}
           dangerouslySetInnerHTML={{ __html: post.content }} 
         />
 
