@@ -101,8 +101,8 @@ const Protocol = () => {
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
-                        THE 7 MASTER PROTOCOLS: <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
+                        SEVEN AREAS OF <br />
+                        <span style={{ color: 'var(--color-accent-teal)' }}>LONGEVITY SCIENCE</span>
                     </>
                 }
                 subtitle=""
@@ -120,7 +120,7 @@ const Protocol = () => {
                     paddingLeft: '1.5rem',
                     textAlign: 'left'
                 }}>
-                    "Medicine usually waits for a crash. We engineer the system for maximum resilience."
+                    Explore established foundations, emerging ideas and the questions researchers are still working to answer.
                 </p>
             </HeroSection>
 
@@ -240,7 +240,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A3C34' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A3C34' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
@@ -336,7 +336,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#008080' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#008080' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
@@ -443,7 +443,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#667eea' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#667eea' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
@@ -550,7 +550,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF5F00' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF5F00' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
@@ -657,7 +657,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF6B6B' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF6B6B' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
@@ -774,7 +774,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#764ba2' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#764ba2' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
@@ -880,7 +880,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#DC2626' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#DC2626' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
