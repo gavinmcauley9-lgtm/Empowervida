@@ -95,7 +95,7 @@ export default function Home() {
             <HeroSectionHybrid />
 
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
-            <section style={{
+            <section className="homepage-founder-section" style={{
                 padding: '18rem 2rem 8rem 2rem',
                 marginTop: '-10rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.3) 25%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.3) 75%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
