@@ -54,6 +54,15 @@ export default async function BlogPostPage({ params }) {
     notFound();
   }
 
+  // Apply the editorial reading treatment only to articles already reviewed.
+  const editorialReadingLayout = [
+    'sun-phobia-spf-vitamin-d-mood',
+    'chronic-inflammation-symptoms-root-cause-fatigue-joint-pain',
+    'seed-oils-inflammation-fatigue-weight-gain',
+    'blood-sugar-spikes-normal-fasting-glucose-danger',
+    'forest-bathing-biochemistry-shinrin-yoku',
+  ].includes(post.slug) || /taurine/i.test(post.title);
+
   // Generate dynamic Article Schema for E-E-A-T
   const articleSchema = {
     "@context": "https://schema.org",
@@ -96,36 +105,45 @@ export default async function BlogPostPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       
-      {/* Hero Header */}
-      <div style={{ position: 'relative', height: '50vh', width: '100%', overflow: 'hidden' }}>
+      {/* Shared, accessible hero for every article: stable contrast and responsive type. */}
+      <header className="article-hero" style={{ position: 'relative', width: '100%', isolation: 'isolate', overflow: 'hidden', backgroundColor: '#14352f' }}>
         {post.image && (
-          <Image 
-            src={post.image} 
-            alt={post.imageAlt || post.title} 
+          <Image
+            src={post.image}
+            alt={post.imageAlt || post.title}
             fill
             priority
             sizes="100vw"
-            style={{ objectFit: 'cover', opacity: 0.7 }} 
+            style={{ objectFit: 'cover', objectPosition: 'center', zIndex: -2 }}
           />
         )}
-        <div style={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          width: '100%',
-          padding: '4rem 2rem',
-          background: 'linear-gradient(transparent, rgba(0,0,0,0.9))'
-        }}>
-          <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            <span style={{ color: 'var(--color-accent-teal)', textTransform: 'uppercase', fontWeight: 'bold' }}>
-              {post.category}
-            </span>
-            <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: 'white', margin: '1rem 0' }}>
-              {post.title}
-            </h1>
-          </div>
+        <div aria-hidden="true" style={{
+          position: 'absolute', inset: 0, zIndex: -1,
+          background: 'linear-gradient(90deg, rgba(5,24,23,0.88) 0%, rgba(5,24,23,0.74) 58%, rgba(5,24,23,0.58) 100%)'
+        }} />
+        <div className="article-hero-inner" style={{ maxWidth: '960px', width: '100%', margin: '0 auto', position: 'relative' }}>
+          <span style={{
+            display: 'inline-block', color: '#FFFFFF', backgroundColor: '#116E65',
+            padding: '0.45rem 0.75rem', borderRadius: '5px', textTransform: 'uppercase',
+            fontWeight: 800, letterSpacing: '0.09em', fontSize: '0.8rem', lineHeight: 1.5
+          }}>
+            {post.category}
+          </span>
+          <h1 className="article-hero-title" style={{ color: '#FFFFFF', margin: '1.25rem 0 0', fontWeight: 800, letterSpacing: '-0.025em', lineHeight: 1.13, overflowWrap: 'break-word' }}>
+            {post.title}
+          </h1>
         </div>
-      </div>
+      </header>
+      <style>{`
+        .article-hero { min-height: 340px; display: flex; align-items: flex-end; }
+        .article-hero-inner { padding: clamp(5rem, 9vw, 7rem) 2rem clamp(2rem, 4vw, 3.5rem); }
+        .article-hero-title { font-size: clamp(2rem, 3.3vw, 3.15rem); max-width: 900px; }
+        @media (max-width: 600px) {
+          .article-hero { min-height: 300px; }
+          .article-hero-inner { padding: 5rem 1.25rem 2rem; }
+          .article-hero-title { font-size: clamp(1.75rem, 7vw, 2.4rem); }
+        }
+      `}</style>
 
       {/* ── AUTHOR BYLINE ── E-E-A-T signal for Google */}
       <div style={{ maxWidth: '800px', margin: '2.5rem auto 0', padding: '0 2rem' }}>
@@ -201,10 +219,24 @@ export default async function BlogPostPage({ params }) {
             min-width: 0 !important;
             word-break: break-word;
           }
+          ${editorialReadingLayout ? `
+            .blog-content.editorial-reading { font-size: clamp(1.06rem, 1.5vw, 1.18rem); line-height: 1.85; }
+            .blog-content.editorial-reading > p { margin: 0 0 1.55em !important; }
+            .blog-content.editorial-reading > h2 { margin: 2.5em 0 0.8em !important; line-height: 1.24 !important; font-size: clamp(1.55rem, 2.5vw, 2rem) !important; }
+            .blog-content.editorial-reading > h3 { margin: 2.1em 0 0.7em !important; line-height: 1.3 !important; }
+            .blog-content.editorial-reading > ul, .blog-content.editorial-reading > ol { margin: 1.25rem 0 2rem !important; padding-left: 1.5rem; }
+            .blog-content.editorial-reading li { margin-bottom: 0.75rem; }
+            .blog-content.editorial-reading img { max-width: 100%; height: auto; border-radius: 12px; }
+            .blog-content.editorial-reading > figure, .blog-content.editorial-reading > div:has(> img) { margin: 2.5rem 0 !important; }
+            @media (max-width: 600px) {
+              .blog-content.editorial-reading { font-size: 1.05rem; line-height: 1.8; }
+              .blog-content.editorial-reading > h2 { margin-top: 2rem !important; }
+            }
+          ` : ''}
         `}</style>
         <div 
-          className="blog-content"
-          style={{ fontSize: '1.2rem', lineHeight: '1.8' }}
+          className={editorialReadingLayout ? "blog-content editorial-reading" : "blog-content"}
+          style={{ fontSize: editorialReadingLayout ? undefined : '1.2rem', lineHeight: editorialReadingLayout ? undefined : '1.8' }}
           dangerouslySetInnerHTML={{ __html: post.content }} 
         />
 
