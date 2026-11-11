@@ -1394,6 +1394,10 @@ export const POSTS = [
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Long-standing hyperglycaemia, particularly in diabetes, is associated with injury to blood vessels, nerves, kidneys and eyes. Several mechanisms are implicated, including oxidative stress, inflammatory signalling and the formation of advanced glycation end products. These are biochemical processes — glucose does not physically scrape the vessel lining like shards of glass.</p>
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Researchers are studying whether glucose variability adds predictive information beyond average glucose levels, particularly in people with diabetes. However, evidence linking routine short-lived post-meal rises in otherwise healthy adults to future cardiovascular events is much less certain. The goal is to identify meaningful metabolic risk, not to medicalise every normal fluctuation.</p>
 
+<figure style="margin: 3rem auto; max-width: 880px;">
+<img src="/insulin_glucose_uptake.webp" alt="Illustration of insulin signalling at a muscle cell membrane and glucose moving into the cell through glucose transporters" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 16px;" />
+<figcaption style="font-size: 0.9rem; line-height: 1.65; color: #64748b; margin-top: 0.85rem; text-align: center;">Insulin helps regulate glucose uptake into muscle cells. Simplified illustration, not to scale.</figcaption>
+</figure>
 <h2 style="margin-top: 3.5rem; margin-bottom: 1.25rem; line-height: 1.25;">What about insulin resistance?</h2>
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Insulin resistance means that certain tissues respond less effectively to insulin, so the body may need to release more of it to maintain glucose control. It is relevant to type 2 diabetes and broader cardiometabolic health, but it cannot be diagnosed from one symptom or one home glucose spike.</p>
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Insulin also regulates energy storage and release. It is inaccurate to say that weight loss becomes impossible whenever insulin is elevated. Body weight reflects energy intake and expenditure alongside appetite, physiology, medications, sleep and many other influences. Improving diet quality and activity can help both insulin sensitivity and long-term health.</p>
@@ -1409,6 +1413,10 @@ export const POSTS = [
 </div>
 <h2 style="margin-top: 3.5rem; margin-bottom: 1.25rem; line-height: 1.25;">Five sensible ways to support metabolic health</h2>
 <h3 style="margin-top: 2.2rem; margin-bottom: 0.85rem; line-height: 1.3;">1. Take a walk after eating</h3>
+<figure style="margin: 1.75rem auto 2.5rem; max-width: 880px;">
+<img src="/post_meal_walk.webp" alt="Illustration of a person walking after a meal, with glucose circulating in blood and entering working muscle" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 16px;" />
+<figcaption style="font-size: 0.9rem; line-height: 1.65; color: #64748b; margin-top: 0.85rem; text-align: center;">A short walk after a meal can help muscles use glucose. The illustration shows a simplified physiological process.</figcaption>
+</figure>
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Muscle contraction helps glucose move into muscle cells. Controlled studies and systematic reviews show that light activity after meals can reduce the immediate post-meal glucose response. A comfortable 10–15-minute walk is a realistic option for many people; it is not a magic number or a substitute for overall physical activity.</p>
 <h3 style="margin-top: 2.2rem; margin-bottom: 0.85rem; line-height: 1.3;">2. Build meals around quality, not fear</h3>
 <p style="margin: 0 0 1.45rem; line-height: 1.85;">Fibre-rich vegetables, legumes, whole grains, fruit, nuts and adequate protein can support a satisfying eating pattern. Pairing carbohydrate with protein, fibre and unsaturated fats may change how quickly glucose enters the bloodstream. This does not mean fruit, bread or carbohydrate-rich foods are inherently harmful.</p>
