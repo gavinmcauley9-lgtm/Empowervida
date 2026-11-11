@@ -229,35 +229,6 @@ const EmpowerProtocol = () => {
                 </section>
             </div>
 
-            {/* Section 4: The Soft Sell */}
-            <section style={{
-                padding: '8rem 2rem',
-                backgroundColor: '#000000',
-                color: '#FFFFFF',
-                textAlign: 'center'
-            }}>
-                <div style={{ maxWidth: '700px', margin: '0 auto' }}>
-                    <h2 style={{
-                        fontSize: 'clamp(2rem, 4vw, 3rem)',
-                        fontWeight: 700,
-                        color: '#FFFFFF',
-                        marginBottom: '1.5rem',
-                        letterSpacing: '-0.03em'
-                    }}>
-                        Why We Only Sell "Level 3."
-                    </h2>
-                    <p style={{
-                        fontSize: '1.1rem',
-                        lineHeight: 1.8,
-                        color: 'rgba(255,255,255,0.8)',
-                        marginBottom: '3rem'
-                    }}>
-                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. EMPOWERVIDA was created to provide clinical-grade, third-party tested tools for those seeking evidence-based options.
-                    </p>
-                    
-                </div>
-            </section>
-
             {/* Section: A Day In The Protocol */}
             <section style={{ padding: '6rem 2rem', backgroundColor: '#F9F9F9', borderTop: '1px solid #EDEDED' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
