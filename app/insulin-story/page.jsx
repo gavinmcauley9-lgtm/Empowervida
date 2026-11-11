@@ -2,16 +2,16 @@ import React from 'react';
 import InsulinStory from '../../src/views/InsulinStory';
 
 export const metadata = {
-  title: 'The Insulin Resistance Story — Metabolic Health Explained | EMPOWERVIDA',
-  description: 'How insulin resistance silently develops, why it accelerates ageing, and the clinical strategies that reverse metabolic dysfunction.',
+  title: 'The Insulin Story: Insulin, Metabolic Health and Ageing | EMPOWERVIDA',
+  description: 'Understand insulin resistance, how it relates to metabolic health, and evidence-based ways to reduce long-term health risks.',
   alternates: {
     canonical: 'https://empowervida.com/insulin-story/',
   },
   openGraph: {
-    title: 'The Insulin Resistance Story — Metabolic Health Explained | EMPOWERVIDA',
-    description: 'How insulin resistance silently develops, why it accelerates ageing, and the clinical strategies that reverse metabolic dysfunction.',
+    title: 'The Insulin Story: Insulin, Metabolic Health and Ageing | EMPOWERVIDA',
+    description: 'Understand insulin resistance, how it relates to metabolic health, and evidence-based ways to reduce long-term health risks.',
     url: 'https://empowervida.com/insulin-story/',
-    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
+    images: [{ url: 'https://empowervida.com/hero_cell_energy.png', width: 1200, height: 630 }],
   },
 };
 

@@ -16,7 +16,7 @@ export default function InsulinStory() {
                 "name": "What is insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Insulin resistance is not a broken receptor - it's a cellular protection mechanism. When cells become overloaded with ectopic lipid accumulation (fat in muscle and liver cells), they lock their doors to prevent internal damage. The pancreas compensates by producing more insulin, leading to hyperinsulinemia - chronically elevated insulin levels even when blood glucose appears normal."
+                    "text": "Insulin resistance means that muscle, liver and other tissues respond less effectively to insulin. It has several interacting causes, including genetics, adiposity, lipid metabolism and inflammation. The pancreas may compensate by releasing more insulin, so glucose can initially remain within the normal range."
                 }
             },
             {
@@ -24,7 +24,7 @@ export default function InsulinStory() {
                 "name": "How do I know if I have insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Key markers include: Fasting insulin above 5 µIU/mL, HOMA-IR above 1.0, fasting glucose 86-99 mg/dL (even though 'normal'), energy crashes after meals, difficulty losing weight, increased waist circumference, and elevated triglycerides. Standard glucose tests often miss early insulin resistance because the pancreas compensates by producing more insulin."
+                    "text": "There is no single routinely recommended blood test or universal fasting-insulin or HOMA-IR cut-off that diagnoses insulin resistance. Clinicians assess overall metabolic risk using history, waist circumference, blood pressure, lipids and validated glucose tests such as HbA1c or fasting plasma glucose."
                 }
             },
             {
@@ -32,7 +32,7 @@ export default function InsulinStory() {
                 "name": "Can insulin resistance be addressed?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Insulin resistance can be systematically managed and mitigated by addressing the root cause: ectopic lipid accumulation and mitochondrial dysfunction. This involves clearing intramyocellular lipids through fasting, reducing refined carbohydrates, optimizing mitochondrial function with targeted supplementation (CoQ10, ALCAR, ALA), and strategic exercise to improve metabolic flexibility."
+                    "text": "Insulin sensitivity can often improve with regular physical activity, appropriate nutrition, better sleep and, when relevant, sustainable weight reduction. Treatment should be individualised; supplements are not established substitutes for these measures or for prescribed treatment."
                 }
             },
             {
@@ -40,7 +40,7 @@ export default function InsulinStory() {
                 "name": "What's the difference between insulin resistance and Type 2 diabetes?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Insulin resistance is the precursor state to Type 2 diabetes. In early insulin resistance (compensated stage), blood glucose remains normal because the pancreas produces excess insulin. In Type 2 diabetes (decompensated stage), the pancreas can no longer keep up, and both insulin and glucose become elevated. The progression typically takes years or decades."
+                    "text": "Insulin resistance is a risk factor for type 2 diabetes, but not everyone with insulin resistance develops diabetes. Type 2 diabetes develops through varying combinations of reduced insulin sensitivity and impaired insulin secretion. Diagnosis is based on established glucose or HbA1c criteria, not fasting insulin alone."
                 }
             },
             {
@@ -48,14 +48,14 @@ export default function InsulinStory() {
                 "name": "What causes mitochondrial dysfunction in insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Mitochondrial dysfunction results from ectopic lipid accumulation creating reactive oxygen species (ROS) and metabolic 'soot' that clogs cellular machinery. When mitochondria are backlogged with unprocessed fuel, they produce more free radicals, further impairing their ability to burn fuel cleanly. This creates a vicious cycle of cellular energy crisis."
+                    "text": "Mitochondrial function, lipid metabolism and insulin signalling are linked, but the relationship is complex and varies between tissues and individuals. Reactive oxygen species are signalling molecules as well as potential contributors to cellular stress; mitochondria do not literally become clogged with soot."
                 }
             }
         ]
     };
 
     const sectionStyle = {
-        marginBottom: '6rem'
+        marginBottom: 'clamp(2.5rem, 5vw, 6rem)'
     };
 
     const headingStyle = {
@@ -71,16 +71,16 @@ export default function InsulinStory() {
         fontSize: 'clamp(1.8rem, 3vw, 2.5rem)',
         fontWeight: '700',
         color: 'var(--color-primary)',
-        marginTop: '4rem',
+        marginTop: 'clamp(2rem, 4vw, 4rem)',
         marginBottom: '1.5rem',
         fontFamily: '"Manrope", sans-serif'
     };
 
     const paragraphStyle = {
-        fontSize: '1.2rem',
-        lineHeight: '1.9',
+        fontSize: 'clamp(1.05rem, 1.5vw, 1.2rem)',
+        lineHeight: '1.7',
         color: 'var(--color-text)',
-        marginBottom: '1.8rem',
+        marginBottom: 'clamp(1.1rem, 2vw, 1.8rem)',
         fontWeight: '400'
     };
 
@@ -88,8 +88,8 @@ export default function InsulinStory() {
         background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
         border: '1px solid rgba(26, 60, 52, 0.15)',
         borderRadius: '16px',
-        padding: '3rem',
-        marginBottom: '3rem',
+        padding: 'clamp(1.25rem, 3vw, 3rem)',
+        marginBottom: 'clamp(1.5rem, 3vw, 3rem)',
         boxShadow: '0 8px 32px rgba(0,0,0,0.04)'
     };
 
@@ -97,8 +97,8 @@ export default function InsulinStory() {
         background: '#FFFFFF',
         border: '2px solid #E5E5E5',
         borderRadius: '20px',
-        padding: '3rem',
-        marginBottom: '4rem',
+        padding: 'clamp(1.25rem, 3vw, 3rem)',
+        marginBottom: 'clamp(1.75rem, 4vw, 4rem)',
         boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
         position: 'relative',
         overflow: 'hidden'
@@ -130,18 +130,49 @@ export default function InsulinStory() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="The Insulin Story: Why You Are Ageing Faster Than You Think | EMPOWERVIDA"
-                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower. It's about Insulin Resistance. Discover the science of smart ageing."
+                title="The Insulin Story: Insulin, Metabolic Health and Ageing | EMPOWERVIDA"
+                description="Why do people respond differently to the same meal? Explore insulin resistance, metabolic health and what the evidence says about healthy ageing."
                 keywords="insulin resistance, hyperinsulinemia, metabolic health, ageing, longevity, insulin sensitivity, Type 2 diabetes prevention, smart ageing"
                 canonical="/insulin-story"
                 schemaData={faqSchema}
             />
 
+            {/* Mobile-only adjustments, scoped to this page. */}
+            <style>{`
+                @media (max-width: 640px) {
+                    .insulin-story-hero .hero-section {
+                        min-height: 680px !important;
+                        padding-top: 100px !important;
+                        padding-bottom: 36px !important;
+                        box-sizing: border-box;
+                    }
+                    .insulin-story-hero .hero-section h1 {
+                        font-size: clamp(2.1rem, 8vw, 3rem) !important;
+                        line-height: 1.05 !important;
+                        margin-bottom: 1.2rem !important;
+                    }
+                    .insulin-story-hero .hero-section h2 {
+                        font-size: clamp(1rem, 4vw, 1.3rem) !important;
+                        line-height: 1.4 !important;
+                        letter-spacing: 0.07em !important;
+                        margin-bottom: 1.8rem !important;
+                    }
+                    .insulin-story-hero .hero-section header > div:last-child p {
+                        font-size: 1rem !important;
+                        line-height: 1.5 !important;
+                        margin-bottom: 0.85rem !important;
+                    }
+                }
+                @media (max-width: 375px) {
+                    .insulin-story-hero .hero-section { min-height: 640px !important; }
+                }
+            `}</style>
+            <div className="insulin-story-hero">
             {/* HERO SECTION */}
             <HeroSection
                 backgroundImage="/hero_cell_energy.png"
                 title="THE INSULIN STORY"
-                subtitle="Why You Are Ageing Faster Than You Think"
+                subtitle="The Hidden Role of Insulin in Metabolic Health and Ageing"
                 overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#4FD1C5"
@@ -158,7 +189,7 @@ export default function InsulinStory() {
                     textShadow: '0 2px 10px rgba(0,0,0,0.9)',
                     marginBottom: '1rem'
                 }}>
-                    Feed two people the exact same meal. One stays lean. The other stores fat.
+                    Two people can respond differently to the same meal. Understanding why reveals something fascinating about metabolism.
                 </p>
                 <p style={{
                     fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
@@ -166,7 +197,7 @@ export default function InsulinStory() {
                     color: '#4FD1C5',
                     textShadow: '0 2px 15px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8)'
                 }}>
-                    This is not about willpower. This is about Insulin Resistance.
+                    And what we can do to improve metabolic health.
                 </p>
                 <p style={{
                     fontSize: '1rem',
@@ -176,9 +207,10 @@ export default function InsulinStory() {
                     textShadow: 'none',
                     fontWeight: 600
                 }}>
-                    By Dr. Gavin | The Longevity Architect
+                    By Dr Gavin McAuley
                 </p>
             </HeroSection>
+            </div>
 
             {/* MAIN CONTENT */}
             <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
@@ -189,13 +221,13 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={paragraphStyle}>
-                        For decades, we were told that <strong>Insulin Resistance</strong> was simply a "broken receptor"—a malfunctioning lock on the cell door that refused to let fuel in.
+                        Insulin resistance is often explained as a cell no longer responding properly to insulin. That is a useful starting point, but the underlying biology is more complicated.
                     </p>
                     <p style={paragraphStyle}>
-                        The prescription? Push harder. Pump more insulin. Force the door open.
+                        Insulin signalling, liver glucose production, muscle glucose uptake and pancreatic insulin secretion all play a part.
                     </p>
                     <p style={{ ...paragraphStyle, fontSize: '1.3rem', fontWeight: '600', color: 'var(--color-primary)', marginTop: '2rem' }}>
-                        But that model is wrong.
+                        There is more than one mechanism at work.
                     </p>
 
                     <div style={luxuryBoxStyle}>
@@ -203,13 +235,13 @@ export default function InsulinStory() {
                             The Overflow Hypothesis
                         </h3>
                         <p style={paragraphStyle}>
-                            The cell is not broken. <strong>The cell is protecting itself.</strong>
+                            One influential hypothesis links insulin resistance to the handling of excess fat in tissues such as liver and muscle. It is <strong>one part of a broader explanation</strong>, not a universal protective switch.
                         </p>
                         <p style={paragraphStyle}>
-                            The real problem is <strong>Ectopic Lipid Accumulation</strong>—fat deposited where it doesn't belong. Inside muscle cells. Inside liver cells. Inside the very machinery responsible for burning fuel.
+                            <strong>Ectopic lipid accumulation</strong> means fat stored in tissues such as the liver and muscle. Certain lipid intermediates can interfere with insulin signalling, although genetics, adipose tissue function and other factors also matter.
                         </p>
                         <p style={paragraphStyle}>
-                            When the cell's energy factories (mitochondria) are clogged with "soot" (reactive oxygen species) and backlogged fuel (lipids), the cell <em>locks the doors</em> to prevent an internal explosion.
+                            Mitochondria help process fuel, and cellular stress can affect how tissues respond to insulin. But cells do not literally lock their doors, and insulin resistance cannot be reduced to a single overload mechanism.
                         </p>
                     </div>
 
@@ -225,10 +257,10 @@ export default function InsulinStory() {
                             The <strong>Mitochondria</strong> are the <strong>Machinery</strong>, responsible for burning that fuel cleanly and efficiently.
                         </li>
                         <li style={{ marginBottom: '1rem' }}>
-                            But the Machinery is <strong>clogged with soot</strong> (ROS/Free Radicals) and <strong>backlogged with unprocessed fuel</strong> (lipids).
+                            In some circumstances, altered lipid handling and cellular stress can <strong>disrupt insulin signalling</strong>.
                         </li>
                         <li style={{ marginBottom: '1rem' }}>
-                            The Factory <strong>locks the doors</strong> to prevent overload and combustion.
+                            The Factory becomes <strong>less responsive to the Foreman’s instructions</strong>—a metaphor, not a literal protective shutdown.
                         </li>
                         <li style={{ marginBottom: '1rem' }}>
                             The Foreman <strong>yells louder</strong>—the Pancreas pumps more Insulin.
@@ -239,7 +271,7 @@ export default function InsulinStory() {
                     </p>
 
                     <div style={citationStyle}>
-                        <strong>Scientific Foundation:</strong> This model is supported by the groundbreaking work of <strong>Dr. Gerald Shulman</strong> at Yale University, whose research on intramyocellular lipids demonstrated that fat accumulation inside muscle cells directly impairs insulin signaling and mitochondrial function.<sup>1,2</sup>
+                        <strong>Scientific Foundation:</strong> Research including work by <strong>Dr Gerald Shulman</strong> has investigated how lipid intermediates in liver and muscle can interfere with insulin signalling. This does not mean all insulin resistance has the same cause.<sup>1,2</sup>
                     </div>
                 </section>
 
@@ -247,7 +279,7 @@ export default function InsulinStory() {
                 <section style={{ ...sectionStyle, textAlign: 'center' }}>
                     <img
                         src="/insulin_resistance_progression.png"
-                        alt="Three stages of insulin resistance showing progressive insulin escalation: Normal state with balanced insulin and glucose transport, Compensated resistance with elevated insulin but normal glucose (silent alarm), and Decompensated failure with both high insulin and glucose (system breakdown)"
+                        alt="Illustrative metabolic continuum: insulin-sensitive physiology, possible compensatory insulin secretion, and type 2 diabetes. Not a fixed progression for everyone."
                         style={imageStyle}
                         loading="lazy"
                     />
@@ -258,17 +290,17 @@ export default function InsulinStory() {
                         marginTop: '1rem',
                         textAlign: 'center'
                     }}>
-                        <strong>Figure 1:</strong> The Progressive Failure of Insulin Signaling. Note how insulin levels escalate (5 → 15 → 25 units) while glucose transport efficiency degrades. The middle "Compensated" stage shows normal blood glucose despite elevated insulin: the hidden metabolic alarm most doctors miss.
+                        <strong>Figure 1:</strong> A simplified illustration of how insulin sensitivity and insulin secretion can change. The values and stages shown are conceptual, not diagnostic thresholds or an inevitable sequence.
                     </p>
                 </section>
 
                 {/* SECTION 3: THE THREE STAGES */}
                 <section style={sectionStyle}>
-                    <h2 style={headingStyle}>The Three Stages of Metabolic Decline</h2>
+                    <h2 style={headingStyle}>Three Illustrations of Metabolic Change</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.15rem', color: 'var(--color-text-muted)' }}>
-                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years, often decades, before symptoms appear.<sup>3</sup>
+                        These three illustrations help explain metabolic changes, but they are not fixed clinical stages. Some people never develop diabetes, and the course differs widely between individuals.<sup>3</sup>
                     </p>
 
                     {/* STAGE 1: METABOLIC FLEXIBILITY */}
@@ -313,9 +345,9 @@ export default function InsulinStory() {
                                 <strong>Key Markers:</strong>
                             </p>
                             <ul style={{ fontSize: '1.15rem', lineHeight: '1.8', marginLeft: '2rem', marginBottom: '2rem' }}>
-                                <li>Fasting Insulin: &lt;5 µIU/mL</li>
-                                <li>Fasting Glucose: 70-85 mg/dL</li>
-                                <li>HOMA-IR: &lt;1.0</li>
+                                <li>Glucose and HbA1c: may be within reference ranges</li>
+                                <li>Blood pressure and lipids: assess alongside other risk factors</li>
+                                <li>Fasting insulin/HOMA-IR: no universal diagnostic cut-off</li>
                                 <li>Energy: Stable, consistent, vibrant</li>
                             </ul>
 
@@ -361,7 +393,7 @@ export default function InsulinStory() {
                             </div>
 
                             <p style={{ ...paragraphStyle, fontSize: '1.25rem', fontWeight: '600', color: '#FF9500' }}>
-                                This is the most dangerous stage, because <strong>standard testing may not detect it</strong>.
+                                Insulin sensitivity may decline <strong>before glucose levels become abnormal</strong>, although the timing varies.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -369,21 +401,21 @@ export default function InsulinStory() {
                             </p>
 
                             <p style={paragraphStyle}>
-                                The cell is beginning to resist entry. Why? Not because it's broken, but because it's <strong>protecting itself from overflow</strong>. The mitochondria are clogged. Intracellular lipids are accumulating. Oxidative stress is rising.
+                                Muscle and liver cells may respond less effectively to insulin. Changes in fat distribution, lipid signalling, activity levels and other factors can contribute; no single mechanism explains every case.
                             </p>
 
                             <p style={paragraphStyle}>
-                                To compensate, the pancreas pumps <em>more</em> insulin, forcing glucose into the cell despite resistance.
+                                The pancreas may release <em>more</em> insulin to help maintain blood glucose, but this response differs between individuals.
                             </p>
 
                             <p style={paragraphStyle}>
                                 <strong>Key Markers:</strong>
                             </p>
                             <ul style={{ fontSize: '1.15rem', lineHeight: '1.8', marginLeft: '2rem', marginBottom: '2rem' }}>
-                                <li>Fasting Insulin: 10-20+ µIU/mL (High!)</li>
-                                <li>Fasting Glucose: 85-99 mg/dL (Still "Normal")</li>
-                                <li>HOMA-IR: 2.0-4.0</li>
-                                <li>Energy: Post-meal crashes, cravings, brain fog</li>
+                                <li>Fasting insulin: may be elevated, but interpretation is context-dependent</li>
+                                <li>Fasting glucose and HbA1c: can still be within reference ranges</li>
+                                <li>HOMA-IR: mainly a research measure; no universal clinical threshold</li>
+                                <li>Symptoms: often absent or non-specific</li>
                             </ul>
 
                             <div style={{
@@ -394,7 +426,7 @@ export default function InsulinStory() {
                                 marginTop: '2rem'
                             }}>
                                 <p style={{ fontSize: '1.15rem', fontWeight: '600', color: 'var(--color-text)', marginBottom: '0' }}>
-                                    ⚠️ <strong>Critical Insight:</strong> This stage can persist for <strong>10-20 years</strong> before blood glucose rises.<sup>4,5</sup> By the time a "Pre-Diabetes" diagnosis occurs, significant metabolic changes may already be underway.
+                                    ⚠️ <strong>Critical Insight:</strong> Metabolic changes can precede prediabetes, but there is <strong>no fixed timeline</strong> and progression is not inevitable.
                                 </p>
                             </div>
 
@@ -444,11 +476,11 @@ export default function InsulinStory() {
                             </p>
 
                             <p style={paragraphStyle}>
-                                The cell gates are <em>shut completely</em>. The mitochondria are dark, dormant, suffocated by lipid overload. The pancreas is exhausted, years of overproduction have burned out the beta cells.
+                                In type 2 diabetes, insulin resistance and inadequate insulin secretion together lead to persistently elevated blood glucose. Glucose uptake is impaired in some tissues, not completely switched off.
                             </p>
 
                             <p style={paragraphStyle}>
-                                Glucose can no longer enter the cell. It accumulates in the blood. Insulin can no longer compensate.
+                                Blood glucose rises when the body cannot regulate glucose effectively. The relative contributions of insulin resistance and beta-cell dysfunction vary.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -460,15 +492,15 @@ export default function InsulinStory() {
                             </p>
                             <ul style={{ fontSize: '1.15rem', lineHeight: '1.8', marginLeft: '2rem', marginBottom: '2rem' }}>
                                 <li>Fasting Insulin: Variable (may decline as beta cells fail)</li>
-                                <li>Fasting Glucose: 100-125+ mg/dL</li>
-                                <li>HbA1c: 5.7-6.4% (Pre-Diabetes) or &gt;6.5% (Diabetes)</li>
-                                <li>Energy: Chronic fatigue, neuropathy, vision changes</li>
+                                <li>Fasting plasma glucose: ≥126 mg/dL (7.0 mmol/L) is in the diabetes range</li>
+                                <li>HbA1c: ≥6.5% (48 mmol/mol) is in the diabetes range; confirm as clinically appropriate</li>
+                                <li>Symptoms: may be absent; some people experience thirst, frequent urination or fatigue</li>
                             </ul>
 
                             {/* Stage 3 Image */}
                             <img
                                 src="/decompensated_failure_cell.png"
-                                alt="Stage 3 Type 2 Diabetes - Muscle cell in metabolic failure with sealed gates, dark mitochondria, and glucose gridlock"
+                                alt="Illustration representing type 2 diabetes with impaired insulin action and glucose regulation; cells are not completely sealed off from glucose"
                                 style={imageStyle}
                             />
                         </div>
@@ -481,7 +513,7 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.2rem', fontWeight: '500' }}>
-                        Most people think the only problem is <strong>high blood sugar</strong>. But there are <em>two</em> toxins circulating in insulin resistance:
+                        Insulin resistance and elevated blood glucose are related, but they are <em>not the same thing</em>. Both deserve careful interpretation:
                     </p>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', marginTop: '4rem' }}>
@@ -516,16 +548,16 @@ export default function InsulinStory() {
                                 Hyperinsulinemia
                             </div>
                             <p style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '1rem' }}>
-                                High insulin itself can be <strong>harmful</strong>—even if glucose is normal.
+                                Elevated insulin can be a <strong>marker of underlying insulin resistance</strong>. Whether insulin itself independently causes specific long-term outcomes is more difficult to establish.
                             </p>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '0.75rem' }}>
-                                <strong>Damage:</strong>
+                                <strong>Associated metabolic concerns:</strong>
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
-                                <li>Vascular stiffening → High BP<sup>6</sup></li>
-                                <li>Cancer growth signaling (mTOR, IGF-1)<sup>7,8</sup></li>
-                                <li>Brain inflammation → Alzheimer's<sup>9</sup></li>
-                                <li>Hormonal disruption (PCOS, low testosterone)<sup>10</sup></li>
+                                <li>Insulin resistance often accompanies raised blood pressure and abnormal lipids</li>
+                                <li>Metabolic dysfunction is associated with some cancers; causality is complex</li>
+                                <li>Type 2 diabetes is associated with higher dementia risk, but insulin resistance is not a proven direct cause of Alzheimer’s disease</li>
+                                <li>Insulin resistance is common in polycystic ovary syndrome (PCOS)</li>
                             </ul>
                         </div>
 
@@ -560,19 +592,19 @@ export default function InsulinStory() {
                                 Hyperglycemia
                             </div>
                             <p style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '1rem' }}>
-                                High glucose <strong>"caramelizes" tissues</strong> through glycation.
+                                Persistently elevated glucose can contribute to <strong>glycation</strong>, a chemical process involved in some long-term diabetes complications.
                             </p>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '0.75rem' }}>
                                 <strong>Damage:</strong>
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
                                 <li>AGEs (Advanced Glycation End-products)<sup>11</sup></li>
-                                <li>Skin ageing (wrinkles, loss of elasticity)<sup>12</sup></li>
-                                <li>Organ brittleness (kidneys, nerves, eyes)</li>
-                                <li>Accelerated cellular ageing</li>
+                                <li>Glycation can affect collagen in experimental models; its contribution to visible skin ageing is complex<sup>12</sup></li>
+                                <li>Long-term damage to the kidneys, nerves and eyes in poorly controlled diabetes</li>
+                                <li>Higher long-term risk of vascular complications</li>
                             </ul>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', fontStyle: 'italic', marginTop: '1rem', color: 'var(--color-text-muted)' }}>
-                                Think of it like crème brûlée: sugar hardens tissues, making them stiff and dysfunctional.
+                                Glycation is more complicated than sugar simply hardening tissues; the analogy is illustrative, not literal.
                             </p>
                         </div>
                     </div>
@@ -594,7 +626,7 @@ export default function InsulinStory() {
 
                 {/* SECTION 5: THE SMART AGING PROTOCOL */}
                 <section style={sectionStyle}>
-                    <h2 style={headingStyle}>The "Smart Ageing" Protocol</h2>
+                    <h2 style={headingStyle}>Practical Steps for Metabolic Health</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <div style={{
@@ -635,7 +667,7 @@ export default function InsulinStory() {
                                 Build more "factories" (Mitochondrial Biogenesis).
                             </p>
                             <p style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)' }}>
-                                <strong>Protocol:</strong> 45-60 minutes of low-intensity cardio at 60-70% max heart rate, 3-5x/week. This signals your cells to build <em>new, clean mitochondria</em>.
+                                <strong>Practical starting point:</strong> Build towards at least 150 minutes of moderate-intensity aerobic activity each week, alongside muscle-strengthening activity. Increase gradually and tailor exercise to your health and fitness.
                             </p>
                         </div>
 
@@ -652,10 +684,10 @@ export default function InsulinStory() {
                                 Time-Restricted Eating
                             </h3>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--color-text)', marginBottom: '1rem' }}>
-                                Allow the factory to clear the backlog of "dirt and grit."
+                                Some people find a consistent eating schedule helpful for managing energy intake.
                             </p>
                             <p style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)' }}>
-                                <strong>Protocol:</strong> Compress your eating window to 8-10 hours. This gives your cells 14-16 hours of <em>autophagy</em>—the cellular "self-cleaning" process.
+                                <strong>What the evidence says:</strong> Time-restricted eating may help some people with weight and glucose management, but benefits vary and it does not guarantee a measurable period of autophagy. Anyone using glucose-lowering medication should discuss fasting with their clinician.
                             </p>
                         </div>
 
@@ -672,14 +704,14 @@ export default function InsulinStory() {
                                 Targeted Supplements
                             </h3>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--color-text)', marginBottom: '1rem' }}>
-                                Support mitochondrial health and insulin sensitivity.
+                                Supplements are not a proven shortcut to restoring insulin sensitivity.
                             </p>
                             <ul style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)', marginLeft: '1.2rem' }}>
                                 <li style={{ marginBottom: '0.5rem' }}>
-                                    <strong>Berberine:</strong> AMPK activator (dosage as per clinical guidance)
+                                    <strong>Berberine:</strong> small studies suggest possible glucose effects, but product quality, interactions and long-term safety are concerns.
                                 </li>
                                 <li>
-                                    <strong>Alpha Lipoic Acid:</strong> Mitochondrial antioxidant (dosage as per clinical guidance)
+                                    <strong>Alpha-lipoic acid:</strong> studied for some diabetes-related outcomes, but not an established treatment for reversing insulin resistance.
                                 </li>
                             </ul>
                         </div>
@@ -705,8 +737,8 @@ export default function InsulinStory() {
                             Stop Guessing. Start Measuring.
                         </h3>
                         <p style={{ fontSize: '1.25rem', lineHeight: '1.8', marginBottom: '2rem', color: 'rgba(255,255,255,0.95)' }}>
-                            Consider discussing a <strong>Fasting Insulin test</strong> with your healthcare provider, not just an HbA1c.<br />
-                            Proactive assessment may begin <em>before</em> glucose levels change.
+                            Discuss your overall <strong>metabolic risk</strong> with a healthcare professional, including blood pressure, lipids and appropriate glucose testing.<br />
+                            A personalised assessment is more useful than relying on any single insulin number.
                         </p>
                         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
@@ -733,7 +765,7 @@ export default function InsulinStory() {
                                     e.target.style.boxShadow = '0 8px 24px rgba(32, 178, 170, 0.3)';
                                 }}
                             >
-                                Start The Metabolic Protocol →
+                                Explore Metabolic Health →
                             </Link>
                             <Link
                                 href="/diagnostics"
@@ -780,10 +812,10 @@ export default function InsulinStory() {
                                 <strong>Weir GC, Bonner-Weir S.</strong> Five stages of evolving beta-cell dysfunction during progression to diabetes. <em>Diabetes</em>. 2004;53 Suppl 3:S16-21. doi:<a href="https://doi.org/10.2337/diabetes.53.suppl_3.s16" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/diabetes.53.suppl_3.s16</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
-                                <strong>Kraft JR.</strong> Diabetes Epidemic & You: Should Everyone Be Tested? <em>Trafford Publishing</em>; 2008. [<em>Landmark analysis of ~14,500 patients demonstrating hyperinsulinemia decades before glucose abnormalities</em>]
+                                <strong>American Diabetes Association Professional Practice Committee.</strong> Diagnosis and classification of diabetes: Standards of Care in Diabetes—2026. <em>Diabetes Care</em>. 2026;49(Suppl 1):S27–S49. doi:<a href="https://doi.org/10.2337/dc26-S002" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/dc26-S002</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
-                                <strong>Tabák AG, Jokela M, Akbaraly TN, Brunner EJ, Kivimäki M, Witte DR.</strong> Trajectories of glycaemia, insulin sensitivity, and insulin secretion before diagnosis of type 2 diabetes: an analysis from the Whitehall II study. <em>Lancet</em>. 2009;373(9682):2215-21. doi:<a href="https://doi.org/10.1016/S0140-6736(09)60619-X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/ S0140-6736(09)60619-X</a>
+                                <strong>Tabák AG, Jokela M, Akbaraly TN, Brunner EJ, Kivimäki M, Witte DR.</strong> Trajectories of glycaemia, insulin sensitivity, and insulin secretion before diagnosis of type 2 diabetes: an analysis from the Whitehall II study. <em>Lancet</em>. 2009;373(9682):2215-21. doi:<a href="https://doi.org/10.1016/S0140-6736(09)60619-X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/S0140-6736(09)60619-X</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
                                 <strong>Muris DM, Houben AJ, Schram MT, Stehouwer CD.</strong> Microvascular dysfunction is associated with a higher incidence of type 2 diabetes mellitus: a systematic review and meta-analysis. <em>Arterioscler Thromb Vasc Biol</em>. 2012;32(12):3082-94. doi:<a href="https://doi.org/10.1161/ATVBAHA.112.300291" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1161/ATVBAHA.112.300291</a>
