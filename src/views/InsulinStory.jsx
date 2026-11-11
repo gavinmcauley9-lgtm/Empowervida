@@ -16,7 +16,7 @@ export default function InsulinStory() {
                 "name": "What is insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Insulin resistance is not a broken receptor - it's a cellular protection mechanism. When cells become overloaded with ectopic lipid accumulation (fat in muscle and liver cells), they lock their doors to prevent internal damage. The pancreas compensates by producing more insulin, leading to hyperinsulinemia - chronically elevated insulin levels even when blood glucose appears normal."
+                    "text": "Insulin resistance means that muscle, liver and other tissues respond less effectively to insulin. Fat accumulation in the liver and certain lipid signalling pathways can contribute, alongside genetics, physical inactivity and other factors. The pancreas may initially compensate by releasing more insulin, so blood glucose can remain within the normal range."
                 }
             },
             {
@@ -24,7 +24,7 @@ export default function InsulinStory() {
                 "name": "How do I know if I have insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Key markers include: Fasting insulin above 5 µIU/mL, HOMA-IR above 1.0, fasting glucose 86-99 mg/dL (even though 'normal'), energy crashes after meals, difficulty losing weight, increased waist circumference, and elevated triglycerides. Standard glucose tests often miss early insulin resistance because the pancreas compensates by producing more insulin."
+                    "text": "Insulin resistance cannot be diagnosed reliably from symptoms or a single universal fasting-insulin cut-off. Clinicians assess risk using factors such as waist circumference, blood pressure, lipids, HbA1c and fasting glucose. Fasting insulin and HOMA-IR are mainly research or selected clinical tools, with no universally accepted diagnostic threshold."
                 }
             },
             {
@@ -32,7 +32,7 @@ export default function InsulinStory() {
                 "name": "Can insulin resistance be addressed?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. Insulin resistance can be systematically managed and mitigated by addressing the root cause: ectopic lipid accumulation and mitochondrial dysfunction. This involves clearing intramyocellular lipids through fasting, reducing refined carbohydrates, optimizing mitochondrial function with targeted supplementation (CoQ10, ALCAR, ALA), and strategic exercise to improve metabolic flexibility."
+                    "text": "Often, yes. Regular physical activity, resistance training, dietary quality, adequate sleep and weight management where appropriate can improve insulin sensitivity. Treatment should reflect individual circumstances; supplements are not established substitutes for these approaches."
                 }
             },
             {
@@ -40,7 +40,7 @@ export default function InsulinStory() {
                 "name": "What's the difference between insulin resistance and Type 2 diabetes?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Insulin resistance is the precursor state to Type 2 diabetes. In early insulin resistance (compensated stage), blood glucose remains normal because the pancreas produces excess insulin. In Type 2 diabetes (decompensated stage), the pancreas can no longer keep up, and both insulin and glucose become elevated. The progression typically takes years or decades."
+                    "text": "Insulin resistance increases the risk of type 2 diabetes, but not everyone with insulin resistance develops diabetes. Diabetes arises when insulin secretion cannot adequately meet the body's needs; insulin levels are not necessarily elevated in everyone with type 2 diabetes."
                 }
             },
             {
@@ -48,7 +48,7 @@ export default function InsulinStory() {
                 "name": "What causes mitochondrial dysfunction in insulin resistance?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Mitochondrial dysfunction results from ectopic lipid accumulation creating reactive oxygen species (ROS) and metabolic 'soot' that clogs cellular machinery. When mitochondria are backlogged with unprocessed fuel, they produce more free radicals, further impairing their ability to burn fuel cleanly. This creates a vicious cycle of cellular energy crisis."
+                    "text": "Mitochondrial changes, lipid signalling and oxidative stress can interact with insulin resistance, but the relationship is complex and not fully explained by a single pathway."
                 }
             }
         ]
@@ -130,7 +130,7 @@ export default function InsulinStory() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="The Insulin Story: Why You Are Ageing Faster Than You Think | EMPOWERVIDA"
+                title="The Insulin Story: What Insulin Resistance Means for Your Health | EMPOWERVIDA"
                 description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower. It's about Insulin Resistance. Discover the science of smart ageing."
                 keywords="insulin resistance, hyperinsulinemia, metabolic health, ageing, longevity, insulin sensitivity, Type 2 diabetes prevention, smart ageing"
                 canonical="/insulin-story"
@@ -141,7 +141,7 @@ export default function InsulinStory() {
             <HeroSection
                 backgroundImage="/hero_cell_energy.png"
                 title="THE INSULIN STORY"
-                subtitle="Why You Are Ageing Faster Than You Think"
+                subtitle="What Insulin Resistance Means for Your Health"
                 overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#4FD1C5"
@@ -158,7 +158,7 @@ export default function InsulinStory() {
                     textShadow: '0 2px 10px rgba(0,0,0,0.9)',
                     marginBottom: '1rem'
                 }}>
-                    Feed two people the exact same meal. One stays lean. The other stores fat.
+                    Two people can eat similar meals and have very different metabolic responses.
                 </p>
                 <p style={{
                     fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
@@ -166,7 +166,7 @@ export default function InsulinStory() {
                     color: '#4FD1C5',
                     textShadow: '0 2px 15px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8)'
                 }}>
-                    This is not about willpower. This is about Insulin Resistance.
+                    Insulin sensitivity is one important part of the story — and it can change.
                 </p>
                 <p style={{
                     fontSize: '1rem',
@@ -176,7 +176,7 @@ export default function InsulinStory() {
                     textShadow: 'none',
                     fontWeight: 600
                 }}>
-                    By Dr. Gavin | The Longevity Architect
+                    By Dr Gavin | EmpowerVida
                 </p>
             </HeroSection>
 
@@ -189,13 +189,13 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={paragraphStyle}>
-                        For decades, we were told that <strong>Insulin Resistance</strong> was simply a "broken receptor"—a malfunctioning lock on the cell door that refused to let fuel in.
+                        Insulin resistance is often described as a faulty lock on the cell door. That analogy helps explain reduced insulin sensitivity, but it misses some of the biology.
                     </p>
                     <p style={paragraphStyle}>
-                        The prescription? Push harder. Pump more insulin. Force the door open.
+                        The real story involves muscle, liver, fat tissue, pancreatic function and the way cells handle nutrients.
                     </p>
                     <p style={{ ...paragraphStyle, fontSize: '1.3rem', fontWeight: '600', color: 'var(--color-primary)', marginTop: '2rem' }}>
-                        But that model is wrong.
+                        There is more than one mechanism at work.
                     </p>
 
                     <div style={luxuryBoxStyle}>
@@ -203,13 +203,13 @@ export default function InsulinStory() {
                             The Overflow Hypothesis
                         </h3>
                         <p style={paragraphStyle}>
-                            The cell is not broken. <strong>The cell is protecting itself.</strong>
+                            Cells do not simply lock their doors. <strong>Insulin signalling can become less effective through several interacting pathways.</strong>
                         </p>
                         <p style={paragraphStyle}>
-                            The real problem is <strong>Ectopic Lipid Accumulation</strong>—fat deposited where it doesn't belong. Inside muscle cells. Inside liver cells. Inside the very machinery responsible for burning fuel.
+                            One important contributor is <strong>ectopic fat</strong> — fat stored in tissues such as the liver and muscle. Certain lipid intermediates can interfere with insulin signalling, although the relationship varies by tissue and context.
                         </p>
                         <p style={paragraphStyle}>
-                            When the cell's energy factories (mitochondria) are clogged with "soot" (reactive oxygen species) and backlogged fuel (lipids), the cell <em>locks the doors</em> to prevent an internal explosion.
+                            Mitochondria, inflammation and oxidative stress are also being studied. Think of a factory whose fuel-handling systems are under strain — not a machine that literally becomes clogged or shuts its doors.
                         </p>
                     </div>
 
@@ -361,7 +361,7 @@ export default function InsulinStory() {
                             </div>
 
                             <p style={{ ...paragraphStyle, fontSize: '1.25rem', fontWeight: '600', color: '#FF9500' }}>
-                                This is the most dangerous stage, because <strong>standard testing may not detect it</strong>.
+                                Insulin resistance can develop while <strong>blood glucose remains within the normal range</strong>.
                             </p>
 
                             <p style={paragraphStyle}>
@@ -635,7 +635,7 @@ export default function InsulinStory() {
                                 Build more "factories" (Mitochondrial Biogenesis).
                             </p>
                             <p style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)' }}>
-                                <strong>Protocol:</strong> 45-60 minutes of low-intensity cardio at 60-70% max heart rate, 3-5x/week. This signals your cells to build <em>new, clean mitochondria</em>.
+                                <strong>Practical starting point:</strong> Build towards at least 150 minutes of moderate activity each week, with muscle-strengthening exercise on two or more days. Exercise can improve insulin sensitivity and support mitochondrial adaptations; the best routine is one you can sustain.
                             </p>
                         </div>
 
@@ -655,7 +655,7 @@ export default function InsulinStory() {
                                 Allow the factory to clear the backlog of "dirt and grit."
                             </p>
                             <p style={{ fontSize: '1rem', lineHeight: '1.6', color: 'var(--color-text-muted)' }}>
-                                <strong>Protocol:</strong> Compress your eating window to 8-10 hours. This gives your cells 14-16 hours of <em>autophagy</em>—the cellular "self-cleaning" process.
+                                <strong>What the evidence suggests:</strong> Time-restricted eating may help some people manage energy intake and certain metabolic measures. Human studies have not established that an 8–10-hour eating window reliably triggers a defined period of autophagy or extends lifespan. It is not suitable for everyone.
                             </p>
                         </div>
 
@@ -705,8 +705,8 @@ export default function InsulinStory() {
                             Stop Guessing. Start Measuring.
                         </h3>
                         <p style={{ fontSize: '1.25rem', lineHeight: '1.8', marginBottom: '2rem', color: 'rgba(255,255,255,0.95)' }}>
-                            Consider discussing a <strong>Fasting Insulin test</strong> with your healthcare provider, not just an HbA1c.<br />
-                            Proactive assessment may begin <em>before</em> glucose levels change.
+                            If you are concerned about metabolic risk, discuss appropriate assessment with your healthcare professional, including blood pressure, lipids, HbA1c or fasting glucose where indicated.<br />
+                            Risk assessment can identify opportunities to act well before diabetes develops.
                         </p>
                         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
