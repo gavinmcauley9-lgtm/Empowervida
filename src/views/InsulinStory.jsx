@@ -180,8 +180,33 @@ export default function InsulinStory() {
                 </p>
             </HeroSection>
 
+
+            {/* Mobile editorial rhythm: retain readable type while removing slide-like gaps. */}
+            <style>{`
+                @media (max-width: 640px) {
+                    .insulin-story-content { padding-top: 1.75rem !important; padding-bottom: 2.5rem !important; }
+                    .insulin-story-content > section { margin-bottom: 2.5rem !important; }
+                    .insulin-story-content section h2 { font-size: clamp(1.65rem, 7vw, 2.1rem) !important; line-height: 1.22 !important; margin-bottom: 1rem !important; }
+                    .insulin-story-content section h3 { margin-top: 1.5rem !important; margin-bottom: .85rem !important; }
+                    .insulin-story-content section p, .insulin-story-content section li { line-height: 1.65 !important; }
+                    .insulin-story-content section p { margin-bottom: 1rem !important; }
+                    .insulin-story-content section > div { max-width: 100%; }
+                    .insulin-story-content section img { max-width: 100%; height: auto; }
+                    .insulin-story-content section img + p { margin-top: .75rem !important; }
+                    .insulin-story-content section [style*="padding: 3rem"],
+                    .insulin-story-content section [style*="padding: 2.5rem"] { padding: 1.35rem !important; }
+                    .insulin-story-content section [style*="margin-bottom: 4rem"],
+                    .insulin-story-content section [style*="margin-bottom: 3rem"] { margin-bottom: 1.5rem !important; }
+                    .insulin-story-content section [style*="margin-top: 8rem"],
+                    .insulin-story-content section [style*="margin-top: 5rem"],
+                    .insulin-story-content section [style*="margin-top: 4rem"] { margin-top: 1.5rem !important; }
+                    .insulin-story-content section [style*="gap: 3rem"],
+                    .insulin-story-content section [style*="gap: 2.5rem"] { gap: 1.25rem !important; }
+                }
+            `}</style>
+
             {/* MAIN CONTENT */}
-            <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
+            <div className="container insulin-story-content" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
 
                 {/* SECTION 2: THE PARADIGM SHIFT */}
                 <section style={sectionStyle}>
