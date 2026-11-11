@@ -27,7 +27,7 @@ export default function Home() {
         "founder": {
             "@type": "Person",
             "name": "Dr. Gavin McAuley",
-            "jobTitle": "Physician, Clinical Focus in Longevity"
+            "jobTitle": "Physician and Health Writer"
         },
         "sameAs": [
             "https://www.linkedin.com/in/gavin-mcauley-62147151/"
@@ -85,7 +85,7 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="EMPOWERVIDA - Longevity, Engineered | Evidence-Based Health Optimization"
+                title="EMPOWERVIDA | The Science of Living Better, for Longer"
                 description="Physician-led health journalism on longevity, metabolic health and promising research — grounded in evidence, clear about uncertainty and focused on practical wellbeing."
                 keywords="longevity research, metabolic health, mitochondrial science, healthy ageing, brain health, evidence-based health education, dr gavin mcauley"
                 canonical="/"
@@ -168,7 +168,7 @@ export default function Home() {
                         }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
-                                alt="Dr. Gavin McAuley - GP and Longevity Physician, founder of EMPOWERVIDA"
+                                alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
                                 style={{
                                     width: '180px',
                                     height: '180px',
@@ -523,7 +523,7 @@ export default function Home() {
             }}>
                 <div className="container text-center">
                     <p style={{ fontSize: '0.9rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 600 }}>
-                        Evidence-Based Protocols by Dr. Gavin McAuley, MBChB
+                        Evidence-led health education by Dr. Gavin McAuley, MBChB
                     </p>
                 </div>
             </div >
