@@ -102,7 +102,7 @@ const Protocol = () => {
             <style>{`
                 @media (max-width: 600px) {
                     .protocol-mobile-toggle { display: flex !important; width: 100%; align-items: center; justify-content: space-between; text-align: left; padding: 1.2rem; border: 1px solid rgba(0,128,128,.22); border-radius: 16px; margin: 0 0 .65rem; background: var(--color-bg-secondary); color: var(--color-text); font: inherit; cursor: pointer; }
-                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }
+                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }\n                    .protocol-practical-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1.25rem !important; }
                     .protocol-phase:not(.protocol-phase-expanded) { display: none !important; }
                     .protocol-phase-expanded { display: block !important; }
                     .protocol-mobile-toggle:focus-visible { outline: 3px solid var(--color-accent-teal); outline-offset: 3px; }
@@ -1014,7 +1014,7 @@ const Protocol = () => {
                             letterSpacing: '0.05em',
                             fontFamily: '"Manrope", sans-serif'
                         }}>
-                            CLINICAL IMPLEMENTATION
+                            PUTTING THE EVIDENCE INTO PRACTICE
                         </h2>
                         <p style={{
                             color: 'var(--color-accent-teal)',
@@ -1023,7 +1023,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             fontSize: '0.9rem'
                         }}>
-                            Timing & Dosage Matters
+                            How to evaluate supplements safely and sensibly
                         </p>
                     </div>
 
@@ -1046,30 +1046,30 @@ const Protocol = () => {
                             fontWeight: 800
                         }}>
                             <span style={{ fontSize: '1.5rem' }}>⚠️</span>
-                            PRACTICAL SUPPLEMENT CONSIDERATIONS
+                            BEFORE CHOOSING A SUPPLEMENT
                         </h3>
 
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
+                        <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '2rem' }}>
+                            The research summaries above are a starting point, not a shopping list. Before considering a supplement, work through four questions in order. For most people, established foundations such as nutrition, movement, sleep and management of medical risks matter more than adding another product.
+                        </p>
+                        <div className="protocol-practical-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Formulation and Suitability</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Supplement form can affect absorption, tolerability and convenience, but no single rule applies across all ingredients. Ubiquinol may have higher bioavailability than ubiquinone in some studies, while age alone does not make ubiquinone ineffective. Common MTHFR variants do not by themselves establish a need for methylated B-vitamin supplements. Consider the evidence, total dose, formulation, health history and medicines together.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>1. Is there a reason to take it?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Start with the goal and the individual context. Is there a diagnosed deficiency, a dietary gap or another clear indication? Could symptoms have a cause that needs assessment rather than supplementation?</p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. Ingredient Transparency</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Proprietary blends may state a total blend amount without disclosing the amount of each ingredient. This can make it difficult to compare a product with relevant research or assess whether individual ingredient amounts are appropriate. Prefer labels that clearly identify each ingredient and amount, while recognising that transparent labelling alone does not establish efficacy or quality.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>2. How strong is the evidence?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Distinguish established uses from early or mixed findings. A plausible mechanism, a biomarker change or a small trial does not necessarily translate into better health outcomes.</p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>3. Timing and Administration</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Administration can affect absorption or tolerability for some supplements. Taking fat-soluble vitamins and compounds such as CoQ10 with a meal containing dietary fat may support absorption. Magnesium timing can be chosen according to formulation, purpose and tolerance. Rhodiola and other botanical products should be used according to product directions and individual tolerance. Potential medicine interactions should be checked where relevant. Timing is one consideration and does not replace evidence, appropriate dosing or individual suitability.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>3. What exactly is in the product?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Check the ingredient, formulation and amount per serving. Transparent labels help you compare products, but do not prove efficacy or quality. Different forms may affect absorption or tolerability; no one formulation is best for everyone.</p>
                             </div>
-                        </div>
-                    </div>
+                            <div>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>4. Is it safe and appropriate for you?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Dose, timing, duration, interactions and monitoring depend on the compound and the person. Review medicines, health conditions and relevant tests with an appropriately qualified clinician when needed. More is not necessarily better.</p>
+                            </div>
+                        </div>                    </div>
                 </div>
             </section>
 
