@@ -351,3 +351,11 @@
         padding: 0.4rem 0.8rem;
     }
 }
+/* The founder section uses a negative desktop overlap. On phones that
+   overlap covers the hero's credentials badge and the founder eyebrow. */
+@media (max-width: 768px) {
+    .homepage-founder-section {
+        margin-top: 0 !important;
+        padding: 4rem 1.5rem 5rem !important;
+    }
+}
