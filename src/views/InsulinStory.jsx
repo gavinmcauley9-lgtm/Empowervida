@@ -55,7 +55,7 @@ export default function InsulinStory() {
     };
 
     const sectionStyle = {
-        marginBottom: '6rem'
+        marginBottom: 'clamp(2.5rem, 5vw, 6rem)'
     };
 
     const headingStyle = {
@@ -71,16 +71,16 @@ export default function InsulinStory() {
         fontSize: 'clamp(1.8rem, 3vw, 2.5rem)',
         fontWeight: '700',
         color: 'var(--color-primary)',
-        marginTop: '4rem',
+        marginTop: 'clamp(2rem, 4vw, 4rem)',
         marginBottom: '1.5rem',
         fontFamily: '"Manrope", sans-serif'
     };
 
     const paragraphStyle = {
-        fontSize: '1.2rem',
-        lineHeight: '1.9',
+        fontSize: 'clamp(1.05rem, 1.5vw, 1.2rem)',
+        lineHeight: '1.7',
         color: 'var(--color-text)',
-        marginBottom: '1.8rem',
+        marginBottom: 'clamp(1.1rem, 2vw, 1.8rem)',
         fontWeight: '400'
     };
 
@@ -88,8 +88,8 @@ export default function InsulinStory() {
         background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
         border: '1px solid rgba(26, 60, 52, 0.15)',
         borderRadius: '16px',
-        padding: '3rem',
-        marginBottom: '3rem',
+        padding: 'clamp(1.25rem, 3vw, 3rem)',
+        marginBottom: 'clamp(1.5rem, 3vw, 3rem)',
         boxShadow: '0 8px 32px rgba(0,0,0,0.04)'
     };
 
@@ -97,8 +97,8 @@ export default function InsulinStory() {
         background: '#FFFFFF',
         border: '2px solid #E5E5E5',
         borderRadius: '20px',
-        padding: '3rem',
-        marginBottom: '4rem',
+        padding: 'clamp(1.25rem, 3vw, 3rem)',
+        marginBottom: 'clamp(1.75rem, 4vw, 4rem)',
         boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
         position: 'relative',
         overflow: 'hidden'
