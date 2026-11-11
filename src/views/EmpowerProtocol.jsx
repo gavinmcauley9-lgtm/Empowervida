@@ -15,10 +15,10 @@ const EmpowerProtocol = () => {
                 overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #FFFFFF 100%)"
                 title={
                     <span style={{ color: '#000000', letterSpacing: '-0.03em' }}>
-                        The Hierarchy of Health
+                        The EmpowerVida Protocol
                     </span>
                 }
-                subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
+                subtitle="A practical framework for living better, for longer."
                 textColor="#000000"
                 subtitleColor="#555555"
                 height="90vh"
@@ -36,10 +36,10 @@ const EmpowerProtocol = () => {
                         marginBottom: '2.5rem',
                         fontWeight: 400
                     }}>
-                        You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimise the engine.
+                        Better health begins with the essentials: sleep, movement, nutrition and metabolic wellbeing. From there, we can explore the emerging science of longevity — with curiosity, optimism and a clear eye on the evidence.
                     </p>
                     <a
-                        href="https://drgavinmcauley.substack.com"
+                        href="#foundation"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{
@@ -63,7 +63,7 @@ const EmpowerProtocol = () => {
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
-                        GET THE DIAGNOSTIC BLUEPRINT
+                        EXPLORE THE FRAMEWORK
                     </a>
                 </motion.div>
             </HeroSection>
@@ -83,7 +83,7 @@ const EmpowerProtocol = () => {
                         letterSpacing: '-0.03em',
                         lineHeight: 1.1
                     }}>
-                        Stop Biohacking. Start Building.
+                        Build the Foundations. Explore What’s Possible.
                     </h2>
                     <p style={{
                         fontSize: '1.2rem',
@@ -91,7 +91,7 @@ const EmpowerProtocol = () => {
                         color: '#555555',
                         fontWeight: 300
                     }}>
-                        Most people obsess over supplements (the roof) while their sleep (the foundation) is cracking. At EMPOWERVIDA, we follow a biological order of operations. We don't chase trends; we structure physiology.
+                        It's tempting to start with the newest supplement or longevity breakthrough. But the strongest opportunities to improve health often begin with everyday habits. I created this framework to help make sense of what matters most, what looks promising, and where the science is still developing. Think of it as a guide to explore, not a prescription to follow.
                     </p>
                 </div>
             </section>
@@ -99,7 +99,7 @@ const EmpowerProtocol = () => {
             {/* Section 3: The 3 Phases */}
             <div style={{ backgroundColor: '#F9F9F9' }}>
                 {/* Phase 1 */}
-                <section style={{ padding: '6rem 2rem', borderBottom: '1px solid #E5E5E5' }}>
+                <section id="foundation" style={{ padding: '6rem 2rem', borderBottom: '1px solid #E5E5E5' }}>
                     <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
                         <div>
                             <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '1rem' }}>
