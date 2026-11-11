@@ -109,7 +109,8 @@ const Protocol = () => {
                     .protocol-compact-hero h1 { font-size: clamp(2rem, 8.4vw, 2.75rem); margin-bottom: 1.25rem; }
                     .protocol-compact-hero p { font-size: 1.05rem; line-height: 1.55; }
                     .protocol-mobile-toggle { display: flex !important; width: 100%; align-items: center; justify-content: space-between; text-align: left; padding: 1.2rem; border: 1px solid rgba(0,128,128,.22); border-radius: 16px; margin: 0 0 .65rem; background: var(--color-bg-secondary); color: var(--color-text); font: inherit; cursor: pointer; }
-                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }\n                    .protocol-practical-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1.25rem !important; }
+                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }
+                    .protocol-practical-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1.25rem !important; }
                     .protocol-phase:not(.protocol-phase-expanded) { display: none !important; }
                     .protocol-phase-expanded { display: block !important; }
                     .protocol-mobile-toggle:focus-visible { outline: 3px solid var(--color-accent-teal); outline-offset: 3px; }
