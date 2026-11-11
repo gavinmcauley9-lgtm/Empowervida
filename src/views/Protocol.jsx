@@ -96,6 +96,17 @@ const Protocol = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
+            {/* Mobile reading width: override desktop inline padding in protocol cards */}
+            <style>{`
+                @media (max-width: 600px) {
+                    .protocol-phase { padding: 1.25rem !important; }
+                    .protocol-phase > div[style*="padding: 2rem"] { padding: 1rem !important; }
+                    .protocol-phase ul li { padding-left: 1.25rem !important; }
+                    .protocol-phase h2 { font-size: clamp(1.55rem, 7vw, 2.2rem) !important; overflow-wrap: anywhere; }
+                    .protocol-phase h3 { overflow-wrap: anywhere; }
+                }
+            `}</style>
+
             {/* Hero Section */}
             <HeroSection
                 backgroundImage="/protocol_hero_fire_v2.jpg"
