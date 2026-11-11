@@ -192,22 +192,22 @@ const EmpowerProtocol = () => {
                                 Phase 3
                             </span>
                             <h3 style={{ fontSize: '2.5rem', fontWeight: 700, color: '#000', marginBottom: '1.5rem', letterSpacing: '-0.02em' }}>
-                                THE OPTIMIZATION <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(The Gap Fillers)</span>
+                                THE FRONTIER <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(Where Promising Science Meets Practical Health)</span>
                             </h3>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7 }}>
-                                <strong style={{ color: '#000' }}>The Rule:</strong> Modern life and soil depletion create an "Energy Gap" that food alone cannot fix.
+                                <strong style={{ color: '#000' }}>The idea:</strong> Once the foundations are in place, there is room to explore what emerging research might add. Some options have clear uses; others are intriguing but far from proven. More is not always better.
                             </p>
                             <div style={{ marginTop: '2rem' }}>
                                 <div style={{ marginBottom: '1.5rem' }}>
-                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option A: Creatine Monohydrate</h4>
-                                    <p style={{ fontSize: '1rem', color: '#555' }}>Not just for gym rats. It recycles ATP in the brain, providing cognitive backup power during high-demand tasks.</p>
+                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Creatine: More Than a Gym Supplement</h4>
+                                    <p style={{ fontSize: '1rem', color: '#555' }}>Creatine helps muscles rapidly regenerate ATP, the energy currency of cells, and has well-established benefits for some forms of high-intensity exercise. Researchers are also studying its potential effects on brain function, particularly under demanding conditions such as sleep loss. Early findings are interesting, but reliable cognitive benefits for healthy, well-rested adults — and protection against dementia — have not been established.</p>
                                 </div>
                                 <div>
-                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option B: Magnesium Bisglycinate</h4>
-                                    <p style={{ fontSize: '1rem', color: '#555' }}>The nervous system's "off switch." Essential for cortisol regulation and achieving deep, restorative sleep.</p>
+                                    <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Magnesium: Essential, but Not a Magic Sleep Switch</h4>
+                                    <p style={{ fontSize: '1rem', color: '#555' }}>Magnesium supports normal nerve and muscle function and many enzyme reactions. Getting enough matters, especially when intake is low. Magnesium bisglycinate is one supplemental form, but evidence that it reliably improves sleep in people without deficiency is limited. It is not a proven way to lower cortisol or guarantee deeper sleep.</p>
                                 </div>
                                 <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                    <strong>The Mechanism:</strong> Creatine acts as a phosphate donor, turning used energy (ADP) back into usable energy (ATP) for neurons. Magnesium regulates NMDA receptors to dampen excitotoxicity.
+                                    <strong>What makes this interesting:</strong> The phosphocreatine system helps replenish ATP from ADP when energy demand rises. Magnesium also participates in neuronal signalling, including the voltage-dependent regulation of NMDA receptors. These mechanisms are worth studying, but a plausible mechanism is not proof of a clinical benefit. Beyond supplements, scientists are investigating cellular ageing, senescence and ways to preserve healthy function later in life. Human evidence is still developing.
                                 </div>
                             </div>
                         </div>
