@@ -290,17 +290,17 @@ export default function InsulinStory() {
                         marginTop: '1rem',
                         textAlign: 'center'
                     }}>
-                        <strong>Figure 1:</strong> The Progressive Failure of Insulin Signaling. Note how insulin levels escalate (5 → 15 → 25 units) while glucose transport efficiency degrades. The middle "Compensated" stage shows normal blood glucose despite elevated insulin: the hidden metabolic alarm most doctors miss.
+                        <strong>Figure 1:</strong> A simplified illustration of how insulin sensitivity and insulin secretion can change. The values and stages shown are conceptual, not diagnostic thresholds or an inevitable sequence.
                     </p>
                 </section>
 
                 {/* SECTION 3: THE THREE STAGES */}
                 <section style={sectionStyle}>
-                    <h2 style={headingStyle}>The Three Stages of Metabolic Decline</h2>
+                    <h2 style={headingStyle}>Three Illustrations of Metabolic Change</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.15rem', color: 'var(--color-text-muted)' }}>
-                        Metabolic disease is not a light switch. It is a slow dimmer, degrading over years, often decades, before symptoms appear.<sup>3</sup>
+                        These three illustrations help explain metabolic changes, but they are not fixed clinical stages. Some people never develop diabetes, and the course differs widely between individuals.<sup>3</sup>
                     </p>
 
                     {/* STAGE 1: METABOLIC FLEXIBILITY */}
@@ -500,7 +500,7 @@ export default function InsulinStory() {
                             {/* Stage 3 Image */}
                             <img
                                 src="/decompensated_failure_cell.png"
-                                alt="Stage 3 Type 2 Diabetes - Muscle cell in metabolic failure with sealed gates, dark mitochondria, and glucose gridlock"
+                                alt="Illustration representing type 2 diabetes with impaired insulin action and glucose regulation; cells are not completely sealed off from glucose"
                                 style={imageStyle}
                             />
                         </div>
@@ -513,7 +513,7 @@ export default function InsulinStory() {
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <p style={{ ...paragraphStyle, fontSize: '1.2rem', fontWeight: '500' }}>
-                        Most people think the only problem is <strong>high blood sugar</strong>. But there are <em>two</em> toxins circulating in insulin resistance:
+                        Insulin resistance and elevated blood glucose are related, but they are <em>not the same thing</em>. Both deserve careful interpretation:
                     </p>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', marginTop: '4rem' }}>
@@ -592,19 +592,19 @@ export default function InsulinStory() {
                                 Hyperglycemia
                             </div>
                             <p style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '1rem' }}>
-                                High glucose <strong>"caramelizes" tissues</strong> through glycation.
+                                Persistently elevated glucose can contribute to <strong>glycation</strong>, a chemical process involved in some long-term diabetes complications.
                             </p>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '0.75rem' }}>
                                 <strong>Damage:</strong>
                             </p>
                             <ul style={{ fontSize: '1.05rem', lineHeight: '1.7', marginLeft: '1.5rem' }}>
                                 <li>AGEs (Advanced Glycation End-products)<sup>11</sup></li>
-                                <li>Skin ageing (wrinkles, loss of elasticity)<sup>12</sup></li>
-                                <li>Organ brittleness (kidneys, nerves, eyes)</li>
-                                <li>Accelerated cellular ageing</li>
+                                <li>Glycation can affect collagen in experimental models; its contribution to visible skin ageing is complex<sup>12</sup></li>
+                                <li>Long-term damage to the kidneys, nerves and eyes in poorly controlled diabetes</li>
+                                <li>Higher long-term risk of vascular complications</li>
                             </ul>
                             <p style={{ fontSize: '1.05rem', lineHeight: '1.7', fontStyle: 'italic', marginTop: '1rem', color: 'var(--color-text-muted)' }}>
-                                Think of it like crème brûlée: sugar hardens tissues, making them stiff and dysfunctional.
+                                Glycation is more complicated than sugar simply hardening tissues; the analogy is illustrative, not literal.
                             </p>
                         </div>
                     </div>
@@ -626,7 +626,7 @@ export default function InsulinStory() {
 
                 {/* SECTION 5: THE SMART AGING PROTOCOL */}
                 <section style={sectionStyle}>
-                    <h2 style={headingStyle}>The "Smart Ageing" Protocol</h2>
+                    <h2 style={headingStyle}>Practical Steps for Metabolic Health</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
 
                     <div style={{
@@ -812,10 +812,10 @@ export default function InsulinStory() {
                                 <strong>Weir GC, Bonner-Weir S.</strong> Five stages of evolving beta-cell dysfunction during progression to diabetes. <em>Diabetes</em>. 2004;53 Suppl 3:S16-21. doi:<a href="https://doi.org/10.2337/diabetes.53.suppl_3.s16" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/diabetes.53.suppl_3.s16</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
-                                <strong>Kraft JR.</strong> Diabetes Epidemic & You: Should Everyone Be Tested? <em>Trafford Publishing</em>; 2008. [<em>Landmark analysis of ~14,500 patients demonstrating hyperinsulinemia decades before glucose abnormalities</em>]
+                                <strong>American Diabetes Association Professional Practice Committee.</strong> Diagnosis and classification of diabetes: Standards of Care in Diabetes—2026. <em>Diabetes Care</em>. 2026;49(Suppl 1):S27–S49. doi:<a href="https://doi.org/10.2337/dc26-S002" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.2337/dc26-S002</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
-                                <strong>Tabák AG, Jokela M, Akbaraly TN, Brunner EJ, Kivimäki M, Witte DR.</strong> Trajectories of glycaemia, insulin sensitivity, and insulin secretion before diagnosis of type 2 diabetes: an analysis from the Whitehall II study. <em>Lancet</em>. 2009;373(9682):2215-21. doi:<a href="https://doi.org/10.1016/S0140-6736(09)60619-X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/ S0140-6736(09)60619-X</a>
+                                <strong>Tabák AG, Jokela M, Akbaraly TN, Brunner EJ, Kivimäki M, Witte DR.</strong> Trajectories of glycaemia, insulin sensitivity, and insulin secretion before diagnosis of type 2 diabetes: an analysis from the Whitehall II study. <em>Lancet</em>. 2009;373(9682):2215-21. doi:<a href="https://doi.org/10.1016/S0140-6736(09)60619-X" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1016/S0140-6736(09)60619-X</a>
                             </li>
                             <li style={{ marginBottom: '1.5rem' }}>
                                 <strong>Muris DM, Houben AJ, Schram MT, Stehouwer CD.</strong> Microvascular dysfunction is associated with a higher incidence of type 2 diabetes mellitus: a systematic review and meta-analysis. <em>Arterioscler Thromb Vasc Biol</em>. 2012;32(12):3082-94. doi:<a href="https://doi.org/10.1161/ATVBAHA.112.300291" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-teal)' }}>10.1161/ATVBAHA.112.300291</a>
