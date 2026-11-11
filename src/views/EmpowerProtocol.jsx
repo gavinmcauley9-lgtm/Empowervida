@@ -106,21 +106,21 @@ const EmpowerProtocol = () => {
                                 Phase 1
                             </span>
                             <h3 style={{ fontSize: '2.5rem', fontWeight: 700, color: '#000', marginBottom: '1.5rem', letterSpacing: '-0.02em' }}>
-                                THE FOUNDATION <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(The Non-Negotiables)</span>
+                                THE FOUNDATION <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(Where Better Health Begins)</span>
                             </h3>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7 }}>
-                                <strong style={{ color: '#000' }}>The Rule:</strong> Biology craves rhythm. Before we add fuel, we must align the clock.
+                                <strong style={{ color: '#000' }}>The idea:</strong> Give your body a reliable rhythm. Consistent sleep, regular movement and daylight are powerful places to start.
                             </p>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7, marginTop: '1rem' }}>
-                                <strong style={{ color: '#000' }}>The Approach:</strong>
+                                <strong style={{ color: '#000' }}>Three practical starting points:</strong>
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Morning Sunlight:</strong> View 10 mins within 30 mins of waking. Anchors your circadian cortisol peak.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Sleep Hygiene:</strong> 7-8 hours. This is when the glymphatic system washes toxic protein waste from your brain.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. Zone 2 Cardio:</strong> 150 mins/week. Builds mitochondrial density and sets the metabolic base.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Morning daylight:</strong> Spend some time outdoors after waking, when practical. Daylight helps synchronise your body clock; there is no universal ten-minute rule, and you should never look directly at the sun.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Protect your sleep:</strong> Most adults benefit from around 7–9 hours a night. Sleep supports memory, mood and physical recovery. Researchers are also investigating how sleep influences the brain’s waste-clearance systems, although the implications for preventing dementia remain uncertain.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. Move regularly:</strong> Aim towards at least 150 minutes of moderate-intensity activity each week, building up gradually. Brisk walking, cycling and swimming all count. Aerobic training can improve cardiovascular fitness and support metabolic and mitochondrial adaptations.</li>
                             </ul>
                             <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                <strong>The Mechanism:</strong> Light hitting the melanopsin cells in the retina triggers the Suprachiasmatic Nucleus to release cortisol and suppress melatonin. This sets your sleep timer for 16 hours later.
+                                <strong>Why daylight matters:</strong> Light-sensitive cells in the retina send signals to the suprachiasmatic nucleus, the brain’s central circadian clock. This helps coordinate daily rhythms, including melatonin timing and the normal pattern of cortisol release. The response varies with light exposure, timing and individual biology.
                             </div>
                         </div>
                         {/* Visual for Phase 1 */}
