@@ -9,46 +9,46 @@ const Diagnostics = () => {
     const essentialMarkers = [
         {
             name: "ApoB",
-            truth: "LDL alone can be misleading. ApoB counts the actual number of atherogenic particles in your blood — a metric increasingly recognised as a superior marker of cardiovascular risk.",
-            target: "< 60 mg/dL (Optimal)"
+            truth: "ApoB reflects the number of atherogenic lipoprotein particles and can refine cardiovascular risk assessment, especially when conventional lipid measures are discordant.",
+            target: "Risk-dependent; no universal target"
         },
         {
             name: "Fasting Insulin",
-            truth: "The canary in the coal mine. It reveals metabolic disease decades before your blood sugar spikes.",
-            target: "< 5 uIU/mL (Optimal)"
+            truth: "Fasting insulin can help characterise insulin resistance in research and selected settings. It is not a validated general screening replacement for glucose or HbA1c.",
+            target: "No universal clinical target"
         },
         {
             name: "Homocysteine",
-            truth: "An amino acid linked to vascular damage. Elevated levels are associated with endothelial injury and may predict cognitive decline.",
-            target: "< 8 µmol/L"
+            truth: "Elevated homocysteine can be associated with cardiovascular risk or vitamin deficiency, but lowering it has not consistently prevented cardiovascular events.",
+            target: "Interpret by clinical context"
         },
         {
             name: "hs-CRP",
-            truth: "The fire alarm for your arteries. Plaque exists, but silent inflammation makes it rupture.",
-            target: "< 0.5 mg/L"
+            truth: "hs-CRP is a nonspecific marker of inflammation that can sometimes refine cardiovascular risk assessment; it cannot directly identify unstable plaque.",
+            target: "Risk interpretation, not a universal target"
         },
         {
             name: "Lipoprotein(a)",
-            truth: "A genetically determined lipoprotein. Elevated levels are an independent cardiovascular risk factor. Diet and lifestyle have limited impact — testing is recommended at least once.",
-            target: "< 30 mg/dL"
+            truth: "Lp(a) is largely genetically determined and independently associated with cardiovascular risk. Several major guidelines support measuring it at least once in adulthood.",
+            target: "Risk marker; units and thresholds vary"
         }
     ];
 
     const honourableMentions = [
         {
             name: "Vitamin D",
-            truth: "Regulates 5% of your genome. Low levels significantly compromise immune function and hormonal regulation.",
-            target: "100–150 nmol/L"
+            truth: "Vitamin D supports calcium regulation and bone health. Testing is most useful for specific risk factors or clinical indications; higher levels are not proven to improve longevity.",
+            target: "No universal longevity target"
         },
         {
             name: "HbA1c",
-            truth: "The history book. It shows where your blood sugar was 3 months ago. Good, but often too late.",
-            target: "< 5.2%"
+            truth: "HbA1c reflects average glycaemia over roughly two to three months and is an established tool for diabetes diagnosis and monitoring, with recognised limitations.",
+            target: "Use diagnostic criteria and individual goals"
         },
         {
             name: "GGT",
-            truth: "An early indicator of hepatic stress. Often the first marker to rise when detoxification pathways are under increased demand.",
-            target: "< 20 U/L"
+            truth: "GGT can rise in several liver and biliary conditions, alcohol exposure and medication effects. It is not a validated measure of 'detoxification demand'.",
+            target: "Laboratory-specific reference range"
         }
     ];
 
@@ -73,8 +73,8 @@ const Diagnostics = () => {
             {/* Intro Section */}
             <section style={{ padding: '4rem 2rem', maxWidth: '800px', margin: '0 auto' }} data-aos="fade-up" data-aos-delay="100">
                 <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: 'var(--color-text)', marginBottom: '2rem' }}>
-                    Standard blood panels are primarily designed to identify established disease. 
-                    <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> We look for optimal ranges, not just "normal" ranges, to identify potential dysfunction earlier.
+                    Routine preventive care can detect risk factors before symptoms or disease complications develop. 
+                    <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> The goal is to choose tests with meaningful clinical interpretation, not to impose unvalidated ‘optimal’ targets on everyone.
                 </p>
             </section>
 
@@ -324,7 +324,7 @@ const Diagnostics = () => {
                                 Fasting Insulin vs. HbA1c
                             </h3>
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Why is Insulin the superior metric? HbA1c is a backward-looking average of the last 3 months. Fasting Insulin is a real-time stress test. Your pancreas can mask metabolic damage for years by pumping out massive amounts of insulin to keep your blood sugar (HbA1c) normal. By the time HbA1c rises, the damage is already done. Insulin catches the fire before it spreads.
+                                These tests answer different questions. HbA1c is a validated measure of longer-term glucose exposure and helps diagnose diabetes. Fasting insulin may add context in selected cases, but assay variation and the absence of universal thresholds limit its use as a routine screening test.
                             </p>
                         </div>
 
@@ -334,7 +334,7 @@ const Diagnostics = () => {
                                 Vitamin D <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Hormone)</span>
                             </h3>
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Stop calling it a vitamin. It is a steroid hormone that regulates over 1,000 genes, accounting for nearly 5% of the human genome. It is a critical cofactor for immune defense, dopamine production (mental health), and calcium homeostasis. Low levels are not just bad for bones; they are a signal of systemic fragility.
+                                Vitamin D is a nutrient whose active form acts as a hormone. Its established clinical roles include calcium balance and skeletal health. Research explores other effects, but associations with immune or mood outcomes do not prove that higher vitamin D levels improve those outcomes.
                             </p>
                         </div>
 
@@ -344,7 +344,7 @@ const Diagnostics = () => {
                                 Homocysteine <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Vascular Toxin)</span>
                             </h3>
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                This is an amino acid breakdown product. Elevated levels indicate a failure in your methylation cycle (often due to B-vitamin deficiency or MTHFR gene mutations). High homocysteine acts like sandpaper on the lining of your arteries, creating the injury that allows cholesterol to stick. We treat this to protect the vessel wall.
+                                Homocysteine is an amino acid influenced by kidney function, vitamin B12 and folate status, medications and other factors. Elevated levels can prompt investigation in appropriate settings, but lowering homocysteine has not consistently reduced heart attacks or mortality.
                             </p>
                         </div>
 
@@ -354,9 +354,9 @@ const Diagnostics = () => {
                                 hs-CRP <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Silent Fire)</span>
                             </h3>
                             <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Cholesterol builds the plaque, but inflammation makes it rupture. Think of hs-CRP as a smoke detector for your arteries. Standard CRP measures acute infection (like a fever), but High-Sensitivity CRP detects chronic, low-grade inflammation: the 'smoldering fire' caused by stress, toxins, and visceral fat.
+                                Inflammation contributes to atherosclerosis, but hs-CRP is a nonspecific blood marker rather than a direct scan of arterial plaque. It can be elevated for many reasons, including infection and chronic inflammatory conditions.
                                 <br /><br />
-                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> You can have high cholesterol and be stable. But if you have high cholesterol plus elevated hs-CRP, the combined risk profile is significantly elevated. We track this to assess vascular stability.
+                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> Elevated hs-CRP may provide additional risk information in selected people, but it cannot establish whether an individual plaque is stable or unstable.
                             </p>
                         </div>
                     </div>
