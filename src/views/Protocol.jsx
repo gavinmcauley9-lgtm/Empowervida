@@ -100,7 +100,16 @@ const Protocol = () => {
 
             {/* Mobile reading width: override desktop inline padding in protocol cards */}
             <style>{`
+                .protocol-hero-wrap .hero-section { min-height: 520px !important; padding-top: 95px !important; }
+                .protocol-hero-wrap .hero-section h1 { font-size: clamp(2.6rem, 5vw, 4.8rem) !important; line-height: 1.05 !important; margin-bottom: 1.25rem !important; }
+                .protocol-hero-wrap .hero-section h2:empty { display: none !important; }
                 @media (max-width: 600px) {
+                    .protocol-hero-wrap .hero-section { min-height: 0 !important; height: auto !important; padding: 9rem 1.25rem 3.25rem !important; }
+                    .protocol-hero-wrap .hero-section h1 { font-size: clamp(2.25rem, 9vw, 3rem) !important; line-height: 1.08 !important; margin-bottom: 1.25rem !important; }
+                    .protocol-hero-wrap .hero-section header { width: 100%; padding: 0 .5rem !important; }
+                    .protocol-hero-wrap .hero-section header p { font-size: 1.08rem !important; line-height: 1.55 !important; padding-left: 1rem !important; max-width: 34rem !important; }
+                    .protocol-hero-wrap .hero-section > div:first-child > div:nth-child(2) { background: linear-gradient(180deg, rgba(255,255,255,.78) 0%, rgba(255,255,255,.67) 60%, rgba(255,255,255,.94) 100%) !important; }
+                    .protocol-hero-wrap + section { padding-top: 1rem !important; }
                     .protocol-mobile-toggle { display: flex !important; width: 100%; align-items: center; justify-content: space-between; text-align: left; padding: 1.2rem; border: 1px solid rgba(0,128,128,.22); border-radius: 16px; margin: 0 0 .65rem; background: var(--color-bg-secondary); color: var(--color-text); font: inherit; cursor: pointer; }
                     .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }\n                    .protocol-practical-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1.25rem !important; }
                     .protocol-phase:not(.protocol-phase-expanded) { display: none !important; }
@@ -118,6 +127,7 @@ const Protocol = () => {
             `}</style>
 
             {/* Hero Section */}
+            <div className="protocol-hero-wrap">
             <HeroSection
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
@@ -127,8 +137,8 @@ const Protocol = () => {
                     </>
                 }
                 subtitle=""
-                height="70vh"
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)"
+                height="520px"
+                overlay="linear-gradient(to bottom, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.54) 55%, rgba(255,255,255,0.93) 100%)"
                 textColor="var(--color-text)"
             >
                 <p style={{
@@ -144,6 +154,7 @@ const Protocol = () => {
                     Explore established foundations, emerging ideas and the questions researchers are still working to answer.
                 </p>
             </HeroSection>
+            </div>
 
             {/* Introduction */}
             <section style={{ padding: '2rem 2rem', maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
