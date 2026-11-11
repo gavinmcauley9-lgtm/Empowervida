@@ -100,7 +100,7 @@ const HeroSectionHybrid = ({
                     transition={{ duration: 0.6, delay: 0.1 }}
                     style={{ fontSize: '0.85rem', color: '#FFFFFF', fontWeight: '500', letterSpacing: '0.05em', marginBottom: '1.5rem', textTransform: 'uppercase', textShadow: '0 2px 4px rgba(0,0,0,0.5)', opacity: 0.9 }}
                 >
-                    LED BY GAVIN MCAULEY, PHYSICIAN | CLINICAL FOCUS: METABOLIC & LONGEVITY PROTOCOLS
+                    PHYSICIAN-LED HEALTH JOURNALISM | EVIDENCE, CURIOSITY & POSSIBILITY
                 </motion.div>
 
                 {/* Trust Badge */}
@@ -110,7 +110,7 @@ const HeroSectionHybrid = ({
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                    <span style={{ marginRight: '8px' }}>⚡️</span> Stop settling for "normal".
+                    <span style={{ marginRight: '8px' }}>⚡️</span> Discover what science is revealing.
                 </motion.span>
 
                 {/* Main Title */}
@@ -120,8 +120,8 @@ const HeroSectionHybrid = ({
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    YOUR LABS ARE NORMAL.<br/>
-                    <span className="text-gradient-award">YOU STILL FEEL TERRIBLE.</span>
+                    THE SCIENCE OF LIVING BETTER.<br/>
+                    <span className="text-gradient-award">FOR LONGER.</span>
                 </motion.h1>
 
                 {/* Softer Subheadline */}
@@ -132,7 +132,7 @@ const HeroSectionHybrid = ({
                     transition={{ delay: 0.5, duration: 0.8 }}
                     style={{ fontSize: '1.35rem', letterSpacing: '0.01em', marginTop: '1.5rem', marginBottom: '2.5rem', lineHeight: '1.6', maxWidth: '800px', color: '#f8fafc', textShadow: '0 4px 12px rgba(0,0,0,0.6)' }}
                 >
-                    Modern medicine says you're fine, but your <strong style={{ color: '#FFFFFF', fontWeight: 800 }}>cells may not be functioning optimally</strong>. Explore our physician-designed educational framework on mitochondrial health, cognitive function, and metabolic resilience.
+                    From metabolic health to brain resilience and the biology of ageing, explore <strong style={{ color: '#FFFFFF', fontWeight: 800 }}>what works, what's promising, and what we're still discovering.</strong>
                 </motion.p>
 
                 {/* CTAs */}
@@ -143,18 +143,18 @@ const HeroSectionHybrid = ({
                     transition={{ delay: 1.1, duration: 0.8 }}
                     style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}
                 >
-                    <a href="/protocol" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }} onClick={() => trackCTAClick('hero_explore_protocol', 'hero')}>
-                        Explore The Protocol →
+                    <a href="/longevity" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }} onClick={() => trackCTAClick('hero_explore_protocol', 'hero')}>
+                        Explore The Science →
                     </a>
                     
                     {/* Anxiety Reducer */}
                     <div style={{ fontSize: '0.85rem', color: '#94a3b8', fontWeight: '500', letterSpacing: '0.02em', textShadow: '0 1px 2px rgba(0,0,0,0.5)', marginTop: '0.25rem' }}>
-                        Immediate Access | Secure Purely Technical Delivery.
+                        Free, accessible guides grounded in medical research.
                     </div>
                     
                     {/* Bifurcation Safety Net */}
                     <a href="#email-capture" style={{ fontSize: '0.85rem', color: '#cbd5e1', textDecoration: 'underline', marginTop: '0.75rem', textShadow: '0 1px 2px rgba(0,0,0,0.5)', transition: 'color 0.2s', fontWeight: '500' }} onClick={() => trackCTAClick('hero_newsletter_link', 'hero')}>
-                        Or join my newsletter for weekly Medicine 3.0 case studies and metabolic research. [Tap to Access]
+                        Or join the newsletter for thoughtful updates on health and longevity research.
                     </a>
                 </motion.div>
 
@@ -168,7 +168,7 @@ const HeroSectionHybrid = ({
                 </div>
                 
                 <div className="hero-hybrid-authority-badge">
-                    <span style={{ fontSize: '1.1rem' }}>⚕️</span> MEDICALLY REVIEWED BY DR. GAVIN MCAULEY
+                    <span style={{ fontSize: '1.1rem' }}>⚕️</span> FROM DR GAVIN MCAULEY | PHYSICIAN & HEALTH WRITER
                 </div>
             </div>
         </section>
