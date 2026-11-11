@@ -130,18 +130,49 @@ export default function InsulinStory() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="The Insulin Story: Why You Are Ageing Faster Than You Think | EMPOWERVIDA"
-                description="Feed two people the same meal. One stays lean; the other stores fat. This isn't about willpower. It's about Insulin Resistance. Discover the science of smart ageing."
+                title="The Insulin Story: Insulin, Metabolic Health and Ageing | EMPOWERVIDA"
+                description="Why do people respond differently to the same meal? Explore insulin resistance, metabolic health and what the evidence says about healthy ageing."
                 keywords="insulin resistance, hyperinsulinemia, metabolic health, ageing, longevity, insulin sensitivity, Type 2 diabetes prevention, smart ageing"
                 canonical="/insulin-story"
                 schemaData={faqSchema}
             />
 
+            {/* Mobile-only adjustments, scoped to this page. */}
+            <style>{`
+                @media (max-width: 640px) {
+                    .insulin-story-hero .hero-section {
+                        min-height: 680px !important;
+                        padding-top: 100px !important;
+                        padding-bottom: 36px !important;
+                        box-sizing: border-box;
+                    }
+                    .insulin-story-hero .hero-section h1 {
+                        font-size: clamp(2.1rem, 8vw, 3rem) !important;
+                        line-height: 1.05 !important;
+                        margin-bottom: 1.2rem !important;
+                    }
+                    .insulin-story-hero .hero-section h2 {
+                        font-size: clamp(1rem, 4vw, 1.3rem) !important;
+                        line-height: 1.4 !important;
+                        letter-spacing: 0.07em !important;
+                        margin-bottom: 1.8rem !important;
+                    }
+                    .insulin-story-hero .hero-section header > div:last-child p {
+                        font-size: 1rem !important;
+                        line-height: 1.5 !important;
+                        margin-bottom: 0.85rem !important;
+                    }
+                }
+                @media (max-width: 375px) {
+                    .insulin-story-hero .hero-section { min-height: 640px !important; }
+                }
+            `}</style>
+            <div className="insulin-story-hero">
             {/* HERO SECTION */}
             <HeroSection
                 backgroundImage="/hero_cell_energy.png"
                 title="THE INSULIN STORY"
-                subtitle="Why You Are Ageing Faster Than You Think"
+                subtitle="The Hidden Role of Insulin in Metabolic Health and Ageing"
                 overlay="linear-gradient(to bottom, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.65) 70%, rgba(250,250,250,0.95) 95%, rgba(250,250,250,1) 100%)"
                 textColor="#FFFFFF"
                 subtitleColor="#4FD1C5"
@@ -158,7 +189,7 @@ export default function InsulinStory() {
                     textShadow: '0 2px 10px rgba(0,0,0,0.9)',
                     marginBottom: '1rem'
                 }}>
-                    Feed two people the exact same meal. One stays lean. The other stores fat.
+                    Two people can respond differently to the same meal. Understanding why reveals something fascinating about metabolism.
                 </p>
                 <p style={{
                     fontSize: 'clamp(1.1rem, 2vw, 1.4rem)',
@@ -166,7 +197,7 @@ export default function InsulinStory() {
                     color: '#4FD1C5',
                     textShadow: '0 2px 15px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,0.8)'
                 }}>
-                    This is not about willpower. This is about Insulin Resistance.
+                    And what we can do to improve metabolic health.
                 </p>
                 <p style={{
                     fontSize: '1rem',
@@ -176,9 +207,10 @@ export default function InsulinStory() {
                     textShadow: 'none',
                     fontWeight: 600
                 }}>
-                    By Dr. Gavin | The Longevity Architect
+                    By Dr Gavin McAuley
                 </p>
             </HeroSection>
+            </div>
 
             {/* MAIN CONTENT */}
             <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
