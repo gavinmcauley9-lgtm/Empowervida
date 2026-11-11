@@ -320,11 +320,24 @@
 
 /* Mobile Adjustments */
 @media (max-width: 768px) {
+    /* Keep the credentials and disclosure in the document flow on small screens.
+       Absolute positioning allowed the badge to cover the following section. */
     .hero-hybrid-bottom-bar {
+        position: relative;
+        bottom: auto;
+        left: auto;
         flex-direction: column-reverse;
         align-items: center;
         gap: 12px;
-        bottom: 15px;
+        margin-top: 1.5rem;
+        padding: 0 20px 20px;
+    }
+    .hero-hybrid-authority-badge {
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 1.4;
     }
     
     .hero-hybrid-disclosure {
