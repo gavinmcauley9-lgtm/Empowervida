@@ -17,7 +17,7 @@ const Footer = () => {
     };
 
     return (
-        <footer style={{
+        <footer className="site-footer" style={{
             backgroundColor: '#F5F5F7',
             color: '#1D1D1F',
             padding: '4rem 2rem',
@@ -26,7 +26,15 @@ const Footer = () => {
             zIndex: 10,
             fontFamily: '"Inter", sans-serif'
         }}>
-            <div style={{
+            <style>{`
+                @media (max-width: 600px) {
+                    .site-footer { padding: 2.5rem 1.5rem !important; }
+                    .site-footer-grid { gap: 1.5rem !important; margin-bottom: 2rem !important; }
+                    .site-footer-grid h4 { margin-bottom: 0.55rem !important; }
+                    .site-footer-grid a[style*="text-transform: uppercase"] { margin-bottom: 0 !important; min-height: 44px; display: flex !important; align-items: center; }
+                }
+            `}</style>
+            <div className="site-footer-grid" style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
                 display: 'grid',
