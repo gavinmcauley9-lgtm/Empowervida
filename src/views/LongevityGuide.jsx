@@ -154,7 +154,7 @@ const LongevityGuide = () => {
                                 <strong>Protein Synthesis:</strong> Maintaining muscle mass to prevent sarcopenia (age-related muscle loss)
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>Autophagy Activation:</strong> Using Time-Restricted Feeding (TRF) to trigger cellular recycling
+                                <strong>Cellular Maintenance:</strong> Time-restricted eating is being studied for its potential effects on autophagy; a reliable fasting threshold has not been established in humans
                             </li>
                         </ul>
 
@@ -169,7 +169,7 @@ const LongevityGuide = () => {
                                 Physician's Note:
                             </p>
                             <p style={{ margin: 0 }}>
-                                The goal is not calorie restriction. It's <strong>nutrient timing</strong>. We use fasting windows (12-16 hours) to downregulate mTOR and activate AMPK, which signals the cell to "clean house" via autophagy.
+                                A 12–16-hour overnight fast is one practical form of time-restricted eating for some adults. Nutrient availability influences pathways such as mTOR and AMPK, which help regulate cellular maintenance, including autophagy. However, research has not established that fasting for 12–16 hours reliably increases autophagy in humans, or that doing so extends lifespan. Fasting is not suitable for everyone, particularly without medical advice when taking glucose-lowering medicines or with a history of eating disorders.
                             </p>
                         </div>
                     </div>
