@@ -7,11 +7,13 @@ import HeroSection from '../components/HeroSection';
 import FAQSection from '../components/FAQSection';
 
 const Protocol = () => {
+    const [expandedPhase, setExpandedPhase] = React.useState(null);
     // usePathname() returns a string, not an object — use window.location for hash access
     const hash = typeof window !== 'undefined' ? window.location.hash : '';
 
     React.useEffect(() => {
         if (hash) {
+            if (['longevity-stack','clarity-stack','neurolongevity-stack','vitality-stack','gut-stack','sleep-stack','metabolic-stack'].includes(hash.slice(1))) setExpandedPhase(hash.slice(1));
             const element = document.getElementById(hash.replace('#', ''));
             if (element) {
                 setTimeout(() => {
@@ -99,7 +101,15 @@ const Protocol = () => {
             {/* Mobile reading width: override desktop inline padding in protocol cards */}
             <style>{`
                 @media (max-width: 600px) {
-                    .protocol-phase { padding: 1.25rem !important; }
+                    .protocol-mobile-toggle { display: flex !important; width: 100%; align-items: center; justify-content: space-between; text-align: left; padding: 1.2rem; border: 1px solid rgba(0,128,128,.22); border-radius: 16px; margin: 0 0 .65rem; background: var(--color-bg-secondary); color: var(--color-text); font: inherit; cursor: pointer; }
+                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }
+                    .protocol-phase:not(.protocol-phase-expanded) { display: none !important; }
+                    .protocol-phase-expanded { display: block !important; }
+                    .protocol-mobile-toggle:focus-visible { outline: 3px solid var(--color-accent-teal); outline-offset: 3px; }
+                    .protocol-phase ul { padding-left: .5rem !important; }
+                    .protocol-phase ul li { display: block !important; padding-left: 0 !important; }
+                    .protocol-phase ul li > span:first-child { display: none !important; }
+                    .protocol-phase [style*="minmax(250px"] { grid-template-columns: minmax(0,1fr) !important; }
                     .protocol-phase > div[style*="padding: 2rem"] { padding: 1rem !important; }
                     .protocol-phase ul li { padding-left: 1.25rem !important; }
                     .protocol-phase h2 { font-size: clamp(1.55rem, 7vw, 2.2rem) !important; overflow-wrap: anywhere; }
@@ -200,7 +210,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 1: LONGEVITY (FOUNDATION) */}
-                    <div id="longevity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'longevity-stack'} aria-controls="longevity-stack" onClick={() => setExpandedPhase(expandedPhase === 'longevity-stack' ? null : 'longevity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>01</strong><strong>Longevity: The Foundation</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'longevity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="longevity-stack" className={`protocol-phase ${expandedPhase === 'longevity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -296,7 +310,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 2: BRAIN FOG / CLARITY */}
-                    <div id="clarity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'clarity-stack'} aria-controls="clarity-stack" onClick={() => setExpandedPhase(expandedPhase === 'clarity-stack' ? null : 'clarity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>02</strong><strong>Brain Fog & Clarity</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'clarity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="clarity-stack" className={`protocol-phase ${expandedPhase === 'clarity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -403,7 +421,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 3: NEUROLONGEVITY */}
-                    <div id="neurolongevity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'neurolongevity-stack'} aria-controls="neurolongevity-stack" onClick={() => setExpandedPhase(expandedPhase === 'neurolongevity-stack' ? null : 'neurolongevity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>03</strong><strong>Neurolongevity</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'neurolongevity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="neurolongevity-stack" className={`protocol-phase ${expandedPhase === 'neurolongevity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -510,7 +532,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 4: ENERGY / VITALITY */}
-                    <div id="vitality-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'vitality-stack'} aria-controls="vitality-stack" onClick={() => setExpandedPhase(expandedPhase === 'vitality-stack' ? null : 'vitality-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>04</strong><strong>Energy & Vitality</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'vitality-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="vitality-stack" className={`protocol-phase ${expandedPhase === 'vitality-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -605,7 +631,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 5: GUT HEALTH */}
-                    <div id="gut-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'gut-stack'} aria-controls="gut-stack" onClick={() => setExpandedPhase(expandedPhase === 'gut-stack' ? null : 'gut-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>05</strong><strong>Gut Health</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'gut-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="gut-stack" className={`protocol-phase ${expandedPhase === 'gut-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -734,7 +764,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 6: SLEEP & RECOVERY */}
-                    <div id="sleep-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'sleep-stack'} aria-controls="sleep-stack" onClick={() => setExpandedPhase(expandedPhase === 'sleep-stack' ? null : 'sleep-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>06</strong><strong>Sleep & Recovery</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'sleep-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="sleep-stack" className={`protocol-phase ${expandedPhase === 'sleep-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -840,7 +874,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 7: METABOLIC HEALTH */}
-                    <div id="metabolic-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'metabolic-stack'} aria-controls="metabolic-stack" onClick={() => setExpandedPhase(expandedPhase === 'metabolic-stack' ? null : 'metabolic-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>07</strong><strong>Metabolic Health</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'metabolic-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="metabolic-stack" className={`protocol-phase ${expandedPhase === 'metabolic-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
