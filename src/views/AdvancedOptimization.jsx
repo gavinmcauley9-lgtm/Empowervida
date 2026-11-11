@@ -1,184 +1,102 @@
 "use client";
 
-
 import React from 'react';
-import { motion } from 'framer-motion';
 import Link from 'next/link';
-import HeroSection from '../components/HeroSection';
 
-const AdvancedOptimization = () => {
-    const pillars = [
-        {
-            title: "THYROID FUNCTION",
-            subtitle: "(The Gas Pedal)",
-            marker: "Free T3 (Triiodothyronine)",
-            logic: "Standard tests only look at TSH (the brain's signal). We look at Free T3: the active hormone that actually hits your cells. Low Free T3 is the primary cause of unexplained fatigue, cold intolerance, and weight gain, even when TSH is 'normal'."
-        },
-        {
-            title: "IRON DYNAMICS",
-            subtitle: "(The Double-Edged Sword)",
-            marker: "Ferritin",
-            logic: "Iron is oxygen transport, but it is also a pro-oxidant. Too low (<50), and you may experience air hunger. Too high (>200), and excess iron can contribute to oxidative stress in your organs. We aim for the Goldilocks zone."
-        },
-        {
-            title: "KIDNEY FILTRATION",
-            subtitle: "(The True Filter)",
-            marker: "Cystatin C",
-            logic: "If you lift weights and eat protein, your Creatinine levels will be artificially high, making it look like kidney failure. Cystatin C is a muscle-independent marker. It is the only accurate way to measure kidney health in the athletic population."
-        },
-        {
-            title: "HORMONAL STATUS",
-            subtitle: "(The Bio-Availability)",
-            marker: "Free Testosterone & SHBG",
-            logic: "Total Testosterone is a vanity metric. What matters is Free Testosterone: the amount not bound by SHBG (Sex Hormone Binding Globulin). As we age, SHBG rises and steals our active hormones. We measure both to calculate your true hormonal status."
-        }
-    ];
+const categories = [
+  {
+    id: "established",
+    eyebrow: "01 / The foundations",
+    title: "Established prevention",
+    intro: "These measurements have clear roles in assessing risk or guiding care. Which ones you need depends on your age, history, symptoms and existing conditions.",
+    tests: [
+      { name: "Blood pressure and overall cardiovascular risk", detail: "Repeated blood-pressure readings, smoking status, family history and a validated risk estimate can guide proven preventive treatment." },
+      { name: "Lipids, glucose and HbA1c", detail: "A conventional lipid profile and glucose or HbA1c testing, when appropriate, help identify treatable cardiovascular and diabetes risks. HbA1c is not ‘too late’ to be useful." },
+      { name: "Kidney function", detail: "Creatinine-based eGFR and urine albumin-to-creatinine ratio have established roles when chronic kidney disease is suspected or risk factors are present." },
+      { name: "Physical function", detail: "Cardiorespiratory fitness, strength and activity are meaningful health indicators. A formal VO₂ max test is optional; it is not necessary for everyone." }
+    ]
+  },
+  {
+    id: "selective",
+    eyebrow: "02 / When the question calls for more",
+    title: "Advanced, selective testing",
+    intro: "These tests can add useful information, but should answer a specific clinical question rather than form a compulsory ‘longevity panel’.",
+    tests: [
+      { name: "ApoB and lipoprotein(a)", detail: "ApoB can refine assessment of atherogenic particle burden, especially when standard lipid measures are discordant. Lp(a) is largely inherited; a once-in-adulthood measurement is supported by several major cardiovascular guidelines. Treatment decisions depend on overall risk." },
+      { name: "Coronary artery calcium (CAC)", detail: "In selected asymptomatic adults, CAC scoring may help resolve uncertainty about cardiovascular prevention. It is not a routine scan for everyone, especially younger or already high-risk patients." },
+      { name: "Cystatin C", detail: "Useful when creatinine-based eGFR may be misleading, for example with unusual muscle mass. Combining creatinine and cystatin C often improves estimation; neither test measures kidney function perfectly." },
+      { name: "Ferritin and iron studies", detail: "Helpful when iron deficiency, overload or inflammation is suspected. Ferritin is affected by inflammatory conditions and cannot be interpreted using one universal ‘optimal’ number." },
+      { name: "Thyroid tests", detail: "TSH is usually the first test for suspected primary thyroid dysfunction; free T4 is added when indicated. Free T3 is not a routine test for unexplained fatigue with normal TSH." },
+      { name: "Testosterone and SHBG", detail: "Consider when symptoms and clinical context warrant investigation. Morning total testosterone is usually the starting point; SHBG and calculated or measured free testosterone can clarify borderline or discordant results." },
+      { name: "hs-CRP", detail: "A nonspecific inflammation marker that can sometimes refine cardiovascular risk assessment. It does not directly measure plaque stability and is not a universal treatment target." }
+    ]
+  },
+  {
+    id: "emerging",
+    eyebrow: "03 / The frontier",
+    title: "Promising, but not yet routine",
+    intro: "Some newer technologies are scientifically exciting. The key question is whether acting on their results improves outcomes, not simply whether they generate a number.",
+    tests: [
+      { name: "Fasting insulin and HOMA-IR", detail: "Can be informative in research and selected clinical settings, but assays and cut-offs vary. Neither replaces validated diabetes testing, and there is no universal optimal fasting-insulin target." },
+      { name: "Continuous glucose monitoring without diabetes", detail: "Can reveal individual glucose patterns, but routine use in otherwise healthy people has not been shown to improve long-term health outcomes." },
+      { name: "Epigenetic or biological-age clocks", detail: "Useful research tools for studying ageing biology. A commercial ‘biological age’ score is not yet a validated basis for individual treatment decisions." },
+      { name: "Whole-body MRI screening", detail: "Can produce incidental findings and downstream investigations. Routine screening of asymptomatic people without specific risk factors is not supported by sufficient evidence of net benefit." },
+      { name: "Broad hormone and micronutrient panels", detail: "More measurements do not necessarily produce better care. Testing is most useful when symptoms, risk factors or treatments make a result actionable." }
+    ]
+  }
+];
 
-    return (
-        <div style={{
-            backgroundColor: '#000000',
-            color: '#FFFFFF',
-            minHeight: '100vh',
-            fontFamily: '"Inter", sans-serif',
-            overflowX: 'hidden'
-        }}>
-            {/* Hero Section */}
-            < HeroSection
-                backgroundImage="/tier3_hero_user.webp"
-                title={
-                    <>
-                        TIER 3: <br />
-                        <span style={{ color: '#FF5F00' }}>ADVANCED OPTIMIZATION</span>
-                    </>
-                }
-                subtitle={
-                    < span style={{ fontStyle: 'italic' }}>
-                        "You have fixed the engine. Now we tune it for speed."
-                    </span >
-                }
-                overlay="linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%)"
-                textColor="#FFFFFF"
-                subtitleColor="#FFFFFF"
-            >
-                <p style={{
-                    fontSize: '1.2rem',
-                    fontWeight: 300,
-                    color: 'rgba(255,255,255,0.8)',
-                    maxWidth: '700px',
-                    margin: '0 auto',
-                    lineHeight: 1.6
-                }}>
-                    The Essential 5 ensure you don't die early. The Advanced Panel ensures you live fully. This tier looks at metabolic rate, oxygen transport, and hormonal bioavailability. This is the difference between 'normal aging' and 'high performance'.
-                </p>
-            </HeroSection >
+const references = [
+  { name: "KDIGO 2024 CKD guideline — creatinine, cystatin C and albuminuria", url: "https://kdigo.org/guidelines/ckd-evaluation-and-management/" },
+  { name: "National Kidney Foundation — cystatin C", url: "https://www.kidney.org/kidney-topics/cystatin-c" },
+  { name: "American College of Radiology — whole-body MRI screening", url: "https://www.acr.org/Media-Center/ACR-News-Releases/2023/ACR-Statement-on-Screening-Total-Body-MRI" },
+  { name: "American Diabetes Association — Standards of Care", url: "https://professional.diabetes.org/standards-of-care" },
+  { name: "Endocrine Society — testosterone therapy guideline", url: "https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy" }
+];
 
-            {/* Main Content: The 4 Pillars */}
-            < section style={{ padding: '4rem 2rem', maxWidth: '1200px', margin: '0 auto' }}>
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: '3rem'
-                }}>
-                    {pillars.map((pillar, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            style={{
-                                background: 'rgba(255,255,255,0.03)',
-                                border: '1px solid rgba(255,255,255,0.1)',
-                                padding: '2.5rem',
-                                borderRadius: '4px',
-                                display: 'flex',
-                                flexDirection: 'column'
-                            }}
-                        >
-                            <div style={{ marginBottom: '1.5rem', borderBottom: '1px solid #FF5F00', paddingBottom: '1rem' }}>
-                                <h3 style={{
-                                    fontSize: '1.5rem',
-                                    fontWeight: 700,
-                                    color: '#FFFFFF',
-                                    marginBottom: '0.25rem',
-                                    textTransform: 'uppercase'
-                                }}>
-                                    {pillar.title}
-                                </h3>
-                                <span style={{
-                                    fontSize: '1rem',
-                                    color: '#FF5F00',
-                                    fontStyle: 'italic'
-                                }}>
-                                    {pillar.subtitle}
-                                </span>
-                            </div>
-
-                            <div style={{ marginBottom: '1.5rem' }}>
-                                <span style={{
-                                    fontSize: '0.85rem',
-                                    textTransform: 'uppercase',
-                                    color: '#888888',
-                                    fontWeight: 600,
-                                    display: 'block',
-                                    marginBottom: '0.5rem'
-                                }}>
-                                    Target Marker
-                                </span>
-                                <span style={{
-                                    fontSize: '1.25rem',
-                                    fontWeight: 700,
-                                    color: '#FFFFFF',
-                                    fontFamily: 'monospace'
-                                }}>
-                                    {pillar.marker}
-                                </span>
-                            </div>
-
-                            <p style={{
-                                fontSize: '1rem',
-                                color: '#CCCCCC',
-                                lineHeight: 1.6,
-                                flexGrow: 1
-                            }}>
-                                {pillar.logic}
-                            </p>
-                        </motion.div>
-                    ))}
-                </div>
-            </section >
-
-            {/* Footer / CTA */}
-            < section style={{
-                padding: '6rem 2rem',
-                textAlign: 'center',
-                background: 'linear-gradient(to top, #050505 0%, #000000 100%)',
-                borderTop: '1px solid rgba(255,255,255,0.1)'
-            }}>
-                <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                    <h2 style={{
-                        fontSize: '2rem',
-                        fontWeight: 700,
-                        color: '#FFFFFF',
-                        marginBottom: '2rem',
-                        textTransform: 'uppercase'
-                    }}>
-                        Ready to Optimise?
-                    </h2>
-                    
-
-                    <p style={{
-                        fontSize: '0.85rem',
-                        color: '#666666',
-                        fontStyle: 'italic',
-                        marginTop: '3rem'
-                    }}>
-                        Medical Disclaimer: This guide is for educational purposes. Discuss results with a qualified practitioner.
-                    </p>
-                </div>
-            </section >
-        </div >
-    );
-};
-
-export default AdvancedOptimization;
+export default function AdvancedOptimization() {
+  return (
+    <main style={{ background: "#F8FAF9", color: "#172B2A", fontFamily: '"Inter", sans-serif' }}>
+      <header style={{ background: "linear-gradient(135deg,#102D2B,#173F3A)", color: "white", padding: "clamp(5rem,12vw,9rem) 1.5rem 5rem" }}>
+        <div style={{ maxWidth: 920, margin: "0 auto" }}>
+          <p style={{ color: "#79DED0", fontWeight: 700, letterSpacing: ".14em", textTransform: "uppercase", fontSize: ".85rem" }}>EmpowerVida / The evidence-led guide</p>
+          <h1 style={{ fontFamily: '"Manrope",sans-serif', fontSize: "clamp(2.4rem,7vw,4.8rem)", lineHeight: 1.08, margin: "1.4rem 0" }}>Advanced Diagnostics</h1>
+          <p style={{ fontSize: "clamp(1.15rem,2.5vw,1.45rem)", lineHeight: 1.6, maxWidth: 750, color: "#E0F0EB" }}>What longevity clinics measure — and which tests are actually worth considering.</p>
+          <p style={{ fontSize: "1rem", lineHeight: 1.8, maxWidth: 750, color: "#D0E2DC" }}>Modern medicine can detect risks earlier than ever. The opportunity is real. So is the temptation to order everything. The most useful test is one that changes a decision for the better.</p>
+        </div>
+      </header>
+      <nav aria-label="Page sections" style={{ maxWidth: 920, margin: "0 auto", padding: "1.5rem", display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+        <a href="#established">Established prevention</a><a href="#selective">Selective testing</a><a href="#emerging">Emerging science</a><a href="#references">References</a>
+      </nav>
+      <div style={{ maxWidth: 920, margin: "0 auto", padding: "0 1.5rem 4rem" }}>
+        {categories.map(category => (
+          <section key={category.id} id={category.id} style={{ padding: "3rem 0", borderTop: "1px solid #D6E1DD", scrollMarginTop: "100px" }}>
+            <p style={{ color: "#16786D", fontWeight: 700, textTransform: "uppercase", letterSpacing: ".1em", fontSize: ".85rem" }}>{category.eyebrow}</p>
+            <h2 style={{ fontFamily: '"Manrope",sans-serif', fontSize: "clamp(1.8rem,4vw,2.6rem)", margin: "0.6rem 0 1rem" }}>{category.title}</h2>
+            <p style={{ fontSize: "1.1rem", lineHeight: 1.8, maxWidth: 780 }}>{category.intro}</p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,290px),1fr))", gap: "1rem", marginTop: "2rem" }}>
+              {category.tests.map(test => (
+                <article key={test.name} style={{ background: "#FFFFFF", padding: "1.5rem", borderRadius: 12, border: "1px solid #DCE7E2" }}>
+                  <h3 style={{ fontSize: "1.13rem", lineHeight: 1.4, margin: "0 0 .8rem" }}>{test.name}</h3>
+                  <p style={{ fontSize: "1rem", lineHeight: 1.7, margin: 0 }}>{test.detail}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+        <section style={{ background: "#E7F1ED", padding: "clamp(1.5rem,4vw,2.5rem)", borderRadius: 12 }}>
+          <h2 style={{ marginTop: 0 }}>A smarter question than “What else can I test?”</h2>
+          <p style={{ lineHeight: 1.8 }}>Ask: What risk are we investigating? How reliable is this result? Would an abnormal finding change treatment? What are the possible harms of follow-up? And is there a proven intervention available?</p>
+          <p style={{ lineHeight: 1.8, marginBottom: 0 }}>This is an educational guide, not an individual testing plan. Decisions should reflect personal history, symptoms and discussion with a qualified clinician.</p>
+        </section>
+        <section id="references" style={{ paddingTop: "3rem", scrollMarginTop: "100px" }}>
+          <h2>Further reading and clinical guidance</h2>
+          <ul style={{ lineHeight: 2 }}>
+            {references.map(ref => <li key={ref.url}><a href={ref.url} target="_blank" rel="noopener noreferrer">{ref.name}</a></li>)}
+          </ul>
+          <p style={{ lineHeight: 1.8 }}>For a companion discussion of conventional and advanced blood tests, see the <Link href="/diagnostics">biomarker guide</Link>.</p>
+        </section>
+      </div>
+    </main>
+  );
+}
