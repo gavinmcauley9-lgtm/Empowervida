@@ -733,7 +733,7 @@ export default function InsulinStory() {
                                     e.target.style.boxShadow = '0 8px 24px rgba(32, 178, 170, 0.3)';
                                 }}
                             >
-                                Start The Metabolic Protocol →
+                                Explore Metabolic Health →
                             </Link>
                             <Link
                                 href="/diagnostics"
