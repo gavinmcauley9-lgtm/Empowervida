@@ -19,15 +19,15 @@ export default function Home() {
 
     const organizationSchema = {
         "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
+        "@type": "Organization",
         "name": "EMPOWERVIDA",
-        "description": "Evidence-based longevity protocols and clinical-grade supplements for optimal health and cellular performance.",
+        "description": "Physician-led health education exploring longevity, metabolic health and emerging science with a clear distinction between established evidence and promising research.",
         "url": "https://empowervida.com",
         "logo": "https://empowervida.com/empowervida_hero_logo.png",
         "founder": {
             "@type": "Person",
             "name": "Dr. Gavin McAuley",
-            "jobTitle": "Physician, Clinical Focus in Longevity"
+            "jobTitle": "Physician and Health Writer"
         },
         "sameAs": [
             "https://www.linkedin.com/in/gavin-mcauley-62147151/"
@@ -49,23 +49,23 @@ export default function Home() {
     const faqData = [
         {
             question: "Why am I always tired even after sleeping?",
-            answer: "If you have already ruled out the 'Big 4' (Anaemia, Thyroid disease, Sleep Apnea, and Depression), yet you still feel exhausted, this may be associated with Sub-Clinical Mitochondrial Dysfunction — a condition where cells receive fuel but struggle to convert it into energy (ATP). This is effectively a 'brownout' of your biological grid."
+            answer: "Persistent fatigue has many possible causes, including sleep disorders, medication effects, mental health conditions and medical illness. Mitochondria are central to energy production, but unexplained fatigue alone does not establish mitochondrial dysfunction. If fatigue persists, seek an individual medical assessment."
         },
         {
-            question: "Why 'Clinical-Grade' Supplements?",
-            answer: "Most off-the-shelf supplements suffer from poor bioavailability (your body can't absorb them) or low dosing. We reference only the forms and dosages studied in peer-reviewed clinical research, such as Liposomal delivery and methylated B-vitamins."
+            question: "Do supplements have a role in healthy ageing?",
+            answer: "Some supplements can help when there is a specific deficiency or clinical indication. For otherwise healthy adults, evidence for many longevity supplements remains limited. We explore the research, possible benefits, uncertainties and safety considerations without treating supplements as substitutes for proven fundamentals."
         },
         {
             question: "I'm overwhelmed. Where do I start?",
-            answer: "Begin with 'Tier 1: The Essential 5'. These are the non-negotiables: Vitamin D, Magnesium, Omega-3s, and Metabolic support. Once your baseline is stable, you can layer on 'Tier 2' optimisations for specific goals like cognitive clarity or energy."
+            answer: "Start with the fundamentals supported by the strongest evidence: regular movement, good sleep, a nutritious diet, not smoking and managing blood pressure, cholesterol and blood glucose where appropriate. Our guides then explore emerging ideas, including supplements, with their evidence and limitations clearly explained."
         },
         {
             question: "Do I need a doctor's referral?",
-            answer: "No. These protocols are designed for proactive health optimisation. However, Dr. Gavin always recommends sharing your supplement regimen with your primary care provider, especially if you are on prescription medications."
+            answer: "No referral is needed to read our educational guides. They are general information, not an individual treatment plan. Discuss significant health changes or supplements with your treating clinician, particularly if you have medical conditions or take prescription medicines."
         },
         {
             question: "How quickly will I feel results?",
-            answer: "Biochemistry takes time. While some users feel energy shifts (from things like Electrolytes or Creatine) in days, cellular repair (Mitochondrial Biogenesis) is a 6-12 week process. Consistency is the active ingredient."
+            answer: "Results vary with the intervention, the individual and the outcome being measured. There is no reliable universal timeline for 'cellular repair'. Sustainable habits often matter more than quick fixes, and our articles distinguish measurable clinical benefits from early-stage biological findings."
         }
     ];
 
@@ -85,9 +85,9 @@ export default function Home() {
     return (
         <>
             <SEO
-                title="EMPOWERVIDA - Longevity, Engineered | Evidence-Based Health Optimization"
-                description="Physician-led longevity protocols. Clinical-grade supplements for energy, focus, and cellular renewal. Evidence-based solutions for optimal health and performance."
-                keywords="longevity protocol, mitochondrial health, anti-ageing supplements, cellular optimization, brain health, energy supplements, dr gavin mcauley, evidence-based wellness"
+                title="EMPOWERVIDA | The Science of Living Better, for Longer"
+                description="Physician-led health journalism on longevity, metabolic health and promising research — grounded in evidence, clear about uncertainty and focused on practical wellbeing."
+                keywords="longevity research, metabolic health, mitochondrial science, healthy ageing, brain health, evidence-based health education, dr gavin mcauley"
                 canonical="/"
                 ogImage="/home_hero_user.png"
                 schemaData={[organizationSchema, websiteSchema, faqSchema]}
@@ -95,7 +95,7 @@ export default function Home() {
             <HeroSectionHybrid />
 
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
-            <section style={{
+            <section className="homepage-founder-section" style={{
                 padding: '18rem 2rem 8rem 2rem',
                 marginTop: '-10rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.3) 25%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.3) 75%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
@@ -168,7 +168,7 @@ export default function Home() {
                         }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
-                                alt="Dr. Gavin McAuley - GP and Longevity Physician, founder of EMPOWERVIDA"
+                                alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
                                 style={{
                                     width: '180px',
                                     height: '180px',
@@ -208,9 +208,9 @@ export default function Home() {
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
-                            I'm a physician who transitioned from acute care to proactively addressing the root causes of systemic health decline.
+                            I'm a physician with experience in emergency medicine and general practice, and a growing focus on explaining the science of living healthier for longer.
                             After 16 years working in Emergency Medicine and General Practice, I
-                            now specialise in evidence-based, holistic longevity medicine.
+                            now explore longevity and preventive health research through accessible, evidence-led writing.
                         </p>
 
                         <p style={{
@@ -220,7 +220,7 @@ export default function Home() {
                             marginBottom: '2.5rem',
                             letterSpacing: '0.005em'
                         }}>
-                            My mission is to help you optimise your healthspan through evidence-based protocols: a systematic approach designed to support metabolic optimization and thriving longevity.
+                            My mission is to make health and longevity research understandable, useful and genuinely interesting — celebrating promising discoveries while being clear about what science has, and has not, established.
                         </p>
 
                         {/* Premium Credentials Grid */}
@@ -326,7 +326,7 @@ export default function Home() {
                             margin: '0 auto',
                             lineHeight: '1.7'
                         }}>
-                            Navigate the three pillars of the Empowervida protocol: Education, Optimisation, and Implementation.
+                            Explore the science, understand what the evidence means, and discover practical steps that may help you protect your long-term health.
                         </p>
                     </div>
 
@@ -481,7 +481,7 @@ export default function Home() {
                                     lineHeight: 1.7,
                                     flexGrow: 1
                                 }}>
-                                    Energy begins at the cellular level. Explore the physician's framework for supporting mitochondrial function and addressing persistent fatigue.
+                                    Mitochondria help power our cells. Explore what researchers are learning about cellular energy, healthy ageing and the limits of current evidence — without assuming every case of fatigue has a mitochondrial cause.
                                 </p>
 
                                 <span style={{
@@ -523,7 +523,7 @@ export default function Home() {
             }}>
                 <div className="container text-center">
                     <p style={{ fontSize: '0.9rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 600 }}>
-                        Evidence-Based Protocols by Dr. Gavin McAuley, MBChB
+                        Evidence-led health education by Dr. Gavin McAuley, MBChB
                     </p>
                 </div>
             </div >

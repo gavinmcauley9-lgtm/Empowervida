@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const insights = [
     {
         id: 1,
-        quote: "The goal isn't just to live longer—it's to extend your healthspan. We should be focused on preventing chronic disease decades before it manifests.",
+        summary: "Healthspan matters as much as lifespan. Prevention and long-term risk reduction are central themes in Attia's approach to healthy ageing.",
         author: "Dr. Peter Attia, MD",
         role: "Longevity Physician & Host of The Drive Podcast",
         initials: "PA",
@@ -14,7 +14,7 @@ const insights = [
     },
     {
         id: 2,
-        quote: "Sleep is the foundation of mental and physical health. It's during sleep that the brain clears metabolic waste and consolidates learning.",
+        summary: "Sleep supports learning, memory and overall health. Researchers are also investigating how sleep relates to the brain's waste-clearance systems.",
         author: "Dr. Andrew Huberman, PhD",
         role: "Stanford Neuroscientist & Host of Huberman Lab",
         initials: "AH",
@@ -22,7 +22,7 @@ const insights = [
     },
     {
         id: 3,
-        quote: "Biological age and chronological age are not the same thing. We are learning that the pace of cellular decline can be significantly influenced by our daily metabolic choices.",
+        summary: "Biological ageing may differ from calendar age. Researchers are studying whether lifestyle and metabolic factors influence biological-age measures—and what those measures mean for long-term health.",
         author: "Dr. David Sinclair, PhD",
         role: "Harvard Geneticist & Author of Lifespan",
         initials: "DS",
@@ -64,7 +64,7 @@ const ExpertInsightsSection = () => {
                         textTransform: 'uppercase',
                         fontSize: '0.9rem'
                     }}>
-                        What Leading Researchers Are Saying
+                        Perspectives Shaping Longevity Science
                     </p>
                 </div>
 
@@ -92,18 +92,14 @@ const ExpertInsightsSection = () => {
                                 height: '100%'
                             }}
                         >
-                            <div style={{ marginBottom: '1rem', color: 'var(--color-accent-teal)', fontSize: '2.5rem', lineHeight: 1, opacity: 0.6 }}>
-                                "
-                            </div>
                             <p style={{
                                 fontSize: '1.05rem',
                                 lineHeight: 1.6,
                                 color: 'var(--color-text)',
-                                fontStyle: 'italic',
                                 flex: 1,
                                 marginBottom: '2rem'
                             }}>
-                                "{t.quote}"
+                                {t.summary}
                             </p>
                             <div style={{
                                 display: 'flex',
@@ -128,12 +124,15 @@ const ExpertInsightsSection = () => {
                                 <div>
                                     <div style={{ fontWeight: 700, color: 'var(--color-text)', fontSize: '0.95rem' }}>{t.author}</div>
                                     <div style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', lineHeight: 1.4 }}>{t.role}</div>
-                                    <div style={{ fontSize: '0.75rem', color: 'var(--color-accent-teal)', marginTop: '4px', fontStyle: 'italic' }}>Source: {t.source}</div>
+                                    <div style={{ fontSize: '0.75rem', color: 'var(--color-accent-teal)', marginTop: '4px', fontStyle: 'italic' }}>Further reading: {t.source}</div>
                                 </div>
                             </div>
                         </motion.div>
                     ))}
                 </div>
+                <p style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.85rem', color: 'var(--color-text-muted)', lineHeight: 1.6 }}>
+                    These are EmpowerVida summaries of publicly discussed ideas, not verbatim quotations or endorsements. Research findings and interpretations continue to evolve.
+                </p>
             </div>
         </section>
     );

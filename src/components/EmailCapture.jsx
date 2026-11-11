@@ -91,7 +91,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         marginBottom: '1rem',
                         letterSpacing: '-0.02em'
                     }}>
-                        Get The Metabolic Reset Protocol
+                        Explore Metabolic Health — Free Email Series
                     </h2>
                     <p style={{
                         fontSize: 'clamp(1.2rem, 2vw, 1.5rem)',
@@ -99,7 +99,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         fontWeight: 700,
                         marginBottom: '1rem'
                     }}>
-                        The Physician&apos;s Guide to Reversing Insulin Resistance
+                        A 7-Day Introduction to Blood Sugar and Metabolic Health
                     </p>
                     <p style={{
                         fontSize: 'clamp(1rem, 2vw, 1.2rem)',
@@ -108,7 +108,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         margin: '0 auto',
                         lineHeight: '1.6'
                     }}>
-                        Join the free 7-day email protocol designed by Dr. Gavin to lower fasting glucose, eliminate afternoon brain fog, and restore your cellular energy engine.
+                        Explore how blood sugar regulation, movement, nutrition and sleep relate to metabolic health. This free educational email series explains established approaches and emerging research, without promising individual results.
                     </p>
                 </div>
             )}
@@ -134,7 +134,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         color: '#1A3C34',
                         marginBottom: '0.75rem'
                     }}>
-                        You&apos;re In &mdash; Check Your Inbox
+                        Thanks for Signing Up
                     </h3>
                     <p style={{
                         fontSize: '1.05rem',
@@ -143,7 +143,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                         maxWidth: '500px',
                         margin: '0 auto'
                     }}>
-                        Your first protocol email is on its way. Look for an email from Dr. Gavin McAuley. Check spam if you don&apos;t see it within 5 minutes.
+                        Thanks for signing up. Please check your inbox for an email from EmpowerVida, and your spam folder if needed.
                     </p>
                 </motion.div>
             ) : (
@@ -225,7 +225,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                                 e.target.style.boxShadow = '0 10px 25px rgba(255, 69, 0, 0.3)';
                             }}
                         >
-                            {status === 'loading' ? 'Subscribing...' : 'Start the Free Reset'}
+                            {status === 'loading' ? 'Subscribing...' : 'Join the Free Series'}
                         </button>
                     </div>
 
@@ -253,7 +253,7 @@ const EmailCapture = ({ variant = 'default' }) => {
                 fontSize: '0.85rem',
                 color: '#6C757D'
             }}>
-                Join 1,000+ others. We respect your privacy. Unsubscribe at any time.
+                We respect your privacy. Unsubscribe at any time.
             </p>
         </motion.div>
     );
