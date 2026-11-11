@@ -515,7 +515,7 @@ const Protocol = () => {
                         }}>
                             <h4 style={{ color: '#667eea', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
                             <Link href="/blog/creatine-and-nad-take-together-physician-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NMN Together?</Link>
-                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Explore how cognitive health is assessed</Link>
                         </div>
                     </div>
 
@@ -973,8 +973,8 @@ const Protocol = () => {
                         }}>
                             <h4 style={{ color: '#DC2626', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
                             <Link href="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Understand the insulin story</Link>
-                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
-                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Track your progress with these labs</Link>
+                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Read more about insulin resistance and HOMA-IR</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Understand metabolic testing options</Link>
                         </div>
                     </div>
 
