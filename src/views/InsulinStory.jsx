@@ -168,7 +168,37 @@ export default function InsulinStory() {
                     .insulin-story-hero .hero-section { min-height: 0 !important; }
                 }
                 @media (max-width: 640px) {
-                    .insulin-story-content > section { margin-bottom: 2rem !important; }
+                    /* Compact editorial rhythm: override large inline section spacers. */
+                    .insulin-story-content > section {
+                        margin-top: 0 !important;
+                        margin-bottom: 1.5rem !important;
+                        padding-top: 0 !important;
+                        padding-bottom: 0 !important;
+                        min-height: 0 !important;
+                    }
+                    .insulin-story-content > section[style*="border-top"] {
+                        margin-top: 2.25rem !important;
+                        padding-top: 1.75rem !important;
+                    }
+                    .insulin-story-content > section h2 + div[style*="height: 4px"] {
+                        margin-bottom: 1.25rem !important;
+                    }
+                    .insulin-story-content > section > p[style*="text-align: center"] {
+                        margin-top: .65rem !important;
+                        margin-bottom: .75rem !important;
+                    }
+                    .insulin-story-content > section > div[style*="text-align: center"] {
+                        margin-top: 1rem !important;
+                        margin-bottom: 1.25rem !important;
+                    }
+                    .insulin-story-content > section > div[style*="border-left"] {
+                        margin-top: 1rem !important;
+                        margin-bottom: 1rem !important;
+                    }
+                    .insulin-story-content > section > img {
+                        margin-top: .5rem !important;
+                        margin-bottom: .5rem !important;
+                    }
                     .insulin-story-content > section h2 { margin-bottom: 1.1rem !important; }
                     .insulin-story-content > section h2 + div[style*="height: 4px"] { margin-bottom: 1.35rem !important; }
                     .insulin-story-content > section img { margin-top: 1rem !important; margin-bottom: 1rem !important; }
