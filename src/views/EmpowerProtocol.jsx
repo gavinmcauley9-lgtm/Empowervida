@@ -9,19 +9,32 @@ const EmpowerProtocol = () => {
     return (
         <>
 
+            <style>{`
+                .empower-protocol-hero .hero-section { background-color: #102a29 !important; }
+                .empower-protocol-hero .hero-section h1 { font-size: clamp(2.5rem, 6.6vw, 6rem) !important; line-height: 1.04 !important; margin-bottom: 1.5rem !important; }
+                .empower-protocol-hero .hero-section h2 { font-size: clamp(1.05rem, 1.9vw, 1.45rem) !important; line-height: 1.5 !important; letter-spacing: .055em !important; max-width: 760px; margin: 0 auto 2rem !important; }
+                @media (max-width: 600px) {
+                    .empower-protocol-hero .hero-section { min-height: 0 !important; padding: 2.75rem 0 2.75rem !important; }
+                    .empower-protocol-hero .hero-section h1 { font-size: clamp(2.35rem, 10vw, 3.2rem) !important; }
+                    .empower-protocol-hero .hero-section h2 { font-size: 1rem !important; letter-spacing: .025em !important; margin-bottom: 1.5rem !important; }
+                    .empower-protocol-hero .hero-section p { font-size: 1.04rem !important; line-height: 1.55 !important; margin-bottom: 1.5rem !important; }
+                }
+            `}</style>
             {/* Section 1: The Hero */}
+            <div className="empower-protocol-hero">
             <HeroSection
                 backgroundImage="/dna_bg_user.jpg"
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #FFFFFF 100%)"
+                overlay="linear-gradient(to bottom, rgba(6,28,29,.78) 0%, rgba(7,37,35,.64) 57%, rgba(16,42,41,.93) 100%)"
                 title={
-                    <span style={{ color: '#000000', letterSpacing: '-0.03em' }}>
+                    <span style={{ color: '#F8FCFA', letterSpacing: '-0.03em' }}>
                         The Hierarchy of Health
                     </span>
                 }
                 subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
-                textColor="#000000"
-                subtitleColor="#555555"
-                height="90vh"
+                textColor="#F8FCFA"
+                subtitleColor="#D8F0E6"
+                height="68vh"
+                rightFade="linear-gradient(to left, rgba(5,30,30,.52), rgba(5,30,30,.20) 55%, transparent 100%)"
             >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -32,7 +45,7 @@ const EmpowerProtocol = () => {
                     <p style={{
                         fontSize: '1.25rem',
                         lineHeight: 1.6,
-                        color: '#333333',
+                        color: '#F0F8F3',
                         marginBottom: '2.5rem',
                         fontWeight: 400
                     }}>
@@ -45,7 +58,9 @@ const EmpowerProtocol = () => {
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',
-                            backgroundColor: '#000000',
+                            backgroundColor: '#12463E',
+                            border: '1px solid rgba(190,238,219,.55)',
+                            boxShadow: '0 8px 24px rgba(0,0,0,.20)',
                             color: '#FFFFFF',
                             textDecoration: 'none',
                             fontWeight: 600,
@@ -55,11 +70,11 @@ const EmpowerProtocol = () => {
                             transition: 'all 0.3s ease'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#333333';
+                            e.target.style.backgroundColor = '#1C5C50';
                             e.target.style.transform = 'translateY(-2px)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = '#000000';
+                            e.target.style.backgroundColor = '#12463E';
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
@@ -67,6 +82,7 @@ const EmpowerProtocol = () => {
                     </a>
                 </motion.div>
             </HeroSection>
+            </div>
 
             {/* Section 2: The Philosophy */}
             <section style={{
@@ -229,32 +245,36 @@ const EmpowerProtocol = () => {
                 </section>
             </div>
 
-            {/* Section 4: The Soft Sell */}
+            {/* Section 4: Evidence-led optimism, not a sales pitch */}
             <section style={{
-                padding: '8rem 2rem',
-                backgroundColor: '#000000',
-                color: '#FFFFFF',
+                padding: 'clamp(3.5rem, 7vw, 5.5rem) 1.5rem',
+                background: 'linear-gradient(145deg, #10342f 0%, #173f37 100%)',
+                color: '#F6FBF8',
                 textAlign: 'center'
             }}>
-                <div style={{ maxWidth: '700px', margin: '0 auto' }}>
+                <div style={{ maxWidth: '760px', margin: '0 auto' }}>
+                    <span style={{ display: 'block', color: '#A7E1C9', fontSize: '.82rem', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+                        Beyond the foundations
+                    </span>
                     <h2 style={{
-                        fontSize: 'clamp(2rem, 4vw, 3rem)',
-                        fontWeight: 700,
-                        color: '#FFFFFF',
-                        marginBottom: '1.5rem',
-                        letterSpacing: '-0.03em'
+                        fontSize: 'clamp(1.9rem, 4vw, 3rem)',
+                        fontWeight: 750,
+                        color: '#F6FBF8',
+                        marginBottom: '1.25rem',
+                        letterSpacing: '-0.035em',
+                        lineHeight: 1.18
                     }}>
-                        Why We Only Sell "Level 3."
+                        Where Emerging Science Gets Interesting
                     </h2>
                     <p style={{
-                        fontSize: '1.1rem',
-                        lineHeight: 1.8,
-                        color: 'rgba(255,255,255,0.8)',
-                        marginBottom: '3rem'
+                        fontSize: 'clamp(1.05rem, 2vw, 1.2rem)',
+                        lineHeight: 1.75,
+                        color: '#E0EEE7',
+                        margin: '0 auto',
+                        maxWidth: '660px'
                     }}>
-                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. EMPOWERVIDA was created to provide clinical-grade, third-party tested tools for those seeking evidence-based options.
+                        Sleep, movement, nutrition and preventive care remain the foundations of long-term health. Beyond them lies a fascinating world of research into cellular energy, metabolism and healthy ageing. Some approaches already have meaningful human evidence; others are promising but early. Here, we explore both with curiosity, explain what is known, and stay clear about what has yet to be proved.
                     </p>
-                    
                 </div>
             </section>
 

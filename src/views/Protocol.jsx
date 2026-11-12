@@ -3,15 +3,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import HeroSection from '../components/HeroSection';
 import FAQSection from '../components/FAQSection';
 
 const Protocol = () => {
+    const [expandedPhase, setExpandedPhase] = React.useState(null);
     // usePathname() returns a string, not an object — use window.location for hash access
     const hash = typeof window !== 'undefined' ? window.location.hash : '';
 
     React.useEffect(() => {
         if (hash) {
+            if (['longevity-stack','clarity-stack','neurolongevity-stack','vitality-stack','gut-stack','sleep-stack','metabolic-stack'].includes(hash.slice(1))) setExpandedPhase(hash.slice(1));
             const element = document.getElementById(hash.replace('#', ''));
             if (element) {
                 setTimeout(() => {
@@ -96,33 +97,49 @@ const Protocol = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
-            {/* Hero Section */}
-            <HeroSection
-                backgroundImage="/protocol_hero_fire_v2.jpg"
-                title={
-                    <>
-                        THE 7 MASTER PROTOCOLS: <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
-                    </>
+            {/* Mobile reading width: override desktop inline padding in protocol cards */}
+            <style>{`
+                .protocol-compact-hero { position: relative; isolation: isolate; min-height: 480px; display: flex; align-items: center; justify-content: center; padding: 5.5rem 2rem 6.5rem; overflow: hidden; background: #102e29; }
+                .protocol-compact-hero::before { content: ''; position: absolute; z-index: -2; inset: -6% 0; background: linear-gradient(90deg, rgba(8,31,29,.83), rgba(8,31,29,.40)), url('/protocol_hero_fire_v2.jpg') center 46% / cover no-repeat; background-attachment: scroll; }
+                .protocol-compact-hero::after { content: ''; position: absolute; z-index: -1; inset: auto 0 0; height: 42%; pointer-events: none; background: linear-gradient(to bottom, transparent, var(--color-bg)); }
+                @media (min-width: 901px) and (prefers-reduced-motion: no-preference) {
+                    .protocol-compact-hero::before { background-attachment: fixed; }
                 }
-                subtitle=""
-                height="70vh"
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)"
-                textColor="var(--color-text)"
-            >
-                <p style={{
-                    fontSize: '1.5rem',
-                    fontWeight: 500,
-                    color: 'var(--color-text-muted)',
-                    maxWidth: '700px',
-                    margin: '0 auto',
-                    borderLeft: '4px solid var(--color-accent-teal)',
-                    paddingLeft: '1.5rem',
-                    textAlign: 'left'
-                }}>
-                    "Medicine usually waits for a crash. We engineer the system for maximum resilience."
-                </p>
-            </HeroSection>
+                .protocol-compact-hero-content { animation: protocol-hero-enter .9s ease-out both; }
+                @keyframes protocol-hero-enter { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+                @media (prefers-reduced-motion: reduce) { .protocol-compact-hero-content { animation: none; } }
+                .protocol-compact-hero-content { position: relative; z-index: 1; width: min(100%, 850px); text-align: center; }
+                .protocol-compact-hero h1 { font-family: 'Manrope', sans-serif; font-size: clamp(2.6rem, 5vw, 4.5rem); line-height: 1.08; letter-spacing: -.035em; margin: 0 0 1.25rem; color: #f9fcfa; font-weight: 900; text-shadow: 0 2px 20px rgba(0,0,0,.22); }
+                .protocol-compact-hero h1 span { color: #9ce0c7; }
+                .protocol-compact-hero p { max-width: 650px; margin: 0 auto; border-left: 4px solid var(--color-accent-teal); padding-left: 1rem; text-align: left; font-size: clamp(1.05rem, 2vw, 1.35rem); line-height: 1.5; color: #eef9f3; font-weight: 500; text-shadow: 0 1px 12px rgba(0,0,0,.28); }
+                @media (max-width: 600px) {
+                    .protocol-compact-hero { min-height: 0; padding: 3.75rem 1.5rem 4rem; } .protocol-compact-hero::before { background-position: center 45%; background-attachment: scroll; } .protocol-compact-hero::after { height: 30%; }
+                    .protocol-compact-hero h1 { font-size: clamp(2rem, 8.4vw, 2.75rem); margin-bottom: 1.25rem; }
+                    .protocol-compact-hero p { font-size: 1.05rem; line-height: 1.55; }
+                    .protocol-mobile-toggle { display: flex !important; width: 100%; align-items: center; justify-content: space-between; text-align: left; padding: 1.2rem; border: 1px solid rgba(0,128,128,.22); border-radius: 16px; margin: 0 0 .65rem; background: var(--color-bg-secondary); color: var(--color-text); font: inherit; cursor: pointer; }
+                    .protocol-phase { padding: 1.25rem !important; margin-bottom: 1rem !important; }
+                    .protocol-practical-grid { grid-template-columns: minmax(0, 1fr) !important; gap: 1.25rem !important; }
+                    .protocol-phase:not(.protocol-phase-expanded) { display: none !important; }
+                    .protocol-phase-expanded { display: block !important; }
+                    .protocol-mobile-toggle:focus-visible { outline: 3px solid var(--color-accent-teal); outline-offset: 3px; }
+                    .protocol-phase ul { padding-left: .5rem !important; }
+                    .protocol-phase ul li { display: block !important; padding-left: 0 !important; }
+                    .protocol-phase ul li > span:first-child { display: none !important; }
+                    .protocol-phase [style*="minmax(250px"] { grid-template-columns: minmax(0,1fr) !important; }
+                    .protocol-phase > div[style*="padding: 2rem"] { padding: 1rem !important; }
+                    .protocol-phase ul li { padding-left: 1.25rem !important; }
+                    .protocol-phase h2 { font-size: clamp(1.55rem, 7vw, 2.2rem) !important; overflow-wrap: anywhere; }
+                    .protocol-phase h3 { overflow-wrap: anywhere; }
+                }
+            `}</style>
+
+            {/* Compact, page-specific hero: independent of the full-screen shared HeroSection */}
+            <section className="protocol-compact-hero" aria-labelledby="protocol-hero-title">
+                <div className="protocol-compact-hero-content">
+                    <h1 id="protocol-hero-title">SEVEN AREAS OF <span>LONGEVITY SCIENCE</span></h1>
+                    <p>Explore established foundations, emerging ideas and the questions researchers are still working to answer.</p>
+                </div>
+            </section>
 
             {/* Introduction */}
             <section style={{ padding: '2rem 2rem', maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
@@ -189,7 +206,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 1: LONGEVITY (FOUNDATION) */}
-                    <div id="longevity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'longevity-stack'} aria-controls="longevity-stack" onClick={() => setExpandedPhase(expandedPhase === 'longevity-stack' ? null : 'longevity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>01</strong><strong>Longevity: The Foundation</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'longevity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="longevity-stack" className={`protocol-phase ${expandedPhase === 'longevity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -240,7 +261,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A3C34' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#1A3C34' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: 'var(--color-accent-teal)', fontWeight: 700 }}>+</span>
@@ -285,7 +306,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 2: BRAIN FOG / CLARITY */}
-                    <div id="clarity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'clarity-stack'} aria-controls="clarity-stack" onClick={() => setExpandedPhase(expandedPhase === 'clarity-stack' ? null : 'clarity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>02</strong><strong>Brain Fog & Clarity</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'clarity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="clarity-stack" className={`protocol-phase ${expandedPhase === 'clarity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -336,7 +361,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#008080' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#008080' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#008080', fontWeight: 700 }}>+</span>
@@ -392,7 +417,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 3: NEUROLONGEVITY */}
-                    <div id="neurolongevity-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'neurolongevity-stack'} aria-controls="neurolongevity-stack" onClick={() => setExpandedPhase(expandedPhase === 'neurolongevity-stack' ? null : 'neurolongevity-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>03</strong><strong>Neurolongevity</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'neurolongevity-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="neurolongevity-stack" className={`protocol-phase ${expandedPhase === 'neurolongevity-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -443,7 +472,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#667eea' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#667eea' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#667eea', fontWeight: 700 }}>+</span>
@@ -494,12 +523,16 @@ const Protocol = () => {
                         }}>
                             <h4 style={{ color: '#667eea', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
                             <Link href="/blog/creatine-and-nad-take-together-physician-guide" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Read: Can You Take Creatine and NMN Together?</Link>
-                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Track your progress with cognitive biomarkers</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: 500 }}>→ Explore how cognitive health is assessed</Link>
                         </div>
                     </div>
 
                     {/* PROTOCOL 4: ENERGY / VITALITY */}
-                    <div id="vitality-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'vitality-stack'} aria-controls="vitality-stack" onClick={() => setExpandedPhase(expandedPhase === 'vitality-stack' ? null : 'vitality-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>04</strong><strong>Energy & Vitality</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'vitality-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="vitality-stack" className={`protocol-phase ${expandedPhase === 'vitality-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -550,7 +583,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF5F00' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF5F00' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF5F00', fontWeight: 700 }}>+</span>
@@ -594,7 +627,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 5: GUT HEALTH */}
-                    <div id="gut-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'gut-stack'} aria-controls="gut-stack" onClick={() => setExpandedPhase(expandedPhase === 'gut-stack' ? null : 'gut-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>05</strong><strong>Gut Health</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'gut-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="gut-stack" className={`protocol-phase ${expandedPhase === 'gut-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -657,7 +694,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF6B6B' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#FF6B6B' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#FF6B6B', fontWeight: 700 }}>+</span>
@@ -723,7 +760,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 6: SLEEP & RECOVERY */}
-                    <div id="sleep-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'sleep-stack'} aria-controls="sleep-stack" onClick={() => setExpandedPhase(expandedPhase === 'sleep-stack' ? null : 'sleep-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>06</strong><strong>Sleep & Recovery</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'sleep-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="sleep-stack" className={`protocol-phase ${expandedPhase === 'sleep-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -774,7 +815,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#764ba2' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#764ba2' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#764ba2', fontWeight: 700 }}>+</span>
@@ -829,7 +870,11 @@ const Protocol = () => {
                     </div>
 
                     {/* PROTOCOL 7: METABOLIC HEALTH */}
-                    <div id="metabolic-stack" className="protocol-phase" style={{
+                    <button type="button" className="protocol-mobile-toggle" style={{ display: 'none' }} aria-expanded={expandedPhase === 'metabolic-stack'} aria-controls="metabolic-stack" onClick={() => setExpandedPhase(expandedPhase === 'metabolic-stack' ? null : 'metabolic-stack')}>
+                        <span><strong style={{ color: 'var(--color-accent-teal)', marginRight: '0.7rem' }}>07</strong><strong>Metabolic Health</strong></span>
+                        <span aria-hidden="true">{expandedPhase === 'metabolic-stack' ? '−' : '+'}</span>
+                    </button>
+                    <div id="metabolic-stack" className={`protocol-phase ${expandedPhase === 'metabolic-stack' ? 'protocol-phase-expanded' : ''}`} style={{
                         background: 'var(--color-bg-secondary)',
                         borderRadius: '24px',
                         padding: '3rem',
@@ -880,7 +925,7 @@ const Protocol = () => {
                             padding: '2rem',
                             marginBottom: '2rem'
                         }}>
-                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#DC2626' }}>The Stack:</h3>
+                            <h3 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1.5rem', color: '#DC2626' }}>Research and supplement considerations:</h3>
                             <ul style={{ listStyle: 'none', padding: 0 }}>
                                 <li style={{ marginBottom: '1.5rem', paddingLeft: '2rem', position: 'relative' }}>
                                     <span style={{ position: 'absolute', left: 0, color: '#DC2626', fontWeight: 700 }}>+</span>
@@ -936,8 +981,8 @@ const Protocol = () => {
                         }}>
                             <h4 style={{ color: '#DC2626', fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.25rem' }}>Deep Dive:</h4>
                             <Link href="/insulin-story" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Understand the insulin story</Link>
-                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Read: The Test Your Doctor Isn't Ordering (HOMA-IR)</Link>
-                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Track your progress with these labs</Link>
+                            <Link href="/blog/23" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Read more about insulin resistance and HOMA-IR</Link>
+                            <Link href="/diagnostics" style={{ color: 'var(--color-accent-teal)', textDecoration: 'none', fontWeight: '500' }}>→ Understand metabolic testing options</Link>
                         </div>
                     </div>
 
@@ -965,7 +1010,7 @@ const Protocol = () => {
                             letterSpacing: '0.05em',
                             fontFamily: '"Manrope", sans-serif'
                         }}>
-                            CLINICAL IMPLEMENTATION
+                            PUTTING THE EVIDENCE INTO PRACTICE
                         </h2>
                         <p style={{
                             color: 'var(--color-accent-teal)',
@@ -974,7 +1019,7 @@ const Protocol = () => {
                             textTransform: 'uppercase',
                             fontSize: '0.9rem'
                         }}>
-                            Timing & Dosage Matters
+                            How to evaluate supplements safely and sensibly
                         </p>
                     </div>
 
@@ -997,30 +1042,30 @@ const Protocol = () => {
                             fontWeight: 800
                         }}>
                             <span style={{ fontSize: '1.5rem' }}>⚠️</span>
-                            PRACTICAL SUPPLEMENT CONSIDERATIONS
+                            BEFORE CHOOSING A SUPPLEMENT
                         </h3>
 
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem' }}>
+                        <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: 1.7, marginBottom: '2rem' }}>
+                            The research summaries above are a starting point, not a shopping list. Before considering a supplement, work through four questions in order. For most people, established foundations such as nutrition, movement, sleep and management of medical risks matter more than adding another product.
+                        </p>
+                        <div className="protocol-practical-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>1. Formulation and Suitability</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Supplement form can affect absorption, tolerability and convenience, but no single rule applies across all ingredients. Ubiquinol may have higher bioavailability than ubiquinone in some studies, while age alone does not make ubiquinone ineffective. Common MTHFR variants do not by themselves establish a need for methylated B-vitamin supplements. Consider the evidence, total dose, formulation, health history and medicines together.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>1. Is there a reason to take it?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Start with the goal and the individual context. Is there a diagnosed deficiency, a dietary gap or another clear indication? Could symptoms have a cause that needs assessment rather than supplementation?</p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>2. Ingredient Transparency</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Proprietary blends may state a total blend amount without disclosing the amount of each ingredient. This can make it difficult to compare a product with relevant research or assess whether individual ingredient amounts are appropriate. Prefer labels that clearly identify each ingredient and amount, while recognising that transparent labelling alone does not establish efficacy or quality.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>2. How strong is the evidence?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Distinguish established uses from early or mixed findings. A plausible mechanism, a biomarker change or a small trial does not necessarily translate into better health outcomes.</p>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '1rem', fontWeight: 700 }}>3. Timing and Administration</h4>
-                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                                    Administration can affect absorption or tolerability for some supplements. Taking fat-soluble vitamins and compounds such as CoQ10 with a meal containing dietary fat may support absorption. Magnesium timing can be chosen according to formulation, purpose and tolerance. Rhodiola and other botanical products should be used according to product directions and individual tolerance. Potential medicine interactions should be checked where relevant. Timing is one consideration and does not replace evidence, appropriate dosing or individual suitability.
-                                </p>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>3. What exactly is in the product?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Check the ingredient, formulation and amount per serving. Transparent labels help you compare products, but do not prove efficacy or quality. Different forms may affect absorption or tolerability; no one formulation is best for everyone.</p>
                             </div>
-                        </div>
-                    </div>
+                            <div>
+                                <h4 style={{ color: 'var(--color-text)', marginBottom: '0.75rem', fontSize: '1rem', fontWeight: 700 }}>4. Is it safe and appropriate for you?</h4>
+                                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: 1.6 }}>Dose, timing, duration, interactions and monitoring depend on the compound and the person. Review medicines, health conditions and relevant tests with an appropriately qualified clinician when needed. More is not necessarily better.</p>
+                            </div>
+                        </div>                    </div>
                 </div>
             </section>
 
