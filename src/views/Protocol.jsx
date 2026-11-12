@@ -99,8 +99,8 @@ const Protocol = () => {
 
             {/* Mobile reading width: override desktop inline padding in protocol cards */}
             <style>{`
-                .protocol-compact-hero { position: relative; isolation: isolate; min-height: 480px; display: flex; align-items: center; justify-content: center; padding: 5.5rem 2rem 6.5rem; overflow: hidden; background: #e8eee9; }
-                .protocol-compact-hero::before { content: ''; position: absolute; z-index: -2; inset: -6% 0; background: linear-gradient(90deg, rgba(255,255,255,.82), rgba(255,255,255,.50)), url('/protocol_hero_fire_v2.jpg') center 46% / cover no-repeat; background-attachment: scroll; }
+                .protocol-compact-hero { position: relative; isolation: isolate; min-height: 480px; display: flex; align-items: center; justify-content: center; padding: 5.5rem 2rem 6.5rem; overflow: hidden; background: #102e29; }
+                .protocol-compact-hero::before { content: ''; position: absolute; z-index: -2; inset: -6% 0; background: linear-gradient(90deg, rgba(8,31,29,.83), rgba(8,31,29,.40)), url('/protocol_hero_fire_v2.jpg') center 46% / cover no-repeat; background-attachment: scroll; }
                 .protocol-compact-hero::after { content: ''; position: absolute; z-index: -1; inset: auto 0 0; height: 42%; pointer-events: none; background: linear-gradient(to bottom, transparent, var(--color-bg)); }
                 @media (min-width: 901px) and (prefers-reduced-motion: no-preference) {
                     .protocol-compact-hero::before { background-attachment: fixed; }
@@ -109,9 +109,9 @@ const Protocol = () => {
                 @keyframes protocol-hero-enter { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
                 @media (prefers-reduced-motion: reduce) { .protocol-compact-hero-content { animation: none; } }
                 .protocol-compact-hero-content { position: relative; z-index: 1; width: min(100%, 850px); text-align: center; }
-                .protocol-compact-hero h1 { font-family: 'Manrope', sans-serif; font-size: clamp(2.6rem, 5vw, 4.5rem); line-height: 1.08; letter-spacing: -.035em; margin: 0 0 1.25rem; color: var(--color-text); font-weight: 900; }
-                .protocol-compact-hero h1 span { color: var(--color-accent-teal); }
-                .protocol-compact-hero p { max-width: 650px; margin: 0 auto; border-left: 4px solid var(--color-accent-teal); padding-left: 1rem; text-align: left; font-size: clamp(1.05rem, 2vw, 1.35rem); line-height: 1.5; color: #185b4c; font-weight: 500; }
+                .protocol-compact-hero h1 { font-family: 'Manrope', sans-serif; font-size: clamp(2.6rem, 5vw, 4.5rem); line-height: 1.08; letter-spacing: -.035em; margin: 0 0 1.25rem; color: #f9fcfa; font-weight: 900; text-shadow: 0 2px 20px rgba(0,0,0,.22); }
+                .protocol-compact-hero h1 span { color: #9ce0c7; }
+                .protocol-compact-hero p { max-width: 650px; margin: 0 auto; border-left: 4px solid var(--color-accent-teal); padding-left: 1rem; text-align: left; font-size: clamp(1.05rem, 2vw, 1.35rem); line-height: 1.5; color: #eef9f3; font-weight: 500; text-shadow: 0 1px 12px rgba(0,0,0,.28); }
                 @media (max-width: 600px) {
                     .protocol-compact-hero { min-height: 0; padding: 3.75rem 1.5rem 4rem; } .protocol-compact-hero::before { background-position: center 45%; background-attachment: scroll; } .protocol-compact-hero::after { height: 30%; }
                     .protocol-compact-hero h1 { font-size: clamp(2rem, 8.4vw, 2.75rem); margin-bottom: 1.25rem; }
