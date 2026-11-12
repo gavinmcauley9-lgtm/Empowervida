@@ -55,7 +55,7 @@ export default function EmpowerProtocol() {
         .ev-protocol .hero::after { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(10,29,32,.88),rgba(10,29,32,.56) 58%,rgba(10,29,32,.3)); }
         .ev-protocol .hero-inner { width:min(1080px,100%); margin:auto; padding:72px 36px; }
         .ev-protocol .eyebrow { display:block; font-size:.78rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; color:#70d3c6; margin-bottom:18px; }
-        .ev-protocol h1 { font-size:clamp(2.7rem,6vw,5.2rem); line-height:1.04; letter-spacing:-.045em; max-width:780px; margin:0 0 22px; font-weight:760; }
+        .ev-protocol .hero h1 { color:#ffffff !important; text-shadow:0 2px 18px rgba(0,0,0,.35); font-size:clamp(2.7rem,6vw,5.2rem); line-height:1.04; letter-spacing:-.045em; max-width:780px; margin:0 0 22px; font-weight:760; }
         .ev-protocol .hero-lead { font-size:clamp(1.12rem,2.2vw,1.4rem); line-height:1.55; max-width:620px; margin:0; color:#f2f5f1; }
         .ev-protocol .hero-kicker { font-size:1rem; color:#c8e9df; margin:24px 0 0; }
         .ev-protocol .intro { padding:62px 24px 50px; text-align:center; }
