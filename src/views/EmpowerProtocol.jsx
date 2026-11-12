@@ -14,7 +14,7 @@ const EmpowerProtocol = () => {
                 .empower-protocol-hero .hero-section h1 { font-size: clamp(2.5rem, 6.6vw, 6rem) !important; line-height: 1.04 !important; margin-bottom: 1.5rem !important; }
                 .empower-protocol-hero .hero-section h2 { font-size: clamp(1.05rem, 1.9vw, 1.45rem) !important; line-height: 1.5 !important; letter-spacing: .055em !important; max-width: 760px; margin: 0 auto 2rem !important; }
                 @media (max-width: 600px) {
-                    .empower-protocol-hero .hero-section { min-height: 610px !important; padding: 3rem 0 4rem !important; }
+                    .empower-protocol-hero .hero-section { min-height: 0 !important; padding: 2.75rem 0 2.75rem !important; }
                     .empower-protocol-hero .hero-section h1 { font-size: clamp(2.35rem, 10vw, 3.2rem) !important; }
                     .empower-protocol-hero .hero-section h2 { font-size: 1rem !important; letter-spacing: .025em !important; margin-bottom: 1.5rem !important; }
                     .empower-protocol-hero .hero-section p { font-size: 1.04rem !important; line-height: 1.55 !important; margin-bottom: 1.5rem !important; }
@@ -33,7 +33,8 @@ const EmpowerProtocol = () => {
                 subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
                 textColor="#F8FCFA"
                 subtitleColor="#D8F0E6"
-                height="76vh"
+                height="68vh"
+                rightFade="linear-gradient(to left, rgba(5,30,30,.52), rgba(5,30,30,.20) 55%, transparent 100%)"
             >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -57,7 +58,9 @@ const EmpowerProtocol = () => {
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',
-                            backgroundColor: '#000000',
+                            backgroundColor: '#12463E',
+                            border: '1px solid rgba(190,238,219,.55)',
+                            boxShadow: '0 8px 24px rgba(0,0,0,.20)',
                             color: '#FFFFFF',
                             textDecoration: 'none',
                             fontWeight: 600,
@@ -67,11 +70,11 @@ const EmpowerProtocol = () => {
                             transition: 'all 0.3s ease'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#333333';
+                            e.target.style.backgroundColor = '#1C5C50';
                             e.target.style.transform = 'translateY(-2px)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = '#000000';
+                            e.target.style.backgroundColor = '#12463E';
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
