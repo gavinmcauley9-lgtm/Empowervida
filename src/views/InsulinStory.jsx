@@ -141,9 +141,10 @@ export default function InsulinStory() {
             <style>{`
                 @media (max-width: 640px) {
                     .insulin-story-hero .hero-section {
-                        min-height: 680px !important;
-                        padding-top: 100px !important;
-                        padding-bottom: 36px !important;
+                        min-height: 0 !important;
+                        height: auto !important;
+                        padding-top: 5.75rem !important;
+                        padding-bottom: 2rem !important;
                         box-sizing: border-box;
                     }
                     .insulin-story-hero .hero-section h1 {
@@ -164,7 +165,11 @@ export default function InsulinStory() {
                     }
                 }
                 @media (max-width: 375px) {
-                    .insulin-story-hero .hero-section { min-height: 640px !important; }
+                    .insulin-story-hero .hero-section { min-height: 0 !important; }
+                }
+                @media (max-width: 640px) {
+                    .insulin-story-content { padding-top: 1.5rem !important; padding-bottom: 3rem !important; }
+                    .insulin-story-hero .hero-section header { margin-bottom: 0 !important; }
                 }
             `}</style>
             <div className="insulin-story-hero">
@@ -203,8 +208,8 @@ export default function InsulinStory() {
                     fontSize: '1rem',
                     marginTop: '1rem',
                     opacity: 1,
-                    color: '#1F2937',
-                    textShadow: 'none',
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.85)',
                     fontWeight: 600
                 }}>
                     By Dr Gavin McAuley
@@ -213,7 +218,7 @@ export default function InsulinStory() {
             </div>
 
             {/* MAIN CONTENT */}
-            <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
+            <div className="container insulin-story-content" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
 
                 {/* SECTION 2: THE PARADIGM SHIFT */}
                 <section style={sectionStyle}>
