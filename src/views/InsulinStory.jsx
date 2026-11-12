@@ -168,6 +168,15 @@ export default function InsulinStory() {
                     .insulin-story-hero .hero-section { min-height: 0 !important; }
                 }
                 @media (max-width: 640px) {
+                    .insulin-story-content > section { margin-bottom: 2rem !important; }
+                    .insulin-story-content > section h2 { margin-bottom: 1.1rem !important; }
+                    .insulin-story-content > section h2 + div[style*="height: 4px"] { margin-bottom: 1.35rem !important; }
+                    .insulin-story-content > section img { margin-top: 1rem !important; margin-bottom: 1rem !important; }
+                    .insulin-story-content > section p[style*="text-align: center"] { margin-top: .5rem !important; }
+                    .insulin-story-content > section div[style*="grid-template-columns"] { margin-top: 1.75rem !important; gap: 1.25rem !important; }
+                    .insulin-story-content > section div[style*="grid-template-columns"] > div { padding: 1.5rem !important; }
+                }
+                @media (max-width: 640px) {
                     .insulin-story-content { padding-top: 1.5rem !important; padding-bottom: 3rem !important; }
                     .insulin-story-hero .hero-section header { margin-bottom: 0 !important; }
                 }
