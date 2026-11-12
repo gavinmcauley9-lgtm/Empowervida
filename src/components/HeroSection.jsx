@@ -14,6 +14,7 @@ const HeroSection = ({
     textShadow = "none",
     subtitleShadow = "none",
     subtitleWeight = "400",
+    rightFade = "linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)",
     children
 }) => {
     const { scrollY } = useScroll();
@@ -93,7 +94,7 @@ const HeroSection = ({
                     width: '40%',
                     height: '100%',
                     zIndex: 0,
-                    background: 'linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%)'
+                    background: rightFade
                 }}></div>
             </div>
 
