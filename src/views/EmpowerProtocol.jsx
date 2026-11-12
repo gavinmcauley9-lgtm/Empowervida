@@ -245,32 +245,36 @@ const EmpowerProtocol = () => {
                 </section>
             </div>
 
-            {/* Section 4: The Soft Sell */}
+            {/* Section 4: Evidence-led optimism, not a sales pitch */}
             <section style={{
-                padding: '8rem 2rem',
-                backgroundColor: '#000000',
-                color: '#FFFFFF',
+                padding: 'clamp(3.5rem, 7vw, 5.5rem) 1.5rem',
+                background: 'linear-gradient(145deg, #10342f 0%, #173f37 100%)',
+                color: '#F6FBF8',
                 textAlign: 'center'
             }}>
-                <div style={{ maxWidth: '700px', margin: '0 auto' }}>
+                <div style={{ maxWidth: '760px', margin: '0 auto' }}>
+                    <span style={{ display: 'block', color: '#A7E1C9', fontSize: '.82rem', fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+                        Beyond the foundations
+                    </span>
                     <h2 style={{
-                        fontSize: 'clamp(2rem, 4vw, 3rem)',
-                        fontWeight: 700,
-                        color: '#FFFFFF',
-                        marginBottom: '1.5rem',
-                        letterSpacing: '-0.03em'
+                        fontSize: 'clamp(1.9rem, 4vw, 3rem)',
+                        fontWeight: 750,
+                        color: '#F6FBF8',
+                        marginBottom: '1.25rem',
+                        letterSpacing: '-0.035em',
+                        lineHeight: 1.18
                     }}>
-                        Why We Only Sell "Level 3."
+                        Where Emerging Science Gets Interesting
                     </h2>
                     <p style={{
-                        fontSize: '1.1rem',
-                        lineHeight: 1.8,
-                        color: 'rgba(255,255,255,0.8)',
-                        marginBottom: '3rem'
+                        fontSize: 'clamp(1.05rem, 2vw, 1.2rem)',
+                        lineHeight: 1.75,
+                        color: '#E0EEE7',
+                        margin: '0 auto',
+                        maxWidth: '660px'
                     }}>
-                        We don't sell sunlight or sleep because they must be earned. They are free, but they require discipline. But for "Optimization" (Phase 3), purity is critical. EMPOWERVIDA was created to provide clinical-grade, third-party tested tools for those seeking evidence-based options.
+                        Sleep, movement, nutrition and preventive care remain the foundations of long-term health. Beyond them lies a fascinating world of research into cellular energy, metabolism and healthy ageing. Some approaches already have meaningful human evidence; others are promising but early. Here, we explore both with curiosity, explain what is known, and stay clear about what has yet to be proved.
                     </p>
-                    
                 </div>
             </section>
 
