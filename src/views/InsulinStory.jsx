@@ -177,7 +177,9 @@ export default function InsulinStory() {
                     .insulin-story-content > section div[style*="grid-template-columns"] > div { padding: 1.5rem !important; }
                 }
                 @media (max-width: 640px) {
-                    .insulin-story-content { padding-top: 1.5rem !important; padding-bottom: 3rem !important; }
+                    .insulin-story-content { padding: 1.5rem 14px 3rem !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+                    .insulin-story-content p, .insulin-story-content li { overflow-wrap: break-word; }
+                    .insulin-story-content img { max-width: 100%; height: auto; }
                     .insulin-story-hero .hero-section header { margin-bottom: 0 !important; }
                 }
             `}</style>
