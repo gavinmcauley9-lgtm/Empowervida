@@ -9,19 +9,31 @@ const EmpowerProtocol = () => {
     return (
         <>
 
+            <style>{`
+                .empower-protocol-hero .hero-section { background-color: #102a29 !important; }
+                .empower-protocol-hero .hero-section h1 { font-size: clamp(2.5rem, 6.6vw, 6rem) !important; line-height: 1.04 !important; margin-bottom: 1.5rem !important; }
+                .empower-protocol-hero .hero-section h2 { font-size: clamp(1.05rem, 1.9vw, 1.45rem) !important; line-height: 1.5 !important; letter-spacing: .055em !important; max-width: 760px; margin: 0 auto 2rem !important; }
+                @media (max-width: 600px) {
+                    .empower-protocol-hero .hero-section { min-height: 610px !important; padding: 3rem 0 4rem !important; }
+                    .empower-protocol-hero .hero-section h1 { font-size: clamp(2.35rem, 10vw, 3.2rem) !important; }
+                    .empower-protocol-hero .hero-section h2 { font-size: 1rem !important; letter-spacing: .025em !important; margin-bottom: 1.5rem !important; }
+                    .empower-protocol-hero .hero-section p { font-size: 1.04rem !important; line-height: 1.55 !important; margin-bottom: 1.5rem !important; }
+                }
+            `}</style>
             {/* Section 1: The Hero */}
+            <div className="empower-protocol-hero">
             <HeroSection
                 backgroundImage="/dna_bg_user.jpg"
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #FFFFFF 100%)"
+                overlay="linear-gradient(to bottom, rgba(6,28,29,.78) 0%, rgba(7,37,35,.64) 57%, rgba(16,42,41,.93) 100%)"
                 title={
-                    <span style={{ color: '#000000', letterSpacing: '-0.03em' }}>
+                    <span style={{ color: '#F8FCFA', letterSpacing: '-0.03em' }}>
                         The Hierarchy of Health
                     </span>
                 }
                 subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
-                textColor="#000000"
-                subtitleColor="#555555"
-                height="90vh"
+                textColor="#F8FCFA"
+                subtitleColor="#D8F0E6"
+                height="76vh"
             >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -32,7 +44,7 @@ const EmpowerProtocol = () => {
                     <p style={{
                         fontSize: '1.25rem',
                         lineHeight: 1.6,
-                        color: '#333333',
+                        color: '#F0F8F3',
                         marginBottom: '2.5rem',
                         fontWeight: 400
                     }}>
@@ -67,6 +79,7 @@ const EmpowerProtocol = () => {
                     </a>
                 </motion.div>
             </HeroSection>
+            </div>
 
             {/* Section 2: The Philosophy */}
             <section style={{
