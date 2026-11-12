@@ -51,8 +51,8 @@ export default function EmpowerProtocol() {
         .ev-protocol { --ink:#182a2c; --teal:#208c86; --cream:#faf8f3; color:var(--ink); background:var(--cream); font-family:inherit; }
         .ev-protocol * { box-sizing:border-box; }
         .ev-protocol .hero { position:relative; min-height:560px; display:flex; align-items:center; overflow:hidden; isolation:isolate; background:#172b2c; color:white; }
-        .ev-protocol .hero::before { content:""; position:absolute; inset:0; z-index:-2; background:url('/dna_bg_user.jpg') center / cover no-repeat; opacity:.78; }
-        .ev-protocol .hero::after { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(10,29,32,.88),rgba(10,29,32,.56) 58%,rgba(10,29,32,.3)); }
+        .ev-protocol .hero::before { content:""; position:absolute; inset:0; z-index:-2; background:url('/dna_bg_user.jpg') center / cover no-repeat; opacity:.94; }
+        .ev-protocol .hero::after { content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(10,29,32,.68),rgba(10,29,32,.40) 58%,rgba(10,29,32,.22)); }
         .ev-protocol .hero-inner { width:min(1080px,100%); margin:auto; padding:72px 36px; }
         .ev-protocol .eyebrow { display:block; font-size:.78rem; font-weight:750; letter-spacing:.16em; text-transform:uppercase; color:#70d3c6; margin-bottom:18px; }
         .ev-protocol .hero h1 { color:#ffffff !important; text-shadow:0 2px 18px rgba(0,0,0,.35); font-size:clamp(2.7rem,6vw,5.2rem); line-height:1.04; letter-spacing:-.045em; max-width:780px; margin:0 0 22px; font-weight:760; }
@@ -82,7 +82,7 @@ export default function EmpowerProtocol() {
         .ev-protocol .disclaimer { margin-top:22px!important; font-size:.86rem!important; }
         @media(max-width:700px) {
           .ev-protocol .hero { min-height:0; }
-          .ev-protocol .hero::after { background:linear-gradient(90deg,rgba(10,29,32,.88),rgba(10,29,32,.62)); }
+          .ev-protocol .hero::after { background:linear-gradient(90deg,rgba(10,29,32,.70),rgba(10,29,32,.46)); }
           .ev-protocol .hero-inner { padding:54px 22px 60px; }
           .ev-protocol .eyebrow { margin-bottom:12px; }
           .ev-protocol h1 { font-size:clamp(2.35rem,10vw,3.6rem); }
