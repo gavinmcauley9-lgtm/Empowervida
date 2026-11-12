@@ -141,9 +141,10 @@ export default function InsulinStory() {
             <style>{`
                 @media (max-width: 640px) {
                     .insulin-story-hero .hero-section {
-                        min-height: 680px !important;
-                        padding-top: 100px !important;
-                        padding-bottom: 36px !important;
+                        min-height: 0 !important;
+                        height: auto !important;
+                        padding-top: 5.75rem !important;
+                        padding-bottom: 2rem !important;
                         box-sizing: border-box;
                     }
                     .insulin-story-hero .hero-section h1 {
@@ -164,7 +165,52 @@ export default function InsulinStory() {
                     }
                 }
                 @media (max-width: 375px) {
-                    .insulin-story-hero .hero-section { min-height: 640px !important; }
+                    .insulin-story-hero .hero-section { min-height: 0 !important; }
+                }
+                @media (max-width: 640px) {
+                    /* Compact editorial rhythm: override large inline section spacers. */
+                    .insulin-story-content > section {
+                        margin-top: 0 !important;
+                        margin-bottom: 1.5rem !important;
+                        padding-top: 0 !important;
+                        padding-bottom: 0 !important;
+                        min-height: 0 !important;
+                    }
+                    .insulin-story-content > section[style*="border-top"] {
+                        margin-top: 2.25rem !important;
+                        padding-top: 1.75rem !important;
+                    }
+                    .insulin-story-content > section h2 + div[style*="height: 4px"] {
+                        margin-bottom: 1.25rem !important;
+                    }
+                    .insulin-story-content > section > p[style*="text-align: center"] {
+                        margin-top: .65rem !important;
+                        margin-bottom: .75rem !important;
+                    }
+                    .insulin-story-content > section > div[style*="text-align: center"] {
+                        margin-top: 1rem !important;
+                        margin-bottom: 1.25rem !important;
+                    }
+                    .insulin-story-content > section > div[style*="border-left"] {
+                        margin-top: 1rem !important;
+                        margin-bottom: 1rem !important;
+                    }
+                    .insulin-story-content > section > img {
+                        margin-top: .5rem !important;
+                        margin-bottom: .5rem !important;
+                    }
+                    .insulin-story-content > section h2 { margin-bottom: 1.1rem !important; }
+                    .insulin-story-content > section h2 + div[style*="height: 4px"] { margin-bottom: 1.35rem !important; }
+                    .insulin-story-content > section img { margin-top: 1rem !important; margin-bottom: 1rem !important; }
+                    .insulin-story-content > section p[style*="text-align: center"] { margin-top: .5rem !important; }
+                    .insulin-story-content > section div[style*="grid-template-columns"] { margin-top: 1.75rem !important; gap: 1.25rem !important; }
+                    .insulin-story-content > section div[style*="grid-template-columns"] > div { padding: 1.5rem !important; }
+                }
+                @media (max-width: 640px) {
+                    .insulin-story-content { padding: 1.5rem 14px 3rem !important; width: 100% !important; max-width: 100% !important; box-sizing: border-box; }
+                    .insulin-story-content p, .insulin-story-content li { overflow-wrap: break-word; }
+                    .insulin-story-content img { max-width: 100%; height: auto; }
+                    .insulin-story-hero .hero-section header { margin-bottom: 0 !important; }
                 }
             `}</style>
             <div className="insulin-story-hero">
@@ -203,8 +249,8 @@ export default function InsulinStory() {
                     fontSize: '1rem',
                     marginTop: '1rem',
                     opacity: 1,
-                    color: '#1F2937',
-                    textShadow: 'none',
+                    color: '#FFFFFF',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.85)',
                     fontWeight: 600
                 }}>
                     By Dr Gavin McAuley
@@ -213,7 +259,7 @@ export default function InsulinStory() {
             </div>
 
             {/* MAIN CONTENT */}
-            <div className="container" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
+            <div className="container insulin-story-content" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
 
                 {/* SECTION 2: THE PARADIGM SHIFT */}
                 <section style={sectionStyle}>
