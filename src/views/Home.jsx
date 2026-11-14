@@ -92,6 +92,34 @@ export default function Home() {
                 ogImage="/home_hero_user.png"
                 schemaData={[organizationSchema, websiteSchema, faqSchema]}
             />
+            <style>{`
+                @media (max-width: 768px) {
+                    .hero-hybrid-section { min-height: auto !important; padding-top: 4.5rem !important; padding-bottom: 2rem !important; }
+                    .hero-hybrid-content { padding-inline: 1.25rem !important; }
+                    .hero-hybrid-badge { margin-bottom: 1rem !important; }
+                    .hero-hybrid-title { margin-bottom: .75rem !important; font-size: clamp(2rem, 8vw, 2.7rem) !important; }
+                    .hero-hybrid-subtitle { margin-top: .75rem !important; margin-bottom: 1.25rem !important; font-size: 1.15rem !important; line-height: 1.5 !important; }
+                    .hero-hybrid-cta-group { margin-bottom: 1rem !important; }
+                    .hero-hybrid-btn-primary { padding: .95rem 1.5rem !important; font-size: 1rem !important; }
+                    .hero-hybrid-bottom-bar { margin-top: .75rem !important; padding-bottom: 1rem !important; }
+                    .homepage-founder-section { padding: 2.5rem 1.25rem 3rem !important; }
+                    .homepage-founder-section .container > div:first-child { margin-bottom: 1.75rem !important; }
+                    .homepage-founder-section .container > div:nth-child(2) { padding: 1.75rem 1.25rem !important; }
+                    .homepage-ecosystem { padding: 3rem 1.25rem !important; }
+                    .homepage-ecosystem .container > div:first-child { margin-bottom: 2rem !important; }
+                    .homepage-ecosystem .container > div:nth-child(2) { grid-template-columns: minmax(0,1fr) !important; gap: 1.25rem !important; }
+                    .homepage-ecosystem .container > div:nth-child(2) a { padding: 1.75rem 1.25rem !important; }
+                    .homepage-ecosystem .container > div:nth-child(2) a > div:first-child { margin-bottom: .75rem !important; font-size: 2.5rem !important; }
+                    .homepage-expert-insights > section { padding: 3rem 1.25rem !important; }
+                    .homepage-expert-insights > section > div > div:first-child { margin-bottom: 2rem !important; }
+                    .homepage-expert-insights > section > div > div:nth-child(2) { gap: 1rem !important; grid-template-columns: minmax(0,1fr) !important; }
+                    .homepage-expert-insights > section > div > div:nth-child(2) > div { padding: 1.5rem !important; }
+                    .homepage-expert-insights > section > div > div:nth-child(2) p { margin-bottom: 1.25rem !important; }
+                    .homepage-faq > section { padding: 3rem 1.25rem !important; }
+                    .homepage-faq > section .container > div:first-child { margin-bottom: 2rem !important; }
+                    .homepage-faq > section .container > div:nth-child(2) > div { padding: 1.1rem 1.25rem !important; margin-bottom: .75rem !important; }
+                }
+            `}</style>
             <HeroSectionHybrid />
 
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
@@ -300,7 +328,7 @@ export default function Home() {
 
 
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
-            < section style={{
+            < section className="homepage-ecosystem" style={{
                 padding: '8rem 2rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
                 position: 'relative',
@@ -509,10 +537,10 @@ export default function Home() {
             </section >
 
             {/* Expert Insights Section */}
-            <ExpertInsightsSection />
+            <div className="homepage-expert-insights"><ExpertInsightsSection /></div>
 
             {/* FAQ Section */}
-            <FAQSection data={faqData} />
+            <div className="homepage-faq"><FAQSection data={faqData} /></div>
 
             {/* Trust Bar - Light Divider */}
             < div style={{
