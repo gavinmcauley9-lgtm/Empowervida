@@ -5,6 +5,7 @@ import Link from 'next/link';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
 import RelatedPosts from '../components/RelatedPosts';
+import VisualScience from '../components/VisualScience';
 export default function InsulinStory() {
     // FAQ Schema for Rich Snippets
     const faqSchema = {
@@ -262,6 +263,7 @@ export default function InsulinStory() {
             <div className="container insulin-story-content" style={{ maxWidth: '900px', paddingTop: '6rem', paddingBottom: '6rem' }}>
 
                 {/* SECTION 2: THE PARADIGM SHIFT */}
+                <VisualScience topic="insulin" />
                 <section style={sectionStyle}>
                     <h2 style={headingStyle}>The Paradigm Shift</h2>
                     <div style={{ width: '80px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '3rem' }}></div>
