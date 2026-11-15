@@ -208,9 +208,7 @@ export default function Home() {
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
-                            I'm a physician with experience in emergency medicine and general practice, and a growing focus on explaining the science of living healthier for longer.
-                            After 16 years working in Emergency Medicine and General Practice, I
-                            now explore longevity and preventive health research through accessible, evidence-led writing.
+                            After years working in emergency medicine and general practice, I've seen what happens when health problems become impossible to ignore. But I've become increasingly interested in a different question: what could we do years — perhaps decades — before that moment arrives?
                         </p>
 
                         <p style={{
@@ -220,7 +218,7 @@ export default function Home() {
                             marginBottom: '2.5rem',
                             letterSpacing: '0.005em'
                         }}>
-                            My mission is to make health and longevity research understandable, useful and genuinely interesting — celebrating promising discoveries while being clear about what science has, and has not, established.
+                            That's what led me to explore prevention, metabolic health and longevity. Some discoveries are genuinely exciting. Others are promising but preliminary. And some of the most effective ways to protect our health have been hiding in plain sight for decades. EmpowerVida is where I examine the evidence and share what I discover.
                         </p>
 
                         {/* Premium Credentials Grid */}
@@ -292,6 +290,29 @@ export default function Home() {
                     </motion.div>
                 </div>
             </section >
+
+            {/* FEATURED STORIES — editorial entry points */}
+            <section aria-labelledby="featured-stories-title" style={{ padding: 'clamp(3rem, 7vw, 6rem) 1.25rem', background: '#f4f9f8' }}>
+                <div style={{ maxWidth: '1160px', margin: '0 auto' }}>
+                    <p style={{ color: '#168c84', textTransform: 'uppercase', letterSpacing: '0.17em', fontWeight: 700, fontSize: '0.8rem', marginBottom: '0.75rem' }}>From the journal</p>
+                    <h2 id="featured-stories-title" style={{ color: '#1A3C34', fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 4vw, 3rem)', marginBottom: '0.75rem' }}>Worth Exploring</h2>
+                    <p style={{ color: '#4A5568', maxWidth: '670px', lineHeight: 1.7, marginBottom: '2.25rem' }}>Big questions, fascinating biology and research worth understanding — without the hype.</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 290px), 1fr))', gap: '1.25rem' }}>
+                        {[
+                            { category: 'CELLULAR HEALTH', title: 'The tiny engines inside your cells — and why scientists are fascinated by them', description: 'What mitochondria really do, and why they matter to the science of ageing.', href: '/mitochondrial-guide' },
+                            { category: 'METABOLIC HEALTH', title: 'Insulin does far more than control blood sugar. Here’s why that matters.', description: 'A closer look at metabolism, energy storage and long-term health.', href: '/insulin-story' },
+                            { category: 'LONGEVITY SCIENCE', title: 'Can we influence how well we age?', description: 'The established foundations of healthy ageing — and the discoveries still being tested.', href: '/longevity' }
+                        ].map((story) => (
+                            <Link key={story.href} href={story.href} style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem', padding: 'clamp(1.5rem, 3vw, 2rem)', borderRadius: '20px', background: '#fff', border: '1px solid #dcebe7', textDecoration: 'none', boxShadow: '0 10px 30px rgba(26,60,52,0.05)' }}>
+                                <span style={{ fontSize: '0.72rem', letterSpacing: '0.12em', color: '#168c84', fontWeight: 800 }}>{story.category}</span>
+                                <h3 style={{ fontSize: 'clamp(1.2rem, 2vw, 1.5rem)', lineHeight: 1.3, color: '#1A3C34', margin: 0 }}>{story.title}</h3>
+                                <p style={{ color: '#4A5568', lineHeight: 1.65, margin: 0, flexGrow: 1 }}>{story.description}</p>
+                                <span style={{ color: '#168c84', fontWeight: 700 }}>Read the story →</span>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
 
             {/* EMAIL CAPTURE */}
             <div id="email-capture">
@@ -405,7 +426,7 @@ export default function Home() {
                                     lineHeight: 1.7,
                                     flexGrow: 1
                                 }}>
-                                    Ageing is malleable. Explore our deep-dive resources on the 5 pillars of healthspan, from genomic stability to circadian biology.
+                                    Explore the biology of ageing and the practical habits linked to better health in later life — alongside the emerging science, its possibilities and its limits.
                                 </p>
 
                                 <span style={{
