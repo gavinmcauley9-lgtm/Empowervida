@@ -566,3 +566,67 @@ canvas,
   .mobile-compact-hero h1 { letter-spacing: -0.035em !important; text-wrap: balance; }
   .mobile-compact-hero [class*="subtitle"] { letter-spacing: normal !important; }
 }
+
+/* Homepage editorial sections: compact mobile rhythm without desktop changes. */
+@media (max-width: 768px) {
+  #email-capture { padding: 0 1rem; }
+  #email-capture .ev-email-capture {
+    margin: 1.25rem auto !important;
+    padding: 1.6rem 1.15rem !important;
+    border-radius: 20px;
+  }
+  #email-capture .ev-email-capture > div:first-child {
+    margin-bottom: 1rem !important;
+  }
+  #email-capture .ev-email-capture h2 {
+    margin-bottom: 0.6rem !important;
+    font-size: clamp(1.5rem, 5.6vw, 1.9rem) !important;
+    line-height: 1.2 !important;
+  }
+  #email-capture .ev-email-capture h2 + p {
+    margin-bottom: 0.6rem !important;
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+  }
+  #email-capture .ev-email-capture form {
+    margin-top: 0.85rem !important;
+    gap: 0.65rem !important;
+  }
+  #email-capture .ev-email-capture input,
+  #email-capture .ev-email-capture button {
+    padding: 0.8rem 1rem !important;
+    font-size: 1rem !important;
+  }
+  #email-capture .ev-email-capture > p:last-child {
+    margin-top: 0.9rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .ev-expert-insights,
+  .ev-faq-section {
+    padding: 2rem 1rem !important;
+  }
+  .ev-expert-insights > div > div:first-child,
+  .ev-faq-section .container > div:first-child {
+    margin-bottom: 1.2rem !important;
+  }
+  .ev-expert-insights h2,
+  .ev-faq-section h2 {
+    margin-bottom: 0.45rem !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.18 !important;
+  }
+  .ev-expert-insights > div > div:nth-child(2) {
+    gap: 0.85rem !important;
+  }
+  .ev-expert-insights > div > div:nth-child(2) > div {
+    padding: 1.25rem !important;
+  }
+  .ev-expert-insights > div > p:last-child {
+    margin-top: 1rem !important;
+  }
+  .ev-faq-section .container > div:nth-child(2) > div {
+    padding: 1rem 1.1rem !important;
+    margin-bottom: 0.65rem !important;
+  }
+}
