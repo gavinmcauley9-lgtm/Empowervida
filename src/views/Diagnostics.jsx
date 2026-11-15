@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Link from 'next/link';
+import VisualScience from '../components/VisualScience';
 
 const Diagnostics = () => {
     const essentialMarkers = [
@@ -127,6 +128,8 @@ const Diagnostics = () => {
                     <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> The goal is to choose tests with meaningful clinical interpretation, not to impose unvalidated ‘optimal’ targets on everyone.
                 </p>
             </section>
+
+            <VisualScience topic="cholesterol" />
 
             {/* Tier 1: THE ESSENTIAL 5 */}
             <section style={{ padding: '2rem 2rem 4rem', maxWidth: '1000px', margin: '0 auto' }}>
