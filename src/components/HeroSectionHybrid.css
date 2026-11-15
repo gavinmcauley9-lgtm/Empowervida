@@ -359,3 +359,25 @@
         padding: 4rem 1.5rem 5rem !important;
     }
 }
+
+/* Editorial hero refinement — November 2026 */
+.hero-hybrid-section { min-height: min(760px, 94svh) !important; padding-top: 112px; padding-bottom: 52px; justify-content: center; }
+.hero-hybrid-content { max-width: 880px; padding: 0 1.5rem; }
+.hero-hybrid-title { font-size: clamp(2.35rem, 4.6vw, 4.1rem); font-weight: 800; line-height: 1.13; letter-spacing: -0.045em; text-transform: none; margin-bottom: 0.85rem; text-wrap: balance; }
+.text-gradient-award { background: none; -webkit-text-fill-color: #a9d7c8; color: #a9d7c8; filter: none; display: inline; }
+.hero-hybrid-subtitle { font-family: "Manrope", sans-serif; font-size: clamp(1rem, 1.35vw, 1.16rem) !important; line-height: 1.65 !important; max-width: 670px !important; margin-top: 0.7rem !important; margin-bottom: 1.5rem !important; }
+.hero-hybrid-badge { margin-bottom: 1.25rem; }
+.hero-hybrid-overlay { background: linear-gradient(90deg, rgba(8,28,29,0.82), rgba(8,28,29,0.68) 55%, rgba(8,28,29,0.78)); backdrop-filter: blur(3px); }
+.hero-hybrid-cta-group { margin-bottom: 0.75rem; }
+.hero-hybrid-btn-primary { font-size: 0.95rem !important; padding: 0.95rem 2rem !important; }
+@media (max-width: 768px) {
+ .hero-hybrid-section { min-height: auto !important; padding-top: 115px; padding-bottom: 1.5rem; }
+ .hero-hybrid-content { padding: 1.25rem 1.25rem 0; }
+ .hero-hybrid-title { font-size: clamp(2.05rem, 8.4vw, 3.2rem); line-height: 1.14; }
+ .hero-hybrid-badge { font-size: 0.7rem; padding: 0.5rem 0.85rem; }
+ .hero-hybrid-subtitle { font-size: 1rem !important; line-height: 1.55 !important; margin-bottom: 1.25rem !important; }
+ .hero-hybrid-bottom-bar { margin-top: 0.75rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .hero-hybrid-bg-image, .hero-hybrid-content { animation: none !important; }
+}
