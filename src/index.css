@@ -630,3 +630,36 @@ canvas,
     margin-bottom: 0.65rem !important;
   }
 }
+
+/* Global footer: compact mobile rhythm; desktop layout remains unchanged. */
+@media (max-width: 768px) {
+  footer.ev-global-footer {
+    padding: 2rem 1.15rem 1.25rem !important;
+  }
+  footer.ev-global-footer > div:first-child {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  footer.ev-global-footer > div:first-child h3,
+  footer.ev-global-footer > div:first-child h4 {
+    margin-bottom: 0.6rem !important;
+    letter-spacing: 0.055em !important;
+  }
+  footer.ev-global-footer > div:first-child > div:first-child p {
+    margin-bottom: 0.75rem !important;
+  }
+  footer.ev-global-footer > div:first-child a {
+    margin-bottom: 0.3rem !important;
+    line-height: 1.35;
+  }
+  footer.ev-global-footer > div:first-child > div:last-child p {
+    line-height: 1.5 !important;
+    font-size: 0.85rem !important;
+  }
+  footer.ev-global-footer > div:last-child {
+    padding-top: 1rem !important;
+    gap: 0.4rem 0.6rem !important;
+    line-height: 1.4;
+  }
+}
