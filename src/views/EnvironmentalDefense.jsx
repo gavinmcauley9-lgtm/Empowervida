@@ -36,14 +36,38 @@ const EnvironmentalDefense = () => {
     ];
 
     return (
-        <div style={{
+        <div className="ev-environmental-page" style={{
             backgroundColor: 'var(--color-bg)',
             color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif'
         }}>
+            <style>{`
+              @media (max-width: 768px) {
+                .ev-environmental-page .ev-environmental-hero {
+                  min-height: 0 !important;
+                  padding: 3.25rem 1.25rem 2.75rem !important;
+                }
+                .ev-environmental-page .ev-environmental-hero h1 {
+                  font-size: clamp(1.85rem, 7vw, 2.45rem) !important;
+                  line-height: 1.13 !important;
+                  margin-bottom: .9rem !important;
+                  letter-spacing: -.035em !important;
+                }
+                .ev-environmental-page .ev-environmental-hero h2 {
+                  font-size: 1.15rem !important;
+                  line-height: 1.4 !important;
+                  margin-bottom: .85rem !important;
+                }
+                .ev-environmental-page .ev-environmental-hero p {
+                  font-size: 1rem !important;
+                  line-height: 1.55 !important;
+                  margin-bottom: 0 !important;
+                }
+              }
+            `}</style>
             {/* Hero Section */}
-            <section style={{
+            <section className="ev-environmental-hero" style={{
                 position: 'relative',
                 minHeight: '80vh',
                 display: 'flex',
