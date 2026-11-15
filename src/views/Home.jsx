@@ -143,13 +143,13 @@ export default function Home() {
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
-                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                    <div style={{ textAlign: 'center', marginBottom: 'clamp(1.4rem, 3vw, 2.5rem)' }}>
                         <div style={{
                             fontSize: '0.85rem',
                             fontWeight: '700',
                             letterSpacing: '0.2em',
                             color: '#20B2AA',
-                            marginBottom: '1.5rem',
+                            marginBottom: '0.7rem',
                             textTransform: 'uppercase'
                         }}>
                             Meet the Founder
@@ -187,7 +187,7 @@ export default function Home() {
                             backdropFilter: 'blur(20px)',
                             WebkitBackdropFilter: 'blur(20px)',
                             borderRadius: '24px',
-                            padding: '4rem 3.5rem',
+                            padding: 'clamp(1.25rem, 3.5vw, 2.75rem)',
                             boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.4) inset',
                             border: '1px solid rgba(32, 178, 170, 0.2)',
                             position: 'relative',
@@ -199,15 +199,15 @@ export default function Home() {
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            marginBottom: '3rem',
-                            gap: '2rem'
+                            marginBottom: '1.5rem',
+                            gap: '1.1rem'
                         }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
                                 alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
                                 style={{
-                                    width: '180px',
-                                    height: '180px',
+                                    width: 'clamp(105px, 20vw, 155px)',
+                                    height: 'clamp(105px, 20vw, 155px)',
                                     borderRadius: '50%',
                                     objectFit: 'cover',
                                     objectPosition: 'center top',
@@ -221,7 +221,7 @@ export default function Home() {
                                 margin: '0'
                             }}>
                                 <p style={{
-                                    fontSize: '1.5rem',
+                                    fontSize: 'clamp(1.05rem, 2.5vw, 1.3rem)',
                                     fontStyle: 'italic',
                                     color: '#1A3C34',
                                     lineHeight: '1.6',
@@ -237,10 +237,10 @@ export default function Home() {
 
                         {/* Bio Text - Premium Typography */}
                         <p style={{
-                            fontSize: '1.35rem',
-                            lineHeight: '1.85',
+                            fontSize: 'clamp(1rem, 2vw, 1.15rem)',
+                            lineHeight: '1.65',
                             color: '#1A3C34',
-                            marginBottom: '2rem',
+                            marginBottom: '1.1rem',
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
@@ -248,10 +248,10 @@ export default function Home() {
                         </p>
 
                         <p style={{
-                            fontSize: '1.15rem',
-                            lineHeight: '1.8',
+                            fontSize: 'clamp(0.98rem, 1.8vw, 1.08rem)',
+                            lineHeight: '1.65',
                             color: '#4A5568',
-                            marginBottom: '2.5rem',
+                            marginBottom: '1.25rem',
                             letterSpacing: '0.005em'
                         }}>
                             That's what led me to explore prevention, metabolic health and longevity. Some discoveries are genuinely exciting. Others are promising but preliminary. And some of the most effective ways to protect our health have been hiding in plain sight for decades. EmpowerVida is where I examine the evidence and share what I discover.
@@ -260,17 +260,17 @@ export default function Home() {
                         {/* Premium Credentials Grid */}
                         <div style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                            gap: '1.75rem',
-                            marginTop: '3.5rem',
-                            paddingTop: '3rem',
+                            gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+                            gap: '0.7rem',
+                            marginTop: '1.35rem',
+                            paddingTop: '1.25rem',
                             borderTop: '2px solid rgba(32, 178, 170, 0.15)'
                         }}>
                             {[
                                 { icon: '🎓', text: 'Aberdeen 2009' },
                                 { icon: '⚕️', text: '16 Years Practising' },
                                 { icon: '🚑', text: 'ER & General Practice' },
-                                { icon: '💪', text: 'Clinical Optimization' }
+                                { icon: '💪', text: 'Clinical Optimisation' }
                             ].map((item, index) => (
                                 <motion.div
                                     key={index}
@@ -278,21 +278,21 @@ export default function Home() {
                                     style={{
                                         display: 'flex',
                                         alignItems: 'center',
-                                        gap: '1rem',
-                                        padding: '0.75rem 1rem',
+                                        gap: '0.5rem',
+                                        padding: '0.65rem 0.5rem',
                                         background: 'rgba(255, 255, 255, 0.3)',
                                         borderRadius: '12px',
                                         transition: 'all 0.3s ease'
                                     }}
                                 >
                                     <div style={{
-                                        fontSize: '1.75rem',
+                                        fontSize: '1.3rem',
                                         filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))'
                                     }}>
                                         {item.icon}
                                     </div>
                                     <div style={{
-                                        fontSize: '0.95rem',
+                                        fontSize: 'clamp(0.73rem, 1.5vw, 0.92rem)',
                                         fontWeight: '700',
                                         color: '#1A3C34',
                                         letterSpacing: '0.02em'
@@ -304,13 +304,13 @@ export default function Home() {
                         </div>
 
                         {/* Premium CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '4rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '1.65rem' }}>
                             <Link
                                 href="/about"
                                 onClick={() => window.scrollTo(0, 0)}
                                 className="btn-primary"
                                 style={{
-                                    padding: '1.25rem 3.5rem',
+                                    padding: '0.95rem 1.6rem',
                                     fontSize: '1rem',
                                     fontWeight: '700',
                                     letterSpacing: '0.08em',
