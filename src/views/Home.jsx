@@ -108,7 +108,10 @@ export default function Home() {
                             { label: 'HEALTHSPAN', title: 'The Five Pillars', hook: 'The practical foundations of healthier ageing.', href: '/longevity', action: 'Discover the foundations', image: '/home_hero_user.png' }
                         ].map((topic) => (
                             <Link key={topic.title} href={topic.href} style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '18px', background: '#fff', border: '1px solid #dceae7', textDecoration: 'none', boxShadow: '0 10px 30px rgba(26,60,52,0.06)' }}>
-                                <div style={{ height: 'clamp(78px, 9vw, 112px)', backgroundImage: `linear-gradient(180deg, rgba(10,31,34,0.08), rgba(10,31,34,0.35)), url("${topic.image}")`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: '#15383b' }} role="img" aria-label={topic.title + ' editorial illustration'} />
+                                <div style={{ position: 'relative', height: 'clamp(145px, 16vw, 185px)', overflow: 'hidden', background: '#15383b' }}>
+                                    <img src={topic.image} alt={topic.title + ' editorial illustration'} loading="lazy" decoding="async" style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+                                    <div aria-hidden="true" style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(10,31,34,0.02), rgba(10,31,34,0.23))', pointerEvents: 'none' }} />
+                                </div>
                                 <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: 'clamp(0.85rem, 1.6vw, 1.1rem)' }}>
                                     <span style={{ color: '#168c84', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.12em', marginBottom: '0.35rem' }}>{topic.label}</span>
                                     <h3 style={{ color: '#1A3C34', fontSize: '1.22rem', lineHeight: 1.3, margin: '0 0 0.35rem' }}>{topic.title}</h3>
@@ -132,7 +135,7 @@ export default function Home() {
 
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
             <section className="homepage-founder-section" style={{
-                padding: 'clamp(3rem, 6vw, 5rem) 1.25rem',
+                padding: 'clamp(1.75rem, 3.5vw, 3rem) 1.25rem',
                 marginTop: '0',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.3) 25%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.3) 75%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
                 position: 'relative',
@@ -143,7 +146,7 @@ export default function Home() {
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
-                    <div style={{ textAlign: 'center', marginBottom: 'clamp(1.4rem, 3vw, 2.5rem)' }}>
+                    <div style={{ textAlign: 'center', marginBottom: 'clamp(0.85rem, 2vw, 1.4rem)' }}>
                         <div style={{
                             fontSize: '0.85rem',
                             fontWeight: '700',
@@ -155,7 +158,7 @@ export default function Home() {
                             Meet the Founder
                         </div>
                         <h2 style={{
-                            fontSize: 'clamp(2.5rem, 5vw, 3.5rem)',
+                            fontSize: 'clamp(1.95rem, 4vw, 2.8rem)',
                             fontWeight: 800,
                             color: '#1A3C34',
                             marginBottom: '0.75rem',
@@ -187,7 +190,7 @@ export default function Home() {
                             backdropFilter: 'blur(20px)',
                             WebkitBackdropFilter: 'blur(20px)',
                             borderRadius: '24px',
-                            padding: 'clamp(1.25rem, 3.5vw, 2.75rem)',
+                            padding: 'clamp(1rem, 2.5vw, 1.75rem)',
                             boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.4) inset',
                             border: '1px solid rgba(32, 178, 170, 0.2)',
                             position: 'relative',
@@ -199,15 +202,15 @@ export default function Home() {
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            marginBottom: '1.5rem',
-                            gap: '1.1rem'
+                            marginBottom: '1rem',
+                            gap: '0.75rem'
                         }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
                                 alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
                                 style={{
-                                    width: 'clamp(105px, 20vw, 155px)',
-                                    height: 'clamp(105px, 20vw, 155px)',
+                                    width: 'clamp(88px, 15vw, 125px)',
+                                    height: 'clamp(88px, 15vw, 125px)',
                                     borderRadius: '50%',
                                     objectFit: 'cover',
                                     objectPosition: 'center top',
@@ -240,7 +243,7 @@ export default function Home() {
                             fontSize: 'clamp(1rem, 2vw, 1.15rem)',
                             lineHeight: '1.65',
                             color: '#1A3C34',
-                            marginBottom: '1.1rem',
+                            marginBottom: '0.75rem',
                             fontWeight: '400',
                             letterSpacing: '0.005em'
                         }}>
@@ -251,7 +254,7 @@ export default function Home() {
                             fontSize: 'clamp(0.98rem, 1.8vw, 1.08rem)',
                             lineHeight: '1.65',
                             color: '#4A5568',
-                            marginBottom: '1.25rem',
+                            marginBottom: '0.8rem',
                             letterSpacing: '0.005em'
                         }}>
                             That's what led me to explore prevention, metabolic health and longevity. Some discoveries are genuinely exciting. Others are promising but preliminary. And some of the most effective ways to protect our health have been hiding in plain sight for decades. EmpowerVida is where I examine the evidence and share what I discover.
@@ -261,9 +264,9 @@ export default function Home() {
                         <div style={{
                             display: 'grid',
                             gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
-                            gap: '0.7rem',
-                            marginTop: '1.35rem',
-                            paddingTop: '1.25rem',
+                            gap: '0.45rem',
+                            marginTop: '0.85rem',
+                            paddingTop: '0.75rem',
                             borderTop: '2px solid rgba(32, 178, 170, 0.15)'
                         }}>
                             {[
@@ -279,7 +282,7 @@ export default function Home() {
                                         display: 'flex',
                                         alignItems: 'center',
                                         gap: '0.5rem',
-                                        padding: '0.65rem 0.5rem',
+                                        padding: '0.4rem 0.35rem',
                                         background: 'rgba(255, 255, 255, 0.3)',
                                         borderRadius: '12px',
                                         transition: 'all 0.3s ease'
@@ -304,7 +307,7 @@ export default function Home() {
                         </div>
 
                         {/* Premium CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '1.65rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '1rem' }}>
                             <Link
                                 href="/about"
                                 onClick={() => window.scrollTo(0, 0)}
