@@ -16,7 +16,75 @@ const LongevityGuide = () => {
     }, []);
 
     return (
-        <>
+        <div className="ev-longevity-guide">
+            <style>{`
+                @media (max-width: 768px) {
+                    .ev-longevity-guide > .hero-section {
+                        min-height: 0 !important;
+                        height: auto !important;
+                        padding: 3.25rem 1.1rem 2.75rem !important;
+                    }
+                    .ev-longevity-guide > .hero-section > header {
+                        width: 100%;
+                        max-width: 560px;
+                        padding: 0 .25rem !important;
+                        transform: none;
+                    }
+                    .ev-longevity-guide > .hero-section h1 {
+                        font-size: clamp(1.85rem, 7.3vw, 2.45rem) !important;
+                        line-height: 1.12 !important;
+                        margin: 0 0 1.1rem !important;
+                        letter-spacing: -.035em !important;
+                    }
+                    .ev-longevity-guide > .hero-section h2 {
+                        font-size: clamp(1.04rem, 4.4vw, 1.25rem) !important;
+                        line-height: 1.4 !important;
+                        letter-spacing: .025em !important;
+                        margin: 0 0 1.25rem !important;
+                        text-transform: none !important;
+                    }
+                    .ev-longevity-guide > .hero-section header p {
+                        line-height: 1.45 !important;
+                        margin: .45rem 0 !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) {
+                        padding: 2.1rem 1.2rem !important;
+                        margin-top: 0 !important;
+                        margin-bottom: 0 !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) > div {
+                        min-width: 0;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) > div > div:first-child {
+                        margin-bottom: 1.25rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) h2 {
+                        font-size: clamp(1.65rem, 6vw, 2.1rem) !important;
+                        line-height: 1.18 !important;
+                        margin-bottom: .65rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) h3 {
+                        margin-top: 1.5rem !important;
+                        margin-bottom: .65rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) p {
+                        line-height: 1.6 !important;
+                        margin-bottom: 1rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) ul,
+                    .ev-longevity-guide > section:not(.hero-section) ol {
+                        margin-bottom: 1.25rem !important;
+                        padding-left: 1.4rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) li {
+                        margin-bottom: .6rem !important;
+                    }
+                    .ev-longevity-guide > section:not(.hero-section) [style*="padding: 2rem"],
+                    .ev-longevity-guide > section:not(.hero-section) [style*="padding: 1.5rem"] {
+                        padding: 1.1rem !important;
+                    }
+                }
+            `}</style>
 
             <HeroSection
                 backgroundImage="/longevity_hero_cinematic_1764666029631.png"
@@ -608,7 +676,7 @@ const LongevityGuide = () => {
                     </Link>
                 </div>
             </section >
-        </>
+        </div>
     );
 };
 
