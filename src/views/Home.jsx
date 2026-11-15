@@ -95,12 +95,12 @@ export default function Home() {
             <HeroSectionHybrid />
 
             {/* COMPACT EDITORIAL GATEWAYS — discovery before biography */}
-            <section aria-labelledby="explore-health-title" style={{ padding: 'clamp(3rem, 6vw, 5rem) 1.25rem', background: '#f4f9f8' }}>
+            <section aria-labelledby="explore-health-title" style={{ padding: 'clamp(2rem, 4vw, 3.5rem) 1.25rem', background: '#f4f9f8' }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <p style={{ color: '#168c84', fontWeight: 800, fontSize: '0.78rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.65rem' }}>Start exploring</p>
                     <h2 id="explore-health-title" style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.9rem, 4vw, 3rem)', color: '#1A3C34', marginBottom: '0.65rem' }}>Explore the science of living better</h2>
-                    <p style={{ color: '#4A5568', fontSize: '1.05rem', lineHeight: 1.65, marginBottom: '2rem' }}>Four fascinating places to begin. Discover the science, follow your curiosity and find practical insights along the way.</p>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1.1rem' }}>
+                    <p style={{ color: '#4A5568', fontSize: '1.05rem', lineHeight: 1.65, marginBottom: '1.25rem' }}>Four fascinating places to begin. Discover the science, follow your curiosity and find practical insights along the way.</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '0.85rem' }}>
                         {[
                             { label: 'CELLULAR ENERGY', title: 'Mitochondrial Health', hook: 'The tiny power stations inside your cells.', href: '/mitochondrial-guide', action: 'Explore the guide', image: '/hero_split_screen_mitochondria.png' },
                             { label: 'METABOLIC HEALTH', title: 'The Insulin Story', hook: 'Insulin does far more than control blood sugar.', href: '/insulin-story', action: 'Read the story', image: '/cellular_structure.webp' },
@@ -108,11 +108,11 @@ export default function Home() {
                             { label: 'HEALTHSPAN', title: 'The Five Pillars', hook: 'The practical foundations of healthier ageing.', href: '/longevity', action: 'Discover the foundations', image: '/home_hero_user.png' }
                         ].map((topic) => (
                             <Link key={topic.title} href={topic.href} style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '18px', background: '#fff', border: '1px solid #dceae7', textDecoration: 'none', boxShadow: '0 10px 30px rgba(26,60,52,0.06)' }}>
-                                <div style={{ height: 'clamp(125px, 14vw, 165px)', backgroundImage: `linear-gradient(180deg, rgba(10,31,34,0.08), rgba(10,31,34,0.35)), url("${topic.image}")`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: '#15383b' }} role="img" aria-label={topic.title + ' editorial illustration'} />
-                                <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '1.3rem' }}>
-                                    <span style={{ color: '#168c84', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.12em', marginBottom: '0.55rem' }}>{topic.label}</span>
-                                    <h3 style={{ color: '#1A3C34', fontSize: '1.22rem', lineHeight: 1.3, margin: '0 0 0.6rem' }}>{topic.title}</h3>
-                                    <p style={{ color: '#4A5568', lineHeight: 1.55, fontSize: '0.95rem', margin: '0 0 1rem', flexGrow: 1 }}>{topic.hook}</p>
+                                <div style={{ height: 'clamp(78px, 9vw, 112px)', backgroundImage: `linear-gradient(180deg, rgba(10,31,34,0.08), rgba(10,31,34,0.35)), url("${topic.image}")`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: '#15383b' }} role="img" aria-label={topic.title + ' editorial illustration'} />
+                                <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: 'clamp(0.85rem, 1.6vw, 1.1rem)' }}>
+                                    <span style={{ color: '#168c84', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.12em', marginBottom: '0.35rem' }}>{topic.label}</span>
+                                    <h3 style={{ color: '#1A3C34', fontSize: '1.22rem', lineHeight: 1.3, margin: '0 0 0.35rem' }}>{topic.title}</h3>
+                                    <p style={{ color: '#4A5568', lineHeight: 1.55, fontSize: '0.95rem', margin: '0 0 0.65rem', flexGrow: 1 }}>{topic.hook}</p>
                                     <span style={{ color: '#087e76', fontSize: '0.9rem', fontWeight: 800 }}>{topic.action} →</span>
                                 </div>
                             </Link>
