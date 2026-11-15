@@ -24,9 +24,12 @@ const MedicalBadge = () => {
     }, []);
 
     return (
+        <>
+        <style>{`@media (max-width: 768px) { .ev-medical-floating-badge { display: none !important; } }`}</style>
         <AnimatePresence>
             {isVisible && (
                 <motion.div 
+                    className="ev-medical-floating-badge"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 20 }}
@@ -67,6 +70,7 @@ const MedicalBadge = () => {
                 </motion.div>
             )}
         </AnimatePresence>
+        </>
     );
 };
 
