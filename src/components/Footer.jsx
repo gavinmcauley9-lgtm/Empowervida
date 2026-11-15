@@ -17,7 +17,7 @@ const Footer = () => {
     };
 
     return (
-        <footer style={{
+        <footer className="ev-global-footer" style={{
             backgroundColor: '#F5F5F7',
             color: '#1D1D1F',
             padding: '4rem 2rem',
