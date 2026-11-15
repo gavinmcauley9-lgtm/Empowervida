@@ -120,8 +120,8 @@ const HeroSectionHybrid = ({
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                 >
-                    THE SCIENCE OF LIVING BETTER.<br/>
-                    <span className="text-gradient-award">FOR LONGER.</span>
+                    WHAT IF THE WAY WE AGE<br/>
+                    <span className="text-gradient-award">ISN’T AS INEVITABLE AS WE THINK?</span>
                 </motion.h1>
 
                 {/* Softer Subheadline */}
@@ -132,7 +132,7 @@ const HeroSectionHybrid = ({
                     transition={{ delay: 0.5, duration: 0.8 }}
                     style={{ fontSize: '1.35rem', letterSpacing: '0.01em', marginTop: '1.5rem', marginBottom: '2.5rem', lineHeight: '1.6', maxWidth: '800px', color: '#f8fafc', textShadow: '0 4px 12px rgba(0,0,0,0.6)' }}
                 >
-                    From metabolic health to brain resilience and the biology of ageing, explore <strong style={{ color: '#FFFFFF', fontWeight: 800 }}>what works, what's promising, and what we're still discovering.</strong>
+                    From the remarkable biology of our cells to new discoveries in brain and metabolic health, science is challenging long-held assumptions about ageing. Explore <strong style={{ color: '#FFFFFF', fontWeight: 800 }}>what we know, what’s emerging, and what might genuinely make a difference.</strong>
                 </motion.p>
 
                 {/* CTAs */}
@@ -143,8 +143,8 @@ const HeroSectionHybrid = ({
                     transition={{ delay: 1.1, duration: 0.8 }}
                     style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}
                 >
-                    <a href="/longevity" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }} onClick={() => trackCTAClick('hero_explore_protocol', 'hero')}>
-                        Explore The Science →
+                    <a href="/blog" className="hero-hybrid-btn-primary" style={{ padding: '1.25rem 3.5rem', fontSize: '1.15rem', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '0.5rem' }} onClick={() => trackCTAClick('hero_explore_journal', 'hero')}>
+                        Explore the Journal →
                     </a>
                     
                     {/* Anxiety Reducer */}
