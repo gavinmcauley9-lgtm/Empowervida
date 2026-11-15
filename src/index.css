@@ -663,3 +663,28 @@ canvas,
     line-height: 1.4;
   }
 }
+
+/* Footer links need touch-friendly rows, not oversized gaps between rows. */
+@media (max-width: 768px) {
+  footer.ev-global-footer > div:first-child > div {
+    min-width: 0;
+  }
+  footer.ev-global-footer > div:first-child > div > a {
+    display: flex !important;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 40px !important;
+    padding: 0.3rem 0 !important;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: flex-start !important;
+    text-align: left;
+    white-space: normal;
+  }
+  footer.ev-global-footer > div:first-child > div > h4 {
+    margin: 0 0 0.35rem !important;
+  }
+  footer.ev-global-footer > div:first-child {
+    row-gap: 1.15rem !important;
+  }
+}
