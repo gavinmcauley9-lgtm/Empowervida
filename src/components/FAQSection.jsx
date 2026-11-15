@@ -71,7 +71,7 @@ const FAQSection = ({ data }) => {
     if (!data || data.length === 0) return null;
 
     return (
-        <section style={{ padding: '6rem 2rem', position: 'relative', zIndex: 10 }}>
+        <section className="ev-faq-section" style={{ padding: '6rem 2rem', position: 'relative', zIndex: 10 }}>
             <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
                 <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
                     <h2 style={{
