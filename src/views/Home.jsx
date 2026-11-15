@@ -94,10 +94,46 @@ export default function Home() {
             />
             <HeroSectionHybrid />
 
+            {/* COMPACT EDITORIAL GATEWAYS — discovery before biography */}
+            <section aria-labelledby="explore-health-title" style={{ padding: 'clamp(3rem, 6vw, 5rem) 1.25rem', background: '#f4f9f8' }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    <p style={{ color: '#168c84', fontWeight: 800, fontSize: '0.78rem', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.65rem' }}>Start exploring</p>
+                    <h2 id="explore-health-title" style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.9rem, 4vw, 3rem)', color: '#1A3C34', marginBottom: '0.65rem' }}>Explore the science of living better</h2>
+                    <p style={{ color: '#4A5568', fontSize: '1.05rem', lineHeight: 1.65, marginBottom: '2rem' }}>Four fascinating places to begin. Discover the science, follow your curiosity and find practical insights along the way.</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '1.1rem' }}>
+                        {[
+                            { label: 'CELLULAR ENERGY', title: 'Mitochondrial Health', hook: 'The tiny power stations inside your cells.', href: '/mitochondrial-guide', action: 'Explore the guide', image: '/hero_split_screen_mitochondria.png' },
+                            { label: 'METABOLIC HEALTH', title: 'The Insulin Story', hook: 'Insulin does far more than control blood sugar.', href: '/insulin-story', action: 'Read the story', image: '/cellular_structure.webp' },
+                            { label: 'COGNITIVE HEALTH', title: 'Brain Health & Ageing', hook: 'What can we do to protect the ageing brain?', href: '/blog', action: 'Explore brain health', image: '/gut_brain_inflammation.png' },
+                            { label: 'HEALTHSPAN', title: 'The Five Pillars', hook: 'The practical foundations of healthier ageing.', href: '/longevity', action: 'Discover the foundations', image: '/home_hero_user.png' }
+                        ].map((topic) => (
+                            <Link key={topic.title} href={topic.href} style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', borderRadius: '18px', background: '#fff', border: '1px solid #dceae7', textDecoration: 'none', boxShadow: '0 10px 30px rgba(26,60,52,0.06)' }}>
+                                <div style={{ height: 'clamp(125px, 14vw, 165px)', backgroundImage: `linear-gradient(180deg, rgba(10,31,34,0.08), rgba(10,31,34,0.35)), url("${topic.image}")`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: '#15383b' }} role="img" aria-label={topic.title + ' editorial illustration'} />
+                                <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '1.3rem' }}>
+                                    <span style={{ color: '#168c84', fontSize: '0.7rem', fontWeight: 800, letterSpacing: '0.12em', marginBottom: '0.55rem' }}>{topic.label}</span>
+                                    <h3 style={{ color: '#1A3C34', fontSize: '1.22rem', lineHeight: 1.3, margin: '0 0 0.6rem' }}>{topic.title}</h3>
+                                    <p style={{ color: '#4A5568', lineHeight: 1.55, fontSize: '0.95rem', margin: '0 0 1rem', flexGrow: 1 }}>{topic.hook}</p>
+                                    <span style={{ color: '#087e76', fontSize: '0.9rem', fontWeight: 800 }}>{topic.action} →</span>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* LATEST STORIES — distinct from the four evergreen gateways */}
+            <section aria-labelledby="latest-journal-title" style={{ padding: 'clamp(2.5rem, 5vw, 4rem) 1.25rem', background: '#fff' }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    <h2 id="latest-journal-title" style={{ color: '#1A3C34', fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.7rem, 3vw, 2.3rem)', marginBottom: '0.5rem' }}>From the Journal</h2>
+                    <p style={{ color: '#4A5568', lineHeight: 1.65, marginBottom: '1.5rem' }}>Thoughtful explorations of health science, from established evidence to promising discoveries.</p>
+                    <Link href="/blog" style={{ color: '#087e76', fontWeight: 800, textDecoration: 'none' }}>Browse all articles →</Link>
+                </div>
+            </section>
+
             {/* ABOUT DR. GAVIN SECTION - OVERLAPPING SEAMLESS BLEND */}
             <section className="homepage-founder-section" style={{
-                padding: '18rem 2rem 8rem 2rem',
-                marginTop: '-10rem',
+                padding: 'clamp(3rem, 6vw, 5rem) 1.25rem',
+                marginTop: '0',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgba(248, 252, 252, 0.3) 25%, rgba(240, 248, 248, 0.9) 50%, rgba(248, 252, 252, 0.3) 75%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 100%)',
                 position: 'relative',
                 zIndex: 10,
@@ -288,244 +324,6 @@ export default function Home() {
                             </Link>
                         </div>
                     </motion.div>
-                </div>
-            </section >
-
-            {/* FEATURED STORIES — editorial entry points */}
-            <section aria-labelledby="featured-stories-title" style={{ padding: 'clamp(3rem, 7vw, 6rem) 1.25rem', background: '#f4f9f8' }}>
-                <div style={{ maxWidth: '1160px', margin: '0 auto' }}>
-                    <p style={{ color: '#168c84', textTransform: 'uppercase', letterSpacing: '0.17em', fontWeight: 700, fontSize: '0.8rem', marginBottom: '0.75rem' }}>From the journal</p>
-                    <h2 id="featured-stories-title" style={{ color: '#1A3C34', fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 4vw, 3rem)', marginBottom: '0.75rem' }}>Worth Exploring</h2>
-                    <p style={{ color: '#4A5568', maxWidth: '670px', lineHeight: 1.7, marginBottom: '2.25rem' }}>Big questions, fascinating biology and research worth understanding — without the hype.</p>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 290px), 1fr))', gap: '1.25rem' }}>
-                        {[
-                            { category: 'CELLULAR HEALTH', title: 'The tiny engines inside your cells — and why scientists are fascinated by them', description: 'What mitochondria really do, and why they matter to the science of ageing.', href: '/mitochondrial-guide' },
-                            { category: 'METABOLIC HEALTH', title: 'Insulin does far more than control blood sugar. Here’s why that matters.', description: 'A closer look at metabolism, energy storage and long-term health.', href: '/insulin-story' },
-                            { category: 'LONGEVITY SCIENCE', title: 'Can we influence how well we age?', description: 'The established foundations of healthy ageing — and the discoveries still being tested.', href: '/longevity' }
-                        ].map((story) => (
-                            <Link key={story.href} href={story.href} style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem', padding: 'clamp(1.5rem, 3vw, 2rem)', borderRadius: '20px', background: '#fff', border: '1px solid #dcebe7', textDecoration: 'none', boxShadow: '0 10px 30px rgba(26,60,52,0.05)' }}>
-                                <span style={{ fontSize: '0.72rem', letterSpacing: '0.12em', color: '#168c84', fontWeight: 800 }}>{story.category}</span>
-                                <h3 style={{ fontSize: 'clamp(1.2rem, 2vw, 1.5rem)', lineHeight: 1.3, color: '#1A3C34', margin: 0 }}>{story.title}</h3>
-                                <p style={{ color: '#4A5568', lineHeight: 1.65, margin: 0, flexGrow: 1 }}>{story.description}</p>
-                                <span style={{ color: '#168c84', fontWeight: 700 }}>Read the story →</span>
-                            </Link>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* EMAIL CAPTURE */}
-            <div id="email-capture">
-                <EmailCapture variant="default" />
-            </div>
-
-
-            {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
-            < section style={{
-                padding: '8rem 2rem',
-                background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
-                position: 'relative',
-                transform: 'translateZ(0)'
-            }
-            }>
-                <div className="container" data-aos="fade-up">
-                    <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
-                        <h2 style={{
-                            fontSize: 'clamp(2rem, 4vw, 3rem)',
-                            fontWeight: 800,
-                            color: '#1A3C34',
-                            marginBottom: '1.5rem',
-                            fontFamily: '"Manrope", sans-serif',
-                            letterSpacing: '-0.02em'
-                        }}>
-                            THE LONGEVITY ECOSYSTEM
-                        </h2>
-                        <p style={{
-                            fontSize: '1.15rem',
-                            color: '#4A5568',
-                            maxWidth: '650px',
-                            margin: '0 auto',
-                            lineHeight: '1.7'
-                        }}>
-                            Explore the science, understand what the evidence means, and discover practical steps that may help you protect your long-term health.
-                        </p>
-                    </div>
-
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-                        gap: '2.5rem',
-                        maxWidth: '1200px',
-                        margin: '0 auto'
-                    }}>
-                        {/* CARD 1: LONGEVITY BLUEPRINT - Blue Gradient */}
-                        <motion.div
-                            whileHover={{ y: -12, scale: 1.02 }}
-                            transition={{ duration: 0.3 }}
-                            data-aos="fade-up"
-                            data-aos-delay="100"
-                        >
-                            <Link
-                                href="/longevity"
-                                onClick={() => window.scrollTo(0, 0)}
-                                style={{
-                                    background: 'linear-gradient(135deg, rgba(26, 60, 52, 0.03) 0%, rgba(32, 178, 170, 0.05) 100%)',
-                                    backdropFilter: 'blur(10px)',
-                                    WebkitBackdropFilter: 'blur(10px)',
-                                    borderRadius: '20px',
-                                    padding: '3rem 2.5rem',
-                                    boxShadow: '0 10px 40px rgba(26, 60, 52, 0.08), 0 0 0 1px rgba(26, 60, 52, 0.1) inset',
-                                    border: '1px solid rgba(26, 60, 52, 0.15)',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    textAlign: 'center',
-                                    textDecoration: 'none',
-                                    cursor: 'pointer',
-                                    position: 'relative',
-                                    overflow: 'hidden',
-                                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
-                                }}
-                            >
-                                {/* Hover Glow Effect */}
-                                <div style={{
-                                    position: 'absolute',
-                                    top: '-50%',
-                                    left: '-50%',
-                                    width: '200%',
-                                    height: '200%',
-                                    background: 'radial-gradient(circle, rgba(26, 60, 52, 0.1) 0%, transparent 70%)',
-                                    opacity: 0,
-                                    transition: 'opacity 0.4s ease',
-                                    pointerEvents: 'none'
-                                }}></div>
-
-                                <div style={{
-                                    fontSize: '4rem',
-                                    marginBottom: '2rem',
-                                    filter: 'drop-shadow(0 4px 12px rgba(26, 60, 52, 0.2))',
-                                    transition: 'transform 0.3s ease'
-                                }}>
-                                    🧬
-                                </div>
-
-                                <h3 style={{
-                                    fontSize: '1.65rem',
-                                    fontWeight: 800,
-                                    color: '#1A3C34',
-                                    marginBottom: '1rem',
-                                    letterSpacing: '-0.01em'
-                                }}>
-                                    The Longevity Blueprint
-                                </h3>
-
-                                <p style={{
-                                    fontSize: '1.05rem',
-                                    color: '#4A5568',
-                                    marginBottom: '2rem',
-                                    lineHeight: 1.7,
-                                    flexGrow: 1
-                                }}>
-                                    Explore the biology of ageing and the practical habits linked to better health in later life — alongside the emerging science, its possibilities and its limits.
-                                </p>
-
-                                <span style={{
-                                    display: 'inline-block',
-                                    padding: '1rem 2rem',
-                                    background: '#1A3C34',
-                                    color: '#FFFFFF',
-                                    borderRadius: '12px',
-                                    fontWeight: 700,
-                                    fontSize: '0.9rem',
-                                    textTransform: 'uppercase',
-                                    letterSpacing: '0.08em',
-                                    boxShadow: '0 8px 20px rgba(26, 60, 52, 0.25)',
-                                    transition: 'all 0.3s ease'
-                                }}>
-                                    LEARN THE SCIENCE →
-                                </span>
-                            </Link>
-                        </motion.div>
-
-                        {/* CARD 2: MITOCHONDRIAL HEALTH - Orange Gradient */}
-                        <motion.div
-                            whileHover={{ y: -12, scale: 1.02 }}
-                            transition={{ duration: 0.3 }}
-                            data-aos="fade-up"
-                            data-aos-delay="200"
-                        >
-                            <Link
-                                href="/mitochondrial-guide"
-                                onClick={() => window.scrollTo(0, 0)}
-                                style={{
-                                    background: 'linear-gradient(135deg, rgba(255, 95, 0, 0.04) 0%, rgba(255, 165, 0, 0.06) 100%)',
-                                    backdropFilter: 'blur(10px)',
-                                    WebkitBackdropFilter: 'blur(10px)',
-                                    borderRadius: '20px',
-                                    padding: '3rem 2.5rem',
-                                    boxShadow: '0 10px 40px rgba(255, 95, 0, 0.08), 0 0 0 1px rgba(255, 95, 0, 0.1) inset',
-                                    border: '1px solid rgba(255, 95, 0, 0.15)',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    textAlign: 'center',
-                                    textDecoration: 'none',
-                                    cursor: 'pointer',
-                                    position: 'relative',
-                                    overflow: 'hidden',
-                                    transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
-                                }}
-                            >
-                                <div style={{
-                                    fontSize: '4rem',
-                                    marginBottom: '2rem',
-                                    filter: 'drop-shadow(0 4px 12px rgba(255, 95, 0, 0.3))',
-                                    transition: 'transform 0.3s ease'
-                                }}>
-                                    ⚡
-                                </div>
-
-                                <h3 style={{
-                                    fontSize: '1.65rem',
-                                    fontWeight: 800,
-                                    color: '#1A3C34',
-                                    marginBottom: '1rem',
-                                    letterSpacing: '-0.01em'
-                                }}>
-                                    Mitochondrial Health
-                                </h3>
-
-                                <p style={{
-                                    fontSize: '1.05rem',
-                                    color: '#4A5568',
-                                    marginBottom: '2rem',
-                                    lineHeight: 1.7,
-                                    flexGrow: 1
-                                }}>
-                                    Mitochondria help power our cells. Explore what researchers are learning about cellular energy, healthy ageing and the limits of current evidence — without assuming every case of fatigue has a mitochondrial cause.
-                                </p>
-
-                                <span style={{
-                                    display: 'inline-block',
-                                    padding: '1rem 2rem',
-                                    background: '#FF5F00',
-                                    color: '#FFFFFF',
-                                    borderRadius: '12px',
-                                    fontWeight: 700,
-                                    fontSize: '0.9rem',
-                                    textTransform: 'uppercase',
-                                    letterSpacing: '0.08em',
-                                    boxShadow: '0 8px 20px rgba(255, 95, 0, 0.3)',
-                                    transition: 'all 0.3s ease'
-                                }}>
-                                    EXPLORE THE ENGINE →
-                                </span>
-                            </Link>
-                        </motion.div>
-
-                        {/* CARD 3: NUTRIENT STACKS - Teal Gradient */}
-                        
-                    </div>
                 </div>
             </section >
 
