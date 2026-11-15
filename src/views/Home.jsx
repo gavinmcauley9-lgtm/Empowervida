@@ -327,6 +327,9 @@ export default function Home() {
                 </div>
             </section >
 
+            {/* NEWSLETTER — preserve existing capture form and hero anchor */}
+            <div id="email-capture"><EmailCapture variant="default" /></div>
+
             {/* Expert Insights Section */}
             <ExpertInsightsSection />
 
