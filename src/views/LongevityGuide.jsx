@@ -42,10 +42,22 @@ const LongevityGuide = () => {
                         letter-spacing: .025em !important;
                         margin: 0 0 1.25rem !important;
                         text-transform: none !important;
+                        color: #103c3b !important;
+                        text-shadow: none !important;
+                        background: rgba(255,255,255,.88);
+                        border-radius: 8px;
+                        padding: .55rem .7rem;
+                        max-width: 34rem;
+                        margin-left: auto !important;
+                        margin-right: auto !important;
                     }
                     .ev-longevity-guide > .hero-section header p {
                         line-height: 1.45 !important;
-                        margin: .45rem 0 !important;
+                        margin: .45rem auto !important;
+                        max-width: 32rem;
+                        padding: .15rem .4rem;
+                        background: rgba(255,255,255,.68);
+                        border-radius: 5px;
                     }
                     .ev-longevity-guide > section:not(.hero-section) {
                         padding: 2.1rem 1.2rem !important;
