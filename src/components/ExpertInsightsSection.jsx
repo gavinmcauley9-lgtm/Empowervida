@@ -33,7 +33,7 @@ const insights = [
 
 const ExpertInsightsSection = () => {
     return (
-        <section style={{
+        <section className="ev-expert-insights" style={{
             padding: '6rem 2rem',
             background: 'var(--color-bg)',
             position: 'relative',

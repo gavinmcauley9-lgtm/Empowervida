@@ -36,7 +36,11 @@
 
 @media (max-width: 768px) {
   :root {
-    --section-padding: 4rem;
+    --section-padding: clamp(1.75rem, 5vw, 2.75rem);
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2.5rem;
+    --spacing-xl: 3.5rem;
   }
 }
 
@@ -415,16 +419,10 @@ canvas,
     padding: 0 1.5rem;
   }
 
-  /* Reduce top padding on mobile for better space usage, BUT keep Hero padding large */
-  section:not(.hero-section) {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-
-  /* Specific mobile padding for Hero to clear the fixed nav */
-  section.hero-section {
-    padding-top: 8rem !important;
-    padding-bottom: 4rem !important;
+  /* Respect component-specific hero layouts; compact ordinary sections only. */
+  main > section:not([class*="hero"]):not([class*="Hero"]),
+  .blog-page > section:not([class*="hero"]):not([class*="Hero"]) {
+    padding-block: var(--section-padding);
   }
 
   /* Improve touch targets */
@@ -470,11 +468,10 @@ canvas,
     height: auto;
   }
 
-  /* Stack grid layouts on mobile */
-  .grid,
-  [style*="display: grid"] {
-    grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
+  /* Do not globally force grids into a single column: this previously
+     broke intentional two-column credentials and editorial card layouts. */
+  .grid {
+    min-width: 0;
   }
 
   /* Reduce excessive margins on mobile */
@@ -488,11 +485,7 @@ canvas,
     margin-top: 3rem !important;
   }
 
-  /* Better card padding on mobile */
-  [style*="padding: 4rem"],
-  [style*="padding: 3rem"] {
-    padding: 1.5rem !important;
-  }
+  /* Component cards own their internal spacing. Avoid overriding inline padding. */
 
   /* Improve CTA visibility on mobile */
   .btn-primary,
@@ -518,10 +511,7 @@ canvas,
     font-size: 1.5rem !important;
   }
 
-  /* Even tighter spacing on very small screens */
-  [style*="padding: 2rem"] {
-    padding: 1rem !important;
-  }
+  /* Small screens retain deliberate card padding and image proportions. */
 }
 
 /* Tablet optimizations */
@@ -566,5 +556,135 @@ canvas,
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+/* Mobile rhythm: opt-in helpers for progressively updating page templates. */
+@media (max-width: 768px) {
+  .mobile-compact-section { padding-block: var(--section-padding) !important; }
+  .mobile-compact-stack > * + * { margin-top: 0.85rem !important; }
+  .mobile-compact-hero { min-height: 0 !important; height: auto !important; }
+  .mobile-compact-hero h1 { letter-spacing: -0.035em !important; text-wrap: balance; }
+  .mobile-compact-hero [class*="subtitle"] { letter-spacing: normal !important; }
+}
+
+/* Homepage editorial sections: compact mobile rhythm without desktop changes. */
+@media (max-width: 768px) {
+  #email-capture { padding: 0 1rem; }
+  #email-capture .ev-email-capture {
+    margin: 1.25rem auto !important;
+    padding: 1.6rem 1.15rem !important;
+    border-radius: 20px;
+  }
+  #email-capture .ev-email-capture > div:first-child {
+    margin-bottom: 1rem !important;
+  }
+  #email-capture .ev-email-capture h2 {
+    margin-bottom: 0.6rem !important;
+    font-size: clamp(1.5rem, 5.6vw, 1.9rem) !important;
+    line-height: 1.2 !important;
+  }
+  #email-capture .ev-email-capture h2 + p {
+    margin-bottom: 0.6rem !important;
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+  }
+  #email-capture .ev-email-capture form {
+    margin-top: 0.85rem !important;
+    gap: 0.65rem !important;
+  }
+  #email-capture .ev-email-capture input,
+  #email-capture .ev-email-capture button {
+    padding: 0.8rem 1rem !important;
+    font-size: 1rem !important;
+  }
+  #email-capture .ev-email-capture > p:last-child {
+    margin-top: 0.9rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .ev-expert-insights,
+  .ev-faq-section {
+    padding: 2rem 1rem !important;
+  }
+  .ev-expert-insights > div > div:first-child,
+  .ev-faq-section .container > div:first-child {
+    margin-bottom: 1.2rem !important;
+  }
+  .ev-expert-insights h2,
+  .ev-faq-section h2 {
+    margin-bottom: 0.45rem !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.18 !important;
+  }
+  .ev-expert-insights > div > div:nth-child(2) {
+    gap: 0.85rem !important;
+  }
+  .ev-expert-insights > div > div:nth-child(2) > div {
+    padding: 1.25rem !important;
+  }
+  .ev-expert-insights > div > p:last-child {
+    margin-top: 1rem !important;
+  }
+  .ev-faq-section .container > div:nth-child(2) > div {
+    padding: 1rem 1.1rem !important;
+    margin-bottom: 0.65rem !important;
+  }
+}
+
+/* Global footer: compact mobile rhythm; desktop layout remains unchanged. */
+@media (max-width: 768px) {
+  footer.ev-global-footer {
+    padding: 2rem 1.15rem 1.25rem !important;
+  }
+  footer.ev-global-footer > div:first-child {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  footer.ev-global-footer > div:first-child h3,
+  footer.ev-global-footer > div:first-child h4 {
+    margin-bottom: 0.6rem !important;
+    letter-spacing: 0.055em !important;
+  }
+  footer.ev-global-footer > div:first-child > div:first-child p {
+    margin-bottom: 0.75rem !important;
+  }
+  footer.ev-global-footer > div:first-child a {
+    margin-bottom: 0.3rem !important;
+    line-height: 1.35;
+  }
+  footer.ev-global-footer > div:first-child > div:last-child p {
+    line-height: 1.5 !important;
+    font-size: 0.85rem !important;
+  }
+  footer.ev-global-footer > div:last-child {
+    padding-top: 1rem !important;
+    gap: 0.4rem 0.6rem !important;
+    line-height: 1.4;
+  }
+}
+
+/* Footer links need touch-friendly rows, not oversized gaps between rows. */
+@media (max-width: 768px) {
+  footer.ev-global-footer > div:first-child > div {
+    min-width: 0;
+  }
+  footer.ev-global-footer > div:first-child > div > a {
+    display: flex !important;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 40px !important;
+    padding: 0.3rem 0 !important;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: flex-start !important;
+    text-align: left;
+    white-space: normal;
+  }
+  footer.ev-global-footer > div:first-child > div > h4 {
+    margin: 0 0 0.35rem !important;
+  }
+  footer.ev-global-footer > div:first-child {
+    row-gap: 1.15rem !important;
   }
 }

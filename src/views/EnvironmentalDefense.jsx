@@ -11,7 +11,7 @@ const EnvironmentalDefense = () => {
             title: 'LAYER 1: HYDRATION DEFENSE',
             subtitle: 'The Water Filter',
             problem: 'Tap water may contain chlorine, fluoride, heavy metals, and pharmaceutical residue. Bottled water can be a source of microplastics, which are an area of growing research concern.',
-            solution: 'A Reverse Osmosis (RO) system with remineralization. It is the only way to ensure zero-contaminant hydration.',
+            solution: 'A Reverse Osmosis (RO) system with remineralization. RO can reduce many dissolved contaminants, but no filter guarantees contaminant-free water. Select and maintain a certified system based on local water quality.',
             buttonText: 'VIEW RECOMMENDED FILTER >',
             link: '#'
         },
@@ -19,8 +19,8 @@ const EnvironmentalDefense = () => {
             id: 'air',
             title: 'LAYER 2: AIR QUALITY',
             subtitle: 'The HEPA Shield',
-            problem: 'Indoor air is often 5x more polluted than outdoor air. Dust, mold spores, VOCs from furniture, and PM2.5 particles bypass your lungs\' defenses and enter your bloodstream, driving systemic inflammation.',
-            solution: 'A Medical-Grade H13 HEPA Air Purifier running 24/7 in your bedroom. This can be an important factor in supporting sleep quality.',
+            problem: 'Indoor air can contain particles, allergens and volatile compounds. Exposure varies by building, ventilation and outdoor conditions.',
+            solution: 'A correctly sized HEPA air cleaner may reduce airborne particles. Ventilation and controlling pollution sources are also important.',
             buttonText: 'VIEW RECOMMENDED PURIFIER >',
             link: '#'
         },
@@ -29,21 +29,45 @@ const EnvironmentalDefense = () => {
             title: 'LAYER 3: LIGHT MANAGEMENT',
             subtitle: 'The Circadian Armor',
             problem: 'Artificial blue light after dark may suppress melatonin production, potentially disrupting sleep architecture and affecting mitochondrial function.',
-            solution: 'High-quality Blue Light Blocking glasses for evening use (sunset to sleep).',
+            solution: 'Reduce bright light before bed and keep a consistent sleep schedule. Evidence for blue-light-blocking glasses is mixed.',
             buttonText: 'VIEW OPTICAL LIFESTYLE >',
             link: '#'
         }
     ];
 
     return (
-        <div style={{
+        <div className="ev-environmental-page" style={{
             backgroundColor: 'var(--color-bg)',
             color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif'
         }}>
+            <style>{`
+              @media (max-width: 768px) {
+                .ev-environmental-page .ev-environmental-hero {
+                  min-height: 0 !important;
+                  padding: 3.25rem 1.25rem 2.75rem !important;
+                }
+                .ev-environmental-page .ev-environmental-hero h1 {
+                  font-size: clamp(1.85rem, 7vw, 2.45rem) !important;
+                  line-height: 1.13 !important;
+                  margin-bottom: .9rem !important;
+                  letter-spacing: -.035em !important;
+                }
+                .ev-environmental-page .ev-environmental-hero h2 {
+                  font-size: 1.15rem !important;
+                  line-height: 1.4 !important;
+                  margin-bottom: .85rem !important;
+                }
+                .ev-environmental-page .ev-environmental-hero p {
+                  font-size: 1rem !important;
+                  line-height: 1.55 !important;
+                  margin-bottom: 0 !important;
+                }
+              }
+            `}</style>
             {/* Hero Section */}
-            <section style={{
+            <section className="ev-environmental-hero" style={{
                 position: 'relative',
                 minHeight: '80vh',
                 display: 'flex',
@@ -116,7 +140,7 @@ const EnvironmentalDefense = () => {
                             lineHeight: 1.6,
                             textAlign: 'center'
                         }}>
-                            You can take all the CoQ10 in the world, but if you are drinking microplastics and breathing PM2.5 particles, it may be difficult to reduce systemic inflammation. Supplements support the engine; Lifestyle protects the chassis. This is the hardware required to shield your biology.
+                            Air quality, drinking water and light exposure deserve attention alongside sleep, nutrition and exercise. The most useful changes depend on your environment.
                         </p>
                     </Reveal>
                 </div>
@@ -147,7 +171,7 @@ const EnvironmentalDefense = () => {
                         lineHeight: 1.6,
                         marginBottom: '1rem'
                     }}>
-                        The wellness market is flooded with ineffective, mass-produced hardware. The products below have been selected based on durability, filtration efficacy, and alignment with current environmental health research. These are premium tools for a premium outcome.
+                        The wellness market is flooded with ineffective, mass-produced hardware. The options below are general educational information, not product endorsements or purchasing recommendations.
                     </p>
                     <p style={{
                         color: 'var(--color-accent-orange)',
@@ -169,10 +193,13 @@ const EnvironmentalDefense = () => {
                                 background: 'var(--color-bg)',
                                 border: '1px solid var(--color-border)',
                                 borderRadius: '16px',
-                                padding: '3rem',
+                                padding: 'clamp(1.1rem, 4vw, 3rem)',
+                                minWidth: 0,
+                                width: '100%',
+                                boxSizing: 'border-box',
                                 display: 'grid',
-                                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                                gap: '3rem',
+                                gridTemplateColumns: 'minmax(0, 1fr)',
+                                gap: '1.25rem',
                                 alignItems: 'center',
                                 boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
                                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
@@ -186,7 +213,7 @@ const EnvironmentalDefense = () => {
                                     e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
                                 }}
                             >
-                                <div>
+                                <div style={{ minWidth: 0, overflowWrap: 'anywhere' }}>
                                     <h3 style={{
                                         fontSize: '0.9rem',
                                         color: 'var(--color-accent-orange)',
@@ -196,7 +223,7 @@ const EnvironmentalDefense = () => {
                                     }}>
                                         {layer.title}
                                     </h3>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '2rem' }}>
+                                    <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '1rem', marginBottom: '1.25rem' }}>
                                         {/* Verification Seal */}
                                         <img
                                             src="/physician_verified_seal.jpg"
@@ -211,7 +238,7 @@ const EnvironmentalDefense = () => {
                                             }}
                                         />
                                         <h2 style={{
-                                            fontSize: '2.5rem',
+                                            fontSize: 'clamp(1.5rem, 5.5vw, 2.5rem)',
                                             fontWeight: 700,
                                             color: 'var(--color-text)',
                                             margin: 0,
@@ -235,14 +262,6 @@ const EnvironmentalDefense = () => {
                                             {layer.solution}
                                         </p>
                                     </div>
-
-                                    <a href={layer.link} className="btn-primary" style={{
-                                        display: 'inline-block',
-                                        textDecoration: 'none',
-                                        textAlign: 'center'
-                                    }}>
-                                        {layer.buttonText}
-                                    </a>
                                 </div>
                             </div>
                         </Reveal>
@@ -266,7 +285,7 @@ const EnvironmentalDefense = () => {
                         margin: 0,
                         lineHeight: 1.6
                     }}>
-                        Medical Disclaimer: The products recommended here are based on engineering standards for filtration and light blocking. However, this is not medical advice. Consult with a healthcare professional before making significant changes to your environment or lifestyle.
+                        Medical Disclaimer: This guide provides general educational information, not personalised medical advice or product endorsements.
                     </p>
                 </div>
             </section>

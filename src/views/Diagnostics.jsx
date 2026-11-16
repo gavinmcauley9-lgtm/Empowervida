@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import HeroSection from '../components/HeroSection';
 import Link from 'next/link';
+import VisualScience from '../components/VisualScience';
 
 const Diagnostics = () => {
     const essentialMarkers = [
@@ -53,13 +54,63 @@ const Diagnostics = () => {
     ];
 
     return (
-        <div style={{
+        <div className="ev-diagnostics-page" style={{
             backgroundColor: 'var(--color-bg)',
             color: 'var(--color-text)',
             minHeight: '100vh',
             fontFamily: '"Inter", sans-serif',
             overflowX: 'hidden'
         }}>
+            <style>{`
+              @media (max-width: 768px) {
+                .ev-diagnostics-page > .hero-section {
+                  min-height: 0 !important;
+                  height: auto !important;
+                  padding: 3.5rem 1.2rem 3rem !important;
+                }
+                .ev-diagnostics-page > .hero-section > header {
+                  width: 100%;
+                  padding: 0 !important;
+                  max-width: 32rem;
+                }
+                .ev-diagnostics-page > .hero-section h1 {
+                  font-size: clamp(2rem, 8vw, 2.65rem) !important;
+                  line-height: 1.08 !important;
+                  margin-bottom: 1.15rem !important;
+                }
+                .ev-diagnostics-page > .hero-section h2 {
+                  font-size: clamp(1.1rem, 4.7vw, 1.4rem) !important;
+                  line-height: 1.45 !important;
+                  letter-spacing: .025em !important;
+                  text-transform: none !important;
+                  margin: 0 !important;
+                  color: #164f46 !important;
+                  background: rgba(255,255,255,.75);
+                  border-radius: 8px;
+                  padding: .55rem .65rem;
+                }
+                .ev-diagnostics-page > section:not(.hero-section) {
+                  padding: 2rem 1.15rem !important;
+                }
+                .ev-diagnostics-page > section:not(.hero-section) h2 {
+                  font-size: clamp(1.6rem, 6vw, 2rem) !important;
+                  line-height: 1.2 !important;
+                  margin-bottom: .8rem !important;
+                }
+                .ev-diagnostics-page > section:not(.hero-section) > div:first-child {
+                  margin-bottom: 1.1rem !important;
+                }
+                .ev-diagnostics-page > section:not(.hero-section) [style*="minmax(250px"] {
+                  grid-template-columns: minmax(0,1fr) !important;
+                  padding: 1.15rem !important;
+                  gap: .8rem !important;
+                }
+                .ev-diagnostics-page > section:not(.hero-section) [style*="minmax(280px"] {
+                  grid-template-columns: minmax(0,1fr) !important;
+                  gap: 1rem !important;
+                }
+              }
+            `}</style>
             {/* Hero Section */}
             <HeroSection
                 backgroundImage="/diagnostics_hero_user.jpg"
@@ -77,6 +128,8 @@ const Diagnostics = () => {
                     <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> The goal is to choose tests with meaningful clinical interpretation, not to impose unvalidated ‘optimal’ targets on everyone.
                 </p>
             </section>
+
+            <VisualScience topic="cholesterol" />
 
             {/* Tier 1: THE ESSENTIAL 5 */}
             <section style={{ padding: '2rem 2rem 4rem', maxWidth: '1000px', margin: '0 auto' }}>

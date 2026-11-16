@@ -41,6 +41,13 @@ export default function MitochondrialGuide() {
         .mito-editorial nav strong{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase}
         .mito-editorial nav a{display:block;margin:1rem 0;color:#345b53;text-decoration:none;font-size:.9rem;line-height:1.4}
         .mito-editorial nav a:hover{text-decoration:underline}
+        .mito-editorial nav strong{display:block;margin-bottom:.75rem}
+        .mito-editorial .mito-illustration{margin:2rem 0 2.5rem;background:#10332f;border-radius:16px;overflow:hidden;color:#f5faf8}
+        .mito-editorial .mito-illustration svg{display:block;width:100%;height:auto}
+        .mito-editorial .mito-illustration figcaption{padding:0 1.25rem 1.25rem;font-size:.88rem;color:#d9eee8}
+        .mito-editorial .mito-illustration svg text{font-family:Arial,sans-serif}
+        .mito-editorial .mito-illustration .figure-label{fill:#f6faf8;font-size:20px;font-weight:700}
+        .mito-editorial .mito-illustration .figure-small{fill:#bce3d9;font-size:15px}
         .mito-editorial article{max-width:760px;min-width:0;font-size:1.12rem;line-height:1.85}
         .mito-editorial article p{margin:0 0 1.5rem}
         .mito-editorial article h2{font-size:clamp(1.8rem,3.3vw,2.5rem);line-height:1.2;letter-spacing:-.03em;margin:3.3rem 0 1.2rem;scroll-margin-top:120px}
@@ -66,7 +73,7 @@ export default function MitochondrialGuide() {
         .mito-editorial details{border-bottom:1px solid #dce9e3;padding:1rem 0}
         .mito-editorial summary{cursor:pointer;font-weight:700}
         .mito-editorial details p{margin:1rem 0}
-        @media(max-width:800px){.mito-editorial .shell{display:block;padding:2.5rem 20px 4rem}.mito-editorial nav{position:static;border-left:0;border-bottom:1px solid #dbe9e4;padding:0 0 1.5rem;margin-bottom:2rem}.mito-editorial nav a{display:inline-block;margin:.6rem 1rem .2rem 0}.mito-editorial .hero{min-height:440px;padding:8rem 22px 3.5rem}.mito-editorial article{font-size:1.04rem;line-height:1.8}.mito-editorial .science-figure{padding:1.4rem}}
+        @media(max-width:800px){.mito-editorial .shell{display:block;padding:1.8rem 20px 3rem}.mito-editorial nav{position:static;border-left:0;border-bottom:1px solid #dbe9e4;padding:0 0 1.2rem;margin-bottom:1.6rem;display:flex;flex-direction:column;align-items:stretch;gap:.15rem}.mito-editorial nav strong{display:block;margin:0 0 .55rem;font-size:.82rem}.mito-editorial nav a{display:block!important;margin:0!important;padding:.4rem 0!important;min-height:36px!important;width:100%;justify-content:flex-start!important;font-size:.98rem;line-height:1.35}.mito-editorial .hero{min-height:440px;padding:8rem 22px 3.5rem}.mito-editorial article{font-size:1.04rem;line-height:1.8}.mito-editorial .science-figure{padding:1.4rem}.mito-editorial .mito-illustration .figure-label{font-size:22px}.mito-editorial .mito-illustration .figure-small{font-size:17px}}
       `}</style>
       <header className="hero"><div className="hero-inner">
         <span className="eyebrow">EmpowerVida | The Guides</span>
@@ -87,6 +94,20 @@ export default function MitochondrialGuide() {
             <div className="energy-flow"><span>Nutrients + oxygen</span><b aria-hidden="true">→</b><span>Mitochondrial processes</span><b aria-hidden="true">→</b><span>ATP</span></div>
             <figcaption>A simplified conceptual illustration. The real process involves multiple metabolic pathways; not all ATP is produced in mitochondria.</figcaption>
           </figure>
+          <figure className="mito-illustration" aria-label="Simplified labelled cutaway of a mitochondrion showing outer membrane, folded inner membrane, cristae and matrix">
+            <svg viewBox="0 0 720 420" role="img" aria-labelledby="mito-anatomy-title">
+              <title id="mito-anatomy-title">Inside a mitochondrion</title>
+              <defs><linearGradient id="mito-body" x1="0" x2="1"><stop stopColor="#1e7068"/><stop offset="1" stopColor="#0b4440"/></linearGradient></defs>
+              <text x="32" y="48" className="figure-label">Inside a mitochondrion</text>
+              <rect x="64" y="88" width="592" height="230" rx="115" fill="url(#mito-body)" stroke="#a2e3d6" strokeWidth="7"/>
+              <rect x="88" y="109" width="544" height="188" rx="94" fill="#123b37" stroke="#ffb366" strokeWidth="6"/>
+              <path d="M140 150 C180 150 180 250 220 250 S260 150 300 150 S340 250 380 250 S420 150 460 150 S500 250 540 250 S570 175 590 175" fill="none" stroke="#ffad59" strokeWidth="18" strokeLinecap="round"/>
+              <g stroke="#bdeee2" strokeWidth="2" fill="none"><path d="M160 108 L110 70 L34 70"/><path d="M325 156 L355 75 L470 75"/><path d="M490 252 L570 350 L690 350"/></g>
+              <g fill="#f9fcfb" fontSize="18" fontFamily="Arial"><text x="34" y="65">Outer membrane</text><text x="475" y="70">Cristae</text><text x="535" y="374">Matrix</text></g>
+              <text x="32" y="399" className="figure-small">The folded inner membrane supports ATP production.</text>
+            </svg>
+            <figcaption>Schematic, not to scale. The cristae are folds of the inner membrane; the matrix is the space enclosed by it.</figcaption>
+          </figure>
           <p>ATP production is only part of the story. Mitochondria also contribute to calcium regulation, cell signalling and processes involved in cellular stress responses. They are dynamic: cells can change their number, shape and activity in response to different demands.</p>
           <h2 id="ageing">What changes as we age?</h2>
           <p>In some tissues, ageing is associated with changes in mitochondrial function, quality control and the way cells respond to stress. Researchers study processes such as <strong>mitophagy</strong> (the removal of damaged mitochondria) and <strong>mitochondrial biogenesis</strong> (the formation of new mitochondrial material).</p>
@@ -95,6 +116,24 @@ export default function MitochondrialGuide() {
           <h2 id="evidence">What actually helps mitochondrial health?</h2>
           <p>When we move from laboratory mechanisms to practical decisions, the strength of the evidence matters more than how exciting a theory sounds.</p>
           {evidence.map(item=><section className="evidence-card" key={item.title}><small>{item.label}</small><h3>{item.title}</h3><p>{item.body}</p></section>)}
+          <figure className="mito-illustration" aria-label="Diagram showing regular exercise leading to adaptations in skeletal muscle mitochondria">
+            <svg viewBox="0 0 720 300" role="img" aria-labelledby="mito-exercise-title">
+              <title id="mito-exercise-title">How exercise supports muscle mitochondria</title>
+              <text x="30" y="44" className="figure-label">Exercise and mitochondrial adaptation</text>
+              <g fontFamily="Arial" textAnchor="middle">
+                <rect x="28" y="91" width="190" height="135" rx="18" fill="#1d5951" stroke="#76bcb0"/>
+                <text x="123" y="143" className="figure-label">Regular</text><text x="123" y="172" className="figure-label">exercise</text>
+                <path d="M231 157 H273 M261 145 L276 157 L261 169" stroke="#ffb366" strokeWidth="5" fill="none"/>
+                <rect x="285" y="91" width="190" height="135" rx="18" fill="#1d5951" stroke="#76bcb0"/>
+                <text x="380" y="138" className="figure-label">Muscle</text><text x="380" y="167" className="figure-label">adaptation</text><text x="380" y="195" className="figure-small">over time</text>
+                <path d="M488 157 H530 M518 145 L533 157 L518 169" stroke="#ffb366" strokeWidth="5" fill="none"/>
+                <rect x="543" y="91" width="150" height="135" rx="18" fill="#1d5951" stroke="#76bcb0"/>
+                <text x="618" y="139" className="figure-label">Greater</text><text x="618" y="168" className="figure-label">capacity</text>
+              </g>
+              <text x="30" y="263" className="figure-small">Aerobic and resistance training can stimulate mitochondrial changes in muscle.</text>
+            </svg>
+            <figcaption>Exercise-induced mitochondrial adaptations are well documented in skeletal muscle. The amount and nature of change depend on training and individual factors.</figcaption>
+          </figure>
           <h2 id="supplements">What about creatine, CoQ10 and NAD+?</h2>
           <p>These compounds often appear together in online “mitochondrial protocols”, but they should not be treated as interchangeable or as a proven combination.</p>
           <h3>Creatine</h3><p>Creatine helps rapidly regenerate ATP from ADP in tissues with high energy demands, particularly muscle. Supplementation has good evidence for certain exercise-performance outcomes. Research into cognition and ageing is interesting, but creatine is not an established treatment to prevent dementia or extend lifespan.</p>
