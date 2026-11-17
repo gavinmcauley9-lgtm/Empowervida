@@ -9,19 +9,28 @@ const EmpowerProtocol = () => {
     return (
         <>
 
+            <style jsx global>{`
+              @media(max-width:767px) {
+                .empower-protocol-hero .hero-section { min-height:0 !important; padding:48px 18px 45px !important; }
+                .empower-protocol-hero .hero-section h1 { font-size:clamp(2.3rem,9vw,3.4rem) !important; line-height:1.06 !important; margin-bottom:14px !important; }
+                .empower-protocol-hero .hero-section h2 { font-size:1.15rem !important; letter-spacing:normal !important; line-height:1.35 !important; margin-bottom:14px !important; }
+                .empower-protocol-hero .hero-section p { font-size:1rem !important; line-height:1.52 !important; } .empower-protocol-hero .hero-section a { background:#C7F2E7 !important; color:#123D37 !important; padding:14px 18px !important; font-size:.85rem !important; letter-spacing:.02em !important; }
+              }
+            `}</style>
             {/* Section 1: The Hero */}
+            <div className="empower-protocol-hero">
             <HeroSection
                 backgroundImage="/dna_bg_user.jpg"
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #FFFFFF 100%)"
+                overlay="linear-gradient(90deg, rgba(7,30,32,0.94), rgba(8,40,42,0.87)), linear-gradient(0deg, rgba(6,30,30,0.65), transparent 65%)"
                 title={
-                    <span style={{ color: '#000000', letterSpacing: '-0.03em' }}>
+                    <span style={{ color: '#FFFFFF', letterSpacing: '-0.04em' }}>
                         The Hierarchy of Health
                     </span>
                 }
-                subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
-                textColor="#000000"
-                subtitleColor="#555555"
-                height="90vh"
+                subtitle="Build the foundations. Explore the possibilities."
+                textColor="#FFFFFF"
+                subtitleColor="#E0F4F0"
+                height="min(72vh, 660px)"
             >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -32,21 +41,21 @@ const EmpowerProtocol = () => {
                     <p style={{
                         fontSize: '1.25rem',
                         lineHeight: 1.6,
-                        color: '#333333',
-                        marginBottom: '2.5rem',
+                        color: '#F0F8F5',
+                        marginBottom: '1.5rem',
                         fontWeight: 400
                     }}>
-                        You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimise the engine.
+                        Better health starts with the essentials: sleep, movement, nutrition and metabolic health. Emerging longevity science offers interesting possibilities — but the foundations come first.
                     </p>
                     <a
-                        href="https://drgavinmcauley.substack.com"
+                        href="#protocol-newsletter"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{
                             display: 'inline-block',
-                            padding: '1rem 2.5rem',
-                            backgroundColor: '#000000',
-                            color: '#FFFFFF',
+                            padding: '0.9rem 1.5rem',
+                            backgroundColor: '#C7F2E7',
+                            color: '#123D37',
                             textDecoration: 'none',
                             fontWeight: 600,
                             borderRadius: '4px', // Minimalist
@@ -55,22 +64,24 @@ const EmpowerProtocol = () => {
                             transition: 'all 0.3s ease'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#333333';
+                            e.target.style.backgroundColor = '#E1FFF5';
                             e.target.style.transform = 'translateY(-2px)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = '#000000';
+                            e.target.style.backgroundColor = '#C7F2E7';
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
-                        GET THE DIAGNOSTIC BLUEPRINT
+                        EXPLORE THE NEWSLETTER
                     </a>
                 </motion.div>
             </HeroSection>
 
+            </div>
+
             {/* Section 2: The Philosophy */}
             <section style={{
-                padding: '8rem 2rem',
+                padding: 'clamp(3rem, 6vw, 6rem) 1.25rem',
                 backgroundColor: '#FFFFFF',
                 textAlign: 'center'
             }}>
@@ -91,7 +102,7 @@ const EmpowerProtocol = () => {
                         color: '#555555',
                         fontWeight: 300
                     }}>
-                        Most people obsess over supplements (the roof) while their sleep (the foundation) is cracking. The practical approach is to build strong foundations before considering more experimental interventions.
+                        Supplements may be interesting, but sleep, regular movement, nutrition and cardiovascular risk management deserve attention first. Then newer ideas can be weighed against the evidence.
                     </p>
                 </div>
             </section>
@@ -99,8 +110,8 @@ const EmpowerProtocol = () => {
             {/* Section 3: The 3 Phases */}
             <div style={{ backgroundColor: '#F9F9F9' }}>
                 {/* Phase 1 */}
-                <section style={{ padding: '6rem 2rem', borderBottom: '1px solid #E5E5E5' }}>
-                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+                <section style={{ padding: 'clamp(3rem, 6vw, 6rem) 1.25rem', borderBottom: '1px solid #E5E5E5' }}>
+                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'clamp(1.5rem, 4vw, 4rem)', alignItems: 'center' }}>
                         <div>
                             <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '1rem' }}>
                                 Phase 1
@@ -139,8 +150,8 @@ const EmpowerProtocol = () => {
                 </section>
 
                 {/* Phase 2 */}
-                <section style={{ padding: '6rem 2rem', borderBottom: '1px solid #E5E5E5', backgroundColor: '#FFFFFF' }}>
-                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+                <section style={{ padding: 'clamp(3rem, 6vw, 6rem) 1.25rem', borderBottom: '1px solid #E5E5E5', backgroundColor: '#FFFFFF' }}>
+                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'clamp(1.5rem, 4vw, 4rem)', alignItems: 'center' }}>
                         {/* Visual for Phase 2 */}
                         <div style={{
                             order: 2, // Default order
@@ -185,8 +196,8 @@ const EmpowerProtocol = () => {
                 </section>
 
                 {/* Phase 3 */}
-                <section style={{ padding: '6rem 2rem' }}>
-                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+                <section style={{ padding: 'clamp(3rem, 6vw, 6rem) 1.25rem' }}>
+                    <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'clamp(1.5rem, 4vw, 4rem)', alignItems: 'center' }}>
                         <div>
                             <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', marginBottom: '1rem' }}>
                                 Phase 3
@@ -230,7 +241,7 @@ const EmpowerProtocol = () => {
             </div>
 
             {/* Section: A Day In The Protocol */}
-            <section style={{ padding: '6rem 2rem', backgroundColor: '#F9F9F9', borderTop: '1px solid #EDEDED' }}>
+            <section style={{ padding: 'clamp(3rem, 6vw, 6rem) 1.25rem', backgroundColor: '#F9F9F9', borderTop: '1px solid #EDEDED' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
                     <h2 style={{ fontSize: '2rem', fontWeight: 700, color: '#000', marginBottom: '3rem', textAlign: 'center', letterSpacing: '-0.02em' }}>
                         A Day In The Protocol
@@ -255,8 +266,8 @@ const EmpowerProtocol = () => {
             </section>
 
             {/* Section 5: The Lead Magnet */}
-            <section style={{
-                padding: '6rem 2rem',
+            <section id="protocol-newsletter" style={{
+                padding: 'clamp(3rem, 6vw, 6rem) 1.25rem',
                 backgroundColor: '#F5F5F7', // Apple light grey
                 textAlign: 'center'
             }}>
@@ -275,7 +286,7 @@ const EmpowerProtocol = () => {
                         marginBottom: '3rem'
                     }}>
                         "Knowing the science is easy. Doing it daily is hard." <br />
-                        Subscribe to get the <strong>30-Day Brain Battery Blueprint</strong>, including a Printable Tracker and Shopping List.
+                        Subscribe for evidence-led health and longevity articles, practical ideas and thoughtful updates on emerging research.
                     </p>
                     <EmailCapture variant="inline" />
                 </div>
