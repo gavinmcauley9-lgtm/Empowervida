@@ -94,10 +94,10 @@ export default function Blog() {
         description="Explore physician-led stories on metabolic health, brain health, nutrition, movement, sleep and emerging longevity research."
         canonical="/blog" ogImage="/dna_bg_user.jpg"
         schemaData={{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'The Journal — EmpowerVida', url: 'https://empowervida.com/blog' }} />
-      <header style={{ background: 'linear-gradient(125deg, #102d3c, #176466)', color: 'white', padding: 'clamp(3.5rem, 8vw, 6rem) 1.25rem 3.5rem' }}>
+      <header style={{ background: 'linear-gradient(125deg, #102d3c, #176466)', color: 'white', padding: 'clamp(2.2rem, 5vw, 4rem) 1.25rem 2.5rem' }}>
         <div style={{ maxWidth: 1100, margin: 'auto' }}>
           <p style={{ fontSize: '.8rem', fontWeight: 700, letterSpacing: '.2em', textTransform: 'uppercase', color: '#b4e6df' }}>EmpowerVida / The Journal</p>
-          <h1 style={{ fontFamily: '"Manrope", sans-serif', fontSize: 'clamp(2.5rem, 6vw, 4.2rem)', lineHeight: 1.08, margin: '.8rem 0' }}>Ideas for a longer, healthier life.</h1>
+          <h1 style={{ fontFamily: '"Manrope", sans-serif', fontSize: 'clamp(2.5rem, 6vw, 4.2rem)', lineHeight: 1.08, margin: '.8rem 0', color: '#ffffff' }}>Ideas for a longer, healthier life.</h1>
           <p style={{ maxWidth: 660, lineHeight: 1.65, fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: '#e0f2f1', marginBottom: 0 }}>
             The science of health and ageing, explained clearly. Curious about what might help. Careful about what the evidence actually shows.
           </p>
