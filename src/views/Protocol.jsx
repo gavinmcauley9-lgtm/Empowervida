@@ -96,8 +96,32 @@ const Protocol = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
+            {/* Page-specific mobile spacing; shared HeroSection stays unchanged. */}
+            <style jsx global>{`
+                @media (max-width: 767px) {
+                    .protocol-longevity-hero .hero-section {
+                        min-height: 0 !important;
+                        padding-top: 48px !important;
+                        padding-bottom: 52px !important;
+                    }
+                    .protocol-longevity-hero .hero-section h1 {
+                        margin-bottom: 20px !important;
+                        font-size: clamp(2.25rem, 9vw, 3.5rem) !important;
+                        line-height: 1.04 !important;
+                    }
+                    .protocol-longevity-hero .hero-section h2:empty {
+                        display: none !important;
+                    }
+                    .protocol-longevity-hero .hero-section header > div:last-child p {
+                        font-size: 1.125rem !important;
+                        line-height: 1.55 !important;
+                        padding-left: 1rem !important;
+                    }
+                }
+            `}</style>
             {/* Hero Section */}
-            <HeroSection
+            <div className="protocol-longevity-hero">
+                <HeroSection
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
@@ -122,7 +146,8 @@ const Protocol = () => {
                 }}>
                     Seven perspectives on healthier ageing, from metabolic health and brain function to sleep, recovery and emerging discoveries.
                 </p>
-            </HeroSection>
+                </HeroSection>
+            </div>
 
             {/* Introduction */}
             <section style={{ padding: '2rem 2rem', maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
