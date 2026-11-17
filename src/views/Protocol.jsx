@@ -101,8 +101,8 @@ const Protocol = () => {
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
-                        THE 7 MASTER PROTOCOLS: <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
+                        THE SEVEN AREAS OF <br />
+                        <span style={{ color: 'var(--color-accent-teal)' }}>LONGEVITY SCIENCE</span>
                     </>
                 }
                 subtitle=""
@@ -120,7 +120,7 @@ const Protocol = () => {
                     paddingLeft: '1.5rem',
                     textAlign: 'left'
                 }}>
-                    "Medicine usually waits for a crash. We engineer the system for maximum resilience."
+                    The future of healthier ageing lies not only in treating disease, but in understanding how we might prevent it, delay it and preserve health for longer.
                 </p>
             </HeroSection>
 
