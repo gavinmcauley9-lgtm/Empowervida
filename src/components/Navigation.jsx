@@ -27,19 +27,30 @@ export default function Navigation() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expandedMobileGroup, setExpandedMobileGroup] = useState(null);
+  const [expandedDesktopGroup, setExpandedDesktopGroup] = useState(null);
   const navRef = useRef(null);
 
   useEffect(() => {
     setMobileOpen(false);
     setExpandedMobileGroup(null);
+    setExpandedDesktopGroup(null);
     navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
   }, [pathname]);
+
+  useEffect(() => {
+    const onPointerDown = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) setExpandedDesktopGroup(null);
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    return () => document.removeEventListener('pointerdown', onPointerDown);
+  }, []);
 
   useEffect(() => {
     const onKeyDown = (event) => {
       if (event.key === 'Escape') {
         setMobileOpen(false);
         setExpandedMobileGroup(null);
+    setExpandedDesktopGroup(null);
         navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
       }
     };
@@ -66,26 +77,24 @@ export default function Navigation() {
         <div className="ev-nav-desktop">
           <Link href="/blog" className="ev-nav-item" aria-current={pathname === '/blog' ? 'page' : undefined}>The Journal</Link>
 
-          <details className="ev-nav-dropdown">
-            <summary className="ev-nav-item" aria-label="Longevity Guides menu" aria-current={isGuide ? 'true' : undefined}>Longevity Guides <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover">{menuLinks(GUIDE_LINKS)}</div>
-          </details>
+          <div className="ev-nav-dropdown">
+            <button type="button" className="ev-nav-item ev-nav-desktop-button" aria-label="Longevity Guides menu" aria-expanded={expandedDesktopGroup === 'guides'} aria-controls="ev-desktop-guides" aria-current={isGuide ? 'true' : undefined} onClick={() => setExpandedDesktopGroup(current => current === 'guides' ? null : 'guides')}>Longevity Guides <span aria-hidden="true" className="ev-nav-chevron">{expandedDesktopGroup === 'guides' ? '⌃' : '⌄'}</span></button>
+            <div id="ev-desktop-guides" className="ev-nav-popover" hidden={expandedDesktopGroup !== 'guides'}>{menuLinks(GUIDE_LINKS)}</div>
+          </div>
 
           <Link href="/empower-protocol" className="ev-nav-item" aria-current={pathname === '/empower-protocol' ? 'page' : undefined}>The Blueprint</Link>
 
-          <details className="ev-nav-dropdown">
-            <summary className="ev-nav-item" aria-label="Tools and Diagnostics menu" aria-current={isTool ? 'true' : undefined}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover">{menuLinks(TOOL_LINKS)}</div>
-          </details>
+          <div className="ev-nav-dropdown">
+            <button type="button" className="ev-nav-item ev-nav-desktop-button" aria-label="Tools and Diagnostics menu" aria-expanded={expandedDesktopGroup === 'tools'} aria-controls="ev-desktop-tools" aria-current={isTool ? 'true' : undefined} onClick={() => setExpandedDesktopGroup(current => current === 'tools' ? null : 'tools')}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">{expandedDesktopGroup === 'tools' ? '⌃' : '⌄'}</span></button>
+            <div id="ev-desktop-tools" className="ev-nav-popover" hidden={expandedDesktopGroup !== 'tools'}>{menuLinks(TOOL_LINKS)}</div>
+          </div>
 
-          <details className="ev-nav-dropdown ev-nav-more">
-            <summary className="ev-nav-item" aria-label="More pages menu">More <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover ev-nav-popover-right">
-              <Link href="/about" className="ev-nav-subitem">About</Link>
-              <a href={NEWSLETTER_URL} className="ev-nav-subitem" target="_blank" rel="noopener noreferrer">Newsletter <span className="ev-external" aria-label="opens in a new tab">↗</span></a>
-              <Link href="/contact" className="ev-nav-subitem">Contact</Link>
-            </div>
-          </details>
+          <div className="ev-nav-dropdown ev-nav-more">
+            <button type="button" className="ev-nav-item ev-nav-desktop-button" aria-label="More menu" aria-expanded={expandedDesktopGroup === 'more'} aria-controls="ev-desktop-more" onClick={() => setExpandedDesktopGroup(current => current === 'more' ? null : 'more')}>More <span aria-hidden="true" className="ev-nav-chevron">{expandedDesktopGroup === 'more' ? '⌃' : '⌄'}</span></button>
+            <div id="ev-desktop-more" className="ev-nav-popover ev-nav-popover-right" hidden={expandedDesktopGroup !== 'more'}><Link href="/about" className="ev-nav-subitem" onClick={() => setExpandedDesktopGroup(null)}>About</Link>
+              <a href={NEWSLETTER_URL} className="ev-nav-subitem" target="_blank" rel="noopener noreferrer" onClick={() => setExpandedDesktopGroup(null)}>Newsletter ↗</a>
+              <Link href="/contact" className="ev-nav-subitem" onClick={() => setExpandedDesktopGroup(null)}>Contact</Link></div>
+          </div>
         </div>
 
         <button type="button" className="ev-nav-toggle" aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={mobileOpen} aria-controls="ev-mobile-menu" onClick={() => setMobileOpen((open) => !open)}>
@@ -125,6 +134,8 @@ export default function Navigation() {
         .ev-nav-item { color:var(--color-text-muted,#50565a); text-decoration:none; font-size:clamp(.72rem,.83vw,.86rem); font-weight:600; text-transform:uppercase; letter-spacing:.025em; white-space:nowrap; padding:12px 0; cursor:pointer; }
         .ev-nav-item:hover, .ev-nav-item[aria-current] { color:var(--color-primary,#16877f); }
         .ev-nav-dropdown { position:relative; }
+        .ev-nav-desktop-button { display:flex; align-items:center; gap:5px; border:0; background:transparent; font-family:inherit; }
+        .ev-nav-popover[hidden] { display:none !important; }
         .ev-nav-dropdown > summary { display:flex; align-items:center; gap:5px; list-style:none; }
         .ev-nav-dropdown > summary::-webkit-details-marker { display:none; }
         .ev-nav-chevron { font-size:1rem; line-height:1; }
