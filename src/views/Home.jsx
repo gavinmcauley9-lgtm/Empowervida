@@ -107,7 +107,7 @@ export default function Home() {
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
-                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                    <div className="homepage-founder-heading" style={{ textAlign: 'center', marginBottom: '4rem' }}>
                         <div style={{
                             fontSize: '0.85rem',
                             fontWeight: '700',
@@ -142,6 +142,7 @@ export default function Home() {
 
                     {/* Premium Glassmorphism Card */}
                     <motion.div
+                        className="homepage-founder-card"
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
@@ -159,7 +160,7 @@ export default function Home() {
                         }}
                     >
                         {/* Photo and Quote Section */}
-                        <div style={{
+                        <div className="homepage-founder-intro" style={{
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
@@ -200,7 +201,7 @@ export default function Home() {
 
 
                         {/* Bio Text - Premium Typography */}
-                        <p style={{
+                        <p className="homepage-founder-bio" style={{
                             fontSize: '1.35rem',
                             lineHeight: '1.85',
                             color: '#1A3C34',
@@ -213,7 +214,7 @@ export default function Home() {
                             now explore longevity and preventive health research through accessible, evidence-led writing.
                         </p>
 
-                        <p style={{
+                        <p className="homepage-founder-mission" style={{
                             fontSize: '1.15rem',
                             lineHeight: '1.8',
                             color: '#4A5568',
@@ -224,7 +225,7 @@ export default function Home() {
                         </p>
 
                         {/* Premium Credentials Grid */}
-                        <div style={{
+                        <div className="homepage-founder-credentials" style={{
                             display: 'grid',
                             gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
                             gap: '1.75rem',
@@ -270,7 +271,7 @@ export default function Home() {
                         </div>
 
                         {/* Premium CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '4rem' }}>
+                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '4rem' }}>
                             <Link
                                 href="/about"
                                 onClick={() => window.scrollTo(0, 0)}
@@ -294,13 +295,13 @@ export default function Home() {
             </section >
 
             {/* EMAIL CAPTURE */}
-            <div id="email-capture">
+            <div id="email-capture" className="homepage-email-section">
                 <EmailCapture variant="default" />
             </div>
 
 
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
-            < section style={{
+            < section className="homepage-ecosystem" style={{
                 padding: '8rem 2rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
                 position: 'relative',
@@ -308,7 +309,7 @@ export default function Home() {
             }
             }>
                 <div className="container" data-aos="fade-up">
-                    <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
+                    <div className="homepage-ecosystem-heading" style={{ textAlign: 'center', marginBottom: '5rem' }}>
                         <h2 style={{
                             fontSize: 'clamp(2rem, 4vw, 3rem)',
                             fontWeight: 800,
@@ -330,7 +331,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div style={{
+                    <div className="homepage-ecosystem-grid" style={{
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
                         gap: '2.5rem',
@@ -509,10 +510,10 @@ export default function Home() {
             </section >
 
             {/* Expert Insights Section */}
-            <ExpertInsightsSection />
+            <div className="homepage-expert-section"><ExpertInsightsSection /></div>
 
             {/* FAQ Section */}
-            <FAQSection data={faqData} />
+            <div className="homepage-faq-section"><FAQSection data={faqData} /></div>
 
             {/* Trust Bar - Light Divider */}
             < div style={{
@@ -527,6 +528,43 @@ export default function Home() {
                     </p>
                 </div>
             </div >
+
+            {/* Homepage-only mobile rhythm: deliberately avoids shared component/global changes. */}
+            <style jsx global>{`
+              @media (max-width: 767px) {
+                .homepage-founder-section { padding: 7rem 16px 3rem !important; margin-top: -3rem !important; }
+                .homepage-founder-heading { margin-bottom: 1.75rem !important; }
+                .homepage-founder-heading h2 { font-size: clamp(2rem, 8vw, 2.65rem) !important; }
+                .homepage-founder-card { padding: 1.5rem 1.15rem !important; border-radius: 20px !important; }
+                .homepage-founder-intro { gap: 1.15rem !important; margin-bottom: 1.5rem !important; }
+                .homepage-founder-intro img { width: 140px !important; height: 140px !important; }
+                .homepage-founder-intro blockquote p { font-size: 1.15rem !important; line-height: 1.5 !important; }
+                .homepage-founder-bio { font-size: 1.05rem !important; line-height: 1.65 !important; margin-bottom: 1rem !important; }
+                .homepage-founder-mission { font-size: 1rem !important; line-height: 1.65 !important; margin-bottom: 1rem !important; }
+                .homepage-founder-credentials { grid-template-columns: 1fr 1fr !important; gap: .65rem !important; margin-top: 1.4rem !important; padding-top: 1.3rem !important; }
+                .homepage-founder-credentials > div { padding: .7rem .55rem !important; gap: .5rem !important; }
+                .homepage-founder-credentials > div > div:first-child { font-size: 1.35rem !important; }
+                .homepage-founder-credentials > div > div:last-child { font-size: .78rem !important; letter-spacing: 0 !important; }
+                .homepage-founder-cta { margin-top: 1.5rem !important; }
+                .homepage-founder-cta a { padding: 1rem 1.5rem !important; font-size: .9rem !important; }
+                .homepage-ecosystem { padding: 3rem 16px 3.5rem !important; }
+                .homepage-ecosystem-heading { margin-bottom: 1.75rem !important; }
+                .homepage-ecosystem-heading h2 { font-size: clamp(1.85rem, 7vw, 2.4rem) !important; }
+                .homepage-ecosystem-heading p { font-size: 1rem !important; line-height: 1.55 !important; }
+                .homepage-ecosystem-grid { grid-template-columns: minmax(0,1fr) !important; gap: 1.25rem !important; }
+                .homepage-ecosystem-grid > div > a { padding: 1.5rem 1.15rem !important; }
+                .homepage-ecosystem-grid > div > a > div:nth-child(2) { font-size: 2.75rem !important; margin-bottom: 1rem !important; }
+                .homepage-ecosystem-grid h3 { font-size: 1.35rem !important; }
+                .homepage-ecosystem-grid p { font-size: 1rem !important; line-height: 1.55 !important; margin-bottom: 1.2rem !important; }
+                .homepage-ecosystem-grid a > span { padding: .85rem 1.15rem !important; }
+                .homepage-expert-section > section { padding: 3rem 16px !important; }
+                .homepage-expert-section > section > div > div:first-child { margin-bottom: 2rem !important; }
+                .homepage-expert-section > section > div > div:nth-child(2) { gap: 1.25rem !important; }
+              }
+              @media (max-width: 380px) {
+                .homepage-founder-credentials { grid-template-columns: 1fr !important; }
+              }
+            `}</style>
         </>
     );
 }
