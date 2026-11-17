@@ -67,7 +67,7 @@ const LongevityGuide = () => {
                     marginBottom: '2rem',
                     fontWeight: 300
                 }}>
-                    Standard medicine asks: <em>"Are you eating vegetables?"</em>
+                    Good preventive medicine starts with nutrition, movement, sleep and established risk reduction.
                 </p>
                 <p style={{
                     fontSize: '1.3rem',
@@ -75,7 +75,7 @@ const LongevityGuide = () => {
                     marginBottom: '2rem',
                     fontWeight: 300
                 }}>
-                    Longevity medicine asks: <em>"Are you manipulating mTOR and AMPK signaling to trigger autophagy?"</em>
+                    Longevity research also asks how cellular maintenance and metabolism change with age — and which discoveries genuinely improve human health.
                 </p>
 
                 <div style={{
@@ -90,7 +90,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.7,
                         margin: 0
                     }}>
-                        <strong>This is evidence-based, proactive medicine.</strong> The goal is not just to live longer. It's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
+                        <strong>The strongest foundations are supported by human evidence.</strong> The goal is not just to live longer. It's to extend your <strong>healthspan</strong>: the years you remain vital, cognitively sharp, and physically capable.
                     </p>
                 </div>
 
@@ -99,7 +99,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginTop: '2rem'
                 }}>
-                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine: the framework I use in my clinical education to support patients in optimising their healthspan.
+                    Below are the <strong>5 Pillars</strong> that form the foundation of longevity medicine: a practical way to distinguish established actions from promising but experimental ideas.
                 </p>
             </section >
 
@@ -123,7 +123,7 @@ const LongevityGuide = () => {
                             color: '#667eea',
                             fontWeight: 600
                         }}>
-                            Not Just "Diet"—Pathway Manipulation
+                            Nutrition first, molecular pathways second
                         </p>
                     </div>
 
@@ -134,7 +134,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            Standard medicine asks if you're eating vegetables. Longevity medicine asks if you're <strong>manipulating mTOR and AMPK signaling</strong> to trigger cellular cleanup.
+                            Food quality, adequate protein and sustainable habits matter more clinically than chasing molecular pathways. mTOR and AMPK are important in ageing biology, but altering them does not automatically extend human life.
                         </p>
 
                         <h3 style={{
@@ -196,7 +196,7 @@ const LongevityGuide = () => {
                             color: '#ff6b6b',
                             fontWeight: 600
                         }}>
-                            The Most Potent Drug
+                            One of our strongest tools
                         </p>
                     </div>
 
@@ -232,7 +232,7 @@ const LongevityGuide = () => {
                                 },
                                 {
                                     title: '3. VO2 Max',
-                                    description: 'The strongest correlate to mortality risk. Higher VO2 max = lower all-cause mortality. This requires high-intensity interval training (HIIT).'
+                                    description: 'Cardiorespiratory fitness is strongly associated with lower mortality risk. It can improve through several forms of aerobic training; high-intensity intervals are an option, not a requirement.'
                                 },
                                 {
                                     title: '4. Stability',
@@ -292,7 +292,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            This is not just "rest." Sleep is when the <strong>glymphatic system</strong> scrubs neurotoxins (amyloid and tau proteins) from the brain.
+                            Sleep supports memory, mood and metabolic health. Researchers are investigating brain clearance pathways during sleep, including those involving amyloid and tau, but implications for preventing human neurodegenerative disease remain uncertain.
                         </p>
 
                         <div style={{
@@ -306,7 +306,7 @@ const LongevityGuide = () => {
                                 The Metric: Sleep Architecture
                             </p>
                             <p style={{ margin: 0 }}>
-                                We look at the ratio of <strong>Deep Sleep</strong> (physical repair) to <strong>REM Sleep</strong> (emotional/cognitive repair). Both are essential. You can't sacrifice one for the other.
+                                Deep and REM sleep both matter, but cannot be reduced to separate physical and mental repair categories. Consumer trackers estimate sleep stages imperfectly; overall duration, consistency and daytime functioning are more useful priorities.
                             </p>
                         </div>
 
@@ -321,16 +321,16 @@ const LongevityGuide = () => {
                         </h3>
                         <ul style={{ paddingLeft: '2rem' }}>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>Sleep Latency:</strong> How quickly you fall asleep (should be &lt;15 minutes)
+                                <strong>Falling asleep:</strong> Persistent difficulty deserves attention; there is no single ideal minute-by-minute target
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
                                 <strong>Sleep Efficiency:</strong> Percentage of time in bed actually asleep (target: &gt;85%)
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>Deep Sleep %:</strong> Should be 15-20% of total sleep time
+                                <strong>Deep sleep:</strong> Varies with age and circumstances; tracker percentages are not clinical diagnoses
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>REM Sleep %:</strong> Should be 20-25% of total sleep time
+                                <strong>REM sleep:</strong> Varies between individuals; assess persistent symptoms rather than chasing a fixed percentage
                             </li>
                         </ul>
 
@@ -361,7 +361,7 @@ const LongevityGuide = () => {
                             color: '#ff9f40',
                             fontWeight: 600
                         }}>
-                            The Cortisol Connection
+                            Resilience beyond a single biomarker
                         </p>
                     </div>
 
@@ -372,7 +372,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem', fontWeight: 600, fontSize: '1.2rem' }}>
-                            You can have perfect labs, but if your sympathetic nervous system is chronically activated in "fight or flight," elevated cortisol may compromise insulin sensitivity and gut barrier integrity.
+                            Chronic stress can affect sleep, mood, blood pressure and health behaviours. Stress biology is complex; a single cortisol or wearable reading cannot determine resilience.
                         </p>
 
                         <div style={{
@@ -386,7 +386,7 @@ const LongevityGuide = () => {
                                 The Goal: Autonomic Resilience
                             </p>
                             <p style={{ margin: 0 }}>
-                                Building resilience and regulating the autonomic nervous system. We measure this via <strong>Heart Rate Variability (HRV)</strong>—the higher, the better.
+                                Build coping skills and recovery habits. Heart-rate variability (HRV) may help track personal trends, but values vary and higher is not always better.
                             </p>
                         </div>
 
@@ -407,17 +407,17 @@ const LongevityGuide = () => {
                                 <strong>Breathwork:</strong> Box breathing, 4-7-8 breathing to activate parasympathetic response
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>Adaptogens:</strong> Rhodiola, Ashwagandha to modulate cortisol
+                                <strong>Social connection:</strong> Relationships and practical support can help people manage stress
                             </li>
                             <li style={{ marginBottom: '1rem' }}>
-                                <strong>Cold Exposure:</strong> Deliberate cold stress to build resilience
+                                <strong>Movement and outdoor time:</strong> Accessible approaches to supporting mood and wellbeing
                             </li>
                         </ul>
                     </div>
                 </div>
             </section >
 
-            {/* Pillar 5: Exogenous Molecules */}
+            {/* Pillar 5: Targeted Interventions */}
             < section style={{
                 background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.05) 0%, rgba(0, 0, 0, 0) 100%)',
                 padding: '6rem 2rem'
@@ -437,7 +437,7 @@ const LongevityGuide = () => {
                             color: 'var(--color-accent-teal)',
                             fontWeight: 600
                         }}>
-                            The "Architect's" Domain
+                            Promising science, careful judgment
                         </p>
                     </div>
 
@@ -448,7 +448,7 @@ const LongevityGuide = () => {
                         lineHeight: 1.8
                     }}>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            This pillar acknowledges that even a <strong>well-optimised lifestyle may benefit from additional support</strong> to maximise healthspan potential.
+                            Some people benefit from treating diagnosed conditions or correcting deficiencies. Other interventions target ageing biology, but plausible mechanisms are not proof of longer life.
                         </p>
 
                         <h3 style={{
@@ -477,15 +477,15 @@ const LongevityGuide = () => {
                                 Targeted Supplementation
                             </h4>
                             <p style={{ marginBottom: '1rem' }}>
-                                Our <strong>Mitochondrial Stack</strong>:
+                                <strong>Areas of research — not a recommended supplement stack:</strong>
                             </p>
                             <ul style={{ paddingLeft: '2rem', marginBottom: '1rem' }}>
-                                <li><strong>Urolithin A:</strong> Triggers mitophagy (recycling of old mitochondria)</li>
-                                <li><strong>Bio-Fisetin:</strong> Senolytic for clearing "zombie" cells that drive inflammation</li>
-                                <li><strong>NAC:</strong> Glutathione precursor for antioxidant defense</li>
-                                <li><strong>Glycine:</strong> Supports collagen synthesis and glutathione production</li>
-                                <li><strong>NAD+ Precursors:</strong> For DNA repair and sirtuin activation</li>
-                                <li><strong>PQQ:</strong> Triggers mitochondrial biogenesis</li>
+                                <li><strong>Urolithin A:</strong> Investigated for mitochondrial-related effects; long-term clinical benefits remain uncertain</li>
+                                <li><strong>Fisetin:</strong> Studied for possible senolytic activity, mainly preclinically; human anti-ageing benefit is unproven</li>
+                                <li><strong>NAC:</strong> A glutathione precursor with established uses in specific medical settings, not proven for general longevity</li>
+                                <li><strong>Glycine:</strong> Involved in collagen and glutathione synthesis; no proof that supplementation extends human lifespan</li>
+                                <li><strong>NAD+ precursors:</strong> Influence NAD-related biology, without established improvements in human healthspan</li>
+                                <li><strong>PQQ:</strong> Interesting preclinical research, with limited evidence for meaningful human outcomes</li>
                             </ul>
                         </div>
 
@@ -508,12 +508,12 @@ const LongevityGuide = () => {
                                 Where clinically appropriate:
                             </p>
                             <ul style={{ paddingLeft: '2rem' }}>
-                                <li><strong>Rapamycin:</strong> mTOR inhibitor for autophagy activation</li>
-                                <li><strong>Metformin:</strong> AMPK activator for metabolic health</li>
-                                <li><strong>GLP-1 Agonists:</strong> For metabolic optimization (when indicated)</li>
+                                <li><strong>Rapamycin:</strong> An mTOR inhibitor with established medical uses; healthy human longevity use remains experimental</li>
+                                <li><strong>Metformin:</strong> An established diabetes medicine under investigation for broader ageing outcomes</li>
+                                <li><strong>GLP-1 receptor agonists:</strong> Evidence-based for specific indications, not universal longevity medicines</li>
                             </ul>
                             <p style={{ marginTop: '1rem', fontStyle: 'italic', fontSize: '0.95rem' }}>
-                                <strong>Important:</strong> These are prescription medications used off-label in longevity contexts. They should only be considered under direct physician supervision with appropriate monitoring. This information is for educational purposes only and does not constitute a recommendation.
+                                <strong>Important:</strong> These medicines have different approved indications. Using them solely to slow ageing may be experimental or off-label and requires individual clinical assessment. This information is for educational purposes only and does not constitute a recommendation.
                             </p>
                         </div>
 
@@ -558,7 +558,7 @@ const LongevityGuide = () => {
                     lineHeight: 1.8,
                     marginBottom: '2rem'
                 }}>
-                    These 5 pillars are not a checklist. They're a <strong>living framework</strong>. Longevity medicine is precision medicine. It requires measurement, iteration, and clinical oversight.
+                    These pillars are a framework, not a race to optimise every biomarker. Begin with interventions that demonstrably help people; stay curious about emerging science without confusing possibility with proof.
                 </p>
                 <p style={{
                     fontSize: '1.1rem',
