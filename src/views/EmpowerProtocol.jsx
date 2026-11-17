@@ -11,17 +11,17 @@ const EmpowerProtocol = () => {
 
             <style jsx global>{`
               @media(max-width:767px) {
-                .empower-protocol-hero .hero-section { min-height:0 !important; padding:70px 18px 60px !important; }
-                .empower-protocol-hero .hero-section h1 { font-size:clamp(2.7rem,11vw,4.2rem) !important; line-height:1.03 !important; margin-bottom:18px !important; }
-                .empower-protocol-hero .hero-section h2 { font-size:1.32rem !important; letter-spacing:normal !important; line-height:1.35 !important; margin-bottom:18px !important; }
-                .empower-protocol-hero .hero-section p { font-size:1.02rem !important; line-height:1.6 !important; }
+                .empower-protocol-hero .hero-section { min-height:0 !important; padding:48px 18px 45px !important; }
+                .empower-protocol-hero .hero-section h1 { font-size:clamp(2.3rem,9vw,3.4rem) !important; line-height:1.06 !important; margin-bottom:14px !important; }
+                .empower-protocol-hero .hero-section h2 { font-size:1.15rem !important; letter-spacing:normal !important; line-height:1.35 !important; margin-bottom:14px !important; }
+                .empower-protocol-hero .hero-section p { font-size:1rem !important; line-height:1.52 !important; } .empower-protocol-hero .hero-section a { background:#C7F2E7 !important; color:#123D37 !important; padding:14px 18px !important; font-size:.85rem !important; letter-spacing:.02em !important; }
               }
             `}</style>
             {/* Section 1: The Hero */}
             <div className="empower-protocol-hero">
             <HeroSection
                 backgroundImage="/dna_bg_user.jpg"
-                overlay="linear-gradient(90deg, rgba(7,30,32,0.93), rgba(8,40,42,0.73)), linear-gradient(0deg, rgba(6,30,30,0.6), transparent 65%)"
+                overlay="linear-gradient(90deg, rgba(7,30,32,0.94), rgba(8,40,42,0.87)), linear-gradient(0deg, rgba(6,30,30,0.65), transparent 65%)"
                 title={
                     <span style={{ color: '#FFFFFF', letterSpacing: '-0.04em' }}>
                         The Hierarchy of Health
@@ -30,7 +30,7 @@ const EmpowerProtocol = () => {
                 subtitle="Build the foundations. Explore the possibilities."
                 textColor="#FFFFFF"
                 subtitleColor="#E0F4F0"
-                height="min(76vh, 720px)"
+                height="min(72vh, 660px)"
             >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -53,7 +53,7 @@ const EmpowerProtocol = () => {
                         rel="noopener noreferrer"
                         style={{
                             display: 'inline-block',
-                            padding: '1rem 2.5rem',
+                            padding: '0.9rem 1.5rem',
                             backgroundColor: '#C7F2E7',
                             color: '#123D37',
                             textDecoration: 'none',
@@ -64,11 +64,11 @@ const EmpowerProtocol = () => {
                             transition: 'all 0.3s ease'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = '#333333';
+                            e.target.style.backgroundColor = '#E1FFF5';
                             e.target.style.transform = 'translateY(-2px)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = '#000000';
+                            e.target.style.backgroundColor = '#C7F2E7';
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
