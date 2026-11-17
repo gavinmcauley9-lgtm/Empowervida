@@ -107,7 +107,7 @@ export default function Home() {
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
-                    <div className="homepage-founder-heading" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                    <div className="homepage-founder-heading" style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
                         <div style={{
                             fontSize: '0.85rem',
                             fontWeight: '700',
@@ -136,112 +136,43 @@ export default function Home() {
                             fontStyle: 'italic',
                             letterSpacing: '0.01em'
                         }}>
-                            MBChB (MD equivalent), University of Aberdeen
+                            MBChB · University of Aberdeen
                         </div>
                     </div>
 
-                    {/* Premium Glassmorphism Card */}
+                    {/* Compact founder introduction: full biography lives on /about */}
                     <motion.div
                         className="homepage-founder-card"
-                        initial={{ opacity: 0, y: 40 }}
+                        initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
+                        transition={{ duration: 0.5 }}
                         viewport={{ once: true }}
                         style={{
-                            background: 'rgba(255, 255, 255, 0.4)',
-                            backdropFilter: 'blur(20px)',
-                            WebkitBackdropFilter: 'blur(20px)',
+                            background: 'rgba(255, 255, 255, 0.55)',
                             borderRadius: '24px',
-                            padding: '4rem 3.5rem',
-                            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.4) inset',
+                            padding: '1.75rem',
                             border: '1px solid rgba(32, 178, 170, 0.2)',
-                            position: 'relative',
-                            overflow: 'hidden'
+                            boxShadow: '0 12px 32px rgba(26, 60, 52, 0.08)',
+                            maxWidth: '720px',
+                            margin: '0 auto'
                         }}
                     >
-                        {/* Photo and Quote Section */}
-                        <div className="homepage-founder-intro" style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            marginBottom: '3rem',
-                            gap: '2rem'
-                        }}>
+                        <div className="homepage-founder-intro" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginBottom: '1rem' }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
-                                alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
-                                style={{
-                                    width: '180px',
-                                    height: '180px',
-                                    borderRadius: '50%',
-                                    objectFit: 'cover',
-                                    objectPosition: 'center top',
-                                    border: '4px solid rgba(32, 178, 170, 0.3)',
-                                    boxShadow: '0 10px 30px rgba(26, 60, 52, 0.2)'
-                                }}
+                                alt="Dr Gavin McAuley, physician and founder of EmpowerVida"
+                                style={{ width: '92px', height: '92px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', border: '3px solid rgba(32,178,170,0.25)', flexShrink: 0 }}
                             />
-                            <blockquote style={{
-                                textAlign: 'center',
-                                maxWidth: '600px',
-                                margin: '0'
-                            }}>
-                                <p style={{
-                                    fontSize: '1.5rem',
-                                    fontStyle: 'italic',
-                                    color: '#1A3C34',
-                                    lineHeight: '1.6',
-                                    fontWeight: '500',
-                                    margin: '0'
-                                }}>
-                                    "I spent years meeting people when it was already urgent.<br />
-                                    <span style={{ color: '#20B2AA' }}>Now I help people long before it gets to that point.</span>"
-                                </p>
-                            </blockquote>
+                            <p style={{ margin: 0, color: '#1A3C34', fontSize: '1.05rem', lineHeight: 1.5, fontStyle: 'italic' }}>
+                                “I spent years treating people when their health had already gone wrong. Today, I'm equally fascinated by what we can do before that happens.”
+                            </p>
                         </div>
-
-
-                        {/* Bio Text - Premium Typography */}
-                        <p className="homepage-founder-bio" style={{
-                            fontSize: '1.35rem',
-                            lineHeight: '1.85',
-                            color: '#1A3C34',
-                            marginBottom: '2rem',
-                            fontWeight: '400',
-                            letterSpacing: '0.005em'
-                        }}>
-                            I'm a physician with experience in emergency medicine and general practice, and a growing focus on explaining the science of living healthier for longer.
-                            After 16 years working in Emergency Medicine and General Practice, I
-                            now explore longevity and preventive health research through accessible, evidence-led writing.
+                        <p className="homepage-founder-bio" style={{ fontSize: '1.05rem', lineHeight: 1.6, color: '#1A3C34', margin: '0 0 1.25rem' }}>
+                            After 16 years in emergency medicine and general practice, I created EmpowerVida to explore the science of living healthier for longer — separating promising discoveries from the hype.
                         </p>
-
-                        <p className="homepage-founder-mission" style={{
-                            fontSize: '1.15rem',
-                            lineHeight: '1.8',
-                            color: '#4A5568',
-                            marginBottom: '2.5rem',
-                            letterSpacing: '0.005em'
-                        }}>
-                            My mission is to make health and longevity research understandable, useful and genuinely interesting — celebrating promising discoveries while being clear about what science has, and has not, established.
-                        </p>
-
-                        {/* Premium CTA Button */}
-                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '1.5rem' }}>
-                            <Link
-                                href="/about"
-                                onClick={() => window.scrollTo(0, 0)}
-                                className="btn-primary"
-                                style={{
-                                    padding: '1.25rem 3.5rem',
-                                    fontSize: '1rem',
-                                    fontWeight: '700',
-                                    letterSpacing: '0.08em',
-                                    boxShadow: '0 10px 30px rgba(255, 95, 0, 0.25)',
-                                    transition: 'all 0.3s ease',
-                                    display: 'inline-block',
-                                    textDecoration: 'none'
-                                }}
-                            >
-                                READ MY FULL STORY →
+                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+                            <Link href="/about" onClick={() => window.scrollTo(0, 0)} className="btn-primary" style={{ display: 'inline-block', padding: '0.85rem 1.5rem', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none' }}>
+                                READ MY STORY →
                             </Link>
                         </div>
                     </motion.div>
