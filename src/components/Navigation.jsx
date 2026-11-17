@@ -26,10 +26,12 @@ const NEWSLETTER_URL = 'https://drgavinmcauley.substack.com';
 export default function Navigation() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [expandedMobileGroup, setExpandedMobileGroup] = useState(null);
   const navRef = useRef(null);
 
   useEffect(() => {
     setMobileOpen(false);
+    setExpandedMobileGroup(null);
     navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
   }, [pathname]);
 
@@ -37,6 +39,7 @@ export default function Navigation() {
     const onKeyDown = (event) => {
       if (event.key === 'Escape') {
         setMobileOpen(false);
+        setExpandedMobileGroup(null);
         navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
       }
     };
@@ -93,15 +96,19 @@ export default function Navigation() {
       <div id="ev-mobile-menu" className="ev-nav-mobile" hidden={!mobileOpen}>
         <Link href="/" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>Home</Link>
         <Link href="/blog" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>The Journal</Link>
-        <details className="ev-nav-mobile-group">
-          <summary>Longevity Guides <span aria-hidden="true">⌄</span></summary>
-          <div className="ev-nav-mobile-subitems">{menuLinks(GUIDE_LINKS)}</div>
-        </details>
+        <div className="ev-nav-mobile-group">
+          <button type="button" className="ev-nav-mobile-group-toggle" aria-expanded={expandedMobileGroup === 'guides'} aria-controls="ev-mobile-guides" onClick={() => setExpandedMobileGroup((current) => current === 'guides' ? null : 'guides')}>
+            Longevity Guides <span aria-hidden="true">{expandedMobileGroup === 'guides' ? '⌃' : '⌄'}</span>
+          </button>
+          <div id="ev-mobile-guides" className="ev-nav-mobile-subitems" hidden={expandedMobileGroup !== 'guides'}>{menuLinks(GUIDE_LINKS)}</div>
+        </div>
         <Link href="/empower-protocol" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>The Blueprint</Link>
-        <details className="ev-nav-mobile-group">
-          <summary>Tools &amp; Diagnostics <span aria-hidden="true">⌄</span></summary>
-          <div className="ev-nav-mobile-subitems">{menuLinks(TOOL_LINKS)}</div>
-        </details>
+        <div className="ev-nav-mobile-group">
+          <button type="button" className="ev-nav-mobile-group-toggle" aria-expanded={expandedMobileGroup === 'tools'} aria-controls="ev-mobile-tools" onClick={() => setExpandedMobileGroup((current) => current === 'tools' ? null : 'tools')}>
+            Tools &amp; Diagnostics <span aria-hidden="true">{expandedMobileGroup === 'tools' ? '⌃' : '⌄'}</span>
+          </button>
+          <div id="ev-mobile-tools" className="ev-nav-mobile-subitems" hidden={expandedMobileGroup !== 'tools'}>{menuLinks(TOOL_LINKS)}</div>
+        </div>
         <div className="ev-nav-mobile-secondary">
           <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
           <a href={NEWSLETTER_URL} target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>Newsletter ↗</a>
@@ -134,8 +141,9 @@ export default function Navigation() {
           .ev-nav-toggle { display:block; }
           .ev-nav-inner { min-height:72px; }
           .ev-nav-mobile { display:block; position:fixed; top:72px; left:0; right:0; max-height:calc(100dvh - 72px); overflow-y:auto; overscroll-behavior:contain; background:#fff; border-top:1px solid #e9eeec; padding:12px clamp(20px,6vw,45px) 32px; box-shadow:0 18px 30px rgba(0,0,0,.1); }
-          .ev-nav-mobile-link, .ev-nav-mobile-group > summary { display:flex; align-items:center; justify-content:space-between; width:100%; padding:16px 0; font-size:1.03rem; font-weight:600; color:#25302f; text-decoration:none; border-bottom:1px solid #eef0ef; cursor:pointer; list-style:none; }
-          .ev-nav-mobile-group > summary::-webkit-details-marker { display:none; }
+          .ev-nav-mobile-link, .ev-nav-mobile-group-toggle { display:flex; align-items:center; justify-content:space-between; width:100%; padding:16px 0; font-size:1.03rem; font-weight:600; color:#25302f; text-decoration:none; border-bottom:1px solid #eef0ef; cursor:pointer; list-style:none; }
+          .ev-nav-mobile-group-toggle { border-top:0; border-left:0; border-right:0; background:transparent; text-align:left; font-family:inherit; }
+          .ev-nav-mobile-subitems[hidden] { display:none !important; }
           .ev-nav-mobile-subitems { padding:5px 0 10px 12px; }
           .ev-nav-mobile-subitems .ev-nav-subitem { padding:12px 8px; }
           .ev-nav-mobile-secondary { display:flex; flex-wrap:wrap; gap:18px; padding-top:24px; }
