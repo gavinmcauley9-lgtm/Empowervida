@@ -18,7 +18,7 @@ const EmpowerProtocol = () => {
                         The Hierarchy of Health
                     </span>
                 }
-                subtitle="A Physician’s Protocol for Neuro-Longevity and Metabolic Performance."
+                subtitle="A practical, evidence-led approach to protecting healthspan — from daily foundations to emerging science."
                 textColor="#000000"
                 subtitleColor="#555555"
                 height="90vh"
@@ -36,12 +36,12 @@ const EmpowerProtocol = () => {
                         marginBottom: '2.5rem',
                         fontWeight: 400
                     }}>
-                        You cannot supplement your way out of a broken lifestyle. We build the foundation first, then optimise the engine.
+                        Lasting health begins with the fundamentals. Emerging science can add intriguing possibilities, but it should never distract from what already works.
                     </p>
                     <a
-                        href="https://drgavinmcauley.substack.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="#blueprint-signup"
+                        
+                        
                         style={{
                             display: 'inline-block',
                             padding: '1rem 2.5rem',
@@ -63,7 +63,7 @@ const EmpowerProtocol = () => {
                             e.target.style.transform = 'translateY(0)';
                         }}
                     >
-                        GET THE DIAGNOSTIC BLUEPRINT
+                        EXPLORE THE BLUEPRINT
                     </a>
                 </motion.div>
             </HeroSection>
@@ -91,7 +91,7 @@ const EmpowerProtocol = () => {
                         color: '#555555',
                         fontWeight: 300
                     }}>
-                        Most people obsess over supplements (the roof) while their sleep (the foundation) is cracking. The practical approach is to build strong foundations before considering more experimental interventions.
+                        The most powerful changes are often the least glamorous: sleep, movement, nutrition and attention to established risk factors. New discoveries matter too — but only when we distinguish a compelling mechanism from a demonstrated human benefit.
                     </p>
                 </div>
             </section>
@@ -109,18 +109,18 @@ const EmpowerProtocol = () => {
                                 THE FOUNDATION <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(The Non-Negotiables)</span>
                             </h3>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7 }}>
-                                <strong style={{ color: '#000' }}>The Rule:</strong> Biology craves rhythm. Before we add fuel, we must align the clock.
+                                <strong style={{ color: '#000' }}>The Rule:</strong> Consistent routines can support sleep and energy. Start with realistic habits that fit your life.
                             </p>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7, marginTop: '1rem' }}>
                                 <strong style={{ color: '#000' }}>The Approach:</strong>
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Morning Sunlight:</strong> View 10 mins within 30 mins of waking. Anchors your circadian cortisol peak.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Sleep Hygiene:</strong> 7-8 hours. This is when the glymphatic system washes toxic protein waste from your brain.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. Zone 2 Cardio:</strong> 150 mins/week. Builds mitochondrial density and sets the metabolic base.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Morning daylight:</strong> Getting outdoor light after waking can help reinforce circadian timing. There is no universal ten-minute prescription; timing and exposure depend on conditions.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Sleep:</strong> Most adults benefit from around 7–9 hours, with individual variation. Sleep supports memory, mood and metabolic health; brain-clearance research is promising but does not prove dementia prevention.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. Regular movement:</strong> Aim towards at least 150 minutes of moderate aerobic activity weekly, alongside strength training when appropriate. A conversational pace is a useful starting point.</li>
                             </ul>
                             <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                <strong>The Mechanism:</strong> Light hitting the melanopsin cells in the retina triggers the Suprachiasmatic Nucleus to release cortisol and suppress melatonin. This sets your sleep timer for 16 hours later.
+                                <strong>The Mechanism:</strong> Light-sensitive retinal pathways help synchronise the brain's circadian clock. Morning light can influence alertness and sleep timing, but the hormonal response is not a fixed 16-hour countdown.
                             </div>
                         </div>
                         {/* Visual for Phase 1 */}
@@ -167,18 +167,18 @@ const EmpowerProtocol = () => {
                                 THE FUEL <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(Metabolic Control)</span>
                             </h3>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7 }}>
-                                <strong style={{ color: '#000' }}>The Rule:</strong> Stable blood sugar = Stable brain energy.
+                                <strong style={{ color: '#000' }}>The Rule:</strong> Support metabolic health rather than trying to eliminate every normal rise in glucose.
                             </p>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7, marginTop: '1rem' }}>
                                 <strong style={{ color: '#000' }}>The Approach:</strong>
                             </p>
                             <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Glucose Stability:</strong> Flatten the curve. May help reduce the post-lunch crash and neuro-inflammation.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Protein Prioritization:</strong> 1g per lb of ideal body weight. The building blocks of neurotransmitters.</li>
-                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. 12-Hour Fasting:</strong> Give your gut a break. Stop eating 3 hours before bed to optimise Growth Hormone.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>1. Metabolic health:</strong> Prioritise dietary quality, physical activity and assessment of diabetes risk when appropriate. Glucose naturally rises after meals; not every rise is harmful.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>2. Adequate protein:</strong> Support muscle maintenance with sufficient protein from a varied diet. Needs depend on body size, age, activity and medical conditions; a single high target is not suitable for everyone.</li>
+                                <li style={{ marginBottom: '0.8rem', color: '#444' }}><strong>3. A sustainable eating rhythm:</strong> Some people find a consistent overnight eating break helpful. Time-restricted eating is optional, not proven to extend human lifespan, and may be unsuitable in some circumstances.</li>
                             </ul>
                             <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                <strong>The Mechanism:</strong> High glucose spikes lead to reactive hypoglycemia and insulin resistance in the brain (Type 3 Diabetes). Keeping glucose stable may support cognitive function.
+                                <strong>The Mechanism:</strong> Insulin resistance is associated with cardiometabolic disease and has been linked to cognitive decline in observational research. The idea of Alzheimer's disease as 'type 3 diabetes' is a research hypothesis, not an established diagnosis or proof that flattening glucose curves prevents dementia.
                             </div>
                         </div>
                     </div>
@@ -195,19 +195,19 @@ const EmpowerProtocol = () => {
                                 THE OPTIMIZATION <br /> <span style={{ color: '#666', fontSize: '1.8rem', fontWeight: 400 }}>(The Gap Fillers)</span>
                             </h3>
                             <p style={{ fontSize: '1.1rem', color: '#444', lineHeight: 1.7 }}>
-                                <strong style={{ color: '#000' }}>The Rule:</strong> Modern life and soil depletion create an "Energy Gap" that food alone cannot fix.
+                                <strong style={{ color: '#000' }}>The Rule:</strong> Consider additional interventions only when there is a clear clinical reason or a realistic understanding of the evidence and uncertainty.
                             </p>
                             <div style={{ marginTop: '2rem' }}>
                                 <div style={{ marginBottom: '1.5rem' }}>
                                     <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option A: Creatine Monohydrate</h4>
-                                    <p style={{ fontSize: '1rem', color: '#555' }}>Not just for gym rats. It recycles ATP in the brain, providing cognitive backup power during high-demand tasks.</p>
+                                    <p style={{ fontSize: '1rem', color: '#555' }}>Creatine helps regenerate ATP through the phosphocreatine system. It has established benefits for some exercise outcomes; research into cognition is intriguing but does not yet show that routine supplementation prevents cognitive decline or neurodegeneration.</p>
                                 </div>
                                 <div>
                                     <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#000' }}>Option B: Magnesium Bisglycinate</h4>
-                                    <p style={{ fontSize: '1rem', color: '#555' }}>The nervous system's "off switch." Essential for cortisol regulation and achieving deep, restorative sleep.</p>
+                                    <p style={{ fontSize: '1rem', color: '#555' }}>Magnesium is essential for normal neuromuscular function. Supplementation may be useful when intake is inadequate or deficiency is present, but magnesium bisglycinate has not been established as a reliable way to increase deep sleep or prevent neurodegeneration.</p>
                                 </div>
                                 <div style={{ marginTop: '1.5rem', padding: '1rem', backgroundColor: '#F1F1F1', borderLeft: '3px solid #000', fontSize: '0.9rem', color: '#555', fontStyle: 'italic' }}>
-                                    <strong>The Mechanism:</strong> Creatine acts as a phosphate donor, turning used energy (ADP) back into usable energy (ATP) for neurons. Magnesium regulates NMDA receptors to dampen excitotoxicity.
+                                    <strong>The Mechanism:</strong> Phosphocreatine can donate phosphate to ADP to regenerate ATP. Magnesium participates in many cellular processes, including neuronal signalling. These mechanisms do not by themselves establish cognitive or longevity benefits from supplements.
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ const EmpowerProtocol = () => {
                 </section>
             </div>
 
-            {/* Section: A Day In The Protocol */}
+            {/* Section: What a Sustainable Day Might Look Like */}
             <section style={{ padding: '6rem 2rem', backgroundColor: '#F9F9F9', borderTop: '1px solid #EDEDED' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
                     <h2 style={{ fontSize: '2rem', fontWeight: 700, color: '#000', marginBottom: '3rem', textAlign: 'center', letterSpacing: '-0.02em' }}>
@@ -237,13 +237,13 @@ const EmpowerProtocol = () => {
                     </h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
                         {[
-                            { time: '07:00', label: 'WAKE', detail: 'Sunlight + 500ml Water + Sea Salt' },
-                            { time: '07:30', label: 'MOVE', detail: 'Zone 2 Walk (Fasted)' },
-                            { time: '08:00', label: 'OPTIMISE', detail: 'Coffee + Creatine (as per individual needs)' },
-                            { time: '13:00', label: 'FUEL', detail: 'First Meal (High Protein, Low Glycemic)' },
-                            { time: '18:00', label: 'CLOSE', detail: 'Last food intake (Start Fast)' },
-                            { time: '21:00', label: 'SHIELD', detail: 'Magnesium Bisglycinate (as per individual needs)' },
-                            { time: '22:30', label: 'REST', detail: 'Sleep (Cool Room)' },
+                            { time: 'MORNING', label: 'WAKE', detail: 'Get some daylight and hydrate according to your needs' },
+                            { time: 'DAYTIME', label: 'MOVE', detail: 'Walk, cycle or choose another enjoyable activity' },
+                            { time: 'DAYTIME', label: 'STRENGTH', detail: 'Include resistance exercise on suitable days' },
+                            { time: 'MEALTIMES', label: 'FUEL', detail: 'Choose balanced meals with sufficient protein and fibre' },
+                            { time: 'EVENING', label: 'WIND DOWN', detail: 'Keep a consistent routine where practical' },
+                            { time: 'EVENING', label: 'RECOVER', detail: 'Make room for rest, connection and relaxation' },
+                            { time: 'NIGHT', label: 'SLEEP', detail: 'Aim for a consistent, sufficient sleep opportunity' },
                         ].map((item, index) => (
                             <div key={index} style={{ borderLeft: '2px solid #000', paddingLeft: '1rem' }}>
                                 <div style={{ fontSize: '0.9rem', fontWeight: 700, color: '#999' }}>{item.time} | {item.label}</div>
@@ -255,7 +255,7 @@ const EmpowerProtocol = () => {
             </section>
 
             {/* Section 5: The Lead Magnet */}
-            <section style={{
+            <section id="blueprint-signup" style={{
                 padding: '6rem 2rem',
                 backgroundColor: '#F5F5F7', // Apple light grey
                 textAlign: 'center'
@@ -267,15 +267,14 @@ const EmpowerProtocol = () => {
                         color: '#000',
                         marginBottom: '1rem'
                     }}>
-                        Execute The Protocol.
+                        Build the Foundations. Stay Curious.
                     </h2>
                     <p style={{
                         fontSize: '1.1rem',
                         color: '#555',
                         marginBottom: '3rem'
                     }}>
-                        "Knowing the science is easy. Doing it daily is hard." <br />
-                        Subscribe to get the <strong>30-Day Brain Battery Blueprint</strong>, including a Printable Tracker and Shopping List.
+                        The science of longevity is evolving. Subscribe for clear, evidence-led explanations of what is established, what is promising, and what still needs testing.
                     </p>
                     <EmailCapture variant="inline" />
                 </div>
