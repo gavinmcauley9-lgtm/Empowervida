@@ -96,8 +96,51 @@ const Protocol = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
 
+            {/* Page-specific mobile spacing; shared HeroSection stays unchanged. */}
+            <style jsx global>{`
+                @media (max-width: 767px) {
+                    .protocol-longevity-hero .hero-section {
+                        min-height: 0 !important;
+                        padding-top: 48px !important;
+                        padding-bottom: 52px !important;
+                    }
+                    .protocol-longevity-hero .hero-section h1 {
+                        margin-bottom: 20px !important;
+                        font-size: clamp(2.25rem, 9vw, 3.5rem) !important;
+                        line-height: 1.04 !important;
+                    }
+                    .protocol-longevity-hero .hero-section h2:empty {
+                        display: none !important;
+                    }
+                    /* Let nested supplement cards use the mobile viewport width. */
+                    .protocol-science-sections {
+                        padding: 2.5rem 12px 4rem !important;
+                    }
+                    .protocol-science-sections .protocol-phase {
+                        padding: 1.25rem 12px !important;
+                        border-radius: 16px !important;
+                        margin-bottom: 1.75rem !important;
+                    }
+                    .protocol-science-sections .protocol-phase .supplement-entry-card {
+                        padding: 1.25rem 12px !important;
+                    }
+                    .protocol-science-sections .protocol-phase .supplement-entry-card li {
+                        padding-left: 20px !important;
+                        overflow-wrap: break-word;
+                    }
+                    .protocol-science-sections .protocol-phase h2 {
+                        font-size: clamp(1.65rem, 7vw, 2.5rem) !important;
+                    }
+                    .protocol-longevity-hero .hero-section header > div:last-child p {
+                        font-size: 1.125rem !important;
+                        line-height: 1.55 !important;
+                        padding-left: 1rem !important;
+                    }
+                }
+            `}</style>
             {/* Hero Section */}
-            <HeroSection
+            <div className="protocol-longevity-hero">
+                <HeroSection
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
@@ -122,7 +165,8 @@ const Protocol = () => {
                 }}>
                     Seven perspectives on healthier ageing, from metabolic health and brain function to sleep, recovery and emerging discoveries.
                 </p>
-            </HeroSection>
+                </HeroSection>
+            </div>
 
             {/* Introduction */}
             <section style={{ padding: '2rem 2rem', maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
@@ -144,7 +188,7 @@ const Protocol = () => {
             </section>
 
             {/* The Protocol Sections */}
-            <section style={{
+            <section className="protocol-science-sections" style={{
                 padding: '6rem 2rem 8rem',
                 position: 'relative',
                 overflow: 'hidden'
@@ -269,7 +313,7 @@ const Protocol = () => {
                             </ul>
                         </div>
 
-                        <div style={{
+                        <div className="supplement-entry-card" style={{
                             marginTop: '2rem',
                             paddingTop: '2rem',
                             borderTop: '1px solid rgba(26, 60, 52, 0.1)',
