@@ -19,7 +19,7 @@ export default function Blog() {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "The Journal - EMPOWERVIDA",
-        "description": "Evidence-based longevity protocols and health optimization insights from Dr. Gavin McAuley.",
+        "description": "Physician-led articles exploring healthier ageing, metabolic health and emerging research, with clear explanations of the evidence.",
         "url": "https://empowervida.com/blog"
     };
 
@@ -31,9 +31,9 @@ export default function Blog() {
             fontFamily: '"Inter", sans-serif'
         }}>
             <SEO
-                title="The Journal - Longevity & Health Optimization | EMPOWERVIDA"
-                description="Evidence-based articles on mitochondrial health, brain optimization, cellular renewal, and longevity science. Written by Dr. Gavin McAuley."
-                keywords="longevity blog, mitochondrial health articles, anti-ageing science, brain health optimization, cellular health, supplement protocols, health journal"
+                title="The Journal | Health & Longevity Research | EmpowerVida"
+                description="Explore health and longevity research in plain English, from metabolic health to brain science. Evidence-led writing by Dr Gavin McAuley."
+                keywords="health journal, longevity science, metabolic health, brain health, evidence-led health writing"
                 canonical="/blog"
                 ogImage="/dna_bg_user.jpg"
                 schemaData={collectionSchema}
@@ -41,14 +41,14 @@ export default function Blog() {
             {/* Hero Section */}
             <section style={{
                 position: 'relative',
-                height: '50vh',
+                minHeight: '260px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 textAlign: 'center',
                 padding: '0 2rem',
                 overflow: 'hidden',
-                marginBottom: '4rem'
+                marginBottom: '1.5rem'
             }}>
                 {/* Background Image */}
                 <div className="ken-burns-active" style={{
@@ -94,7 +94,7 @@ export default function Blog() {
                         letterSpacing: '0.05em',
                         textTransform: 'uppercase'
                     }}>
-                        High-signal protocols for the modern human.
+                        Curious about better health. Serious about the science.
                     </p>
                 </div>
             </section>
@@ -107,14 +107,14 @@ export default function Blog() {
                         href={`/blog/${filteredPosts[0].slug || filteredPosts[0].id}`}
                         style={{
                             display: 'grid',
-                            gridTemplateColumns: 'minmax(0, 1.2fr) minmax(0, 0.8fr)',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 330px), 1fr))',
                             gap: '2rem',
                             background: '#FFFFFF',
                             borderRadius: '16px',
                             overflow: 'hidden',
                             boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                            marginBottom: '4rem',
+                            marginBottom: '2rem',
                             cursor: 'pointer',
                             textDecoration: 'none',
                             color: 'inherit'
@@ -134,7 +134,7 @@ export default function Blog() {
                                 display: 'block',
                                 width: '100%',
                                 height: '100%',
-                                minHeight: '400px',
+                                minHeight: '240px',
                                 position: 'relative'
                             }}>
                                 <img
@@ -187,13 +187,13 @@ export default function Blog() {
                     </a>
                 )}
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '2rem', alignItems: 'start' }}>
 
                     {/* Main Content Area */}
-                    <main style={{ gridColumn: '1 / -1', '@media (min-width: 1024px)': { gridColumn: 'span 2' } }}>
+                    <main style={{ gridColumn: '1 / -1' }}>
                         {/* Category Filter */}
-                        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                            <h3 style={{ color: 'var(--color-text)', marginBottom: '1.5rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>CATEGORIES</h3>
+                        <div style={{ display: 'flex', gap: '0.65rem', flexWrap: 'wrap', alignItems: 'center', marginBottom: '1.5rem' }}>
+                            <h3 style={{ color: 'var(--color-text)', marginBottom: '0', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>CATEGORIES</h3>
                             {CATEGORIES.map(cat => (
                                 <button
                                     key={cat.id}
@@ -219,7 +219,7 @@ export default function Blog() {
                         {/* Posts Grid - Skip first post (it's featured) */}
                         <div style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))',
                             gap: '2rem',
                             position: 'relative',
                             zIndex: 99999
@@ -269,7 +269,7 @@ export default function Blog() {
                                         </div>
                                     )}
 
-                                    <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                                    <div style={{ padding: '1.4rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ fontSize: '0.9rem', color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{post.category} | {post.date}</p>
 
                                         <h2 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--color-text)', lineHeight: '1.3', fontFamily: '"Manrope", sans-serif', fontWeight: 700 }}>{post.title}</h2>
@@ -277,7 +277,7 @@ export default function Blog() {
                                         <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', flexGrow: 1 }}>{post.excerpt}</p>
                                         <div style={{ marginTop: '1.5rem', color: 'var(--color-accent-teal)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                             <span style={{ display: 'inline-block', color: 'inherit', textDecoration: 'none' }}>
-                                                READ PROTOCOL <span style={{ fontSize: '1.2em' }}>→</span>
+                                                READ ARTICLE <span style={{ fontSize: '1.2em' }}>→</span>
                                             </span>
                                         </div>
                                     </div>
@@ -287,7 +287,7 @@ export default function Blog() {
                     </main>
 
                     {/* Sidebar */}
-                    <aside style={{ position: 'relative', minWidth: '300px' }}>
+                    <aside style={{ position: 'relative', minWidth: 0 }}>
                         <div style={{ position: 'sticky', top: '2rem' }}>
 
                             {/* Email Capture */}
@@ -318,7 +318,7 @@ export default function Blog() {
                                 lineHeight: '1.5',
                                 fontStyle: 'italic'
                             }}>
-                                <strong>Disclaimer:</strong> The content on this site is for informational purposes only and does not constitute medical advice. Always consult with a qualified healthcare provider before starting any new protocol.
+                                <strong>Disclaimer:</strong> The content on this site is for informational purposes only and does not constitute medical advice. Consult an appropriate healthcare professional for advice about your individual circumstances.
                             </div>
 
                         </div>
