@@ -8,7 +8,6 @@ const GUIDE_LINKS = [
   { href: '/longevity', label: 'The Five Pillars of Longevity' },
   { href: '/mitochondrial-guide', label: 'Mitochondrial Health' },
   { href: '/insulin-story', label: 'The Insulin Story' },
-  { href: '/engine-room', label: 'The Engine Room' },
   { href: '/environmental-defense', label: 'Environmental Defence' },
   { href: '/protocol', label: 'Exploring Longevity Science' },
 ];
