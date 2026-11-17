@@ -239,7 +239,7 @@ const Footer = () => {
             <style jsx global>{`
               .ev-footer a:focus-visible, .ev-footer button:focus-visible { outline: 2px solid #16877f; outline-offset: 3px; }
               @media (max-width: 767px) {
-                .ev-footer { padding: 2rem 18px 1.5rem !important; }
+                .ev-footer { padding: 2rem 18px 8.5rem !important; }
                 .ev-footer-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; column-gap: 1rem !important; row-gap: 1.5rem !important; margin-bottom: 1.25rem !important; }
                 .ev-footer-identity { grid-column: 1 / -1; }
                 .ev-footer-identity h3 { margin-bottom: .3rem !important; font-size: 1.15rem !important; }
@@ -249,7 +249,7 @@ const Footer = () => {
                 .ev-footer-group a { margin-bottom: .6rem !important; font-size: .78rem !important; letter-spacing: 0 !important; line-height: 1.5 !important; overflow-wrap: anywhere; }
                 .ev-footer-disclaimer { grid-column: 1 / -1; border-top: 1px solid #dedfe2; padding-top: 1rem; }
                 .ev-footer-disclaimer p { font-size: .78rem !important; line-height: 1.55 !important; max-width: 68ch; }
-                .ev-footer-bottom { padding-top: 1rem !important; gap: .45rem !important; font-size: .73rem !important; border-top: 1px solid #dedfe2 !important; }
+                .ev-footer-bottom { padding-top: 1rem !important; gap: .65rem !important; font-size: .8rem !important; line-height: 1.7 !important; border-top: 1px solid #dedfe2 !important; } .ev-footer-bottom a, .ev-footer-bottom button { padding: .35rem .2rem !important; }
               }
               @media (max-width: 340px) {
                 .ev-footer-grid { grid-template-columns: minmax(0,1fr) !important; }
