@@ -15,7 +15,6 @@ export default function sitemap() {
     '/environmental-defense',
     '/protocol',
     '/empower-protocol',
-    '/engine-room',
     '/mitochondrial-guide',
     '/longevity',
     '/calculator',
