@@ -25,11 +25,13 @@ const NEWSLETTER_URL = 'https://drgavinmcauley.substack.com';
 export default function Navigation() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [desktopOpen, setDesktopOpen] = useState(null);
   const [expandedMobileGroup, setExpandedMobileGroup] = useState(null);
   const navRef = useRef(null);
 
   useEffect(() => {
     setMobileOpen(false);
+    setDesktopOpen(null);
     setExpandedMobileGroup(null);
     navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
   }, [pathname]);
@@ -38,6 +40,7 @@ export default function Navigation() {
     const onKeyDown = (event) => {
       if (event.key === 'Escape') {
         setMobileOpen(false);
+        setDesktopOpen(null);
         setExpandedMobileGroup(null);
         navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
       }
@@ -46,11 +49,17 @@ export default function Navigation() {
     return () => document.removeEventListener('keydown', onKeyDown);
   }, []);
 
+  useEffect(() => {
+    const onPointerDown = (event) => { if (navRef.current && !navRef.current.contains(event.target)) setDesktopOpen(null); };
+    document.addEventListener('pointerdown', onPointerDown);
+    return () => document.removeEventListener('pointerdown', onPointerDown);
+  }, []);
+
   const isGuide = GUIDE_LINKS.some((item) => item.href === pathname);
   const isTool = TOOL_LINKS.some((item) => item.href === pathname);
 
   const menuLinks = (items) => items.map((item) => (
-    <Link key={item.href} href={item.href} className="ev-nav-subitem" aria-current={pathname === item.href ? 'page' : undefined} onClick={() => setMobileOpen(false)}>
+    <Link key={item.href} href={item.href} className="ev-nav-subitem" aria-current={pathname === item.href ? 'page' : undefined} onClick={() => { setMobileOpen(false); setDesktopOpen(null); }}>
       {item.label}
     </Link>
   ));
@@ -65,26 +74,26 @@ export default function Navigation() {
         <div className="ev-nav-desktop">
           <Link href="/blog" className="ev-nav-item" aria-current={pathname === '/blog' ? 'page' : undefined}>The Journal</Link>
 
-          <details className="ev-nav-dropdown">
-            <summary className="ev-nav-item" aria-label="Longevity Guides menu" aria-current={isGuide ? 'true' : undefined}>Longevity Guides <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover">{menuLinks(GUIDE_LINKS)}</div>
-          </details>
+          <div className="ev-nav-dropdown">
+            <button type="button" className="ev-nav-item ev-nav-dropdown-button" aria-label="Longevity Guides menu" aria-expanded={desktopOpen === 'guides'} aria-controls="ev-desktop-guides" onClick={() => setDesktopOpen(v => v === 'guides' ? null : 'guides')}>Longevity Guides <span aria-hidden="true" className="ev-nav-chevron">⌄</span></button>
+            {desktopOpen === 'guides' && <div id="ev-desktop-guides" className="ev-nav-popover">{menuLinks(GUIDE_LINKS)}</div>}
+          </div>
 
           <Link href="/empower-protocol" className="ev-nav-item" aria-current={pathname === '/empower-protocol' ? 'page' : undefined}>The Blueprint</Link>
 
-          <details className="ev-nav-dropdown">
-            <summary className="ev-nav-item" aria-label="Tools and Diagnostics menu" aria-current={isTool ? 'true' : undefined}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover">{menuLinks(TOOL_LINKS)}</div>
-          </details>
+          <div className="ev-nav-dropdown">
+            <button type="button" className="ev-nav-item ev-nav-dropdown-button" aria-label="Tools and Diagnostics menu" aria-expanded={desktopOpen === 'tools'} aria-controls="ev-desktop-tools" onClick={() => setDesktopOpen(v => v === 'tools' ? null : 'tools')}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">⌄</span></button>
+            {desktopOpen === 'tools' && <div id="ev-desktop-tools" className="ev-nav-popover">{menuLinks(TOOL_LINKS)}</div>}
+          </div>
 
-          <details className="ev-nav-dropdown ev-nav-more">
-            <summary className="ev-nav-item" aria-label="More pages menu">More <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
-            <div className="ev-nav-popover ev-nav-popover-right">
+          <div className="ev-nav-dropdown ev-nav-more">
+            <button type="button" className="ev-nav-item ev-nav-dropdown-button" aria-label="More pages menu" aria-expanded={desktopOpen === 'more'} aria-controls="ev-desktop-more" onClick={() => setDesktopOpen(v => v === 'more' ? null : 'more')}>More <span aria-hidden="true" className="ev-nav-chevron">⌄</span></button>
+            {desktopOpen === 'more' && <div id="ev-desktop-more" className="ev-nav-popover ev-nav-popover-right">
               <Link href="/about" className="ev-nav-subitem">About</Link>
               <a href={NEWSLETTER_URL} className="ev-nav-subitem" target="_blank" rel="noopener noreferrer">Newsletter <span className="ev-external" aria-label="opens in a new tab">↗</span></a>
               <Link href="/contact" className="ev-nav-subitem">Contact</Link>
-            </div>
-          </details>
+            </div>}
+          </div>
         </div>
 
         <button type="button" className="ev-nav-toggle" aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={mobileOpen} aria-controls="ev-mobile-menu" onClick={() => setMobileOpen((open) => !open)}>
@@ -124,8 +133,8 @@ export default function Navigation() {
         .ev-nav-item { color:var(--color-text-muted,#50565a); text-decoration:none; font-size:clamp(.72rem,.83vw,.86rem); font-weight:600; text-transform:uppercase; letter-spacing:.025em; white-space:nowrap; padding:12px 0; cursor:pointer; }
         .ev-nav-item:hover, .ev-nav-item[aria-current] { color:var(--color-primary,#16877f); }
         .ev-nav-dropdown { position:relative; }
-        .ev-nav-dropdown > summary { display:flex; align-items:center; gap:5px; list-style:none; }
-        .ev-nav-dropdown > summary::-webkit-details-marker { display:none; }
+        .ev-nav-dropdown-button { display:flex; align-items:center; gap:5px; border:0; background:transparent; font-family:inherit; }
+        
         .ev-nav-chevron { font-size:1rem; line-height:1; }
         .ev-nav-popover { position:absolute; top:100%; left:0; min-width:260px; max-width:320px; padding:10px; border:1px solid rgba(0,0,0,.09); border-radius:14px; background:#fff; box-shadow:0 14px 35px rgba(0,0,0,.12); display:flex; flex-direction:column; gap:2px; }
         .ev-nav-popover-right { left:auto; right:0; min-width:180px; }
@@ -134,7 +143,7 @@ export default function Navigation() {
         .ev-nav-toggle { display:none; border:0; background:transparent; color:#25302f; font-size:1.5rem; cursor:pointer; padding:10px; }
         .ev-nav-mobile[hidden] { display:none !important; }
         .ev-nav-mobile { display:none; }
-        .ev-navigation a:focus-visible, .ev-navigation button:focus-visible, .ev-navigation summary:focus-visible { outline:2px solid #16877f; outline-offset:4px; }
+        .ev-navigation a:focus-visible, .ev-navigation button:focus-visible, .ev-navigation .ev-nav-dropdown-button:focus-visible { outline:2px solid #16877f; outline-offset:4px; }
         @media (max-width:1100px) {
           .ev-nav-desktop { display:none; }
           .ev-nav-toggle { display:block; }
