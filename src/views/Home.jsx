@@ -107,7 +107,7 @@ export default function Home() {
             }}>
                 <div className="container" data-aos="fade-up" style={{ maxWidth: '1000px', margin: '0 auto', pointerEvents: 'auto' }}>
                     {/* Heading */}
-                    <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                    <div className="homepage-founder-heading" style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
                         <div style={{
                             fontSize: '0.85rem',
                             fontWeight: '700',
@@ -136,157 +136,43 @@ export default function Home() {
                             fontStyle: 'italic',
                             letterSpacing: '0.01em'
                         }}>
-                            MBChB (MD equivalent), University of Aberdeen
+                            MBChB · University of Aberdeen
                         </div>
                     </div>
 
-                    {/* Premium Glassmorphism Card */}
+                    {/* Compact founder introduction: full biography lives on /about */}
                     <motion.div
-                        initial={{ opacity: 0, y: 40 }}
+                        className="homepage-founder-card"
+                        initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
+                        transition={{ duration: 0.5 }}
                         viewport={{ once: true }}
                         style={{
-                            background: 'rgba(255, 255, 255, 0.4)',
-                            backdropFilter: 'blur(20px)',
-                            WebkitBackdropFilter: 'blur(20px)',
+                            background: 'rgba(255, 255, 255, 0.55)',
                             borderRadius: '24px',
-                            padding: '4rem 3.5rem',
-                            boxShadow: '0 20px 60px rgba(26, 60, 52, 0.12), 0 0 0 1px rgba(255,255,255,0.4) inset',
+                            padding: '1.75rem',
                             border: '1px solid rgba(32, 178, 170, 0.2)',
-                            position: 'relative',
-                            overflow: 'hidden'
+                            boxShadow: '0 12px 32px rgba(26, 60, 52, 0.08)',
+                            maxWidth: '720px',
+                            margin: '0 auto'
                         }}
                     >
-                        {/* Photo and Quote Section */}
-                        <div style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            marginBottom: '3rem',
-                            gap: '2rem'
-                        }}>
+                        <div className="homepage-founder-intro" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginBottom: '1rem' }}>
                             <img
                                 src="/dr-gavin-mcauley.jpg"
-                                alt="Dr. Gavin McAuley, physician and founder of EMPOWERVIDA"
-                                style={{
-                                    width: '180px',
-                                    height: '180px',
-                                    borderRadius: '50%',
-                                    objectFit: 'cover',
-                                    objectPosition: 'center top',
-                                    border: '4px solid rgba(32, 178, 170, 0.3)',
-                                    boxShadow: '0 10px 30px rgba(26, 60, 52, 0.2)'
-                                }}
+                                alt="Dr Gavin McAuley, physician and founder of EmpowerVida"
+                                style={{ width: '92px', height: '92px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', border: '3px solid rgba(32,178,170,0.25)', flexShrink: 0 }}
                             />
-                            <blockquote style={{
-                                textAlign: 'center',
-                                maxWidth: '600px',
-                                margin: '0'
-                            }}>
-                                <p style={{
-                                    fontSize: '1.5rem',
-                                    fontStyle: 'italic',
-                                    color: '#1A3C34',
-                                    lineHeight: '1.6',
-                                    fontWeight: '500',
-                                    margin: '0'
-                                }}>
-                                    "I spent years meeting people when it was already urgent.<br />
-                                    <span style={{ color: '#20B2AA' }}>Now I help people long before it gets to that point.</span>"
-                                </p>
-                            </blockquote>
+                            <p style={{ margin: 0, color: '#1A3C34', fontSize: '1.05rem', lineHeight: 1.5, fontStyle: 'italic' }}>
+                                “I spent years treating people when their health had already gone wrong. Today, I'm equally fascinated by what we can do before that happens.”
+                            </p>
                         </div>
-
-
-                        {/* Bio Text - Premium Typography */}
-                        <p style={{
-                            fontSize: '1.35rem',
-                            lineHeight: '1.85',
-                            color: '#1A3C34',
-                            marginBottom: '2rem',
-                            fontWeight: '400',
-                            letterSpacing: '0.005em'
-                        }}>
-                            I'm a physician with experience in emergency medicine and general practice, and a growing focus on explaining the science of living healthier for longer.
-                            After 16 years working in Emergency Medicine and General Practice, I
-                            now explore longevity and preventive health research through accessible, evidence-led writing.
+                        <p className="homepage-founder-bio" style={{ fontSize: '1.05rem', lineHeight: 1.6, color: '#1A3C34', margin: '0 0 1.25rem' }}>
+                            After 16 years in emergency medicine and general practice, I created EmpowerVida to explore the science of living healthier for longer — separating promising discoveries from the hype.
                         </p>
-
-                        <p style={{
-                            fontSize: '1.15rem',
-                            lineHeight: '1.8',
-                            color: '#4A5568',
-                            marginBottom: '2.5rem',
-                            letterSpacing: '0.005em'
-                        }}>
-                            My mission is to make health and longevity research understandable, useful and genuinely interesting — celebrating promising discoveries while being clear about what science has, and has not, established.
-                        </p>
-
-                        {/* Premium Credentials Grid */}
-                        <div style={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                            gap: '1.75rem',
-                            marginTop: '3.5rem',
-                            paddingTop: '3rem',
-                            borderTop: '2px solid rgba(32, 178, 170, 0.15)'
-                        }}>
-                            {[
-                                { icon: '🎓', text: 'Aberdeen 2009' },
-                                { icon: '⚕️', text: '16 Years Practising' },
-                                { icon: '🚑', text: 'ER & General Practice' },
-                                { icon: '💪', text: 'Clinical Optimization' }
-                            ].map((item, index) => (
-                                <motion.div
-                                    key={index}
-                                    whileHover={{ scale: 1.05 }}
-                                    style={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '1rem',
-                                        padding: '0.75rem 1rem',
-                                        background: 'rgba(255, 255, 255, 0.3)',
-                                        borderRadius: '12px',
-                                        transition: 'all 0.3s ease'
-                                    }}
-                                >
-                                    <div style={{
-                                        fontSize: '1.75rem',
-                                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))'
-                                    }}>
-                                        {item.icon}
-                                    </div>
-                                    <div style={{
-                                        fontSize: '0.95rem',
-                                        fontWeight: '700',
-                                        color: '#1A3C34',
-                                        letterSpacing: '0.02em'
-                                    }}>
-                                        {item.text}
-                                    </div>
-                                </motion.div>
-                            ))}
-                        </div>
-
-                        {/* Premium CTA Button */}
-                        <div style={{ textAlign: 'center', marginTop: '4rem' }}>
-                            <Link
-                                href="/about"
-                                onClick={() => window.scrollTo(0, 0)}
-                                className="btn-primary"
-                                style={{
-                                    padding: '1.25rem 3.5rem',
-                                    fontSize: '1rem',
-                                    fontWeight: '700',
-                                    letterSpacing: '0.08em',
-                                    boxShadow: '0 10px 30px rgba(255, 95, 0, 0.25)',
-                                    transition: 'all 0.3s ease',
-                                    display: 'inline-block',
-                                    textDecoration: 'none'
-                                }}
-                            >
-                                READ MY FULL STORY →
+                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+                            <Link href="/about" onClick={() => window.scrollTo(0, 0)} className="btn-primary" style={{ display: 'inline-block', padding: '0.85rem 1.5rem', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none' }}>
+                                READ MY STORY →
                             </Link>
                         </div>
                     </motion.div>
@@ -294,13 +180,13 @@ export default function Home() {
             </section >
 
             {/* EMAIL CAPTURE */}
-            <div id="email-capture">
+            <div id="email-capture" className="homepage-email-section">
                 <EmailCapture variant="default" />
             </div>
 
 
             {/* LONGEVITY ECOSYSTEM - PREMIUM GRADIENT CARDS */}
-            < section style={{
+            < section className="homepage-ecosystem" style={{
                 padding: '8rem 2rem',
                 background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)',
                 position: 'relative',
@@ -308,7 +194,7 @@ export default function Home() {
             }
             }>
                 <div className="container" data-aos="fade-up">
-                    <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
+                    <div className="homepage-ecosystem-heading" style={{ textAlign: 'center', marginBottom: '5rem' }}>
                         <h2 style={{
                             fontSize: 'clamp(2rem, 4vw, 3rem)',
                             fontWeight: 800,
@@ -330,7 +216,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div style={{
+                    <div className="homepage-ecosystem-grid" style={{
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
                         gap: '2.5rem',
@@ -509,10 +395,10 @@ export default function Home() {
             </section >
 
             {/* Expert Insights Section */}
-            <ExpertInsightsSection />
+            <div className="homepage-expert-section"><ExpertInsightsSection /></div>
 
             {/* FAQ Section */}
-            <FAQSection data={faqData} />
+            <div className="homepage-faq-section"><FAQSection data={faqData} /></div>
 
             {/* Trust Bar - Light Divider */}
             < div style={{
@@ -527,6 +413,50 @@ export default function Home() {
                     </p>
                 </div>
             </div >
+
+            {/* Homepage-only mobile rhythm: deliberately avoids shared component/global changes. */}
+            <style jsx global>{`
+              @media (max-width: 767px) {
+                .homepage-founder-section { padding: 7rem 16px 3rem !important; margin-top: -3rem !important; }
+                .homepage-founder-heading { margin-bottom: 1.75rem !important; }
+                .homepage-founder-heading h2 { font-size: clamp(2rem, 8vw, 2.65rem) !important; }
+                .homepage-founder-card { padding: 1.5rem 1.15rem !important; border-radius: 20px !important; }
+                .homepage-founder-intro { gap: 1.15rem !important; margin-bottom: 1.5rem !important; }
+                .homepage-founder-intro img { width: 140px !important; height: 140px !important; }
+                .homepage-founder-intro blockquote p { font-size: 1.15rem !important; line-height: 1.5 !important; }
+                .homepage-founder-bio { font-size: 1.05rem !important; line-height: 1.65 !important; margin-bottom: 1rem !important; }
+                .homepage-founder-mission { font-size: 1rem !important; line-height: 1.65 !important; margin-bottom: 1rem !important; }
+                .homepage-founder-credentials { grid-template-columns: 1fr 1fr !important; gap: .65rem !important; margin-top: 1.4rem !important; padding-top: 1.3rem !important; }
+                .homepage-founder-credentials > div { padding: .7rem .55rem !important; gap: .5rem !important; }
+                .homepage-founder-credentials > div > div:first-child { font-size: 1.35rem !important; }
+                .homepage-founder-credentials > div > div:last-child { font-size: .78rem !important; letter-spacing: 0 !important; }
+                .homepage-founder-cta { margin-top: 1.5rem !important; }
+                .homepage-founder-cta a { padding: 1rem 1.5rem !important; font-size: .9rem !important; }
+                .homepage-ecosystem { padding: 3rem 16px 3.5rem !important; }
+                .homepage-ecosystem-heading { margin-bottom: 1.75rem !important; }
+                .homepage-ecosystem-heading h2 { font-size: clamp(1.85rem, 7vw, 2.4rem) !important; }
+                .homepage-ecosystem-heading p { font-size: 1rem !important; line-height: 1.55 !important; }
+                .homepage-ecosystem-grid { grid-template-columns: minmax(0,1fr) !important; gap: 1.25rem !important; }
+                .homepage-ecosystem-grid > div > a { padding: 1.5rem 1.15rem !important; }
+                .homepage-ecosystem-grid > div > a > div:nth-child(2) { font-size: 2.75rem !important; margin-bottom: 1rem !important; }
+                .homepage-ecosystem-grid h3 { font-size: 1.35rem !important; }
+                .homepage-ecosystem-grid p { font-size: 1rem !important; line-height: 1.55 !important; margin-bottom: 1.2rem !important; }
+                .homepage-ecosystem-grid a > span { padding: .85rem 1.15rem !important; }
+                .homepage-faq-section > section { padding: 2.5rem 14px 2.75rem !important; }
+                .homepage-faq-section > section > .container > div:first-child { margin-bottom: 1.35rem !important; }
+                .homepage-faq-section h2 { font-size: clamp(1.65rem, 6.5vw, 2.1rem) !important; line-height: 1.18 !important; margin-bottom: .45rem !important; }
+                .homepage-faq-section > section > .container > div:first-child p { font-size: .78rem !important; }
+                .homepage-faq-section > section > .container > div:nth-child(2) > div { padding: .9rem 1rem !important; margin-bottom: .65rem !important; border-radius: 13px !important; }
+                .homepage-faq-section h3 { font-size: 1rem !important; line-height: 1.35 !important; }
+                .homepage-faq-section h3 + span { font-size: 1.25rem !important; }
+                .homepage-expert-section > section { padding: 3rem 16px !important; }
+                .homepage-expert-section > section > div > div:first-child { margin-bottom: 2rem !important; }
+                .homepage-expert-section > section > div > div:nth-child(2) { gap: 1.25rem !important; }
+              }
+              @media (max-width: 380px) {
+                .homepage-founder-credentials { grid-template-columns: 1fr !important; }
+              }
+            `}</style>
         </>
     );
 }
