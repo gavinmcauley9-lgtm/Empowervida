@@ -1,199 +1,148 @@
 "use client";
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+const GUIDE_LINKS = [
+  { href: '/longevity', label: 'The Five Pillars of Longevity' },
+  { href: '/mitochondrial-guide', label: 'Mitochondrial Health' },
+  { href: '/insulin-story', label: 'The Insulin Story' },
+  { href: '/engine-room', label: 'The Engine Room' },
+  { href: '/environmental-defense', label: 'Environmental Defence' },
+  { href: '/protocol', label: 'Exploring Longevity Science' },
+];
+
+const TOOL_LINKS = [
+  { href: '/diagnostics', label: 'The Diagnostics' },
+  { href: '/advanced-optimization', label: 'Advanced Diagnostics' },
+  { href: '/diagnostics-portal', label: 'Diagnostics Portal' },
+  { href: '/calculator', label: 'HOMA-IR Calculator' },
+  { href: '/biological-age', label: 'Biological Age Calculator' },
+];
+
+const NEWSLETTER_URL = 'https://drgavinmcauley.substack.com';
+
 export default function Navigation() {
-    const location = usePathname();
-    const [isOpen, setIsOpen] = React.useState(false);
+  const pathname = usePathname();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const navRef = useRef(null);
 
+  useEffect(() => {
+    setMobileOpen(false);
+    navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
+  }, [pathname]);
 
+  useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        setMobileOpen(false);
+        navRef.current?.querySelectorAll('details[open]').forEach((item) => { item.open = false; });
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, []);
 
-    const linkStyle = (path) => ({
-        color: location === path ? 'var(--color-primary)' : 'var(--color-text-muted)',
-        fontWeight: location === path ? '600' : '400',
-        fontSize: '0.9rem',
-        textTransform: 'uppercase',
-        letterSpacing: '0.05em',
-        margin: '0 1rem',
-        textDecoration: 'none',
-        transition: 'color 0.2s ease'
-    });
+  const isGuide = GUIDE_LINKS.some((item) => item.href === pathname);
+  const isTool = TOOL_LINKS.some((item) => item.href === pathname);
 
-    const mobileLinkStyle = (path) => ({
-        ...linkStyle(path),
-        display: 'block',
-        margin: '1.5rem 0',
-        fontSize: '1.2rem',
-        textAlign: 'center'
-    });
+  const menuLinks = (items) => items.map((item) => (
+    <Link key={item.href} href={item.href} className="ev-nav-subitem" aria-current={pathname === item.href ? 'page' : undefined} onClick={() => setMobileOpen(false)}>
+      {item.label}
+    </Link>
+  ));
 
-    return (
-        <nav style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            width: '100%',
-            zIndex: 2000,
-            padding: '1.5rem 0',
-            background: 'rgba(255, 255, 255, 0.85)', /* Frosted Glass Effect */
-            backdropFilter: 'blur(12px)',
-            transition: 'all 0.3s ease',
-            pointerEvents: 'none' // Prevent click hijacking on blog cards below
-        }}>
-            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', pointerEvents: 'auto' }}>
-                <Link href="/" style={{ fontSize: '1.3rem', fontWeight: '700', color: 'var(--color-text)', letterSpacing: '0.15em', textDecoration: 'none', fontFamily: '"Inter", sans-serif', textTransform: 'uppercase', zIndex: 102, pointerEvents: 'auto' }}>
-                    <span style={{ color: 'var(--color-text)' }}>EMPOWER</span><span style={{ color: 'var(--color-accent-teal)' }}>VIDA</span>
-                </Link>
+  return (
+    <nav ref={navRef} className="ev-navigation" aria-label="Main navigation">
+      <div className="ev-nav-inner">
+        <Link href="/" className="ev-nav-brand" aria-label="EmpowerVida — Home" onClick={() => setMobileOpen(false)}>
+          <span>EMPOWER</span><span className="ev-nav-accent">VIDA</span>
+        </Link>
 
-                {/* Desktop Menu */}
-                <div className="desktop-only" style={{ display: 'flex', alignItems: 'center', pointerEvents: 'auto' }}>
-                    <Link href="/blog" style={linkStyle('/blog')}>The Journal</Link>
-                    <a href="https://drgavinmcauley.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle('https://drgavinmcauley.substack.com')}>Newsletter</a>
+        <div className="ev-nav-desktop">
+          <Link href="/blog" className="ev-nav-item" aria-current={pathname === '/blog' ? 'page' : undefined}>The Journal</Link>
 
-                    <Link href="/empower-protocol" style={linkStyle('/empower-protocol')}>THE PROTOCOL</Link>
+          <details className="ev-nav-dropdown">
+            <summary className="ev-nav-item" aria-label="Longevity Guides menu" aria-current={isGuide ? 'true' : undefined}>Longevity Guides <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
+            <div className="ev-nav-popover">{menuLinks(GUIDE_LINKS)}</div>
+          </details>
 
-                    {/* Guides Dropdown */}
-                    <div
-                        className="nav-item-dropdown"
-                        style={{ position: 'relative', display: 'inline-block' }}
-                    >
-                        <span style={{ ...linkStyle('/guides'), cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                            GUIDES <span style={{ fontSize: '0.7em' }}>▼</span>
-                        </span>
-                        <div
-                            className="dropdown-menu-safe"
-                            style={{
-                                position: 'absolute',
-                                top: '100%',
-                                left: '50%',
-                                transform: 'translateX(-50%)',
-                                opacity: 0,
-                                visibility: 'hidden',
-                                paddingTop: '1rem',
-                                transition: 'opacity 0.2s ease, visibility 0.2s ease',
-                                zIndex: 2000,
-                                pointerEvents: 'none'
-                            }}
-                        >
-                            <div style={{
-                                background: 'rgba(255, 255, 255, 0.98)',
-                                backdropFilter: 'blur(20px)',
-                                border: '1px solid rgba(0,0,0,0.08)',
-                                borderRadius: '12px',
-                                padding: '1rem',
-                                boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
-                                minWidth: '260px'
-                            }}>
-                                <Link href="/mitochondrial-guide" style={{ display: 'block', padding: '0.8rem 1rem', color: '#EC4899', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(236, 72, 153, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    ⚡ Mitochondrial Health
-                                </Link>
-                                <Link href="/longevity" style={{ display: 'block', padding: '0.8rem 1rem', color: '#667eea', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(102, 126, 234, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    🧬 The 5 Pillars of Longevity
-                                </Link>
-                                <Link href="/insulin-story" style={{ display: 'block', padding: '0.8rem 1rem', color: 'var(--color-accent-red)', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 59, 48, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    🩸 The Insulin Story
-                                </Link>
-                                <Link href="/advanced-optimization" style={{ display: 'block', padding: '0.8rem 1rem', color: '#FF5F00', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(255, 95, 0, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    🎯 Advanced Diagnostics
-                                </Link>
-                                <div style={{ height: '1px', background: 'rgba(0,0,0,0.05)', margin: '0.5rem 0' }} />
-                                <p style={{ padding: '0.5rem 1rem', fontSize: '0.75rem', fontWeight: 'bold', color: '#A0AEC0', textTransform: 'uppercase', letterSpacing: '1px' }}>Clinical Tools</p>
-                                <Link href="/calculator" style={{ display: 'block', padding: '0.8rem 1rem', color: '#20B2AA', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(32, 178, 170, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    🧮 HOMA-IR Calculator
-                                </Link>
-                                <Link href="/biological-age" style={{ display: 'block', padding: '0.8rem 1rem', color: '#8A2BE2', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600, borderRadius: '8px', transition: 'background 0.2s' }} onMouseEnter={e => e.target.style.background = 'rgba(138, 43, 226, 0.05)'} onMouseLeave={e => e.target.style.background = 'transparent'}>
-                                    🧬 Biological Age Calculator
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+          <Link href="/empower-protocol" className="ev-nav-item" aria-current={pathname === '/empower-protocol' ? 'page' : undefined}>The Blueprint</Link>
 
-                    <Link href="/diagnostics" style={linkStyle('/diagnostics')}>The Diagnostics</Link>
-                    <Link href="/about" style={linkStyle('/about')}>About</Link>
-                    <Link href="/contact" style={linkStyle('/contact')}>Contact</Link>
-                </div>
+          <details className="ev-nav-dropdown">
+            <summary className="ev-nav-item" aria-label="Tools and Diagnostics menu" aria-current={isTool ? 'true' : undefined}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
+            <div className="ev-nav-popover">{menuLinks(TOOL_LINKS)}</div>
+          </details>
 
-                {/* Mobile Menu Toggle */}
-                <div className="mobile-only" style={{ zIndex: 102 }}>
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        aria-label={isOpen ? "Close menu" : "Open menu"}
-                        aria-expanded={isOpen}
-                        aria-controls="mobile-menu"
-                        style={{
-                            background: 'transparent',
-                            border: 'none',
-                            cursor: 'pointer',
-                            padding: '0.5rem',
-                            color: 'var(--color-text)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            zIndex: 2100
-                        }}
-                    >
-                        {isOpen ? (
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <line x1="18" y1="6" x2="6" y2="18"></line>
-                                <line x1="6" y1="6" x2="18" y2="18"></line>
-                            </svg>
-                        ) : (
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <line x1="3" y1="12" x2="21" y2="12"></line>
-                                <line x1="3" y1="6" x2="21" y2="6"></line>
-                                <line x1="3" y1="18" x2="21" y2="18"></line>
-                            </svg>
-                        )}
-                    </button>
-                </div>
-
-                {/* Mobile Menu Overlay */}
-                <div
-                    id="mobile-menu"
-                    role="navigation"
-                    aria-label="Mobile navigation"
-                    style={{
-                        position: 'fixed',
-                        top: '80px', // Start below the header
-                        left: 0,
-                        width: '100%',
-                        height: 'calc(100vh - 80px)', // Full height minus header
-                        background: '#FFFFFF',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'flex-start', // Align to top instead of center
-                        alignItems: 'center',
-                        zIndex: 101,
-                        opacity: isOpen ? 1 : 0,
-                        pointerEvents: isOpen ? 'all' : 'none',
-                        visibility: isOpen ? 'visible' : 'hidden', // PREVENT CLICKS WHEN CLOSED
-                        transition: 'opacity 0.3s ease',
-                        overflowY: 'auto', // Allow scrolling if content is too tall
-                        padding: '2rem 1rem' // Add padding for better spacing
-                    }}>
-                    <Link href="/blog" style={mobileLinkStyle('/blog')} onClick={() => setIsOpen(false)}>The Journal</Link>
-
-                    <Link href="/empower-protocol" style={mobileLinkStyle('/empower-protocol')} onClick={() => setIsOpen(false)}>THE PROTOCOL</Link>
-
-                    <div style={{ width: '100%', borderTop: '1px solid rgba(0,0,0,0.05)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '1rem 0', margin: '1rem 0' }}>
-                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Guides</p>
-                        <Link href="/mitochondrial-guide" style={{ ...mobileLinkStyle('/mitochondrial-guide'), color: '#EC4899', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>⚡ Mitochondrial Health</Link>
-                        <Link href="/longevity" style={{ ...mobileLinkStyle('/longevity'), color: '#667eea', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 The 5 Pillars</Link>
-                        <Link href="/insulin-story" style={{ ...mobileLinkStyle('/insulin-story'), color: 'var(--color-accent-red)', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🩸 The Insulin Story</Link>
-                        <Link href="/advanced-optimization" style={{ ...mobileLinkStyle('/advanced-optimization'), color: '#FF5F00', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🎯 Advanced Diagnostics</Link>
-                        
-                        <p style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginTop: '1.5rem', marginBottom: '1rem' }}>Clinical Tools</p>
-                        <Link href="/calculator" style={{ ...mobileLinkStyle('/calculator'), color: '#20B2AA', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧮 HOMA-IR Calculator</Link>
-                        <Link href="/biological-age" style={{ ...mobileLinkStyle('/biological-age'), color: '#8A2BE2', fontSize: '1rem', margin: '0.5rem 0' }} onClick={() => setIsOpen(false)}>🧬 Biological Age Calculator</Link>
-                    </div>
-
-                    <Link href="/diagnostics" style={mobileLinkStyle('/diagnostics')} onClick={() => setIsOpen(false)}>The Diagnostics</Link>
-                    <Link href="/about" style={mobileLinkStyle('/about')} onClick={() => setIsOpen(false)}>About</Link>
-                    <Link href="/contact" style={mobileLinkStyle('/contact')} onClick={() => setIsOpen(false)}>Contact</Link>
-                </div>
+          <details className="ev-nav-dropdown ev-nav-more">
+            <summary className="ev-nav-item" aria-label="More pages menu">More <span aria-hidden="true" className="ev-nav-chevron">⌄</span></summary>
+            <div className="ev-nav-popover ev-nav-popover-right">
+              <Link href="/about" className="ev-nav-subitem">About</Link>
+              <a href={NEWSLETTER_URL} className="ev-nav-subitem" target="_blank" rel="noopener noreferrer">Newsletter <span className="ev-external" aria-label="opens in a new tab">↗</span></a>
+              <Link href="/contact" className="ev-nav-subitem">Contact</Link>
             </div>
-        </nav>
-    );
+          </details>
+        </div>
+
+        <button type="button" className="ev-nav-toggle" aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'} aria-expanded={mobileOpen} aria-controls="ev-mobile-menu" onClick={() => setMobileOpen((open) => !open)}>
+          {mobileOpen ? <span aria-hidden="true">✕</span> : <span aria-hidden="true">☰</span>}
+        </button>
+      </div>
+
+      <div id="ev-mobile-menu" className="ev-nav-mobile" hidden={!mobileOpen}>
+        <Link href="/" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>Home</Link>
+        <Link href="/blog" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>The Journal</Link>
+        <details className="ev-nav-mobile-group">
+          <summary>Longevity Guides <span aria-hidden="true">⌄</span></summary>
+          <div className="ev-nav-mobile-subitems">{menuLinks(GUIDE_LINKS)}</div>
+        </details>
+        <Link href="/empower-protocol" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>The Blueprint</Link>
+        <details className="ev-nav-mobile-group">
+          <summary>Tools &amp; Diagnostics <span aria-hidden="true">⌄</span></summary>
+          <div className="ev-nav-mobile-subitems">{menuLinks(TOOL_LINKS)}</div>
+        </details>
+        <div className="ev-nav-mobile-secondary">
+          <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
+          <a href={NEWSLETTER_URL} target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>Newsletter ↗</a>
+          <Link href="/contact" onClick={() => setMobileOpen(false)}>Contact</Link>
+        </div>
+      </div>
+
+      <style jsx global>{`
+        .ev-navigation { position:fixed; top:0; left:0; width:100%; z-index:2000; background:rgba(255,255,255,.94); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border-bottom:1px solid rgba(0,0,0,.055); font-family:Inter,Arial,sans-serif; }
+        .ev-nav-inner { max-width:1440px; margin:auto; min-height:76px; padding:0 clamp(18px,3vw,44px); display:flex; align-items:center; justify-content:space-between; gap:20px; }
+        .ev-nav-brand { white-space:nowrap; color:var(--color-text,#1d1d1f); text-decoration:none; font-size:1.15rem; font-weight:750; letter-spacing:.11em; }
+        .ev-nav-accent { color:var(--color-accent-teal,#148b81); }
+        .ev-nav-desktop { display:flex; align-items:center; justify-content:flex-end; gap:clamp(12px,1.45vw,25px); }
+        .ev-nav-item { color:var(--color-text-muted,#50565a); text-decoration:none; font-size:clamp(.72rem,.83vw,.86rem); font-weight:600; text-transform:uppercase; letter-spacing:.025em; white-space:nowrap; padding:12px 0; cursor:pointer; }
+        .ev-nav-item:hover, .ev-nav-item[aria-current] { color:var(--color-primary,#16877f); }
+        .ev-nav-dropdown { position:relative; }
+        .ev-nav-dropdown > summary { display:flex; align-items:center; gap:5px; list-style:none; }
+        .ev-nav-dropdown > summary::-webkit-details-marker { display:none; }
+        .ev-nav-chevron { font-size:1rem; line-height:1; }
+        .ev-nav-popover { position:absolute; top:100%; left:0; min-width:260px; max-width:320px; padding:10px; border:1px solid rgba(0,0,0,.09); border-radius:14px; background:#fff; box-shadow:0 14px 35px rgba(0,0,0,.12); display:flex; flex-direction:column; gap:2px; }
+        .ev-nav-popover-right { left:auto; right:0; min-width:180px; }
+        .ev-nav-subitem { display:block; padding:11px 12px; color:#333b3d; text-decoration:none; font-size:.9rem; line-height:1.35; border-radius:8px; }
+        .ev-nav-subitem:hover, .ev-nav-subitem:focus-visible, .ev-nav-subitem[aria-current="page"] { background:#eff7f5; color:#136d66; }
+        .ev-nav-toggle { display:none; border:0; background:transparent; color:#25302f; font-size:1.5rem; cursor:pointer; padding:10px; }
+        .ev-nav-mobile[hidden] { display:none !important; }
+        .ev-nav-mobile { display:none; }
+        .ev-navigation a:focus-visible, .ev-navigation button:focus-visible, .ev-navigation summary:focus-visible { outline:2px solid #16877f; outline-offset:4px; }
+        @media (max-width:1100px) {
+          .ev-nav-desktop { display:none; }
+          .ev-nav-toggle { display:block; }
+          .ev-nav-inner { min-height:72px; }
+          .ev-nav-mobile { display:block; position:fixed; top:72px; left:0; right:0; max-height:calc(100dvh - 72px); overflow-y:auto; overscroll-behavior:contain; background:#fff; border-top:1px solid #e9eeec; padding:12px clamp(20px,6vw,45px) 32px; box-shadow:0 18px 30px rgba(0,0,0,.1); }
+          .ev-nav-mobile-link, .ev-nav-mobile-group > summary { display:flex; align-items:center; justify-content:space-between; width:100%; padding:16px 0; font-size:1.03rem; font-weight:600; color:#25302f; text-decoration:none; border-bottom:1px solid #eef0ef; cursor:pointer; list-style:none; }
+          .ev-nav-mobile-group > summary::-webkit-details-marker { display:none; }
+          .ev-nav-mobile-subitems { padding:5px 0 10px 12px; }
+          .ev-nav-mobile-subitems .ev-nav-subitem { padding:12px 8px; }
+          .ev-nav-mobile-secondary { display:flex; flex-wrap:wrap; gap:18px; padding-top:24px; }
+          .ev-nav-mobile-secondary a { color:#56605e; text-decoration:none; font-size:.92rem; }
+        }
+        @media (prefers-reduced-motion:reduce) { .ev-navigation * { scroll-behavior:auto !important; } }
+      `}</style>
+    </nav>
+  );
 }
