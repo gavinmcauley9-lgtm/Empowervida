@@ -77,7 +77,7 @@ export default function EnvironmentalDefense() {
       <article>
         <aside className="env-summary"><strong>The story in 30 seconds</strong><p>Our surroundings influence health, but not every detectable substance represents a meaningful danger. Air pollution and tobacco smoke have well-established health effects. Some newer concerns, including microplastics, warrant research rather than panic. The best approach is to understand the evidence, consider your actual exposure and focus on practical changes with clear benefits.</p></aside>
         <p>We spend our lives immersed in an environment we barely notice. Air moves through our lungs. Water becomes part of our daily routine. Light quietly helps set the timing of sleep and wakefulness. None of this requires a “detox protocol” to be worth understanding.</p>
-        <p>The fascinating part is that environmental health is not simply a list of invisible threats. It is a science of exposure, biology and proportion. Some hazards are firmly established. Others are plausible but still uncertain. Knowing the difference helps us act where it matters most.</p>
+        <p>The fascinating part is that environmental health is not simply a list of invisible threats. It is a science of exposure, biology and proportion. Some hazards are firmly established. Others are plausible but still uncertain. Knowing the difference helps us act where it matters most. Crucially, <strong>strong evidence that something can cause harm</strong> is not the same as evidence that <strong>your particular level of exposure</strong> is dangerous.</p>
 
         <figure className="env-figure">
           <h3>Hazard is not the same as risk</h3>
@@ -86,11 +86,11 @@ export default function EnvironmentalDefense() {
             <div><strong>2 · Exposure</strong>How much reaches you, by what route, and for how long?</div>
             <div><strong>3 · Risk</strong>How likely is harm at that exposure, given the evidence and individual context?</div>
           </div>
-          <figcaption>A simplified framework. Susceptibility, dose–response and uncertainty also influence real-world risk.</figcaption>
+          <figcaption>A simplified framework. Risk also depends on susceptibility, dose–response, the route of exposure and the quality of the underlying evidence. A detectable substance is not automatically a harmful dose.</figcaption>
         </figure>
 
         <h2 id="air">The air we breathe</h2>
-        <p>Of the environmental exposures we can influence, air quality deserves serious attention. Fine particulate matter (PM2.5) can reach deep into the lungs. Long-term exposure is associated with cardiovascular and respiratory disease, and population studies link it to premature mortality. Bushfire smoke can cause substantial short-term pollution episodes in Australia.</p>
+        <p>Of the environmental exposures we can influence, air quality deserves serious attention. Fine particulate matter (PM2.5) can reach deep into the lungs. Extensive population and mechanistic evidence links exposure to cardiovascular and respiratory harm and premature mortality. Unlike many emerging contaminants, this is a well-established public-health risk; risk generally rises with greater exposure. Bushfire smoke can cause substantial short-term pollution episodes in Australia.</p>
         <div className="env-panel">
           <Evidence level="established">Established risk</Evidence>
           <h3>Fine particles, smoke and second-hand tobacco smoke</h3>
@@ -115,7 +115,7 @@ export default function EnvironmentalDefense() {
         <div className="env-panel">
           <Evidence level="emerging">Emerging concern</Evidence>
           <h3>Microplastics: an important unanswered question</h3>
-          <p>Microplastic particles have been detected in environmental samples and in human tissues. Scientists are investigating exposure pathways and possible biological effects. But detection alone does not establish that typical drinking-water exposure causes a particular disease, and the magnitude of long-term human health risk remains uncertain.</p>
+          <p>Microplastic particles have been detected in environmental samples and in human tissues. Laboratory research provides plausible reasons to investigate inflammation and other biological effects, but methods, particle sizes and doses vary widely. Detection alone does not establish that typical drinking-water exposure causes a particular disease. The World Health Organization has highlighted important gaps in exposure measurement and health-risk evidence, especially for very small particles. The magnitude of long-term human health risk remains uncertain.</p>
           <p>That uncertainty is a reason for better research and sensible waste reduction — not a reason to promise that an expensive filtration system will improve longevity.</p>
         </div>
 
@@ -130,14 +130,14 @@ export default function EnvironmentalDefense() {
         <div className="env-panel">
           <Evidence level="uncertain">Claims often overstated</Evidence>
           <h3>Do blue-light-blocking glasses transform sleep?</h3>
-          <p>Trials of blue-light-filtering spectacles have not established a reliable, clinically meaningful sleep benefit for everyone. They may be comfortable for some people, but they should not be presented as essential protection against “mitochondrial damage”.</p>
+          <p>A Cochrane review found that sleep outcomes in trials of blue-light-filtering spectacles were mixed and uncertain. That does not contradict the established role of light in circadian physiology; it means that a plausible mechanism has not translated into a consistently demonstrated benefit from this particular product. They may be comfortable for some people, but they should not be presented as essential protection against “mitochondrial damage”.</p>
         </div>
 
         <h2 id="exposures">Other everyday exposures worth understanding</h2>
         <p>Not every exposure needs its own supplement, gadget or ritual. The priority depends on how strong the evidence is and how much exposure a person actually has.</p>
         <div className="env-panel"><Evidence level="established">Established risk</Evidence><h3>Noise and hearing</h3><p>Repeated exposure to loud sound can damage hearing. Practical protection includes lowering listening volumes, limiting duration and using appropriate hearing protection at concerts or noisy workplaces.</p></div>
         <div className="env-panel"><Evidence level="established">Established risk</Evidence><h3>Ultraviolet radiation</h3><p>Excess UV exposure increases skin-cancer risk. Sensible sun protection remains important in Australia. This is compatible with recognising the benefits of time outdoors and daylight for daily rhythms.</p></div>
-        <div className="env-panel"><Evidence level="emerging">Exposure-specific evidence</Evidence><h3>Household chemicals and emerging contaminants</h3><p>Some chemicals are hazardous at particular doses or in occupational settings, but broad claims that ordinary household products are universally “toxic” are not scientifically useful. Follow product instructions, avoid unnecessary inhalation of sprays and solvents, and seek specific advice for known exposures rather than relying on generic detox claims.</p></div>
+        <div className="env-panel"><Evidence level="emerging">Exposure-specific evidence</Evidence><h3>Household chemicals and emerging contaminants</h3><p>Some chemicals are hazardous at particular doses or in occupational settings, but broad claims that ordinary household products are universally “toxic” are not scientifically useful. For example, inhaling concentrated solvent vapours is a different exposure from using a product as directed in a ventilated room. The chemical, dose, route and duration all matter. Follow product instructions, avoid unnecessary inhalation of sprays and solvents, and seek specific advice for known exposures rather than relying on generic detox claims.</p></div>
 
         <h2 id="action">Your practical priorities</h2>
         <p>If you make only a few changes, start with those supported by the strongest evidence and most relevant to your circumstances.</p>
@@ -148,12 +148,13 @@ export default function EnvironmentalDefense() {
           <li><strong>Protect hearing and skin:</strong> reduce harmful noise exposure and manage UV exposure.</li>
           <li><strong>Be curious, not alarmed:</strong> follow research on microplastics and emerging contaminants without mistaking early findings for proven disease risk.</li>
         </ol>
-        <div className="env-caveat"><strong>A useful principle:</strong> Better environmental health is rarely about achieving a perfectly “clean” life. It is about reducing meaningful exposures where the benefits are credible and the actions are practical.</div>
+        <div className="env-caveat"><strong>The EmpowerVida evidence test:</strong> What is the proposed biological mechanism? What have studies actually shown in humans? And does the evidence apply to the dose and exposure people encounter in everyday life? Better environmental health is rarely about achieving a perfectly “clean” life. It is about reducing meaningful exposures where the benefits are credible and the actions are practical.</div>
 
         <h2 id="sources">Sources and further reading</h2>
         <p>These public-health and research resources provide useful starting points. Evidence and local guidance can change; check the latest advice for your circumstances.</p>
         <ul className="env-sources">
           <li><a href="https://www.who.int/health-topics/air-pollution" target="_blank" rel="noopener noreferrer">World Health Organization — Air pollution and health</a></li>
+          <li><a href="https://www.who.int/publications/i/item/B09461" target="_blank" rel="noopener noreferrer">WHO (2025) — Exposure to health-damaging air pollutants</a></li>
           <li><a href="https://www.airquality.gov.au/" target="_blank" rel="noopener noreferrer">Australian Government — Air Quality information</a></li>
           <li><a href="https://www.nhmrc.gov.au/about-us/publications/australian-drinking-water-guidelines" target="_blank" rel="noopener noreferrer">NHMRC — Australian Drinking Water Guidelines</a></li>
           <li><a href="https://www.who.int/publications/i/item/9789241516198" target="_blank" rel="noopener noreferrer">WHO — Microplastics in drinking-water</a></li>
