@@ -2,15 +2,15 @@ import React from 'react';
 import Protocol from '../../src/views/Protocol';
 
 export const metadata = {
-  title: 'The 7 Master Longevity Protocols — Clinical Supplement Stacks | EMPOWERVIDA',
-  description: 'Physician-designed supplement protocols for longevity, brain fog, energy, gut health, sleep & metabolic health. Evidence-based stacks with exact clinical dosing by Dr. Gavin McAuley.',
-  keywords: 'longevity supplement protocol, brain fog supplements, gut health protocol, sleep supplements, metabolic health, mitochondrial support, NAD+ protocol',
+  title: 'The 7 Areas of Longevity Science | EmpowerVida',
+  description: 'Explore seven areas of healthy ageing, from cognitive and metabolic health to sleep and recovery. An independent, evidence-led guide to longevity science.',
+  keywords: 'longevity science, healthy ageing, cognitive health, metabolic health, sleep and recovery, evidence-led health',
   alternates: {
     canonical: 'https://empowervida.com/protocol/',
   },
   openGraph: {
-    title: 'The 7 Master Longevity Protocols — Clinical Supplement Stacks | EMPOWERVIDA',
-    description: 'Physician-designed supplement protocols for longevity, brain fog, energy, gut health, sleep & metabolic health.',
+    title: 'The 7 Areas of Longevity Science | EmpowerVida',
+    description: 'Explore seven areas of healthy ageing, from cognitive and metabolic health to sleep and recovery.',
     url: 'https://empowervida.com/protocol/',
     images: [{ url: 'https://empowervida.com/protocol_hero_fire_v2.jpg/', width: 1200, height: 630 }],
   },
