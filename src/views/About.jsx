@@ -7,390 +7,111 @@ import SEO from '../components/SEO';
 export default function About() {
     const personSchema = {
         "@context": "https://schema.org",
-        "@type": "Physician",
-        "name": "Dr. Gavin McAuley",
-        "honorificPrefix": "Dr.",
-        "givenName": "Gavin",
-        "familyName": "McAuley",
-        "jobTitle": "Family Physician, Clinical Focus in Longevity",
-        "description": "Practicing physician with a clinical focus on longevity. Evidence-based protocols for metabolic health and cellular optimization.",
+        "@type": "Person",
+        "name": "Dr Gavin McAuley",
+        "jobTitle": "Physician and health writer",
+        "description": "Physician with experience in emergency medicine and general practice, writing about health and longevity research.",
         "url": "https://empowervida.com/about",
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "University of Aberdeen School of Medicine",
-            "sameAs": "https://www.abdn.ac.uk/medical"
-        },
-        "hasCredential": {
-            "@type": "EducationalOccupationalCredential",
-            "credentialCategory": "degree",
-            "name": "MBChB (MD equivalent)"
-        },
-        "medicalSpecialty": [
-            "Emergency Medicine",
-            "General Practice",
-            "Longevity Medicine",
-            "Preventive Medicine"
-        ],
-        "knowsAbout": [
-            "Longevity Medicine",
-            "Mitochondrial Health",
-            "Metabolic Optimization",
-            "Insulin Resistance",
-            "Cellular Health",
-            "Evidence-Based Medicine"
-        ],
-        "sameAs": [
-            "https://www.linkedin.com/in/gavin-mcauley-62147151/",
-            "https://drgavinmcauley.substack.com"
-        ]
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Aberdeen" },
+        "hasCredential": { "@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "MBChB" },
+        "sameAs": ["https://www.linkedin.com/in/gavin-mcauley-62147151/", "https://drgavinmcauley.substack.com"]
     };
 
     return (
-        <div style={{
-            backgroundColor: 'var(--color-bg)',
-            minHeight: '100vh',
-            color: 'var(--color-text)',
-            fontFamily: '"Inter", sans-serif'
-        }}>
+        <main className="about-editorial">
             <SEO
-                title="About Dr. Gavin | Physician & Longevity Educator | EMPOWERVIDA"
-                description="Meet Dr. Gavin McAuley — a physician specialising in evidence-based longevity medicine and metabolic health education."
-                keywords="dr gavin mcauley, longevity doctor, longevity medicine, metabolic health, evidence-based wellness"
+                title="About Dr Gavin McAuley | EmpowerVida"
+                description="Meet Dr Gavin McAuley, a physician drawing on experience in emergency medicine and general practice to explore the science of healthier ageing."
+                keywords="Dr Gavin McAuley, EmpowerVida, health education, longevity science, medical writing"
                 canonical="/about"
-                ogImage="/water_refraction.png"
+                ogImage="/dr-gavin-mcauley.jpg"
                 schemaData={personSchema}
             />
 
-            {/* Hero Section - The Hook */}
-            <section style={{
-                position: 'relative',
-                minHeight: '80vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                padding: '0 2rem',
-                overflow: 'hidden',
-                marginBottom: '0'
-            }}>
-                {/* Background Image */}
-                <div className="ken-burns-active" style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/about_hero_transformation.png)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                    opacity: 0.9
-                }}></div>
-
-                {/* Overlay */}
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    background: 'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.7) 100%)',
-                    zIndex: 1
-                }}></div>
-
-                <div style={{ position: 'relative', zIndex: 2, maxWidth: '1000px' }} data-aos="fade-up">
-                    <h1 style={{
-                        fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
-                        lineHeight: '1.1',
-                        marginBottom: '2rem',
-                        color: '#FFFFFF',
-                        fontWeight: '800',
-                        fontFamily: '"Manrope", sans-serif',
-                        textShadow: '0 4px 20px rgba(0,0,0,0.8)'
-                    }}>
-                        Bridging the Gap Between <span style={{ color: 'var(--color-accent-teal)' }}>Traditional Medicine</span> & Biohacking.
-                    </h1>
-                    <p style={{
-                        fontSize: 'clamp(1.2rem, 2vw, 1.8rem)',
-                        color: 'rgba(255,255,255,0.9)',
-                        maxWidth: '800px',
-                        margin: '0 auto',
-                        fontWeight: '400',
-                        textShadow: '0 2px 10px rgba(0,0,0,0.8)'
-                    }}>
-                        I'm a physician who spent 16 years in acute and general practice medicine before expanding my clinical focus toward proactive health optimisation.
-                    </p>
+            <header className="about-hero">
+                <div className="about-hero-inner">
+                    <p className="about-eyebrow">THE PERSON BEHIND EMPOWERVIDA</p>
+                    <h1>From treating illness to exploring healthier ageing.</h1>
+                    <p className="about-hero-lead">I'm Dr Gavin McAuley. After 16 years in emergency medicine and general practice, I've become increasingly interested in a question that reaches beyond the consulting room: what can help us stay healthier for longer?</p>
                 </div>
-            </section>
+            </header>
 
-            <div className="container" style={{ paddingTop: '6rem', paddingBottom: '0' }}>
-
-                {/* Profile Image with Quote */}
-                <div style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    marginBottom: '6rem',
-                    gap: '2.5rem'
-                }} data-aos="fade-up">
-                    <div style={{
-                        position: 'relative',
-                        width: '280px',
-                        height: '280px',
-                        borderRadius: '50%',
-                        overflow: 'hidden',
-                        border: '4px solid var(--color-accent-teal)',
-                        boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
-                    }}>
-                        <img
-                            src="/dr-gavin-mcauley.jpg"
-                            alt="Dr. Gavin McAuley - GP and Longevity Physician, founder of EMPOWERVIDA"
-                            style={{
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'cover',
-                                objectPosition: 'center top'
-                            }}
-                        />
-                    </div>
-                    <blockquote style={{
-                        textAlign: 'center',
-                        maxWidth: '700px',
-                        margin: '0',
-                        padding: '0 2rem'
-                    }}>
-                        <p style={{
-                            fontSize: 'clamp(1.3rem, 2.5vw, 1.8rem)',
-                            fontStyle: 'italic',
-                            color: 'var(--color-text)',
-                            lineHeight: '1.6',
-                            fontWeight: '500',
-                            margin: '0'
-                        }}>
-                            "I spent years meeting people when it was already urgent.<br />
-                            <span style={{ color: 'var(--color-accent-teal)' }}>Now I help people long before it gets to that point.</span>"
-                        </p>
-                    </blockquote>
-                </div>
-
-                {/* Section 1: The George Clooney Myth */}
-                <section style={{
-                    marginBottom: '8rem',
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-                    gap: '4rem',
-                    alignItems: 'center'
-                }}>
+            <div className="about-content">
+                <section className="about-intro" aria-label="Meet Dr Gavin McAuley">
+                    <img src="/dr-gavin-mcauley.jpg" alt="Portrait of Dr Gavin McAuley" className="about-portrait" />
                     <div>
-                        <div style={{
-                            fontSize: '4rem',
-                            fontWeight: '800',
-                            color: 'var(--color-accent-teal)',
-                            opacity: 0.2,
-                            marginBottom: '-1rem'
-                        }}>2009</div>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            The Failure of the Assembly Line
-                        </h2>
-                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
-                    </div>
-                    <div>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            When I graduated from the University of Aberdeen in 2009, I threw myself into medicine. Over 16 years, I worked in Emergency Medicine and General Practice. The work was rewarding, but I began to notice a devastating pattern.
-                        </p>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            Modern medicine is exceptional at acute intervention — if you have a heart attack, the system will save your life. However, for complex presentations like chronic fatigue, metabolic dysfunction, and early cognitive decline, there is growing recognition that a more proactive, systems-based approach can complement standard care.
-                        </p>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            I saw patients in their 40s and 50s presenting with patterns consistent with mitochondrial dysfunction and insulin resistance, and the standard toolkit offered limited options beyond symptom management.
-                        </p>
+                        <p className="about-eyebrow">DR GAVIN McAULEY · MBChB</p>
+                        <h2>Why I started looking beyond the emergency.</h2>
+                        <p>My medical career began after graduating from the University of Aberdeen in 2009. Working in emergency departments and general practice taught me the value of good clinical care — and how much health can shape the course of a life.</p>
+                        <p>Acute medicine can be extraordinary. But alongside treating illness, I've become fascinated by the research into exercise, sleep, nutrition, metabolic health and the biology of ageing. Some of that science is well established. Some is new, intriguing and far from settled.</p>
                     </div>
                 </section>
 
-                {/* Section 2: A New Paradigm (Dark Background) */}
-                <section style={{
-                    marginBottom: '8rem',
-                    background: 'linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(26,26,26,0.95) 100%)',
-                    padding: '4rem 3rem',
-                    borderRadius: '16px',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    position: 'relative',
-                    overflow: 'hidden'
-                }}>
-                    {/* Subtle pattern overlay */}
-                    <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        opacity: 0.03,
-                        backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.1) 10px, rgba(255,255,255,0.1) 20px)',
-                        pointerEvents: 'none'
-                    }}></div>
+                <section className="about-story">
+                    <p className="about-eyebrow">THE IDEA</p>
+                    <h2>Curiosity, without the hype.</h2>
+                    <p>It's easy to find confident promises about longevity. It's much harder to work out which claims are supported by good evidence, which are still being investigated and which are simply overstated.</p>
+                    <p>That's why I created EmpowerVida: a place to explore useful health research in plain English, with room for both scientific caution and genuine optimism. My aim is to make the subject interesting and accessible, not to promise a shortcut to a longer life.</p>
+                </section>
 
-                    <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
-                        <div style={{
-                            fontSize: '4.5rem',
-                            fontWeight: '800',
-                            color: '#20B2AA',
-                            opacity: 0.15,
-                            marginBottom: '-2rem',
-                            textAlign: 'center'
-                        }}>EVIDENCE</div>
-
-                        <h2 style={{
-                            fontSize: '2.5rem',
-                            marginBottom: '2rem',
-                            color: '#FFFFFF',
-                            fontWeight: '700',
-                            textAlign: 'center'
-                        }}>
-                            A New Paradigm
-                        </h2>
-
-                        <div style={{ width: '50px', height: '4px', background: '#20B2AA', margin: '0 auto 3rem' }}></div>
-
-                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'rgba(255,255,255,0.9)', marginBottom: '1.5rem', textAlign: 'center' }}>
-                            Modern healthcare excels at acute intervention but struggles with systemic optimization. To truly address the complex physiological demands of modern life, we require a framework built on proactive metabolic resilience.
-                        </p>
+                <section className="about-principles" aria-label="How I approach the evidence">
+                    <h2>What you can expect here</h2>
+                    <div className="about-principles-grid">
+                        <div><h3>Evidence first</h3><p>Established findings are distinguished from early or uncertain research.</p></div>
+                        <div><h3>Plain English</h3><p>Complex science explained without assuming a medical background.</p></div>
+                        <div><h3>Reasons for hope</h3><p>Promising ideas explored seriously, without turning possibility into certainty.</p></div>
                     </div>
                 </section>
 
-                {/* Section 3: The Protocol */}
-                <section style={{
-                    marginBottom: '8rem',
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-                    gap: '4rem',
-                    alignItems: 'center'
-                }}>
-                    <div style={{ order: 2 }}>
-                        <div style={{
-                            fontSize: '4rem',
-                            fontWeight: '800',
-                            color: 'var(--color-accent-teal)',
-                            opacity: 0.2,
-                            marginBottom: '-1rem'
-                        }}>CLINICAL</div>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            The Protocol Architecture
-                        </h2>
-                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', marginBottom: '2rem' }}></div>
+                <section className="about-next">
+                    <p className="about-eyebrow">WHERE TO NEXT?</p>
+                    <h2>Explore what interests you.</h2>
+                    <p>Whether you're curious about metabolism, sleep, brain health or emerging longevity research, there's plenty to discover.</p>
+                    <div className="about-actions">
+                        <Link href="/blog" className="about-button about-button-primary">Explore the journal →</Link>
+                        <Link href="/" className="about-button about-button-secondary">Back to homepage</Link>
                     </div>
-                    <div style={{ order: 1 }}>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            The solution to metabolic decline requires a systematic approach.
-                        </p>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            By focusing on optimizing mitochondrial function with specific cofactors and supporting insulin sensitivity with targeted compounds and evidence-based protocols, physiological resilience and energy can be stabilized.
-                        </p>
-                        <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: 'var(--color-text)', marginTop: '1.5rem' }}>
-                            Today, I focus on proactive health education through <strong style={{ color: 'var(--color-accent-teal)' }}>EMPOWERVIDA</strong>. This is the approach I emphasize now: not reactive, but proactive. Not waiting for disease, but engineering resilience.
-                        </p>
-                    </div>
-                </section>
-
-                {/* Section 4: The Philosophy */}
-                <section style={{
-                    marginBottom: '8rem',
-                    background: 'linear-gradient(135deg, rgba(32, 178, 170, 0.05) 0%, rgba(32, 178, 170, 0.02) 100%)',
-                    padding: '4rem',
-                    borderRadius: '16px',
-                    border: '2px solid var(--color-accent-teal)',
-                    position: 'relative'
-                }}>
-                    <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-                        <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)', fontWeight: '700' }}>
-                            Science, Not Celebrity
-                        </h2>
-                        <div style={{ width: '50px', height: '4px', background: 'var(--color-accent-teal)', margin: '0 auto 2rem' }}></div>
-
-                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'var(--color-text)', marginBottom: '1.5rem' }}>
-                            I respect the ER for a heart attack. But for living a long, vibrant life? You need a different toolkit.
-                        </p>
-                        <p style={{ fontSize: '1.3rem', lineHeight: '1.8', color: 'var(--color-text)' }}>
-                            I believe in <em>"Let food be thy medicine,"</em> but I also know that in our modern, stressed world, food isn't always enough. That is where <strong>targeted, clinical supplementation</strong> bridges the gap.
-                        </p>
-
-                        <div style={{
-                            marginTop: '3rem',
-                            padding: '2rem',
-                            background: 'rgba(255,255,255,0.5)',
-                            borderRadius: '12px',
-                            borderLeft: '4px solid var(--color-accent-teal)'
-                        }}>
-                            <p style={{ fontSize: '1.1rem', fontStyle: 'italic', color: 'var(--color-text-muted)' }}>
-                                "We focus on <strong>mitochondrial health</strong>, <strong>metabolic flexibility</strong>, and <strong>cognitive resilience</strong>—the foundations that standard medicine overlooks."
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Credentials Section */}
-                <section style={{ marginBottom: '8rem', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '2rem', marginBottom: '3rem', color: 'var(--color-text)', fontWeight: '700' }}>The Foundation</h2>
-                    <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
-                        {[
-                            { label: 'University of Aberdeen 2009', icon: '🎓' },
-                            { label: '16 Years Practising Medicine', icon: '⚕️' },
-                            { label: 'Emergency Medicine & General Practice', icon: '🚑' },
-                            { label: 'Clinical Focus: Metabolic Health', icon: '🔬' }
-                        ].map((cred, index) => (
-                            <div key={index} style={{
-                                padding: '1.5rem 2rem',
-                                border: '2px solid var(--color-accent-teal)',
-                                borderRadius: '50px',
-                                color: 'var(--color-accent-teal)',
-                                fontWeight: '700',
-                                fontSize: '1.1rem',
-                                background: 'rgba(255,255,255,0.5)',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '0.5rem'
-                            }}>
-                                <span style={{ fontSize: '1.5rem' }}>{cred.icon}</span>
-                                {cred.label}
-                            </div>
-                        ))}
-                    </div>
+                    <p className="about-disclaimer">EmpowerVida provides general educational information, not personalised medical advice. Decisions about your health should be discussed with an appropriate healthcare professional.</p>
                 </section>
             </div>
-
-            {/* Footer CTA */}
-            <section style={{
-                textAlign: 'center',
-                padding: '6rem 2rem',
-                background: 'linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,26,1) 100%)',
-                color: '#FFFFFF',
-                borderTop: '1px solid rgba(255,255,255,0.1)'
-            }}>
-                <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: '#FFFFFF', fontWeight: '700' }}>
-                    Begin Your Optimization
-                </h2>
-                <p style={{ fontSize: '1.3rem', color: 'rgba(255,255,255,0.8)', marginBottom: '1rem', fontStyle: 'italic' }}>
-                    Evidence-based protocols designed for comprehensive metabolic health.
-                </p>
-                <p style={{ fontSize: '1.5rem', color: 'var(--color-accent-teal)', marginBottom: '3rem', fontWeight: '600' }}>
-                    Take control of your cellular resilience.
-                </p>
-                <Link
-                    href="/longevity"
-                    className="btn-primary"
-                    style={{
-                        display: 'inline-block',
-                        padding: '1.2rem 3rem',
-                        fontSize: '1.2rem',
-                        textDecoration: 'none',
-                        border: 'none'
-                    }}
-                >
-                    Start Your Protocol
-                </Link>
-                <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.6)', marginTop: '2rem' }}>
-                    - Dr. G
-                </p>
-            </section>
-        </div>
+            <style jsx global>{`
+                .about-editorial { background:#fff; color:#193d35; font-family:Inter,Arial,sans-serif; }
+                .about-editorial * { box-sizing:border-box; }
+                .about-hero { background:linear-gradient(110deg,rgba(12,42,39,.88),rgba(12,42,39,.68)),url('/about_hero_transformation.png') center/cover; color:white; padding:clamp(5rem,10vw,8rem) 1.5rem; }
+                .about-hero-inner { max-width:900px; margin:auto; }
+                .about-eyebrow { color:#19b8ae; font-size:.82rem; letter-spacing:.13em; font-weight:800; margin:0 0 1rem; }
+                .about-hero h1 { font-family:Manrope,Inter,sans-serif; font-size:clamp(2.3rem,5.5vw,4rem); line-height:1.12; letter-spacing:-.035em; max-width:820px; margin:0 0 1.5rem; color:white; }
+                .about-hero-lead { font-size:clamp(1.05rem,2vw,1.35rem); line-height:1.65; max-width:760px; color:#f0f8f6; margin:0; }
+                .about-content { max-width:1050px; margin:auto; padding:0 1.5rem; }
+                .about-content section { margin:0 auto; padding:clamp(2.75rem,6vw,5rem) 0; }
+                .about-content h2 { font-family:Manrope,Inter,sans-serif; font-size:clamp(1.75rem,3vw,2.55rem); line-height:1.2; letter-spacing:-.025em; margin:0 0 1.35rem; color:#193d35; }
+                .about-content p:not(.about-eyebrow) { font-size:1.08rem; line-height:1.75; margin:0 0 1.2rem; }
+                .about-intro { display:grid; grid-template-columns:minmax(170px,280px) 1fr; align-items:center; gap:clamp(2rem,5vw,4rem); }
+                .about-portrait { width:100%; aspect-ratio:1/1; object-fit:cover; object-position:center top; border-radius:24px; border:3px solid #c2eae5; }
+                .about-story { max-width:780px; border-top:1px solid #dbeae7; }
+                .about-principles { border-top:1px solid #dbeae7; }
+                .about-principles-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.2rem; }
+                .about-principles-grid>div { background:#f3f9f8; padding:1.6rem; border-radius:18px; border:1px solid #deeeea; }
+                .about-principles-grid h3 { font-size:1.15rem; margin:0 0 .65rem; color:#193d35; }
+                .about-principles-grid p { font-size:1rem!important; margin:0!important; }
+                .about-next { text-align:center; border-top:1px solid #dbeae7; max-width:780px; }
+                .about-actions { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:1.6rem 0 2rem; }
+                .about-button { padding:.95rem 1.5rem; border-radius:12px; font-weight:750; text-decoration:none; display:inline-block; }
+                .about-button-primary { background:#164e43; color:white; }
+                .about-button-secondary { border:1px solid #164e43; color:#164e43; }
+                .about-content .about-disclaimer { font-size:.86rem!important; color:#53665f; line-height:1.6!important; }
+                @media(max-width:650px) {
+                    .about-hero { padding:4rem 1.25rem 3.5rem; }
+                    .about-content { padding:0 1.15rem; }
+                    .about-content section { padding:2.5rem 0; }
+                    .about-intro { grid-template-columns:1fr; gap:1.4rem; }
+                    .about-portrait { width:150px; height:150px; border-radius:50%; margin:auto; }
+                    .about-principles-grid { grid-template-columns:1fr; gap:.75rem; }
+                    .about-principles-grid>div { padding:1.2rem; }
+                    .about-actions { flex-direction:column; }
+                    .about-button { width:100%; }
+                }
+            `}</style>
+        </main>
     );
 }
