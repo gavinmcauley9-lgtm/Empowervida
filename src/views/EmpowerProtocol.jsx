@@ -49,8 +49,6 @@ const EmpowerProtocol = () => {
                     </p>
                     <a
                         href="#protocol-newsletter"
-                        target="_blank"
-                        rel="noopener noreferrer"
                         style={{
                             display: 'inline-block',
                             padding: '0.9rem 1.5rem',
