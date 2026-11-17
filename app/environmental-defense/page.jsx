@@ -2,16 +2,16 @@ import React from 'react';
 import EnvironmentalDefense from '../../src/views/EnvironmentalDefense';
 
 export const metadata = {
-  title: 'Environmental Defense — Detox & Cellular Protection | EMPOWERVIDA',
-  description: 'Protect your cells from environmental toxins, heavy metals, and oxidative stress. Physician-designed detox and defence protocols.',
+  title: 'The Invisible Environment | Environmental Health Guide | EmpowerVida',
+  description: 'Explore the evidence on air pollution, drinking water, microplastics, light and everyday exposures — with practical advice and proportionate risk assessment.',
   alternates: {
     canonical: 'https://empowervida.com/environmental-defense/',
   },
   openGraph: {
-    title: 'Environmental Defense — Detox & Cellular Protection | EMPOWERVIDA',
-    description: 'Protect your cells from environmental toxins, heavy metals, and oxidative stress. Physician-designed detox and defence protocols.',
+    title: 'The Invisible Environment | Environmental Health Guide | EmpowerVida',
+    description: 'Explore the evidence on air pollution, drinking water, microplastics, light and everyday exposures — with practical advice and proportionate risk assessment.',
     url: 'https://empowervida.com/environmental-defense/',
-    images: [{ url: 'https://empowervida.com/water_refraction.png/', width: 1200, height: 630 }],
+    images: [{ url: 'https://empowervida.com/hero_dna_botanical.png', width: 1200, height: 630 }],
   },
 };
 
