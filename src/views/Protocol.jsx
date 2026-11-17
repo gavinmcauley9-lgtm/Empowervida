@@ -101,8 +101,8 @@ const Protocol = () => {
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
-                        THE SEVEN AREAS OF <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>LONGEVITY SCIENCE</span>
+                        EXPLORING THE SCIENCE <br />
+                        <span style={{ color: 'var(--color-accent-teal)' }}>OF LONGEVITY</span>
                     </>
                 }
                 subtitle=""
@@ -120,7 +120,7 @@ const Protocol = () => {
                     paddingLeft: '1.5rem',
                     textAlign: 'left'
                 }}>
-                    The future of healthier ageing lies not only in treating disease, but in understanding how we might prevent it, delay it and preserve health for longer.
+                    Seven perspectives on healthier ageing, from metabolic health and brain function to sleep, recovery and emerging discoveries.
                 </p>
             </HeroSection>
 
