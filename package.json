@@ -11,7 +11,9 @@
     "verify:creatine-nmn": "node scripts/verify-creatine-nmn-release.mjs",
     "verify:brain-fog-dementia": "node scripts/verify-brain-fog-dementia-release.mjs",
     "vite:dev": "vite",
-    "vite:build": "vite build"
+    "vite:build": "vite build",
+    "check:commercial-links": "node scripts/check-commercial-links.mjs",
+    "prebuild": "npm run check:commercial-links"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
