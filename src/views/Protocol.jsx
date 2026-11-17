@@ -101,8 +101,8 @@ const Protocol = () => {
                 backgroundImage="/protocol_hero_fire_v2.jpg"
                 title={
                     <>
-                        THE 7 MASTER PROTOCOLS: <br />
-                        <span style={{ color: 'var(--color-accent-teal)' }}>CLINICAL ARCHITECTURE</span>
+                        EXPLORING THE SCIENCE <br />
+                        <span style={{ color: 'var(--color-accent-teal)' }}>OF LONGEVITY</span>
                     </>
                 }
                 subtitle=""
@@ -120,7 +120,7 @@ const Protocol = () => {
                     paddingLeft: '1.5rem',
                     textAlign: 'left'
                 }}>
-                    "Medicine usually waits for a crash. We engineer the system for maximum resilience."
+                    Seven perspectives on healthier ageing, from metabolic health and brain function to sleep, recovery and emerging discoveries.
                 </p>
             </HeroSection>
 
