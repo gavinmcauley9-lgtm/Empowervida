@@ -557,6 +557,13 @@ export default function Home() {
                 .homepage-ecosystem-grid h3 { font-size: 1.35rem !important; }
                 .homepage-ecosystem-grid p { font-size: 1rem !important; line-height: 1.55 !important; margin-bottom: 1.2rem !important; }
                 .homepage-ecosystem-grid a > span { padding: .85rem 1.15rem !important; }
+                .homepage-faq-section > section { padding: 2.5rem 14px 2.75rem !important; }
+                .homepage-faq-section > section > .container > div:first-child { margin-bottom: 1.35rem !important; }
+                .homepage-faq-section h2 { font-size: clamp(1.65rem, 6.5vw, 2.1rem) !important; line-height: 1.18 !important; margin-bottom: .45rem !important; }
+                .homepage-faq-section > section > .container > div:first-child p { font-size: .78rem !important; }
+                .homepage-faq-section > section > .container > div:nth-child(2) > div { padding: .9rem 1rem !important; margin-bottom: .65rem !important; border-radius: 13px !important; }
+                .homepage-faq-section h3 { font-size: 1rem !important; line-height: 1.35 !important; }
+                .homepage-faq-section h3 + span { font-size: 1.25rem !important; }
                 .homepage-expert-section > section { padding: 3rem 16px !important; }
                 .homepage-expert-section > section > div > div:first-child { margin-bottom: 2rem !important; }
                 .homepage-expert-section > section > div > div:nth-child(2) { gap: 1.25rem !important; }
