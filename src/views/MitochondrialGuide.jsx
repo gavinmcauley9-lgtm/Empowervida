@@ -88,6 +88,12 @@ export default function MitochondrialGuide() {
             <figcaption>A simplified conceptual illustration. The real process involves multiple metabolic pathways; not all ATP is produced in mitochondria.</figcaption>
           </figure>
           <p>ATP production is only part of the story. Mitochondria also contribute to calcium regulation, cell signalling and processes involved in cellular stress responses. They are dynamic: cells can change their number, shape and activity in response to different demands.</p>
+          <section aria-labelledby="engine-room-explainer">
+            <h2 id="engine-room-explainer">Inside the engine room: ATP and its supporting machinery</h2>
+            <p>The engine-room metaphor is a useful way to understand cellular energy. Mitochondria help generate much of the ATP used by cells. The electron transport chain depends on several components, including coenzyme Q10, while nutrients such as B vitamins and magnesium contribute to normal energy metabolism. That does not mean taking more of each nutrient will increase energy in someone who already has adequate levels.</p>
+            <p>Creatine plays a different role: the phosphocreatine system helps regenerate ATP rapidly when demand rises. Its established benefits are mainly in certain exercise settings; whether supplementation meaningfully improves cognition or slows ageing in healthy adults remains uncertain. Acetyl-L-carnitine, NAC and urolithin A are also being studied for specific biological effects, but laboratory mechanisms and early studies are not proof of longer human life.</p>
+            <div className="note"><strong>What matters clinically:</strong> Start with activity, adequate nutrition and assessment of persistent fatigue or suspected deficiency. Supplements should be considered for a defined reason, not assembled into a universal mitochondrial “stack”.</div>
+          </section>
           <h2 id="ageing">What changes as we age?</h2>
           <p>In some tissues, ageing is associated with changes in mitochondrial function, quality control and the way cells respond to stress. Researchers study processes such as <strong>mitophagy</strong> (the removal of damaged mitochondria) and <strong>mitochondrial biogenesis</strong> (the formation of new mitochondrial material).</p>
           <p>These changes are not a single switch that explains all ageing. They vary across tissues and individuals, and they interact with inflammation, physical activity, disease and many other biological processes.</p>
