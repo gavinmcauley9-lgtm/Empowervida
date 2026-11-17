@@ -9,7 +9,7 @@ const Footer = () => {
         display: 'block',
         color: '#86868b',
         textDecoration: 'none',
-        marginBottom: '0.8rem',
+        marginBottom: '0.5rem',
         fontSize: '0.9rem',
         transition: 'color 0.2s ease',
         textTransform: 'uppercase',
@@ -17,7 +17,7 @@ const Footer = () => {
     };
 
     return (
-        <footer style={{
+        <footer className="ev-footer" style={{ padding: '3rem 2rem',
             backgroundColor: '#F5F5F7',
             color: '#1D1D1F',
             padding: '4rem 2rem',
@@ -26,16 +26,16 @@ const Footer = () => {
             zIndex: 10,
             fontFamily: '"Inter", sans-serif'
         }}>
-            <div style={{
+            <div className="ev-footer-grid" style={{
                 maxWidth: '1200px',
                 margin: '0 auto',
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
-                gap: '4rem',
-                marginBottom: '4rem'
+                gap: '2.5rem',
+                marginBottom: '2.5rem'
             }}>
                 {/* Column 1: Identity */}
-                <div>
+                <div className="ev-footer-identity">
                     <h3 style={{
                         fontSize: '1.3rem',
                         fontWeight: 800,
@@ -54,7 +54,7 @@ const Footer = () => {
                     }}>
                         Clinical Vitality Engineering
                     </p>
-                    <div style={{ display: 'flex', gap: '1rem' }}>
+                    <div className="ev-footer-social" style={{ display: 'flex', gap: '1rem' }}>
                         {/* Twitter / X */}
                         <a href="https://x.com/GavinMcAuleyMD" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" style={{
                             color: 'var(--color-text-muted)',
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
 
                 {/* Column 2: Quick Links */}
-                <div>
+                <div className="ev-footer-group">
                     <h4 style={{
                         fontSize: '0.9rem',
                         fontWeight: 700,
@@ -126,7 +126,7 @@ const Footer = () => {
                 </div>
 
                 {/* Column 3: Essential Guides */}
-                <div>
+                <div className="ev-footer-group">
                     <h4 style={{
                         fontSize: '0.9rem',
                         fontWeight: 700,
@@ -145,7 +145,7 @@ const Footer = () => {
                 </div>
 
                 {/* Column 3: Legal & Privacy */}
-                <div>
+                <div className="ev-footer-group">
                     <h4 style={{
                         fontSize: '0.9rem',
                         fontWeight: 700,
@@ -161,7 +161,7 @@ const Footer = () => {
                 </div>
 
                 {/* Column 4: Medical Disclaimer */}
-                <div>
+                <div className="ev-footer-group ev-footer-disclaimer">
                     <h4 style={{
                         fontSize: '0.9rem',
                         fontWeight: 700,
@@ -183,7 +183,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Row */}
-            <div style={{
+            <div className="ev-footer-bottom" style={{
                 borderTop: '1px solid rgba(255, 255, 255, 0.05)',
                 paddingTop: '2rem',
                 textAlign: 'center',
@@ -236,6 +236,26 @@ const Footer = () => {
                     Cookie Preferences
                 </button>
             </div>
+            <style jsx global>{`
+              .ev-footer a:focus-visible, .ev-footer button:focus-visible { outline: 2px solid #16877f; outline-offset: 3px; }
+              @media (max-width: 767px) {
+                .ev-footer { padding: 2rem 18px 1.5rem !important; }
+                .ev-footer-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; column-gap: 1rem !important; row-gap: 1.5rem !important; margin-bottom: 1.25rem !important; }
+                .ev-footer-identity { grid-column: 1 / -1; }
+                .ev-footer-identity h3 { margin-bottom: .3rem !important; font-size: 1.15rem !important; }
+                .ev-footer-identity p { margin-bottom: .9rem !important; font-size: .9rem !important; }
+                .ev-footer-social { gap: 1.4rem !important; }
+                .ev-footer-group h4 { margin-bottom: .7rem !important; font-size: .78rem !important; line-height: 1.35 !important; }
+                .ev-footer-group a { margin-bottom: .6rem !important; font-size: .78rem !important; letter-spacing: 0 !important; line-height: 1.5 !important; overflow-wrap: anywhere; }
+                .ev-footer-disclaimer { grid-column: 1 / -1; border-top: 1px solid #dedfe2; padding-top: 1rem; }
+                .ev-footer-disclaimer p { font-size: .78rem !important; line-height: 1.55 !important; max-width: 68ch; }
+                .ev-footer-bottom { padding-top: 1rem !important; gap: .45rem !important; font-size: .73rem !important; border-top: 1px solid #dedfe2 !important; }
+              }
+              @media (max-width: 340px) {
+                .ev-footer-grid { grid-template-columns: minmax(0,1fr) !important; }
+                .ev-footer-identity, .ev-footer-disclaimer { grid-column: 1 !important; }
+              }
+            `}</style>
         </footer>
     );
 };
