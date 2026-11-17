@@ -224,54 +224,8 @@ export default function Home() {
                             My mission is to make health and longevity research understandable, useful and genuinely interesting — celebrating promising discoveries while being clear about what science has, and has not, established.
                         </p>
 
-                        {/* Premium Credentials Grid */}
-                        <div className="homepage-founder-credentials" style={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                            gap: '1.75rem',
-                            marginTop: '3.5rem',
-                            paddingTop: '3rem',
-                            borderTop: '2px solid rgba(32, 178, 170, 0.15)'
-                        }}>
-                            {[
-                                { icon: '🎓', text: 'Aberdeen 2009' },
-                                { icon: '⚕️', text: '16 Years Practising' },
-                                { icon: '🚑', text: 'ER & General Practice' },
-                                { icon: '💪', text: 'Clinical Optimization' }
-                            ].map((item, index) => (
-                                <motion.div
-                                    key={index}
-                                    whileHover={{ scale: 1.05 }}
-                                    style={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '1rem',
-                                        padding: '0.75rem 1rem',
-                                        background: 'rgba(255, 255, 255, 0.3)',
-                                        borderRadius: '12px',
-                                        transition: 'all 0.3s ease'
-                                    }}
-                                >
-                                    <div style={{
-                                        fontSize: '1.75rem',
-                                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))'
-                                    }}>
-                                        {item.icon}
-                                    </div>
-                                    <div style={{
-                                        fontSize: '0.95rem',
-                                        fontWeight: '700',
-                                        color: '#1A3C34',
-                                        letterSpacing: '0.02em'
-                                    }}>
-                                        {item.text}
-                                    </div>
-                                </motion.div>
-                            ))}
-                        </div>
-
                         {/* Premium CTA Button */}
-                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '4rem' }}>
+                        <div className="homepage-founder-cta" style={{ textAlign: 'center', marginTop: '1.5rem' }}>
                             <Link
                                 href="/about"
                                 onClick={() => window.scrollTo(0, 0)}
