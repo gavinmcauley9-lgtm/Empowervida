@@ -1,400 +1,43 @@
 "use client";
-
 import React from 'react';
-import { motion } from 'framer-motion';
-import HeroSection from '../components/HeroSection';
 import Link from 'next/link';
 
-const Diagnostics = () => {
-    const essentialMarkers = [
-        {
-            name: "ApoB",
-            truth: "ApoB reflects the number of atherogenic lipoprotein particles and can refine cardiovascular risk assessment, especially when conventional lipid measures are discordant.",
-            target: "Risk-dependent; no universal target"
-        },
-        {
-            name: "Fasting Insulin",
-            truth: "Fasting insulin can help characterise insulin resistance in research and selected settings. It is not a validated general screening replacement for glucose or HbA1c.",
-            target: "No universal clinical target"
-        },
-        {
-            name: "Homocysteine",
-            truth: "Elevated homocysteine can be associated with cardiovascular risk or vitamin deficiency, but lowering it has not consistently prevented cardiovascular events.",
-            target: "Interpret by clinical context"
-        },
-        {
-            name: "hs-CRP",
-            truth: "hs-CRP is a nonspecific marker of inflammation that can sometimes refine cardiovascular risk assessment; it cannot directly identify unstable plaque.",
-            target: "Risk interpretation, not a universal target"
-        },
-        {
-            name: "Lipoprotein(a)",
-            truth: "Lp(a) is largely genetically determined and independently associated with cardiovascular risk. Several major guidelines support measuring it at least once in adulthood.",
-            target: "Risk marker; units and thresholds vary"
-        }
-    ];
-
-    const honourableMentions = [
-        {
-            name: "Vitamin D",
-            truth: "Vitamin D supports calcium regulation and bone health. Testing is most useful for specific risk factors or clinical indications; higher levels are not proven to improve longevity.",
-            target: "No universal longevity target"
-        },
-        {
-            name: "HbA1c",
-            truth: "HbA1c reflects average glycaemia over roughly two to three months and is an established tool for diabetes diagnosis and monitoring, with recognised limitations.",
-            target: "Use diagnostic criteria and individual goals"
-        },
-        {
-            name: "GGT",
-            truth: "GGT can rise in several liver and biliary conditions, alcohol exposure and medication effects. It is not a validated measure of 'detoxification demand'.",
-            target: "Laboratory-specific reference range"
-        }
-    ];
-
-    return (
-        <div style={{
-            backgroundColor: 'var(--color-bg)',
-            color: 'var(--color-text)',
-            minHeight: '100vh',
-            fontFamily: '"Inter", sans-serif',
-            overflowX: 'hidden'
-        }}>
-            {/* Hero Section */}
-            <HeroSection
-                backgroundImage="/diagnostics_hero_user.jpg"
-                title="THE DIAGNOSTICS"
-                subtitle='"If you are not measuring, you are guessing."'
-                overlay="linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.6) 50%, #FFFFFF 100%)"
-                textColor="var(--color-text)"
-                subtitleColor="var(--color-text-muted)"
-            />
-
-            {/* Intro Section */}
-            <section style={{ padding: '4rem 2rem', maxWidth: '800px', margin: '0 auto' }} data-aos="fade-up" data-aos-delay="100">
-                <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: 'var(--color-text)', marginBottom: '2rem' }}>
-                    Routine preventive care can detect risk factors before symptoms or disease complications develop. 
-                    <strong style={{ color: 'var(--color-accent-teal)' }}> We focus on proactive diagnostics.</strong> The goal is to choose tests with meaningful clinical interpretation, not to impose unvalidated ‘optimal’ targets on everyone.
-                </p>
-            </section>
-
-            {/* Tier 1: THE ESSENTIAL 5 */}
-            <section style={{ padding: '2rem 2rem 4rem', maxWidth: '1000px', margin: '0 auto' }}>
-                <div style={{
-                    borderBottom: '1px solid var(--color-accent-orange)',
-                    marginBottom: '3rem',
-                    paddingBottom: '1rem'
-                }}>
-                    <h2 style={{
-                        fontSize: '2rem',
-                        fontWeight: 700,
-                        color: 'var(--color-text)',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em'
-                    }} data-aos="fade-up">
-                        Tier 1: <span style={{ color: 'var(--color-accent-orange)' }}>The Essential 5</span>
-                    </h2>
-                </div>
-
-                <div style={{ display: 'grid', gap: '2rem' }}>
-                    {essentialMarkers.map((marker, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            style={{
-                                background: 'var(--color-bg)',
-                                border: '1px solid var(--color-border)',
-                                padding: '2rem',
-                                borderRadius: '4px',
-                                display: 'grid',
-                                gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                                gap: '1.5rem',
-                                alignItems: 'center',
-                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                            }}
-                            data-aos="fade-up"
-                            data-aos-delay={index * 100}
-                        >
-                            <div>
-                                <h3 style={{
-                                    fontSize: '1.75rem',
-                                    fontWeight: 700,
-                                    color: 'var(--color-text)',
-                                    marginBottom: '0.5rem'
-                                }}>
-                                    {marker.name}
-                                </h3>
-                                <p style={{
-                                    fontSize: '1rem',
-                                    color: 'var(--color-text-muted)',
-                                    margin: 0,
-                                    lineHeight: 1.5
-                                }}>
-                                    <strong style={{ color: 'var(--color-accent-orange)' }}>The Truth:</strong> {marker.truth}
-                                </p>
-                            </div>
-                            <div style={{
-                                background: '#F8F8F8',
-                                padding: '1rem',
-                                borderRadius: '4px',
-                                borderLeft: '3px solid var(--color-accent-orange)'
-                            }}>
-                                <div style={{
-                                    fontSize: '0.85rem',
-                                    textTransform: 'uppercase',
-                                    color: 'var(--color-text-muted)',
-                                    marginBottom: '0.25rem',
-                                    fontWeight: 600
-                                }}>
-                                    Target
-                                </div>
-                                <div style={{
-                                    fontSize: '1.25rem',
-                                    fontWeight: 700,
-                                    color: 'var(--color-accent-orange)',
-                                    fontFamily: 'monospace'
-                                }}>
-                                    {marker.target}
-                                </div>
-                            </div>
-                        </motion.div>
-                    ))}
-                </div>
-            </section>
-
-            {/* Tier 2: HONOURABLE MENTIONS */}
-            <section style={{ padding: '2rem 2rem 6rem', maxWidth: '1000px', margin: '0 auto' }}>
-                <div style={{
-                    borderBottom: '1px solid var(--color-text-muted)',
-                    marginBottom: '3rem',
-                    paddingBottom: '1rem'
-                }}>
-                    <h2 style={{
-                        fontSize: '2rem',
-                        fontWeight: 700,
-                        color: 'var(--color-text)',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em'
-                    }}>
-                        Tier 2: <span style={{ color: 'var(--color-text-muted)' }}>Honourable Mentions</span>
-                    </h2>
-                </div>
-
-                <div style={{ display: 'grid', gap: '2rem' }}>
-                    {honourableMentions.map((marker, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            style={{
-                                background: 'var(--color-bg)',
-                                border: '1px solid var(--color-border)',
-                                padding: '2rem',
-                                borderRadius: '4px',
-                                display: 'grid',
-                                gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                                gap: '1.5rem',
-                                alignItems: 'center',
-                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                            }}
-                            onMouseEnter={(e) => {
-                                e.currentTarget.style.transform = 'translateY(-5px)';
-                                e.currentTarget.style.boxShadow = '0 12px 30px rgba(32, 178, 170, 0.15)';
-                            }}
-                            onMouseLeave={(e) => {
-                                e.currentTarget.style.transform = 'translateY(0)';
-                                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.03)';
-                            }}
-                        >
-                            <div>
-                                <h3 style={{
-                                    fontSize: '1.75rem',
-                                    fontWeight: 700,
-                                    color: 'var(--color-text)',
-                                    marginBottom: '0.5rem'
-                                }}>
-                                    {marker.name}
-                                </h3>
-                                <p style={{
-                                    fontSize: '1rem',
-                                    color: 'var(--color-text-muted)',
-                                    margin: 0,
-                                    lineHeight: 1.5
-                                }}>
-                                    <strong style={{ color: 'var(--color-text-muted)' }}>The Truth:</strong> {marker.truth}
-                                </p>
-                            </div>
-                            <div style={{
-                                background: '#F8F8F8',
-                                padding: '1rem',
-                                borderRadius: '4px',
-                                borderLeft: '3px solid var(--color-text-muted)'
-                            }}>
-                                <div style={{
-                                    fontSize: '0.85rem',
-                                    textTransform: 'uppercase',
-                                    color: 'var(--color-text-muted)',
-                                    marginBottom: '0.25rem',
-                                    fontWeight: 600
-                                }}>
-                                    Target
-                                </div>
-                                <div style={{
-                                    fontSize: '1.25rem',
-                                    fontWeight: 700,
-                                    color: 'var(--color-text)',
-                                    fontFamily: 'monospace'
-                                }}>
-                                    {marker.target}
-                                </div>
-                            </div>
-                        </motion.div>
-                    ))}
-                </div>
-            </section >
-
-            {/* THE DEEP DIVE: Mechanism of Action */}
-            < section style={{
-                position: 'relative',
-                padding: '6rem 2rem',
-                color: 'var(--color-text)',
-                overflow: 'hidden'
-            }}>
-                {/* Background Image */}
-                < div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    backgroundImage: 'url(/dna_bg_user.jpg)',
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    opacity: 0.1,
-                    zIndex: 0
-                }}></div >
-
-                <div style={{ position: 'relative', zIndex: 1, maxWidth: '1200px', margin: '0 auto' }}>
-                    <div style={{ marginBottom: '4rem', textAlign: 'center' }}>
-                        <h2 style={{
-                            fontSize: '2.5rem',
-                            fontWeight: 800,
-                            textTransform: 'uppercase',
-                            letterSpacing: '0.05em',
-                            marginBottom: '1rem',
-                            color: 'var(--color-text)'
-                        }}>
-                            THE DEEP DIVE: <span style={{ color: 'var(--color-accent-teal)' }}>Mechanism of Action</span>
-                        </h2>
-                    </div>
-
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-                        gap: '2.5rem'
-                    }}>
-                        {/* Block 1 */}
-                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Why ApoB? <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Traffic Analogy)</span>
-                            </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                LDL-C measures the weight of cholesterol in your blood. ApoB counts the actual number of particles. Think of it like a highway: LDL-C tells you the weight of the passengers, but ApoB tells you the number of cars. It is the number of cars (particles) that causes the traffic jams (plaque) and accidents (heart disease). You can have 'normal' LDL but dangerous ApoB.
-                            </p>
-                        </div>
-
-                        {/* Block 2 */}
-                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Fasting Insulin vs. HbA1c
-                            </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                These tests answer different questions. HbA1c is a validated measure of longer-term glucose exposure and helps diagnose diabetes. Fasting insulin may add context in selected cases, but assay variation and the absence of universal thresholds limit its use as a routine screening test.
-                            </p>
-                        </div>
-
-                        {/* Block 3 */}
-                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Vitamin D <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Hormone)</span>
-                            </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Vitamin D is a nutrient whose active form acts as a hormone. Its established clinical roles include calcium balance and skeletal health. Research explores other effects, but associations with immune or mood outcomes do not prove that higher vitamin D levels improve those outcomes.
-                            </p>
-                        </div>
-
-                        {/* Block 4 */}
-                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                Homocysteine <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Vascular Toxin)</span>
-                            </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Homocysteine is an amino acid influenced by kidney function, vitamin B12 and folate status, medications and other factors. Elevated levels can prompt investigation in appropriate settings, but lowering homocysteine has not consistently reduced heart attacks or mortality.
-                            </p>
-                        </div>
-
-                        {/* Block 5 */}
-                        <div style={{ background: '#F8F8F8', padding: '2rem', borderTop: '4px solid var(--color-accent-teal)', backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.05)' }}>
-                            <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-accent-teal)', marginBottom: '1rem', textTransform: 'uppercase' }}>
-                                hs-CRP <br /><span style={{ color: 'var(--color-text)', fontSize: '0.9rem' }}>(The Silent Fire)</span>
-                            </h3>
-                            <p style={{ fontSize: '0.95rem', lineHeight: 1.6, color: 'var(--color-text-muted)' }}>
-                                Inflammation contributes to atherosclerosis, but hs-CRP is a nonspecific blood marker rather than a direct scan of arterial plaque. It can be elevated for many reasons, including infection and chronic inflammatory conditions.
-                                <br /><br />
-                                <strong style={{ color: 'var(--color-text)' }}>The Clinical Reality:</strong> Elevated hs-CRP may provide additional risk information in selected people, but it cannot establish whether an individual plaque is stable or unstable.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section >
-
-
-
-            {/* Footer / Disclaimer */}
-            < section style={{
-                padding: '4rem 2rem',
-                textAlign: 'center',
-                borderTop: '1px solid var(--color-border)',
-                background: 'var(--color-bg)'
-            }}>
-                <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-                    <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--color-text)' }}>READY TO INTERPRET?</h2>
-                    <p style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', marginBottom: '3rem' }}>
-                        Learn how to read your bloodwork like a longevity physician.
-                    </p>
-                    <Link href="/blog" onClick={() => window.scrollTo(0, 0)} className="btn-secondary" style={{
-                        textDecoration: 'none',
-                        fontSize: '1.1rem',
-                        padding: '1.2rem 3rem',
-                        display: 'inline-block',
-                        border: '1px solid var(--color-accent-teal)',
-                        color: 'var(--color-accent-teal)',
-                        borderRadius: '4px',
-                        fontWeight: 700,
-                        letterSpacing: '0.05em',
-                        transition: 'background 0.3s ease, color 0.3s ease'
-                    }}>
-                        READ THE GUIDE
-                    </Link>
-                </div>
-            </section >
-        </div >
-    );
-};
-
-export default Diagnostics;
+const groups = [
+ {id:'foundation',number:'01',title:'The clinical foundations',deck:'Tests with established roles in detecting disease, monitoring health or assessing risk — used according to age, symptoms and personal risk.',items:[
+  {name:'Lipids and cardiovascular risk',evidence:'Established clinical use',why:'A standard lipid profile helps assess cardiovascular risk. LDL cholesterol, HDL cholesterol, triglycerides and total cholesterol are interpreted alongside blood pressure, smoking, diabetes and other factors.',decision:'Validated cardiovascular risk tools, such as the US PREVENT equations where applicable, help guide preventive decisions. More testing is not always better.'},
+  {name:'Glucose and HbA1c',evidence:'Established clinical use',why:'Fasting glucose and HbA1c help identify diabetes and prediabetes. HbA1c reflects glycaemia over approximately two to three months, although anaemia, altered red-cell turnover and other conditions can affect its reliability.',decision:'Screening is guided by diabetes risk and clinical circumstances; HbA1c is not a universal longevity score.'},
+  {name:'Kidney function and urine albumin',evidence:'Established in indicated groups',why:'Creatinine and estimated glomerular filtration rate (eGFR) assess kidney filtration; urine albumin-to-creatinine ratio (uACR) can detect kidney damage that eGFR alone may miss.',decision:'Particularly useful with diabetes, hypertension, cardiovascular risk or other kidney-disease risk factors.'},
+  {name:'Full blood count, iron studies and thyroid tests',evidence:'Useful when clinically indicated',why:'Anaemia, iron deficiency and thyroid disease can contribute to fatigue and reduced function. A full blood count, ferritin or TSH may be appropriate depending on symptoms, history and examination.',decision:'These are not necessarily annual screening tests for every healthy adult; investigate a clinical question rather than ordering a universal panel.'}
+ ]},
+ {id:'refinement',number:'02',title:'When a closer look adds value',deck:'Additional biomarkers can sharpen an assessment in the right circumstances. Their usefulness depends on whether the result changes management.',items:[
+  {name:'Apolipoprotein B (ApoB)',evidence:'Useful in selected cardiovascular assessments',why:'Each major atherogenic lipoprotein particle carries one ApoB molecule. ApoB therefore approximates the number of particles capable of contributing to atherosclerosis, rather than simply measuring their cholesterol content.',decision:'Can be informative when lipid measurements are discordant or risk is uncertain; it is not a replacement for assessing overall cardiovascular risk.'},
+  {name:'Lipoprotein(a) — Lp(a)',evidence:'Important inherited risk marker',why:'Lp(a) is a largely genetically determined lipoprotein associated with atherosclerotic cardiovascular disease and aortic valve stenosis.',decision:'The 2026 US ACC/AHA guideline recommends measuring Lp(a) at least once in adulthood for cardiovascular risk assessment. Units and interpretation matter.'},
+  {name:'Vitamin B12, folate and vitamin D',evidence:'Indication-dependent',why:'Deficiency can have real clinical consequences. B12 and folate are important in blood-cell and neurological function; vitamin D supports calcium regulation and bone health.',decision:'Testing is useful with symptoms, risk factors or suspected deficiency. Higher-than-adequate levels have not been shown to deliver universal longevity benefits.'},
+  {name:'Liver tests and GGT',evidence:'Established clinical tests; not detox scores',why:'Liver enzymes and related markers can help evaluate hepatobiliary disease, medication effects and other conditions. GGT is nonspecific.',decision:'An abnormal value needs context, not an automatic conclusion that the body needs a detox programme.'}
+ ]},
+ {id:'exploratory',number:'03',title:'Interesting biology, more limited screening value',deck:'These markers can be scientifically informative without being proven routine screening tools.',items:[
+  {name:'Fasting insulin',evidence:'Physiologically informative; limited routine screening role',why:'Insulin helps regulate glucose and energy storage. In insulin resistance, higher circulating insulin may compensate for reduced tissue responsiveness — until pancreatic beta-cell function can no longer keep pace.',decision:'Fasting insulin and derived indices can be useful in research or selected clinical contexts, but assay variation and the lack of universally validated thresholds limit general screening. Glucose and HbA1c remain central.'},
+  {name:'High-sensitivity C-reactive protein (hs-CRP)',evidence:'Established inflammatory marker; limited routine CVD screening value',why:'Inflammation is involved in atherosclerosis, and hs-CRP can measure low-grade systemic inflammation. But it is nonspecific and rises for many reasons.',decision:'Routine hs-CRP testing is not a universal recommendation; its incremental value over established cardiovascular risk assessment is limited and varies by guideline.'},
+  {name:'Homocysteine',evidence:'Biologically plausible; outcome evidence is mixed',why:'Homocysteine metabolism depends partly on folate and vitamin B12 pathways. Elevated levels may signal deficiency, impaired kidney function or other conditions.',decision:'An association with vascular disease does not mean that routinely testing and lowering homocysteine prevents heart attacks. Use it when a specific clinical indication exists.'},
+  {name:'Biological-age and broad longevity panels',evidence:'Exploratory',why:'Epigenetic clocks and multi-biomarker scores are interesting research tools, but estimates can differ by method and may change without demonstrating an improvement in health.',decision:'Do not mistake a changing biological-age number for proven prevention of disease or extension of lifespan.'}
+ ]}
+];
+export default function Diagnostics(){
+return <main className="diag-guide">
+<style>{`
+.diag-guide{--ink:#18372f;--muted:#52675f;--teal:#126e62;--line:#dce8e1;color:var(--ink);background:#fff}.diag-guide *{box-sizing:border-box}.diag-guide .hero{min-height:520px;padding:9rem max(24px,calc((100vw - 1120px)/2)) 4.5rem;background:linear-gradient(105deg,rgba(7,31,30,.94),rgba(8,43,39,.68)),url('/diagnostics_hero_user.jpg') center/cover;display:flex;align-items:flex-end;color:#fff}.diag-guide .hero-inner{max-width:820px}.diag-guide .eyebrow{color:#b5ebdd;text-transform:uppercase;letter-spacing:.17em;font-size:.79rem;font-weight:700}.diag-guide h1{color:#fff;font-size:clamp(2.8rem,6vw,5.3rem);line-height:1.06;letter-spacing:-.045em;margin:1rem 0 1.2rem}.diag-guide .deck{font-size:clamp(1.13rem,2.1vw,1.45rem);line-height:1.55;color:#e4f4ee}.diag-guide .shell{max-width:1120px;margin:auto;padding:3.5rem 24px 5rem;display:grid;grid-template-columns:220px minmax(0,1fr);gap:clamp(2rem,5vw,5rem)}.diag-guide nav{position:sticky;top:110px;align-self:start;border-left:2px solid var(--line);padding-left:1rem}.diag-guide nav strong{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}.diag-guide nav a{display:block;margin:1rem 0;color:#2a6356;text-decoration:none;font-size:.92rem}.diag-guide article{max-width:780px;min-width:0;font-size:1.08rem;line-height:1.8}.diag-guide p{margin:0 0 1.4rem}.diag-guide h2{font-size:clamp(1.9rem,3.6vw,2.7rem);letter-spacing:-.035em;line-height:1.2;margin:3rem 0 1rem;scroll-margin-top:115px}.diag-guide h3{font-size:1.3rem;line-height:1.35;margin:.5rem 0 1rem}.diag-guide .summary{background:#edf6f2;border-left:4px solid var(--teal);border-radius:0 12px 12px 0;padding:1.5rem 1.7rem;margin-bottom:2.5rem}.diag-guide .figure{background:#123e37;color:#f4fbf7;border-radius:17px;padding:1.8rem;margin:2rem 0}.diag-guide .figure strong{display:block;color:#c8f1e4;margin-bottom:.7rem}.diag-guide .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}.diag-guide .steps div{border:1px solid #5e9989;border-radius:9px;padding:1rem;background:#1e5148;font-size:.93rem}.diag-guide .section-deck{color:var(--muted);font-size:1.06rem}.diag-guide .marker{border-top:1px solid var(--line);padding:1.6rem 0 .9rem}.diag-guide .label{font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#116b5f}.diag-guide .marker p{margin-bottom:.85rem}.diag-guide .marker b{color:#174f44}.diag-guide .note{border:1px solid var(--line);border-radius:12px;padding:1.4rem;margin:2rem 0;background:#f9fcfa}.diag-guide ul{padding-left:1.4rem}.diag-guide li{margin-bottom:.9rem}.diag-guide a{color:#086e61;text-underline-offset:3px;overflow-wrap:anywhere}.diag-guide .sources{font-size:.94rem;line-height:1.7}@media(max-width:800px){.diag-guide .shell{display:block;padding:2rem 20px 4rem}.diag-guide nav{position:static;border-left:0;border-bottom:1px solid var(--line);padding:0 0 1rem;margin-bottom:2rem}.diag-guide nav a{display:inline-block;margin:.6rem 1rem .2rem 0}.diag-guide .hero{min-height:440px;padding:8rem 20px 3rem}.diag-guide article{font-size:1.02rem}.diag-guide .steps{grid-template-columns:1fr}}
+`}</style>
+<header className="hero"><div className="hero-inner"><span className="eyebrow">EmpowerVida | Longevity Guides</span><h1>Advanced Diagnostics: What Is Worth Measuring?</h1><p className="deck">From everyday blood tests to the biomarkers shaping longevity research — what they reveal, when they help, and where the science still has questions.</p></div></header>
+<div className="shell"><nav aria-label="On this page"><strong>In this guide</strong><a href="#principle">The central question</a>{groups.map(g=><a key={g.id} href={`#${g.id}`}>{g.title}</a>)}<a href="#sources">Sources</a></nav><article>
+<aside className="summary"><strong>In 30 seconds</strong><p>A good test is not simply one that produces an interesting number. It should answer a clinical question and, ideally, help change a decision. Established tests such as lipids and HbA1c matter enormously in the right people. ApoB and Lp(a) can add useful context. Other markers are fascinating but have not earned a place in universal screening.</p></aside>
+<p>Imagine two people with identical laboratory reports. One has a strong family history of early heart disease; the other has no major risk factors. The numbers may be the same, but what they mean — and what should happen next — can be very different.</p>
+<p>That is the promise and the limitation of advanced diagnostics. Modern medicine can measure remarkable details of human biology. The art is knowing which measurements genuinely improve care.</p>
+<h2 id="principle">The most important question is not “Can we measure it?”</h2>
+<p>It is <strong>“Will knowing the result help us make a better decision?”</strong> A biological mechanism may be established, and a biomarker may be associated with disease, without evidence that routinely testing it improves health outcomes.</p>
+<figure className="figure"><strong>From measurement to meaningful benefit</strong><div className="steps"><div>1 · Biology<br/>What does the marker represent?</div><div>2 · Clinical evidence<br/>Does it predict or detect something useful?</div><div>3 · Action<br/>Does the result change care?</div></div><figcaption style={{marginTop:'1rem',fontSize:'.85rem',color:'#d5e8e1'}}>A useful framework, not a substitute for clinical assessment. False positives, incidental findings and unnecessary follow-up can also cause harm.</figcaption></figure>
+{groups.map(g=><section key={g.id} aria-labelledby={g.id}><h2 id={g.id}>{g.number} — {g.title}</h2><p className="section-deck">{g.deck}</p>{g.items.map(item=><div className="marker" key={item.name}><span className="label">{item.evidence}</span><h3>{item.name}</h3><p>{item.why}</p><p><b>When it helps:</b> {item.decision}</p></div>)}</section>)}
+<div className="note"><strong>What a sensible check-up looks like</strong><p>Start with your history, family history, symptoms, medications, blood pressure and established preventive recommendations. Choose laboratory tests to answer specific questions. Discuss results in context rather than chasing an ever-expanding list of “optimal” numbers.</p><p style={{marginBottom:0}}>Risk tools, such as the American Heart Association PREVENT equations, illustrate how measurements can be combined with clinical context rather than treating any single biomarker as destiny.</p></div>
+<h2 id="sources">Sources and further reading</h2><ul className="sources"><li><a href="https://www.who.int/health-topics/noncommunicable-diseases" target="_blank" rel="noopener noreferrer">World Health Organization — Noncommunicable diseases</a></li><li><a href="https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia" target="_blank" rel="noopener noreferrer">American Heart Association — 2026 Dyslipidemia Guideline</a></li><li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2025.11.016" target="_blank" rel="noopener noreferrer">2026 ACC/AHA guideline — ApoB, Lp(a) and risk assessment</a></li><li><a href="https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know" target="_blank" rel="noopener noreferrer">American Heart Association — Top things to know about the 2026 dyslipidemia guideline</a></li></ul>
+<p style={{fontSize:'.89rem',color:'var(--muted)',borderTop:'1px solid var(--line)',paddingTop:'1.5rem'}}>Medical note: This guide is for general education, not individual diagnosis or a recommended testing schedule. Appropriate tests depend on personal circumstances and clinical assessment.</p><p><Link href="/blog">Explore more in The Journal</Link></p>
+</article></div></main>;
+}
