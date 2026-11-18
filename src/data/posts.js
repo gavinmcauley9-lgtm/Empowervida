@@ -199,6 +199,65 @@ export const POSTS = [
     `
   },
   {
+    id: 999,
+    slug: 'why-nad-is-not-a-magic-bullet-brain-fog-root-causes',
+    aliases: ['brain-fog-cognitive-decline-science-of-the-dimmer-switch', 'why-nad-is-not-a-magic-bullet-brain-fog-root-causes'],
+    title: 'Brain Fog: Four Hidden Systems Worth Investigating — and Why NAD+ Is Not a Quick Fix',
+    category: 'Neuro-Optimization',
+    image: '/cellular_structure.webp',
+    excerpt: "Brain fog has many possible causes. Explore how sleep, iron, metabolic health and thyroid function can affect cognition — and why NAD+ supplements are not a proven shortcut.",
+    date: 'Mar 21, 2026',
+    references: [
+      { text: "Gallagher & Emmanuel (2026). NAD+ supplementation for anti-aging and wellness: systematic review. Ageing Research Reviews.", url: "https://pubmed.ncbi.nlm.nih.gov/41655607/" },
+      { text: "Nicotinamide riboside in amnestic mild cognitive impairment: randomized pilot trial (2026). Alzheimer's & Dementia.", url: "https://pubmed.ncbi.nlm.nih.gov/42478598/" },
+      { text: "Brain Glucose Metabolism in Health, Obesity, and Cognitive Decline (2021).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8038699/" },
+      { text: "NIH Office of Dietary Supplements. Iron: Health Professional Fact Sheet.", url: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/" },
+      { text: "American Thyroid Association. Thyroid Function Tests.", url: "https://www.thyroid.org/thyroid-function-tests/" },
+      { text: "Modifiable glymphatic-related brain clearance physiology in humans: critical review (2026).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13691647/" }
+    ],
+    content: `
+      <div style="background:rgba(32,178,170,.07);border-left:4px solid #20B2AA;padding:1.25rem;margin:1.5rem 0;border-radius:8px"><h4>Quick summary</h4><p>Brain fog is a symptom, not a diagnosis. Poor sleep, iron deficiency, thyroid disease and metabolic problems are among the possibilities worth considering. NAD+ is vital to cellular metabolism, but evidence that NAD+ supplements reliably treat brain fog is lacking. Finding the cause matters more than choosing a fashionable molecule.</p></div>
+      <p>Some days the mind feels remarkably sharp. On others, thoughts seem to move through treacle: names escape you, reading takes twice as long, and concentration disappears by mid-afternoon. We call it <em>brain fog</em>, a useful description of an experience but not a medical diagnosis.</p>
+      <p>It is tempting to explain that feeling with one cellular story. NAD+ — nicotinamide adenine dinucleotide — has become a popular candidate because cells depend on it for energy metabolism and other processes. But the leap from “NAD+ is essential” to “an NAD+ booster will clear your thinking” is far larger than supplement advertising suggests.</p>
+      <p>Instead, consider four overlapping systems that can affect alertness and cognitive performance. Each has a plausible biological connection; none can be diagnosed from a symptom alone. The aim is to replace a single-cause narrative with a more useful way of asking questions.</p>
+      <h2>First, what does NAD+ actually do?</h2>
+      <p>NAD+ acts as an electron carrier in metabolic reactions. It accepts electrons to become NADH, which can then deliver them into pathways involved in ATP production. NAD+ also participates in signalling and DNA-repair processes. These functions are real, important and scientifically fascinating.</p>
+      <p>What remains uncertain is how much taking nicotinamide riboside (NR), nicotinamide mononucleotide (NMN), or intravenous NAD+ improves everyday cognition in otherwise healthy people. Raising a blood marker or changing a metabolic pathway is not the same as demonstrating clearer thinking in a well-controlled trial. The evidence does not justify describing NAD+ therapy as a proven treatment for nonspecific brain fog.</p>
+      <p><strong>A useful reality check from a human trial:</strong> In a 2026 randomised pilot study involving 42 people with amnestic mild cognitive impairment, nicotinamide riboside approximately doubled blood NAD+ levels but did not improve the prespecified cognitive outcome over 12 weeks. Exploratory analyses suggested possible regional changes in hippocampal blood flow, a hypothesis for further testing rather than a demonstrated treatment effect. People with mild cognitive impairment are not the same population as everyone experiencing nonspecific brain fog, so the result should not be overgeneralised. <a href="https://pubmed.ncbi.nlm.nih.gov/42478598/">Read the trial</a>.</p>
+<h2>Where the science gets interesting — and where it stops</h2>
+<p>Could improving NAD+ availability eventually prove useful for some people with cognitive symptoms? It is a reasonable question. NAD+ participates in mitochondrial metabolism and cellular stress responses, and researchers are studying its potential relevance to ageing and neurological disease. Those mechanisms provide a rationale for further research, not proof that a supplement improves concentration or memory.</p>
+<p>There is also an economic wrinkle. Many naturally occurring compounds offer weaker opportunities for exclusive patents than novel medicines, which may reduce incentives to finance large clinical trials. That can leave important questions unanswered. But it would be a mistake to assume that a lack of commercial incentive explains every evidence gap, or that an under-studied intervention is therefore effective. Some supplements have been tested and found to offer limited or inconsistent benefits.</p>
+<p>Three different conclusions deserve different language: <strong>not yet adequately studied</strong>, <strong>studied but results inconclusive</strong>, and <strong>studied with evidence against a meaningful benefit</strong>. As new trials emerge, the appropriate conclusion may change. For now, NAD+ precursors remain an intriguing area of investigation rather than an established treatment for brain fog.</p>
+<h2>1. Iron: more than a haemoglobin number</h2>
+      <p>The brain needs oxygen and a steady supply of energy. Iron helps red blood cells carry oxygen, and iron-containing proteins also participate in mitochondrial reactions. Significant iron deficiency, especially when it causes anaemia, can contribute to fatigue, reduced exercise tolerance and difficulty concentrating.</p>
+      <p>Ferritin is a marker of iron stores and can be helpful when deficiency is suspected. But interpretation depends on the person, laboratory reference range and clinical context: inflammation can raise ferritin even when iron availability is impaired. There is no universally accepted ferritin target of 80 ng/mL for optimal brain energy, and a value below 50 does not by itself establish mitochondrial failure.</p>
+      <p>That distinction matters. Iron supplementation is not harmless when it is unnecessary. If symptoms, diet, blood loss or medical history suggest deficiency, a clinician can decide which tests are appropriate and whether treatment is indicated. There is no good basis for claiming that NAD+ supplements cause an oxidative bottleneck at mitochondrial Complex IV in people with modestly lower ferritin.</p>
+      <h2>2. Blood glucose and insulin: a more complicated brain story</h2>
+      <p>The brain uses substantial amounts of glucose, but most glucose entry across the blood–brain barrier and into many neurons does not require insulin in the same way as glucose uptake into skeletal muscle. It is therefore misleading to say that insulin resistance simply prevents neurons from taking up their fuel.</p>
+      <p>Insulin does have important roles in the brain, and researchers are investigating links between metabolic disease, inflammation, vascular health and cognition. Diabetes and poor cardiometabolic health are associated with cognitive risks over time. That is different from proving that an afternoon concentration slump is caused by “neural insulin resistance”.</p>
+      <p>Post-meal sleepiness may reflect meal size, sleep debt, circadian timing, medications or glucose changes in susceptible individuals. A sensible assessment considers symptoms in context, rather than diagnosing a cellular defect from the clock. Physical activity, a balanced dietary pattern and management of established metabolic conditions support health, but they are not instant cures for brain fog.</p>
+      <h2>3. Sleep: the hidden cost of fragmented nights</h2>
+      <p>Eight hours in bed does not always mean eight hours of restorative sleep. Obstructive sleep apnoea can repeatedly interrupt breathing and sleep, sometimes without the person remembering an awakening. The result may be daytime sleepiness, impaired attention, morning headaches or poor concentration.</p>
+      <p>Sleep also intersects with brain waste-clearance pathways often called the <em>glymphatic system</em>. Animal studies and emerging human research make this an intriguing area, particularly in relation to neurodegenerative disease. But descriptions of the brain literally shrinking by 20% each night, or toxins becoming completely trapped after a poor night, turn preliminary mechanisms into unjustified certainties.</p>
+      <p>The practical message is still powerful: persistent snoring, witnessed pauses in breathing, unrefreshing sleep or significant daytime sleepiness warrant attention. Treating a recognised sleep disorder is a more evidence-based starting point than assuming a supplement will compensate for disrupted nights.</p>
+      <h2>4. Thyroid function: an important diagnosis, not a hidden epidemic</h2>
+      <p>Thyroid hormones influence metabolism throughout the body. Hypothyroidism can cause fatigue, slowed thinking, constipation, cold intolerance and other symptoms. When clinical suspicion is appropriate, thyroid testing can help identify a treatable cause.</p>
+      <p>TSH is not an outdated test. For most people with an intact pituitary–thyroid axis, it is a useful first-line measure; free T4 and other investigations may be appropriate depending on results and circumstances. Normal TSH does not mean every possible thyroid disorder has been excluded, but it also does not imply that a widespread, undetected failure to convert T4 into T3 is responsible for brain fog.</p>
+      <p>Subclinical hypothyroidism has a specific biochemical meaning — an elevated TSH with a normal free T4 — rather than simply symptoms despite normal tests. Decisions about treatment depend on several factors, and unnecessary thyroid hormone can cause harm. Selenium deficiency is not a routine explanation for cognitive fatigue in an otherwise well-nourished adult.</p>
+      <h2>What about NAD+ supplement timing?</h2>
+      <p>Claims that taking an NAD+ precursor late in the day inevitably keeps neurons switched on are not established clinical facts. Research has not shown a consistent rule that these products improve sleep when taken in the morning or disrupt it at night. Individual experiences may vary, and any new product should be considered alongside medications, conditions and its uncertain benefits.</p>
+      <h2>A more useful approach to persistent brain fog</h2>
+      <p>Start with the pattern. Is the problem new or longstanding? Is it genuine sleepiness, difficulty remembering, trouble sustaining attention or a feeling of mental exhaustion? Does it follow an illness, medication change, poor sleep or a stressful period? Associated symptoms often provide more useful clues than the word “fog” alone.</p>
+      <p>A clinician may consider sleep, mood, medications, alcohol, nutritional deficiencies, thyroid disease, metabolic conditions and other causes based on the history and examination. Tests should be selected for a reason, not ordered as an indiscriminate “optimisation” panel. Persistent or worsening symptoms deserve assessment; sudden confusion or new neurological symptoms require urgent medical attention.</p>
+      <p>There is room for hope here. Some causes of cognitive fatigue are identifiable and treatable. Others benefit from practical changes to sleep, activity or management of underlying conditions. The most promising intervention is not always the newest one — it is the one that addresses the actual problem.</p>
+      <h2>The bottom line</h2>
+      <p>NAD+ biology is compelling. So are the connections between sleep, iron, metabolism, thyroid hormones and the brain. But biological plausibility should invite investigation, not replace it. Brain fog deserves curiosity, careful assessment and evidence-based care — not a one-molecule explanation.</p>
+      <p><small>By Dr Gavin McAuley, MBChB. Educational information only; not personalised medical advice. Selected sources are linked above and in the reference list; this article is educational and does not replace clinical assessment.</small></p>
+      <AuthorBio />
+
+    `
+  },
+  {
     id: 1,
     title: 'The Gut-Brain Axis: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
     category: 'Neuro-Optimization',
