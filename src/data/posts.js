@@ -288,21 +288,27 @@ export const POSTS = [
   },
   {
     id: 1,
-    title: 'The Gut–Brain Axis: How Your Gut Talks to Your Brain',
+    title: 'The Gut–Brain Axis: The Extraordinary World Living Inside You',
     category: 'Neuro-Optimization',
     image: '/gut_brain_inflammation.png',
-    excerpt: "Your gut and brain are in constant conversation. Here's what science knows about the microbiome, mood and inflammation — and where the promising research still has questions to answer.",
+    excerpt: "Trillions of microbes, surprising effects of food, and treatments that restore living ecosystems: five discoveries changing how we understand gut health.",
     date: 'Jan 10, 2026',
     references: [
+      { text: "Sender, Fuchs & Milo (2016): revised estimates of human and bacterial cell numbers.", url: "https://doi.org/10.1371/journal.pbio.1002533" },
+      { text: "Wastyk et al. (2021): fermented foods, microbial diversity and immune markers in a small randomised diet study.", url: "https://doi.org/10.1016/j.cell.2021.06.019" },
+      { text: "AGA (2024): guideline on faecal microbiota-based therapies for recurrent C. difficile infection.", url: "https://doi.org/10.1053/j.gastro.2024.01.008" },
+      { text: "Wu et al. (2017): metformin-associated microbiome changes and mechanistic transfer experiments.", url: "https://doi.org/10.1038/nm.4345" },
       { text: "CANMAT Task Force (2025): recommendations on microbiome-targeted treatments in major depressive disorder.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12626857/" },
       { text: "Umbrella review (2026): psychobiotics for depressive and anxiety symptoms.", url: "https://pubmed.ncbi.nlm.nih.gov/41599756/" },
       { text: "Systematic review and meta-analysis (2026): probiotic supplementation in adults with depressive disorders.", url: "https://pubmed.ncbi.nlm.nih.gov/42898211/" },
       { text: "Fasano (2012): intestinal permeability and autoimmune diseases — mechanistic review, not evidence that a leaky gut causes depression.", url: "https://pubmed.ncbi.nlm.nih.gov/22109896/" }
     ],
     content: `
-      <p><strong>The short answer:</strong> Your gut and brain communicate through nerves, hormones, immune signals and molecules made by gut microbes. This is real biology, and it opens intriguing possibilities for future treatment. But a disturbed microbiome is not an established single explanation for anxiety, depression, joint pain or brain fog — and there is no proven universal 'gut repair' protocol.</p>
+      <p><strong>The short answer:</strong> You are home to tens of trillions of microorganisms — a living ecosystem that helps process your food, makes biologically active molecules and interacts with your immune system. Your gut also communicates with your brain. Some discoveries are already changing medical practice; others point towards an exciting future. The important question is not whether gut biology matters. It is which interventions genuinely improve health.</p>
+      <p>Here is a fact worth stopping over: one widely cited calculation estimated roughly <strong>38 trillion bacteria and 30 trillion human cells</strong> in a reference adult. The exact numbers vary, but the scale is astonishing. You are not simply an individual organism living alone. You are also a habitat.</p>
+      <p>What follows are five discoveries that reveal why the microbiome deserves serious scientific attention — without pretending it explains every illness.</p>
 
-      <h2>Two organs, one ongoing conversation</h2>
+      <h2>1. You are home to a living ecosystem</h2>
       <p>Think about the butterflies before an important event, or the way illness can drain your energy and affect your mood. The relationship between the digestive system and the brain is not imaginary. It runs in both directions: the brain influences gut movement, sensitivity and secretion, while the gut sends information back through neural, immune and hormonal pathways.</p>
       <p>Living in the intestine is a complex community of microorganisms, collectively called the gut microbiome. These microbes help process components of food and produce metabolites that may influence intestinal and immune function. Researchers are investigating whether some of these signals also affect mood and cognition. The key word is <em>may</em>: mechanisms observed in cells and animals do not automatically establish a treatment for people.</p>
 
@@ -316,10 +322,23 @@ export const POSTS = [
       <p>The vagus nerve carries signals between the brainstem and several organs, including the digestive tract. Many of its fibres convey sensory information towards the brain. That makes it a fascinating part of the gut–brain conversation — but it does not prove that a particular bacterial imbalance is the cause of someone's anxiety.</p>
       <p>Stress can alter gastrointestinal symptoms, and gastrointestinal illness can affect wellbeing. These relationships are complex and bidirectional. Psychological and biological explanations can both matter; neither should be dismissed.</p>
 
-      <h2>Butyrate and the promise of dietary fibre</h2>
+      <h2>2. Your microbes can manufacture fuel for your gut lining</h2>
       <p>When gut microbes ferment certain dietary fibres, they produce short-chain fatty acids, including butyrate. Butyrate is an important energy source for cells lining the colon and is involved in local immune and barrier function. This is one reason diets rich in varied plant foods are scientifically interesting.</p>
       <p>It is too simplistic, though, to claim that eating too little fibre inevitably 'starves' the gut lining and causes depression. Human health is influenced by overall diet, medical conditions, sleep, medications, stress and many other factors. Eating more fibre can be a sensible goal for many people, but it is not a proven cure for mental illness.</p>
 
+      <h2>3. A change in diet can change measurable immune signals</h2>
+      <p>In a small randomised dietary study published in <em>Cell</em> in 2021, researchers assigned 36 healthy adults to diets enriched in fermented foods or fibre. Over the intervention, the fermented-food group showed increased microbiome diversity and reductions in several inflammatory markers; 19 measured inflammatory proteins decreased. The higher-fibre group did not show the same overall pattern of microbial diversity change.</p>
+      <p>That's an intriguing result from an everyday intervention. But it is not proof that fermented foods prevent inflammatory disease or treat depression. The trial was small, its endpoints were biological markers, and individual responses differed. The exciting part is that dietary changes can be studied as measurable interventions in human biology.</p>
+
+      <h2>4. Your gut microbes may influence how medicines work</h2>
+      <p>Metformin is widely prescribed for type 2 diabetes. Research has shown that it can alter the composition and function of gut microbial communities. In a particularly striking experiment, researchers transferred microbiota from metformin-treated people into germ-free mice and observed improved glucose tolerance in the animals.</p>
+      <p>That does not tell us how much of metformin's clinical effect in people is mediated by microbes. It does, however, suggest that the medicines we take and the microorganisms we harbour may interact in ways researchers are only beginning to map.</p>
+
+      <h2>5. Medicine can sometimes restore an ecosystem, not just kill a pathogen</h2>
+      <p>Perhaps the clearest clinical demonstration of microbiome-based medicine involves recurrent <em>Clostridioides difficile</em> infection. After antibiotic treatment, some patients experience repeated episodes as their intestinal microbial community struggles to recover. Carefully screened microbiota-based therapies can reduce recurrence in selected patients.</p>
+      <p>Professional guidelines support these treatments in defined circumstances, with important safeguards and exceptions. This is not a home remedy, and it does not mean microbiota transplants treat unrelated conditions. But it is a remarkable shift in thinking: sometimes restoring microbial ecology can be part of treating disease.</p>
+
+      <h2>And what about the brain?</h2>
       <h2>Can probiotics improve depression or anxiety?</h2>
       <p>This is where the research becomes particularly intriguing. Trials and pooled analyses suggest that some probiotic formulations may modestly improve depressive symptom scores in some populations, especially as an addition to established care. Yet results vary by bacterial strain, study design and patient group. Evidence for anxiety is less consistent, and changes in symptom scores do not necessarily demonstrate durable remission.</p>
       <p>A 2025 Canadian Network for Mood and Anxiety Treatments (CANMAT) task force cautiously placed probiotics as a possible <em>third-line adjunct</em> for major depressive disorder. It found insufficient evidence to recommend prebiotics, synbiotics or faecal microbiota transplantation for routine depression treatment. A 2026 umbrella review also highlighted substantial variation in study quality and inconsistent findings for anxiety.</p>
@@ -337,8 +356,8 @@ export const POSTS = [
         <li><strong>Be selective about supplements.</strong> Probiotic effects, when seen, are formulation- and condition-specific. They are not interchangeable, and people who are severely unwell or immunocompromised should seek medical advice before using live microbial products.</li>
       </ul>
 
-      <h2>The next chapter</h2>
-      <p>The gut–brain axis is one of the more exciting areas of contemporary biomedical research because it links systems once studied separately. Researchers are beginning to ask which microbial functions matter, which people might benefit from targeted interventions and how to measure outcomes that truly improve lives.</p>
+      <h2>The next chapter: from fascinating biology to better medicine</h2>
+      <p>The gut–brain axis connects systems once studied separately. We already know that microbes can nourish intestinal cells, that diet can alter measurable biological signals, that some medicines interact with microbial communities, and that restoring those communities can help in a specific serious infection. The next challenge is to discover which microbial functions matter for which patients — and to test whether changing them improves outcomes that truly matter.</p>
       <p><strong>The bottom line:</strong> The conversation between gut and brain is real. The idea that repairing a single 'leak' can resolve depression, anxiety, joint pain and brain fog is not established. We can be optimistic about what research may uncover without pretending the answer is already here.</p>
       <p><small>By Dr Gavin McAuley, MBChB. Educational information only; not personalised medical advice. This article does not replace medical or mental-health assessment or treatment.</small></p>
       <AuthorBio />
