@@ -296,7 +296,7 @@ export const POSTS = [
     references: [
       { text: "CANMAT Task Force (2025): recommendations on microbiome-targeted treatments in major depressive disorder.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12626857/" },
       { text: "Umbrella review (2026): psychobiotics for depressive and anxiety symptoms.", url: "https://pubmed.ncbi.nlm.nih.gov/41599756/" },
-      { text: "Systematic review and meta-analysis (2026): probiotic supplementation in adults with depressive disorders.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13677502/" },
+      { text: "Systematic review and meta-analysis (2026): probiotic supplementation in adults with depressive disorders.", url: "https://pubmed.ncbi.nlm.nih.gov/42898211/" },
       { text: "Fasano (2012): intestinal permeability and autoimmune diseases — mechanistic review, not evidence that a leaky gut causes depression.", url: "https://pubmed.ncbi.nlm.nih.gov/22109896/" }
     ],
     content: `
