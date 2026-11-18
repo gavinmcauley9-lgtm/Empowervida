@@ -288,141 +288,63 @@ export const POSTS = [
   },
   {
     id: 1,
-    title: 'The Gut-Brain Axis: Why Anxiety, Depression & Joint Pain Share One Hidden Cause',
+    title: 'The Gut–Brain Axis: How Your Gut Talks to Your Brain',
     category: 'Neuro-Optimization',
     image: '/gut_brain_inflammation.png',
-    excerpt: "An individual arrived with 5 diagnoses. One blood test revealed the truth: the gut barrier was compromised. Here is the clinical approach to achieving deep remission.",
+    excerpt: "Your gut and brain are in constant conversation. Here's what science knows about the microbiome, mood and inflammation — and where the promising research still has questions to answer.",
     date: 'Jan 10, 2026',
-    cta: {
-      text: "Get Dr. Gavin's Gut Repair Protocol",
-      link: "/protocol#gut-stack"
-    },
     references: [
-      { text: "Fasano, A. (2012). Leaky gut and autoimmune diseases. Clinical Reviews in Allergy & Immunology, 42(1), 71-78.", url: "https://pubmed.ncbi.nlm.nih.gov/22109896/" },
-      { text: "Maes, M., et al. (2008). The gut-brain barrier in major depression. Neuroendocrinology Letters, 29(1), 117-124.", url: "https://pubmed.ncbi.nlm.nih.gov/18283240/" }
+      { text: "CANMAT Task Force (2025): recommendations on microbiome-targeted treatments in major depressive disorder.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12626857/" },
+      { text: "Umbrella review (2026): psychobiotics for depressive and anxiety symptoms.", url: "https://pubmed.ncbi.nlm.nih.gov/41599756/" },
+      { text: "Systematic review and meta-analysis (2026): probiotic supplementation in adults with depressive disorders.", url: "https://pubmed.ncbi.nlm.nih.gov/42898211/" },
+      { text: "Fasano (2012): intestinal permeability and autoimmune diseases — mechanistic review, not evidence that a leaky gut causes depression.", url: "https://pubmed.ncbi.nlm.nih.gov/22109896/" }
     ],
     content: `
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Educational Perspective</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">It is increasingly recognized in functional contexts that symptoms like fatigue, joint discomfort, brain fog, anxiety, and digestive issues may not exist in silos. Often, a comprehensive assessment reveals underlying factors such as a compromised gut barrier and dysbiosis. Understanding the connection between the gastrointestinal system and systemic health can provide a broader framework for approaching these complex presentations.</p>
-      </div>
+      <p><strong>The short answer:</strong> Your gut and brain communicate through nerves, hormones, immune signals and molecules made by gut microbes. This is real biology, and it opens intriguing possibilities for future treatment. But a disturbed microbiome is not an established single explanation for anxiety, depression, joint pain or brain fog — and there is no proven universal 'gut repair' protocol.</p>
 
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> Your gut lining is one cell thick. When it breaks, bacterial toxins flood your bloodstream and trigger anxiety, depression, joint pain, and brain fog. Not five diseases. One broken barrier.
-      </p>
+      <h2>Two organs, one ongoing conversation</h2>
+      <p>Think about the butterflies before an important event, or the way illness can drain your energy and affect your mood. The relationship between the digestive system and the brain is not imaginary. It runs in both directions: the brain influences gut movement, sensitivity and secretion, while the gut sends information back through neural, immune and hormonal pathways.</p>
+      <p>Living in the intestine is a complex community of microorganisms, collectively called the gut microbiome. These microbes help process components of food and produce metabolites that may influence intestinal and immune function. Researchers are investigating whether some of these signals also affect mood and cognition. The key word is <em>may</em>: mechanisms observed in cells and animals do not automatically establish a treatment for people.</p>
 
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The One Cell Barrier</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your intestinal lining is one cell thick. That's it. One microscopic layer separating the outside world (food, bacteria, toxins) from your bloodstream.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        These cells are held together by tight junctions, protein "zippers" that control what gets through. When the zippers break, you get intestinal permeability (often called "Leaky Gut").
-      </p>
+      <h2>The intestinal barrier: selective, not simply 'broken'</h2>
+      <p>The intestine has a remarkable job. It must absorb nutrients while limiting the passage of potentially harmful material. Its epithelial cells, mucus and immune defences work together to manage that boundary. The permeability of this barrier can change in certain illnesses and under some experimental conditions.</p>
+      <img src="/gut_barrier_3d.png" alt="Conceptual illustration of intestinal epithelial cells and the spaces between them; not a diagnostic image" style="width:100%;max-width:800px;height:auto;border-radius:12px;margin:1.25rem 0;" loading="lazy" />
+      <p>However, the popular phrase 'leaky gut' often stretches a legitimate physiological concept into an unsupported diagnosis. Increased intestinal permeability does not mean that bacterial toxins inevitably flood the bloodstream, break the blood–brain barrier and cause psychiatric illness. Nor does one abnormal commercial test establish the cause of several unrelated symptoms.</p>
+      <p>Conditions such as coeliac disease and inflammatory bowel disease deserve proper investigation when symptoms suggest them. Persistent digestive problems, unexplained weight loss, gastrointestinal bleeding, anaemia or significant changes in bowel habits should not be attributed to a vaguely defined barrier problem without clinical assessment.</p>
 
-      <img src="/gut_barrier_3d.png" alt="3D render of leaky gut barrier and tight junctions breaking apart" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When the barrier breaks, three catastrophic things happen:
-      </p>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Bacterial fragments (LPS) enter your bloodstream.</strong> Your immune system sees these as invaders and launches a systemic attack.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Inflammatory cytokines flood your system.</strong> IL-6, TNF-alpha, IL-1 beta. These are the molecular signals of war, driving deep joint pain and fatigue.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>The blood-brain barrier breaks.</strong> Systemic inflammation crosses into your brain, triggering neuro-inflammation. The clinical presentation? Severe anxiety, depression, and brain fog.</li>
+      <h2>The vagus nerve: an information highway, not a diagnosis</h2>
+      <p>The vagus nerve carries signals between the brainstem and several organs, including the digestive tract. Many of its fibres convey sensory information towards the brain. That makes it a fascinating part of the gut–brain conversation — but it does not prove that a particular bacterial imbalance is the cause of someone's anxiety.</p>
+      <p>Stress can alter gastrointestinal symptoms, and gastrointestinal illness can affect wellbeing. These relationships are complex and bidirectional. Psychological and biological explanations can both matter; neither should be dismissed.</p>
+
+      <h2>Butyrate and the promise of dietary fibre</h2>
+      <p>When gut microbes ferment certain dietary fibres, they produce short-chain fatty acids, including butyrate. Butyrate is an important energy source for cells lining the colon and is involved in local immune and barrier function. This is one reason diets rich in varied plant foods are scientifically interesting.</p>
+      <p>It is too simplistic, though, to claim that eating too little fibre inevitably 'starves' the gut lining and causes depression. Human health is influenced by overall diet, medical conditions, sleep, medications, stress and many other factors. Eating more fibre can be a sensible goal for many people, but it is not a proven cure for mental illness.</p>
+
+      <h2>Can probiotics improve depression or anxiety?</h2>
+      <p>This is where the research becomes particularly intriguing. Trials and pooled analyses suggest that some probiotic formulations may modestly improve depressive symptom scores in some populations, especially as an addition to established care. Yet results vary by bacterial strain, study design and patient group. Evidence for anxiety is less consistent, and changes in symptom scores do not necessarily demonstrate durable remission.</p>
+      <p>A 2025 Canadian Network for Mood and Anxiety Treatments (CANMAT) task force cautiously placed probiotics as a possible <em>third-line adjunct</em> for major depressive disorder. It found insufficient evidence to recommend prebiotics, synbiotics or faecal microbiota transplantation for routine depression treatment. A 2026 umbrella review also highlighted substantial variation in study quality and inconsistent findings for anxiety.</p>
+      <p>That is genuine progress, not a reason to abandon antidepressants, psychological therapies or other established care. If microbiome-based treatments eventually become useful, the most likely future is carefully tested, condition-specific approaches rather than one supplement stack for everyone.</p>
+
+      <h2>What about joint pain, inflammation and brain fog?</h2>
+      <p>Inflammation is involved in many diseases, and the microbiome can interact with the immune system. But a shared word such as 'inflammation' does not establish a shared cause. Joint pain can arise from osteoarthritis, inflammatory arthritis, injury and other conditions. Brain fog is a symptom with many possible contributors, including sleep problems, medication effects, mood disorders and medical illness.</p>
+      <p>It would be misleading to tell someone that these symptoms, together with anxiety or depression, must reflect a compromised intestinal barrier. They deserve assessment on their own merits.</p>
+
+      <h2>What is worth doing now?</h2>
+      <ul>
+        <li><strong>Eat a varied, fibre-rich diet</strong> where appropriate: vegetables, fruit, legumes, wholegrains, nuts and seeds support overall health and provide substrates for gut microbes. Increase fibre gradually if it causes discomfort.</li>
+        <li><strong>Take persistent symptoms seriously.</strong> Discuss ongoing digestive complaints, mood changes or unexplained joint pain with a qualified clinician rather than relying on a commercial microbiome test.</li>
+        <li><strong>Protect the basics:</strong> adequate sleep, regular physical activity and effective management of stress and existing health conditions support health, whether or not their benefits operate through the microbiome.</li>
+        <li><strong>Be selective about supplements.</strong> Probiotic effects, when seen, are formulation- and condition-specific. They are not interchangeable, and people who are severely unwell or immunocompromised should seek medical advice before using live microbial products.</li>
       </ul>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is exactly why your psychiatrist cannot fix your anxiety with SSRIs alone. The core problem isn't a serotonin deficiency. It's systemic neuro-inflammation driven by a broken gut.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">What Breaks the Barrier</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The modern assault on your gut is relentless:
-      </p>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Frequent use of certain medications:</strong> Overuse of NSAIDs (like ibuprofen) can sometimes contribute to increased intestinal permeability. It's important to discuss pain management strategies with a healthcare provider.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Chronic stress:</strong> Elevated cortisol is associated with changes in zonulin levels, a protein that regulates tight junctions.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Antibiotics:</strong> While crucial medical tools, broad-spectrum antibiotics can alter the microbiome balance.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Ultra-processed food:</strong> Industrial emulsifiers, artificial sweeteners, and <a href="/post/why-seed-oils-are-making-you-inflamed-tired-and" style="color: var(--color-accent-teal); text-decoration: underline;">industrial seed oils</a> may impact the integrity of tight junctions in some individuals.</li>
-      </ul>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Vagus Nerve: The Biological Highway</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The connection between your gut and your brain isn't just chemical; it's physical. The Vagus Nerve acts as a massive biological superhighway connecting the enteric nervous system (your gut) directly to your brainstem. It is the longest cranial nerve in the body.
-      </p>
 
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Historically, medicine believed the brain sent commands down the Vagus Nerve to control digestion. We now know that <strong>80% of the traffic on the Vagus Nerve is traveling UP</strong>. Your microbiome is constantly sending telemetry data to your brain. If your gut is inflamed due to dysbiosis (an overgrowth of pathogenic bacteria), the Vagus Nerve transmits that distress signal directly into your central nervous system. 
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The brain interprets this chronic distress signal as systemic danger, which clinically presents as generalized anxiety. You feel anxious, but there is no psychological trigger. The trigger is entirely biological.
-      </p>
-
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Role of Butyrate: Sealing the Leaks</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        So how do we fix it? The key lies in Short-Chain Fatty Acids (SCFAs), specifically <strong>Butyrate</strong>. Butyrate is a byproduct created when the "good" bacteria in your gut ferment dietary fiber. 
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Butyrate is the primary fuel source for the cells lining your colon (colonocytes). When these cells have abundant butyrate, they replicate rapidly and maintain incredibly tight junctions. When you consume a modern diet devoid of diverse plant fibers, butyrate production plummets. The colonocytes starve, the tight junctions open, and the barrier fails.
-      </p>
-
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">A Framework for Support</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When the focus shifts to supporting the intestinal barrier and optimizing Vagal tone, many individuals notice a broad shift in their well-being. A common educational framework suggests that addressing structural integrity may have systemic benefits. 
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This approach recognizes that inflammation is often a signal rather than the origin of the issue. Supporting gut health provides a foundational strategy for those exploring ways to promote long-term vitality.
-      </p>
-
-      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 2rem; margin: 3rem 0; border-radius: 12px;">
-        <h3 style="font-size: 1.5rem; font-weight: 700; margin-top: 0; color: #20B2AA;">An Educational Framework</h3>
-        <p style="margin-bottom: 1.5rem;">Many functional approaches utilize a multi-step framework to support intestinal barrier integrity.</p>
-        <ol style="padding-left: 1.2rem; margin-bottom: 0;">
-          <li style="margin-bottom: 1rem;"><strong>Phase 1: Addressing Stressors:</strong> This often involves evaluating the use of certain medications with a doctor, minimizing ultra-processed foods, and exploring stress management techniques like Zone 2 training and breathwork.</li>
-          <li style="margin-bottom: 1rem;"><strong>Phase 2: Supporting Architecture:</strong> Supplying the body with nutrients that are often studied for their role in gut health, such as L-Glutamine, Zinc Carnosine, and high-quality Collagen Peptides.</li>
-          <li style="margin-bottom: 0;"><strong>Phase 3: Managing Inflammation:</strong> Incorporating supportive nutrients like Curcumin and Omega-3s as part of a broader strategy to manage systemic inflammatory loads.</li>
-        </ol>
-        <div style="margin-top: 2rem; text-align: center;">
-            <a href="/protocol#gut-stack" style="background: var(--color-accent-teal); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold; text-transform: uppercase; display: inline-block;">Explore the Gut Integrity Protocol &rarr;</a>
-        </div>
-      </div>
-
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Clinical Addendum: Systemic Inflammation & Longevity</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        A critical component of this physiological mechanism is the role of systemic inflammation. In acute scenarios—such as a sprained ankle or a viral infection—inflammation is a life-saving biological response. Your immune system deploys white blood cells and cytokines to the site of injury to isolate the damage and initiate repair. Once the threat is neutralized, the inflammation subsides.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        However, the modern lifestyle has hijacked this system. Due to diets high in ultra-processed foods, chronic psychological stress, sleep deprivation, and environmental factors, our immune systems are often locked in a state of perpetual high-alert. This is known as chronic, low-grade systemic inflammation.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Unlike acute inflammation, this chronic state is silent and destructive. It doesn't cause a fever or a swollen joint immediately; instead, it slowly degrades tissue architecture over decades. Circulating inflammatory cytokines physically damage the endothelial lining of your blood vessels and cross the blood-brain barrier, driving the neuro-inflammation that manifests as severe brain fog and cognitive fatigue. 
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To support optimal healthspan, we must aggressively manage this slow-burning fire. This requires a comprehensive approach to "Inflammaging." It means managing blood glucose levels, optimizing your circadian rhythm to ensure restorative sleep, and utilizing targeted nutritional interventions to interrupt the inflammatory cascades at the molecular level. Your long-term cognitive health is inextricably linked to how well you manage your systemic inflammatory load. You can learn more about our foundational approach to cognitive resilience in <a href="/protocol#clarity-stack" style="color: var(--color-accent-teal); text-decoration: underline; font-weight: 600;">The High-DHA Neuro Protocol</a>.
-      </p>
-
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen, particularly if you have existing medical conditions or take prescription medications.
-        </p>
-      </div>
+      <h2>The next chapter</h2>
+      <p>The gut–brain axis is one of the more exciting areas of contemporary biomedical research because it links systems once studied separately. Researchers are beginning to ask which microbial functions matter, which people might benefit from targeted interventions and how to measure outcomes that truly improve lives.</p>
+      <p><strong>The bottom line:</strong> The conversation between gut and brain is real. The idea that repairing a single 'leak' can resolve depression, anxiety, joint pain and brain fog is not established. We can be optimistic about what research may uncover without pretending the answer is already here.</p>
+      <p><small>By Dr Gavin McAuley, MBChB. Educational information only; not personalised medical advice. This article does not replace medical or mental-health assessment or treatment.</small></p>
+      <AuthorBio />
     `
-  },  {
+  },
+ {
     id: 2,
     aliases: ['brain-fog-causes-why-your-brain-is-full-of-sewage-how-to-flush-it', 'brain-fog-causes-why-your-brain-is-full-of-sewage'],
     title: 'YOUR BRAIN IS FULL OF SEWAGE: Why You Have Brain Fog and How to Flush It Out',
