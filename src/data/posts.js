@@ -236,13 +236,13 @@ export const POSTS = [
     image: '/cellular_structure.webp',
     excerpt: "Brain fog has many possible causes. Explore how sleep, iron, metabolic health and thyroid function can affect cognition — and why NAD+ supplements are not a proven shortcut.",
     date: 'Mar 21, 2026',
-    cta: {
-      text: "Read the Clinical Protocol",
-      link: "/protocol"
-    },
     references: [
-      { text: "López-Otín, C., et al. (2023). Hallmarks of aging: An expanding paradigm. Cell.", url: "https://pubmed.ncbi.nlm.nih.gov/36599349/" },
-      { text: "Brenner, C. (2022). NAD+ in aging, metabolism, and neurodegeneration. Science.", url: "https://pubmed.ncbi.nlm.nih.gov/34941362/" }
+      { text: "Gallagher & Emmanuel (2026). NAD+ supplementation for anti-aging and wellness: systematic review. Ageing Research Reviews.", url: "https://pubmed.ncbi.nlm.nih.gov/41655607/" },
+      { text: "Nicotinamide riboside in amnestic mild cognitive impairment: randomized pilot trial (2026). Alzheimer's & Dementia.", url: "https://pubmed.ncbi.nlm.nih.gov/42478598/" },
+      { text: "Brain Glucose Metabolism in Health, Obesity, and Cognitive Decline (2021).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8038699/" },
+      { text: "NIH Office of Dietary Supplements. Iron: Health Professional Fact Sheet.", url: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/" },
+      { text: "American Thyroid Association. Thyroid Function Tests.", url: "https://www.thyroid.org/thyroid-function-tests/" },
+      { text: "Modifiable glymphatic-related brain clearance physiology in humans: critical review (2026).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13691647/" }
     ],
     content: `
       <div style="background:rgba(32,178,170,.07);border-left:4px solid #20B2AA;padding:1.25rem;margin:1.5rem 0;border-radius:8px"><h4>Quick summary</h4><p>Brain fog is a symptom, not a diagnosis. Poor sleep, iron deficiency, thyroid disease and metabolic problems are among the possibilities worth considering. NAD+ is vital to cellular metabolism, but evidence that NAD+ supplements reliably treat brain fog is lacking. Finding the cause matters more than choosing a fashionable molecule.</p></div>
@@ -252,7 +252,8 @@ export const POSTS = [
       <h2>First, what does NAD+ actually do?</h2>
       <p>NAD+ acts as an electron carrier in metabolic reactions. It accepts electrons to become NADH, which can then deliver them into pathways involved in ATP production. NAD+ also participates in signalling and DNA-repair processes. These functions are real, important and scientifically fascinating.</p>
       <p>What remains uncertain is how much taking nicotinamide riboside (NR), nicotinamide mononucleotide (NMN), or intravenous NAD+ improves everyday cognition in otherwise healthy people. Raising a blood marker or changing a metabolic pathway is not the same as demonstrating clearer thinking in a well-controlled trial. The evidence does not justify describing NAD+ therapy as a proven treatment for nonspecific brain fog.</p>
-      <h2>Where the science gets interesting — and where it stops</h2>
+      <p><strong>A useful reality check from a human trial:</strong> In a 2026 randomised pilot study involving 42 people with amnestic mild cognitive impairment, nicotinamide riboside approximately doubled blood NAD+ levels but did not improve the prespecified cognitive outcome over 12 weeks. Exploratory analyses suggested possible regional changes in hippocampal blood flow, a hypothesis for further testing rather than a demonstrated treatment effect. People with mild cognitive impairment are not the same population as everyone experiencing nonspecific brain fog, so the result should not be overgeneralised. <a href="https://pubmed.ncbi.nlm.nih.gov/42478598/">Read the trial</a>.</p>
+<h2>Where the science gets interesting — and where it stops</h2>
 <p>Could improving NAD+ availability eventually prove useful for some people with cognitive symptoms? It is a reasonable question. NAD+ participates in mitochondrial metabolism and cellular stress responses, and researchers are studying its potential relevance to ageing and neurological disease. Those mechanisms provide a rationale for further research, not proof that a supplement improves concentration or memory.</p>
 <p>There is also an economic wrinkle. Many naturally occurring compounds offer weaker opportunities for exclusive patents than novel medicines, which may reduce incentives to finance large clinical trials. That can leave important questions unanswered. But it would be a mistake to assume that a lack of commercial incentive explains every evidence gap, or that an under-studied intervention is therefore effective. Some supplements have been tested and found to offer limited or inconsistent benefits.</p>
 <p>Three different conclusions deserve different language: <strong>not yet adequately studied</strong>, <strong>studied but results inconclusive</strong>, and <strong>studied with evidence against a meaningful benefit</strong>. As new trials emerge, the appropriate conclusion may change. For now, NAD+ precursors remain an intriguing area of investigation rather than an established treatment for brain fog.</p>
@@ -280,7 +281,7 @@ export const POSTS = [
       <p>There is room for hope here. Some causes of cognitive fatigue are identifiable and treatable. Others benefit from practical changes to sleep, activity or management of underlying conditions. The most promising intervention is not always the newest one — it is the one that addresses the actual problem.</p>
       <h2>The bottom line</h2>
       <p>NAD+ biology is compelling. So are the connections between sleep, iron, metabolism, thyroid hormones and the brain. But biological plausibility should invite investigation, not replace it. Brain fog deserves curiosity, careful assessment and evidence-based care — not a one-molecule explanation.</p>
-      <p><small>By Dr Gavin McAuley, MBChB. Educational information only; not personalised medical advice. References and internal links are undergoing editorial verification before publication.</small></p>
+      <p><small>By Dr Gavin McAuley, MBChB. Educational information only; not personalised medical advice. Selected sources are linked above and in the reference list; this article is educational and does not replace clinical assessment.</small></p>
       <AuthorBio />
 
     `
