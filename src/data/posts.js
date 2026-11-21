@@ -520,106 +520,29 @@ export const POSTS = [
   {
     id: 4,
     aliases: ['mit-discovery-reverses-brain-ageing-nmn', 'the-mit-discovery-that-reverses-brain-ageing'],
-    title: 'The MIT Discovery That Protects the Aging Brain: How One Molecule Supports Synaptic Density',
+    title: 'Magnesium L-Threonate and Brain Health: Promising Research, Important Limits',
+    seoTitle: 'Magnesium L-Threonate for Memory: What Human Studies Show',
+    metaDescription: 'What magnesium L-threonate research shows in animals and humans, why synaptic-density claims are premature, and how to assess supplement safety.',
     category: 'Neuro-Optimization',
     image: '/magnesium_neuroplasticity_hero.webp',
-    excerpt: "MIT neuroscientists discovered a magnesium form that crosses the blood brain barrier and supports synaptic density. This isnt regular magnesium.",
+    excerpt: 'Animal studies suggest magnesium L-threonate may affect brain magnesium and learning. Human cognitive benefits remain uncertain, and it has not been shown to rebuild human synapses.',
     date: 'Jan 10, 2026',
-
+    dateModified: '2026-11-21',
     references: [
-      { text: "Slutsky, I., et al. (2010). Enhancement of Learning and Memory by Elevating Brain Magnesium. Neuron, 65(2), 165-177.", url: "https://pubmed.ncbi.nlm.nih.gov/20152124/" }
+      { text: 'Slutsky et al. (2010). Enhancement of Learning and Memory by Elevating Brain Magnesium. Neuron. Preclinical research, not proof of human benefit.', url: 'https://pubmed.ncbi.nlm.nih.gov/20152124/' }
     ],
     content: `
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Educational Perspective</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">Magnesium deficiency is a widespread issue, often exacerbated by soil depletion, chronic stress, and modern diets. While many individuals use over-the-counter magnesium supplements (like Oxide or Citrate), these forms are often poorly absorbed and function primarily in the gut. For those interested in supporting cognitive function and sleep architecture, understanding the bioavailability of different magnesium forms is crucial. This article explores a specific molecule engineered to cross the blood-brain barrier.</p>
-      </div>
-
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> The blood-brain barrier prevents 90% of standard magnesium supplements from ever touching a neuron. In 2010, MIT neuroscientists engineered Magnesium L-Threonate (Magtein)—a proprietary form specifically designed to breach this barrier. Clinical trials demonstrate that this specific molecule increases synaptic density by 44% in aging brains and can improve cognitive age markers by up to 9.4 years.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Anatomy of Synaptic Decay</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To understand why this discovery is so revolutionary, we first need to understand how the brain ages. Cognitive decline, forgetfulness, and chronic brain fog are not simply byproducts of "getting older." They are the direct result of physical, structural decay occurring inside your skull.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your brain cells (neurons) communicate via synapses. The physical structures that reach out to form these connections are called dendritic spines. In a young, healthy brain, these spines are dense, highly active, and constantly forming new connections—a process known as neuroplasticity. This is what makes learning effortless and memory recall instant.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        However, the maintenance of these dendritic spines requires massive amounts of intracellular magnesium. When systemic magnesium levels drop—as they inevitably do in modern adults—the brain begins a process of "synaptic pruning." It sacrifices these connections to conserve energy. The physical density of your neural network shrinks. Words get stuck on the tip of your tongue, learning new skills feels exhausting, and the afternoon brain fog becomes your new normal.
-      </p>
-
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Blood-Brain Barrier Problem</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The logical solution would be to simply consume more magnesium. But human biology is incredibly stubborn. Your central nervous system is heavily fortified by the Blood-Brain Barrier (BBB)—a highly selective, semi-permeable border designed to protect your brain from circulating toxins and pathogens.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        While the BBB is excellent at keeping threats out, it also blocks many beneficial nutrients, including standard forms of elemental magnesium. When you swallow a standard Magnesium Citrate or Oxide pill, the absorption bottleneck occurs in the gut. These forms pull water into the intestines (causing the infamous laxative effect) and are rapidly excreted. Even highly bioavailable forms like Magnesium Glycinate, which are excellent for muscle relaxation and systemic calming, struggle to meaningfully penetrate the cerebrospinal fluid.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your muscles might feel relaxed, and your digestion might improve, but your brain magnesium levels remain entirely unchanged. Your neurons continue to starve, and synaptic decay progresses uninterrupted.
-      </p>
-
-      <img src="/magnesium_bbb_3d.png" alt="3D medical render of Magnesium L-Threonate crossing the blood-brain barrier to stimulate a neuron" style="width: 100%; max-width: 800px; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" loading="lazy" />
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The MIT Discovery: Engineering a Molecular Key</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        In 2010, a team of pioneering neuroscientists at the Massachusetts Institute of Technology (MIT), led by Dr. Guosong Liu, tackled this exact biological bottleneck. They understood that if they could physically force magnesium across the BBB, they could theoretically halt synaptic pruning.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Through extensive molecular engineering, they discovered a unique mechanism. By binding elemental magnesium to L-Threonate—a specific metabolite of Vitamin C—they created a molecule that the Blood-Brain Barrier recognized and actively transported across the threshold. The L-Threonate acted as a molecular "Trojan Horse," successfully smuggling the magnesium directly into the cerebrospinal fluid.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The preclinical results were staggering. In their initial animal models, Magnesium L-Threonate (which they patented as Magtein®) increased actual brain magnesium levels by 15%. But the structural change was what shocked the neuroscience community: they observed a <strong>44% increase in synaptic density</strong> in the aging models. The brains were structurally rejuvenating.
-      </p>
-
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Human Clinical Trials: Improving Cognitive Metrics by 9 Years</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Animal models are compelling, but human data is the gold standard of clinical architecture. In 2016, a landmark randomized, double-blind, placebo-controlled trial was published in the <em>Journal of Alzheimer's Disease</em>. The study followed older adults with cognitive impairment over a 12-week period.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The participants were administered the MIT-patented Magnesium L-Threonate. The researchers tracked multiple domains of cognitive function: executive function, working memory, attention, and episodic memory.
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The findings confirmed the MIT team's hypothesis. Participants supplementing with L-Threonate demonstrated significant improvements across nearly all cognitive domains. But the most profound metric was the calculation of biological brain age. Based on the improvements in cognitive testing, the researchers concluded that the <strong>participants' cognitive performance improved to match that of individuals 9.4 years younger</strong> in just 12 weeks. 
-      </p>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        By delivering magnesium directly to the synapses, the brain was able to rapidly rebuild the dendritic spines that had been pruned away by decades of nutritional deficiency and stress.
-      </p>
-  
-      <div style="background: rgba(32, 178, 170, 0.05); border: 1px solid rgba(32, 178, 170, 0.2); padding: 2rem; margin: 3rem 0; border-radius: 12px;">
-        <h3 style="font-size: 1.5rem; font-weight: 700; margin-top: 0; color: #20B2AA;">An Educational Framework</h3>
-        <p style="margin-bottom: 1.5rem;">Functional approaches often explore a targeted, dual-pathway method for magnesium support, utilizing L-Threonate for cognitive applications and Bisglycinate for nervous system support. Here is an overview of how these forms are typically structured:</p>
-        <ol style="padding-left: 1.2rem; margin-bottom: 0; line-height: 1.8; font-size: 1.05rem;">
-          <li style="margin-bottom: 1rem;"><strong>Morning Cognitive Support:</strong> Protocols often utilize 2,000mg of Magnesium L-Threonate (yielding approximately 144mg of elemental magnesium) in the morning. Research suggests its ability to cross the BBB may help support synaptic plasticity and working memory.</li>
-          <li style="margin-bottom: 1rem;"><strong>Evening Nervous System Braking:</strong> Functional guidelines frequently suggest 400mg of Magnesium Bisglycinate 60 to 90 minutes before bed. This form is chosen for its potential to support GABA receptors in the peripheral nervous system, encouraging relaxation and sleep onset.</li>
-          <li style="margin-bottom: 0;"><strong>Dietary Foundation:</strong> Supplementation is intended to complement, not replace, nutrition. Limiting highly processed sugars and incorporating high-magnesium foods (like pumpkin seeds, dark leafy greens, and almonds) provides a crucial foundational base.</li>
-        </ol>
-        <div style="margin-top: 2.5rem; text-align: center;">
-            
-        </div>
-      </div>
-
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This educational framework is provided for informational purposes and does not constitute medical advice. Consult your primary care physician before initiating any new supplement protocol, particularly if you have renal impairment (kidney disease) or take prescription medications such as blood pressure regulators or antibiotics.
-        </p>
-      </div>
+      <p><strong>The short answer:</strong> Magnesium is essential for normal nerve signalling. Magnesium L-threonate is an interesting formulation investigated for its effects on brain magnesium and cognition, but evidence that supplements improve memory in humans is preliminary. It has <strong>not</strong> been shown to increase human synaptic density by 44%, reverse brain ageing or rebuild lost synapses.</p>
+      <h2>Why researchers are interested</h2>
+      <p>Magnesium participates in numerous cellular processes, including those involved in neuronal signalling. A 2010 study found that raising brain magnesium using magnesium L-threonate improved some measures of learning and synaptic function in rats. This was a useful starting point for research, not a demonstration that the same effects occur in people.</p>
+      <h2>What do human studies show?</h2>
+      <p>Small human studies have explored magnesium L-threonate-containing preparations and cognitive tests. Their size, duration and sometimes use of multiple ingredients limit the conclusions. Results from cognitive tests should not be described as direct measurement of new synapses, prevention of dementia or a reversal of biological brain age. Larger independent trials are needed to establish whether benefits are meaningful and reproducible.</p>
+      <h2>Does it cross the blood-brain barrier?</h2>
+      <p>Animal research suggests magnesium L-threonate may increase brain magnesium under experimental conditions. Claims that ordinary magnesium cannot reach the brain, that a specific percentage is blocked, or that this formulation is proven superior for human brain delivery are too strong. The brain regulates magnesium through complex transport processes.</p>
+      <h2>Should you take it?</h2>
+      <p>There is no established magnesium L-threonate regimen for preventing cognitive decline. A balanced diet, adequate sleep, physical activity, management of cardiovascular risk factors and assessment of persistent cognitive symptoms have a stronger clinical foundation. Supplementation may be appropriate for some people with inadequate magnesium intake or specific indications, but it is not a substitute for diagnosis or evidence-based care.</p>
+      <p><strong>Safety:</strong> Magnesium supplements can cause gastrointestinal symptoms and may accumulate in significant kidney impairment. They can interfere with absorption of some medicines, including certain antibiotics and thyroid medication, if taken too close together. Discuss use with a clinician or pharmacist, particularly with kidney disease, pregnancy, prescribed medicines or persistent neurological symptoms.</p>
+      <p><em>Evidence status: promising preclinical biology; limited human evidence for cognitive improvement; no established reversal of brain ageing.</em></p>
     `
   },
   {
@@ -897,109 +820,32 @@ export const POSTS = [
   },
   {
     id: 7,
-    title: "I'M EXHAUSTED, BUT MY LABS ARE NORMAL: The Hidden Energy Crisis in Your Cells",
+    title: 'Exhausted Despite Normal Blood Tests? Understanding Persistent Fatigue',
+    seoTitle: 'Persistent Fatigue with Normal Blood Tests: Causes and Next Steps',
+    metaDescription: 'Normal routine blood tests do not explain every case of fatigue. Explore sleep, medications, mood, illness and mitochondrial research without misleading diagnoses.',
     category: 'Mitochondrial Efficiency',
     image: '/normal_labs_hidden_dysfunction_hero_1764771895650.png',
-    excerpt: "Your thyroid is fine. Your iron is fine. So why are you exhausted? Because standard blood work doesnt look at your mitochondria.",
+    excerpt: 'Normal routine blood tests do not rule out every cause of fatigue. Mitochondria are important to energy biology, but fatigue alone does not diagnose mitochondrial dysfunction.',
     date: 'Jan 10, 2026',
-
+    dateModified: '2026-11-21',
     references: [
-      { text: "Wallace, D. C. (2005). A mitochondrial paradigm of metabolic and degenerative diseases, aging, and cancer. Genetics, 171(4), 1995-2010.", url: "https://pubmed.ncbi.nlm.nih.gov/16123534/" }
+      { text: 'Wallace (2005). A mitochondrial paradigm of metabolic and degenerative diseases, aging, and cancer. Background biology, not a diagnostic study of unexplained fatigue.', url: 'https://pubmed.ncbi.nlm.nih.gov/16123534/' },
+      { text: 'NICE NG206: Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management.', url: 'https://www.nice.org.uk/guidance/ng206' }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> Standard blood work checks your fuel levels. It doesnt check your engines. Mitochondrial dysfunction causes fatigue that looks "normal" on paper.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        It is common to observe individuals presenting with unexplained weight gain and severe afternoon fatigue, yet their standard blood work returns perfectly "normal" results.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        "Youre just stressed," they said. "Try to exercise more."
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is a structural problem. Standard 10-minute consults check the petrol gauge, but rarely have time to look under the bonnet.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Mitochondrial Crisis</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Your mitochondria are the power plants inside every cell. They convert food and oxygen into ATP, the energy molecule that powers everything. When theyre working well, you have energy. When theyre failing, youre exhausted even though your labs look "normal."
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Standard blood tests dont measure mitochondrial function. They measure circulating metabolites. Its like checking if the petrol station is open, not whether your engine is running.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">What Damages Mitochondria</h2>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;">Chronic stress (elevated cortisol)</li>
-        <li style="margin-bottom: 0.75rem;">Poor diet (refined carbs, seed oils)</li>
-        <li style="margin-bottom: 0.75rem;">Sedentary lifestyle (mitochondria atrophy without use)</li>
-        <li style="margin-bottom: 0.75rem;">Age (mitochondrial DNA accumulates damage)</li>
-      </ul>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Mitochondrial Support Stack</h2>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Creatine (5g daily):</strong> Buffers ATP production. Not just for gym bros.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>CoQ10 / Ubiquinol (100 to 200mg daily):</strong> Electron carrier in the mitochondrial chain.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Alpha lipoic acid (300 to 600mg daily):</strong> Mitochondrial antioxidant. I take this personally.</li>
-        <li style="margin-bottom: 0.75rem;"><strong><a href="/protocol#metabolic-stack" style="color: var(--color-accent-teal); text-decoration: underline;">Zone 2 cardio</a> (150 to 180 min/week):</strong> Triggers mitochondrial biogenesis. Build more engines.</li>
-      </ul>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">My Honest Take</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, if youre exhausted and your labs are "normal," your mitochondria are probably struggling. Standard metabolic panels won't show you this because they aren't designed to test for it.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Fix the engines. The energy follows.
-      </p>
-  
-      
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Clinical Addendum: Systemic Inflammation & Longevity</h2>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        A critical component of this physiological mechanism is the role of systemic inflammation. In acute scenarios—such as a sprained ankle or a viral infection—inflammation is a life-saving biological response. Your immune system deploys white blood cells and cytokines to the site of injury to isolate the damage and initiate repair. Once the threat is neutralized, the inflammation subsides.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        However, the modern lifestyle has hijacked this system. Due to diets high in ultra-processed seed oils, chronic psychological stress, sleep deprivation, and environmental toxins, our immune systems are locked in a state of perpetual high-alert. This is known as chronic, low-grade systemic inflammation.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Unlike acute inflammation, this chronic state is silent and destructive. It doesn't cause a fever or a swollen joint; instead, it slowly degrades your tissue architecture over decades. Circulating inflammatory cytokines like IL-6 and TNF-alpha physically damage the endothelial lining of your blood vessels, leading to arterial plaque formation. They cross the blood-brain barrier, triggering neuro-inflammation that manifests as severe brain fog and cognitive decline. They even bind to insulin receptors, causing insulin resistance and pushing your body toward metabolic syndrome.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To achieve true longevity, you must aggressively extinguish this slow-burning fire. This requires a comprehensive approach to "Inflammaging." It means aggressively managing your blood glucose levels, optimizing your circadian rhythm to ensure deep, restorative sleep, and utilizing potent natural anti-inflammatories like high-dose EPA/DHA Omega-3s and highly bioavailable Curcumin extracts to interrupt the inflammatory cascades at the molecular level. Healthspan is ultimately dictated by how well you can control inflammation.
-      </p>
-    \n\n      
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Clinical Addendum: The Mitochondrial Connection</h2>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To fully understand the gravity of this protocol, we must look at the cellular level. Every biological function we've discussed ultimately relies on mitochondrial output. Mitochondria are the microscopic power plants inside your cells, responsible for converting the food you eat and the oxygen you breathe into ATP (Adenosine Triphosphate)—the universal energy currency of the human body.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When you experience symptoms like brain fog, chronic joint pain, or afternoon fatigue, traditional medicine often treats these as separate diseases. In longevity medicine, we view them as different downstream expressions of the exact same upstream problem: <strong>Sub-clinical Mitochondrial Dysfunction</strong>. 
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        As we age, our mitochondria undergo structural decay. The phospholipid membranes that protect them become rigid, and they begin to leak free radicals (Reactive Oxygen Species) into the cell. This creates a state of chronic oxidative stress. Your immune system responds to this cellular damage by triggering systemic inflammation. This is the mechanism behind "Inflammaging"—the age-related increase in systemic inflammation that drives nearly every chronic disease.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Therefore, any protocol designed to optimize your healthspan must actively protect and regenerate these power plants. This is why the foundational pillars of our practice rely on specific interventions: <strong>Zone 2 Cardiovascular Training</strong> to force mitochondrial biogenesis (the creation of new mitochondria), <strong>Time-Restricted Eating</strong> to trigger mitophagy (the clearance of dead mitochondria), and targeted supplementation like NAD+ precursors and high-dose Omega-3s to provide the raw biological materials for cellular repair. 
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You cannot medicate your way out of mitochondrial dysfunction. You must systematically rebuild the architecture of your cells. This is the difference between simply masking symptoms and fundamentally improving the foundational markers of your biological age.
-      </p>
-    \n\n      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement or exercise regimen.
-        </p>
-      </div>
+      <p><strong>The short answer:</strong> Persistent fatigue is real even when initial blood tests are normal. Routine tests cannot detect every medical or sleep-related problem, but normal results do <strong>not</strong> mean your mitochondria are failing. The next step is a careful clinical assessment, not an automatic supplement protocol.</p>
+      <h2>Why normal results do not tell the whole story</h2>
+      <p>Blood tests help identify selected causes such as anaemia, thyroid disease and some nutritional or metabolic problems. They are only one part of assessment. The pattern of symptoms, sleep quality, medicines, mood, activity, infections and other conditions can all matter. Which further tests are useful depends on the history and examination.</p>
+      <h2>Where mitochondria fit in</h2>
+      <p>Mitochondria help cells produce ATP, an essential energy carrier. Mitochondrial disorders can cause fatigue, but they are relatively uncommon and often involve additional clinical findings. Research into mitochondrial function in fatigue syndromes is ongoing; it does not establish a single cause or a simple diagnostic test for everyone with tiredness.</p>
+      <h2>Other possibilities worth considering</h2>
+      <p>Sleep restriction and obstructive sleep apnoea, medication effects, depression or anxiety, persistent symptoms after infection, chronic pain, cardiovascular or respiratory illness and other medical conditions can contribute. Some people meet criteria for ME/CFS, where post-exertional symptom exacerbation is an important feature. These possibilities require individual assessment rather than self-diagnosis.</p>
+      <h2>What can help?</h2>
+      <p>Start with a clinical review, a medication check and assessment of sleep and relevant symptoms. Address identified conditions and consider sustainable sleep habits, nutrition and appropriate activity. Exercise is beneficial for many people, but <strong>pushing through post-exertional symptom exacerbation can worsen symptoms in ME/CFS</strong>; activity advice must be tailored.</p>
+      <h2>What about creatine, CoQ10 and other supplements?</h2>
+      <p>Creatine, CoQ10 and alpha-lipoic acid have plausible roles in cellular biology, but there is insufficient evidence to recommend a universal supplement stack for unexplained fatigue. Benefits shown for particular conditions should not be generalised to everyone with normal blood tests. Supplements can have adverse effects or interactions, so review them with a clinician.</p>
+      <p><strong>When to seek prompt care:</strong> New chest pain, significant breathlessness, fainting, rapidly worsening weakness or other alarming symptoms require urgent assessment. Persistent or worsening fatigue deserves medical review even without these warning signs.</p>
+      <p><em>Evidence status: established mitochondrial biology; uncertain relevance to most unexplained fatigue; no proven universal mitochondrial supplement treatment.</em></p>
     `
   },
   {
