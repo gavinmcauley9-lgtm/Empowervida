@@ -29,13 +29,10 @@ const Privacy = lazy(() => import('./pages/Privacy'));
 const TermsConditions = lazy(() => import('./pages/TermsConditions'));
 const InsulinStory = lazy(() => import('./pages/InsulinStory'));
 const EmpowerProtocol = lazy(() => import('./pages/EmpowerProtocol'));
-const DiagnosticsPortal = lazy(() => import('./pages/DiagnosticsPortal'));
 const HeroCompare = lazy(() => import('./pages/HeroCompare'));
 const Contact = lazy(() => import('./pages/Contact'));
 const ThankYou = lazy(() => import('./pages/ThankYou'));
-const Calculator = lazy(() => import('./pages/Calculator'));
 const Links = lazy(() => import('./pages/Links'));
-const PhenoAge = lazy(() => import('./pages/PhenoAge'));
 const WelcomeInsider = lazy(() => import('./pages/WelcomeInsider'));
 
 // Loading component for better UX during lazy load
@@ -135,11 +132,8 @@ function AppContent() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<TermsConditions />} />
             <Route path="/insulin-story" element={<InsulinStory />} />
-            <Route path="/diagnostics-portal" element={<DiagnosticsPortal />} />
             <Route path="/hero-compare" element={<HeroCompare />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/calculator" element={<Calculator />} />
-            <Route path="/biological-age" element={<PhenoAge />} />
             <Route path="/links" element={<Links />} />
             <Route path="/welcome-insider" element={<WelcomeInsider />} />
           </Routes>
