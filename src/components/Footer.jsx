@@ -6,21 +6,46 @@ import { trackOutboundLink } from '../utils/analytics';
 
 const Footer = () => {
     const linkStyle = {
-        display: 'block',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        textAlign: 'left',
+        minHeight: '44px',
         color: '#86868b',
         textDecoration: 'none',
-        marginBottom: '0.5rem',
-        fontSize: '0.9rem',
+        marginBottom: 0,
+        padding: '0.15rem 0',
+        fontSize: '0.84rem',
+        lineHeight: 1.4,
         transition: 'color 0.2s ease',
         textTransform: 'uppercase',
-        letterSpacing: '0.05em'
+        letterSpacing: '0.04em'
+    };
+
+    const headingStyle = {
+        fontSize: '0.88rem',
+        fontWeight: 700,
+        textTransform: 'uppercase',
+        letterSpacing: '0.09em',
+        marginBottom: '0.65rem',
+        color: '#555555'
+    };
+
+    const socialLinkStyle = {
+        color: 'var(--color-text-muted)',
+        transition: 'color 0.2s ease',
+        display: 'inline-flex',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        minWidth: '44px',
+        minHeight: '44px'
     };
 
     return (
-        <footer className="ev-footer" style={{ padding: '3rem 2rem',
+        <footer className="ev-footer" style={{
             backgroundColor: '#F5F5F7',
             color: '#1D1D1F',
-            padding: '4rem 2rem',
+            padding: '3.5rem 2rem 6.25rem',
             borderTop: '1px solid rgba(0,0,0,0.1)',
             position: 'relative',
             zIndex: 10,
@@ -30,17 +55,17 @@ const Footer = () => {
                 maxWidth: '1200px',
                 margin: '0 auto',
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))',
-                gap: '2.5rem',
-                marginBottom: '2.5rem'
+                gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 220px), 1fr))',
+                gap: '2rem 2.25rem',
+                marginBottom: '2rem'
             }}>
                 {/* Column 1: Identity */}
                 <div className="ev-footer-identity">
                     <h3 style={{
-                        fontSize: '1.3rem',
+                        fontSize: '1.25rem',
                         fontWeight: 800,
-                        letterSpacing: '0.15em',
-                        marginBottom: '1rem',
+                        letterSpacing: '0.14em',
+                        marginBottom: '0.4rem',
                         color: 'var(--color-text)',
                         textTransform: 'uppercase'
                     }}>
@@ -48,20 +73,15 @@ const Footer = () => {
                     </h3>
                     <p style={{
                         color: 'var(--color-text-muted)',
-                        fontSize: '1rem',
-                        marginBottom: '2rem',
+                        fontSize: '0.95rem',
+                        marginBottom: '0.85rem',
                         fontStyle: 'italic'
                     }}>
                         Clinical Vitality Engineering
                     </p>
-                    <div className="ev-footer-social" style={{ display: 'flex', gap: '1rem' }}>
+                    <div className="ev-footer-social" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                         {/* Twitter / X */}
-                        <a href="https://x.com/GavinMcAuleyMD" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" style={{
-                            color: 'var(--color-text-muted)',
-                            transition: 'color 0.2s ease',
-                            display: 'flex',
-                            alignItems: 'center'
-                        }}
+                        <a href="https://x.com/GavinMcAuleyMD" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" style={socialLinkStyle}
                             onClick={() => trackOutboundLink('https://x.com/GavinMcAuleyMD', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#000000'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
@@ -72,12 +92,7 @@ const Footer = () => {
                         </a>
 
                         {/* LinkedIn */}
-                        <a href="https://www.linkedin.com/in/drgavinmcauley/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{
-                            color: 'var(--color-text-muted)',
-                            transition: 'color 0.2s ease',
-                            display: 'flex',
-                            alignItems: 'center'
-                        }}
+                        <a href="https://www.linkedin.com/in/drgavinmcauley/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={socialLinkStyle}
                             onClick={() => trackOutboundLink('https://www.linkedin.com/in/drgavinmcauley/', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#0077b5'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
@@ -88,12 +103,7 @@ const Footer = () => {
                         </a>
 
                         {/* Facebook */}
-                        <a href="https://www.facebook.com/profile.php?id=61589172749004" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{
-                            color: 'var(--color-text-muted)',
-                            transition: 'color 0.2s ease',
-                            display: 'flex',
-                            alignItems: 'center'
-                        }}
+                        <a href="https://www.facebook.com/profile.php?id=61589172749004" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={socialLinkStyle}
                             onClick={() => trackOutboundLink('https://www.facebook.com/profile.php?id=61589172749004', 'social')}
                             onMouseEnter={(e) => e.currentTarget.style.color = '#1877F2'}
                             onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}
@@ -108,14 +118,7 @@ const Footer = () => {
 
                 {/* Column 2: Quick Links */}
                 <div className="ev-footer-group">
-                    <h4 style={{
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.1em',
-                        marginBottom: '1.5rem',
-                        color: '#555555'
-                    }}>
+                    <h4 style={headingStyle}>
                         Quick Links
                     </h4>
                     <Link href="/blog" style={linkStyle}>[ THE JOURNAL ]</Link>
@@ -127,14 +130,7 @@ const Footer = () => {
 
                 {/* Column 3: Essential Guides */}
                 <div className="ev-footer-group">
-                    <h4 style={{
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.1em',
-                        marginBottom: '1.5rem',
-                        color: '#555555'
-                    }}>
+                    <h4 style={headingStyle}>
                         Essential Guides
                     </h4>
                     <Link href="/mitochondrial-guide" style={linkStyle}>⚡ [ MITOCHONDRIAL HEALTH ]</Link>
@@ -144,30 +140,19 @@ const Footer = () => {
                     <Link href="/environmental-defense" style={linkStyle}>🛡️ [ THE ELEMENTS ]</Link>
                 </div>
 
-                {/* Column 3: Legal & Privacy */}
+                {/* Column 4: Legal & Privacy */}
                 <div className="ev-footer-group">
-                    <h4 style={{
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.1em',
-                        marginBottom: '1.5rem',
-                        color: '#555555'
-                    }}>
+                    <h4 style={headingStyle}>
                         Legal & Privacy
                     </h4>
                     <Link href="/terms-conditions" style={linkStyle}>[ TERMS & CONDITIONS ]</Link>
                     <Link href="/privacy" style={linkStyle}>[ PRIVACY POLICY ]</Link>
                 </div>
 
-                {/* Column 4: Medical Disclaimer */}
+                {/* Column 5: Medical Disclaimer */}
                 <div className="ev-footer-group ev-footer-disclaimer">
                     <h4 style={{
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.1em',
-                        marginBottom: '1.5rem',
+                        ...headingStyle,
                         color: '#FF5F00' // Warning color for disclaimer header
                     }}>
                         Medical Disclaimer
@@ -184,8 +169,8 @@ const Footer = () => {
 
             {/* Bottom Row */}
             <div className="ev-footer-bottom" style={{
-                borderTop: '1px solid rgba(255, 255, 255, 0.05)',
-                paddingTop: '2rem',
+                borderTop: '1px solid #dedfe2',
+                paddingTop: '1.25rem',
                 textAlign: 'center',
                 fontSize: '0.8rem',
                 color: '#444444',
@@ -202,7 +187,13 @@ const Footer = () => {
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        minHeight: '44px',
+                        minWidth: '44px',
+                        padding: '0 0.35rem'
                     }}
                 >
                     Terms
@@ -213,7 +204,13 @@ const Footer = () => {
                     style={{
                         color: 'inherit',
                         textDecoration: 'underline',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        minHeight: '44px',
+                        minWidth: '44px',
+                        padding: '0 0.35rem'
                     }}
                 >
                     Privacy
@@ -230,36 +227,68 @@ const Footer = () => {
                         cursor: 'pointer',
                         textDecoration: 'underline',
                         fontSize: 'inherit',
-                        opacity: 0.8
+                        opacity: 0.8,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        minHeight: '44px',
+                        minWidth: '44px',
+                        padding: '0 0.35rem'
                     }}
                 >
                     Cookie Preferences
                 </button>
             </div>
-            <style jsx global>{`
+            <style>{`
               .ev-footer a:focus-visible, .ev-footer button:focus-visible { outline: 2px solid #16877f; outline-offset: 3px; }
-              @media (max-width: 767px) {
-                .ev-footer { padding: 2rem 18px 8.5rem !important; }
-                .ev-footer-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; column-gap: 1rem !important; row-gap: 1.5rem !important; margin-bottom: 1.25rem !important; }
+              .ev-footer-group a {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: flex-start !important;
+                text-align: left !important;
+                min-height: 44px !important;
+                margin-bottom: 0 !important;
+              }
+              .ev-footer-social a {
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: flex-start !important;
+                min-width: 44px !important;
+                min-height: 44px !important;
+              }
+              .ev-footer-disclaimer p {
+                font-size: 0.8rem !important;
+                line-height: 1.58 !important;
+              }
+              @media (max-width: 768px) {
+                .ev-footer { padding: 2rem 16px 10.5rem !important; }
+                .ev-footer-grid {
+                  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                  column-gap: 1rem !important;
+                  row-gap: 1.35rem !important;
+                  margin-bottom: 1.25rem !important;
+                }
                 .ev-footer-identity { grid-column: 1 / -1; }
-                .ev-footer-identity h3 { margin-bottom: .3rem !important; font-size: 1.15rem !important; }
-                .ev-footer-identity p { margin-bottom: .9rem !important; font-size: .9rem !important; }
-                .ev-footer-social { gap: 1.4rem !important; }
-                .ev-footer-group h4 { margin-bottom: .7rem !important; font-size: .78rem !important; line-height: 1.35 !important; }
+                .ev-footer-identity h3 { margin-bottom: 0.25rem !important; font-size: 1.15rem !important; }
+                .ev-footer-identity p { margin-bottom: 0.5rem !important; font-size: 0.9rem !important; line-height: 1.4 !important; }
+                .ev-footer-social { gap: 0.5rem !important; }
+                .ev-footer-group h4 { margin-bottom: 0.45rem !important; font-size: 0.78rem !important; line-height: 1.35 !important; }
                 .ev-footer-group a {
-                    display: flex !important;
-                    align-items: center;
-                    justify-content: flex-start;
-                    min-height: 44px;
-                    margin-bottom: 0 !important;
-                    font-size: .78rem !important;
-                    letter-spacing: 0 !important;
-                    line-height: 1.5 !important;
-                    overflow-wrap: anywhere;
+                  font-size: 0.78rem !important;
+                  letter-spacing: 0 !important;
+                  line-height: 1.38 !important;
+                  padding: 0.15rem 0 !important;
+                  overflow-wrap: anywhere;
                 }
                 .ev-footer-disclaimer { grid-column: 1 / -1; border-top: 1px solid #dedfe2; padding-top: 1rem; }
-                .ev-footer-disclaimer p { font-size: .78rem !important; line-height: 1.55 !important; max-width: 68ch; }
-                .ev-footer-bottom { padding-top: 1rem !important; gap: .65rem !important; font-size: .8rem !important; line-height: 1.7 !important; border-top: 1px solid #dedfe2 !important; } .ev-footer-bottom a, .ev-footer-bottom button { padding: .35rem .2rem !important; }
+                .ev-footer-disclaimer p { font-size: 0.78rem !important; line-height: 1.55 !important; max-width: 68ch; }
+                .ev-footer-bottom {
+                  padding-top: 0.85rem !important;
+                  gap: 0.35rem !important;
+                  font-size: 0.78rem !important;
+                  line-height: 1.5 !important;
+                  border-top: 1px solid #dedfe2 !important;
+                }
               }
             `}</style>
         </footer>
