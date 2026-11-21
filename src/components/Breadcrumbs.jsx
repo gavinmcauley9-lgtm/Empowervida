@@ -11,6 +11,7 @@ const Breadcrumbs = () => {
     // Map paths to readable names
     const pathNameMap = {
         'blog': 'The Journal',
+        'omega-3-and-aspirin-take-together-physician-guide': 'Can You Take Omega-3 and Aspirin Together? Bleeding Risks Explained',
         'protocol': 'Protocols',
         'diagnostics': 'The Diagnostics',
         'environmental-defense': 'The Elements',
