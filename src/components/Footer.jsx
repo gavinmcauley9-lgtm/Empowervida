@@ -246,14 +246,20 @@ const Footer = () => {
                 .ev-footer-identity p { margin-bottom: .9rem !important; font-size: .9rem !important; }
                 .ev-footer-social { gap: 1.4rem !important; }
                 .ev-footer-group h4 { margin-bottom: .7rem !important; font-size: .78rem !important; line-height: 1.35 !important; }
-                .ev-footer-group a { margin-bottom: .6rem !important; font-size: .78rem !important; letter-spacing: 0 !important; line-height: 1.5 !important; overflow-wrap: anywhere; }
+                .ev-footer-group a {
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: flex-start;
+                    min-height: 44px;
+                    margin-bottom: 0 !important;
+                    font-size: .78rem !important;
+                    letter-spacing: 0 !important;
+                    line-height: 1.5 !important;
+                    overflow-wrap: anywhere;
+                }
                 .ev-footer-disclaimer { grid-column: 1 / -1; border-top: 1px solid #dedfe2; padding-top: 1rem; }
                 .ev-footer-disclaimer p { font-size: .78rem !important; line-height: 1.55 !important; max-width: 68ch; }
                 .ev-footer-bottom { padding-top: 1rem !important; gap: .65rem !important; font-size: .8rem !important; line-height: 1.7 !important; border-top: 1px solid #dedfe2 !important; } .ev-footer-bottom a, .ev-footer-bottom button { padding: .35rem .2rem !important; }
-              }
-              @media (max-width: 340px) {
-                .ev-footer-grid { grid-template-columns: minmax(0,1fr) !important; }
-                .ev-footer-identity, .ev-footer-disclaimer { grid-column: 1 !important; }
               }
             `}</style>
         </footer>
