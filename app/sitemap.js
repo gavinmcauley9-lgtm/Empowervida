@@ -16,10 +16,7 @@ export default function sitemap() {
     '/protocol',
     '/empower-protocol',
     '/mitochondrial-guide',
-    '/longevity',
-    '/calculator',
-    '/biological-age',
-    '/diagnostics-portal'
+    '/longevity'
   ].map((route) => ({
     url: `${DOMAIN}${route}`,
     lastModified: new Date(),
