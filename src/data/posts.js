@@ -8030,6 +8030,20 @@ export const POSTS = [
   }
 ];
 
-export const PUBLISHED_POSTS = POSTS.filter((post) => !post.redirectTo);
+// TEMPORARY EDITORIAL SAFETY HOLD (2026-11-21).
+// Only previously reviewed articles remain published during the urgent clinical audit.
+// This is a provisional editorial selection, NOT an independent verification or green rating.
+// To restore normal publication after review, set JOURNAL_SAFETY_HOLD to false.
+// The underlying POSTS entries remain intact for reversible restoration.
+export const JOURNAL_SAFETY_HOLD = true;
+export const TEMPORARILY_RETAINED_POST_IDS = new Set([
+  '999',             // NAD+ / brain fog — previously reviewed
+  '1',               // Gut–brain axis — previously reviewed
+  'the-coq10-trap',  // CoQ10 — recently corrected and merged
+]);
+export const PUBLISHED_POSTS = POSTS.filter((post) =>
+  !post.redirectTo &&
+  (!JOURNAL_SAFETY_HOLD || TEMPORARILY_RETAINED_POST_IDS.has(String(post.id)))
+);
 
 export default POSTS;
