@@ -15,9 +15,6 @@ const GUIDE_LINKS = [
 const TOOL_LINKS = [
   { href: '/diagnostics', label: 'The Diagnostics' },
   { href: '/advanced-optimization', label: 'Advanced Diagnostics' },
-  { href: '/diagnostics-portal', label: 'Diagnostics Portal' },
-  { href: '/calculator', label: 'HOMA-IR Calculator' },
-  { href: '/biological-age', label: 'Biological Age Calculator' },
 ];
 
 const NEWSLETTER_URL = 'https://drgavinmcauley.substack.com';
