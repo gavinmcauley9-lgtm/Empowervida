@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import posts from '../src/data/posts.js';
+import { PUBLISHED_POSTS } from '../src/data/posts.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -18,7 +18,6 @@ const staticRoutes = [
   '/protocol',
   '/empower-protocol',
   '/engine-room',
-  '/shop',
   '/mitochondrial-guide',
   '/longevity'
 ];
@@ -37,7 +36,7 @@ staticRoutes.forEach(route => {
 });
 
 // Add blog posts
-posts.forEach(post => {
+PUBLISHED_POSTS.forEach(post => {
   const urlPath = post.slug ? `/blog/${post.slug}` : `/blog/${post.id}`;
   sitemap += `  <url>
     <loc>${DOMAIN}${urlPath}</loc>
@@ -51,4 +50,4 @@ sitemap += `</urlset>`;
 const outputPath = path.resolve(__dirname, '../public/sitemap.xml');
 fs.writeFileSync(outputPath, sitemap, 'utf8');
 
-console.log(`✅ Sitemap generated at ${outputPath} with ${staticRoutes.length + posts.length} URLs.`);
+console.log(`✅ Sitemap generated at ${outputPath} with ${staticRoutes.length + PUBLISHED_POSTS.length} URLs.`);
