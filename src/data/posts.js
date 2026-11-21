@@ -6413,73 +6413,52 @@ export const POSTS = [
   {
     id: 56,
     slug: 'omega-3-and-aspirin-take-together-physician-guide',
-    title: 'Omega-3 and Aspirin: Can You Take Them Together? (Physicians Guide) ',
-    category: 'Metabolic Flexibility',
+    title: 'Can You Take Omega-3 and Aspirin Together? Bleeding Risks Explained',
+    seoTitle: 'Can You Take Omega-3 and Aspirin Together? | EmpowerVida',
+    metaDescription: 'Can you take fish oil or omega-3 with low-dose aspirin? A physician explains bleeding risk, high-dose EPA, surgery and when to seek medical advice.',
+    category: 'Cardiovascular Health',
     image: '/omega3_aspirin_blood.png',
-    excerpt: "Understanding the biochemical cross-talk between Omega-3 and Aspirin. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
+    imageAlt: 'Illustration accompanying an evidence-based discussion of omega-3 and aspirin',
+    excerpt: 'Most people can take omega-3 supplements with prescribed low-dose aspirin, but dose, bleeding history and other medicines matter. Here is what clinical trials actually show.',
     date: 'Jan 10, 2026',
-
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        "text": "Bays, H. E. (2007). Safety considerations with omega-3 fatty acid therapy. American Journal of Cardiology, 99(6), S35-S43.",
-        "url": ""
-      }
+      { text: 'Javaid M, et al. Bleeding Risk in Patients Receiving Omega-3 Polyunsaturated Fatty Acids: A Systematic Review and Meta-Analysis of Randomized Clinical Trials. J Am Heart Assoc. 2024;13:e032390.', url: 'https://pubmed.ncbi.nlm.nih.gov/38742535/' },
+      { text: 'Bhatt DL, et al. Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (REDUCE-IT). N Engl J Med. 2019;380:11–22.', url: 'https://pubmed.ncbi.nlm.nih.gov/30415628/' },
+      { text: 'Akintoye E, et al. Fish Oil and Peri-operative Bleeding: Insights from the OPERA Randomized Trial. Circ Cardiovasc Qual Outcomes. 2018.', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6376981/' },
+      { text: 'US Preventive Services Task Force. Aspirin Use to Prevent Cardiovascular Disease: Preventive Medication. 2022.', url: 'https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication' },
+      { text: 'NIH Office of Dietary Supplements. Omega-3 Fatty Acids: Fact Sheet for Health Professionals.', url: 'https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/' }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Yes, but with awareness of the additive blood-thinning effect.</strong> Both omega-3 fatty acids and aspirin reduce platelet aggregation (blood clotting) through different mechanisms. At standard supplement doses (2-3g omega-3), the combination is generally safe and may even provide synergistic cardiovascular protection. However, the increased bleeding risk requires awareness — especially before surgery or if you take other anticoagulants.</p>
+      <div style="background:rgba(32,178,170,.08);border-left:4px solid #20B2AA;padding:1.1rem 1.25rem;margin:0 0 1.5rem;border-radius:8px">
+        <p style="font-weight:700;color:var(--color-accent-teal);margin:0 0 .5rem">THE SHORT ANSWER</p>
+        <p style="margin:0"><strong>Many people taking prescribed low-dose aspirin can also take omega-3 supplements.</strong> Although omega-3 fatty acids can affect platelet activity, large trials have not found a significant overall increase in serious bleeding with typical omega-3 preparations. Higher-dose purified EPA, a history of bleeding, and other blood-thinning medicines require more individual consideration. Do not stop prescribed aspirin without medical advice.</p>
       </div>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">How They Work on Different Clotting Pathways</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Aspirin</strong> irreversibly inhibits <strong>cyclooxygenase-1 (COX-1)</strong>, blocking the production of thromboxane A2 — the molecule that tells platelets to aggregate and form clots. Because aspirin's inhibition is irreversible, each affected platelet remains inhibited for its entire 7-10 day lifespan. This is why low-dose aspirin (75-100mg) is prescribed for cardiovascular prevention.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Omega-3s (EPA and DHA)</strong> work differently. EPA competes with arachidonic acid (AA) for COX and LOX enzyme binding sites, shifting the balance from pro-inflammatory, pro-thrombotic eicosanoids toward anti-inflammatory, less thrombogenic ones (prostaglandin E3, thromboxane A3). DHA incorporates into platelet membranes, altering membrane fluidity and reducing platelet activation. The effect is milder than aspirin and reversible — platelet function normalises within 3-5 days of stopping omega-3 supplementation.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Cardiovascular Synergy</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The REDUCE-IT trial demonstrated that high-dose EPA (icosapent ethyl, 4g/day) reduced major cardiovascular events by 25% when added to statin therapy. Several studies have explored aspirin-omega-3 combinations specifically, finding complementary benefits: aspirin provides strong antiplatelet protection while omega-3s contribute anti-inflammatory effects (reducing CRP, IL-6), triglyceride reduction (30-50% at therapeutic doses), anti-arrhythmic properties, and endothelial function improvement. The combination may therefore offer broader cardiovascular protection than either agent alone.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Aspirin:</strong> If prescribed for cardiovascular prevention, the standard dose is 75-100mg once daily. Do not start aspirin for heart protection without medical advice — the risk-benefit balance depends on your individual cardiovascular risk profile.<br/>
-        <strong>Omega-3:</strong> 2,000-3,000mg combined EPA+DHA daily for cardiovascular benefit. Prioritise EPA content — it provides the anti-inflammatory and antiplatelet effects. Use triglyceride-form fish oil for superior absorption.<br/>
-        <strong>Timing:</strong> Aspirin is typically taken in the morning. Omega-3s are best absorbed with a fat-containing meal. They can be taken together or separately — no specific timing interaction exists.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Critical Safety Considerations</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Surgery:</strong> Discontinue omega-3 supplements 7-10 days before elective surgery. Aspirin discontinuation should only be done under your surgeon's guidance — stopping aspirin in patients with cardiac stents can be dangerous.<br/>
-        <strong>Triple therapy risk:</strong> If you also take warfarin, clopidogrel, or other anticoagulants, the addition of omega-3s creates a three-way antiplatelet/anticoagulant effect. This significantly increases bleeding risk. Inform your cardiologist or haematologist.<br/>
-        <strong>GI bleeding:</strong> Aspirin causes gastric mucosal erosion. High-dose omega-3s may exacerbate this. If you have a history of peptic ulcers or GI bleeding, use enteric-coated aspirin and monitor for black stools (sign of GI bleeding).<br/>
-        <strong>Bruising:</strong> Increased tendency to bruise is normal and expected with this combination. It is not dangerous but is a visible sign of the antiplatelet effect.
-      </p>
-
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>An Educational Perspective:</strong> For patients already on prescribed low-dose aspirin for secondary cardiovascular prevention, I routinely recommend adding omega-3s (2-3g EPA+DHA). The mechanisms are complementary and the evidence for combined benefit is strong. The key is awareness rather than avoidance — know that you will bruise more easily, inform your dentist and any surgeons, and discontinue the omega-3s (not the aspirin, unless directed) before procedures. For primary prevention (no existing heart disease), I would start with omega-3s alone before even considering aspirin, as the risk-benefit of primary prevention aspirin has been significantly revised downward in recent guidelines.</p>
-      </div>
-
-      
-      <!-- TOPIC CLUSTER -->
-      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
-        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
-      </div>
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
-          <strong>Medical Disclaimer:</strong> This article is for educational purposes only. Do not start or stop aspirin without consulting your healthcare provider. If you experience signs of excessive bleeding (black stools, prolonged bleeding from cuts, blood in urine), seek medical attention.
-        </p>
-      </div>`
+      <p>Fish oil and aspirin are often described as two “blood thinners” that should never be combined. The reality is more nuanced. Aspirin has a well-established antiplatelet action. Omega-3 fatty acids have measurable biological effects on platelets, but laboratory effects do not necessarily translate into dangerous bleeding in everyday clinical practice.</p>
+      <h2>Does taking fish oil with aspirin increase bleeding?</h2>
+      <p>A 2024 systematic review and meta-analysis examined 120,643 participants in 11 randomised trials contributing to the pooled bleeding analysis. Overall, omega-3 treatment was <strong>not associated with a statistically significant increase in bleeding</strong> compared with control (rate ratio 1.09; 95% confidence interval 0.91–1.31). Rates of gastrointestinal and intracranial bleeding were also similar. These findings are reassuring at a population level, but they cannot establish safety for every individual.</p>
+      <p>One important exception deserves attention: <strong>high-dose purified EPA</strong> was associated with a relative increase in bleeding, although the absolute increase was small, about <strong>0.6 percentage points</strong>. The formulation and dose therefore matter.</p>
+      <h2>How do aspirin and omega-3 work?</h2>
+      <p><strong>Aspirin</strong> irreversibly inhibits platelet cyclooxygenase-1 (COX-1), reducing thromboxane A2 formation and making platelets less likely to clump together. This effect persists for the lifespan of affected platelets.</p>
+      <p><strong>Omega-3 fatty acids</strong> include EPA and DHA. They influence cell membranes and lipid-signalling pathways and can alter platelet function. Their effects are generally less pronounced than aspirin's. It is an oversimplification to assume the two automatically produce a clinically important additive bleeding risk.</p>
+      <h2>Does the combination provide extra cardiovascular protection?</h2>
+      <p><strong>That has not been established for ordinary fish-oil supplements plus aspirin.</strong> The REDUCE-IT trial found fewer cardiovascular events with prescription <em>icosapent ethyl</em> (4 g/day of purified EPA) in selected statin-treated patients with elevated triglycerides. This was a trial of a specific prescription product in a specific high-risk population, not evidence that adding an over-the-counter fish-oil capsule to aspirin prevents heart attacks.</p>
+      <p>REDUCE-IT also reported more hospitalisations for atrial fibrillation or flutter (3.1% versus 2.1%) and numerically more serious bleeding events (2.7% versus 2.1%; the latter difference was not statistically significant). Claims that omega-3 supplements are broadly “anti-arrhythmic” are therefore misleading.</p>
+      <h2>What about low-dose aspirin, dose and timing?</h2>
+      <p>If aspirin has been prescribed after a heart attack, ischaemic stroke or coronary stent, <strong>continue it as directed</strong> unless the treating clinician advises otherwise. Aspirin used to prevent a <em>first</em> cardiovascular event is a different decision: its potential benefit may be outweighed by bleeding risk, depending on age and individual circumstances.</p>
+      <p>There is <strong>no established universal dose of EPA+DHA to add to aspirin for cardiovascular protection</strong>. The amount in an ordinary fish-oil capsule differs substantially from a prescription omega-3 preparation. Check the actual EPA and DHA content rather than relying on the total “fish oil” weight on the label. Omega-3 supplements are often taken with food for tolerability; taking them at a different time from aspirin has not been shown to eliminate bleeding risk.</p>
+      <h2>When should you seek individual advice?</h2>
+      <ul>
+        <li><strong>Other antithrombotic medicines:</strong> discuss omega-3 use if you also take warfarin, apixaban, rivaroxaban, clopidogrel or similar medicines. Risk depends on the complete treatment plan, not simply the number of products.</li>
+        <li><strong>Previous ulcers or gastrointestinal bleeding:</strong> aspirin itself increases bleeding risk. Enteric-coated aspirin does not reliably prevent serious gastrointestinal bleeding; ask about appropriate gastroprotection and whether aspirin remains indicated.</li>
+        <li><strong>Before surgery or dental procedures:</strong> tell your clinical team about aspirin and every supplement. Evidence does not support a universal rule that fish oil must be stopped 7–10 days before all operations. Follow the procedure team's specific instructions, especially for aspirin prescribed after a coronary event or stent.</li>
+        <li><strong>New bruising or bleeding:</strong> do not assume it is harmless. Seek assessment for unexplained or worsening bruising, repeated nosebleeds or bleeding that takes unusually long to stop.</li>
+      </ul>
+      <p><strong>Urgent warning signs:</strong> black, tarry stools, vomiting blood, significant persistent bleeding, sudden severe headache or new neurological symptoms require urgent medical assessment.</p>
+      <h2>Practical takeaway</h2>
+      <p>For many people, combining a conventional omega-3 supplement with prescribed low-dose aspirin is reasonable, but it should not be promoted as a proven cardiovascular “synergy”. The most important questions are <strong>why aspirin was prescribed, which omega-3 product and dose are being used, and whether there are additional bleeding risks</strong>. Dietary oily fish is a useful source of omega-3s; supplements and prescription EPA should be evaluated on their own evidence.</p>
+      <p><em>Evidence note:</em> The absence of a statistically significant overall bleeding signal in trials does not prove zero risk, particularly for individuals with complex medical histories. The evidence for high-dose purified EPA should not be generalised to all fish-oil products.</p>
+      <p style="font-size:.9rem;color:var(--color-text-muted)">Educational information only. Do not start or stop aspirin, anticoagulants or prescribed omega-3 treatment on the basis of this article; discuss changes with your treating clinician.</p>`
   },
 
   {
