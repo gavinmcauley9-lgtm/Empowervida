@@ -479,7 +479,8 @@ export const POSTS = [
     dateModified: '2026-11-21',
     references: [
       { text: "Creatine and cognition: systematic review and meta-analysis of randomised trials (2024).", url: "https://pubmed.ncbi.nlm.nih.gov/39070254/" },
-      { text: "Creatine supplementation and cognition: critical systematic review (2024).", url: "https://doi.org/10.1016/j.bbr.2024.114982" },
+      { text: "Creatine supplementation and cognition: critical systematic review (2024).", url: "https://pubmed.ncbi.nlm.nih.gov/38582412/" },
+      { text: "EFSA: Creatine and improvement in cognitive function — health claim assessment (2024).", url: "https://pubmed.ncbi.nlm.nih.gov/39564533/" },
       { text: "EFSA: Evaluation of citicoline and memory-function health claims (2024).", url: "https://doi.org/10.2903/j.efsa.2024.8861" },
       { text: "Citicoline and memory in older adults: randomised trial (2021).", url: "https://pubmed.ncbi.nlm.nih.gov/33978188/" },
       { text: "Omega-3 and cognitive outcomes: systematic review of randomised trials (2020).", url: "https://pubmed.ncbi.nlm.nih.gov/32305302/" },
@@ -493,7 +494,7 @@ export const POSTS = [
       <p>Three commonly discussed compounds illustrate the gap between a plausible mechanism and a measurable benefit in people. None is a substitute for investigating persistent memory problems, poor concentration or unexplained fatigue.</p>
       <h2>1. Creatine: an energy buffer, not a guaranteed brain boost</h2>
       <p>Creatine helps cells rapidly regenerate ATP, the molecule used to power cellular work. Its role in muscle performance is well established. The brain also contains a creatine–phosphocreatine system, which has prompted research into whether supplementation might help during periods of high energy demand.</p>
-      <p>A 2024 meta-analysis of 16 randomised trials involving 492 participants reported signals of benefit in some cognitive measures, but the studies were relatively small and varied in their methods and populations. A separate 2024 systematic review found results for cognition equivocal overall, with potentially more interesting effects in stressed or sleep-deprived participants than in people functioning normally.</p>
+      <p>A 2024 meta-analysis of 16 randomised trials involving 492 participants reported signals of benefit in some cognitive measures, but the studies were relatively small and varied in their methods and populations. A separate 2024 systematic review found results for cognition equivocal overall. In its 2024 evidence assessment, the European Food Safety Authority concluded that a cause-and-effect relationship between creatine supplementation and improved cognitive function had not been established. This does not exclude future benefits in specific groups, but it argues against confident claims of a general brain boost.</p>
       <p><strong>What is established:</strong> Creatine is involved in cellular energy buffering. <strong>What remains uncertain:</strong> whether supplementation meaningfully improves everyday concentration or memory in healthy, well-rested adults, and which groups might benefit most.</p>
       <p>Creatine is not a proven treatment for brain fog, ADHD or dementia. Persistent symptoms deserve assessment rather than an assumption that the brain is running out of ATP.</p>
       <h2>2. Citicoline (CDP-choline): promising chemistry, mixed clinical results</h2>
@@ -517,7 +518,8 @@ export const POSTS = [
       <p><em>This article is educational and is not individual medical advice. Discuss supplements with a qualified clinician if you take medication, have a medical condition, are pregnant, or are being assessed for cognitive symptoms.</em></p>
     `
   },
-  {id: 4,
+  {
+    id: 4,
     aliases: ['mit-discovery-reverses-brain-ageing-nmn', 'the-mit-discovery-that-reverses-brain-ageing'],
     title: 'The MIT Discovery That Protects the Aging Brain: How One Molecule Supports Synaptic Density',
     category: 'Neuro-Optimization',
