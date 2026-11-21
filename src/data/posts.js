@@ -5601,188 +5601,56 @@ export const POSTS = [
   },
   {
     id: 46,
-    title: 'Vitamin C and Quercetin: Can You Take Them Together?',
+    title: "Vitamin C and Quercetin: What the Evidence Shows",
     category: 'Metabolic Flexibility',
     image: '/vit_c_quercetin_immune.png',
-    excerpt: 'Yes, and they work better together than apart. A physician explains why this combination genuinley works for immune support and allergies.',
+    excerpt: "Vitamin C and quercetin can be taken together, but a clinical advantage for colds or hay fever remains unproven.",
     date: 'Jan 10, 2026',
 
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        text: "Davis, J. M., et al. (2008). Quercetin reduces susceptibility to influenza infection. American Journal of Physiology.",
-        url: "https://pubmed.ncbi.nlm.nih.gov/18579649/"
-      }
+      { text: "NIH Office of Dietary Supplements. Vitamin C: Fact Sheet for Health Professionals.", url: "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/" },
+      { text: "Nieman et al. Quercetin supplementation and upper respiratory tract infection: a randomized community clinical trial (2010).", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7128946/" },
+      { text: "Effects of repeated oral intake of a quercetin-containing supplement on allergic reaction: a randomised trial (2022).", url: "https://pubmed.ncbi.nlm.nih.gov/35776034/" },
+      { text: "Enhanced anticoagulant effect of warfarin when co-administered with quercetin: a case report (2022).", url: "https://pubmed.ncbi.nlm.nih.gov/36311308/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> Yes, and they work better together than apart.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Look, I will be honest with you. The supplement world is full of combinations that sound good on paper but dont actually do much in practice. This isnt one of those.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Vitamin C and quercetin are genuinely complementary. Vitamin C works inside your cells (its water soluble, so it floats around in the cytoplasm mopping up free radicals). Quercetin works on cell membranes (its fat soluble, so it embeds in the lipid bilayer and protects from the outside in).
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>The reality is:</strong> youre getting antioxidant protection from both directions. Thats not marketing. Thats biochemistry.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Why I Actually Recommend This Combination</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        To be fair, I dont recommend every combination I write about. Some are synergistic in theory but underwhelming in practice (looking at you, zinc).
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        But vitamin C plus quercetin? This one are often used clinically, particularly for:
-      </p>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Seasonal allergies</strong> Quercetin stabilises mast cells and reduces histamine release. Vitamin C supports this effect.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Immune support during viral season</strong> Theres decent evidence that quercetin inhibits viral replication, and vitamin C supports immune cell function.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>General inflammation</strong> Both are anti inflammatory through different pathways.</li>
-      </ul>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If someone comes to me with chronic allergies or recurrent colds, this is often where I start. Along with the usual foundations: sleep, diet, exercise, stress management.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Dosing</h2>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Vitamin C:</strong> 500 to 1000mg daily. I prefer liposomal vitamin C for better absorption, but standard ascorbic acid works fine.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Quercetin:</strong> 500 to 1000mg daily. Take it with fat. A meal with olive oil, eggs, avocado, whatever. Fat soluble means it needs fat to absorb.</li>
-      </ul>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        You can take them at the same time. No issues there.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Catch</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, neither of these will fix a terrible diet or chronic sleep deprivation. Theyre multipliers, not magic pills. If youre eating processed rubbish and sleeping five hours a night, quercetin isnt going to save you.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Get the foundations right first. Then add this combination if you want extra support.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Safety</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Both are very safe. Vitamin C at doses above 2g can cause loose stools (your gut can only absorb so much at once). Quercetin has mild blood thinning effects. If youre on warfarin, mention it to your doctor.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Otherwise, crack on.
-      </p>
-  
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen.
-        </p>
-      </div>
+      <p><strong>The short answer.</strong> Vitamin C and quercetin occur together in everyday foods. The evidence is much thinner for concentrated supplements. Taking the two together has no established advantage for preventing colds or treating hay fever.</p>
+      <h2>What did the cold trial actually test?</h2>
+      <p>Vitamin C is an essential nutrient. Quercetin is a flavonoid found in foods such as onions and apples. Both are biologically active, which makes the pairing an interesting research question. The test that matters for a reader is whether taking them changes how often they get sick or how long symptoms last.</p>
+      <p>A trial involving 1,002 adults compared two doses of a product containing quercetin, vitamin C and niacin with placebo over 12 weeks. Across the whole group, the product did not reduce days sick with an upper respiratory infection or overall illness severity. A subgroup finding was more encouraging, but the study also lacked groups taking each ingredient separately, so it could not establish that the ingredients worked better together.</p>
+      <p>Research on vitamin C alone tells a slightly different story. Regular supplementation may shorten a cold modestly, although it generally does not prevent colds in the broader population. Studies that started supplementation after symptoms began have shown inconsistent results.</p>
+      <h2>What about hay fever?</h2>
+      <p>A small placebo-controlled study of a particular quercetin formulation reported improvements in some allergy symptoms. It did not test whether adding vitamin C improved those results. Findings from one formulation also cannot be assumed to apply to every quercetin product. Persistent symptoms are a reason to review the diagnosis and options with a pharmacist or clinician.</p>
+      <h2>A safety point worth knowing</h2>
+      <p>A published case described a marked rise in INR after a person taking warfarin started a quercetin and vitamin C supplement. A single case cannot establish how common the interaction is. If you take warfarin, check with your prescriber or pharmacist before starting a concentrated quercetin product. High-dose vitamin C can also cause diarrhoea or abdominal cramps.</p>
     `
   },
   {
     id: 47,
-    title: 'Collagen and Vitamin C: Can You Take Them Together?',
+    title: "Collagen and Vitamin C: Do You Need to Take Them Together?",
     category: 'Metabolic Flexibility',
     image: '/collagen_vitc_synthesis.png',
-    excerpt: 'You MUST take them together. Collagen without vitamin C is biochemically pointless. A physician explains why.',
+    excerpt: "Vitamin C helps your body make collagen. Here’s what that means for collagen powder, supplement timing and tendon research.",
     date: 'Jan 10, 2026',
 
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        text: "Pullar, J. M., et al. (2017). The roles of vitamin C in skin health. Nutrients, 9(8), 866.",
-        url: "https://pubmed.ncbi.nlm.nih.gov/28805671/"
-      }
+      { text: "NIH Office of Dietary Supplements. Vitamin C: Fact Sheet for Health Professionals.", url: "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/" },
+      { text: "Shaw et al. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis (2017).", url: "https://pubmed.ncbi.nlm.nih.gov/27852613/" },
+      { text: "Myung and Park. Effects of collagen supplements on skin aging: a systematic review and meta-analysis (2025).", url: "https://pubmed.ncbi.nlm.nih.gov/40324552/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> You MUST take them together. Collagen without vitamin C is biochemically pointless.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        I see this constantly. People spending £40 to 50 a month on fancy collagen peptides (marine collagen, grass fed bovine collagen, collagen with hyaluronic acid) and theyre not taking vitamin C with it.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Thats like buying premium petrol and forgetting to put it in the car.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Science (Briefly)</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Collagen synthesis requires vitamin C. Specifically, vitamin C is a cofactor for the enzymes that add hydroxyl groups to proline and lysine, two amino acids that are essential for collagens triple helix structure.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Without adequate vitamin C, your body cannot properly assemble collagen fibres. The collagen peptides you swallowed? Theyll get broken down into amino acids and used for whatever your body needs, which might not be skin, hair, or joints.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This isnt controversial. This is biochemistry 101. Sailors got scurvy (collagen breakdown) because they had no vitamin C on long voyages.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">How to Actually Do This</h2>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Collagen:</strong> 10 to 20g daily. Hydrolysed collagen peptides are fine. Dont overthink the source (bovine, marine, whatever). They all work.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Vitamin C:</strong> 500 to 1000mg, taken at the same time as your collagen.</li>
-      </ul>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Morning coffee with collagen powder? Add vitamin C. Simple.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Why This Frustrates Me</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The collagen supplement industry is massive. The marketing is relentless. "Glowing skin! Stronger hair! Younger joints!"
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        And yet nobody mentions vitamin C.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        People lack the education to properly scrutinise what theyre ingesting. Companies take advantage of this. They sell you the collagen and let you figure out the vitamin C part yourself, if you ever do.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        If youre taking collagen without vitamin C, youre probably wasting your money. To be fair, its not your fault. The bottle doesnt tell you this.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Now you know.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Safety</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Collagen is just protein. Very safe. Vitamin C at high doses can cause GI upset. Stay under 2g daily and youll be fine.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        No interactions to worry about. This is one of the most straightforward combinations out there.
-      </p>
-  
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. Consult your physician before starting any new supplement regimen.
-        </p>
-      </div>
+      <p><strong>The short answer.</strong> You can take collagen and vitamin C together. If you already get enough vitamin C from your diet, there is no established need to buy an extra vitamin C supplement or take it at the same time as collagen powder.</p>
+      <h2>Why vitamin C matters to collagen</h2>
+      <p>Making collagen is a normal part of maintaining skin, tendons, blood vessels and other connective tissue. Vitamin C helps enzymes modify two amino acids, proline and lysine, as the body builds collagen. Severe deficiency disrupts this process and helps explain the bleeding gums and poor wound healing seen in scurvy.</p>
+      <p>That biology explains why adequate vitamin C matters every day. It does not show that a capsule taken with breakfast makes collagen powder more effective. When you digest collagen, it breaks down into amino acids and smaller peptides. The tissues that use those building blocks are doing their own repair and turnover throughout the day.</p>
+      <h2>Where did the timing idea come from?</h2>
+      <p>In a small crossover study, eight healthy men took vitamin C-enriched gelatin or a placebo before brief bouts of exercise. The higher gelatin dose increased a blood marker linked to collagen formation. The study did not isolate the effect of added vitamin C or show that an injured tendon healed faster. It gives researchers a reason to test the approach in rehabilitation trials, where pain, function and return to activity are outcomes patients can feel.</p>
+      <h2>What if you’re taking collagen for skin?</h2>
+      <p>Some trials report improvements in skin hydration or elasticity. A 2025 review found that the apparent benefits disappeared in the subgroup of studies without industry funding. These studies also do not establish that adding vitamin C makes collagen supplements work better.</p>
+      <h2>What this means day to day</h2>
+      <p>For most readers, vitamin C-rich foods such as capsicum, kiwifruit, citrus and broccoli can cover the vitamin C side of the question without a dedicated supplement. If you have a restricted diet or concerns about deficiency, discuss those with a clinician. High-dose vitamin C can upset the gut, and people with a history of kidney stones or iron overload should discuss high-dose supplements with their clinician.</p>
     `
   },
   {
@@ -6813,100 +6681,28 @@ export const POSTS = [
   },
   {
     id: 63,
-    title: 'Creatine and Beta Alanine: Can You Take Them Together?',
+    title: "Creatine and Beta-Alanine: Can You Take Them Together?",
     category: 'Metabolic Flexibility',
     image: '/creatine_beta_alanine_synergy.png',
-    excerpt: 'Yes. This is the classic sports performance stack, and it works. But creatine isnt just for gym bros.',
+    excerpt: "Creatine and beta-alanine target different types of effort. Here’s what studies show about taking them together and when each may be useful.",
     date: 'Jan 10, 2026',
 
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        text: "Hoffman, J., et al. (2006). Effect of creatine and beta alanine supplementation on performance. International Journal of Sport Nutrition.",
-        url: "https://pubmed.ncbi.nlm.nih.gov/17136944/"
-      }
+      { text: "Effects of creatine and beta-alanine co-supplementation on exercise performance and body composition: a systematic review (2025).", url: "https://pubmed.ncbi.nlm.nih.gov/40647180/" },
+      { text: "NIH Office of Dietary Supplements. Dietary Supplements for Exercise and Athletic Performance.", url: "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 500;">
-        <strong>The short answer:</strong> Yes. This is the classic sports performance stack, and it works.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Ill be upfront: creatine is one of my favourite supplements. Not just for athletes. For everyone.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        My partner is a teacher. She was coming home absolutely shattered every evening. Exhausted wreck. We started her on creatine, and within a couple of weeks, she was functioning normally in the evenings again. When she stopped taking it, the fatigue came back. Clear as day.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Creatine isnt just for gym bros. Its for anyone whose brain or muscles need to produce energy, which is everyone.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Beta alanine is the sidekick. Less dramatic, but legitimately useful for endurance.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">How They Work (The Quick Version)</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Creatine</strong> recycles ATP, your cells energy currency. When you use ATP (for muscle contraction, brain function, anything), it becomes ADP. Creatine donates a phosphate group to regenerate ATP instantly. More creatine equals faster energy recycling.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Beta alanine</strong> increases muscle carnosine levels. Carnosine buffers lactic acid, the stuff that makes your muscles burn during intense exercise. More carnosine means you can push harder before the burn kicks in.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Creatine gives you power. Beta alanine gives you endurance. Together? Both.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Dosing</h2>
-  
-      <ul style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; padding-left: 2rem;">
-        <li style="margin-bottom: 0.75rem;"><strong>Creatine monohydrate:</strong> 5g daily. No loading phase needed. Just take it consistently. Morning, evening, doesnt matter.</li>
-        <li style="margin-bottom: 0.75rem;"><strong>Beta alanine:</strong> 3 to 6g daily, split into smaller doses. The tingling (paresthesia) is harmless but can be annoying if you take a huge dose at once.</li>
-      </ul>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Take them at the same time if you want, or separately. Doesnt matter.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">The Creatine Misconception</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        People still think creatine is only for bodybuilders. This drives me mad.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Creatine supports ATP production in any tissue that needs energy, including your brain. The cognitive benefits are real. Ive been taking it for years, and I noticed improved mental clarity, especially during demanding work.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        At the end of the day, creatine is one of the most studied supplements on the planet. Safe, effective, cheap. If theres one supplement Id recommend to nearly everyone, its this one.
-      </p>
-  
-      <h2 style="font-size: 1.8rem; font-weight: 700; margin: 2.5rem 0 1.5rem 0; color: var(--color-text);">Safety</h2>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Creatine:</strong> Extremely safe. Avoid if you have chronic kidney disease (talk to a nephrologist first). Drink plenty of water, 2 to 3 litres a day. It can raise serum creatinine on blood tests, which can confuse doctors who dont know youre supplementing.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Beta alanine:</strong> Safe. The tingling is harmless. Its just a nerve response (paraesthesia). Start with 1.5g doses to minimise it.
-      </p>
-  
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        No interactions between the two. Stack away.
-      </p>
-  
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #DC2626; font-size: 1.1rem; margin-bottom: 0.75rem;">Medical Disclaimer</p>
-        <p style="margin: 0; font-size: 1rem; line-height: 1.6;">
-          This information is for educational purposes and does not constitute medical advice. While creatine has strong clinical evidence, consult your physician before starting supplementation.
-        </p>
-      </div>
+      <p><strong>The short answer.</strong> Creatine monohydrate and beta-alanine have been taken together in exercise trials. Whether the combination is worth considering depends on what you train for. Evidence for a consistent advantage over using either supplement alone is limited.</p>
+      <h2>What each supplement does</h2>
+      <p>During a heavy lift or short sprint, muscles need to regenerate ATP quickly. Phosphocreatine can donate a phosphate group to ADP to replenish ATP. Taking creatine monohydrate can increase the muscle’s creatine stores, which helps explain its benefits for repeated high-intensity efforts and strength gains alongside resistance training.</p>
+      <p>Beta-alanine helps muscles build carnosine over time. Carnosine can buffer some of the rise in acidity during hard efforts. This is most relevant when a sustained high-intensity effort lasts roughly one to four minutes, such as a hard rowing interval. It is less clear that beta-alanine helps during a single brief lift or a long, steady run.</p>
+      <h2>Does taking both improve performance?</h2>
+      <p>A 2025 systematic review included seven randomised trials with 263 participants, most of them men. Some studies found improvements in particular high-intensity tasks, while results varied across tests. The review did not establish a consistent added benefit for strength or body composition. An improvement on one exercise test tells you about that test and population, and may say little about the event you care about.</p>
+      <p>For a reader focused on getting stronger in the gym, creatine monohydrate has clearer evidence for that goal. For someone regularly doing hard intervals, beta-alanine may be relevant to the type of effort they train. Both work through changes that develop with regular use. Taking them together immediately before a workout has no established special advantage.</p>
+      <h2>What to watch for</h2>
+      <p>Creatine can increase body weight through water retention and may affect the interpretation of a blood creatinine result. Tell your clinician you take it, and seek individual advice before starting if you have kidney disease. Beta-alanine can cause temporary tingling, particularly after a large single dose. Check the label if you use a pre-workout blend, since it may already contain beta-alanine or creatine.</p>
+      <p>These exercise trials tell us little about persistent fatigue, everyday concentration or longevity. Ongoing unexplained fatigue deserves assessment on its own merits.</p>
     `
   },
   {
