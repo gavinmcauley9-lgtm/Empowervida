@@ -247,7 +247,7 @@ export default async function BlogPostPage({ params }) {
           <strong style={{ color: 'var(--color-text)', display: 'block', marginBottom: '0.4rem' }}>
             ⚕️ Medical Disclaimer
           </strong>
-          This article is written for educational purposes by a licensed physician (MBChB). 
+          Written by Dr Gavin McAuley (MBChB) for general health education. 
           It does not constitute medical advice, diagnosis, or treatment. Always consult 
           your own doctor before starting any supplement protocol, particularly if you 
           have underlying health conditions or take prescribed medications.
