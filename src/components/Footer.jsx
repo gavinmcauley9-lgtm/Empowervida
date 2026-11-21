@@ -45,7 +45,7 @@ const Footer = () => {
         <footer className="ev-footer" style={{
             backgroundColor: '#F5F5F7',
             color: '#1D1D1F',
-            padding: '3.5rem 2rem 6.25rem',
+            padding: '3.5rem 2rem calc(2.5rem + env(safe-area-inset-bottom, 0px))',
             borderTop: '1px solid rgba(0,0,0,0.1)',
             position: 'relative',
             zIndex: 10,
@@ -260,8 +260,16 @@ const Footer = () => {
                 font-size: 0.8rem !important;
                 line-height: 1.58 !important;
               }
+              html[data-cookie-banner="open"] .ev-footer {
+                padding-bottom: calc(6.5rem + env(safe-area-inset-bottom, 0px)) !important;
+              }
               @media (max-width: 768px) {
-                .ev-footer { padding: 2rem 16px 10.5rem !important; }
+                .ev-footer {
+                  padding: 2rem 16px calc(2rem + env(safe-area-inset-bottom, 0px)) !important;
+                }
+                html[data-cookie-banner="open"] .ev-footer {
+                  padding-bottom: calc(10.5rem + env(safe-area-inset-bottom, 0px)) !important;
+                }
                 .ev-footer-grid {
                   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
                   column-gap: 1rem !important;

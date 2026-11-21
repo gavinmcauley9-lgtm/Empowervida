@@ -1,22 +1,34 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import {
+    CONSENT_STORAGE_KEY,
+    enableAnalytics,
+    disableAnalytics
+} from '../utils/analytics';
 
 const CookieConsent = () => {
     const [isVisible, setIsVisible] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         let timer = null;
-        const consent = localStorage.getItem('cookieConsent');
-        if (!consent) {
-            // Small delay for better UX on load
+        const consent = localStorage.getItem(CONSENT_STORAGE_KEY);
+
+        if (consent === 'all') {
+            enableAnalytics(window.location.pathname);
+        } else if (consent === 'necessary') {
+            disableAnalytics();
+        } else {
+            // Do not run analytics before explicit consent is granted
+            disableAnalytics();
             timer = setTimeout(() => setIsVisible(true), 600);
-        } else if (consent === 'all') {
-            loadTrackingScripts();
         }
 
-        // Always register reopen event listener so "Cookie Preferences" in footer works in the first session too
+        // Always register reopen event listener so "Cookie Preferences" in footer works in every session
         const handleReopen = () => setIsVisible(true);
         window.addEventListener('openCookieSettings', handleReopen);
         return () => {
@@ -25,27 +37,32 @@ const CookieConsent = () => {
         };
     }, []);
 
+    // Record SPA route navigations only when the visitor has explicitly consented to analytics
+    useEffect(() => {
+        if (typeof window !== 'undefined' && pathname) {
+            const consent = localStorage.getItem(CONSENT_STORAGE_KEY);
+            if (consent === 'all') {
+                enableAnalytics(pathname);
+            }
+        }
+    }, [pathname]);
+
+    // Expose banner visibility state on <html> so the footer applies extra bottom clearance only when open
     useEffect(() => {
         if (typeof document !== 'undefined') {
             document.documentElement.dataset.cookieBanner = isVisible ? 'open' : 'closed';
         }
     }, [isVisible]);
 
-    const loadTrackingScripts = () => {
-        console.log('Loading tracking scripts (GA, Pixel, etc.)...');
-        // Placeholder for actual script injection logic
-        // window.gtag('consent', 'update', { ... });
-    };
-
     const handleAcceptAll = () => {
-        localStorage.setItem('cookieConsent', 'all');
-        loadTrackingScripts();
+        localStorage.setItem(CONSENT_STORAGE_KEY, 'all');
+        enableAnalytics(window.location.pathname);
         setIsVisible(false);
     };
 
     const handleNecessary = () => {
-        localStorage.setItem('cookieConsent', 'necessary');
-        console.log('Consent denied. Loading only necessary scripts.');
+        localStorage.setItem(CONSENT_STORAGE_KEY, 'necessary');
+        disableAnalytics();
         setIsVisible(false);
     };
 
@@ -66,7 +83,7 @@ const CookieConsent = () => {
                         left: 0,
                         width: '100%',
                         zIndex: 10001,
-                        padding: '0.85rem 1.5rem',
+                        padding: '0.85rem 1.5rem calc(0.85rem + env(safe-area-inset-bottom, 0px))',
                         background: '#FFFFFF',
                         borderTop: '1px solid rgba(0,0,0,0.12)',
                         boxShadow: '0 -8px 28px rgba(0,0,0,0.08)'
@@ -82,7 +99,7 @@ const CookieConsent = () => {
                         width: '100%',
                         gap: '1.25rem'
                     }}>
-                        <div className="ev-cookie-copy" style={{ maxWidth: '720px', flex: '1 1 auto' }}>
+                        <div className="ev-cookie-copy" style={{ maxWidth: '740px', flex: '1 1 auto' }}>
                             <h4 className="ev-cookie-title" style={{
                                 fontSize: '0.9rem',
                                 fontWeight: 700,
@@ -99,7 +116,10 @@ const CookieConsent = () => {
                                 lineHeight: 1.45,
                                 margin: 0
                             }}>
-                                We use essential cookies to run this site and optional analytics cookies to understand how our educational articles are used. We do not sell your personal data.
+                                We use essential storage to remember your choice and optional Google Analytics cookies to understand how visitors use our articles and guides.{' '}
+                                <Link href="/privacy" className="ev-cookie-policy-link" style={{ color: '#1A3C34', textDecoration: 'underline', fontWeight: 600 }}>
+                                    Privacy Policy
+                                </Link>
                             </p>
                         </div>
 
@@ -160,6 +180,11 @@ const CookieConsent = () => {
                         font-size: 0.82rem !important;
                         line-height: 1.45 !important;
                         margin: 0 !important;
+                      }
+                      .ev-cookie-banner .ev-cookie-policy-link {
+                        display: inline !important;
+                        min-height: 0 !important;
+                        min-width: 0 !important;
                       }
                       @media (max-width: 768px) {
                         .ev-cookie-banner {

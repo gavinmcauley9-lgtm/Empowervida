@@ -66,21 +66,6 @@ export default function RootLayout({ children }) {
         
         {/* Kit (ConvertKit) — required for inline email capture form */}
         <Script src="https://f.convertkit.com/ckjs/ck.5.js" strategy="afterInteractive" />
-
-        {/* Google Analytics - Optimized with Next.js Script */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-KT0YQ12H33" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-KT0YQ12H33', {
-              page_path: window.location.pathname,
-              anonymize_ip: true,
-              cookie_flags: 'SameSite=None;Secure'
-            });
-          `}
-        </Script>
       </body>
     </html>
   );
