@@ -428,7 +428,7 @@ canvas,
   }
 
   /* Improve touch targets */
-  a,
+  a:where(:not(.blog-article a)),
   button,
   .btn-primary,
   .btn-secondary {
@@ -440,21 +440,21 @@ canvas,
   }
 
   /* Better typography on mobile */
-  h1 {
+  h1:where(:not(.blog-article *)) {
     font-size: clamp(2rem, 8vw, 3rem) !important;
     line-height: 1.2 !important;
   }
 
-  h2 {
+  h2:where(:not(.blog-article *)) {
     font-size: clamp(1.5rem, 6vw, 2.5rem) !important;
     line-height: 1.3 !important;
   }
 
-  h3 {
+  h3:where(:not(.blog-article *)) {
     font-size: clamp(1.25rem, 5vw, 1.8rem) !important;
   }
 
-  p {
+  p:where(:not(.blog-article *):not(.ev-cookie-banner *)) {
     font-size: clamp(1rem, 2.5vw, 1.125rem) !important;
     line-height: 1.7 !important;
   }
@@ -470,9 +470,9 @@ canvas,
     height: auto;
   }
 
-  /* Stack grid layouts on mobile */
-  .grid,
-  [style*="display: grid"] {
+  /* Stack grid layouts on mobile (preserve responsive grids and charts in blog articles) */
+  .grid:where(:not(.blog-article *)),
+  [style*="display: grid"]:where(:not(.blog-article *)) {
     grid-template-columns: 1fr !important;
     gap: 1.5rem !important;
   }
@@ -489,8 +489,8 @@ canvas,
   }
 
   /* Better card padding on mobile */
-  [style*="padding: 4rem"],
-  [style*="padding: 3rem"] {
+  [style*="padding: 4rem"]:where(:not(.blog-article *)),
+  [style*="padding: 3rem"]:where(:not(.blog-article *)) {
     padding: 1.5rem !important;
   }
 
@@ -510,16 +510,16 @@ canvas,
     padding: 0 1rem;
   }
 
-  h1 {
+  h1:where(:not(.blog-article *)) {
     font-size: 1.75rem !important;
   }
 
-  h2 {
+  h2:where(:not(.blog-article *)) {
     font-size: 1.5rem !important;
   }
 
   /* Even tighter spacing on very small screens */
-  [style*="padding: 2rem"] {
+  [style*="padding: 2rem"]:where(:not(.blog-article *)) {
     padding: 1rem !important;
   }
 }
@@ -530,12 +530,418 @@ canvas,
     padding: 0 2rem;
   }
 
-  h1 {
+  h1:where(:not(.blog-article *)) {
     font-size: 2.5rem !important;
   }
 
-  h2 {
+  h2:where(:not(.blog-article *)) {
     font-size: 2rem !important;
+  }
+}
+
+/* ========================================
+   SHARED JOURNAL ARTICLE LAYOUT (.blog-article)
+   Scoped to app/blog/[slug]/page.jsx
+   ======================================== */
+
+.blog-article-shell {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.1rem, 4vw, 2rem);
+  padding-right: clamp(1.1rem, 4vw, 2rem);
+}
+
+.blog-article-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: clamp(310px, 46vh, 480px);
+  min-height: clamp(310px, 46dvh, 480px);
+  width: 100%;
+  overflow: hidden;
+  background-color: #0b131e;
+}
+
+.blog-article-hero-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-top: clamp(3.75rem, 9vh, 6rem);
+  padding-bottom: clamp(1.85rem, 4.5vh, 3.25rem);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 19, 30, 0.12) 0%,
+    rgba(11, 19, 30, 0.68) 45%,
+    rgba(11, 19, 30, 0.93) 100%
+  );
+}
+
+.blog-article-category {
+  display: inline-block;
+  color: var(--color-accent-teal);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+.blog-article-title {
+  font-size: clamp(1.65rem, 1.15rem + 2.35vw, 3.1rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0.65rem 0 0;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* Author Byline */
+.blog-article-byline-wrap {
+  margin-top: 2.25rem;
+}
+
+.blog-article-byline-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(32, 178, 170, 0.25);
+  background: rgba(32, 178, 170, 0.04);
+  margin-bottom: 2.25rem;
+}
+
+.blog-article-byline-avatar {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 2px solid var(--color-accent-teal);
+}
+
+.blog-article-byline-bio {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0.25rem 0 0;
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.blog-article-byline-meta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.blog-article-byline-link {
+  color: var(--color-accent-teal);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blog-article-byline-link:hover {
+  color: #178a84;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+/* Article Body Typography & Rhythm */
+.blog-article .blog-content {
+  font-size: clamp(1.025rem, 0.96rem + 0.3vw, 1.125rem);
+  line-height: 1.82;
+  color: var(--color-text);
+  overflow-wrap: break-word;
+}
+
+.blog-article .blog-content p {
+  margin: 0 0 1.45rem;
+  line-height: 1.82;
+  text-wrap: pretty;
+}
+
+.blog-article .blog-content p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-article .blog-content h2 {
+  font-family: var(--font-manrope), 'Manrope', sans-serif;
+  font-size: clamp(1.45rem, 1.2rem + 1.1vw, 1.85rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: 3.25rem 0 1.15rem;
+  text-wrap: balance;
+}
+
+.blog-article .blog-content h3 {
+  font-family: var(--font-manrope), 'Manrope', sans-serif;
+  font-size: clamp(1.2rem, 1.08rem + 0.55vw, 1.4rem);
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: -0.015em;
+  color: var(--color-text);
+  margin: 2.25rem 0 0.85rem;
+  text-wrap: balance;
+}
+
+.blog-article .blog-content h2 + h3 {
+  margin-top: 1.25rem;
+}
+
+.blog-article .blog-content h4 {
+  font-family: var(--font-manrope), 'Manrope', sans-serif;
+  font-size: 1.075rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--color-text);
+  margin: 1.75rem 0 0.65rem;
+  text-wrap: balance;
+}
+
+.blog-article .blog-content ul,
+.blog-article .blog-content ol {
+  margin: 0 0 1.6rem;
+  padding-left: 1.5rem;
+}
+
+.blog-article .blog-content li {
+  margin-bottom: 0.65rem;
+  line-height: 1.78;
+  padding-left: 0.2rem;
+  text-wrap: pretty;
+}
+
+.blog-article .blog-content li:last-child {
+  margin-bottom: 0;
+}
+
+.blog-article .blog-content li > ul,
+.blog-article .blog-content li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-article .blog-content blockquote {
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-accent-teal);
+  padding: 1.35rem 1.5rem;
+  margin: 2.25rem 0;
+  border-radius: 0 12px 12px 0;
+  color: var(--color-text);
+  text-wrap: pretty;
+}
+
+.blog-article .blog-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-article .blog-content hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2.75rem 0;
+}
+
+/* Links inside Article Prose */
+.blog-article .blog-content a {
+  color: var(--color-accent-teal);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.blog-article .blog-content a:hover {
+  color: #178a84;
+  border-bottom: none;
+}
+
+/* Figures, Images & Captions */
+.blog-article .blog-content > figure {
+  margin: 2.5rem auto 2.75rem;
+  max-width: 100%;
+}
+
+.blog-article .blog-content > img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  margin: 2.25rem auto;
+}
+
+.blog-article .blog-content > figure > img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  margin: 0 auto;
+}
+
+.blog-article .blog-content > figure > figcaption {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #64748b;
+  margin-top: 0.8rem;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+/* Tables inside Article Prose */
+.blog-article .blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.blog-article .blog-content th,
+.blog-article .blog-content td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.blog-article .blog-content th {
+  font-weight: 700;
+  color: var(--color-text);
+  text-wrap: balance;
+}
+
+/* Clinical References & Medical Disclaimer */
+.blog-article-references {
+  margin-top: 3.75rem;
+  padding: 1.75rem 1.75rem;
+  border-top: 2px solid rgba(32, 178, 170, 0.25);
+  background: var(--color-bg-alt);
+  border-radius: 12px;
+}
+
+.blog-article-references-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.15rem;
+  color: var(--color-text);
+}
+
+.blog-article-references-list {
+  margin: 0;
+  padding-left: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.blog-article-references-item {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-wrap: pretty;
+}
+
+.blog-article-references-item a {
+  color: var(--color-accent-teal);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.blog-article-references-item a:hover {
+  color: #178a84;
+  border-bottom: none;
+}
+
+.blog-article-disclaimer {
+  margin-top: 2.5rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 10px;
+  background: rgba(255, 152, 0, 0.06);
+  border-left: 4px solid #FF9800;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+@media (max-width: 768px) {
+  .blog-article-byline-wrap {
+    margin-top: 1.75rem;
+  }
+
+  .blog-article-byline-card {
+    gap: 0.95rem;
+    padding: 1rem 1.15rem;
+    margin-bottom: 1.85rem;
+  }
+
+  .blog-article-byline-avatar {
+    width: 54px;
+    height: 54px;
+  }
+
+  /* Harmonize top-level section headings even when posts contain inline desktop font sizes */
+  .blog-article .blog-content > h2 {
+    font-size: clamp(1.4rem, 1.18rem + 1.1vw, 1.65rem) !important;
+    line-height: 1.26 !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .blog-article .blog-content > h3 {
+    font-size: clamp(1.175rem, 1.05rem + 0.65vw, 1.35rem) !important;
+    line-height: 1.32 !important;
+    margin-top: 1.9rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .blog-article .blog-content > h2 + h3 {
+    margin-top: 1.1rem !important;
+  }
+
+  .blog-article .blog-content > figure {
+    margin: 2rem auto 2.25rem !important;
+  }
+
+  .blog-article .blog-content > img {
+    margin: 1.85rem auto !important;
+  }
+
+  .blog-article-references {
+    margin-top: 3rem;
+    padding: 1.35rem 1.25rem;
+  }
+
+  .blog-article-disclaimer {
+    margin-top: 2rem;
+    padding: 1.15rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-article-shell {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+
+  /* Give top-level callout cards slightly tighter padding on small mobile screens */
+  .blog-article .blog-content > div[style*="padding: 2rem"],
+  .blog-article .blog-content > div[style*="padding: 1.8rem"],
+  .blog-article .blog-content > div[style*="padding: 1.5rem"] {
+    padding: 1.2rem 1.15rem !important;
   }
 }
 
