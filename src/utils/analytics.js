@@ -10,6 +10,16 @@
 export const GA_MEASUREMENT_ID = 'G-KT0YQ12H33';
 export const CONSENT_STORAGE_KEY = 'cookieConsent';
 export const GA_SCRIPT_ID = 'ev-ga4-script';
+/**
+ * Only the canonical public site should contribute to GA4 reporting.
+ * Netlify deploy previews, localhost and other staging hosts must not be tracked.
+ */
+export function isProductionAnalyticsHost() {
+  if (typeof window === 'undefined') return false;
+  return window.location.hostname === 'empowervida.com' ||
+    window.location.hostname === 'www.empowervida.com';
+}
+
 
 /**
  * Returns true only when the visitor has explicitly granted analytics consent ('all').
@@ -51,7 +61,7 @@ export function clearAnalyticsCookies() {
  */
 export function enableAnalytics(pagePath) {
   if (typeof window === 'undefined' || typeof document === 'undefined') return;
-  if (!hasAnalyticsConsent()) return;
+  if (!isProductionAnalyticsHost() || !hasAnalyticsConsent()) return;
 
   window[`ga-disable-${GA_MEASUREMENT_ID}`] = false;
   window.dataLayer = window.dataLayer || [];
@@ -132,6 +142,7 @@ export function disableAnalytics() {
 export function trackEvent(eventName, params = {}) {
   if (
     typeof window !== 'undefined' &&
+    isProductionAnalyticsHost() &&
     hasAnalyticsConsent() &&
     !window[`ga-disable-${GA_MEASUREMENT_ID}`] &&
     typeof window.gtag === 'function'
