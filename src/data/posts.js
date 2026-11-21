@@ -7617,6 +7617,13 @@ export const POSTS = [
   }
 ];
 
-export const PUBLISHED_POSTS = POSTS.filter((post) => !post.redirectTo);
+// Emergency, reversible editorial publication hold. Reviewed entries only.
+// Toggle to false after all articles have passed editorial verification.
+export const JOURNAL_SAFETY_HOLD = true;
+export const TEMPORARILY_RETAINED_POST_IDS = new Set(['999', '1', 'the-coq10-trap']);
+export const PUBLISHED_POSTS = POSTS.filter((post) =>
+  !post.redirectTo &&
+  (!JOURNAL_SAFETY_HOLD || TEMPORARILY_RETAINED_POST_IDS.has(String(post.id)))
+);
 
 export default POSTS;
