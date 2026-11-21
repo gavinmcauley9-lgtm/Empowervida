@@ -8250,6 +8250,12 @@ export const POSTS = [
   }
 ];
 
-export const PUBLISHED_POSTS = POSTS.filter((post) => !post.redirectTo);
+// Temporary editorial safety hold: these articles contain unverified clinical
+// recommendations or therapeutic claims. Preserve their source content for review.
+// Do not re-publish until a clinician has reviewed the revised copy.
+export const SAFETY_HOLD_POST_IDS = [24, 33, 38, 42, 61, 62, 79, 83];
+export const PUBLISHED_POSTS = POSTS.filter(
+  (post) => !post.redirectTo && !SAFETY_HOLD_POST_IDS.includes(post.id)
+);
 
 export default POSTS;
