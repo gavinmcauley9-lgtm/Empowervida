@@ -5656,72 +5656,29 @@ export const POSTS = [
   {
     id: 48,
     slug: 'vitamin-k2-and-vitamin-d-take-together-physician-guide',
-    title: 'Vitamin K2 and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
+    title: "Vitamin K2 and Vitamin D: Do You Need Both?",
     category: 'Metabolic Flexibility',
     image: '/vitk2_vitd_bone.png',
-    excerpt: "Understanding the biochemical cross-talk between Vitamin K2 and Vitamin D. Learn why timing matters and how to prevent these compounds from neutralizing each other.",
+    excerpt: "Vitamin D helps you absorb calcium. Here’s what the evidence says about adding K2, artery calcification and the interaction with warfarin.",
     date: 'Jan 10, 2026',
-
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        "text": "Schurgers, L. J., et al. (2007). Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood, 109(8), 3279-3283.",
-        "url": ""
-      }
+      { text: "RACGP and Healthy Bones Australia. Osteoporosis management and fracture prevention guideline (2024).", url: "https://healthybonesaustralia.org.au/wp-content/uploads/2024/03/hba-racgp-guidelines-2024.pdf" },
+      { text: "Diederichsen et al. Vitamin K2 and D in patients with aortic valve calcification: a randomised trial (2022).", url: "https://pubmed.ncbi.nlm.nih.gov/35465686/" },
+      { text: "Geleijnse et al. Dietary menaquinone and coronary heart disease: the Rotterdam Study (2004).", url: "https://pubmed.ncbi.nlm.nih.gov/15514282/" },
+      { text: "NIH Office of Dietary Supplements. Vitamin K: Fact Sheet for Health Professionals.", url: "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Yes — and you should.</strong> Vitamin D increases calcium absorption from your gut by up to 40%. Without Vitamin K2 to direct that calcium into your bones, it deposits in your arteries and soft tissues instead. This is not a theoretical risk; it is measurable on coronary calcium scans. I never prescribe Vitamin D without K2.</p>
-      </div>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Why This Combination Is Non-Negotiable</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Think of Vitamin D as a calcium amplifier and Vitamin K2 as a calcium traffic controller. Vitamin D tells your intestines to absorb more calcium from food — excellent for bone density and immune function. But once that calcium is in your bloodstream, it needs direction. Without K2, calcium drifts aimlessly and ends up calcifying your arterial walls, heart valves, and kidneys.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Vitamin K2 activates two critical proteins: <strong>osteocalcin</strong> (which pulls calcium into bone matrix) and <strong>Matrix GLA Protein</strong> (which prevents calcium from depositing in arteries). A 2019 study in the <em>Journal of the American Heart Association</em> found that people with the highest K2 intake had a 57% lower risk of coronary heart disease. The mechanism is precisely this: K2 keeps calcium where it belongs.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Clinical Evidence</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        The Rotterdam Study, which followed 4,807 participants over 10 years, demonstrated that high dietary K2 intake was associated with a 52% reduction in severe aortic calcification. Separately, a randomised controlled trial published in <em>Osteoporosis International</em> showed that the combination of Vitamin D3 + K2 improved bone mineral density significantly more than Vitamin D3 alone. The evidence is not anecdotal — it is robust, replicated, and dose-dependent.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Vitamin D3:</strong> 2,000–5,000 IU daily. Functional approaches often target a serum 25-hydroxyvitamin D level of 50–70 ng/mL in functional approaches. Most adults in northern latitudes are deficient (below 30 ng/mL) without supplementation.<br/>
-        <strong>Vitamin K2 (MK-7):</strong> 100–200 mcg daily. The MK-7 form has the longest half-life (approximately 72 hours), providing consistent activation of calcium-directing proteins.<br/>
-        <strong>Timing:</strong> Take both with a fat-containing meal. Both are fat-soluble vitamins and their absorption increases by 2-3x when consumed with dietary fat. A morning meal containing eggs, avocado, or olive oil is ideal.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Who Should Be Cautious</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Warfarin users:</strong> Vitamin K2 directly counteracts warfarin's mechanism of action. If you are on warfarin or other vitamin K antagonist anticoagulants, do <em>not</em> take K2 without medical supervision. Your INR must be monitored closely.<br/>
-        <strong>Direct oral anticoagulants (DOACs)</strong> like apixaban or rivarelbaan are not affected by vitamin K — these patients can typically take K2 safely, but should confirm with their prescribing physician.<br/>
-        <strong>Hyperparathyroidism:</strong> If you have elevated parathyroid hormone, Vitamin D supplementation may exacerbate hypercalcaemia. Get your PTH and calcium levels checked first.
-      </p>
-
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>An Educational Perspective:</strong> Observations have shown coronary calcium scores improve in patients who added K2 (MK-7, 200mcg) to their existing Vitamin D regimen. The combination is inexpensive, well-tolerated, and addresses one of the most common unintended consequences of isolated Vitamin D supplementation. If you are taking Vitamin D without K2, you are solving one problem while potentially creating another. This is the single most important supplement pairing Educational frameworks often suggest.</p>
-      </div>
-
-      
-      <!-- TOPIC CLUSTER -->
-      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
-        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
-      </div>
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
-          <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Consult your healthcare provider before starting any supplement regimen, particularly if you take anticoagulant medications.
-        </p>
-      </div>`
+      <p><strong>The short answer.</strong> Vitamin D and K2 can be taken together, but taking vitamin D does not create a routine need for a K2 supplement. There is no established evidence that adding K2 prevents calcium from building up in arteries when you take vitamin D. If you take warfarin, check with your prescriber before starting K2.</p>
+      <h2>Why the idea caught on</h2>
+      <p>Vitamin D helps the gut absorb calcium. Vitamin K helps activate proteins such as osteocalcin, which is involved in bone mineralisation, and matrix Gla protein, which plays a role in regulating calcification. These are real biological functions. The leap comes when that biology is used to claim that taking vitamin D alone sends calcium to your arteries or that a K2 capsule can redirect it.</p>
+      <h2>What the human studies found</h2>
+      <p>The Rotterdam Study found that adults reporting higher dietary vitamin K2 intake had lower coronary heart disease mortality and less severe aortic calcification. That was an observational study of diet. It could not establish that K2 itself caused the difference or that a supplement would reproduce it.</p>
+      <p>A separate randomised trial assigned older men with existing aortic valve calcification to K2 plus vitamin D or placebo for two years. The combination did not significantly slow progression of valve calcification. Valve calcification is a distinct outcome from coronary artery calcification. The trial tested the combination in a particular population and does not establish the effect of K2 alone.</p>
+      <h2>What to do with that information</h2>
+      <p>If you have been advised to take vitamin D, the decision about dose depends on why you need it and your individual circumstances. Australian osteoporosis guidance focuses on adequate calcium intake and vitamin D status and does not require a K2 supplement alongside vitamin D. Excessive vitamin D can raise blood calcium. Adding K2 is not a way to make high-dose vitamin D safe.</p>
+      <p>Warfarin is a separate consideration. A change in vitamin K intake can change its anticoagulant effect and your INR. Discuss starting or stopping a vitamin K supplement with the team that manages your warfarin. For more on bone health, see the <a href="/blog/calcium-and-vitamin-d-take-together-physician-guide/">calcium and vitamin D guide</a>.</p>
+    `
   },
   {
     id: 49,
@@ -6309,75 +6266,29 @@ export const POSTS = [
   {
     id: 58,
     slug: 'calcium-and-vitamin-d-take-together-physician-guide',
-    title: 'Calcium and Vitamin D: Can You Take Them Together? (Physicians Guide) ',
+    title: "Calcium and Vitamin D: When Do You Need Both?",
     category: 'Metabolic Flexibility',
     image: '/calcium_vitd_bone.png',
-    excerpt: "Is it safe to stack Calcium with Vitamin D? Uncover the science behind their interaction, the risks of excessive dosage, and the best way to utilize them both.",
+    excerpt: "Calcium and vitamin D both matter for bone health. Learn when food is enough, when supplements may help and why K2 is not a routine requirement.",
     date: 'Jan 10, 2026',
-
+    dateModified: 'Nov 21, 2026',
     references: [
-      {
-        "text": "Holick, M. F. (2007). Vitamin D deficiency. New England Journal of Medicine, 357(3), 266-281.",
-        "url": ""
-      }
+      { text: "RACGP and Healthy Bones Australia. Osteoporosis management and fracture prevention guideline (2024).", url: "https://healthybonesaustralia.org.au/wp-content/uploads/2024/03/hba-racgp-guidelines-2024.pdf" },
+      { text: "NIH Office of Dietary Supplements. Calcium: Fact Sheet for Health Professionals.", url: "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/" },
+      { text: "NIH Office of Dietary Supplements. Vitamin D: Fact Sheet for Health Professionals.", url: "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/" }
     ],
     content: `
-      <p><strong>By Dr. Gavin McAuley | EMPOWERVIDA</strong></p>
-      
-      <div style="background: rgba(32, 178, 170, 0.1); border-left: 4px solid #20B2AA; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-weight: 700; color: #20B2AA; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">THE SHORT ANSWER</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;"><strong>Yes, they are designed to work together.</strong> Vitamin D increases calcium absorption from your gut by 30-40%. Without adequate Vitamin D, you absorb only about 10-15% of dietary calcium. However, the modern evidence now strongly suggests you should also add Vitamin K2 to this pairing to prevent calcium depositing in your arteries instead of your bones.</p>
-      </div>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Science: How Vitamin D Supercharges Calcium</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        When Vitamin D levels are adequate (above 30 ng/mL), your intestinal cells upregulate a calcium-binding protein called <strong>calbindin</strong>. This protein acts as a shuttle, transporting calcium across the intestinal wall and into your bloodstream. In Vitamin D deficiency, calbindin production drops dramatically, and calcium passes through your digestive tract largely unabsorbed — regardless of how much calcium you consume.
-      </p>
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        This is why many patients with osteoporosis do not respond to calcium supplementation alone. The bottleneck is not calcium intake — it is Vitamin D-dependent absorption. A meta-analysis published in <em>The BMJ</em> found that calcium supplementation without Vitamin D showed no significant reduction in fracture risk. Only when combined did meaningful bone protection emerge.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">The Critical Update: Add K2</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        Here is what most guidance still misses: Vitamin D increases how much calcium enters your blood, but it does not control where that calcium goes. High-dose calcium supplementation has been associated with increased cardiovascular events in some studies — the infamous WHI (Women's Health Initiative) data showed a potential 24% increase in heart attack risk with calcium supplements. The missing piece was K2, which activates the proteins that direct calcium into bone and away from arteries. The modern triad should be: <strong>Calcium + D3 + K2</strong>.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Dosing and Timing</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Calcium:</strong> 500-600mg per dose (do not exceed 500mg at once — absorption efficiency drops sharply above this threshold). Calcium citrate is absorbed with or without food; calcium carbonate requires stomach acid, so take with meals.<br/>
-        <strong>Vitamin D3:</strong> 2,000-4,000 IU daily. Aim for serum levels of 40-60 ng/mL.<br/>
-        <strong>Vitamin K2 (MK-7):</strong> 100-200mcg daily — the critical third player.<br/>
-        <strong>Timing:</strong> Take with your largest meal for optimal fat-soluble vitamin absorption. Split calcium into two 500mg doses if you need more than 500mg daily (e.g., morning and evening).<br/>
-        <strong>Do not take with:</strong> Iron supplements, thyroid medication (levothyroxine), or certain antibiotics. Separate by at least 2-4 hours.
-      </p>
-
-      <h2 style="font-size: 2rem; font-weight: 700; margin: 3rem 0 1.5rem 0; color: var(--color-text);">Who Needs This Most</h2>
-
-      <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
-        <strong>Post-menopausal women:</strong> Oestrogen decline accelerates bone mineral loss. The D3+K2+Calcium triad is the cornerstone of osteoporosis prevention.<br/>
-        <strong>Anyone over 50:</strong> Both calcium absorption efficiency and Vitamin D synthesis from sunlight decline with age.<br/>
-        <strong>Individuals avoiding dairy:</strong> If your dietary calcium intake is below 800mg/day, supplementation becomes important.<br/>
-        <strong>People on corticosteroids:</strong> Long-term steroid use (e.g., prednisolone) accelerates bone density loss significantly.
-      </p>
-
-      <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--color-accent-teal); padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="font-size: 1rem; color: var(--color-text-muted); margin: 0;"><strong>An Educational Perspective:</strong> The calcium conversation has evolved enormously. Ten years ago, we prescribed calcium carbonate tablets by the handful. Now we understand that the dose, the form, and the cofactors all matter. It is generally preferable to get the majority of their calcium from food (sardines, leafy greens, fortified milks) and supplement only the gap — typically 500mg. Always with D3 and K2. The days of isolated high-dose calcium supplementation should be behind us.</p>
-      </div>
-
-      
-      <!-- TOPIC CLUSTER -->
-      <div style="background: rgba(102, 126, 234, 0.05); border-left: 4px solid #667eea; padding: 1.5rem; margin: 3rem 0; border-radius: 8px;">
-        <p style="margin: 0 0 0.5rem 0; font-weight: 700; color: #667eea; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em;">Explore the Pillar Topic</p>
-        <p style="margin: 0; font-size: 1.05rem; line-height: 1.6;">This article belongs to our core medical pillar on <strong><a href="/protocol" style="color: #667eea; text-decoration: underline;">The Physician's Protocol Overview</a></strong>. For a comprehensive, physician-guided deep dive into this topic, read the full foundational guide.</p>
-      </div>
-      <div style="background: rgba(220, 38, 38, 0.1); border-left: 4px solid #DC2626; padding: 1.5rem; margin: 2rem 0; border-radius: 8px;">
-        <p style="margin: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
-          <strong>Medical Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. If you are being treated for osteoporosis or take medications that interact with calcium, consult your healthcare provider.
-        </p>
-      </div>`
+      <p><strong>The short answer.</strong> Calcium and vitamin D can be taken together. Whether you need either as a supplement depends on your calcium intake, vitamin D status and fracture risk. There is no routine need to add K2 to this pairing.</p>
+      <h2>Why bones need both</h2>
+      <p>Calcium is a mineral that gives bones much of their strength. Vitamin D helps the gut absorb calcium from food. If your diet already supplies enough calcium, a calcium tablet may offer little extra. If vitamin D is low, correcting it is a separate decision. For anyone with a previous fragility fracture or diagnosed osteoporosis, adequate calcium and vitamin D are part of care alongside assessment and treatment of fracture risk.</p>
+      <h2>Start with the calcium you eat</h2>
+      <p>Australian osteoporosis guidance cites total calcium intakes of 1,000 mg per day for most adults and 1,300 mg per day for women over 50 and men over 70. Those figures include calcium from food. Yoghurt, milk, calcium-fortified plant drinks and sardines with edible bones are practical options. Check labels on plant drinks because fortification varies.</p>
+      <p>If there is a gap, a supplement can help cover it. Look at the label for <strong>elemental calcium</strong>, the amount of calcium the product actually provides. Calcium carbonate is usually taken with food. Calcium citrate can be taken with or without food. If you take levothyroxine or certain antibiotics, ask your pharmacist how far apart to take them and calcium, because the timing depends on the medicine.</p>
+      <h2>When vitamin D supplementation matters more</h2>
+      <p>Australian guidance finds that the absolute short-term fracture benefit from routine calcium and vitamin D supplements is low in generally healthy older adults. The decision is different for frail older people in residential care, and for people being treated for osteoporosis who have low vitamin D or inadequate calcium intake. If you have a history of kidney stones, kidney disease or raised blood calcium, check with your clinician before starting supplements.</p>
+      <h2>Do you also need K2?</h2>
+      <p>The evidence does not support routinely adding K2 to keep supplemental calcium out of arteries. If you are weighing up supplements for bone health, start with the questions that affect your care. How much calcium do you get from food? Are you at risk of low vitamin D? Has your fracture risk been assessed? The <a href="/blog/vitamin-k2-and-vitamin-d-take-together-physician-guide/">vitamin K2 and vitamin D guide</a> explains where the calcification claim came from.</p>
+    `
   },
   {
     id: 59,
