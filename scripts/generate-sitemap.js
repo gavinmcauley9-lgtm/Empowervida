@@ -20,10 +20,7 @@ const staticRoutes = [
   '/engine-room',
   '/shop',
   '/mitochondrial-guide',
-  '/longevity',
-  '/calculator',
-  '/biological-age',
-  '/diagnostics-portal'
+  '/longevity'
 ];
 
 let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
