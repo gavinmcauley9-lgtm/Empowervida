@@ -496,25 +496,9 @@ const LongevityGuide = () => {
                             margin: '2rem 0',
                             borderRadius: '8px'
                         }}>
-                            <h4 style={{
-                                fontSize: '1.3rem',
-                                fontWeight: 700,
-                                marginBottom: '1rem',
-                                color: '#ff9800'
-                            }}>
-                                Pharmaceutical Interventions
-                            </h4>
-                            <p style={{ marginBottom: '1rem' }}>
-                                Where clinically appropriate:
-                            </p>
-                            <ul style={{ paddingLeft: '2rem' }}>
-                                <li><strong>Rapamycin:</strong> An mTOR inhibitor with established medical uses; healthy human longevity use remains experimental</li>
-                                <li><strong>Metformin:</strong> An established diabetes medicine under investigation for broader ageing outcomes</li>
-                                <li><strong>GLP-1 receptor agonists:</strong> Evidence-based for specific indications, not universal longevity medicines</li>
-                            </ul>
-                            <p style={{ marginTop: '1rem', fontStyle: 'italic', fontSize: '0.95rem' }}>
-                                <strong>Important:</strong> These medicines have different approved indications. Using them solely to slow ageing may be experimental or off-label and requires individual clinical assessment. This information is for educational purposes only and does not constitute a recommendation.
-                            </p>
+                            <h4 style={{ fontSize: '1.3rem', fontWeight: 700, marginBottom: '1rem', color: '#ff9800' }}>Medicines and longevity research</h4>
+                            <p style={{ marginBottom: '1rem' }}>Researchers are investigating how pathways involved in metabolism and cellular maintenance relate to ageing. Medicines used for established medical conditions are sometimes studied in this context, but findings cannot be assumed to apply to otherwise healthy people.</p>
+                            <p style={{ marginTop: '1rem', fontStyle: 'italic', fontSize: '0.95rem' }}>Prescription treatment decisions belong in an individual consultation with a qualified clinician. This guide does not recommend medicines to extend lifespan or treat ageing.</p>
                         </div>
 
                         <div style={{ marginTop: '3rem', textAlign: 'center' }}>
