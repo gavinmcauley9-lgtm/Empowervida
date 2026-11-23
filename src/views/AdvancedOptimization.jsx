@@ -154,7 +154,6 @@ export default function AdvancedOptimization() {
           <ul style={{ lineHeight: 2 }}>
             {references.map(ref => <li key={ref.url}><a href={ref.url} target="_blank" rel="noopener noreferrer">{ref.name}</a></li>)}
           </ul>
-          <p style={{ lineHeight: 1.8 }}>For a companion discussion of conventional and advanced blood tests, see the <Link href="/diagnostics">biomarker guide</Link>.</p>
         </section>
       </div>
     </main>
