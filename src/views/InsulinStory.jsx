@@ -814,7 +814,7 @@ export default function InsulinStory() {
                                 Explore Metabolic Health →
                             </Link>
                             <Link
-                                href="/diagnostics"
+                                href="/advanced-optimization"
                                 onClick={() => window.scrollTo(0, 0)}
                                 style={{
                                     display: 'inline-block',
@@ -835,7 +835,7 @@ export default function InsulinStory() {
                                     e.target.style.transform = 'translateY(0)';
                                 }}
                             >
-                                Explore The Diagnostics
+                                Read About Evidence-Based Testing
                             </Link>
                         </div>
                     </div>

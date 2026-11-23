@@ -122,7 +122,6 @@ const Footer = () => {
                     <a href="https://drgavinmcauley.substack.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>[ NEWSLETTER ]</a>
                     <Link href="/about" style={linkStyle}>[ ABOUT ]</Link>
                     <Link href="/contact" style={linkStyle}>[ CONTACT ]</Link>
-                    <Link href="/diagnostics" style={linkStyle}>[ THE DIAGNOSTICS ]</Link>
                 </div>
 
                 {/* Column 3: Essential Guides */}
@@ -140,7 +139,6 @@ const Footer = () => {
                     <Link href="/mitochondrial-guide" style={linkStyle}>⚡ [ MITOCHONDRIAL HEALTH ]</Link>
                     <Link href="/longevity" style={linkStyle}>🧬 [ THE 5 PILLARS ]</Link>
                     <Link href="/insulin-story" style={linkStyle}>🩸 [ THE INSULIN STORY ]</Link>
-                    <Link href="/advanced-optimization" style={linkStyle}>🎯 [ ADVANCED METRICS ]</Link>
                     <Link href="/environmental-defense" style={linkStyle}>🛡️ [ THE ELEMENTS ]</Link>
                 </div>
 
