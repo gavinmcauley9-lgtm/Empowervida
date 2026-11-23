@@ -12,11 +12,6 @@ const GUIDE_LINKS = [
   { href: '/protocol', label: 'Exploring Longevity Science' },
 ];
 
-const TOOL_LINKS = [
-  { href: '/diagnostics', label: 'The Diagnostics' },
-  { href: '/advanced-optimization', label: 'Advanced Diagnostics' },
-];
-
 const NEWSLETTER_URL = 'https://drgavinmcauley.substack.com';
 
 export default function Navigation() {
@@ -53,7 +48,6 @@ export default function Navigation() {
   }, []);
 
   const isGuide = GUIDE_LINKS.some((item) => item.href === pathname);
-  const isTool = TOOL_LINKS.some((item) => item.href === pathname);
 
   const menuLinks = (items) => items.map((item) => (
     <Link key={item.href} href={item.href} className="ev-nav-subitem" aria-current={pathname === item.href ? 'page' : undefined} onClick={() => { setMobileOpen(false); setDesktopOpen(null); }}>
@@ -77,11 +71,6 @@ export default function Navigation() {
           </div>
 
           <Link href="/empower-protocol" className="ev-nav-item" aria-current={pathname === '/empower-protocol' ? 'page' : undefined}>The Blueprint</Link>
-
-          <div className="ev-nav-dropdown">
-            <button type="button" className="ev-nav-item ev-nav-dropdown-button" aria-label="Tools and Diagnostics menu" aria-expanded={desktopOpen === 'tools'} aria-controls="ev-desktop-tools" onClick={() => setDesktopOpen(v => v === 'tools' ? null : 'tools')}>Tools &amp; Diagnostics <span aria-hidden="true" className="ev-nav-chevron">⌄</span></button>
-            {desktopOpen === 'tools' && <div id="ev-desktop-tools" className="ev-nav-popover">{menuLinks(TOOL_LINKS)}</div>}
-          </div>
 
           <div className="ev-nav-dropdown ev-nav-more">
             <button type="button" className="ev-nav-item ev-nav-dropdown-button" aria-label="More pages menu" aria-expanded={desktopOpen === 'more'} aria-controls="ev-desktop-more" onClick={() => setDesktopOpen(v => v === 'more' ? null : 'more')}>More <span aria-hidden="true" className="ev-nav-chevron">⌄</span></button>
@@ -108,11 +97,6 @@ export default function Navigation() {
           <div id="ev-mobile-guides" className="ev-nav-mobile-subitems" hidden={expandedMobileGroup !== 'guides'}>{menuLinks(GUIDE_LINKS)}</div>
         </div>
         <Link href="/empower-protocol" className="ev-nav-mobile-link" onClick={() => setMobileOpen(false)}>The Blueprint</Link>
-        <div className="ev-nav-mobile-group">
-          <button type="button" className="ev-nav-mobile-group-toggle" aria-expanded={expandedMobileGroup === 'tools'} aria-controls="ev-mobile-tools" onClick={() => setExpandedMobileGroup((current) => current === 'tools' ? null : 'tools')}>
-            Tools &amp; Diagnostics <span aria-hidden="true">{expandedMobileGroup === 'tools' ? '⌃' : '⌄'}</span>
-          </button>
-          <div id="ev-mobile-tools" className="ev-nav-mobile-subitems" hidden={expandedMobileGroup !== 'tools'}>{menuLinks(TOOL_LINKS)}</div>
         </div>
         <div className="ev-nav-mobile-secondary">
           <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
